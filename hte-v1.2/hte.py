@@ -2792,8 +2792,10 @@ class HTE(object):
                 prop_dict[subdir]=self.tmpdata['prop_dict'][uid][subdir]
                 continue
             prop_dict[subdir]={}
+            print "check_point7, search path is : ", searchpaths
             for sp in searchpaths:
                 prop_file=os.path.join(sp,self.structureDB[uid].calcdir,subdir,'hte_propdict.txt')
+                print "check_point8, prop_file is : ", prop_file
                 if os.path.isfile(prop_file):
                     try:
                         infile=open(prop_file)
