@@ -2760,7 +2760,7 @@ class HTE(object):
     def get_properties(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}, reference_prop='energy', update=False, storage_options='default', nsub_max=-1):
         """returns a dictionary with properties if a converged calculation exists"""
         # searchpaths and storage options
-        print "sub_directories",
+        print "check_point1: start get_properties"
         searchpaths=self.get_storage_directories()+self.get_searchpaths()
         if storage_options=='default':
             st_files=self.get_storage_options(calc_scheme)
@@ -2769,6 +2769,7 @@ class HTE(object):
         if nsub_max<0:
             nsub_max=self.nsub_max
         prop_dict={}
+        print "check_point2: check pd, should be empty dictionary", prop_dict
         if not uid in self.structureDB:
             return prop_dict
         if not (uid in self.tmpdata['prop_dict']):
@@ -2777,14 +2778,17 @@ class HTE(object):
         subdirs={}
         if sub_directories!={}:
             subdirs=sub_directories
+            print "check_point3: sub_directories is not empty, so what is seems like", sub_directories
         else:
-            print "hahaha  dead cycle"
             magconfigs=self.setup_magnetic_structures(uid,calc_scheme, magsettings=magsettings)
+            print "check_point4, the magconfigs from the setup_magnetic_structures function:", magconfigs
             for magconf in magconfigs:
+                print "check_point5, here is a cycle, out put of each magconfigs subdirs,", magconf
                 subdir=os.path.join(calc_scheme,magconf)
                 subdirs[subdir]=magconfigs[magconf]
         for subdir in subdirs:
             if subdir in self.tmpdata['prop_dict'][uid]:
+                print "check_point6, subdir in self.tmpdata"
                 prop_dict[subdir]=self.tmpdata['prop_dict'][uid][subdir]
                 continue
             prop_dict[subdir]={}
