@@ -67,7 +67,7 @@ class HTE(object):
         if hostname=='neptune': #ICAMS local host
             fplo_commands={'fedit':'fedit9.01-35-i386','job_command':'fplo9.01-35-i386 > out','job_file':None,'job_environment':None}
             self.job_commands['fplo']=fplo_commands
-	elif  hostname=='lichtenberg': #TUD cluster with SLURM
+        elif  hostname=='lichtenberg': #TUD cluster with SLURM
             vasp_commands={'job_command':'bash prep-job-vasp.sh ; sbatch job-vasp.sh','job_file':'job-vasp/*','job_environment':'SLURM'}
             self.job_commands['vasp']=vasp_commands           
             fplo_commands={'fedit':'fedit14.00-49-x86_64','job_command':'bash prep-job-fplo.sh ; sbatch job-fplo.sh','job_file':'job-fplo/*','job_environment':'SLURM'}
