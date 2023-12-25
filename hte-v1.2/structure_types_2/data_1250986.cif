@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# B-S              # B2S3                                          # 1250986 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250986
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250986
+
+# Entry summary
+
+_chemical_formula_structural             B2S3
+_chemical_formula_sum                    B2S3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B2S3,mP40,14
+_chemical_formula_weight                 117.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Kristallstruktur von B2S3: B2S2-Vierringe neben B3S3-Sechsringen'            
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1977
+_journal_volume                          89
+_journal_page_first                      327
+_journal_page_last                       328
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Diercks H.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Krebs B.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.039
+_cell_length_b                           10.722
+_cell_length_c                           18.62
+_cell_angle_alpha                        90
+_cell_angle_beta                         96.23
+_cell_angle_gamma                        90
+_cell_volume                             801.6
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S2 S e 4 0.009 0.5501 0.2435 1
+ B2 B e 4 0.035 0.2169 0.2406 1
+ S1 S e 4 0.067 0.7929 0.1763 1
+ B1 B e 4 0.086 0.5361 0.6798 1
+ S3 S e 4 0.187 0.295 0.1656 1
+ S4 S e 4 0.194 0.0168 0.0951 1
+ B3 B e 4 0.241 0.1858 0.0960 1
+ S5 S e 4 0.392 0.2339 0.0113 1
+ S6 S e 4 0.417 0.5278 0.0709 1
+ B4 B e 4 0.455 0.3995 0.0098 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.057
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250986

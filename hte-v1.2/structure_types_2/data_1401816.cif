@@ -1,0 +1,147 @@
+##############################################################################
+#                                                                            #
+# C-Cl             # C8Cl8                                         # 1401816 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1401816
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1401816
+
+# Entry summary
+
+_chemical_formula_structural             C8Cl8
+_chemical_formula_sum                    C8Cl8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            C8Cl8,aP64,2
+_chemical_formula_weight                 379.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      Perchloro-r-xylylene
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1976
+_journal_volume                          32
+_journal_page_first                      3112
+_journal_page_last                       3114
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gall S.'
+;
+Barcelona University
+Departamento de Cristallografia
+Barcelona
+Spain
+;
+'Miravitlles C.'
+;
+Barcelona University
+Departamento de Cristallografia
+Barcelona
+Spain
+;
+'Font Altaba M.'
+;
+Barcelona University
+Departamento de Cristallografia
+Barcelona
+Spain
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.742
+_cell_length_b                           10.254
+_cell_length_c                           14.912
+_cell_angle_alpha                        99.24
+_cell_angle_beta                         99.4
+_cell_angle_gamma                        96.39
+_cell_volume                             1288.6
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl15B Cl i 2 0.0256 0.3988 0.2947 1
+ C7B C i 2 0.0286 0.2364 0.2498 1
+ Cl14B Cl i 2 0.0331 0.4122 0.0839 1
+ Cl9B Cl i 2 0.0578 0.0676 0.8743 1
+ C1B C i 2 0.0783 0.1929 0.1708 1
+ Cl10A Cl i 2 0.0897 0.716 0.4501 1
+ C2B C i 2 0.0941 0.0571 0.1363 1
+ C6B C i 2 0.1454 0.2892 0.1164 1
+ Cl9A Cl i 2 0.1877 0.7748 0.2675 1
+ C3B C i 2 0.2241 0.0317 0.1044 1
+ Cl10B Cl i 2 0.2439 0.8777 0.0467 1
+ Cl11A Cl i 2 0.2455 0.4938 0.5503 1
+ Cl15A Cl i 2 0.2531 0.2695 0.7249 1
+ Cl14A Cl i 2 0.2621 0.0413 0.5557 1
+ C5B C i 2 0.2704 0.2622 0.0846 1
+ C3A C i 2 0.2831 0.7179 0.4345 1
+ C2A C i 2 0.3256 0.7438 0.3571 1
+ Cl13B Cl i 2 0.3365 0.3499 0.0031 1
+ C4B C i 2 0.3412 0.1498 0.1064 1
+ Cl13A Cl i 2 0.3692 0.097 0.3744 1
+ C6A C i 2 0.4142 0.1647 0.5586 1
+ Cl16A Cl i 2 0.4406 0.6229 0.1806 1
+ C7A C i 2 0.4472 0.2855 0.7204 1
+ Cl12A Cl i 2 0.4495 0.3973 0.3511 1
+ C5A C i 2 0.4568 0.189 0.4807 1
+ C8B C i 2 0.491 0.1481 0.1353 1
+ C1A C i 2 0.5054 0.2347 0.6479 1
+ Cl11B Cl i 2 0.573 0.0198 0.1702 1
+ C4A C i 2 0.5927 0.2904 0.4872 1
+ C8A C i 2 0.6007 0.3846 0.4353 1
+ Cl12B Cl i 2 0.6275 0.2867 0.1479 1
+ Cl16B Cl i 2 0.9635 0.1278 0.3167 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7093
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Philips
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7093
+_diffrn_reflns_number                    3650
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2649
+_refine_ls_R_factor_all                  0.075
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'MULTAN; NRCC-10'
+
+# End of data set 1401816

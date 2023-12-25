@@ -1,0 +1,150 @@
+##############################################################################
+#                                                                            #
+# C-S              # C3S4                                          # 1411423 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1411423
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1411423
+
+# Entry summary
+
+_chemical_formula_structural             C6S8
+_chemical_formula_sum                    C3S4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            C3S4,mP56,14
+_chemical_formula_weight                 164.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+New Carbon Sulfides Based on 4,5-Dimercapto-1,2-dithiole-3-thione (b-C3S2-5): [C3S5]n, C6S8, and C5S7
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1993
+_journal_volume                          32
+_journal_page_first                      5467
+_journal_page_last                       5471
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Doxsee D.D.'
+;
+Illinois University
+School of Chemical Sciences
+Urbana
+U.S.A. Illinois
+;
+'Galloway C.P.'
+;
+Illinois University
+School of Chemical Sciences
+Urbana
+U.S.A. Illinois
+;
+'Ranchfuss T.B.'
+;
+Illinois University
+School of Chemical Sciences
+Urbana
+U.S.A. Illinois
+;
+'Wilson S.R.'
+;
+Illinois University
+School of Chemical Sciences
+Urbana
+U.S.A. Illinois
+;
+'Yang X.'
+;
+Illinois University
+School of Chemical Sciences
+Urbana
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.046
+_cell_length_b                           9.797
+_cell_length_c                           13.818
+_cell_angle_alpha                        90
+_cell_angle_beta                         105.76
+_cell_angle_gamma                        90
+_cell_volume                             1048.3
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S11 S e 4 0.0175 0.0898 0.11575 1
+ C21 C e 4 0.0568 0.4225 0.4186 1
+ C11 C e 4 0.0698 0.1455 0.0071 1
+ S41 S e 4 0.108 0.4167 0.23008 1
+ C31 C e 4 0.1097 0.3527 0.3414 1
+ S21 S e 4 0.1508 0.3098 0.01665 1
+ S31 S e 4 0.186 0.1897 0.37477 1
+ S4 S e 4 0.305 0.6148 0.01835 1
+ C1 C e 4 0.506 0.0723 0.0982 1
+ S2 S e 4 0.5124 0.1502 0.21064 1
+ C2 C e 4 0.5648 0.145 0.03 1
+ S1 S e 4 0.5802 0.4074 0.41064 1
+ S3 S e 4 0.6193 0.3279 0.17524 1
+ C3 C e 4 0.6266 0.2803 0.0557 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    2696
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 23
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1517
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.042
+_computing_structure_refinement          SHELXS-86
+
+# End of data set 1411423

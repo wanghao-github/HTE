@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# Mn-Si            # Mn5Si2rt                                      # 1250912 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250912
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250912
+
+# Entry summary
+
+_chemical_formula_structural             Mn5Si2
+_chemical_formula_sum                    Mn5Si2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn5Si2,tP56,92
+_chemical_formula_weight                 330.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Mn5Si2 and the D Phase (V-Fe-Si)'                   
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1976
+_journal_volume                          32
+_journal_page_first                      2306
+_journal_page_last                       2313
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Shoemaker C.B.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+'Shoemaker D.P.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.9097
+_cell_length_b                           8.9097
+_cell_length_c                           8.7153
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             691.84
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              92
+_symmetry_space_group_name_H-M           P41212
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.25-z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5-y, 0.5+x, 0.25+z'
+ 5 '-y, -x, 0.5-z'
+ 6 '0.5+x, 0.5-y, -0.25-z'
+ 7 '0.5+y, 0.5-x, -0.25+z'
+ 8 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mn5 Mn b 8 0.04652 0.13054 0.28620 1
+ Si8 Si b 8 0.11527 0.30768 0.10242 1
+ Si6 Si b 8 0.23234 0.03075 0.45418 1
+ Mn2 Mn b 8 0.27592 0.32534 0.34969 1
+ Mn1 Mn b 8 0.31446 0.07962 0.17032 1
+ Mn7 Mn b 8 0.60118 0.01027 0.17420 1
+ Mn4 Mn a 4 0.04838 0.04838 0 1
+ Mn3 Mn a 4 0.36201 0.36201 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka1'
+_cell_measurement_wavelength             1.93597
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1200
+_exptl_absorpt_coefficient_mu            18.96
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             63
+_refine_ls_number_reflns                 640
+_refine_ls_R_factor_all                  0.0766
+_refine_ls_wR_factor_all                 0.0408
+_computing_structure_refinement          'SUFLS; LSLONG; LESQ from XRAY-76'
+
+# End of data set 1250912

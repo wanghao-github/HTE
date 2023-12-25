@@ -1,0 +1,139 @@
+##############################################################################
+#                                                                            #
+# B-H              # B2H3                                          # 1250210 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250210
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250210
+
+# Entry summary
+
+_chemical_formula_structural             B8H12
+_chemical_formula_sum                    B2H3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B2H3,oP160,61
+_chemical_formula_weight                 24.6
+_chemical_melting_point                  253
+
+# Bibliographic data
+
+_publ_section_title                      Octaborane(12)
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1964
+_journal_volume                          3
+_journal_page_first                      1659
+_journal_page_last                       1666
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Enrione R.E.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Boer F.P.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Lipscomb W.N.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.41
+_cell_length_b                           13.613
+_cell_length_c                           10.41
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1475.21
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              61
+_symmetry_space_group_name_H-M           Pbca
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ H3 H c 8 0.0186 0.3410 0.4220 1
+ H6 H c 8 0.0690 0.4133 0.1836 1
+ H5 H c 8 0.1010 0.2045 0.1949 1
+ H10 H c 8 0.1157 0.3486 0.0202 1
+ H7 H c 8 0.1275 0.0089 0.4351 1
+ B6 B c 8 0.1509 0.3802 0.1299 1
+ H2 H c 8 0.1656 0.0074 0.1439 1
+ B5 B c 8 0.1753 0.2481 0.1492 1
+ B7 B c 8 0.1899 0.0640 0.4780 1
+ H11 H c 8 0.2251 0.2056 0.0446 1
+ H12 H c 8 0.2432 0.1175 0.3895 1
+ B1 B c 8 0.2934 0.3275 0.1969 1
+ B2 B c 8 0.3032 0.4384 0.0980 1
+ H1 H c 8 0.3216 0.3397 0.3013 1
+ B4 B c 8 0.3286 0.2223 0.1142 1
+ B8 B c 8 0.3460 0.0896 0.4424 1
+ H9 H c 8 0.3735 0.1974 0.4600 1
+ H4 H c 8 0.3894 0.1543 0.1284 1
+ H8 H c 8 0.4033 0.0518 0.3758 1
+ B3 B c 8 0.4108 0.3355 0.0712 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            77
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              77
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    1571
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.112
+_refine_ls_wR_factor_all                 0.253
+_computing_structure_refinement          ORFLS
+
+# End of data set 1250210

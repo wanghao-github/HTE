@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2rt cri                                    # 1251919 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251919
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251919
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2, a cristobalite'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   'cristobalite low'
+_chemical_compound_source
+'Ellora Caves, Hyderabad State, India (Harvard Museum)'                       
+_chemical_name_structure_type            SiO2,tP12,92
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The pressure behavior of a cristobalite'                                     
+_journal_coden_ASTM                      AMMIAY
+_journal_year                            1994
+_journal_volume                          79
+_journal_page_first                      9
+_journal_page_last                       14
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Downs R.T.'
+;
+Carnegie Institution of Washington
+Geophysical Laboratory
+Washington
+U.S.A. Washington D.C.
+;
+'Palmer D.C.'
+;
+Cambridge University
+Department of Earth Sciences
+Cambridge
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.9717
+_cell_length_b                           4.9717
+_cell_length_c                           6.9223
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             171.1
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              92
+_symmetry_space_group_name_H-M           P41212
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.25-z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5-y, 0.5+x, 0.25+z'
+ 5 '-y, -x, 0.5-z'
+ 6 '0.5+x, 0.5-y, -0.25-z'
+ 7 '0.5+y, 0.5-x, -0.25+z'
+ 8 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O O b 8 0.2392 0.1044 0.1787 1
+ Si Si a 4 0.30028 0.30028 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7093
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC-5R'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7093
+_diffrn_reflns_number                    1958
+_exptl_absorpt_coefficient_mu            0.8545
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 146
+_refine_ls_R_factor_all                  0.029
+_refine_ls_wR_factor_all                 0.010
+_computing_structure_refinement          RFINE-4
+
+# End of data set 1251919

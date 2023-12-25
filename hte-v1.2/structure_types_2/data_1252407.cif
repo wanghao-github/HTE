@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Au-F             # Au3F8                                         # 1252407 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252407
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252407
+
+# Entry summary
+
+_chemical_formula_structural             Au[AuF4]2
+_chemical_formula_sum                    Au3F8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Au3F8,mP22,14
+_chemical_formula_weight                 742.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Au[AuF4]2 - an Unexpected By-Product in the System MF4/AuF3 and Single Crystals of CeF4, a further By-Product
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1999
+_journal_volume                          625
+_journal_page_first                      605
+_journal_page_last                       608
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schmidt R.'
+;
+Giessen Justus Liebig University
+Institut für Anorganische und Analytische Chemie
+Giessen
+Germany
+;
+'Müller B.G.'
+;
+Giessen Justus Liebig University
+Institut für Anorganische und Analytische Chemie
+Giessen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.2721
+_cell_length_b                           10.7076
+_cell_length_c                           7.7469
+_cell_angle_alpha                        90
+_cell_angle_beta                         132.25
+_cell_angle_gamma                        90
+_cell_volume                             323.72
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F e 4 0.0374 0.15606 0.18809 1
+ F3 F e 4 0.14808 0.40018 0.34511 1
+ F4 F e 4 0.34762 0.52426 0.11094 1
+ F2 F e 4 0.57674 0.26547 0.24848 1
+ AuIII Au e 4 0.84946 0.31965 0.03787 1
+ AuII Au a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    2845
+_exptl_absorpt_coefficient_mu            68.28
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             53
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0342
+_refine_ls_wR_factor_all                 0.0768
+_computing_structure_refinement          'HABITUS; SHELXS-86; SHELXL-93'
+
+# End of data set 1252407

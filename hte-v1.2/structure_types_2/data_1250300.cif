@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# I-Pt             # PtI3                                          # 1250300 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250300
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250300
+
+# Entry summary
+
+_chemical_formula_structural             PtI3
+_chemical_formula_sum                    I3Pt
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PtI3,mS32,15
+_chemical_formula_weight                 575.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Darstellung und Kristallstruktur von PtI3, einem valenzgemischten Platin(II, IV)-iodid
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1984
+_journal_volume                          516
+_journal_page_first                      207
+_journal_page_last                       213
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Thiele G.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Steiert M.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Wagner D.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Wochner H.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.735
+_cell_length_b                           12.061
+_cell_length_c                           13.313
+_cell_angle_alpha                        90
+_cell_angle_beta                         101.25
+_cell_angle_gamma                        90
+_cell_volume                             1060.65
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I3 I f 8 0.1295 0.4390 0.1400 1
+ I2 I f 8 0.1441 0.1017 0.1228 1
+ I1 I f 8 0.3935 0.2552 0.3786 1
+ Pt2 Pt4+ e 4 0 0.59773 0.25 1
+ Pt1 Pt2+ c 4 0.25 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1954
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 26
+_exptl_absorpt_coefficient_mu            43.8
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             40
+_refine_ls_number_reflns                 256
+_refine_ls_R_factor_all                  0.056
+_refine_ls_wR_factor_all                 0.0513
+_computing_structure_refinement          SHELX-76
+
+# End of data set 1250300

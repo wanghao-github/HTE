@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# Mn-O             # Mn3O4rt                                       # 1251595 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251595
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251595
+
+# Entry summary
+
+_chemical_formula_structural             Mn3O4
+_chemical_formula_sum                    Mn3O4
+_chemical_name_mineral                   hausmannite
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn3O4,tI28,141
+_chemical_formula_weight                 228.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal Structure Refinement and Reflectance Measurements of Hausmannite, Mn3O4
+;
+_journal_coden_ASTM                      MIPEE9
+_journal_year                            1987
+_journal_volume                          37
+_journal_page_first                      15
+_journal_page_last                       23
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Jarosch D.'
+;
+Vienna University
+Institut für Mineralogie und Kristallographie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.765
+_cell_length_b                           5.765
+_cell_length_c                           9.442
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             313.81
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              141
+_symmetry_space_group_name_H-M           'I41/amd O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, 0.5-y, z'
+ 3 '-x, -y, -z'
+ 4 '-x, 0.5+y, -z'
+ 5 '-x, y, z'
+ 6 '0.25-y, 0.25-x, -0.25-z'
+ 7 '0.25-y, -0.25+x, 0.25+z'
+ 8 '-0.25-y, 0.25-x, -0.25+z'
+ 9 '-0.25-y, -0.25+x, 0.25-z'
+ 10 'x, 0.5-y, z'
+ 11 'x, -y, -z'
+ 12 'x, 0.5+y, -z'
+ 13 '0.25+y, 0.25-x, -0.25+z'
+ 14 '0.25+y, -0.25+x, 0.25-z'
+ 15 '-0.25+y, 0.25-x, -0.25-z'
+ 16 '-0.25+y, -0.25+x, 0.25+z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '0.5-x, 1-y, 0.5+z'
+ 19 '0.5-x, 0.5-y, 0.5-z'
+ 20 '0.5-x, 1+y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 0.5+z'
+ 22 '0.75-y, 0.75-x, 0.25-z'
+ 23 '0.75-y, 0.25+x, 0.75+z'
+ 24 '0.25-y, 0.75-x, 0.25+z'
+ 25 '0.25-y, 0.25+x, 0.75-z'
+ 26 '0.5+x, 1-y, 0.5+z'
+ 27 '0.5+x, 0.5-y, 0.5-z'
+ 28 '0.5+x, 1+y, 0.5-z'
+ 29 '0.75+y, 0.75-x, 0.25+z'
+ 30 '0.75+y, 0.25+x, 0.75-z'
+ 31 '0.25+y, 0.75-x, 0.25-z'
+ 32 '0.25+y, 0.25+x, 0.75+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O O h 16 0 0.5278 0.2411 1
+ Mn2 Mn3+ c 8 0 0 0 1
+ Mn1 Mn2+ b 4 0 0.25 0.375 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            75
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3577
+_exptl_absorpt_coefficient_mu            11.27
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 462
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.034
+_computing_structure_refinement          STRUCSY
+
+# End of data set 1251595

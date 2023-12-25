@@ -1,0 +1,143 @@
+##############################################################################
+#                                                                            #
+# Ba-Sb            # BaSb2                                         # 1709487 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1709487
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1709487
+
+# Entry summary
+
+_chemical_formula_structural             BaSb2
+_chemical_formula_sum                    BaSb2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            BaSb2,mP18,11
+_chemical_formula_weight                 380.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Verbindungen mit Pentelid-Hanteln M2: A(I)11M6 und A(II)11M10 (A= Rb, Cs, Ba; M= Sb, Bi)
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            2004
+_journal_volume                          59
+_journal_page_first                      7
+_journal_page_last                       16
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Emmerling F.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Längin N.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Pickhard F.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Wendorff M.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.679
+_cell_length_b                           4.381
+_cell_length_c                           12.571
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.53
+_cell_angle_gamma                        90
+_cell_volume                             632.4
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb6 Sb e 2 0.0562 0.25 0.4495 1
+ Ba3 Ba e 2 0.05784 0.25 0.76667 1
+ Sb5 Sb e 2 0.0696 0.25 0.0525 1
+ Ba1 Ba e 2 0.37843 0.25 0.08992 1
+ Sb2 Sb e 2 0.40036 0.25 0.37222 1
+ Sb4 Sb e 2 0.4038 0.25 0.77274 1
+ Sb3 Sb e 2 0.709 0.25 0.13185 1
+ Ba2 Ba e 2 0.71396 0.25 0.4401 1
+ Sb1 Sb e 2 0.74499 0.25 0.72695 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3173
+_diffrn_reflns_theta_min                 1.6
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            21.71
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             55
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0648
+_refine_ls_wR_factor_all                 0.1614
+_computing_structure_refinement          'SHELXS-97; SHELXL-97; SADABS'
+
+# End of data set 1709487

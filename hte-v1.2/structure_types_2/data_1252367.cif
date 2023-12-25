@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# Hg-Rb            # Rb3Hg20                                       # 1252367 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252367
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252367
+
+# Entry summary
+
+_chemical_formula_structural             Rb3Hg20
+_chemical_formula_sum                    Hg20Rb3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb3Hg20,cP46,223
+_chemical_formula_weight                 4268.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis and Structure of the Alkali-Metal Amalgams A3Hg20 (A= Rb, Cs), K3Hg11, Cs5Hg19, and A7Hg31 (A= K, Rb)
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            2000
+_journal_volume                          149
+_journal_page_first                      419
+_journal_page_last                       427
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Todorov E.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+'Sevov S.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.737
+_cell_length_b                           10.737
+_cell_length_c                           10.737
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1237.8
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              223
+_symmetry_space_group_name_H-M           Pm-3n
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-z, 0.5-y'
+ 3 '0.5-x, 0.5-z, 0.5+y'
+ 4 '0.5-x, 0.5+z, 0.5-y'
+ 5 '0.5-x, 0.5+z, 0.5+y'
+ 6 '-x, -y, -z'
+ 7 '-x, -y, z'
+ 8 '-x, y, -z'
+ 9 '-x, y, z'
+ 10 '0.5-y, 0.5-x, 0.5-z'
+ 11 '0.5-y, 0.5-x, 0.5+z'
+ 12 '0.5-y, 0.5+x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5+z'
+ 14 '-y, -z, -x'
+ 15 '-y, -z, x'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '0.5-z, 0.5-y, 0.5-x'
+ 19 '0.5-z, 0.5-y, 0.5+x'
+ 20 '0.5-z, 0.5+y, 0.5-x'
+ 21 '0.5-z, 0.5+y, 0.5+x'
+ 22 '-z, -x, -y'
+ 23 '-z, -x, y'
+ 24 '-z, x, -y'
+ 25 '-z, x, y'
+ 26 '0.5+x, 0.5-z, 0.5-y'
+ 27 '0.5+x, 0.5-z, 0.5+y'
+ 28 '0.5+x, 0.5+z, 0.5-y'
+ 29 '0.5+x, 0.5+z, 0.5+y'
+ 30 'x, -y, -z'
+ 31 'x, -y, z'
+ 32 'x, y, -z'
+ 33 '0.5+y, 0.5-x, 0.5-z'
+ 34 '0.5+y, 0.5-x, 0.5+z'
+ 35 '0.5+y, 0.5+x, 0.5-z'
+ 36 '0.5+y, 0.5+x, 0.5+z'
+ 37 'y, -z, -x'
+ 38 'y, -z, x'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 '0.5+z, 0.5-y, 0.5-x'
+ 42 '0.5+z, 0.5-y, 0.5+x'
+ 43 '0.5+z, 0.5+y, 0.5-x'
+ 44 '0.5+z, 0.5+y, 0.5+x'
+ 45 'z, -x, -y'
+ 46 'z, -x, y'
+ 47 'z, x, -y'
+ 48 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Hg2 Hg k 24 0 0.1329 0.262 1
+ Hg3 Hg e 8 0.25 0.25 0.25 1
+ Hg4 Hg d 6 0.25 0.5 0 1
+ Rb Rb c 6 0.25 0 0.5 1
+ Hg1 Hg a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          CAD4
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1285
+_exptl_absorpt_coefficient_mu            129.3
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             15
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0852
+_refine_ls_wR_factor_all                 0.2216
+_computing_structure_refinement          'SHELXTL5.0 package'
+
+# End of data set 1252367

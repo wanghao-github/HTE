@@ -1,0 +1,147 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2dod 1H                                    # 1614757 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1614757
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1614757
+
+# Entry summary
+
+_chemical_formula_structural
+;
+34SiO2.3M12.2M12'.1M20, M12, M12'= N2, M20= piperidine
+;
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,hP102,191
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Studies on clathrasils. IV Crystal structure of Dodecasil 1H, a synthetic clathrate compound of silica
+;
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1984
+_journal_volume                          166
+_journal_page_first                      11
+_journal_page_last                       22
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gerke H.'
+;
+Christian Albrecht University
+Mineralogisches Institut
+Kiel
+Germany
+;
+'Gies H.'
+;
+Christian Albrecht University
+Mineralogisches Institut
+Kiel
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.783
+_cell_length_b                           13.783
+_cell_length_c                           11.19
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1841
+_cell_formula_units_Z                    34
+_symmetry_Int_Tables_number              191
+_symmetry_space_group_name_H-M           P6/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, -z'
+ 5 '-x+y, y, z'
+ 6 '-x, -x+y, -z'
+ 7 '-x, -x+y, z'
+ 8 '-x, -y, -z'
+ 9 '-x, -y, z'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, x-y, -z'
+ 13 '-y, x-y, z'
+ 14 'x, x-y, -z'
+ 15 'x, x-y, z'
+ 16 'x, y, -z'
+ 17 'x-y, -y, -z'
+ 18 'x-y, -y, z'
+ 19 'x-y, x, -z'
+ 20 'x-y, x, z'
+ 21 'y, -x+y, -z'
+ 22 'y, -x+y, z'
+ 23 'y, x, -z'
+ 24 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O r 24 0.1052 0.3933 0.3031 1
+ O3 O o 12 0.1702 0.3404 0.1139 1
+ Si1 Si o 12 0.2093 0.4186 0.2252 1
+ O2 O o 12 0.2715 0.543 0.1836 1
+ Si2 Si n 12 0.3868 0 0.3627 1
+ Si3 Si l 6 0.1314 0.2628 0 1
+ O4 O k 6 0.3601 0 0.5 1
+ O5 O j 6 0.1865 0 0 1
+ O6 O i 6 0.5 0 0.3451 1
+ Si4 Si h 4 0.333333 0.666667 0.1384 1
+ O7 O c 2 0.333333 0.666667 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    5811
+_exptl_absorpt_coefficient_mu            0.618
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 658
+_refine_ls_R_factor_all                  0.098
+_refine_ls_wR_factor_all                 0.086
+_computing_structure_refinement          SHELX-76
+
+# End of data set 1614757

@@ -1,0 +1,406 @@
+##############################################################################
+#                                                                            #
+# C-Si             # SiC411R                                       # 1012355 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1012355
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1012355
+
+# Entry summary
+
+_chemical_formula_structural             SiC
+_chemical_formula_sum                    CSi
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiC,hR822,160
+_chemical_formula_weight                 40.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+High-Resolution Electron Microscopic Studies on a New Polytype of SiC and its Intergrowth Structures
+;
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1984
+_journal_volume                          40
+_journal_page_first                      132
+_journal_page_last                       138
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Rai R.S.'
+;
+Banares Hindu University
+Department of Physics
+Varanasi
+India
+;
+'Korgul P.'
+;
+Newcastle University
+Crystallography Laboratory
+Newcastle upon Tyne
+United Kingdom
+;
+'Singh G.'
+;
+Banares Hindu University
+Department of Physics
+Varanasi
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.08
+_cell_length_b                           3.08
+_cell_length_c                           1035
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             8503
+_cell_formula_units_Z                    411
+_symmetry_Int_Tables_number              160
+_symmetry_space_group_name_H-M           'R3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 10 '0.66667-y, 0.33333-x, 0.33333+z'
+ 11 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 12 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 16 '0.33333-y, 0.66667-x, 0.66667+z'
+ 17 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 18 '0.33333+x, 0.66667+x-y, 0.66667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C30 C a 3 0 0 0.0 1
+ Si30 Si a 3 0 0 0.00183 1
+ C28 C a 3 0 0 0.00487 1
+ Si28 Si a 3 0 0 0.00669 1
+ C24 C a 3 0 0 0.0146 1
+ Si24 Si a 3 0 0 0.01642 1
+ C22 C a 3 0 0 0.01946 1
+ Si22 Si a 3 0 0 0.02129 1
+ C20 C a 3 0 0 0.02433 1
+ Si20 Si a 3 0 0 0.02616 1
+ C18 C a 3 0 0 0.0292 1
+ Si18 Si a 3 0 0 0.03102 1
+ C16 C a 3 0 0 0.03406 1
+ Si16 Si a 3 0 0 0.03589 1
+ C12 C a 3 0 0 0.0438 1
+ Si12 Si a 3 0 0 0.04562 1
+ C10 C a 3 0 0 0.04866 1
+ Si10 Si a 3 0 0 0.05049 1
+ C6 C a 3 0 0 0.05839 1
+ Si6 Si a 3 0 0 0.06022 1
+ C2 C a 3 0 0 0.06813 1
+ Si2 Si a 3 0 0 0.06995 1
+ C137 C a 3 0 0 0.07299 1
+ Si137 Si a 3 0 0 0.07482 1
+ C133 C a 3 0 0 0.08273 1
+ Si133 Si a 3 0 0 0.08455 1
+ C131 C a 3 0 0 0.08759 1
+ Si131 Si a 3 0 0 0.08942 1
+ C127 C a 3 0 0 0.09732 1
+ Si127 Si a 3 0 0 0.09915 1
+ C125 C a 3 0 0 0.10219 1
+ Si125 Si a 3 0 0 0.10402 1
+ C121 C a 3 0 0 0.11192 1
+ Si121 Si a 3 0 0 0.11375 1
+ C119 C a 3 0 0 0.11679 1
+ Si119 Si a 3 0 0 0.11861 1
+ C115 C a 3 0 0 0.12652 1
+ Si115 Si a 3 0 0 0.12834 1
+ C113 C a 3 0 0 0.13139 1
+ Si113 Si a 3 0 0 0.13321 1
+ C111 C a 3 0 0 0.13625 1
+ Si111 Si a 3 0 0 0.13808 1
+ C109 C a 3 0 0 0.14112 1
+ Si109 Si a 3 0 0 0.14294 1
+ C105 C a 3 0 0 0.15085 1
+ Si105 Si a 3 0 0 0.15268 1
+ C103 C a 3 0 0 0.15572 1
+ Si103 Si a 3 0 0 0.15754 1
+ C99 C a 3 0 0 0.16545 1
+ Si99 Si a 3 0 0 0.16727 1
+ C97 C a 3 0 0 0.17032 1
+ Si97 Si a 3 0 0 0.17214 1
+ C93 C a 3 0 0 0.18005 1
+ Si93 Si a 3 0 0 0.18187 1
+ C91 C a 3 0 0 0.18492 1
+ Si91 Si a 3 0 0 0.18674 1
+ C87 C a 3 0 0 0.19465 1
+ Si87 Si a 3 0 0 0.19647 1
+ C85 C a 3 0 0 0.19951 1
+ Si85 Si a 3 0 0 0.20134 1
+ C81 C a 3 0 0 0.20925 1
+ Si81 Si a 3 0 0 0.21107 1
+ C79 C a 3 0 0 0.21411 1
+ Si79 Si a 3 0 0 0.21594 1
+ C75 C a 3 0 0 0.22384 1
+ Si75 Si a 3 0 0 0.22567 1
+ C73 C a 3 0 0 0.22871 1
+ Si73 Si a 3 0 0 0.23054 1
+ C69 C a 3 0 0 0.23844 1
+ Si69 Si a 3 0 0 0.24027 1
+ C67 C a 3 0 0 0.24331 1
+ Si67 Si a 3 0 0 0.24513 1
+ C63 C a 3 0 0 0.25304 1
+ Si63 Si a 3 0 0 0.25487 1
+ C61 C a 3 0 0 0.25791 1
+ Si61 Si a 3 0 0 0.25973 1
+ C57 C a 3 0 0 0.26764 1
+ Si57 Si a 3 0 0 0.26946 1
+ C55 C a 3 0 0 0.27251 1
+ Si55 Si a 3 0 0 0.27433 1
+ C53 C a 3 0 0 0.27737 1
+ Si53 Si a 3 0 0 0.2792 1
+ C49 C a 3 0 0 0.2871 1
+ Si49 Si a 3 0 0 0.28893 1
+ C47 C a 3 0 0 0.29197 1
+ Si47 Si a 3 0 0 0.2938 1
+ C43 C a 3 0 0 0.3017 1
+ Si43 Si a 3 0 0 0.30353 1
+ C41 C a 3 0 0 0.30657 1
+ Si41 Si a 3 0 0 0.30839 1
+ C38 C a 3 0 0 0.31387 1
+ Si38 Si a 3 0 0 0.31569 1
+ C35 C a 3 0 0 0.32117 1
+ Si35 Si a 3 0 0 0.32299 1
+ C32 C a 3 0 0 0.32847 1
+ Si32 Si a 3 0 0 0.33029 1
+ C29 C a 3 0 0 0.33577 1
+ Si29 Si a 3 0 0 0.33759 1
+ C26 C a 3 0 0 0.34307 1
+ Si26 Si a 3 0 0 0.34489 1
+ C23 C a 3 0 0 0.35037 1
+ Si23 Si a 3 0 0 0.35219 1
+ C19 C a 3 0 0 0.3601 1
+ Si19 Si a 3 0 0 0.36192 1
+ C15 C a 3 0 0 0.36983 1
+ Si15 Si a 3 0 0 0.37165 1
+ C13 C a 3 0 0 0.3747 1
+ Si13 Si a 3 0 0 0.37652 1
+ C9 C a 3 0 0 0.38443 1
+ Si9 Si a 3 0 0 0.38625 1
+ C7 C a 3 0 0 0.38929 1
+ Si7 Si a 3 0 0 0.39112 1
+ C5 C a 3 0 0 0.39416 1
+ Si5 Si a 3 0 0 0.39599 1
+ C3 C a 3 0 0 0.39903 1
+ Si3 Si a 3 0 0 0.40085 1
+ C136 C a 3 0 0 0.40876 1
+ Si136 Si a 3 0 0 0.41058 1
+ C134 C a 3 0 0 0.41363 1
+ Si134 Si a 3 0 0 0.41545 1
+ C130 C a 3 0 0 0.42336 1
+ Si130 Si a 3 0 0 0.42518 1
+ C128 C a 3 0 0 0.42822 1
+ Si128 Si a 3 0 0 0.43005 1
+ C124 C a 3 0 0 0.43796 1
+ Si124 Si a 3 0 0 0.43978 1
+ C122 C a 3 0 0 0.44282 1
+ Si122 Si a 3 0 0 0.44465 1
+ C118 C a 3 0 0 0.45256 1
+ Si118 Si a 3 0 0 0.45438 1
+ C116 C a 3 0 0 0.45742 1
+ Si116 Si a 3 0 0 0.45925 1
+ C112 C a 3 0 0 0.46715 1
+ Si112 Si a 3 0 0 0.46898 1
+ C108 C a 3 0 0 0.47689 1
+ Si108 Si a 3 0 0 0.47871 1
+ C106 C a 3 0 0 0.48175 1
+ Si106 Si a 3 0 0 0.48358 1
+ C102 C a 3 0 0 0.49148 1
+ Si102 Si a 3 0 0 0.49331 1
+ C100 C a 3 0 0 0.49635 1
+ Si100 Si a 3 0 0 0.49817 1
+ C96 C a 3 0 0 0.50608 1
+ Si96 Si a 3 0 0 0.50791 1
+ C94 C a 3 0 0 0.51095 1
+ Si94 Si a 3 0 0 0.51277 1
+ C90 C a 3 0 0 0.52068 1
+ Si90 Si a 3 0 0 0.52251 1
+ C88 C a 3 0 0 0.52555 1
+ Si88 Si a 3 0 0 0.52737 1
+ C84 C a 3 0 0 0.53528 1
+ Si84 Si a 3 0 0 0.53711 1
+ C82 C a 3 0 0 0.54015 1
+ Si82 Si a 3 0 0 0.54197 1
+ C78 C a 3 0 0 0.54988 1
+ Si78 Si a 3 0 0 0.5517 1
+ C76 C a 3 0 0 0.55475 1
+ Si76 Si a 3 0 0 0.55657 1
+ C72 C a 3 0 0 0.56448 1
+ Si72 Si a 3 0 0 0.5663 1
+ C70 C a 3 0 0 0.56934 1
+ Si70 Si a 3 0 0 0.57117 1
+ C66 C a 3 0 0 0.57907 1
+ Si66 Si a 3 0 0 0.5809 1
+ C64 C a 3 0 0 0.58394 1
+ Si64 Si a 3 0 0 0.58577 1
+ C60 C a 3 0 0 0.59367 1
+ Si60 Si a 3 0 0 0.5955 1
+ C58 C a 3 0 0 0.59854 1
+ Si58 Si a 3 0 0 0.60036 1
+ C54 C a 3 0 0 0.60827 1
+ Si54 Si a 3 0 0 0.6101 1
+ C51 C a 3 0 0 0.61557 1
+ Si51 Si a 3 0 0 0.6174 1
+ C48 C a 3 0 0 0.62287 1
+ Si48 Si a 3 0 0 0.6247 1
+ C45 C a 3 0 0 0.63017 1
+ Si45 Si a 3 0 0 0.632 1
+ C42 C a 3 0 0 0.63747 1
+ Si42 Si a 3 0 0 0.63929 1
+ C39 C a 3 0 0 0.64477 1
+ Si39 Si a 3 0 0 0.64659 1
+ C37 C a 3 0 0 0.64964 1
+ Si37 Si a 3 0 0 0.65146 1
+ C33 C a 3 0 0 0.65937 1
+ Si33 Si a 3 0 0 0.66119 1
+ C31 C a 3 0 0 0.66423 1
+ Si31 Si a 3 0 0 0.66606 1
+ C27 C a 3 0 0 0.67397 1
+ Si27 Si a 3 0 0 0.67579 1
+ C25 C a 3 0 0 0.67883 1
+ Si25 Si a 3 0 0 0.68066 1
+ C21 C a 3 0 0 0.68856 1
+ Si21 Si a 3 0 0 0.69039 1
+ C17 C a 3 0 0 0.6983 1
+ Si17 Si a 3 0 0 0.70012 1
+ C14 C a 3 0 0 0.7056 1
+ Si14 Si a 3 0 0 0.70742 1
+ C11 C a 3 0 0 0.71289 1
+ Si11 Si a 3 0 0 0.71472 1
+ C8 C a 3 0 0 0.72019 1
+ Si8 Si a 3 0 0 0.72202 1
+ C4 C a 3 0 0 0.72993 1
+ Si4 Si a 3 0 0 0.73175 1
+ C1 C a 3 0 0 0.73723 1
+ Si1 Si a 3 0 0 0.73905 1
+ C135 C a 3 0 0 0.74453 1
+ Si135 Si a 3 0 0 0.74635 1
+ C132 C a 3 0 0 0.75182 1
+ Si132 Si a 3 0 0 0.75365 1
+ C129 C a 3 0 0 0.75912 1
+ Si129 Si a 3 0 0 0.76095 1
+ C126 C a 3 0 0 0.76642 1
+ Si126 Si a 3 0 0 0.76825 1
+ C123 C a 3 0 0 0.77372 1
+ Si123 Si a 3 0 0 0.77555 1
+ C120 C a 3 0 0 0.78102 1
+ Si120 Si a 3 0 0 0.78285 1
+ C117 C a 3 0 0 0.78832 1
+ Si117 Si a 3 0 0 0.79015 1
+ C114 C a 3 0 0 0.79562 1
+ Si114 Si a 3 0 0 0.79744 1
+ C110 C a 3 0 0 0.80535 1
+ Si110 Si a 3 0 0 0.80718 1
+ C107 C a 3 0 0 0.81265 1
+ Si107 Si a 3 0 0 0.81448 1
+ C104 C a 3 0 0 0.81995 1
+ Si104 Si a 3 0 0 0.82178 1
+ C101 C a 3 0 0 0.82725 1
+ Si101 Si a 3 0 0 0.82907 1
+ C98 C a 3 0 0 0.83455 1
+ Si98 Si a 3 0 0 0.83637 1
+ C95 C a 3 0 0 0.84185 1
+ Si95 Si a 3 0 0 0.84367 1
+ C92 C a 3 0 0 0.84915 1
+ Si92 Si a 3 0 0 0.85097 1
+ C89 C a 3 0 0 0.85645 1
+ Si89 Si a 3 0 0 0.85827 1
+ C86 C a 3 0 0 0.86375 1
+ Si86 Si a 3 0 0 0.86557 1
+ C83 C a 3 0 0 0.87105 1
+ Si83 Si a 3 0 0 0.87287 1
+ C80 C a 3 0 0 0.87835 1
+ Si80 Si a 3 0 0 0.88017 1
+ C77 C a 3 0 0 0.88564 1
+ Si77 Si a 3 0 0 0.88747 1
+ C74 C a 3 0 0 0.89294 1
+ Si74 Si a 3 0 0 0.89477 1
+ C71 C a 3 0 0 0.90024 1
+ Si71 Si a 3 0 0 0.90207 1
+ C68 C a 3 0 0 0.90754 1
+ Si68 Si a 3 0 0 0.90937 1
+ C65 C a 3 0 0 0.91484 1
+ Si65 Si a 3 0 0 0.91667 1
+ C62 C a 3 0 0 0.92214 1
+ Si62 Si a 3 0 0 0.92397 1
+ C59 C a 3 0 0 0.92944 1
+ Si59 Si a 3 0 0 0.93126 1
+ C56 C a 3 0 0 0.93674 1
+ Si56 Si a 3 0 0 0.93856 1
+ C52 C a 3 0 0 0.94647 1
+ Si52 Si a 3 0 0 0.9483 1
+ C50 C a 3 0 0 0.95134 1
+ Si50 Si a 3 0 0 0.95316 1
+ C46 C a 3 0 0 0.96107 1
+ Si46 Si a 3 0 0 0.96289 1
+ C44 C a 3 0 0 0.96594 1
+ Si44 Si a 3 0 0 0.96776 1
+ C40 C a 3 0 0 0.97567 1
+ Si40 Si a 3 0 0 0.97749 1
+ C36 C a 3 0 0 0.9854 1
+ Si36 Si a 3 0 0 0.98723 1
+ C34 C a 3 0 0 0.99027 1
+ Si34 Si a 3 0 0 0.99209 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'high-resolution electron microscope'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   electrons
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1012355

@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Bi-I             # Bi9I2                                         # 1250280 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250280
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250280
+
+# Entry summary
+
+_chemical_formula_structural             Bi9I2
+_chemical_formula_sum                    Bi9I2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Bi9I2,mP22,11
+_chemical_formula_weight                 2134.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Crystal structure of Bi9I2'
+_journal_coden_ASTM                      DANKAS
+_journal_year                            1990
+_journal_volume                          310
+_journal_page_first                      117
+_journal_page_last                       120
+_journal_language                        Russian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dikarev E.V.'
+;
+?
+?
+?
+?
+;
+'Popovkin B.A.'
+;
+?
+?
+?
+?
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.353
+_cell_length_b                           4.383
+_cell_length_c                           15.184
+_cell_angle_alpha                        90
+_cell_angle_beta                         115.06
+_cell_angle_gamma                        90
+_cell_volume                             805.01
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I1 I e 2 0.0167 0.25 0.3719 1
+ Bi7 Bi e 2 0.1237 0.25 0.8379 1
+ Bi5 Bi e 2 0.1951 0.25 0.2510 1
+ Bi2 Bi e 2 0.3033 0.25 0.7225 1
+ Bi4 Bi e 2 0.3850 0.25 0.1884 1
+ Bi3 Bi e 2 0.4971 0.25 0.6659 1
+ Bi9 Bi e 2 0.5631 0.25 0.0735 1
+ I2 I e 2 0.6614 0.25 0.5369 1
+ Bi8 Bi e 2 0.7595 0.25 0.0189 1
+ Bi1 Bi e 2 0.8180 0.25 0.4279 1
+ Bi6 Bi e 2 0.9273 0.25 0.8943 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4F'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            96.99
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 515
+_refine_ls_R_factor_all                  0.052
+_refine_ls_wR_factor_all                 0.051
+_computing_structure_refinement          XTLSM
+
+# End of data set 1250280

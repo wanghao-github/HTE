@@ -1,0 +1,150 @@
+##############################################################################
+#                                                                            #
+# I-Pb             # PbI220H                                       # 1252073 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252073
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252073
+
+# Entry summary
+
+_chemical_formula_structural             'lead iodide, 20H'
+_chemical_formula_sum                    I2Pb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PbI2,hP30,156
+_chemical_formula_weight                 461.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal Structures of Three Polytypes of Lead Iodide: Correlation Between Phenomena of Arcing and Polytypism
+;
+_journal_coden_ASTM                      ACACBN
+_journal_year                            1970
+_journal_volume                          26
+_journal_page_first                      140
+_journal_page_last                       144
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Agrawal V.K.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+'Chadha G.K.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+'Trigunayat G.C.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.557
+_cell_length_b                           4.557
+_cell_length_c                           69.79
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1255.11
+_cell_formula_units_Z                    10
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pb8 Pb c 1 0.666667 0.333333 0.0235 1
+ Pb7 Pb c 1 0.666667 0.333333 0.1235 1
+ Pb6 Pb c 1 0.666667 0.333333 0.2235 1
+ Pb5 Pb c 1 0.666667 0.333333 0.3235 1
+ Pb4 Pb c 1 0.666667 0.333333 0.4235 1
+ Pb3 Pb c 1 0.666667 0.333333 0.5235 1
+ Pb2 Pb c 1 0.666667 0.333333 0.6235 1
+ Pb1 Pb c 1 0.666667 0.333333 0.7235 1
+ I20 I c 1 0.666667 0.333333 0.85 1
+ I19 I c 1 0.666667 0.333333 0.95 1
+ I8 I b 1 0.333333 0.666667 0.05 1
+ I7 I b 1 0.333333 0.666667 0.15 1
+ I6 I b 1 0.333333 0.666667 0.25 1
+ I5 I b 1 0.333333 0.666667 0.35 1
+ I4 I b 1 0.333333 0.666667 0.45 1
+ I3 I b 1 0.333333 0.666667 0.55 1
+ I2 I b 1 0.333333 0.666667 0.65 1
+ I1 I b 1 0.333333 0.666667 0.75 1
+ Pb10 Pb b 1 0.333333 0.666667 0.8235 1
+ Pb9 Pb b 1 0.333333 0.666667 0.9235 1
+ I16 I a 1 0 0 0.00 1
+ I15 I a 1 0 0 0.10 1
+ I14 I a 1 0 0 0.20 1
+ I13 I a 1 0 0 0.30 1
+ I12 I a 1 0 0 0.40 1
+ I11 I a 1 0 0 0.50 1
+ I10 I a 1 0 0 0.60 1
+ I9 I a 1 0 0 0.70 1
+ I18 I a 1 0 0 0.80 1
+ I17 I a 1 0 0 0.90 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252073

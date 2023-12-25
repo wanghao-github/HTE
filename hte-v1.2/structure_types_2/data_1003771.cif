@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# K-Sn             # K4Sn9                                         # 1003771 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1003771
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1003771
+
+# Entry summary
+
+_chemical_formula_structural             K4Sn9
+_chemical_formula_sum                    K4Sn9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K4Sn9,mP52,14
+_chemical_formula_weight                 1224.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Tetrapotassium nonastannide, K4Sn9'
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            2002
+_journal_volume                          58
+_journal_page_first                      i45
+_journal_page_last                       i46
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hoch C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Wendorff M.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.238
+_cell_length_b                           8.3554
+_cell_length_c                           16.487
+_cell_angle_alpha                        90
+_cell_angle_beta                         95.261
+_cell_angle_gamma                        90
+_cell_volume                             1953.1
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn6 Sn e 4 0.07469 0.25753 0.09188 1
+ K1 K e 4 0.07578 0.571 0.76158 1
+ Sn2 Sn e 4 0.12208 0.60221 0.12012 1
+ K3 K e 4 0.16211 0.5654 0.44653 1
+ Sn7 Sn e 4 0.17431 0.06935 0.46968 1
+ Sn3 Sn e 4 0.18159 0.3255 0.25293 1
+ Sn9 Sn e 4 0.25244 0.0764 0.14252 1
+ Sn1 Sn e 4 0.29271 0.61971 0.2404 1
+ Sn5 Sn e 4 0.32767 0.61046 0.0683 1
+ Sn8 Sn e 4 0.35443 0.26749 0.0262 1
+ Sn4 Sn e 4 0.39013 0.31956 0.20216 1
+ K2 K e 4 0.50822 0.4386 0.38471 1
+ K4 K e 4 0.6116 0.4697 0.14277 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    11888
+_exptl_absorpt_coefficient_mu            12.12
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             118
+_refine_ls_number_reflns                 3176
+_refine_ls_R_factor_all                  0.027
+_refine_ls_wR_factor_all                 0.058
+_computing_structure_refinement          'SHELXS-97; SHELXL-97'
+
+# End of data set 1003771

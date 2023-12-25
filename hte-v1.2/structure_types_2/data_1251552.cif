@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# K-Tl             # KTl                                           # 1251552 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251552
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251552
+
+# Entry summary
+
+_chemical_formula_structural             KTl
+_chemical_formula_sum                    KTl
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            KTl,oS48,64
+_chemical_formula_weight                 243.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis, Structure, and Bonding of the Novel Cluster Compound KTl with Isolated Tl66- Ions
+;
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1993
+_journal_volume                          115
+_journal_page_first                      11299
+_journal_page_last                       11303
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dong Z.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.329
+_cell_length_b                           15.069
+_cell_length_c                           8.137
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1879.59
+_cell_formula_units_Z                    24
+_symmetry_Int_Tables_number              64
+_symmetry_space_group_name_H-M           Cmce
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, 0.5-y, 0.5+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 0.5+y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, 0.5-y, 0.5+z'
+ 7 'x, -y, -z'
+ 8 'x, 0.5+y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 1-y, 0.5+z'
+ 11 '0.5-x, 0.5-y, -z'
+ 12 '0.5-x, 1+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 1-y, 0.5+z'
+ 15 '0.5+x, 0.5-y, -z'
+ 16 '0.5+x, 1+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tl1 Tl g 16 0.38694 0.10442 0.0689 1
+ K3 K f 8 0 0.2002 0.0751 1
+ Tl2 Tl f 8 0 0.4562 0.2193 1
+ K1 K e 8 0.25 0.2795 0.25 1
+ K2 K d 8 0.1774 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            46
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            53.078
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             33
+_refine_ls_number_reflns                 462
+_refine_ls_R_factor_all                  0.037
+_refine_ls_wR_factor_all                 0.039
+_computing_structure_refinement          'DIFABS; SHELXS-86; TEXSAN'
+
+# End of data set 1251552

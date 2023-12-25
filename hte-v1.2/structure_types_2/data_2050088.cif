@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# Eu-O             # Eu2O3ht1                                      # 2050088 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_2050088
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      2050088
+
+# Entry summary
+
+_chemical_formula_structural             Eu2O3
+_chemical_formula_sum                    Eu2O3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm2O3,mS30,12
+_chemical_formula_weight                 351.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'A Refinement of the Crystal Structure of Monoclinic Europium Sesquioxide'    
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1979
+_journal_volume                          35
+_journal_page_first                      564
+_journal_page_last                       569
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yakel H.L. Jr.'
+;
+Oak Ridge National Laboratory
+Metals and Ceramics Division
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.1105
+_cell_length_b                           3.6021
+_cell_length_c                           8.808
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.037
+_cell_angle_gamma                        90
+_cell_volume                             440.84
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O4 O i 4 0.0266 0 0.6569 1
+ Eu1 Eu i 4 0.1374 0 0.4897 1
+ Eu2 Eu i 4 0.18972 0 0.1376 1
+ O3 O i 4 0.2961 0 0.3732 1
+ O2 O i 4 0.3248 0 0.0267 1
+ Eu3 Eu i 4 0.46635 0 0.18763 1
+ O1 O i 4 0.6291 0 0.2855 1
+ O5 O a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            294
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_wavelength             0.70926
+_cell_measurement_reflns_used            77
+_diffrn_ambient_temperature              294(1)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'HB4, HFI reactor, ORNL, Oak Ridge, Tennessee, USA'                           
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    6088
+_exptl_absorpt_coefficient_mu            42.15
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             47
+_refine_ls_number_reflns                 4538
+_refine_ls_R_factor_all                  0.0408
+_refine_ls_wR_factor_all                 0.0649
+_computing_structure_refinement          ?
+
+# End of data set 2050088

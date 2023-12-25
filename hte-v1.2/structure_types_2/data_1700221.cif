@@ -1,0 +1,146 @@
+##############################################################################
+#                                                                            #
+# C-Cl             # C13Cl12                                       # 1700221 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1700221
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1700221
+
+# Entry summary
+
+_chemical_formula_structural             C13Cl12
+_chemical_formula_sum                    C13Cl12
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            C13Cl12,aP50,2
+_chemical_formula_weight                 581.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+Perchlorobenzylidenecyclohexa-2,5-diene                                       
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1978
+_journal_volume                          34
+_journal_page_first                      1739
+_journal_page_last                       1741
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gall S.'
+;
+Barcelona University
+Departamento de Cristallografia i Mineralogia
+Barcelona
+Spain
+;
+'Solans X.'
+;
+Barcelona University
+Departamento de Cristallografia i Mineralogia
+Barcelona
+Spain
+;
+'Miravitlles C.'
+;
+Consejo Superior de Investigaciones Cientificas
+Institut de Ciencia de Materials de Barcelona
+Bellaterra
+Spain
+;
+'Plana F.'
+;
+Consejo Superior de Investigaciones Cientificas
+Institut de Ciencia de Materials de Barcelona
+Bellaterra
+Spain
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.415
+_cell_length_b                           8.598
+_cell_length_c                           15.41
+_cell_angle_alpha                        90.38
+_cell_angle_beta                         97.13
+_cell_angle_gamma                        118.58
+_cell_volume                             968.7
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl1 Cl i 2 0.0153 0.2144 0.3675 1
+ C13 C i 2 0.0191 0.8753 0.1596 1
+ C9 C i 2 0.0822 0.1842 0.1518 1
+ Cl12 Cl i 2 0.1075 0.7316 0.1657 1
+ C8 C i 2 0.1317 0.0598 0.1978 1
+ C12 C i 2 0.1508 0.1819 0.8818 1
+ Cl4 Cl i 2 0.1555 0.2915 0.6416 1
+ Cl2 Cl i 2 0.2098 0.5979 0.458 1
+ C11 C i 2 0.2299 0.0593 0.898 1
+ C2 C i 2 0.2443 0.3518 0.3639 1
+ C7 C i 2 0.2461 0.1095 0.2734 1
+ Cl7 Cl i 2 0.246 0.4046 0.1514 1
+ C3 C i 2 0.3298 0.5232 0.4044 1
+ C1 C i 2 0.3401 0.291 0.3194 1
+ Cl10 Cl i 2 0.3504 0.1099 0.0082 1
+ Cl3 Cl i 2 0.3777 0.1524 0.5513 1
+ C5 C i 2 0.3845 0.4271 0.6389 1
+ Cl9 Cl i 2 0.3947 0.0991 0.8249 1
+ C4 C i 2 0.4848 0.3655 0.5989 1
+ C6 C i 2 0.5276 0.4013 0.3205 1
+ Cl5 Cl i 2 0.6475 0.3244 0.268 1
+ Cl11 Cl i 2 0.7057 0.5982 0.0844 1
+ Cl6 Cl i 2 0.7107 0.0344 0.6727 1
+ Cl8 Cl i 2 0.8465 0.2798 0.0708 1
+ C10 C i 2 0.9134 0.1311 0.1113 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo K'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2415
+_exptl_absorpt_coefficient_mu            1.615
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.047
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1700221

@@ -1,0 +1,179 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2SSZ-31 B                                  # 1003394 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1003394
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1003394
+
+# Entry summary
+
+_chemical_formula_structural             Si56O122
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,oP168,53
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'A Model for the Structure of the Large-Pore Zeolite SSZ-31'                  
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1997
+_journal_volume                          119
+_journal_page_first                      3732
+_journal_page_last                       3744
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lobo R.F.'
+;
+Delaware University
+Department of Chemical Engineering
+Newark
+U.S.A. Delaware
+;
+'Tsapatsis M.'
+;
+Massachusetts University
+Department of Chemical Engineering
+Amherst
+U.S.A. Massachusetts
+;
+'Freyhardt C.C.'
+;
+California Institute of Technology
+Division of Chemistry and Chemical Engineering
+Pasadena
+U.S.A. California
+;
+'Chan I.'
+;
+Chevron Research and Technology Co.
+?
+Richmond
+U.S.A. California
+;
+'Chen C.Y.'
+;
+Chevron Research and Technology Co.
+?
+Richmond
+U.S.A. California
+;
+'Zones S.I.'
+;
+Chevron Research and Technology Co.
+?
+Richmond
+U.S.A. California
+;
+'Davis M.E.'
+;
+California Institute of Technology
+Division of Chemistry and Chemical Engineering
+Pasadena
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.38
+_cell_length_b                           12.35
+_cell_length_c                           28.78
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2978.5
+_cell_formula_units_Z                    56
+_symmetry_Int_Tables_number              53
+_symmetry_space_group_name_H-M           Pmna
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, y, 0.5-z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, z'
+ 6 '0.5+x, -y, 0.5+z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si5 Si i 8 0.1845 0.117 0.111 1
+ Si4 Si i 8 0.1857 0.06 0.5465 1
+ Si6 Si i 8 0.1886 0.4637 0.2005 1
+ Si7 Si i 8 0.189 0.2233 0.2987 1
+ Oa O i 8 0.2082 0.2188 0.0778 1
+ Ob O i 8 0.2182 0.6305 0.0812 1
+ Od O i 8 0.2397 0.341 0.1925 1
+ Og O i 8 0.254 0.1438 0.161 1
+ Oi O i 8 0.2647 0.5375 0.161 1
+ Oj O i 8 0.2748 0.4237 0.0852 1
+ Ok O i 8 0.2758 0.0153 0.0899 1
+ Oc O i 8 0.2808 0.171 0.5512 1
+ Ol O i 8 0.2912 0.3288 0.0048 1
+ Si2 Si i 8 0.3144 0.5383 0.1077 1
+ Si1 Si i 8 0.3178 0.2935 0.5378 1
+ Si3 Si i 8 0.3185 0.314 0.0591 1
+ O4 O h 4 0 0.0844 0.5448 1
+ O5 O h 4 0 0.0898 0.1151 1
+ O7 O h 4 0 0.2295 0.2984 1
+ O3 O h 4 0 0.2848 0.4315 1
+ O6 O h 4 0 0.4732 0.1985 1
+ O2 O h 4 0 0.5615 0.3965 1
+ O1 O h 4 0 0.6952 0.0236 1
+ Of O g 4 0.25 0.179 0.25 1
+ Oe O g 4 0.25 0.503 0.25 1
+ Oh O e 4 0.2619 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             1.1504
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'X7A, NSLS, Brookhaven NL, USA'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             1.1504
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 32.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, starting values from the literature'        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'DIFFAX; DLS-76'
+
+# End of data set 1003394

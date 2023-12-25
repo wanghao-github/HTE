@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# Ga-Pd            # Pd13Ga5rt                                     # 1252434 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252434
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252434
+
+# Entry summary
+
+_chemical_formula_structural             Ga5Pd13
+_chemical_formula_sum                    Ga5Pd13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd13Ga5,mS36,12
+_chemical_formula_weight                 1731.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structure of Ga5Pd13 - a Low-Symmetrical Ordering Variant of the Cubic Close Sphere Packing
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2000
+_journal_volume                          626
+_journal_page_first                      1540
+_journal_page_last                       1544
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Wannek C.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie und Zentrum für Malerialwissenschaften
+Marburg
+Germany
+;
+'Harbrecht B.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie und Zentrum für Malerialwissenschaften
+Marburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           24.2599
+_cell_length_b                           4.0506
+_cell_length_c                           5.4437
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.69
+_cell_angle_gamma                        90
+_cell_volume                             521.87
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga2 Ga i 4 0.1076 0 0.145 1
+ Pd2 Pd i 4 0.1123 0 0.6278 1
+ Pd3 Pd i 4 0.2134 0 0.0953 1
+ Pd4 Pd i 4 0.2249 0 0.6089 1
+ Ga3 Ga i 4 0.3228 0 0.181 1
+ Pd6 Pd i 4 0.4308 0 0.1333 1
+ Pd7 Pd i 4 0.5459 0 0.3452 1
+ Pd5 Pd i 4 0.6601 0 0.327 1
+ Ga1 Ga c 2 0 0 0.5 1
+ Pd1 Pd a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Philips X'Pert MPD
+;
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    324
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             47
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.044
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement
+;
+EXPO; X'Pert Plus 1.0
+;
+
+# End of data set 1252434

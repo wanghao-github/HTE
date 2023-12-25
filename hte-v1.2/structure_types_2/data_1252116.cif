@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# Re-S             # ReS2tricl                                     # 1252116 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252116
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252116
+
+# Entry summary
+
+_chemical_formula_structural             ReS2
+_chemical_formula_sum                    ReS2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ReS2,aP24,2
+_chemical_formula_weight                 250.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structure of some rhenium and technetium dichalcogenides'        
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1996
+_journal_volume                          241
+_journal_page_first                      34
+_journal_page_last                       39
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lamfers H.J.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'Meetsma A.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'Wiegers G.A.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'De Boer J.L.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.352
+_cell_length_b                           6.446
+_cell_length_c                           12.5982
+_cell_angle_alpha                        76.071
+_cell_angle_beta                         89.481
+_cell_angle_gamma                        61.03
+_cell_volume                             434.49
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S4 S i 2 0.0906 0.2916 0.8452 1
+ S2 S i 2 0.0990 0.2746 0.3796 1
+ S7 S i 2 0.1341 0.7437 0.3628 1
+ Re3 Re i 2 0.1829 0.0650 0.2448 1
+ Re1 Re i 2 0.3063 0.4377 0.2528 1
+ S3 S i 2 0.3657 0.7472 0.1389 1
+ S6 S i 2 0.3932 0.2194 0.1222 1
+ S8 S i 2 0.4006 0.2194 0.6475 1
+ S1 S i 2 0.6470 0.2190 0.3980 1
+ Re2 Re i 2 0.7365 0.4598 0.2520 1
+ Re4 Re i 2 0.7584 0.0330 0.2500 1
+ S5 S i 2 0.8583 0.2721 0.1122 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            22
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4F'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1386
+_exptl_absorpt_coefficient_mu            57.38
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             69
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.053
+_refine_ls_wR_factor_all                 0.075
+_computing_structure_refinement          'XTAL package'
+
+# End of data set 1252116

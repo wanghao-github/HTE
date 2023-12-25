@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Co-Y             # Y8Co5                                         # 1250895 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250895
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250895
+
+# Entry summary
+
+_chemical_formula_structural             Y8Co5
+_chemical_formula_sum                    Co5Y8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y8Co5,mP52,14
+_chemical_formula_weight                 1005.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Y8Co5, a New Monoclinic Phase with Co Centred Trigonal Prisms'               
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1976
+_journal_volume                          32
+_journal_page_first                      496
+_journal_page_last                       500
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Moreau J.M.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Paccard D.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Parthé E.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.058
+_cell_length_b                           7.286
+_cell_length_c                           24.277
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.11
+_cell_angle_gamma                        90
+_cell_volume                             1220.65
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Co5 Co e 4 0.011 0.384 0.095 1
+ Y2 Y e 4 0.029 0.673 0.177 1
+ Co3 Co e 4 0.137 0.471 0.282 1
+ Y1 Y e 4 0.140 0.685 0.037 1
+ Y7 Y e 4 0.185 0.544 0.415 1
+ Y3 Y e 4 0.192 0.185 0.202 1
+ Y4 Y e 4 0.288 0.165 0.059 1
+ Co2 Co e 4 0.335 0.472 0.133 1
+ Y8 Y e 4 0.359 0.024 0.436 1
+ Y5 Y e 4 0.500 0.319 0.337 1
+ Co1 Co e 4 0.525 0.358 0.479 1
+ Co4 Co e 4 0.597 0.030 0.265 1
+ Y6 Y e 4 0.688 0.318 0.196 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            22
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1243
+_exptl_absorpt_coefficient_mu            44.5
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 725
+_refine_ls_R_factor_all                  0.09
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package; LSAM'
+
+# End of data set 1250895

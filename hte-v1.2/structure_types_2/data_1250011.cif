@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2coe                                       # 1250011 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250011
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250011
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2 coesite'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   coesite
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,mS48,15
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Exploration of Structure, Electron Density Distribution, and Bonding in Coesite with Fourier and Pseudoatom Refinement Methods Using Single-Crystal X-ray Diffraction Data
+;
+_journal_coden_ASTM                      JPCHAX
+_journal_year                            1987
+_journal_volume                          91
+_journal_page_first                      3237
+_journal_page_last                       3244
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Geisinger K.L.'
+;
+Virginia Polytechnic Institute
+Department of Geological Sciences
+Blacksburg
+U.S.A. Virginia
+;
+'Spackman M.A.'
+;
+New England University
+Department of Chemistry
+Armidale
+Australia
+;
+'Gibbs G.V.'
+;
+Virginia Polytechnic Institute
+Department of Geological Sciences
+Blacksburg
+U.S.A. Virginia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.1367
+_cell_length_b                           12.3695
+_cell_length_c                           7.119
+_cell_angle_alpha                        90
+_cell_angle_beta                         119.570
+_cell_angle_gamma                        90
+_cell_volume                             546.59
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O f 8 0.07617 0.12692 0.55981 1
+ Si1 Si f 8 0.18199 0.14168 0.07235 1
+ O4 O f 8 0.26709 0.14627 0.32800 1
+ Si2 Si f 8 0.28396 0.09199 0.54064 1
+ O5 O f 8 0.28920 0.03822 0.02152 1
+ O2 O e 4 0 0.3662 0.25 1
+ O1 O c 4 0.25 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_reflns_used            20
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    7255
+_exptl_absorpt_coefficient_mu            1.0704
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1716
+_refine_ls_R_factor_all                  0.0109
+_refine_ls_wR_factor_all                 0.0117
+_computing_structure_refinement          ?
+
+# End of data set 1250011

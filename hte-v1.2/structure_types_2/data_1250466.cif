@@ -1,0 +1,126 @@
+##############################################################################
+#                                                                            #
+# P-Rh             # Rh3P2                                         # 1250466 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250466
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250466
+
+# Entry summary
+
+_chemical_formula_structural             Rh3P2
+_chemical_formula_sum                    P2Rh3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rh3P2,tP5,115
+_chemical_formula_weight                 370.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Diphosphure de Trirhodium, Rh3P2: Premier Exemple d'une Structure Lacunaire Ordonnee de Type anti-PbFCl
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1983
+_journal_volume                          39
+_journal_page_first                      1493
+_journal_page_last                       1494
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'El Ghadraoui E.H.'
+;
+Rennes I University
+Laboratoire de Chimie Minérale
+Rennes
+France
+;
+'Guérin R.'
+;
+Rennes I University
+Laboratoire de Chimie Minérale
+Rennes
+France
+;
+'Sergent M.'
+;
+Rennes I University
+Laboratoire de Chimie Minérale
+Rennes
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.327
+_cell_length_b                           3.327
+_cell_length_c                           6.151
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             68.08
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              115
+_symmetry_space_group_name_H-M           P-4m2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, -z'
+ 5 '-y, x, -z'
+ 6 'x, -y, z'
+ 7 'y, -x, -z'
+ 8 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P P g 2 0 0.5 0.2530 1
+ Rh1 Rh g 2 0 0.5 0.6308 1
+ Rh2 Rh a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              291
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    248
+_exptl_absorpt_coefficient_mu            18.6
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 181
+_refine_ls_R_factor_all                  0.044
+_refine_ls_wR_factor_all                 0.046
+_computing_structure_refinement          ?
+
+# End of data set 1250466

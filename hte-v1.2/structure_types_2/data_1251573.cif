@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# F-S              # SF6lt3                                        # 1251573 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251573
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251573
+
+# Entry summary
+
+_chemical_formula_structural             'SF6, low temperature structure'
+_chemical_formula_sum                    F6S
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SF6,aP21,2
+_chemical_formula_weight                 146.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Orientational ordering and the low temperature structure of SF6'             
+_journal_coden_ASTM                      MOPHAM
+_journal_year                            1987
+_journal_volume                          62
+_journal_page_first                      1127
+_journal_page_last                       1141
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Powell B.M.'
+;
+Atomic Energy Canada Ltd.
+Chalk River Nuclear Laboratories
+Chalk River
+Canada
+;
+'Dove M.T.'
+;
+Cambridge University
+Department of Earth Sciences
+Cambridge
+United Kingdom
+;
+'Pawley G.S.'
+;
+Edinburgh University
+Department of Physics
+Edinburgh
+United Kingdom
+;
+'Bartell L.S.'
+;
+Michigan State University
+Department of Chemistry
+Ann Arbor
+U.S.A. Michigan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.7548
+_cell_length_b                           8.0133
+_cell_length_c                           8.032
+_cell_angle_alpha                        61.03
+_cell_angle_beta                         85.26
+_cell_angle_gamma                        85.19
+_cell_volume                             266.49
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F i 2 0.1180 0.4215 0.7026 1
+ F2 F i 2 0.1274 0.6979 0.4348 1
+ F6 F i 2 0.1974 0.0864 0.0930 1
+ F8 F i 2 0.2360 0.3616 0.0902 1
+ F4 F i 2 0.2391 0.0909 0.3638 1
+ F3 F i 2 0.2822 0.4303 0.4320 1
+ F9 F i 2 0.4069 0.0271 0.7520 1
+ F5 F i 2 0.4100 0.7564 0.0256 1
+ S2 S i 2 0.4146 0.1672 0.1692 1
+ F7 F i 2 0.6317 0.2481 0.2452 1
+ S1 S g 1 0 0.5 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              23
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'NRU reactor, Chalk River, Canada'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.48018
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             29
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          EDINP
+
+# End of data set 1251573

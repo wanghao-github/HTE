@@ -1,0 +1,146 @@
+##############################################################################
+#                                                                            #
+# Ca-Sn            # Ca36Sn23                                      # 1411093 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1411093
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1411093
+
+# Entry summary
+
+_chemical_formula_structural             Ca36Sn23
+_chemical_formula_sum                    Ca36Sn23
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb36Sn23,tP118,127
+_chemical_formula_weight                 4172.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Phase diagram of the Ca-Sn system'
+_journal_coden_ASTM                      JALCEU
+_journal_year                            2000
+_journal_volume                          312
+_journal_page_first                      165
+_journal_page_last                       171
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Palenzona A.'
+;
+Genova University
+Dipartimento di Chimica
+Genova
+Italy
+;
+'Manfrinetti P.'
+;
+Genova University
+Dipartimento di Chimica
+Genova
+Italy
+;
+'Fornasini M.L.'
+;
+Genova University
+Dipartimento di Chimica
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.499
+_cell_length_b                           12.499
+_cell_length_c                           22.883
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3574.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              127
+_symmetry_space_group_name_H-M           P4/mbm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5-y, 0.5-x, -z'
+ 7 '0.5-y, 0.5-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '0.5+x, 0.5-y, -z'
+ 11 '0.5+x, 0.5-y, z'
+ 12 'x, y, -z'
+ 13 '0.5+y, 0.5+x, -z'
+ 14 '0.5+y, 0.5+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ca1 Ca l 16 0.0564 0.211 0.0918 1
+ Ca2 Ca l 16 0.0864 0.2145 0.3696 1
+ Ca3 Ca l 16 0.2121 0.0758 0.2385 1
+ Sn1 Sn k 8 0.15024 0.65024 0.36416 1
+ Sn2 Sn k 8 0.197 0.697 0.13072 1
+ Sn3 Sn k 8 0.66267 0.16267 0.21718 1
+ Ca4 Ca j 8 0.2176 0.0822 0.5 1
+ Sn4 Sn h 4 0.65362 0.15362 0.5 1
+ Ca5 Ca g 4 0.1658 0.6658 0 1
+ Sn5 Sn g 4 0.58683 0.08683 0 1
+ Ca6 Ca f 4 0 0.5 0.1293 1
+ Ca7 Ca f 4 0 0.5 0.285 1
+ Ca8 Ca f 4 0 0.5 0.4308 1
+ Sn6 Sn e 4 0 0 0.16426 1
+ Sn7 Sn e 4 0 0 0.30166 1
+ Sn8 Sn e 4 0 0 0.43375 1
+ Sn9 Sn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    5751
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            10.5
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             87
+_refine_ls_number_reflns                 1906
+_refine_ls_R_factor_all                  0.043
+_refine_ls_wR_factor_all                 0.103
+_computing_structure_refinement          SHELXS-97
+
+# End of data set 1411093

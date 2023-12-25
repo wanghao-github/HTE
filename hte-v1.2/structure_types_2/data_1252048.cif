@@ -1,0 +1,131 @@
+##############################################################################
+#                                                                            #
+# N-Zr             # Zr3N4rt                                       # 1252048 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252048
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252048
+
+# Entry summary
+
+_chemical_formula_structural             Zr3N4
+_chemical_formula_sum                    N4Zr3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr3N4,oP28,62
+_chemical_formula_weight                 329.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Synthesis, Crystal Structure, and High Temperature Behavior of Zr3N4'        
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1996
+_journal_volume                          622
+_journal_page_first                      367
+_journal_page_last                       372
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lerch M.'
+;
+Würzburg University
+Lehrstuhl für Silicatchemie
+Würzburg
+Germany
+;
+'Füglein E.'
+;
+Würzburg University
+Lehrstuhl für Silicatchemie
+Würzburg
+Germany
+;
+'Wrba J.'
+;
+Würzburg University
+Lehrstuhl für Silicatchemie
+Würzburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.7294
+_cell_length_b                           3.281
+_cell_length_c                           10.8175
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             345.32
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ N3 N c 4 0.001 0.25 0.227 1
+ Zr2 Zr c 4 0.1078 0.25 0.4066 1
+ Zr3 Zr c 4 0.2329 0.25 0.1481 1
+ N1 N c 4 0.262 0.25 0.790 1
+ N2 N c 4 0.362 0.25 0.516 1
+ N4 N c 4 0.394 0.25 0.024 1
+ Zr1 Zr c 4 0.5684 0.25 0.6241 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5406
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI/P'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_radiation_wavelength             1.5406
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 57.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             30
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252048

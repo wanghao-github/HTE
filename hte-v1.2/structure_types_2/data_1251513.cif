@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# Cu-La            # Cu4La                                         # 1251513 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251513
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251513
+
+# Entry summary
+
+_chemical_formula_structural             LaCu4
+_chemical_formula_sum                    Cu4La
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cu4La,tI90,119
+_chemical_formula_weight                 393.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'NEW PHASES IN THE SYSTEM La-Cu'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1985
+_journal_volume                          110
+_journal_page_first                      81
+_journal_page_last                       90
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Meyer Liautaud F.'
+;
+Grenoble National Polytechnic Institute
+Laboratoire de Thermodynamique et Physico-Chimie Métallurgiques
+Saint-Martin-d'Hères
+France
+;
+'Allibert C.H.'
+;
+Grenoble National Polytechnic Institute
+Laboratoire de Thermodynamique et Physico-Chimie Métallurgiques
+Saint-Martin-d'Hères
+France
+;
+'Moreau J.M.'
+;
+Savoie University
+Laboratoire de Structure de la Matière
+Annecy-le-Vieux
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.904
+_cell_length_b                           8.904
+_cell_length_c                           19.21
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1522.99
+_cell_formula_units_Z                    18
+_symmetry_Int_Tables_number              119
+_symmetry_space_group_name_H-M           I-4m2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, -z'
+ 5 '-y, x, -z'
+ 6 'x, -y, z'
+ 7 'y, -x, -z'
+ 8 'y, x, -z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5+z'
+ 11 '0.5-x, 0.5+y, 0.5+z'
+ 12 '0.5-y, 0.5-x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5-z'
+ 14 '0.5+x, 0.5-y, 0.5+z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5+x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cu8 Cu j 16 0.1609 0.2350 0.1202 1
+ Cu5 Cu i 8 0.155 0 0.5435 1
+ La4 La i 8 0.2447 0 0.3735 1
+ Cu4 Cu i 8 0.256 0 0.6691 1
+ Cu6 Cu i 8 0.287 0 0.0795 1
+ Cu2 Cu i 8 0.342 0 0.2118 1
+ Cu3 Cu i 8 0.3573 0 0.7950 1
+ Cu7 Cu h 8 0.247 0.747 0.25 1
+ Cu1 Cu g 8 0.2470 0.2470 0 1
+ La3 La f 4 0 0.5 0.0525 1
+ La2 La e 4 0 0 0.2060 1
+ La1 La a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             32
+_refine_ls_number_reflns                 375
+_refine_ls_R_factor_all                  0.05
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'MULTAN-80; SDP package'
+
+# End of data set 1251513

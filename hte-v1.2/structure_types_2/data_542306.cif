@@ -1,0 +1,116 @@
+##############################################################################
+#                                                                            #
+# Dy-Zn            # Zn3Dy                                         #  542306 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_542306
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      542306
+
+# Entry summary
+
+_chemical_formula_structural             DyZn3
+_chemical_formula_sum                    DyZn3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn3Y,oP16,62
+_chemical_formula_weight                 358.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of HoZn3'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1968
+_journal_volume                          24
+_journal_page_first                      1267
+_journal_page_last                       1269
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Michel D.J.'
+;
+Pennsylvania State University
+Department of Materials Science
+University Park
+U.S.A. Pennsylvania
+;
+'Ryba E.'
+;
+Pennsylvania State University
+Department of Materials Science
+University Park
+U.S.A. Pennsylvania
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.7
+_cell_length_b                           4.398
+_cell_length_c                           10.06
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             296.43
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn(3) Zn c 4 0.035 0.25 0.603 1
+ Zn(1) Zn c 4 0.216 0.25 0.042 1
+ Dy Dy c 4 0.279 0.25 0.336 1
+ Zn(2) Zn c 4 0.461 0.25 0.647 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 542306

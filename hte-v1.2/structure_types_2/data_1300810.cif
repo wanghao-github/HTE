@@ -1,0 +1,159 @@
+##############################################################################
+#                                                                            #
+# As-Rb            # Rb2As3                                        # 1300810 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1300810
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1300810
+
+# Entry summary
+
+_chemical_formula_structural             Rb4As6
+_chemical_formula_sum                    As3Rb2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb2P3,oF40,69
+_chemical_formula_weight                 395.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of tetrarubidium cyclo-hexaarsenide(4-), Rb4As6 and of tetracesium cyclo-hexaarsenide(4-), Cs4As6
+;
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            1999
+_journal_volume                          214
+_journal_page_first                      17
+_journal_page_last                       18
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hönle W.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Krogull G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Peters K.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.17
+_cell_length_b                           10.078
+_cell_length_c                           15.186
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1403.4
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              69
+_symmetry_space_group_name_H-M           Fmmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 'x, 0.5+y, 0.5+z'
+ 10 '-x, 0.5-y, 0.5-z'
+ 11 '-x, 0.5-y, 0.5+z'
+ 12 '-x, 0.5+y, 0.5-z'
+ 13 '-x, 0.5+y, 0.5+z'
+ 14 'x, 0.5-y, 0.5-z'
+ 15 'x, 0.5-y, 0.5+z'
+ 16 'x, 0.5+y, 0.5-z'
+ 17 '0.5+x, y, 0.5+z'
+ 18 '0.5-x, -y, 0.5-z'
+ 19 '0.5-x, -y, 0.5+z'
+ 20 '0.5-x, y, 0.5-z'
+ 21 '0.5-x, y, 0.5+z'
+ 22 '0.5+x, -y, 0.5-z'
+ 23 '0.5+x, -y, 0.5+z'
+ 24 '0.5+x, y, 0.5-z'
+ 25 '0.5+x, 0.5+y, z'
+ 26 '0.5-x, 0.5-y, -z'
+ 27 '0.5-x, 0.5-y, z'
+ 28 '0.5-x, 0.5+y, -z'
+ 29 '0.5-x, 0.5+y, z'
+ 30 '0.5+x, 0.5-y, -z'
+ 31 '0.5+x, 0.5-y, z'
+ 32 '0.5+x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ As2 As n 16 0.224 0 0.0782 1
+ As1 As i 8 0 0 0.1576 1
+ Rb1 Rb h 8 0 0.2672 0 1
+ Rb2 Rb f 8 0.25 0.25 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_wavelength             0.56087
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P1'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_radiation_wavelength             0.56087
+_diffrn_reflns_number                    152
+_exptl_absorpt_coefficient_mu            14.84
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             19
+_refine_ls_number_reflns                 152
+_refine_ls_R_factor_all                  0.024
+_refine_ls_wR_factor_all                 0.026
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# End of data set 1300810

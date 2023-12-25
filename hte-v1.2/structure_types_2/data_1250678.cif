@@ -1,0 +1,149 @@
+##############################################################################
+#                                                                            #
+# Ba-Li            # Li4Ba                                         # 1250678 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250678
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250678
+
+# Entry summary
+
+_chemical_formula_structural             BaLi4
+_chemical_formula_sum                    BaLi4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Li4Ba,hP30,194
+_chemical_formula_weight                 165.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structures of Sr6Mg23, SrMg4, Ba6Mg23 and BaLi4'                 
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1965
+_journal_volume                          18
+_journal_page_first                      24
+_journal_page_last                       31
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Wang F.E.'
+;
+Syracuse University
+Department of Chemistry
+Syracuse
+U.S.A. New York
+;
+'Kanda F.A.'
+;
+Syracuse University
+Department of Chemistry
+Syracuse
+U.S.A. New York
+;
+'Miskell C.F.'
+;
+Syracuse University
+Department of Chemistry
+Syracuse
+U.S.A. New York
+;
+'King A.J.'
+;
+Syracuse University
+Department of Chemistry
+Syracuse
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.026
+_cell_length_b                           11.026
+_cell_length_c                           8.891
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             936.09
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              194
+_symmetry_space_group_name_H-M           P63/mmc
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, 0.5-z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, 0.5-z'
+ 5 '-x+y, y, z'
+ 6 '-x, -x+y, -z'
+ 7 '-x, -x+y, 0.5+z'
+ 8 '-x, -y, -z'
+ 9 '-x, -y, 0.5+z'
+ 10 '-y, -x, 0.5-z'
+ 11 '-y, -x, z'
+ 12 '-y, x-y, 0.5-z'
+ 13 '-y, x-y, z'
+ 14 'x, x-y, 0.5-z'
+ 15 'x, x-y, z'
+ 16 'x, y, 0.5-z'
+ 17 'x-y, -y, -z'
+ 18 'x-y, -y, 0.5+z'
+ 19 'x-y, x, -z'
+ 20 'x-y, x, 0.5+z'
+ 21 'y, -x+y, -z'
+ 22 'y, -x+y, 0.5+z'
+ 23 'y, x, -z'
+ 24 'y, x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Lik Li k 12 0.1621 0.3242 0.0615 1
+ Bah Ba h 6 0.528 0.056 0.25 1
+ Lih Li h 6 0.8973 0.7946 0.25 1
+ Lif Li f 4 0.333333 0.666667 0.0808 1
+ Lia Li a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution
+'crystal chemical considerations, Patterson synthesis'                        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.14
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'ERFR-2; ORFLS'
+
+# End of data set 1250678

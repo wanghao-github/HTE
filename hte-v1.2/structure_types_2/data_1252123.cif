@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# Ga-Pt            # PtGa2rt                                       # 1252123 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252123
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252123
+
+# Entry summary
+
+_chemical_formula_structural             'PtGa2, silver-colored'
+_chemical_formula_sum                    Ga2Pt
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PtGa2,tI96,142
+_chemical_formula_weight                 334.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'On the preparation and crystal structure of a new form of PtGa2'             
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1996
+_journal_volume                          243
+_journal_page_first                      173
+_journal_page_last                       181
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Swenson D.C.'
+;
+Wisconsin University
+Materials Science Division
+Madison
+U.S.A. Wisconsin
+;
+'Morosin B.'
+;
+Sandia Corp.
+?
+Albuquerque
+U.S.A. New Mexico
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.5544
+_cell_length_b                           8.5544
+_cell_length_c                           21.574
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1578.74
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              142
+_symmetry_space_group_name_H-M           'I41/acd O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, -z'
+ 3 '-x, 0.5-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5+z'
+ 6 '0.25-y, 0.25-x, 0.25-z'
+ 7 '0.25-y, -0.25-x, -0.25+z'
+ 8 '0.25-y, -0.25+x, 0.25+z'
+ 9 '-0.25-y, -0.25+x, 0.25-z'
+ 10 '0.5+x, -y, z'
+ 11 'x, -y, 0.5-z'
+ 12 'x, 0.5+y, -z'
+ 13 '0.25+y, 0.25-x, -0.25+z'
+ 14 '-0.25+y, 0.25-x, -0.25-z'
+ 15 '-0.25+y, 0.25+x, 0.25-z'
+ 16 '-0.25+y, -0.25+x, -0.25+z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '1-x, 0.5+y, 0.5-z'
+ 19 '0.5-x, 1-y, 0.5+z'
+ 20 '0.5-x, 0.5-y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 1+z'
+ 22 '0.75-y, 0.75-x, 0.75-z'
+ 23 '0.75-y, 0.25-x, 0.25+z'
+ 24 '0.75-y, 0.25+x, 0.75+z'
+ 25 '0.25-y, 0.25+x, 0.75-z'
+ 26 '1+x, 0.5-y, 0.5+z'
+ 27 '0.5+x, 0.5-y, 1-z'
+ 28 '0.5+x, 1+y, 0.5-z'
+ 29 '0.75+y, 0.75-x, 0.25+z'
+ 30 '0.25+y, 0.75-x, 0.25-z'
+ 31 '0.25+y, 0.75+x, 0.75-z'
+ 32 '0.25+y, 0.25+x, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga g 32 0.04608 0.02711 0.31168 1
+ Ga2 Ga g 32 0.27520 0.20109 0.18947 1
+ Pt2 Pt f 16 0.19080 0.44080 0.125 1
+ Pt1 Pt d 16 0 0.25 0.01858 1
+
+
+_exptl_crystal_colour                    'gray silvery'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3330
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0392
+_refine_ls_wR_factor_all                 0.0434
+_computing_structure_refinement          ?
+
+# End of data set 1252123

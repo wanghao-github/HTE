@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2hyp2                                      # 1614102 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1614102
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1614102
+
+# Entry summary
+
+_chemical_formula_structural             ZMS-18
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,hP102,176
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'A computer simulation of the structure of ZSM-18'                            
+_journal_coden_ASTM                      ZEOLD3
+_journal_year                            1992
+_journal_volume                          12
+_journal_page_first                      674
+_journal_page_last                       679
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gale J.D.'
+;
+Oxford University
+Chemical Crystallography Laboratory
+Oxford
+United Kingdom
+;
+'Cheetham A.K.'
+;
+Oxford University
+Chemical Crystallography Laboratory
+Oxford
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.035
+_cell_length_b                           13.035
+_cell_length_c                           15.591
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             2294.2
+_cell_formula_units_Z                    34
+_symmetry_Int_Tables_number              176
+_symmetry_space_group_name_H-M           P63/m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, 0.5-z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, 0.5+z'
+ 6 '-y, x-y, 0.5-z'
+ 7 '-y, x-y, z'
+ 8 'x, y, 0.5-z'
+ 9 'x-y, x, -z'
+ 10 'x-y, x, 0.5+z'
+ 11 'y, -x+y, -z'
+ 12 'y, -x+y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O7 O i 12 0.0194 0.3731 0.0538 1
+ T2 Si i 12 0.1495 0.4765 0.0295 1
+ O2 O i 12 0.2153 0.5508 0.1144 1
+ O4 O i 12 0.4143 0.1962 0.0111 1
+ O5 O i 12 0.4492 0.1447 0.1679 1
+ T3 Si i 12 0.4508 0.1167 0.0683 1
+ O3 O i 12 0.5821 0.1459 0.0419 1
+ T4 Si h 6 0.5272 0.2117 0.25 1
+ O6 O h 6 0.5585 0.349 0.25 1
+ T1 Si f 4 0.333333 0.666667 0.1481 1
+ O1 O c 2 0.333333 0.666667 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          CASCADE
+
+# End of data set 1614102

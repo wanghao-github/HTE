@@ -1,0 +1,120 @@
+##############################################################################
+#                                                                            #
+# C-I              # C2I4                                          # 1700354 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1700354
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1700354
+
+# Entry summary
+
+_chemical_formula_structural             C2I4
+_chemical_formula_sum                    C2I4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            C2I4,mP24,14
+_chemical_formula_weight                 531.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Structure of Tetraiodoethylene at 4 K'                                   
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1977
+_journal_volume                          33
+_journal_page_first                      1765
+_journal_page_last                       1773
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Haywood B.C.'
+;
+Atomic Energy Research Establishment
+Materials Physics Division
+Harwell
+United Kingdom
+;
+'Shirley R.'
+;
+Surrey University
+Department of Chemical Physics
+Guildford
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.932
+_cell_length_b                           4.271
+_cell_length_c                           12.684
+_cell_angle_alpha                        90
+_cell_angle_beta                         108.34
+_cell_angle_gamma                        90
+_cell_volume                             767.8
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C2 C e 4 0.0469 0.0125 0.0302 1
+ I3 I e 4 0.0931 0.2296 0.186 1
+ I4 I e 4 0.1567 0.6326 0.4726 1
+ I1 I e 4 0.4115 0.2754 0.1139 1
+ C1 C e 4 0.4576 0.0211 0.4916 1
+ I2 I e 4 0.6557 0.406 0.1463 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            4
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             2.407
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              4
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type
+'PANDA, PLUTO reactor, AERE, Harwell, UK'                                     
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             2.407
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 57
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             30
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1700354

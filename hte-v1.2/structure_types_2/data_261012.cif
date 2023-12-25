@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# Ga-Yb            # YbGa4                                         #  261012 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_261012
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      261012
+
+# Entry summary
+
+_chemical_formula_structural             YbGa4
+_chemical_formula_sum                    Ga4Yb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CaGa4,mS10,12
+_chemical_formula_weight                 451.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'CRYSTAL STRUCTURE OF PHASES OF THE Yb-Ga SYSTEM IN THE RANGE 20-32 AT.% Yb'  
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1990
+_journal_volume                          163
+_journal_page_first                      331
+_journal_page_last                       338
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cirafici S.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Fornasini M.L.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.148
+_cell_length_b                           6.106
+_cell_length_c                           6.084
+_cell_angle_alpha                        90
+_cell_angle_beta                         118.86
+_cell_angle_gamma                        90
+_cell_volume                             200.03
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Ga 0
+ Yb 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga i 4 0.5950 0 0.2308 1
+ Ga2 Ga h 4 0 0.2328 0.5 1
+ Yb1 Yb a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 261012

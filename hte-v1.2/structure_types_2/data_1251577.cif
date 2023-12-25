@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# Cs-O             # Cs4Olt                                        # 1251577 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251577
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251577
+
+# Entry summary
+
+_chemical_formula_structural             Cs4O
+_chemical_formula_sum                    Cs4O
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs4O,oP60,33
+_chemical_formula_weight                 547.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Untersuchungen zum Aufbau von Tetracaesiumoxid'                              
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1976
+_journal_volume                          423
+_journal_page_first                      203
+_journal_page_last                       211
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Deiseroth H.J.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Westerbeck E.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Hillenkötter B.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.833
+_cell_length_b                           20.569
+_cell_length_c                           12.4
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             4293.35
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              33
+_symmetry_space_group_name_H-M           Pna21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5+z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cs8 Cs a 4 0.0001 0.0038 0.0579 1
+ Cs12 Cs a 4 0.0754 0.2719 0.5309 1
+ Cs2 Cs a 4 0.1379 0.7369 0.3471 1
+ O2 O a 4 0.157 0.024 0.026 1
+ Cs3 Cs a 4 0.1688 0.1322 0.1811 1
+ Cs7 Cs a 4 0.1865 0.3141 0.0373 1
+ O3 O a 4 0.261 0.198 0.000 1
+ Cs11 Cs a 4 0.2758 0.4576 0.7120 1
+ Cs6 Cs a 4 0.3014 0.0864 0.4631 1
+ Cs10 Cs a 4 0.3255 0.4215 0.3840 1
+ Cs5 Cs a 4 0.3257 0.0637 0.0077 1
+ O1 O a 4 0.329 0.071 0.241 1
+ Cs4 Cs a 4 0.3574 0.6321 0.3769 1
+ Cs1 Cs a 4 0.3741 0.2040 0.1900 1
+ Cs9 Cs a 4 0.4685 0.0143 0.2614 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            243
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              243
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1650
+_refine_ls_R_factor_all                  0.064
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package'
+
+# End of data set 1251577

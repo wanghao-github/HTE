@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Pt-Zr            # ZrPt8                                         # 1301096 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1301096
+_audit_creation_date                     2010-12-15
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301096
+
+# Entry summary
+
+_chemical_formula_structural             ZrPt8
+_chemical_formula_sum                    Pt8Zr
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiPt8,tI18,139
+_chemical_formula_weight                 1651.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Strukturuntersuchungen in den Systemen Ti-Pd und Ti-Pt'                      
+_journal_coden_ASTM                      ZEMTAE
+_journal_year                            1968
+_journal_volume                          59
+_journal_page_first                      724
+_journal_page_last                       729
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Krautwasser P.'
+;
+Max Planck Society
+Max Planck Institut für Metallforschung
+Stuttgart
+Germany
+;
+'Bhan S.'
+;
+Max Planck Society
+Max Planck Institut für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+Max Planck Institut für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.386
+_cell_length_b                           8.386
+_cell_length_c                           4.027
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             283.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              139
+_symmetry_space_group_name_H-M           I4/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '0.5-x, 0.5-y, 0.5-z'
+ 19 '0.5-x, 0.5-y, 0.5+z'
+ 20 '0.5-x, 0.5+y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 0.5+z'
+ 22 '0.5-y, 0.5-x, 0.5-z'
+ 23 '0.5-y, 0.5-x, 0.5+z'
+ 24 '0.5-y, 0.5+x, 0.5-z'
+ 25 '0.5-y, 0.5+x, 0.5+z'
+ 26 '0.5+x, 0.5-y, 0.5-z'
+ 27 '0.5+x, 0.5-y, 0.5+z'
+ 28 '0.5+x, 0.5+y, 0.5-z'
+ 29 '0.5+y, 0.5-x, 0.5-z'
+ 30 '0.5+y, 0.5-x, 0.5+z'
+ 31 '0.5+y, 0.5+x, 0.5-z'
+ 32 '0.5+y, 0.5+x, 0.5+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Pt 0
+ Zr 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt1 Pt i 8 0.327 0 0 1
+ Pt2 Pt h 8 0.333 0.333 0 1
+ Zr1 Zr a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1301096

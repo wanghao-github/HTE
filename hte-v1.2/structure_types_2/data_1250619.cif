@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# P-Se             # P4Se3rt orth1                                 # 1250619 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250619
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250619
+
+# Entry summary
+
+_chemical_formula_structural             P4Se3
+_chemical_formula_sum                    P4Se3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P4Se3,oP112,62
+_chemical_formula_weight                 360.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of P4Se3'
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1959
+_journal_volume                          12
+_journal_page_first                      323
+_journal_page_last                       329
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Keulen E.'
+;
+Groningen University
+Laboratorium voor Anorganische en Physische Chemie
+Groningen
+Netherlands
+;
+'Vos A.'
+;
+Groningen University
+Laboratorium voor Anorganische en Physische Chemie
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.797
+_cell_length_b                           9.739
+_cell_length_c                           26.27
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3018.19
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ PIII2 P d 8 0.010 0.134 0.7527 1
+ PII2 P d 8 0.034 0.134 0.3557 1
+ SeIV2 Se d 8 0.0602 0.072 0.0645 1
+ SeI2 Se d 8 0.1592 0.572 0.4861 1
+ SeIII2 Se d 8 0.1723 0.572 0.2388 1
+ PI2 P d 8 0.227 0.634 0.4125 1
+ SeII2 Se d 8 0.3527 0.072 0.1298 1
+ PIV2 P d 8 0.461 0.134 0.3663 1
+ PIV4 P c 4 0.032 0.25 0.015 1
+ PII1 P c 4 0.034 0.25 0.282 1
+ PIII1 P c 4 0.048 0.25 0.825 1
+ SeI1 Se c 4 0.057 0.25 0.5710 1
+ PIII4 P c 4 0.261 0.25 0.693 1
+ PII4 P c 4 0.262 0.25 0.169 1
+ PIV1 P c 4 0.308 0.25 0.396 1
+ SeIV1 Se c 4 0.337 0.25 0.4822 1
+ SeII1 Se c 4 0.352 0.25 0.2433 1
+ SeIII1 Se c 4 0.393 0.25 0.6300 1
+ PI1 P c 4 0.414 0.25 0.873 1
+ PI4 P c 4 0.459 0.25 0.000 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device
+'oscillation and Weissenberg photographs'                                     
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka1, Cu Ka2'
+_diffrn_radiation_wavelength             1.54051
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           cylindrical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.14
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250619

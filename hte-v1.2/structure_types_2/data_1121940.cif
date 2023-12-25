@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# Ga-Ir            # Ir2Ga9                                        # 1121940 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1121940
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1121940
+
+# Entry summary
+
+_chemical_formula_structural             Ir2Ga9
+_chemical_formula_sum                    Ga9Ir2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rh2Ga9,mP22,7
+_chemical_formula_weight                 1011.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Co2Al9 Structure Type Revisited'
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2005
+_journal_volume                          631
+_journal_page_first                      534
+_journal_page_last                       541
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Boström M.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Rosner H.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.M.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Burkhardt U.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.4329
+_cell_length_b                           6.4099
+_cell_length_c                           8.8068
+_cell_angle_alpha                        90
+_cell_angle_beta                         93.464
+_cell_angle_gamma                        90
+_cell_volume                             362.48
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              7
+_symmetry_space_group_name_H-M           P1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga3a Ga a 2 0.0 0.0285 0.0 1
+ Ga4a Ga a 2 0.095 0.6384 0.3223 1
+ Ir1a Ir a 2 0.1536 0.3752 0.1108 1
+ Ga2a Ga a 2 0.2799 0.0544 0.2792 1
+ Ga1a Ga a 2 0.2932 0.2621 0.5527 1
+ Ga1b Ga a 2 0.4933 0.2365 0.0116 1
+ Ga2b Ga a 2 0.4947 0.4455 0.2867 1
+ Ir1b Ir a 2 0.6329 0.1224 0.44743 1
+ Ga4b Ga a 2 0.6771 0.1573 0.7413 1
+ Ga3b Ga a 2 0.802 0.5434 0.0478 1
+ Ga5 Ga a 2 0.863 0.2415 0.2519 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka1'
+_cell_measurement_wavelength             1.78897
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    3074
+_exptl_absorpt_coefficient_mu            69.30
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             99
+_refine_ls_number_reflns                 1663
+_refine_ls_R_factor_all                  0.026
+_refine_ls_wR_factor_all                 0.038
+_computing_structure_refinement          JANA-2000
+
+# End of data set 1121940

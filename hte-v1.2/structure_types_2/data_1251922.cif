@@ -1,0 +1,208 @@
+##############################################################################
+#                                                                            #
+# O-W              # W5O14(Fe)                                     # 1251922 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251922
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251922
+
+# Entry summary
+
+_chemical_formula_structural             W5O14
+_chemical_formula_sum                    O14W5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            W5O14,tP152,113
+_chemical_formula_weight                 1143.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Iron-Promoted Phases in the Tungsten-Oxygen System'                          
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1978
+_journal_volume                          23
+_journal_page_first                      33
+_journal_page_last                       42
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'McColm I.J.'
+;
+Bradford University
+School of Materials Science and Technology
+Bradford
+United Kingdom
+;
+'Steadman R.'
+;
+Bradford University
+School of Materials Science and Technology
+Bradford
+United Kingdom
+;
+'Wilson S.J.'
+;
+Bradford University
+School of Materials Science and Technology
+Bradford
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           23.33
+_cell_length_b                           23.33
+_cell_length_c                           3.797
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2066.66
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              113
+_symmetry_space_group_name_H-M           P-421m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+y, 0.5+x, z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O16 O f 8 0.012 0.083 0.42 1
+ W3 W f 8 0.0468 0.3400 0.486 1
+ O9 O f 8 0.049 0.341 0.13 1
+ W4 W f 8 0.0808 0.0810 0.517 1
+ O10 O f 8 0.083 0.083 0.03 1
+ O17 O f 8 0.094 0.145 0.43 1
+ O18 O f 8 0.097 0.282 0.45 1
+ W5 W f 8 0.1576 0.2213 0.513 1
+ O11 O f 8 0.160 0.222 0.03 1
+ O19 O f 8 0.176 0.052 0.55 1
+ O20 O f 8 0.198 0.184 0.18 1
+ W6 W f 8 0.2397 0.0747 0.516 1
+ O12 O f 8 0.240 0.079 0.11 1
+ O15 O f 8 0.263 0.002 0.50 1
+ O21 O f 8 0.314 0.094 0.54 1
+ O22 O f 8 0.384 0.032 0.39 1
+ W2 W e 4 0.0992 0.5992 0.508 1
+ O8 O e 4 0.103 0.603 0.08 1
+ O7 O e 4 0.201 0.701 0.03 1
+ W1 W e 4 0.2013 0.7013 0.500 1
+ O13 O e 4 0.599 0.099 0.41 1
+ O14 O e 4 0.728 0.228 0.57 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    428
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.107
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-74 package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 0 0 116.2 11
+ 2 1 0 103.8 18
+ 3 1 0 74.04 7
+ 4 0 0 58.46 5
+ 3 3 0 55.15 14
+ 4 2 0 52.2 4
+ 5 1 0 45.79 4
+ 5 2 0 43.38 3
+ 4 4 0 41.33 3
+ 6 0 0 38.88 25
+ 6 1 0 38.4 4
+ 0 0 1 38.03 100
+ 6 2 0 36.88 4
+ 5 4 0 36.45 40
+ 2 0 1 36.12 4
+ 2 1 1 35.71 4
+ 6 3 0 34.77 15
+ 3 1 1 33.81 5
+ 5 5 0 33.03 16
+ 6 4 0 32.36 16
+ 7 2 0 32.03 11
+ 4 0 1 31.84 3
+ 3 3 1 31.28 8
+ 4 2 1 30.68 6
+ 8 0 0 29.17 5
+ 8 1 0 28.95 43
+ 8 2 0 28.29 5
+ 4 4 1 27.95 4
+ 6 6 0 27.47 10
+ 6 0 1 27.14 20
+ 7 5 0 27.1 ?
+ 6 1 1 26.96 6
+ 6 2 1 26.48 4
+ 5 4 1 26.3 42
+ 9 1 0 25.76 3
+ 6 3 1 25.64 10
+ 9 2 0 25.28 3
+ 5 5 1 24.89 13
+ 6 4 1 24.63 15
+ 7 2 1 24.48 7
+ 7 3 1 23.83 3
+ 9 4 0 23.69 3
+ 8 0 1 23.13 4
+ 8 1 1 23.03 30
+ 8 2 1 22.68 6
+ 6 6 1 22.28 6
+ 7 5 1 22.07 8
+ 8 7 0 21.95 6
+ 10 4 0 21.66 4
+ 9 1 1 21.3 3
+ 11 2 0 20.87 3
+ 9 7 0 20.46 7
+ 12 0 0 19.44 6
+ 12 1 0 19.37 4
+ 12 2 0 19.18 4
+ 10 7 0 19.09 3
+ 8 7 1 18.98 48
+
+# End of data set 1251922

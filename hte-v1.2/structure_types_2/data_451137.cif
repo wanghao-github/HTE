@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# F-Pu             # PuF4                                          #  451137 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_451137
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      451137
+
+# Entry summary
+
+_chemical_formula_structural             PuF4
+_chemical_formula_sum                    F4Pu
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZrF4,mS60,15
+_chemical_formula_weight                 320.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal Chemical Studies of the 5f-Series of Elements. XII. New Compounds Representing known Structure Types
+;
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1949
+_journal_volume                          2
+_journal_page_first                      388
+_journal_page_last                       390
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zachariasen W.H.'
+;
+Chicago University
+?
+Chicago
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.62
+_cell_length_b                           10.57
+_cell_length_c                           8.28
+_cell_angle_alpha                        90
+_cell_angle_beta                         126.03
+_cell_angle_gamma                        90
+_cell_volume                             893.22
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ F 0
+ Pu 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F f 8 0.1192 0.3822 0.2834 1
+ F2 F f 8 0.1214 0.0525 0.4541 1
+ F3 F f 8 0.1287 0.1509 0.1633 1
+ F4 F f 8 0.2106 0.4702 0.1060 1
+ Pu1 Pu f 8 0.2958 0.0719 0.1693 1
+ F5 F f 8 0.3843 0.2027 0.4309 1
+ Pu2 Pu e 4 0 0.2126 0.25 1
+ F6 F e 4 0 0.5921 0.25 1
+ F7 F c 4 0.25 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 451137

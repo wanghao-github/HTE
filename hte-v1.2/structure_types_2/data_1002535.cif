@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2rt ZSM11                                  # 1002535 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1002535
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1002535
+
+# Entry summary
+
+_chemical_formula_structural             SiO2
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,tI288,82
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The structure of the low temperature (20 K) form of zeolite ZSM-11 derived from 29Si MAS NMR spectroscopy, lattice energy minimization and Rietveld refinement
+;
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1996
+_journal_volume                          211
+_journal_page_first                      221
+_journal_page_last                       227
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hochgräfe M.'
+;
+Bochum Ruhr University
+Institut für Mineralogie
+Bochum
+Germany
+;
+'Marler B.'
+;
+Bochum Ruhr University
+Institut für Mineralogie
+Bochum
+Germany
+;
+'Gies H.'
+;
+Bochum Ruhr University
+Institut für Mineralogie
+Bochum
+Germany
+;
+'Fyfe C.A.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+'Feng Y.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+'Grondey H.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+'Kokotailo G.T.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           20.019
+_cell_length_b                           20.019
+_cell_length_c                           13.38
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5362.2
+_cell_formula_units_Z                    96
+_symmetry_Int_Tables_number              82
+_symmetry_space_group_name_H-M           I-4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-y, x, -z'
+ 4 'y, -x, -z'
+ 5 '0.5+x, 0.5+y, 0.5+z'
+ 6 '0.5-x, 0.5-y, 0.5+z'
+ 7 '0.5-y, 0.5+x, 0.5-z'
+ 8 '0.5+y, 0.5-x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O23 O g 8 0.0016 0.1085 0.6387 1
+ O21 O g 8 0.0044 0.2047 0.2742 1
+ Si1 Si g 8 0.0734 0.4182 0.2554 1
+ O24 O g 8 0.0776 0.0901 0.0104 1
+ Si8 Si g 8 0.0811 0.1921 0.2463 1
+ O20 O g 8 0.0883 0.1187 0.201 1
+ O2 O g 8 0.0917 0.4944 0.231 1
+ O3 O g 8 0.0939 0.3752 0.16 1
+ O9 O g 8 0.1059 0.2422 0.162 1
+ O1 O g 8 0.1131 0.3878 0.348 1
+ Si11 Si g 8 0.1182 0.0758 0.1106 1
+ Si3 Si g 8 0.1225 0.3103 0.1064 1
+ O15 O g 8 0.1249 0.2018 0.3449 1
+ Si2 Si g 8 0.1857 0.3769 0.3945 1
+ Si6 Si g 8 0.1913 0.2204 0.405 1
+ O11 O g 8 0.1948 0.0958 0.092 1
+ O7 O g 8 0.2019 0.3185 0.1 1
+ O5 O g 8 0.2051 0.2993 0.398 1
+ O6 O g 8 0.2397 0.4165 0.331 1
+ O16 O g 8 0.255 0.1835 0.3588 1
+ Si4 Si g 8 0.2727 0.0791 0.1058 1
+ Si7 Si g 8 0.2804 0.3138 0.1223 1
+ O12 O g 8 0.2826 0.0012 0.13 1
+ O19 O g 8 0.2913 0.2563 0.203 1
+ O10 O g 8 0.2991 0.1261 0.1938 1
+ Si10 Si g 8 0.3044 0.1898 0.2655 1
+ Si9 Si g 8 0.3048 0.4293 0.2653 1
+ O18 O g 8 0.3067 0.3821 0.1694 1
+ O4 O g 8 0.3136 0.0953 0.0065 1
+ O17 O g 8 0.3189 0.2995 0.0198 1
+ O22 O g 8 0.3707 0.4232 0.332 1
+ O13 O g 8 0.3789 0.1928 0.309 1
+ O14 O g 8 0.4023 0.305 0.4 1
+ O8 O g 8 0.4082 0.191 0.4963 1
+ Si12 Si g 8 0.4227 0.3826 0.3982 1
+ Si5 Si g 8 0.4231 0.2278 0.3928 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            20
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             1.2
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              20
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'X7A, NSLS, Brookhaven NL, USA'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             1.2
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.9
+_diffrn_reflns_theta_max                 31
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             118
+_refine_ls_number_reflns                 941
+_refine_ls_R_factor_all                  0.112
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          XRS-82
+
+# End of data set 1002535

@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# Cl-Pb            # PbCl4lt                                       # 1120037 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1120037
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1120037
+
+# Entry summary
+
+_chemical_formula_structural             PbCl4
+_chemical_formula_sum                    Cl4Pb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            OsO4,mS20,15
+_chemical_formula_weight                 349.0
+_chemical_melting_point                  262
+
+# Bibliographic data
+
+_publ_section_title                      'Lead(IV) chloride at 150 K'
+_journal_coden_ASTM                      ACSEBH
+_journal_year                            2002
+_journal_volume                          58
+_journal_page_first                      i79
+_journal_page_last                       i81
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Maley I.J.'
+;
+Edinburgh University
+Department of Chemistry
+Edinburgh
+United Kingdom
+;
+'Parsons S.'
+;
+Edinburgh University
+Department of Chemistry
+Edinburgh
+United Kingdom
+;
+'Pulham C.R.'
+;
+Edinburgh University
+Department of Chemistry
+Edinburgh
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.0115
+_cell_length_b                           5.359
+_cell_length_c                           10.542
+_cell_angle_alpha                        90
+_cell_angle_beta                         116.353
+_cell_angle_gamma                        90
+_cell_volume                             608.06
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl1 Cl f 8 0.1292 0.005 0.1879 1
+ Cl2 Cl f 8 0.1292 0.5092 0.4438 1
+ Pb1 Pb e 4 0 0.25755 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            150
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            88
+_diffrn_ambient_temperature              150
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI-4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2322
+_exptl_absorpt_coefficient_mu            29.35
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             25
+_refine_ls_number_reflns                 534
+_refine_ls_R_factor_all                  0.019
+_refine_ls_wR_factor_all                 0.057
+_computing_structure_refinement          'DIRDIF-96; CRYSTALS'
+
+# End of data set 1120037

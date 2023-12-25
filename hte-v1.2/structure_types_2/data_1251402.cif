@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Ga-K             # K3Ga13                                        # 1251402 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251402
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251402
+
+# Entry summary
+
+_chemical_formula_structural             K3Ga13
+_chemical_formula_sum                    Ga13K3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K3Ga13,oS128,63
+_chemical_formula_weight                 1023.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Structure Determination of a New Intermetallic Compound K3Ga13'          
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1980
+_journal_volume                          36
+_journal_page_first                      1339
+_journal_page_last                       1343
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Belin C.'
+;
+Languedoc University of Science and Technology
+Laboratoire des Acides Minéraux
+Montpellier
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.441
+_cell_length_b                           16.143
+_cell_length_c                           28.404
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2953.36
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga10 Ga h 16 0.2950 0.3895 0.0466 1
+ Ga1 Ga h 16 0.3004 0.1713 0.2032 1
+ Ga8 Ga h 16 0.3069 0.0492 0.0357 1
+ Ga2 Ga g 8 0.2099 0.0317 0.25 1
+ Ga9 Ga f 8 0 0.0158 0.0895 1
+ Ga5 Ga f 8 0 0.0732 0.1712 1
+ K1 K f 8 0 0.1376 0.6798 1
+ Ga7 Ga f 8 0 0.1571 0.0328 1
+ Ga6 Ga f 8 0 0.2410 0.1561 1
+ K3 K f 8 0 0.2871 0.5862 1
+ Ga11 Ga f 8 0 0.2982 0.0720 1
+ K2 K f 8 0 0.4837 0.1389 1
+ Ga3 Ga c 4 0 0.2724 0.25 1
+ Ga4 Ga c 4 0 0.4262 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            25.3
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             91
+_refine_ls_number_reflns                 1040
+_refine_ls_R_factor_all                  0.056
+_refine_ls_wR_factor_all                 0.070
+_computing_structure_refinement          'DRF; MULTAN-74; ORFLS'
+
+# End of data set 1251402

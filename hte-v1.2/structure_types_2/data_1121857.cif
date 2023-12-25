@@ -1,0 +1,147 @@
+##############################################################################
+#                                                                            #
+# Lu-Te            # Lu11Te4                                       # 1121857 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1121857
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1121857
+
+# Entry summary
+
+_chemical_formula_structural             Lu11Te4
+_chemical_formula_sum                    Lu11Te4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu11Te4,mS90,12
+_chemical_formula_weight                 2435.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Metal-Rich Chalcogenides. Synthesis, Structure, and Bonding of the Layered Lu11Te4. Comparison with the Similar Sc8Te3 and Ti11Se4
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2005
+_journal_volume                          44
+_journal_page_first                      3057
+_journal_page_last                       3062
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Chen L.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Xia S.Q.'
+;
+Chinese Academy of Sciences
+Fujian Institute of Research on the Structure of Matter
+Fuzhou
+China
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           30.412
+_cell_length_b                           3.9504
+_cell_length_c                           21.073
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.96
+_cell_angle_gamma                        90
+_cell_volume                             2467.2
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Lu13 Lu i 4 0.0321 0 0.8345 1
+ Lu2 Lu i 4 0.0323 0 0.4451 1
+ Te1 Te i 4 0.0417 0 0.6892 1
+ Te2 Te i 4 0.0798 0 0.2253 1
+ Lu15 Lu i 4 0.1273 0 0.0922 1
+ Lu4 Lu i 4 0.1305 0 0.3693 1
+ Lu8 Lu i 4 0.1717 0 0.5647 1
+ Lu10 Lu i 4 0.2041 0 0.7811 1
+ Te3 Te i 4 0.2161 0 0.1943 1
+ Lu6 Lu i 4 0.2426 0 0.3459 1
+ Lu9 Lu i 4 0.2547 0 0.073 1
+ Lu7 Lu i 4 0.2853 0 0.544 1
+ Te4 Te i 4 0.3417 0 0.3282 1
+ Te5 Te i 4 0.3872 0 0.5274 1
+ Lu12 Lu i 4 0.3939 0 0.2213 1
+ Lu14 Lu i 4 0.426 0 0.0383 1
+ Lu1 Lu i 4 0.4384 0 0.4137 1
+ Lu3 Lu i 4 0.5359 0 0.3075 1
+ Lu16 Lu i 4 0.5436 0 0.1179 1
+ Lu5 Lu i 4 0.659 0 0.2547 1
+ Te6 Te i 4 0.6781 0 0.0199 1
+ Lu11 Lu i 4 0.849 0 0.0957 1
+ Lu17 Lu a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker APEX CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    7036
+_exptl_absorpt_coefficient_mu            72.236
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             138
+_refine_ls_number_reflns                 2760
+_refine_ls_R_factor_all                  0.0388
+_refine_ls_wR_factor_all                 0.0785
+_computing_structure_refinement          'SHELXTL package'
+
+# End of data set 1121857

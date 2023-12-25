@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# As-Rb            # Rb3As7ht                                      # 1707535 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1707535
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1707535
+
+# Entry summary
+
+_chemical_formula_structural             Rb3As7
+_chemical_formula_sum                    As7Rb3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb3As7,mP80,14
+_chemical_formula_weight                 780.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Alkaline Metal arsenides A3As7 and AAs (A= K, Rb, Cs). Preparation, Crystal Structure, Vibrational Spectroscopy
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            2002
+_journal_volume                          57
+_journal_page_first                      963
+_journal_page_last                       975
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Emmerling F.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.573
+_cell_length_b                           13.102
+_cell_length_c                           26.927
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.972
+_cell_angle_gamma                        90
+_cell_volume                             2670.2
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ As13 As e 4 0.0156 0.3023 0.07903 1
+ As24 As e 4 0.0297 0.2883 0.35078 1
+ As11 As e 4 0.0553 0.272 0.49869 1
+ As21 As e 4 0.0598 0.6321 0.18593 1
+ As22 As e 4 0.0825 0.6689 0.27437 1
+ Rb5 Rb e 4 0.1118 0.547 0.40008 1
+ As27 As e 4 0.183 0.8922 0.18755 1
+ Rb3 Rb e 4 0.1873 0.5552 0.04736 1
+ Rb2 Rb e 4 0.1925 0.3956 0.2346 1
+ As14 As e 4 0.2357 0.0813 0.01748 1
+ As12 As e 4 0.279 0.16 0.46679 1
+ As16 As e 4 0.3078 0.304 0.10916 1
+ Rb6 Rb e 4 0.4098 0.1166 0.20359 1
+ As17 As e 4 0.4561 0.1575 0.0681 1
+ As15 As e 4 0.4869 0.3354 0.03265 1
+ As26 As e 4 0.5448 0.2842 0.30181 1
+ Rb1 Rb e 4 0.61 0.3438 0.43435 1
+ As23 As e 4 0.6313 0.127 0.33195 1
+ Rb4 Rb e 4 0.7117 0.4782 0.1283 1
+ As25 As e 4 0.7375 0.313 0.2303 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            220
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              220
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    13026
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            28.116
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             182
+_refine_ls_number_reflns                 4682
+_refine_ls_R_factor_all                  0.1582
+_refine_ls_wR_factor_all                 0.2391
+_computing_structure_refinement          'SADABS; SHELXS-97; SHELXL-97'
+
+# End of data set 1707535

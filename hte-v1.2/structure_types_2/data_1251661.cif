@@ -1,0 +1,228 @@
+##############################################################################
+#                                                                            #
+# Ni-Zn            # Zn53Ni16rt                                    # 1251661 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251661
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251661
+
+# Entry summary
+
+_chemical_formula_structural             NiZn3.r
+_chemical_formula_sum                    Ni16Zn53
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn53Ni16,oS276,39
+_chemical_formula_weight                 4404.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'THE CRYSTAL STRUCTURE OF NiZn3.r'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1980
+_journal_volume                          75
+_journal_page_first                      51
+_journal_page_last                       63
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nover G.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           33.326
+_cell_length_b                           12.499
+_cell_length_c                           8.869
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3694.31
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              39
+_symmetry_space_group_name_H-M           Aem2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, 0.5+z'
+ 4 'x, -y, 0.5+z'
+ 5 'x, 0.5+y, 0.5+z'
+ 6 '-x, 0.5-y, 0.5+z'
+ 7 '-x, 0.5+y, 1+z'
+ 8 'x, 0.5-y, 1+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn33 Zn d 8 0.0262 0.0738 0.174 1
+ Zn23 Zn d 8 0.0297 0.1288 0.482 1
+ Zn22 Zn d 8 0.0397 0.5690 0.370 1
+ Zn30 Zn d 8 0.0906 0.5620 0.136 1
+ Zn21 Zn d 8 0.0941 0.1378 0.066 1
+ Ni10 Ni d 8 0.0947 0.0730 0.348 1
+ Zn20 Zn d 8 0.1476 0.5716 0.361 1
+ Zn27 Zn d 8 0.1565 0.1250 0.503 1
+ Zn19 Zn d 8 0.1635 0.0734 0.170 1
+ Ni7 Ni d 8 0.2154 0.5752 0.178 1
+ Zn25 Zn d 8 0.2172 0.6339 0.468 1
+ Zn18 Zn d 8 0.2252 0.0650 0.381 1
+ Zn17 Zn d 8 0.2730 0.0645 0.143 1
+ Zn9 Zn d 8 0.2825 0.1328 0.560 1
+ Ni5 Ni d 8 0.2840 0.5724 0.350 1
+ Zn7 Zn d 8 0.3365 0.0716 0.357 1
+ Zn16 Zn d 8 0.3422 0.1242 0.023 1
+ Ni2 Ni d 8 0.4050 0.0762 0.180 1
+ Zn4 Zn d 8 0.4056 0.1383 0.462 1
+ Zn12 Zn d 8 0.4710 0.1269 0.043 1
+ Zn1 Zn d 8 0.4737 0.0718 0.354 1
+ Zn2 Zn d 8 0.5416 0.0689 0.153 1
+ Zn3 Zn d 8 0.5914 0.0627 0.388 1
+ Zn6 Zn d 8 0.6465 0.0723 0.163 1
+ Zn24 Zn c 4 0.0214 0.25 0.721 1
+ Ni12 Ni c 4 0.0317 0.25 0.004 1
+ Zn32 Zn c 4 0.0580 0.25 0.277 1
+ Ni11 Ni c 4 0.0935 0.25 0.533 1
+ Zn31 Zn c 4 0.0953 0.25 0.814 1
+ Zn29 Zn c 4 0.1350 0.25 0.287 1
+ Ni9 Ni c 4 0.1552 0.25 0.011 1
+ Zn28 Zn c 4 0.1722 0.25 0.730 1
+ Zn26 Zn c 4 0.2133 0.25 0.215 1
+ Ni8 Ni c 4 0.2188 0.25 0.500 1
+ Ni6 Ni c 4 0.2810 0.25 0.028 1
+ Zn10 Zn c 4 0.2868 0.25 0.312 1
+ Ni4 Ni c 4 0.3428 0.25 0.517 1
+ Zn15 Zn c 4 0.3649 0.25 0.240 1
+ Ni3 Ni c 4 0.4063 0.25 0.000 1
+ Zn14 Zn c 4 0.4431 0.25 0.251 1
+ Zn13 Zn c 4 0.5198 0.25 0.304 1
+ Ni1 Ni c 4 0.5307 0.25 0.022 1
+ Zn5 Zn c 4 0.5957 0.25 0.215 1
+ Zn8 Zn c 4 0.6730 0.25 0.296 1
+ Zn11 Zn c 4 0.7490 0.25 0.264 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2428
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1678
+_refine_ls_R_factor_all                  0.073
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 62.55 3
+ 3 1 1 60.75 17
+ 6 0 0 55.53 2
+ 0 2 0 44.41 1
+ 0 2 2 36.13 2
+ 8 1 1 36.12 2
+ 5 2 2 31.78 1
+ 2 3 1 28.34 1
+ 8 1 3 27.96 3
+ 6 0 4 27.26 2
+ 10 2 0 26.64 1
+ 0 2 4 25.63 68
+ 11 2 0 25.02 59
+ 10 2 2 24.5 1
+ 13 1 1 24.19 16
+ 2 3 3 23.85 31
+ 8 3 1 23.65 30
+ 3 1 5 23.53 20
+ 11 2 2 23.22 28
+ 14 1 1 22.61 1
+ 13 1 3 21.18 71
+ 5 4 0 21.04 100
+ 0 4 2 20.9 100
+ 8 3 3 20.86 100
+ 16 0 0 20.85 100
+ 8 1 5 20.84 200
+ 6 4 0 20.59 4
+ 10 2 4 20.26 3
+ 9 3 3 20.22 1
+ 14 1 3 20.14 3
+ 5 4 2 19.95 3
+ 15 2 0 19.86 0
+ 16 0 2 19.76 3
+ 6 4 2 19.56 1
+ 11 2 4 19.53 2
+ 13 3 1 19.15 20
+ 0 2 6 18.87 41
+ 3 3 5 18.81 30
+ 5 2 6 18.14 17
+ 0 4 4 18.09 11
+ 16 2 2 18.05 38
+ 11 4 0 17.88 17
+ 10 4 2 17.7 1
+ 10 0 6 17.66 1
+ 13 3 3 17.56 12
+ 13 1 5 17.53 19
+ 5 4 4 17.44 2
+ 3 5 1 17.35 22
+ 3 1 7 17.29 1
+ 6 4 4 17.2 1
+ 19 1 1 17.05 1
+ 14 1 5 16.92 2
+ 8 5 1 16.18 4
+ 3 5 3 16.15 12
+ 8 1 7 16.14 0
+ 11 2 6 16.01 2
+ 19 1 3 15.9 3
+ 9 5 1 15.87 1
+ 0 0 8 15.62 1
+ 18 3 1 15.57 3
+ 11 4 4 15.53 3
+
+# End of data set 1251661

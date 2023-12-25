@@ -1,0 +1,208 @@
+##############################################################################
+#                                                                            #
+# Mg-Zn            # Mg2Zn11                                       # 1251136 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251136
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251136
+
+# Entry summary
+
+_chemical_formula_structural             Mg2Zn11
+_chemical_formula_sum                    Mg2Zn11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mg2Zn11,cP39,200
+_chemical_formula_weight                 767.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Die Kristallstruktur von Mg2Zn11. Isomorphie zwischen Mg2Zn11 und Mg2Cu6Al5' 
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1949
+_journal_volume                          3
+_journal_page_first                      835
+_journal_page_last                       843
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Samson S.'
+;
+Stockholm University
+Department of Inorganic Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.552
+_cell_length_b                           8.552
+_cell_length_c                           8.552
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             625.47
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              200
+_symmetry_space_group_name_H-M           Pm-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn1 Zn j 12 0 0.157 0.257 1
+ Zn2 Zn i 8 0.278 0.278 0.278 1
+ Zn3 Zn h 6 0.265 0.5 0.5 1
+ Zn4 Zn g 6 0.340 0.5 0 1
+ Mg Mg f 6 0.18 0 0.5 1
+ Zn5 Zn a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 1620 5.3
+ 1 1 1 2420 3.3
+ 2 0 0 3270 3
+ 2 1 0 4030 5
+ 2 1 1 4850 3
+ 3 0 0 7300 3.3
+ 3 1 0 8130 3
+ 3 1 1 8900 3
+ 2 2 2 9720 6.7
+ 3 2 0 10550 6.7
+ 3 2 1 11370 7.3
+ 4 0 0 12970 7
+ 4 1 0 13800 8
+ 4 1 1 14640 5
+ 4 2 0 16240 5.3
+ 4 2 1 17070 5
+ 4 2 2 19580 0.7
+ 5 0 0 20290 3.3
+ 5 1 0 21180 2.3
+ 5 2 0 23590 2
+ 5 2 1 24400 1.7
+ 4 4 0 25990 3.3
+ 5 2 2 26770 2
+ 5 3 0 27710 1
+ 6 0 0 29270 4.7
+ 6 1 0 29900 1
+ 5 3 2 30920 5.3
+ 6 2 0 32520 2
+ 6 2 1 33310 4.7
+ 5 4 1 34130 3.3
+ 6 2 2 35800 2.7
+ 6 3 0 36610 3.3
+ 6 3 1 37420 2.7
+ 7 0 0 39870 5.3
+ 7 1 0 40600 1.7
+ 6 4 0 42310 3.3
+ 7 2 0 43080 3
+ 7 2 1 43810 1
+ 6 4 2 45580 1.7
+ 7 2 2 46310 2.7
+ 7 3 1 47980 1
+ 6 5 0 49570 1
+ 7 3 2 50450 3.3
+ 8 0 0 51930 1
+ 8 1 0 52820 1
+ 8 1 1 53690 3.3
+ 8 2 0 55220 1
+ 8 2 1 56060 2
+ 6 5 3 56990 0.7
+ 8 2 2 58540 1
+ 7 5 1 60970 0.7
+ 6 6 2 61840 0.7
+ 8 3 2 62550 1.7
+ 9 0 0 65860 1
+ 9 2 1 69930 2
+ 6 6 4 71600 0.7
+ 9 2 2 72270 2
+ 9 3 0 73070 1.7
+ 9 3 2 76440 3.3
+ 9 4 0 78710 2
+ 9 4 1 79560 2.7
+ 10 0 0 81230 2.7
+ 10 1 0 82080 1
+ 10 2 0 84470 2
+ 9 5 1 86890 1
+ 10 3 0 88580 1
+ 10 3 1 89370 0.7
+ 10 3 2 91950 0.7
+ 8 7 1 92660 1
+ 10 4 0 94330 0.7
+ 10 4 1 95110 0.7
+
+# End of data set 1251136

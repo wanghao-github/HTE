@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# Cu-S             # Cu2Srt cha                                    # 1251002 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251002
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251002
+
+# Entry summary
+
+_chemical_formula_structural             Cu2S
+_chemical_formula_sum                    Cu2S
+_chemical_name_mineral                   'chalcocite low'
+_chemical_compound_source                'Bristol, Connecticut'
+_chemical_name_structure_type            Cu2S,mP144,14
+_chemical_formula_weight                 159.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structures of low chalcocite and djurleite'                      
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1979
+_journal_volume                          150
+_journal_page_first                      299
+_journal_page_last                       320
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Evans H.T. Jr.'
+;
+U.S. Geological Survey
+National Center
+Reston
+U.S.A. Virginia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.228
+_cell_length_b                           11.884
+_cell_length_c                           13.494
+_cell_angle_alpha                        90
+_cell_angle_beta                         116.22
+_cell_angle_gamma                        90
+_cell_volume                             2190.73
+_cell_formula_units_Z                    48
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cu20 Cu e 4 0.0008 0.0856 0.2174 1
+ Cu15 Cu e 4 0.0261 0.7955 0.2539 1
+ S1 S e 4 0.0425 0.4171 0.3847 1
+ S12 S e 4 0.0483 0.7324 0.4151 1
+ S2 S e 4 0.0587 0.0768 0.4049 1
+ Cu8 Cu e 4 0.0586 0.3588 0.0685 1
+ Cu7 Cu e 4 0.0655 0.1233 0.0578 1
+ Cu6 Cu e 4 0.1065 0.5783 0.1636 1
+ Cu5 Cu e 4 0.1276 0.5849 0.6825 1
+ Cu1 Cu e 4 0.1355 0.2496 0.4282 1
+ Cu13 Cu e 4 0.1791 0.4642 0.3621 1
+ S11 S e 4 0.1970 0.7384 0.2204 1
+ Cu23 Cu e 4 0.2028 0.7931 0.0630 1
+ S3 S e 4 0.2060 0.4176 0.2128 1
+ S4 S e 4 0.2083 0.0817 0.2143 1
+ Cu14 Cu e 4 0.2170 0.0624 0.3841 1
+ Cu9 Cu e 4 0.2385 0.2496 0.1494 1
+ Cu22 Cu e 4 0.2963 0.3056 0.3622 1
+ S7 S e 4 0.2999 0.5781 0.0131 1
+ Cu17 Cu e 4 0.3022 0.5434 0.1792 1
+ S9 S e 4 0.3040 0.2481 0.0260 1
+ Cu21 Cu e 4 0.3773 0.1032 0.3304 1
+ Cu2 Cu e 4 0.3829 0.0740 0.0594 1
+ Cu3 Cu e 4 0.3898 0.4084 0.0575 1
+ S10 S e 4 0.4521 0.2763 0.3688 1
+ Cu19 Cu e 4 0.4757 0.2082 0.2300 1
+ Cu16 Cu e 4 0.4974 0.4205 0.2808 1
+ S5 S e 4 0.5509 0.0883 0.1642 1
+ S6 S e 4 0.5556 0.4274 0.1513 1
+ Cu10 Cu e 4 0.5571 0.1477 0.4919 1
+ Cu11 Cu e 4 0.5746 0.1229 0.0134 1
+ Cu4 Cu e 4 0.6372 0.2600 0.2103 1
+ Cu18 Cu e 4 0.6950 0.4569 0.3289 1
+ S8 S e 4 0.7157 0.0832 0.0026 1
+ Cu12 Cu e 4 0.7422 0.2643 0.0929 1
+ Cu24 Cu e 4 0.8692 0.4034 0.0483 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            23.8
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2931
+_refine_ls_R_factor_all                  0.086
+_refine_ls_wR_factor_all                 0.056
+_computing_structure_refinement          'XRAY-76 package; RFINE'
+
+# End of data set 1251002

@@ -1,0 +1,149 @@
+##############################################################################
+#                                                                            #
+# As-Mn            # Mn3As2rt                                      # 1251558 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251558
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251558
+
+# Entry summary
+
+_chemical_formula_structural             Mn3As2
+_chemical_formula_sum                    As2Mn3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn3As2,mS20,12
+_chemical_formula_weight                 314.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Mn3As2(III)'                                        
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1994
+_journal_volume                          113
+_journal_page_first                      257
+_journal_page_last                       260
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hagedorn M.F.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Jeitschko W.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.247
+_cell_length_b                           3.695
+_cell_length_c                           9.046
+_cell_angle_alpha                        90
+_cell_angle_beta                         132.23
+_cell_angle_gamma                        90
+_cell_volume                             327.86
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ As1 As i 4 0.06069 0 0.34317 1
+ As2 As i 4 0.24682 0 0.17768 1
+ Mn1 Mn i 4 0.30820 0 0.6832 1
+ Mn2 Mn i 4 0.38883 0 0.0869 1
+ Mn3 Mn d 2 0 0.5 0.5 1
+ Mn4 Mn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2839
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             34
+_refine_ls_number_reflns                 553
+_refine_ls_R_factor_all                  0.024
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 2220 1
+ 2 0 -1 2280 1
+ 1 1 -1 8540 5
+ 4 0 -2 9190 3
+ 2 0 1 10480 5
+ 4 0 -3 12130 1
+ 1 1 1 12640 5
+ 3 1 -1 12760 5
+ 1 1 -2 13150 5
+ 3 1 -2 13310 7
+ 4 0 0 16660 5
+ 3 1 -3 18400 9
+ 6 0 -3 20640 3
+ 2 0 2 21250 7
+ 1 1 2 21390 5
+ 1 1 -3 22290 5
+ 6 0 -4 23970 5
+ 5 1 -1 25310 9
+ 3 1 -4 27760 5
+ 0 2 0 29290 9
+ 8 0 -3 37490 1
+
+# End of data set 1251558

@@ -1,0 +1,120 @@
+##############################################################################
+#                                                                            #
+# F-Ge             # GeF2rt                                        # 1250283 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250283
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250283
+
+# Entry summary
+
+_chemical_formula_structural             GeF2
+_chemical_formula_sum                    F2Ge
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            GeF2,oP12,19
+_chemical_formula_weight                 110.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Germanium Difluoride'                               
+_journal_coden_ASTM                      JCSIAP
+_journal_year                            1966
+_journal_volume                          ?
+_journal_page_first                      30
+_journal_page_last                       33
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Trotter J.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+'Akhtar M.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+'Bartlett N.'
+;
+British Columbia University
+Department of Chemistry
+Vancouver
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.682
+_cell_length_b                           5.178
+_cell_length_c                           8.312
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             201.51
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              19
+_symmetry_space_group_name_H-M           P212121
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F a 4 0.0285 0.0825 0.0183 1
+ Ge Ge a 4 0.2660 0.4917 0.1311 1
+ F2 F a 4 0.4328 0.2538 0.2792 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1, Cu Ka2'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device
+'precession and Weissenberg photographs'                                      
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            20.1
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 225
+_refine_ls_R_factor_all                  0.129
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250283

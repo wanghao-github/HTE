@@ -1,0 +1,153 @@
+##############################################################################
+#                                                                            #
+# Cd-I             # CdI228H8                                      # 1012144 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1012144
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1012144
+
+# Entry summary
+
+_chemical_formula_structural             CdI2
+_chemical_formula_sum                    CdI2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CdI2-h,hP42,156
+_chemical_formula_weight                 366.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structures of 20 New Polytypes of Cadmium Iodide'                            
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1984
+_journal_volume                          40
+_journal_page_first                      905
+_journal_page_last                       907
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gierlotka S.'
+;
+Warsaw University of Technology
+Institute of Physics
+Warsaw
+Poland
+;
+'Palosz B.'
+;
+Warsaw University of Technology
+Institute of Physics
+Warsaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.24
+_cell_length_b                           4.24
+_cell_length_c                           95.69
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1489.8
+_cell_formula_units_Z                    14
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cd3 Cd c 1 0.666667 0.333333 0.01786 1
+ I3 I c 1 0.666667 0.333333 0.10714 1
+ Cd1 Cd c 1 0.666667 0.333333 0.16071 1
+ I27 I c 1 0.666667 0.333333 0.25 1
+ I25 I c 1 0.666667 0.333333 0.32143 1
+ Cd12 Cd c 1 0.666667 0.333333 0.375 1
+ I22 I c 1 0.666667 0.333333 0.42857 1
+ I20 I c 1 0.666667 0.333333 0.5 1
+ Cd9 Cd c 1 0.666667 0.333333 0.58929 1
+ I15 I c 1 0.666667 0.333333 0.67857 1
+ I13 I c 1 0.666667 0.333333 0.75 1
+ Cd6 Cd c 1 0.666667 0.333333 0.80357 1
+ I10 I c 1 0.666667 0.333333 0.85714 1
+ I8 I c 1 0.666667 0.333333 0.92857 1
+ I5 I b 1 0.333333 0.666667 0.03571 1
+ Cd2 Cd b 1 0.333333 0.666667 0.08929 1
+ I1 I b 1 0.333333 0.666667 0.17857 1
+ Cd14 Cd b 1 0.333333 0.666667 0.23214 1
+ I26 I b 1 0.333333 0.666667 0.28571 1
+ I24 I b 1 0.333333 0.666667 0.35714 1
+ Cd11 Cd b 1 0.333333 0.666667 0.44643 1
+ I19 I b 1 0.333333 0.666667 0.53571 1
+ I17 I b 1 0.333333 0.666667 0.60714 1
+ Cd8 Cd b 1 0.333333 0.666667 0.66071 1
+ I14 I b 1 0.333333 0.666667 0.71429 1
+ I12 I b 1 0.333333 0.666667 0.78571 1
+ Cd5 Cd b 1 0.333333 0.666667 0.875 1
+ I7 I b 1 0.333333 0.666667 0.96429 1
+ I6 I a 1 0 0 0.0 1
+ I4 I a 1 0 0 0.07143 1
+ I2 I a 1 0 0 0.14286 1
+ I28 I a 1 0 0 0.21429 1
+ Cd13 Cd a 1 0 0 0.30357 1
+ I23 I a 1 0 0 0.39286 1
+ I21 I a 1 0 0 0.46429 1
+ Cd10 Cd a 1 0 0 0.51786 1
+ I18 I a 1 0 0 0.57143 1
+ I16 I a 1 0 0 0.64286 1
+ Cd7 Cd a 1 0 0 0.73214 1
+ I11 I a 1 0 0 0.82143 1
+ I9 I a 1 0 0 0.89286 1
+ Cd4 Cd a 1 0 0 0.94643 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1012144

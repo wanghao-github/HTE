@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# Bi-O             # Bi4O7                                         # 1410183 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1410183
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1410183
+
+# Entry summary
+
+_chemical_formula_structural             Bi34+Bi5+O7
+_chemical_formula_sum                    Bi4O7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Bi4O7,aP22,2
+_chemical_formula_weight                 947.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structures of the Binary Mixed Valence Compound Bi3+3Bi5+O7 and Isotypic Bi3SbO7 as Determined by High Resolution X-Ray and Neutron Powder Diffraction
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            2002
+_journal_volume                          163
+_journal_page_first                      332
+_journal_page_last                       339
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dinnebier R.E.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Ibberson R.M.'
+;
+Rutherford Appleton Laboratory
+ISIS Facility
+Didcot
+United Kingdom
+;
+'Ehrenberg H.'
+;
+Darmstadt University of Technology
+Fachbereich Materialwissenschaft
+Darmstadt
+Germany
+;
+'Jansen M.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.7253
+_cell_length_b                           6.995
+_cell_length_c                           7.7961
+_cell_angle_alpha                        72.566
+_cell_angle_beta                         88.842
+_cell_angle_gamma                        76.925
+_cell_volume                             340.4
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O i 2 0.108 0.684 0.54 1
+ O2 O i 2 0.109 0.679 0.136 1
+ Bi2 Bi i 2 0.2615 0.493 0.3787 1
+ O6 O i 2 0.285 0.04 0.443 1
+ O5 O i 2 0.287 0.07 0.021 1
+ O4 O i 2 0.475 0.343 0.128 1
+ Bi4 Bi i 2 0.4848 0.0042 0.7569 1
+ O7 O i 2 0.528 0.635 0.305 1
+ Bi1 Bi i 2 0.7293 0.485 0.1253 1
+ O3 O i 2 0.895 0.087 0.226 1
+ Bi3 Bi b 1 0 0 0.5 1
+ Bi5 Bi a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             1.24587
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'B2, Hasylab, DESY, Hamburg, Germany'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             1.24587
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 34.8
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'Fourier synthesis, starting values from the literature'                      
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 554
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1410183

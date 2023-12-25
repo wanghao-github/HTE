@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Mn-O             # Mn2O3rt                                       # 1250552 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250552
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250552
+
+# Entry summary
+
+_chemical_formula_structural             a-Mn2O3
+_chemical_formula_sum                    Mn2O3
+_chemical_name_mineral                   bixbyite
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn2O3,oP80,61
+_chemical_formula_weight                 157.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures of a-Mn2O3, (Mn0.983Fe0.017)2O3 and (Mn0.37Fe0.63)2O3 and Relation to Magnetic Ordering
+;
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1971
+_journal_volume                          27
+_journal_page_first                      821
+_journal_page_last                       828
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Geller S.'
+;
+Rockwell International Corp.
+Science Center
+Thousand Oaks
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.4047
+_cell_length_b                           9.4233
+_cell_length_c                           9.4157
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             834.45
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              61
+_symmetry_space_group_name_H-M           Pbca
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mn3 Mn c 8 0.00590 0.25253 0.21521 1
+ O7 O c 8 0.08507 0.12988 0.35565 1
+ O11 O c 8 0.13429 0.14715 0.08694 1
+ O6 O c 8 0.15030 0.41534 0.13299 1
+ Mn5 Mn c 8 0.21467 0.00130 0.25301 1
+ Mn4 Mn c 8 0.25436 0.28507 0.00462 1
+ O9 O c 8 0.35569 0.08243 0.37447 1
+ O8 O c 8 0.37588 0.35307 0.41962 1
+ O10 O c 8 0.41947 0.37238 0.14919 1
+ Mn1 Mn b 4 0 0 0.5 1
+ Mn2 Mn a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Buerger-Supper-Pace-Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            11.945
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             94
+_refine_ls_number_reflns                 1115
+_refine_ls_R_factor_all                  0.034
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250552

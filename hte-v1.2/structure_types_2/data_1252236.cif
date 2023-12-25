@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# O-V              # VO2ht-A m                                     # 1252236 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252236
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252236
+
+# Entry summary
+
+_chemical_formula_structural             'VO2(A) HTP'
+_chemical_formula_sum                    O2V
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            VO2,tI24,87
+_chemical_formula_weight                 82.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structures and Transition Mechanism of VO2(A)'                       
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1998
+_journal_volume                          141
+_journal_page_first                      594
+_journal_page_last                       598
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Oka Y.'
+;
+Kyoto University
+Department of Natural Environment Sciences
+Kyoto
+Japan
+;
+'Sato S.'
+;
+Rigaku Corp.
+Institute of X-Ray Research
+Akishima
+Japan
+;
+'Yao T.'
+;
+Kyoto University
+Department of Fundamental Energy Science
+Kyoto
+Japan
+;
+'Yamamoto N.'
+;
+Kyoto University
+Graduate School of Human and Environmental Studies
+Kyoto
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.476
+_cell_length_b                           8.476
+_cell_length_c                           3.824
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             274.73
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              87
+_symmetry_space_group_name_H-M           I4/m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-y, x, -z'
+ 5 '-y, x, z'
+ 6 'x, y, -z'
+ 7 'y, -x, -z'
+ 8 'y, -x, z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5-z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-y, 0.5+x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5+z'
+ 14 '0.5+x, 0.5+y, 0.5-z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5-x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ V V h 8 0.02543 0.30024 0 1
+ O1 O h 8 0.1528 0.4995 0 1
+ O2 O h 8 0.1601 0.1601 0 1
+
+
+_exptl_crystal_colour                    'black brownish'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            473
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              473
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC-7R'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            6.59
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             21
+_refine_ls_number_reflns                 453
+_refine_ls_R_factor_all                  0.012
+_refine_ls_wR_factor_all                 0.033
+_computing_structure_refinement          'TEXSAN package; SHELXL-93'
+
+# End of data set 1252236

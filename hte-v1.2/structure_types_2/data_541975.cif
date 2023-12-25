@@ -1,0 +1,113 @@
+##############################################################################
+#                                                                            #
+# I-Nb             # NbI5tricl                                     #  541975 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541975
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541975
+
+# Entry summary
+
+_chemical_formula_structural             NbI5
+_chemical_formula_sum                    I5Nb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            UCl5,aP12,2
+_chemical_formula_weight                 727.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Darstellung, Struktur und Eigenschaften einer neuen Modifikation von NbI5'   
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1980
+_journal_volume                          35
+_journal_page_first                      12
+_journal_page_last                       16
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Krebs B.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Sinram D.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.977
+_cell_length_b                           7.591
+_cell_length_c                           10.322
+_cell_angle_alpha                        109.07
+_cell_angle_beta                         90.93
+_cell_angle_gamma                        116.17
+_cell_volume                             455.35
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I(3) I i 2 0.03823 0.90788 0.16357 1
+ I(2) I i 2 0.1846 0.49488 0.24885 1
+ I(5) I i 2 0.25168 0.31073 0.54548 1
+ Nb Nb i 2 0.39342 0.2757 0.27579 1
+ I(4) I i 2 0.57812 0.31339 0.05847 1
+ I(1) I i 2 0.62708 0.11165 0.35077 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.046
+_refine_ls_wR_factor_all                 0.049
+_computing_structure_refinement          ?
+
+# End of data set 541975

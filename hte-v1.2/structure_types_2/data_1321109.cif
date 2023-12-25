@@ -1,0 +1,159 @@
+##############################################################################
+#                                                                            #
+# Er-Mg            # Mg24Er5                                       # 1321109 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1321109
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1321109
+
+# Entry summary
+
+_chemical_formula_structural             Er5Mg24
+_chemical_formula_sum                    Er5Mg24
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti5Re24,cI58,217
+_chemical_formula_weight                 1420.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Neutron Diffraction Study on Intermetallic Er5Mg24 and Tm5Mg24'              
+_journal_coden_ASTM                      MSFOEP
+_journal_year                            2004
+_journal_volume                          443/444
+_journal_page_first                      263
+_journal_page_last                       266
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schäfer W.'
+;
+Bonn Rheinich Friedrich Wilhelm University
+Mineralogisch-Petrologisches Institut
+Bonn
+Germany
+;
+'Buschow K.H.J.'
+;
+Amsterdam University
+Van der Waals-Zeeman Laboratorium
+Amsterdam
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.263
+_cell_length_b                           11.263
+_cell_length_c                           11.263
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1428.8
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              217
+_symmetry_space_group_name_H-M           I-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 '0.5+x, 0.5+y, 0.5+z'
+ 26 '0.5-x, 0.5-y, 0.5+z'
+ 27 '0.5-x, 0.5-z, 0.5+y'
+ 28 '0.5-x, 0.5+y, 0.5-z'
+ 29 '0.5-x, 0.5+z, 0.5-y'
+ 30 '0.5-y, 0.5-x, 0.5+z'
+ 31 '0.5-y, 0.5-z, 0.5+x'
+ 32 '0.5-y, 0.5+x, 0.5-z'
+ 33 '0.5-y, 0.5+z, 0.5-x'
+ 34 '0.5-z, 0.5-x, 0.5+y'
+ 35 '0.5-z, 0.5-y, 0.5+x'
+ 36 '0.5-z, 0.5+x, 0.5-y'
+ 37 '0.5-z, 0.5+y, 0.5-x'
+ 38 '0.5+x, 0.5-y, 0.5-z'
+ 39 '0.5+x, 0.5-z, 0.5-y'
+ 40 '0.5+x, 0.5+z, 0.5+y'
+ 41 '0.5+y, 0.5-x, 0.5-z'
+ 42 '0.5+y, 0.5-z, 0.5-x'
+ 43 '0.5+y, 0.5+x, 0.5+z'
+ 44 '0.5+y, 0.5+z, 0.5+x'
+ 45 '0.5+z, 0.5-x, 0.5-y'
+ 46 '0.5+z, 0.5-y, 0.5-x'
+ 47 '0.5+z, 0.5+x, 0.5+y'
+ 48 '0.5+z, 0.5+y, 0.5+x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mg2 Mg g 24 0.0927 0.0927 0.2791 1
+ Mg1 Mg g 24 0.3557 0.3557 0.0324 1
+ Er2 Er c 8 0.3126 0.3126 0.3126 1
+ Er1 Er a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.095
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.095
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          FULLPROF
+
+# End of data set 1321109

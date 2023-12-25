@@ -1,0 +1,132 @@
+##############################################################################
+#                                                                            #
+# O-W              # WO3rt                                         # 1250878 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250878
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250878
+
+# Entry summary
+
+_chemical_formula_structural             'triclinic WO3'
+_chemical_formula_sum                    O3W
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WO3,aP32,2
+_chemical_formula_weight                 231.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'STRUCTURE REFINEMENT OF TRICLINIC TUNGSTEN TRIOXIDE'                         
+_journal_coden_ASTM                      JPCSAW
+_journal_year                            1995
+_journal_volume                          56
+_journal_page_first                      1305
+_journal_page_last                       1315
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Woodward P.M.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+'Sleight A.W.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+'Vogt T.'
+;
+Brookhaven National Laboratory
+Department of Physics
+Upton
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.3126
+_cell_length_b                           7.5252
+_cell_length_c                           7.6894
+_cell_angle_alpha                        88.847
+_cell_angle_beta                         89.088
+_cell_angle_gamma                        89.060
+_cell_volume                             422.94
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O4 O i 2 0.0002 0.0355 0.2123 1
+ O2 O i 2 0.0017 0.4628 0.2835 1
+ O9 O i 2 0.2128 0.0411 0.5042 1
+ O8 O i 2 0.2140 0.7608 0.2737 1
+ O5 O i 2 0.2143 0.2602 0.7833 1
+ W1 W i 2 0.2434 0.0259 0.7850 1
+ W2 W i 2 0.2498 0.528 0.7158 1
+ W4 W i 2 0.2501 0.5338 0.2190 1
+ W3 W i 2 0.2562 0.0313 0.2817 1
+ O11 O i 2 0.2873 0.4841 0.4922 1
+ O7 O i 2 0.2896 0.2586 0.2278 1
+ O12 O i 2 0.2997 0.9811 0.0060 1
+ O1 O i 2 0.4991 0.0346 0.7108 1
+ O3 O i 2 0.5008 0.5364 0.2148 1
+ O6 O i 2 0.7128 0.2389 0.2836 1
+ O10 O i 2 0.7850 0.4577 0.0043 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'H1A, HFBR reactor, Brookhaven NL, USA'                                       
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.8857
+_diffrn_reflns_number                    999
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             75
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1250878

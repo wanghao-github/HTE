@@ -1,0 +1,150 @@
+##############################################################################
+#                                                                            #
+# Br-Ge            # GeBr4rt                                       # 1120972 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1120972
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1120972
+
+# Entry summary
+
+_chemical_formula_structural             a-GeBr4
+_chemical_formula_sum                    Br4Ge
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SnI4,cP40,205
+_chemical_formula_weight                 392.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of germanium tetrabromide, a-GeBr4, room temperature modification
+;
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            2005
+_journal_volume                          220
+_journal_page_first                      523
+_journal_page_last                       523
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Köhler J.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Okudera H.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Reuter D.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.172
+_cell_length_b                           11.172
+_cell_length_c                           11.172
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1394.42
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              205
+_symmetry_space_group_name_H-M           Pa-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5-y, -z, 0.5+x'
+ 7 '0.5-y, 0.5+z, x'
+ 8 '-y, -z, -x'
+ 9 '-y, 0.5+z, 0.5-x'
+ 10 '0.5-z, -x, 0.5+y'
+ 11 '0.5-z, 0.5+x, y'
+ 12 '-z, -x, -y'
+ 13 '-z, 0.5+x, 0.5-y'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, y, 0.5-z'
+ 16 'x, 0.5-y, 0.5+z'
+ 17 '0.5+y, 0.5-z, -x'
+ 18 '0.5+y, z, 0.5-x'
+ 19 'y, 0.5-z, 0.5+x'
+ 20 'y, z, x'
+ 21 '0.5+z, 0.5-x, -y'
+ 22 '0.5+z, x, 0.5-y'
+ 23 'z, 0.5-x, 0.5+y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Br2 Br d 24 -0.0203 0.50838 0.25135 1
+ Ge Ge c 8 0.13098 0.13098 0.13098 1
+ Br1 Br c 8 0.24787 0.24787 0.24787 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            213
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              213
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4326
+_exptl_absorpt_coefficient_mu            27.180
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             17
+_refine_ls_number_reflns                 206
+_refine_ls_R_factor_all                  0.027
+_refine_ls_wR_factor_all                 0.077
+_computing_structure_refinement          'SHELXL-97 package'
+
+# End of data set 1120972

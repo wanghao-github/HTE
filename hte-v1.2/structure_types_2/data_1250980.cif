@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# Eu-P             # EuP7rt                                        # 1250980 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250980
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250980
+
+# Entry summary
+
+_chemical_formula_structural             EuP7
+_chemical_formula_sum                    EuP7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            EuP7,mP32,14
+_chemical_formula_weight                 368.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Europium(II) Heptaphosphide EuP7'
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1980
+_journal_volume                          35
+_journal_page_first                      824
+_journal_page_last                       831
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Wittmann M.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.61
+_cell_length_b                           5.7
+_cell_length_c                           13.305
+_cell_angle_alpha                        90
+_cell_angle_beta                         123.94
+_cell_angle_gamma                        90
+_cell_volume                             667.55
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P1 P e 4 0.00411 0.45952 0.08369 1
+ P4 P e 4 0.03867 0.29695 0.36358 1
+ P7 P e 4 0.21149 0.05488 0.04175 1
+ Eu1 Eu e 4 0.24872 0.10697 0.28633 1
+ P2 P e 4 0.41775 0.21762 0.06643 1
+ P5 P e 4 0.58583 0.06669 0.36209 1
+ P6 P e 4 0.63466 0.09396 0.22255 1
+ P3 P e 4 0.78400 0.29256 0.02925 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            15
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1756
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 27.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1479
+_refine_ls_R_factor_all                  0.031
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'MULTAN; Syntex-XTL'
+
+# End of data set 1250980

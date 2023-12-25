@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# I-Th             # ThI3orth                                      # 1250662 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250662
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250662
+
+# Entry summary
+
+_chemical_formula_structural             b-ThI3
+_chemical_formula_sum                    I3Th
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ThI3,oS64,66
+_chemical_formula_weight                 612.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Thl3, ein Janus unter den Verbindungen mit Metall-Metall-Wechselwirkungen'   
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1982
+_journal_volume                          94
+_journal_page_first                      558
+_journal_page_last                       559
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Beck H.P.'
+;
+Erlangen University
+Institut für Anorganische Chemie
+Erlangen
+Germany
+;
+'Strobel C.'
+;
+Erlangen University
+Institut für Anorganische Chemie
+Erlangen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.735
+_cell_length_b                           20.297
+_cell_length_c                           14.661
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2599.31
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              66
+_symmetry_space_group_name_H-M           Cccm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, 0.5+z'
+ 6 'x, -y, 0.5-z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, 0.5+z'
+ 14 '0.5+x, 0.5-y, 0.5-z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I3 I m 16 0.1133 0.1227 0.3708 1
+ I2 I m 16 0.2894 0.0490 0.1302 1
+ Th3 Th l 8 0.1730 0.1716 0 1
+ I4 I l 8 0.5318 0.1994 0 1
+ I1 I k 8 0.25 0.25 0.1826 1
+ Th1 Th c 4 0 0 0 1
+ Th2 Th a 4 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex R3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 910
+_refine_ls_R_factor_all                  0.064
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SHELXTL package'
+
+# End of data set 1250662

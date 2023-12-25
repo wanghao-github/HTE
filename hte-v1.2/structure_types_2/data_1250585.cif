@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Cl-F             # ClF3orth                                      # 1250585 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250585
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250585
+
+# Entry summary
+
+_chemical_formula_structural             ClF3
+_chemical_formula_sum                    ClF3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ClF3,oP16,62
+_chemical_formula_weight                 92.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Structures of the Interhalogen Compounds. I. Chlorine Trifluoride at -120°C
+;
+_journal_coden_ASTM                      JCPSA6
+_journal_year                            1953
+_journal_volume                          21
+_journal_page_first                      602
+_journal_page_last                       608
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Burbank R.D.'
+;
+Carbide and Carbon Chemicals Co.
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Bensey F.N.'
+;
+Carbide and Carbon Chemicals Co.
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.825
+_cell_length_b                           6.09
+_cell_length_c                           4.52
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             242.92
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F2 F d 8 0.1517 0.5315 0.1366 1
+ F1 F c 4 0.0422 0.25 0.3990 1
+ Cl Cl c 4 0.1582 0.25 0.1210 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              153
+_diffrn_measurement_device               'precession photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            1.42
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Fourier synthesis'
+_refine_ls_number_parameters             7
+_refine_ls_number_reflns                 324
+_refine_ls_R_factor_all                  0.134
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250585

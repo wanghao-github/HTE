@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Bi-O             # Bi2O3ht1                                      # 1251167 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251167
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251167
+
+# Entry summary
+
+_chemical_formula_structural             b-Bi2O3
+_chemical_formula_sum                    Bi2O3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Bi2O3,tP20,114
+_chemical_formula_weight                 466.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Structure of b-Bi2O3 from Powder Neutron Diffraction Data'               
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1988
+_journal_volume                          44
+_journal_page_first                      587
+_journal_page_last                       589
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Blower S.K.'
+;
+Birmingham University
+Department of Chemistry
+Birmingham
+United Kingdom
+;
+'Greaves C.'
+;
+Birmingham University
+Department of Chemistry
+Birmingham
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.741
+_cell_length_b                           7.741
+_cell_length_c                           5.634
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             337.61
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              114
+_symmetry_space_group_name_H-M           P-421c
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5-z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, 0.5+z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+y, 0.5+x, 0.5+z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Bi Bi e 8 0.2545 0.0174 0.2385 1
+ O1 O e 8 0.3125 0.2905 0.0286 1
+ O2 O d 4 0 0.5 0.1061 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'D1A, ILL, Grenoble, France'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.9587
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 78
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 116
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          DBWS3.2
+
+# End of data set 1251167

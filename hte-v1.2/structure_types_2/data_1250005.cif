@@ -1,0 +1,116 @@
+##############################################################################
+#                                                                            #
+# O-V              # V3O5rt                                        # 1250005 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250005
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250005
+
+# Entry summary
+
+_chemical_formula_structural             low-V3O5
+_chemical_formula_sum                    O5V3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            V3O5,mP32,13
+_chemical_formula_weight                 232.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structure of and Valency Distribution in the Low-Temperature Modification of V3O5. The Decisive Importance of a Few Very Weak Reflexions in a Crystal-Structure Determination
+;
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1980
+_journal_volume                          36
+_journal_page_first                      1332
+_journal_page_last                       1339
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Åsbrink S.'
+;
+Stockholm University
+Department of Inorganic Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.859
+_cell_length_b                           5.0416
+_cell_length_c                           6.991
+_cell_angle_alpha                        90
+_cell_angle_beta                         109.478
+_cell_angle_gamma                        90
+_cell_volume                             327.6
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              13
+_symmetry_space_group_name_H-M           P12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O22 O g 4 0.07895 0.65877 0.13658 1
+ V12 V3+ g 4 0.12911 0.49659 0.40864 1
+ O11 O g 4 0.20017 0.14739 0.03809 1
+ O12 O g 4 0.31332 0.34014 0.47371 1
+ V11 V4+ g 4 0.36784 0.00626 0.08927 1
+ O21 O g 4 0.58201 0.15179 0.63923 1
+ O31 O f 2 0.5 0.29721 0.25 1
+ O32 O e 2 0 0.18517 0.25 1
+ V21 V3+ b 2 0.5 0.5 0 1
+ V22 V3+ a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          PAILRED
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            7.955
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2300
+_refine_ls_R_factor_all                  0.025
+_refine_ls_wR_factor_all                 0.028
+_computing_structure_refinement          FALFA
+
+# End of data set 1250005

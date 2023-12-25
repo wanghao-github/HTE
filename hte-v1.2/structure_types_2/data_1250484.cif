@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# I-Nb             # Nb6I11rt                                      # 1250484 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250484
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250484
+
+# Entry summary
+
+_chemical_formula_structural             h-Nb6I11
+_chemical_formula_sum                    I11Nb6
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nb6I11,oP68,56
+_chemical_formula_weight                 1953.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural Study of the Spin-Crossover Transition in the Cluster Compounds Nb6I11 and HNb6I11
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1982
+_journal_volume                          21
+_journal_page_first                      308
+_journal_page_last                       319
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Imoto H.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.32
+_cell_length_b                           15.31
+_cell_length_c                           13.55
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2348.34
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              56
+_symmetry_space_group_name_H-M           Pccn
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, z'
+ 3 '0.5-x, y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, -y, 0.5-z'
+ 7 '0.5+x, 0.5+y, -z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Nb3 Nb e 8 0.0694 0.0513 0.1252 1
+ I3 I e 8 0.0936 0.2147 0.0239 1
+ I1 I e 8 0.1604 0.6134 0.3210 1
+ I5 I e 8 0.1647 0.1263 0.3065 1
+ I4 I e 8 0.3035 0.0044 0.0659 1
+ Nb2 Nb e 8 0.3641 0.0519 0.4199 1
+ Nb1 Nb e 8 0.3995 0.6031 0.0258 1
+ I2 I e 8 0.5229 0.1094 0.2718 1
+ I6 I d 4 0.25 0.75 0.0773 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            10
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2201
+_exptl_absorpt_coefficient_mu            17.4
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             78
+_refine_ls_number_reflns                 1938
+_refine_ls_R_factor_all                  0.051
+_refine_ls_wR_factor_all                 0.062
+_computing_structure_refinement          'Syntex package'
+
+# End of data set 1250484

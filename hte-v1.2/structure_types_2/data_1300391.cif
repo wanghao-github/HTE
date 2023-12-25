@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# C-Cl             # [CCl4]lt2                                     # 1300391 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1300391
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1300391
+
+# Entry summary
+
+_chemical_formula_structural             CCl4-II
+_chemical_formula_sum                    [CCl4]
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CBr4,mS160,15
+_chemical_formula_weight                 153.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Polymorphism of the Crystalline Methylchloromethane Compounds. VI. The Crystal and Molecular Structure of Ordered Carbon Tetrachloride
+;
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1979
+_journal_volume                          35
+_journal_page_first                      1670
+_journal_page_last                       1674
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cohen S.'
+;
+Adelphi University
+Department of Chemistry
+Garden City
+U.S.A. New York
+;
+'Powers R.'
+;
+Adelphi University
+Department of Chemistry
+Garden City
+U.S.A. New York
+;
+'Rudman R.'
+;
+Adelphi University
+Department of Chemistry
+Garden City
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           20.181
+_cell_length_b                           11.35
+_cell_length_c                           19.761
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.46
+_cell_angle_gamma                        90
+_cell_volume                             4212.5
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl7 Cl f 8 0.05386 0.08942 0.10083 1
+ Cl3 Cl f 8 0.07907 0.26371 0.55046 1
+ Cl16 Cl f 8 0.08197 0.31498 0.35888 1
+ C4 C f 8 0.0928 0.4655 0.375 1
+ Cl10 Cl f 8 0.1125 0.02128 0.3021 1
+ Cl8 Cl f 8 0.11645 0.28067 0.04912 1
+ C2 C f 8 0.1271 0.1869 0.1231 1
+ Cl6 Cl f 8 0.13058 0.27208 0.19881 1
+ Cl12 Cl f 8 0.13309 0.02568 0.45281 1
+ Cl5 Cl f 8 0.2052 0.10531 0.14381 1
+ Cl2 Cl f 8 0.26969 0.26639 0.39463 1
+ Cl11 Cl f 8 0.30536 0.34217 0.1028 1
+ Cl14 Cl f 8 0.3267 0.01139 0.54766 1
+ Cl4 Cl f 8 0.33034 0.06418 0.35418 1
+ C1 C f 8 0.3415 0.2155 0.3749 1
+ Cl1 Cl f 8 0.3465 0.29244 0.29905 1
+ C3 C f 8 0.3802 0.4352 0.1219 1
+ Cl13 Cl f 8 0.397 0.03518 0.19822 1
+ Cl9 Cl f 8 0.45633 0.35166 0.14086 1
+ Cl15 Cl f 8 0.47702 0.02439 0.10494 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            195
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54051
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              195
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21 F'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_wavelength             1.54051
+_diffrn_reflns_number                    2287
+_exptl_absorpt_coefficient_mu            19.03
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             162
+_refine_ls_number_reflns                 1928
+_refine_ls_R_factor_all                  0.088
+_refine_ls_wR_factor_all                 0.086
+_computing_structure_refinement          'EMABS; FORDAP; NUCLS'
+
+# End of data set 1300391

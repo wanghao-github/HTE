@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# Cl-O             # Cl2O7lt                                       # 1251628 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251628
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251628
+
+# Entry summary
+
+_chemical_formula_structural             Cl2O7
+_chemical_formula_sum                    Cl2O7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cl2O7,mS36,15
+_chemical_formula_weight                 182.9
+_chemical_melting_point                  181
+
+# Bibliographic data
+
+_publ_section_title
+;
+Die Strukturen der wasserfreien Perchlorsaeure und ihres Anhydrids, HClO4 bzw. Cl2O7, im Kristall
+;
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1988
+_journal_volume                          100
+_journal_page_first                      1386
+_journal_page_last                       1388
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Borrmann H.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.696
+_cell_length_b                           4.617
+_cell_length_c                           8.722
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.94
+_cell_angle_gamma                        90
+_cell_volume                             511.59
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O f 8 0.18043 0.1289 0.2956 1
+ O1 O f 8 0.37171 0.2156 0.09085 1
+ Cl Cl f 8 0.38907 0.39483 0.22886 1
+ O2 O f 8 0.41413 0.2464 0.37956 1
+ Oa O e 4 0 0.0904 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              113(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    4506
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            1.240
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             43
+_refine_ls_number_reflns                 1070
+_refine_ls_R_factor_all                  0.0200
+_refine_ls_wR_factor_all                 0.0309
+_computing_structure_refinement          SHELXTL-PLUS
+
+# End of data set 1251628

@@ -1,0 +1,166 @@
+##############################################################################
+#                                                                            #
+# Mn-Si            # Mn27Si47                                      # 1251132 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251132
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251132
+
+# Entry summary
+
+_chemical_formula_structural             Mn27Si47
+_chemical_formula_sum                    Mn27Si47
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn27Si47,tP296,118
+_chemical_formula_weight                 2803.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Zur Struktur der Defekt-Mangansilicide; Krisallstruktur von Mn27Si47'        
+_journal_coden_ASTM                      MOCMB7
+_journal_year                            1973
+_journal_volume                          104
+_journal_page_first                      668
+_journal_page_last                       675
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zwilling G.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Nowotny H.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.53
+_cell_length_b                           5.53
+_cell_length_c                           117.9
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3605.49
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              118
+_symmetry_space_group_name_H-M           P-4n2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5+z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, 0.5-z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, 0.5+z'
+ 7 '0.5+y, 0.5+x, 0.5-z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si23 Si i 8 0.1439 0.2828 0.2706 1
+ Si13 Si i 8 0.1483 0.3061 0.1214 1
+ Si20 Si i 8 0.1506 0.6922 0.1958 1
+ Si3 Si i 8 0.1528 0.1906 0.0167 1
+ Si8 Si i 8 0.1539 0.2517 0.5689 1
+ Si17 Si i 8 0.1572 0.1861 0.1658 1
+ Si19 Si i 8 0.1639 0.1739 0.3139 1
+ Si12 Si i 8 0.1717 0.1645 0.6117 1
+ Si4 Si i 8 0.1828 0.3389 0.5274 1
+ Si7 Si i 8 0.1905 0.1600 0.0579 1
+ Si16 Si i 8 0.2106 0.6550 0.1551 1
+ Si21 Si i 8 0.2194 0.1550 0.2068 1
+ Si15 Si i 8 0.2211 0.1533 0.3562 1
+ Si9 Si i 8 0.2300 0.3494 0.0801 1
+ Si2 Si i 8 0.2711 0.1489 0.5063 1
+ Si24 Si i 8 0.3039 0.6550 0.2600 1
+ Si14 Si i 8 0.3050 0.3445 0.6322 1
+ Si11 Si i 8 0.3239 0.1600 0.1011 1
+ Si5 Si i 8 0.3356 0.3356 0.0374 1
+ Si6 Si i 8 0.3517 0.1839 0.5477 1
+ Si10 Si i 8 0.3539 0.3106 0.5911 1
+ Si22 Si i 8 0.6611 0.2756 0.2181 1
+ Si18 Si i 8 0.6783 0.1644 0.1761 1
+ Mn16 Mn h 4 0 0.5 0.0285 1
+ Mn17 Mn h 4 0 0.5 0.0649 1
+ Mn18 Mn h 4 0 0.5 0.1021 1
+ Mn19 Mn h 4 0 0.5 0.1384 1
+ Mn20 Mn h 4 0 0.5 0.1763 1
+ Mn21 Mn h 4 0 0.5 0.2129 1
+ Mn22 Mn h 4 0 0.5 0.5087 1
+ Mn23 Mn h 4 0 0.5 0.5460 1
+ Mn24 Mn h 4 0 0.5 0.5842 1
+ Mn25 Mn h 4 0 0.5 0.6200 1
+ Mn26 Mn h 4 0 0.5 0.6577 1
+ Mn27 Mn h 4 0 0.5 0.6934 1
+ Mn28 Mn h 4 0 0.5 0.7325 1
+ Si1 Si f 4 0.3356 0.1644 0.25 1
+ Mn3 Mn e 4 0 0 0.0371 1
+ Mn4 Mn e 4 0 0 0.0741 1
+ Mn5 Mn e 4 0 0 0.1107 1
+ Mn6 Mn e 4 0 0 0.1485 1
+ Mn7 Mn e 4 0 0 0.1849 1
+ Mn8 Mn e 4 0 0 0.2230 1
+ Mn9 Mn e 4 0 0 0.2588 1
+ Mn10 Mn e 4 0 0 0.2964 1
+ Mn11 Mn e 4 0 0 0.3325 1
+ Mn12 Mn e 4 0 0 0.3709 1
+ Mn13 Mn e 4 0 0 0.4065 1
+ Mn14 Mn e 4 0 0 0.4452 1
+ Mn15 Mn e 4 0 0 0.4811 1
+ Mn2 Mn c 2 0 0.5 0.25 1
+ Mn1 Mn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.093
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251132

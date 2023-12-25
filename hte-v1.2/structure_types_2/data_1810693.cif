@@ -1,0 +1,159 @@
+##############################################################################
+#                                                                            #
+# Ag-Mg            # Mg54Ag17ht                                    # 1810693 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1810693
+_audit_creation_date                     2010-12-16
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810693
+
+# Entry summary
+
+_chemical_formula_structural             Ag17Mg54
+_chemical_formula_sum                    Ag17Mg54
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Hf54Os17,oI142,71
+_chemical_formula_weight                 3148.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal Structure of e-Ag7+xMg26-x-A Binary Alloy Phase of the Mackay Cluster Type
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2001
+_journal_volume                          627
+_journal_page_first                      2460
+_journal_page_last                       2468
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kreiner G.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Spiekermann S.'
+;
+Max Planck Society
+Max Planck Institut für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.147
+_cell_length_b                           14.213
+_cell_length_c                           14.595
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2934.6
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              71
+_symmetry_space_group_name_H-M           Immm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5-z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, 0.5+z'
+ 14 '0.5+x, 0.5-y, 0.5-z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Mg 0
+ Ag 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mg1 Mg o 16 0.1170 0.1806 0.2861 1
+ Mg2 Mg o 16 0.1898 0.3120 0.1081 1
+ Mg3 Mg o 16 0.3086 0.1132 0.1787 1
+ Mg4 Mg n 8 0.1789 0.1076 0 1
+ Ag1 Ag n 8 0.3287 0.2121 0 1
+ Mg5 Mg n 8 0.3760 0.3906 0 1
+ Mg6 Mg m 8 0.1094 0 0.1693 1
+ Ag2 Ag m 8 0.2001 0 0.3352 1
+ Mg7 Mg m 8 0.3993 0 0.3345 1
+ Mg8 Mg l 8 0 0.1848 0.1024 1
+ Mg9 Mg l 8 0 0.3200 0.4040 1
+ Ag3 Ag l 8 0 0.3320 0.2167 1
+ Ag4 Ag j 4 0.5 0 0.1631 1
+ Mg10 Mg i 4 0 0 0.3546 1
+ Mg11 Mg g 4 0 0.3910 0 1
+ Ag5 Ag f 4 0.1889 0.5 0 1
+ Mg12 Mg e 4 0.3908 0 0 1
+ Ag6 Ag a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54051
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1810693

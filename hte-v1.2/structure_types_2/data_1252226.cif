@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# N-P              # P3N5mon1                                      # 1252226 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252226
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252226
+
+# Entry summary
+
+_chemical_formula_structural             a-P3N5
+_chemical_formula_sum                    N5P3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P3N5,mS32,9
+_chemical_formula_weight                 163.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Synthese und Kristallstruktur von Phosphor(v)-nitrid a-P3N5'                 
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1997
+_journal_volume                          109
+_journal_page_first                      1938
+_journal_page_last                       1940
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Horstmann S.'
+;
+Bayreuth University
+Laboratorium für Anorganische Chemie
+Bayreuth
+Germany
+;
+'Irran E.'
+;
+Bayreuth University
+Laboratorium für Anorganische Chemie
+Bayreuth
+Germany
+;
+'Schnick W.'
+;
+Bayreuth University
+Laboratorium für Anorganische Chemie
+Bayreuth
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.1208
+_cell_length_b                           5.8343
+_cell_length_c                           9.1601
+_cell_angle_alpha                        90
+_cell_angle_beta                         115.809
+_cell_angle_gamma                        90
+_cell_volume                             390.71
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              9
+_symmetry_space_group_name_H-M           C1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+ 3 '0.5+x, 0.5+y, z'
+ 4 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ N2 N a 4 0.000 0.659 0.000 1
+ P2 P a 4 0.007 0.2000 0.359 1
+ N4 N a 4 0.013 0.351 0.197 1
+ N5 N a 4 0.227 0.135 0.398 1
+ P3 P a 4 0.236 0.2924 0.246 1
+ N3 N a 4 0.241 0.119 0.116 1
+ P1 P a 4 0.371 0.0182 0.050 1
+ N1 N a 4 0.380 0.497 0.319 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.99963
+_cell_measurement_reflns_used            20
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'BM1, ESRF, Grenoble, France'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.99963
+_diffrn_reflns_number                    699
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 48.7
+_exptl_absorpt_coefficient_mu            5.283
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             22
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'EXTRA-95; GSAS package; SIRPOW'
+
+# End of data set 1252226

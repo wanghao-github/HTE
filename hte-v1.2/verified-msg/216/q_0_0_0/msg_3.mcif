@@ -1,0 +1,9 @@
+# I-4'm2' (#119.318)
+1 x,y,z,+1 mx,my,mz
+2 y,z,-x-y-z,-1 my,mz,-mx-my-mz
+3 z,-x-y-z,x,+1 mz,-mx-my-mz,mx
+4 -x-y-z,x,y,-1 -mx-my-mz,mx,my
+5 -x-y-z,z,y,-1 mx+my+mz,-mz,-my
+6 x,-x-y-z,z,+1 -mx,mx+my+mz,-mz
+7 y,x,-x-y-z,-1 -my,-mx,mx+my+mz
+8 z,y,x,+1 -mz,-my,-mx

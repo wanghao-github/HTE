@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# Cs-Se            # Cs2Se5                                        #  534411 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_534411
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      534411
+
+# Entry summary
+
+_chemical_formula_structural             Cs2Se5
+_chemical_formula_sum                    Cs2Se5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tl2S5,oP28,19
+_chemical_formula_weight                 660.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Darstellung und Kristallstruktur des Cs2Se5 mit einer Anmerkung zum Rb2TeSe4'
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1985
+_journal_volume                          40
+_journal_page_first                      895
+_journal_page_last                       899
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kretschmann U.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+'Böttcher P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.105
+_cell_length_b                           7.42
+_cell_length_c                           18.879
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             995.28
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              19
+_symmetry_space_group_name_H-M           P212121
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se(3) Se a 4 0.042 0.377 0.3013 1
+ Se(2) Se a 4 0.075 0.6332 0.3763 1
+ Se(1) Se a 4 0.101 0.077 0.0217 1
+ Cs(1) Cs a 4 0.1202 0.5807 0.014 1
+ Se(4) Se a 4 0.245 0.162 0.3497 1
+ Cs(2) Cs a 4 0.4217 0.2507 0.161 1
+ Se(5) Se a 4 0.551 0.255 0.3424 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_reflns_number                    1404
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 24
+_exptl_absorpt_coefficient_mu            14.28
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 685
+_refine_ls_R_factor_all                  0.078
+_refine_ls_wR_factor_all                 0.059
+_computing_structure_refinement          'SDP package'
+
+# End of data set 534411

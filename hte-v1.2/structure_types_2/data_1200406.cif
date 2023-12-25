@@ -1,0 +1,225 @@
+##############################################################################
+#                                                                            #
+# I-Pr             # PrI2cub                                       # 1200406 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1200406
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1200406
+
+# Entry summary
+
+_chemical_formula_structural             PrI2
+_chemical_formula_sum                    I2Pr
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PrI2,cF48,216
+_chemical_formula_weight                 394.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Praseodymium diiodide, PrI2, revisited by synthesis, structure determination and theory
+;
+_journal_coden_ASTM                      JALCEU
+_journal_year                            2004
+_journal_volume                          380
+_journal_page_first                      211
+_journal_page_last                       218
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gerlitzki N.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+'Meyer G.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+'Mudring A.V.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.399
+_cell_length_b                           12.399
+_cell_length_c                           12.399
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1906.2
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              216
+_symmetry_space_group_name_H-M           F-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 'x, 0.5+y, 0.5+z'
+ 26 '-x, 0.5-y, 0.5+z'
+ 27 '-x, 0.5-z, 0.5+y'
+ 28 '-x, 0.5+y, 0.5-z'
+ 29 '-x, 0.5+z, 0.5-y'
+ 30 '-y, 0.5-x, 0.5+z'
+ 31 '-y, 0.5-z, 0.5+x'
+ 32 '-y, 0.5+x, 0.5-z'
+ 33 '-y, 0.5+z, 0.5-x'
+ 34 '-z, 0.5-x, 0.5+y'
+ 35 '-z, 0.5-y, 0.5+x'
+ 36 '-z, 0.5+x, 0.5-y'
+ 37 '-z, 0.5+y, 0.5-x'
+ 38 'x, 0.5-y, 0.5-z'
+ 39 'x, 0.5-z, 0.5-y'
+ 40 'x, 0.5+z, 0.5+y'
+ 41 'y, 0.5-x, 0.5-z'
+ 42 'y, 0.5-z, 0.5-x'
+ 43 'y, 0.5+x, 0.5+z'
+ 44 'y, 0.5+z, 0.5+x'
+ 45 'z, 0.5-x, 0.5-y'
+ 46 'z, 0.5-y, 0.5-x'
+ 47 'z, 0.5+x, 0.5+y'
+ 48 'z, 0.5+y, 0.5+x'
+ 49 '0.5+x, y, 0.5+z'
+ 50 '0.5-x, -y, 0.5+z'
+ 51 '0.5-x, -z, 0.5+y'
+ 52 '0.5-x, y, 0.5-z'
+ 53 '0.5-x, z, 0.5-y'
+ 54 '0.5-y, -x, 0.5+z'
+ 55 '0.5-y, -z, 0.5+x'
+ 56 '0.5-y, x, 0.5-z'
+ 57 '0.5-y, z, 0.5-x'
+ 58 '0.5-z, -x, 0.5+y'
+ 59 '0.5-z, -y, 0.5+x'
+ 60 '0.5-z, x, 0.5-y'
+ 61 '0.5-z, y, 0.5-x'
+ 62 '0.5+x, -y, 0.5-z'
+ 63 '0.5+x, -z, 0.5-y'
+ 64 '0.5+x, z, 0.5+y'
+ 65 '0.5+y, -x, 0.5-z'
+ 66 '0.5+y, -z, 0.5-x'
+ 67 '0.5+y, x, 0.5+z'
+ 68 '0.5+y, z, 0.5+x'
+ 69 '0.5+z, -x, 0.5-y'
+ 70 '0.5+z, -y, 0.5-x'
+ 71 '0.5+z, x, 0.5+y'
+ 72 '0.5+z, y, 0.5+x'
+ 73 '0.5+x, 0.5+y, z'
+ 74 '0.5-x, 0.5-y, z'
+ 75 '0.5-x, 0.5-z, y'
+ 76 '0.5-x, 0.5+y, -z'
+ 77 '0.5-x, 0.5+z, -y'
+ 78 '0.5-y, 0.5-x, z'
+ 79 '0.5-y, 0.5-z, x'
+ 80 '0.5-y, 0.5+x, -z'
+ 81 '0.5-y, 0.5+z, -x'
+ 82 '0.5-z, 0.5-x, y'
+ 83 '0.5-z, 0.5-y, x'
+ 84 '0.5-z, 0.5+x, -y'
+ 85 '0.5-z, 0.5+y, -x'
+ 86 '0.5+x, 0.5-y, -z'
+ 87 '0.5+x, 0.5-z, -y'
+ 88 '0.5+x, 0.5+z, y'
+ 89 '0.5+y, 0.5-x, -z'
+ 90 '0.5+y, 0.5-z, -x'
+ 91 '0.5+y, 0.5+x, z'
+ 92 '0.5+y, 0.5+z, x'
+ 93 '0.5+z, 0.5-x, -y'
+ 94 '0.5+z, 0.5-y, -x'
+ 95 '0.5+z, 0.5+x, y'
+ 96 '0.5+z, 0.5+y, x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I2 I e 16 0.11153 0.11153 0.11153 1
+ Pr Pr e 16 0.36158 0.36158 0.36158 1
+ I1 I e 16 0.62533 0.62533 0.62533 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    4578
+_diffrn_reflns_theta_min                 2.85
+_diffrn_reflns_theta_max                 27.98
+_exptl_absorpt_coefficient_mu            22.97
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'Patterson and Fourier synthesis, starting values from the literature'        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 244
+_refine_ls_R_factor_all                  0.0196
+_refine_ls_wR_factor_all                 0.0431
+_computing_structure_refinement          SHELXS-97
+
+# End of data set 1200406

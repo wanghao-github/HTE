@@ -1,0 +1,148 @@
+##############################################################################
+#                                                                            #
+# Al-Tc            # TcAl12                                        #  528324 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_528324
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      528324
+
+# Entry summary
+
+_chemical_formula_structural             TcAl12
+_chemical_formula_sum                    Al12Tc
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WAl12,cI26,204
+_chemical_formula_weight                 421.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Structures of the Intermetallic Phases MoAl12, ReAl12 and TcAl12'        
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1964
+_journal_volume                          17
+_journal_page_first                      57
+_journal_page_last                       59
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Walford L.K.'
+;
+Cavendish Laboratory
+Crystallographic Laboratory
+Cambridge
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.5255
+_cell_length_b                           7.5255
+_cell_length_c                           7.5255
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             426.19
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              204
+_symmetry_space_group_name_H-M           Im-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+ 25 '0.5+x, 0.5+y, 0.5+z'
+ 26 '0.5-x, 0.5-y, 0.5-z'
+ 27 '0.5-x, 0.5-y, 0.5+z'
+ 28 '0.5-x, 0.5+y, 0.5-z'
+ 29 '0.5-x, 0.5+y, 0.5+z'
+ 30 '0.5-y, 0.5-z, 0.5-x'
+ 31 '0.5-y, 0.5-z, 0.5+x'
+ 32 '0.5-y, 0.5+z, 0.5-x'
+ 33 '0.5-y, 0.5+z, 0.5+x'
+ 34 '0.5-z, 0.5-x, 0.5-y'
+ 35 '0.5-z, 0.5-x, 0.5+y'
+ 36 '0.5-z, 0.5+x, 0.5-y'
+ 37 '0.5-z, 0.5+x, 0.5+y'
+ 38 '0.5+x, 0.5-y, 0.5-z'
+ 39 '0.5+x, 0.5-y, 0.5+z'
+ 40 '0.5+x, 0.5+y, 0.5-z'
+ 41 '0.5+y, 0.5-z, 0.5-x'
+ 42 '0.5+y, 0.5-z, 0.5+x'
+ 43 '0.5+y, 0.5+z, 0.5-x'
+ 44 '0.5+y, 0.5+z, 0.5+x'
+ 45 '0.5+z, 0.5-x, 0.5-y'
+ 46 '0.5+z, 0.5-x, 0.5+y'
+ 47 '0.5+z, 0.5+x, 0.5-y'
+ 48 '0.5+z, 0.5+x, 0.5+y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Al Al g 24 0 0.1877 0.3083 1
+ Tc Tc a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe K'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.06
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 528324

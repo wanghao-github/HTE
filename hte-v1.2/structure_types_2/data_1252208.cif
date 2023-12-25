@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Br-W             # W3Br7                                         # 1252208 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252208
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252208
+
+# Entry summary
+
+_chemical_formula_structural             W6Br14
+_chemical_formula_sum                    Br7W3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            W3Br7,cP80,201
+_chemical_formula_weight                 1110.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Synthese und Kristallstruktur der molekularen Clusterverbindung W6Br14'      
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1994
+_journal_volume                          620
+_journal_page_first                      1312
+_journal_page_last                       1320
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sassmannshausen J.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.458
+_cell_length_b                           13.458
+_cell_length_c                           13.458
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2437.48
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              201
+_symmetry_space_group_name_H-M           'Pn-3 O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, z'
+ 3 '0.5-x, y, 0.5-z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5+z'
+ 6 '0.5-y, 0.5-z, x'
+ 7 '0.5-y, z, 0.5-x'
+ 8 '-y, -z, -x'
+ 9 '-y, 0.5+z, 0.5+x'
+ 10 '0.5-z, 0.5-x, y'
+ 11 '0.5-z, x, 0.5-y'
+ 12 '-z, -x, -y'
+ 13 '-z, 0.5+x, 0.5+y'
+ 14 '0.5+x, -y, 0.5+z'
+ 15 '0.5+x, 0.5+y, -z'
+ 16 'x, 0.5-y, 0.5-z'
+ 17 '0.5+y, -z, 0.5+x'
+ 18 '0.5+y, 0.5+z, -x'
+ 19 'y, 0.5-z, 0.5-x'
+ 20 'y, z, x'
+ 21 '0.5+z, -x, 0.5+y'
+ 22 '0.5+z, 0.5+x, -y'
+ 23 'z, 0.5-x, 0.5-y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ W W h 24 0.0351 0.3680 0.5277 1
+ Br2 Br h 24 0.0668 0.6226 0.3084 1
+ Br3 Br h 24 0.0861 0.1889 0.5695 1
+ Br1 Br e 8 0.1383 0.1383 0.1383 1
+
+
+_exptl_crystal_colour                    'brown black'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            57
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    5515
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 15
+_exptl_absorpt_coefficient_mu            49.608
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             34
+_refine_ls_number_reflns                 267
+_refine_ls_R_factor_all                  0.074
+_refine_ls_wR_factor_all                 0.055
+_computing_structure_refinement          'SHELX-76; SHELXS-86'
+
+# End of data set 1252208

@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# Ir-Se            # IrSe3                                         # 1250379 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250379
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250379
+
+# Entry summary
+
+_chemical_formula_structural             IrSe3
+_chemical_formula_sum                    IrSe3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            IrSe3,aP32,2
+_chemical_formula_weight                 429.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'THE ORDERED VACANCY ARRANGEMENT IN PYRITE DEFECT STRUCTURES'                 
+_journal_coden_ASTM                      17XIA5
+_journal_year                            1970
+_journal_volume                          ?
+_journal_page_first                      220
+_journal_page_last                       222
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Parthé E.'
+;
+Pennsylvania State University
+School of Metallurgy and Materials
+Philadelphia
+U.S.A. Pennsylvania
+;
+'Hohnke D.'
+;
+Pennsylvania State University
+School of Metallurgy and Materials
+Philadelphia
+U.S.A. Pennsylvania
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.405
+_cell_length_b                           8.405
+_cell_length_c                           10.236
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             626.23
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se10 Se i 2 0.000 0.000 0.382 1
+ Se1 Se i 2 0.012 0.255 0.875 1
+ Se5 Se i 2 0.078 0.424 0.542 1
+ Ir2 Ir i 2 0.167 0.333 0.333 1
+ Ir1 Ir i 2 0.167 0.833 0.333 1
+ Se2 Se i 2 0.255 0.243 0.125 1
+ Ir3 Ir i 2 0.333 0.167 0.667 1
+ Se11 Se i 2 0.333 0.667 0.049 1
+ Se12 Se i 2 0.333 0.667 0.285 1
+ Se8 Se i 2 0.412 0.09 0.208 1
+ Se6 Se i 2 0.424 0.345 0.458 1
+ Se4 Se i 2 0.655 0.078 0.458 1
+ Se7 Se i 2 0.679 0.588 0.208 1
+ Se3 Se i 2 0.757 0.012 0.125 1
+ Se9 Se i 2 0.91 0.321 0.208 1
+ Ir4 Ir c 1 0 0.5 0 1
+ Ir5 Ir a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.13
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250379

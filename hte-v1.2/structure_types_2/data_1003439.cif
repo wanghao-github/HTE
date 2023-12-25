@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# In-K             # K39In80                                       # 1003439 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1003439
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1003439
+
+# Entry summary
+
+_chemical_formula_structural             K39In80
+_chemical_formula_sum                    In80K39
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K39In80,hP238,164
+_chemical_formula_weight                 10710.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis and Characterization of the New Cluster Phase K39In80. Three K-In Compounds with Remarkably Specific and Transferable Cation Dispositions
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2003
+_journal_volume                          42
+_journal_page_first                      8768
+_journal_page_last                       8772
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Li B.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.211
+_cell_length_b                           17.211
+_cell_length_c                           28.888
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             7410.7
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              164
+_symmetry_space_group_name_H-M           P-3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In20 In j 12 0.0021 0.1782 0.2458 1
+ In19 In j 12 0.1427 0.4796 0.352 1
+ In16 In j 12 0.1545 0.4893 0.1223 1
+ K7 K j 12 0.332 0.0453 0.4304 1
+ In6 In j 12 0.3347 0.0173 0.1869 1
+ In3 In j 12 0.3348 0.0159 0.2979 1
+ K6 K j 12 0.3395 0.0456 0.0585 1
+ In1 In j 12 0.4918 0.1581 0.2408 1
+ In11 In i 6 0.1009 0.899 0.0181 1
+ In9 In i 6 0.1012 0.8988 0.4811 1
+ K8 K i 6 0.1283 0.8717 0.3587 1
+ K5 K i 6 0.1318 0.8681 0.1333 1
+ K12 K i 6 0.2079 0.7921 0.2395 1
+ In10 In i 6 0.2141 0.7859 0.0361 1
+ K15 K i 6 0.2202 0.7797 0.465 1
+ In18 In i 6 0.4394 0.5606 0.0202 1
+ K3 K i 6 0.4611 0.5389 0.2341 1
+ In21 In i 6 0.4646 0.5354 0.4365 1
+ K13 K i 6 0.5391 0.4609 0.1191 1
+ K11 K i 6 0.5434 0.4567 0.3501 1
+ In15 In i 6 0.5626 0.4373 0.4682 1
+ In14 In i 6 0.7263 0.2737 0.0489 1
+ In8 In i 6 0.7282 0.2717 0.421 1
+ In2 In i 6 0.7825 0.2174 0.1512 1
+ In5 In i 6 0.7829 0.2171 0.3316 1
+ In7 In i 6 0.8825 0.1174 0.1594 1
+ In12 In i 6 0.8829 0.1171 0.3337 1
+ In17 In i 6 0.9403 0.0596 0.0758 1
+ In13 In i 6 0.9406 0.0593 0.4234 1
+ In4 In d 2 0.333333 0.666667 0.0591 1
+ In22 In d 2 0.333333 0.666667 0.1699 1
+ K1 K d 2 0.333333 0.666667 0.2947 1
+ K14 K d 2 0.333333 0.666667 0.432 1
+ K2 K d 2 0.333333 0.666667 0.6908 1
+ K9 K d 2 0.333333 0.666667 0.8374 1
+ K4 K c 2 0 0 0.1818 1
+ K10 K c 2 0 0 0.3151 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker SMART 1000 CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    48512
+_diffrn_reflns_theta_min                 0.7
+_diffrn_reflns_theta_max                 28.26
+_exptl_absorpt_coefficient_mu            13.261
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             224
+_refine_ls_number_reflns                 6664
+_refine_ls_R_factor_all                  0.0310
+_refine_ls_wR_factor_all                 0.0776
+_computing_structure_refinement          'SHELXTL-6.10 package'
+
+# End of data set 1003439

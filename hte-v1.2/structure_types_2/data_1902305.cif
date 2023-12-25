@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2ITQ7                                      # 1902305 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1902305
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1902305
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2 ITQ-7'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,tP192,131
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+ITQ-7: A New Pure Silica Polymorph with a Three-Dimensional System of Large Pore Channels
+;
+_journal_coden_ASTM                      ACIEF5
+_journal_year                            1999
+_journal_volume                          38
+_journal_page_first                      1997
+_journal_page_last                       2000
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Villaescusa L.A.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+'Barrett P.A.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+'Camblor M.A.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.8528
+_cell_length_b                           12.8528
+_cell_length_c                           25.2136
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             4165.1
+_cell_formula_units_Z                    64
+_symmetry_Int_Tables_number              131
+_symmetry_space_group_name_H-M           P42/mmc
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, 0.5-z'
+ 7 '-y, -x, 0.5+z'
+ 8 '-y, x, 0.5-z'
+ 9 '-y, x, 0.5+z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, 0.5-z'
+ 14 'y, -x, 0.5+z'
+ 15 'y, x, 0.5-z'
+ 16 'y, x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O10 O r 16 0.1004 0.3315 0.0884 1
+ Si4 Si r 16 0.1178 0.1151 0.18813 1
+ O12 O r 16 0.1795 0.1973 0.1547 1
+ O11 O r 16 0.1803 0.1666 0.0514 1
+ Si2 Si r 16 0.1938 0.2489 0.09541 1
+ O9 O r 16 0.2998 0.3112 0.087 1
+ Si1 Si r 16 0.3808 0.3854 0.06251 1
+ Si5 Si q 8 0.1207 0.112 0 1
+ O6 O q 8 0.3574 0.3687 0 1
+ O7 O p 8 0.5 0.3488 0.4212 1
+ O8 O p 8 0.5 0.3621 0.0742 1
+ O18 O o 8 0 0.1374 0.1782 1
+ O19 O o 8 0 0.1448 0.3275 1
+ Si3 Si o 8 0 0.3833 0.06146 1
+ O17 O n 8 0.1416 0.1416 0.25 1
+ O15 O l 4 0.1267 0 0.5 1
+ O14 O l 4 0.3627 0 0.5 1
+ O16 O j 4 0.1673 0 0 1
+ O13 O i 4 0 0.5 0.0759 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Philips X'PERT
+;
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 6
+_diffrn_reflns_theta_max                 37.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             62
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1902305

@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# O-Ru             # RuO4cub                                       # 1210457 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1210457
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1210457
+
+# Entry summary
+
+_chemical_formula_structural             RuO4
+_chemical_formula_sum                    O4Ru
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Os(O0.5F0.5)4,cP40,218
+_chemical_formula_weight                 165.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Two crystalline modifications of RuO4'                                       
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            2005
+_journal_volume                          178
+_journal_page_first                      3206
+_journal_page_last                       3209
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pley M.'
+;
+Carl von Ossietzky University
+Institut für Reine und Angewandte Chemie
+Oldenburg
+Germany
+;
+'Wickleder M.S.'
+;
+Carl von Ossietzky University
+Institut für Reine und Angewandte Chemie
+Oldenburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.509
+_cell_length_b                           8.509
+_cell_length_c                           8.509
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             616.1
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              218
+_symmetry_space_group_name_H-M           P-43n
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-z, 0.5+y'
+ 3 '0.5-x, 0.5+z, 0.5-y'
+ 4 '-x, -y, z'
+ 5 '-x, y, -z'
+ 6 '0.5-y, 0.5-x, 0.5+z'
+ 7 '0.5-y, 0.5+x, 0.5-z'
+ 8 '-y, -z, x'
+ 9 '-y, z, -x'
+ 10 '0.5-z, 0.5-y, 0.5+x'
+ 11 '0.5-z, 0.5+y, 0.5-x'
+ 12 '-z, -x, y'
+ 13 '-z, x, -y'
+ 14 '0.5+x, 0.5-z, 0.5-y'
+ 15 '0.5+x, 0.5+z, 0.5+y'
+ 16 'x, -y, -z'
+ 17 '0.5+y, 0.5-x, 0.5-z'
+ 18 '0.5+y, 0.5+x, 0.5+z'
+ 19 'y, -z, -x'
+ 20 'y, z, x'
+ 21 '0.5+z, 0.5-y, 0.5-x'
+ 22 '0.5+z, 0.5+y, 0.5+x'
+ 23 'z, -x, -y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O2 O i 24 0.1113 0.3809 0.3647 1
+ O1 O e 8 0.115 0.115 0.115 1
+ Ru2 Ru d 6 0.25 0 0.5 1
+ Ru1 Ru a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            170
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              170
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS-II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    9480
+_exptl_absorpt_coefficient_mu            4.895
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 189
+_refine_ls_R_factor_all                  0.0245
+_refine_ls_wR_factor_all                 0.0540
+_computing_structure_refinement          'SHELXL-97 package'
+
+# End of data set 1210457

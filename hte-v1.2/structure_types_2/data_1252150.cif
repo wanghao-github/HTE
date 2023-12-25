@@ -1,0 +1,132 @@
+##############################################################################
+#                                                                            #
+# C-Li             # LiC6stab1                                     # 1252150 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252150
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252150
+
+# Entry summary
+
+_chemical_formula_structural             LiC6
+_chemical_formula_sum                    C6Li
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LiC6,hP7,191
+_chemical_formula_weight                 79.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+Lithium-Graphit-Einlagerungsverbindungen                                      
+_journal_coden_ASTM                      NATWAY
+_journal_year                            1965
+_journal_volume                          52
+_journal_page_first                      560
+_journal_page_last                       ?
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Juza R.'
+;
+Christian Albrecht University
+Institut für Anorganische Chemie
+Kiel
+Germany
+;
+'Wehle V.'
+;
+Christian Albrecht University
+Institut für Anorganische Chemie
+Kiel
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.29
+_cell_length_b                           4.29
+_cell_length_c                           3.737
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             59.56
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              191
+_symmetry_space_group_name_H-M           P6/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, -z'
+ 5 '-x+y, y, z'
+ 6 '-x, -x+y, -z'
+ 7 '-x, -x+y, z'
+ 8 '-x, -y, -z'
+ 9 '-x, -y, z'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, x-y, -z'
+ 13 '-y, x-y, z'
+ 14 'x, x-y, -z'
+ 15 'x, x-y, z'
+ 16 'x, y, -z'
+ 17 'x-y, -y, -z'
+ 18 'x-y, -y, z'
+ 19 'x-y, x, -z'
+ 20 'x-y, x, z'
+ 21 'y, -x+y, -z'
+ 22 'y, -x+y, z'
+ 23 'y, x, -z'
+ 24 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C C k 6 0.33333 0 0.5 1
+ Li Li a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252150

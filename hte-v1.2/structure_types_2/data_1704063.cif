@@ -1,0 +1,116 @@
+##############################################################################
+#                                                                            #
+# Ga-S             # Ga2S3ht1                                      # 1704063 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1704063
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1704063
+
+# Entry summary
+
+_chemical_formula_structural             a-Ga2S3
+_chemical_formula_sum                    Ga2S3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Al2S3,hP30,169
+_chemical_formula_weight                 235.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Zur Struktur des Ga2S3'
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1955
+_journal_volume                          278
+_journal_page_first                      333
+_journal_page_last                       339
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hahn H.'
+;
+Christian Albrecht University
+Institut für Anorganische Chemie
+Kiel
+Germany
+;
+'Frank G.'
+;
+Christian Albrecht University
+Institut für Anorganische Chemie
+Kiel
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.383
+_cell_length_b                           6.383
+_cell_length_c                           18.09
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             638.29
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              169
+_symmetry_space_group_name_H-M           P61
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -0.33333+z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-y, x-y, 0.33333+z'
+ 5 'x-y, x, 0.16667+z'
+ 6 'y, -x+y, -0.16667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S2 S a 6 0.0 0.333 0.0 1
+ Ga1 Ga a 6 0.0 0.333 0.125 1
+ Ga2 Ga a 6 0.333 0.333 0.29167 1
+ S3 S a 6 0.333 0.0 0.0 1
+ S1 S a 6 0.333 0.0 0.33333 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.542
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1704063

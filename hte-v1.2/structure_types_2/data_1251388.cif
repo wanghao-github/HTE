@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# Al-Au            # Au4Alrt                                       # 1251388 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251388
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251388
+
+# Entry summary
+
+_chemical_formula_structural             'Al4Au, low-temperature phase'
+_chemical_formula_sum                    AlAu4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Au4Al,cP20,198
+_chemical_formula_weight                 814.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+ZUR KENNTNIS DES b-MANGAN-TYPS: HOCHDRUCKSYNTHESE UND STRUKTURVERFEINERUNG VON AlAu4
+;
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1990
+_journal_volume                          161
+_journal_page_first                      347
+_journal_page_last                       354
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Büchler H.'
+;
+Regensburg University
+Institut für Anorganische Chemie
+Regensburg
+Germany
+;
+'Range K.J.'
+;
+Regensburg University
+Institut für Anorganische Chemie
+Regensburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.9227
+_cell_length_b                           6.9227
+_cell_length_c                           6.9227
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             331.76
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              198
+_symmetry_space_group_name_H-M           P213
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 '0.5-y, -z, 0.5+x'
+ 5 '-y, 0.5+z, 0.5-x'
+ 6 '0.5-z, -x, 0.5+y'
+ 7 '-z, 0.5+x, 0.5-y'
+ 8 '0.5+x, 0.5-y, -z'
+ 9 '0.5+y, 0.5-z, -x'
+ 10 'y, z, x'
+ 11 '0.5+z, 0.5-x, -y'
+ 12 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Au1 Au b 12 0.1172 0.2125 0.4507 1
+ Al Al a 4 0.0597 0.0597 0.0597 1
+ Au2 Au a 4 0.6827 0.6827 0.6827 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3063
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 199
+_refine_ls_R_factor_all                  0.0422
+_refine_ls_wR_factor_all                 0.0312
+_computing_structure_refinement          'SHELX-76; SHELXS-86'
+
+# End of data set 1251388

@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# Ge-Mn            # Mn5Ge2ht                                      # 1251763 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251763
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251763
+
+# Entry summary
+
+_chemical_formula_structural             z2-Mn5Ge2
+_chemical_formula_sum                    Ge2Mn5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn5Ge2,hP42,158
+_chemical_formula_weight                 419.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure Determination of x2-Mn5Ge2 Using a Mixed Crystal'                  
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1987
+_journal_volume                          43
+_journal_page_first                      489
+_journal_page_last                       493
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ohba T.'
+;
+Tsukuba University
+Institute of Materials Science
+Tsukuba
+Japan
+;
+'Kifune K.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+'Komura Y.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.198
+_cell_length_b                           7.198
+_cell_length_c                           13.076
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             586.72
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              158
+_symmetry_space_group_name_H-M           P3c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, 0.5+z'
+ 4 '-y, -x, 0.5+z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge7 Ge d 6 0.0005 0.3268 0.4270 1
+ Mn1 Mn d 6 0.0006 0.3628 0.2319 1
+ Mn10 Mn d 6 0.0008 0.3590 0.0282 1
+ Mn4 Mn d 6 0.2788 0.2788 0.3264 1
+ Mn13 Mn d 6 0.3116 0.3094 0.1219 1
+ Ge21 Ge c 2 0.666667 0.333333 0.1444 1
+ Mn16 Mn c 2 0.666667 0.333333 0.3520 1
+ Ge32 Ge b 2 0.333333 0.666667 0.1457 1
+ Mn29 Mn b 2 0.333333 0.666667 0.3531 1
+ Mn26 Mn a 2 0 0 0.0000 1
+ Ge23 Ge a 2 0 0 0.1976 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    1337
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            31.0
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+'Patterson synthesis, starting values derived from related structure'         
+_refine_ls_number_parameters             32
+_refine_ls_number_reflns                 384
+_refine_ls_R_factor_all                  0.0885
+_refine_ls_wR_factor_all                 0.0840
+_computing_structure_refinement          RADIEL
+
+# End of data set 1251763

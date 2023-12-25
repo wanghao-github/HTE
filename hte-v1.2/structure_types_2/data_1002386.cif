@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Ta-Te            # TaTe4rt                                       # 1002386 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1002386
+_audit_creation_date                     2010-12-16
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1002386
+
+# Entry summary
+
+_chemical_formula_structural             TaTe4
+_chemical_formula_sum                    TaTe4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TaTe4,tP40,130
+_chemical_formula_weight                 691.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+A Superspace-Group Description of the Commensurately Modulated Structure of TaTe4
+;
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1989
+_journal_volume                          45
+_journal_page_first                      529
+_journal_page_last                       534
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Budkowski A.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+'Prodan A.'
+;
+Ljubljana Edvard Kardelj University
+Department of Metallurgy
+Ljubljana
+Slovenia
+;
+'Marinkovic V.'
+;
+Ljubljana Edvard Kardelj University
+Department of Metallurgy
+Ljubljana
+Slovenia
+;
+'Kucharczyk D.'
+;
+Polish Academy of Sciences
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Uszynski I.'
+;
+Polish Academy of Sciences
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Boswell F.W.'
+;
+Waterloo University
+Guelph-Waterloo Program for Graduate Work in Physics
+Waterloo
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.0308
+_cell_length_b                           13.0308
+_cell_length_c                           6.8118
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1156.7
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              130
+_symmetry_space_group_name_H-M           'P4/ncc O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, z'
+ 3 '0.5-x, y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5-y, 0.5-x, 0.5+z'
+ 7 '0.5-y, x, z'
+ 8 '-y, -x, 0.5-z'
+ 9 '-y, 0.5+x, -z'
+ 10 '0.5+x, -y, 0.5-z'
+ 11 '0.5+x, 0.5+y, -z'
+ 12 'x, 0.5-y, 0.5+z'
+ 13 '0.5+y, -x, -z'
+ 14 '0.5+y, 0.5+x, 0.5-z'
+ 15 'y, 0.5-x, z'
+ 16 'y, x, 0.5+z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Te 0
+ Ta 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ TeCD Te g 16 0.17818 0.08657 0.00215 1
+ TeAB Te g 16 0.17861 0.58664 0.00016 1
+ TaCD Ta c 4 0.25 0.25 0.25194 1
+ TaAB Ta a 4 0.75 0.25 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    6422
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             41
+_refine_ls_number_reflns                 3998
+_refine_ls_R_factor_all                  0.059
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          MSRLSQ
+
+# End of data set 1002386

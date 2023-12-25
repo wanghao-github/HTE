@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# Cd-Th            # Cd7Th6                                        # 1250215 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250215
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250215
+
+# Entry summary
+
+_chemical_formula_structural             Th6Cd7
+_chemical_formula_sum                    Cd7Th6
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cd7Th6,oP26,55
+_chemical_formula_weight                 2179.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure of the New Thorium Intermetallics ThIn and Th6Cd7'         
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1984
+_journal_volume                          51
+_journal_page_first                      135
+_journal_page_last                       140
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fornasini M.L.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Palenzona A.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Manfrinetti P.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.929
+_cell_length_b                           11.703
+_cell_length_c                           6.041
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             701.96
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cd1 Cd i 8 0.3416 0.3170 0.2566 1
+ Th2 Th h 4 0.0477 0.3703 0.5 1
+ Th1 Th h 4 0.1622 0.0835 0.5 1
+ Cd2 Cd g 4 0.0942 0.2510 0 1
+ Th3 Th g 4 0.3413 0.0453 0 1
+ Cd3 Cd a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            102
+_exptl_absorpt_correction_type           'semi-empirical and  spherical'
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             38
+_refine_ls_number_reflns                 1015
+_refine_ls_R_factor_all                  0.086
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          SHELX-76
+
+# End of data set 1250215

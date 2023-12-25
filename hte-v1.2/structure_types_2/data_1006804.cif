@@ -1,0 +1,236 @@
+##############################################################################
+#                                                                            #
+# Rb-Si            # Rb12Si17                                      # 1006804 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1006804
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1006804
+
+# Entry summary
+
+_chemical_formula_structural             Rb12Si17
+_chemical_formula_sum                    Rb12Si17
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb12Si17,mP464,14
+_chemical_formula_weight                 1503.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Synthesis and Structure of Isolated Silicon Clusters of Nine Atoms'          
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1998
+_journal_volume                          120
+_journal_page_first                      3263
+_journal_page_last                       3264
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Quéneau V.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+'Todorov E.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+'Sevov S.C.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           24.445
+_cell_length_b                           14.017
+_cell_length_c                           46.038
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.32
+_cell_angle_gamma                        90
+_cell_volume                             15770.5
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rb1 Rb e 4 0.002 0.9244 0.44278 1
+ Rb22 Rb e 4 0.0055 0.1036 0.3664 1
+ Rb28 Rb e 4 0.0143 0.4604 0.3722 1
+ Si7B Si e 4 0.016 0.158 0.4769 1
+ Si5C Si e 4 0.0189 0.296 0.3049 1
+ Si3B Si e 4 0.0228 0.33 0.478 1
+ Si6C Si e 4 0.0249 0.279 0.2539 1
+ Rb24 Rb e 4 0.0277 0.0724 0.2051 1
+ Si9C Si e 4 0.0367 0.139 0.2854 1
+ Si2B Si e 4 0.0467 0.226 0.4326 1
+ Rb38 Rb e 4 0.0508 0.0424 0.0555 1
+ Si4E Si e 4 0.0522 0.706 0.35 1
+ Si2E Si e 4 0.0569 0.86 0.3739 1
+ Rb46 Rb e 4 0.0605 0.3914 0.176 1
+ Si1E Si e 4 0.0661 0.716 0.4026 1
+ Rb34 Rb e 4 0.0719 0.2425 0.1106 1
+ Si8B Si e 4 0.0812 0.271 0.0126 1
+ Si2C Si e 4 0.0826 0.399 0.2759 1
+ Si1B Si e 4 0.0867 0.375 0.4411 1
+ Rb31 Rb e 4 0.0905 0.6264 0.4766 1
+ Rb19 Rb e 4 0.0925 0.8863 0.2986 1
+ Rb5 Rb e 4 0.1038 0.7197 0.0754 1
+ Rb42 Rb e 4 0.1064 0.6377 0.2355 1
+ Si6B Si e 4 0.1078 0.11 0.4582 1
+ Si1C Si e 4 0.1107 0.345 0.3236 1
+ Si4C Si e 4 0.1135 0.174 0.3164 1
+ Si3J Si e 4 0.1145 0.4754 0.1006 1
+ Si7C Si e 4 0.1223 0.289 0.2413 1
+ Si4B Si e 4 0.1225 0.367 0.4897 1
+ Si1I Si e 4 0.1238 0.0432 0.1491 1
+ Rb7 Rb e 4 0.1252 0.7991 0.1709 1
+ Si8C Si e 4 0.1259 0.139 0.266 1
+ Si4I Si e 4 0.1331 0.5647 0.6087 1
+ Si3E Si e 4 0.1373 0.7654 0.3693 1
+ Rb39 Rb e 4 0.1438 0.526 0.0236 1
+ Si1J Si e 4 0.1452 0.574 0.1413 1
+ Si5B Si e 4 0.1473 0.249 0.4358 1
+ Rb2 Rb e 4 0.166 0.5834 0.31577 1
+ Si9B Si e 4 0.1673 0.211 0.4874 1
+ Rb36 Rb e 4 0.1698 0.5382 0.4023 1
+ Si3C Si e 4 0.1701 0.286 0.2875 1
+ Rb29 Rb e 4 0.1706 0.0289 0.376 1
+ Si3I Si e 4 0.1783 0.0865 0.1082 1
+ Si2J Si e 4 0.1833 0.418 0.1341 1
+ Si1K Si e 4 0.1994 0.754 0.0166 1
+ Rb15 Rb e 4 0.2018 0.5158 0.72083 1
+ Si4J Si e 4 0.2028 0.5433 0.1009 1
+ Si1H Si e 4 0.2053 0.7861 0.2656 1
+ Rb12 Rb e 4 0.2066 0.2987 0.0666 1
+ Si2I Si e 4 0.2112 0.536 0.6414 1
+ Rb9 Rb e 4 0.2164 0.2113 0.1733 1
+ Rb18 Rb e 4 0.2172 0.0006 0.0395 1
+ Rb33 Rb e 4 0.2209 0.4752 0.2085 1
+ Rb25 Rb e 4 0.2358 0.3004 0.3661 1
+ Si3H Si e 4 0.2426 0.7402 0.2198 1
+ Rb17 Rb e 4 0.2547 0.7989 0.0886 1
+ Rb23 Rb e 4 0.2613 0.4051 0.4663 1
+ Si2H Si e 4 0.2623 0.6458 0.2621 1
+ Rb35 Rb e 4 0.2737 0.0598 0.2943 1
+ Rb45 Rb e 4 0.2758 0.6792 0.1525 1
+ Rb26 Rb e 4 0.2804 0.0786 0.4534 1
+ Si2F Si e 4 0.2893 0.536 0.3556 1
+ Si3K Si e 4 0.2985 0.81 0.0122 1
+ Rb11 Rb e 4 0.2989 0.4044 0.2859 1
+ Rb10 Rb e 4 0.3094 0.5818 0.0491 1
+ Si2L Si e 4 0.3113 0.094 0.375 1
+ Si1F Si e 4 0.3209 0.466 0.4 1
+ Rb13 Rb e 4 0.3263 0.073 0.1147 1
+ Si7D Si e 4 0.3327 0.166 0.2232 1
+ Rb41 Rb e 4 0.3332 0.4144 0.1234 1
+ Si1A Si e 4 0.3428 0.162 0.037 1
+ Si6D Si e 4 0.3439 0.336 0.212 1
+ Si2A Si e 4 0.3524 0.331 0.0455 1
+ Si3F Si e 4 0.3677 0.4333 0.3559 1
+ Si5A Si e 4 0.3683 0.247 0.4958 1
+ Si2D Si e 4 0.3719 0.207 0.1783 1
+ Si3L Si e 4 0.3914 0.03 0.399 1
+ Rb8 Rb e 4 0.398 0.2734 0.41854 1
+ Si8D Si e 4 0.3999 0.215 0.2599 1
+ Si3A Si e 4 0.4107 0.209 0.0733 1
+ Rb3 Rb e 4 0.4143 0.203 0.3388 1
+ Si3D Si e 4 0.4214 0.1 0.2191 1
+ Si6A Si e 4 0.4241 0.384 0.0126 1
+ Si9D Si e 4 0.4259 0.365 0.2402 1
+ Si5D Si e 4 0.4331 0.352 0.1896 1
+ Si4A Si e 4 0.434 0.12 0.0243 1
+ Si7A Si e 4 0.4387 0.361 0.0624 1
+ Si1D Si e 4 0.4683 0.194 0.1837 1
+ Si9A Si e 4 0.469 0.258 0.4983 1
+ Si4D Si e 4 0.4849 0.229 0.2341 1
+ Si8A Si e 4 0.4947 0.226 0.0476 1
+ Rb47 Rb e 4 0.4953 0.0233 0.1142 1
+ Rb37 Rb e 4 0.4978 0.3998 0.3113 1
+ Rb20 Rb e 4 0.5098 0.0914 0.4446 1
+ Rb30 Rb e 4 0.52 0.0152 0.3642 1
+ Si1G Si e 4 0.5258 0.266 0.3857 1
+ Rb27 Rb e 4 0.5531 0.2934 0.1181 1
+ Rb21 Rb e 4 0.5738 0.4356 0.2204 1
+ Si4G Si e 4 0.5793 0.2234 0.3442 1
+ Rb16 Rb e 4 0.5802 0.3672 0.4516 1
+ Rb43 Rb e 4 0.605 0.3883 0.0339 1
+ Rb48 Rb e 4 0.6081 0.0691 0.037 1
+ Rb14 Rb e 4 0.6099 0.1257 0.2781 1
+ Si2G Si e 4 0.6113 0.1838 0.3927 1
+ Si3G Si e 4 0.6116 0.3486 0.3778 1
+ Rb44 Rb e 4 0.6121 0.1387 0.1937 1
+ Si4F Si e 4 0.6271 0.088 0.123 1
+ Si4L Si e 4 0.6337 0.476 0.1494 1
+ Rb6 Rb e 4 0.6669 0.4159 0.31193 1
+ Si1L Si e 4 0.6878 0.432 0.1082 1
+ Si4H Si e 4 0.7003 0.3081 0.2423 1
+ Rb32 Rb e 4 0.7234 0.2135 0.0892 1
+ Rb4 Rb e 4 0.7317 0.2848 0.16605 1
+ Si2K Si e 4 0.738 0.319 0.0158 1
+ Si4K Si e 4 0.7714 0.157 0.0234 1
+ Rb40 Rb e 4 0.8398 0.3618 0.0621 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            173
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              173
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens SMART'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    14572
+_diffrn_reflns_theta_min                 0.88
+_diffrn_reflns_theta_max                 20
+_exptl_absorpt_coefficient_mu            15.266
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             706
+_refine_ls_number_reflns                 14028
+_refine_ls_R_factor_all                  0.0981
+_refine_ls_wR_factor_all                 0.2307
+_computing_structure_refinement          ?
+
+# End of data set 1006804

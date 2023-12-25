@@ -1,0 +1,116 @@
+##############################################################################
+#                                                                            #
+# P-Se             # PSeht                                         # 1251557 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251557
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251557
+
+# Entry summary
+
+_chemical_formula_structural             catena-(P4Se4)x
+_chemical_formula_sum                    PSe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PSe,mP32,14
+_chemical_formula_weight                 109.9
+_chemical_melting_point                  603
+
+# Bibliographic data
+
+_publ_section_title
+;
+Darstellung und Kristallstruktur des ersten polymeren Phosphorselenids catena-(P4Se4)x
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1994
+_journal_volume                          620
+_journal_page_first                      1832
+_journal_page_last                       1836
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ruck M.'
+;
+Karlsruhe University (TH)
+Institut für Anorganische Chemie
+Karlsruhe
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.192
+_cell_length_b                           7.282
+_cell_length_c                           11.425
+_cell_angle_alpha                        90
+_cell_angle_beta                         115.91
+_cell_angle_gamma                        90
+_cell_volume                             837.54
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se1 Se e 4 0.10427 0.78336 0.11318 1
+ P3 P e 4 0.16792 0.1942 0.2385 1
+ P1 P e 4 0.17524 0.6287 0.3055 1
+ Se3 Se e 4 0.19596 0.05263 0.42612 1
+ P4 P e 4 0.2608 0.0053 0.1523 1
+ Se4 Se e 4 0.32596 0.41868 0.30424 1
+ Se2 Se e 4 0.56339 0.39349 0.17278 1
+ P2 P e 4 0.67123 0.3087 0.05493 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5406
+_cell_measurement_reflns_used            41
+_diffrn_ambient_temperature              293(1)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens-Stoe AED2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    7758
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 27.5
+_exptl_absorpt_coefficient_mu            18.2
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             73
+_refine_ls_number_reflns                 1942
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.050
+_computing_structure_refinement          'HABITUS; SHELXL-93'
+
+# End of data set 1251557

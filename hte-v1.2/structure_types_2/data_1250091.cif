@@ -1,0 +1,223 @@
+##############################################################################
+#                                                                            #
+# Cr-O             # Cr8O21rt                                      # 1250091 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250091
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250091
+
+# Entry summary
+
+_chemical_formula_structural             Cr8O21
+_chemical_formula_sum                    Cr8O21
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cr8O21,aP29,2
+_chemical_formula_weight                 752.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structure of Cr8O21 Determined from Powder Diffraction Data: Thermal Transformation and Magnetic Properties of a Chromium-Chromate-Tetrachromate
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1991
+_journal_volume                          94
+_journal_page_first                      281
+_journal_page_last                       293
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Norby P.'
+;
+Odense University
+Department of Chemistry
+Odense
+Denmark
+;
+'Christensen A.N.'
+;
+Århus University
+Department of Chemistry
+Århus
+Denmark
+;
+'Fjellvag H.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+'Nielsen M.'
+;
+Riso National Laboratory
+Department of Physics
+Roskilde
+Denmark
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.433
+_cell_length_b                           6.557
+_cell_length_c                           12.044
+_cell_angle_alpha                        74.87
+_cell_angle_beta                         89.25
+_cell_angle_gamma                        77.96
+_cell_volume                             404.68
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O2 O i 2 0.074 0.714 0.451 1
+ O8 O i 2 0.117 0.539 0.103 1
+ O5 O i 2 0.119 0.585 0.688 1
+ Cr3 Cr6+ i 2 0.142 0.381 0.242 1
+ O6 O i 2 0.196 0.116 0.743 1
+ Cr2 Cr6+ i 2 0.220 0.164 0.602 1
+ Cr4 Cr6+ i 2 0.221 0.771 0.028 1
+ O11 O i 2 0.239 0.123 0.245 1
+ O4 O i 2 0.373 0.432 0.318 1
+ O7 O i 2 0.411 0.342 0.557 1
+ O9 O i 2 0.462 0.791 0.094 1
+ Cr1 Cr3+ i 2 0.641 0.357 0.432 1
+ O10 O i 2 0.683 0.281 0.091 1
+ O1 O i 2 0.700 0.056 0.440 1
+ O3 O a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cr Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'D1A, ILL, Grenoble, France'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.9589
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 79.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 914
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          XRS-82
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 116.6 95
+ 0 -1 1 61.92 20
+ 0 0 2 58.09 20
+ 0 1 1 49.38 20
+ 1 0 1 47.55 5
+ 1 1 0 44.7 25
+ -1 0 2 40.07 10
+ 1 1 1 38.79 40
+ 1 0 2 38.37 75
+ 0 1 2 37.58 25
+ 1 -1 0 36.99 50
+ -1 1 1 33.99 25
+ 1 -1 2 33.23 100
+ 1 1 2 32.01 45
+ 0 -2 2 30.91 65
+ 1 0 3 30.67 35
+ -1 -2 1 30.41 25
+ 0 -1 4 29.51 20
+ 0 0 4 29.06 2
+ 1 -1 3 28.67 5
+ 0 -2 3 28.11 30
+ -1 -2 3 27.17 2
+ 2 0 0 26.57 35
+ 2 1 0 26.26 65
+ -2 0 1 26.15 20
+ -1 0 4 25.96 25
+ -1 1 3 25.15 2
+ 1 0 4 25.03 5
+ 2 1 1 24.79 5
+ 1 -1 4 24.44 10
+ 0 -1 5 23.95 5
+ 2 0 2 23.75 5
+ 1 2 2 23.6 2
+ 0 0 5 23.23 5
+ 1 -2 3 22.97 5
+ -2 -2 2 22.66 5
+ -2 0 3 22.35 5
+ 2 -1 2 21.71 5
+ -2 -2 3 21.62 10
+ 2 0 3 21.47 10
+ -1 -3 1 21.31 35
+ 1 -2 4 20.96 2
+ -2 1 2 20.85 5
+ -1 -3 3 20.77 10
+ 0 3 0 20.59 5
+ 2 1 3 20.3 5
+ 0 1 5 20.05 15
+ 0 0 6 19.373 10
+ -2 -1 5 18.935 10
+ -2 -3 2 18.641 5
+ -2 -3 1 18.56 5
+ 2 -2 0 18.482 20
+ -2 -2 5 18.337 5
+ 1 2 4 18.212 5
+ -1 3 0 18.092 5
+ 1 -3 3 17.961 10
+ -2 0 5 17.875 5
+ 3 0 0 17.683 10
+ -3 0 1 17.603 5
+ -2 -3 4 17.517 2
+ 3 1 1 17.393 5
+ -1 3 1 17.301 5
+ 2 0 5 17.112 30
+ -3 -2 2 16.998 5
+ -2 -1 6 16.907 10
+ 3 0 2 16.736 5
+ -1 -3 6 16.658 5
+ 0 -2 7 16.583 20
+ 0 2 5 16.545 5
+ 1 3 3 16.326 5
+ -1 1 6 16.294 2
+ 1 2 5 16.13 2
+ -1 0 7 16.042 2
+
+# End of data set 1250091

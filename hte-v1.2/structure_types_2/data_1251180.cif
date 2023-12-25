@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# Ni-Zn            # Zn22Ni3                                       # 1251180 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251180
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251180
+
+# Entry summary
+
+_chemical_formula_structural             d-Ni-Zn
+_chemical_formula_sum                    Ni3Zn22
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn22Ni3,mS50,12
+_chemical_formula_weight                 1614.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of d-Ni-Zn'
+_journal_coden_ASTM                      JIMEAP
+_journal_year                            1971
+_journal_volume                          99
+_journal_page_first                      26
+_journal_page_last                       27
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Critchley J.K.'
+;
+Brunel University
+?
+Uxbridge
+United Kingdom
+;
+'Denton S.'
+;
+Brunel University
+?
+Uxbridge
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.37
+_cell_length_b                           7.47
+_cell_length_c                           7.65
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.3
+_cell_angle_gamma                        90
+_cell_volume                             711.84
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn6 Zn j 8 0.157 0.175 0.464 1
+ Zn8 Zn j 8 0.192 0.193 0.098 1
+ Zn7 Zn j 8 0.458 0.199 0.310 1
+ Zn3 Zn i 4 0.023 0 0.171 1
+ Zn2 Zn i 4 0.169 0 0.784 1
+ Zn4 Zn i 4 0.314 0 0.384 1
+ Ni2 Ni i 4 0.341 0 0.049 1
+ Zn5 Zn i 4 0.648 0 0.274 1
+ Zn1 Zn g 4 0 0.329 0 1
+ Ni1 Ni c 2 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 185
+_refine_ls_R_factor_all                  0.12
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251180

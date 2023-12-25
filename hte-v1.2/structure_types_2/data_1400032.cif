@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# S-Y              # Y2S3                                          # 1400032 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1400032
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1400032
+
+# Entry summary
+
+_chemical_formula_structural             D-Y2S3
+_chemical_formula_sum                    S3Y2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho2S3,mP30,11
+_chemical_formula_weight                 274.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structures of D-Y2S3 and Y2OS2'                                      
+_journal_coden_ASTM                      EJSCE5
+_journal_year                            1992
+_journal_volume                          29
+_journal_page_first                      1015
+_journal_page_last                       1028
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schleid T.'
+;
+Hannover Gottfried Wilhelm Leibniz University
+Institut für Anorganische Chemie
+Hannover
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.1736
+_cell_length_b                           4.0107
+_cell_length_c                           17.5234
+_cell_angle_alpha                        90
+_cell_angle_beta                         98.601
+_cell_angle_gamma                        90
+_cell_volume                             707
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S5 S e 2 0.0077 0.25 0.76796 1
+ S1 S e 2 0.0514 0.25 0.0757 1
+ Y2 Y e 2 0.12496 0.25 0.93014 1
+ Y4 Y e 2 0.18695 0.25 0.22018 1
+ Y1 Y e 2 0.18894 0.25 0.52035 1
+ S2 S e 2 0.2674 0.25 0.37313 1
+ S8 S e 2 0.3206 0.25 0.6845 1
+ S9 S e 2 0.3663 0.25 0.0317 1
+ Y5 Y e 2 0.48682 0.25 0.89802 1
+ Y6 Y e 2 0.54933 0.25 0.6153 1
+ S3 S e 2 0.6153 0.25 0.46669 1
+ S4 S e 2 0.6371 0.25 0.78168 1
+ S6 S e 2 0.7109 0.25 0.13022 1
+ Y3 Y e 2 0.8289 0.25 0.28104 1
+ S7 S e 2 0.9505 0.25 0.42422 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens-Stoe AED2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    7002
+_exptl_absorpt_coefficient_mu            25.264
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.042
+_refine_ls_wR_factor_all                 0.028
+_computing_structure_refinement          SHELXS-86
+
+# End of data set 1400032

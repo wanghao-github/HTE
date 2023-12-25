@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# Cl-Sc            # Sc5Cl8                                        # 1906766 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1906766
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1906766
+
+# Entry summary
+
+_chemical_formula_structural             Sc5Cl8
+_chemical_formula_sum                    Cl8Sc5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tb5Br8,mS26,12
+_chemical_formula_weight                 508.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Cluster Condensation Reactions. Synthesis and Structure of Pentascandium Octachloride (Sc5Cl8). An Infinite Chain Structure Derived by Cluster Condensation
+;
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1978
+_journal_volume                          100
+_journal_page_first                      5039
+_journal_page_last                       5044
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Poeppelmeier K.R.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.78
+_cell_length_b                           3.523
+_cell_length_c                           12.04
+_cell_angle_alpha                        90
+_cell_angle_beta                         130.1
+_cell_angle_gamma                        90
+_cell_volume                             576.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl4 Cl i 4 0.0298 0 0.2385 1
+ Sc3 Sc i 4 0.1628 0 0.6753 1
+ Cl1 Cl i 4 0.2987 0 0.4323 1
+ Cl3 Cl i 4 0.3277 0 0.1625 1
+ Sc2 Sc i 4 0.5118 0 0.3864 1
+ Cl2 Cl i 4 0.6328 0 0.1033 1
+ Sc1 Sc a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.70954
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.70954
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 486
+_refine_ls_R_factor_all                  0.115
+_refine_ls_wR_factor_all                 0.136
+_computing_structure_refinement          ?
+
+# End of data set 1906766

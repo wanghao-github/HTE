@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# Rb-Te            # Rb2Te5                                        # 1251031 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251031
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251031
+
+# Entry summary
+
+_chemical_formula_structural             Rb2Te5
+_chemical_formula_sum                    Rb2Te5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb2Te5,mS14,12
+_chemical_formula_weight                 808.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'DARSTELLUNG UND KRISTALLSTRUKTUR VON DIRUBIDIUMPENTATELLURID, Rb2Te5'        
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1983
+_journal_volume                          95
+_journal_page_first                      81
+_journal_page_last                       91
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Böttcher P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+'Kretschmann U.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.633
+_cell_length_b                           9.124
+_cell_length_c                           5.75
+_cell_angle_alpha                        90
+_cell_angle_beta                         116.67
+_cell_angle_gamma                        90
+_cell_volume                             545.37
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te2 Te j 8 0.0928 0.2397 0.2578 1
+ Rb Rb i 4 0.3166 0 0.1437 1
+ Te1 Te c 2 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            11
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 453
+_refine_ls_R_factor_all                  0.029
+_refine_ls_wR_factor_all                 0.020
+_computing_structure_refinement          'SDP package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 2 0 194.2 2
+ 3 1 -1 244.8 4
+ 0 2 1 265.8 7
+ 3 1 0 274.4 3
+ 4 0 -1 293.4 4
+ 2 0 1 306.8 2
+ 3 1 -2 333.2 2
+ 4 0 -2 348.4 2
+ 4 2 -1 354.3 3
+ 0 0 2 363.8 3
+ 2 2 1 365.9 3
+ 0 4 0 394 5
+ 4 2 0 398 3
+ 4 2 -2 401.6 4
+ 3 3 -2 438 2
+ 6 0 -1 455 2
+ 4 4 -1 498.8 3
+ 6 2 -2 501.6 2
+ 2 4 1 507.6 2
+ 2 2 2 524.8 2
+ 2 2 -3 528.6 2
+ 0 4 2 547.5 3
+ 6 2 0 566.6 3
+ 6 4 -1 617.2 2
+ 4 4 -3 635.8 2
+ 0 6 1 639 3
+ 6 0 1 655.3 2
+ 8 2 -3 678.8 2
+ 2 2 -4 720 2
+
+# End of data set 1251031

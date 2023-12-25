@@ -1,0 +1,121 @@
+##############################################################################
+#                                                                            #
+# In-S             # In6S7                                         # 1401474 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1401474
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1401474
+
+# Entry summary
+
+_chemical_formula_structural             In6S7
+_chemical_formula_sum                    In6S7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            In5(In0.91Sn0.09)0.92S7,mP26,11
+_chemical_formula_weight                 913.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of In6S7'
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1967
+_journal_volume                          23
+_journal_page_first                      111
+_journal_page_last                       118
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hogg J.H.C.'
+;
+Hull University
+Department of Physics
+Hull
+United Kingdom
+;
+'Duffin W.J.'
+;
+Hull University
+Department of Physics
+Hull
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.09
+_cell_length_b                           3.887
+_cell_length_c                           17.1919
+_cell_angle_alpha                        90
+_cell_angle_beta                         101.951
+_cell_angle_gamma                        90
+_cell_volume                             594.3
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In3 In e 2 0.0213 0.25 0.6044 1
+ In1 In e 2 0.0662 0.25 0.1214 1
+ S2 S e 2 0.1174 0.25 0.3461 1
+ S1 S e 2 0.1654 0.25 0.9947 1
+ S3 S e 2 0.2403 0.25 0.7283 1
+ In4 In e 2 0.3281 0.25 0.4682 1
+ In5 In e 2 0.4704 0.25 0.2747 1
+ S6 S e 2 0.5359 0.25 0.5895 1
+ S4 S e 2 0.5562 0.25 0.0906 1
+ In6 In e 2 0.6447 0.25 0.9535 1
+ S5 S e 2 0.7563 0.25 0.8257 1
+ In2 In e 2 0.8181 0.25 0.1889 1
+ S7 S e 2 0.8311 0.25 0.4675 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.129
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1401474

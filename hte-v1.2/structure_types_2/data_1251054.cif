@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Fe-Sc            # Sc29Fe6rt                                     # 1251054 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251054
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251054
+
+# Entry summary
+
+_chemical_formula_structural             Sc29Fe6
+_chemical_formula_sum                    Fe6Sc29
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc29Fe6,cP140,200
+_chemical_formula_weight                 1638.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Sc29Fe6 -a new structure type of the intermetallic compounds'                
+_journal_coden_ASTM                      DANND6
+_journal_year                            1986
+_journal_volume                          ?
+_journal_page_first                      28
+_journal_page_last                       31
+_journal_language                        Ukrainian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kotur B.Y.'
+;
+L'viv Ivan Franko National University
+Department of Inorganic Chemistry
+L'viv
+Ukraine
+;
+'Bodak O.I.'
+;
+L'viv Ivan Franko National University
+Department of Inorganic Chemistry
+L'viv
+Ukraine
+;
+'Andrusyak R.I.'
+;
+L'viv Ivan Franko National University
+?
+L'viv
+Ukraine
+;
+'Zavodnik V.E.'
+;
+?
+?
+?
+?
+;
+'Belsky V.K.'
+;
+?
+?
+?
+?
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.361
+_cell_length_b                           14.361
+_cell_length_c                           14.361
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2961.79
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              200
+_symmetry_space_group_name_H-M           Pm-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sc5 Sc l 24 0.1138 0.1816 0.2925 1
+ Sc6 Sc l 24 0.2017 0.3842 0.3121 1
+ Sc9 Sc k 12 0.5 0.1130 0.1290 1
+ Fe2 Fe k 12 0.5 0.1659 0.3000 1
+ Sc8 Sc k 12 0.5 0.3204 0.3895 1
+ Sc7 Sc j 12 0 0.1809 0.1113 1
+ Sc10 Sc j 12 0 0.3232 0.3989 1
+ Fe1 Fe j 12 0 0.3352 0.2054 1
+ Sc3 Sc h 6 0.1274 0.5 0.5 1
+ Sc11 Sc f 6 0.2768 0 0.5 1
+ Sc4 Sc e 6 0.3651 0 0 1
+ Sc2 Sc b 1 0.5 0.5 0.5 1
+ Sc1 Sc a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            9.105
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 285
+_refine_ls_R_factor_all                  0.067
+_refine_ls_wR_factor_all                 0.072
+_computing_structure_refinement          'SHELXTL package'
+
+# End of data set 1251054

@@ -1,0 +1,181 @@
+##############################################################################
+#                                                                            #
+# F-U              # U2F9                                          # 1004284 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1004284
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1004284
+
+# Entry summary
+
+_chemical_formula_structural             U2F9
+_chemical_formula_sum                    F9U2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U2F9,cI44,217
+_chemical_formula_weight                 647.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structures of a-UF5 and U2F9 and Spectral Characterization of U2F9'  
+_journal_coden_ASTM                      ICHAA3
+_journal_year                            1979
+_journal_volume                          37
+_journal_page_first                      129
+_journal_page_last                       133
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gary Eller P.'
+;
+California University
+Los Alamos Scientific Laboratory
+Los Alamos
+U.S.A. New Mexico
+;
+'Larson A.C.'
+;
+California University
+Los Alamos Scientific Laboratory
+Los Alamos
+U.S.A. New Mexico
+;
+'Peterson J.R.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Ensor D.D.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Young J.P.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.462
+_cell_length_b                           8.462
+_cell_length_c                           8.462
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             605.9
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              217
+_symmetry_space_group_name_H-M           I-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 '0.5+x, 0.5+y, 0.5+z'
+ 26 '0.5-x, 0.5-y, 0.5+z'
+ 27 '0.5-x, 0.5-z, 0.5+y'
+ 28 '0.5-x, 0.5+y, 0.5-z'
+ 29 '0.5-x, 0.5+z, 0.5-y'
+ 30 '0.5-y, 0.5-x, 0.5+z'
+ 31 '0.5-y, 0.5-z, 0.5+x'
+ 32 '0.5-y, 0.5+x, 0.5-z'
+ 33 '0.5-y, 0.5+z, 0.5-x'
+ 34 '0.5-z, 0.5-x, 0.5+y'
+ 35 '0.5-z, 0.5-y, 0.5+x'
+ 36 '0.5-z, 0.5+x, 0.5-y'
+ 37 '0.5-z, 0.5+y, 0.5-x'
+ 38 '0.5+x, 0.5-y, 0.5-z'
+ 39 '0.5+x, 0.5-z, 0.5-y'
+ 40 '0.5+x, 0.5+z, 0.5+y'
+ 41 '0.5+y, 0.5-x, 0.5-z'
+ 42 '0.5+y, 0.5-z, 0.5-x'
+ 43 '0.5+y, 0.5+x, 0.5+z'
+ 44 '0.5+y, 0.5+z, 0.5+x'
+ 45 '0.5+z, 0.5-x, 0.5-y'
+ 46 '0.5+z, 0.5-y, 0.5-x'
+ 47 '0.5+z, 0.5+x, 0.5+y'
+ 48 '0.5+z, 0.5+y, 0.5+x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F g 24 0.2087 0.2087 0.4447 1
+ F2 F e 12 0.2216 0 0 1
+ U U c 8 0.1877 0.1877 0.1877 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            295
+_cell_measurement_radiation              ?
+_cell_measurement_wavelength             0.7093
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Picker FACS-1'
+_diffrn_radiation_type                   ?
+_diffrn_radiation_wavelength             0.7093
+_diffrn_reflns_number                    1865
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 60
+_exptl_absorpt_coefficient_mu            80.2
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 104
+_refine_ls_R_factor_all                  0.032
+_refine_ls_wR_factor_all                 0.031
+_computing_structure_refinement          ?
+
+# End of data set 1004284

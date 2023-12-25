@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# I-Te             # TeI4m mon                                     # 1251058 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251058
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251058
+
+# Entry summary
+
+_chemical_formula_structural             g-TeI4
+_chemical_formula_sum                    I4Te
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TeI4,mP80,14
+_chemical_formula_weight                 635.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Polymorphie von Tellur(IV)-iodid'
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            1988
+_journal_volume                          43
+_journal_page_first                      966
+_journal_page_last                       980
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kniep R.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Beister H.J.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Wald D.'
+;
+Giessen Justus Liebig University
+Institut für Anorganische und Analytische Chemie
+Giessen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.199
+_cell_length_b                           13.599
+_cell_length_c                           22.158
+_cell_angle_alpha                        90
+_cell_angle_beta                         98.1
+_cell_angle_gamma                        90
+_cell_volume                             3340.89
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I8 I e 4 0.0114 0.2607 0.4443 1
+ I13 I e 4 0.0457 0.0032 0.3489 1
+ I14 I e 4 0.0778 0.4993 0.3445 1
+ I5 I e 4 0.1010 0.7588 0.2445 1
+ Te4 Te e 4 0.1359 0.6277 0.1256 1
+ I1 I e 4 0.1403 0.2620 0.1328 1
+ I11 I e 4 0.1800 0.0128 0.0344 1
+ I12 I e 4 0.1908 0.5204 0.0267 1
+ Te3 Te e 4 0.2629 0.6287 0.3323 1
+ I4 I e 4 0.2666 0.2624 0.3253 1
+ I15 I e 4 0.2988 0.0090 0.2277 1
+ I16 I e 4 0.3219 0.5009 0.2161 1
+ Te2 Te e 4 0.3239 0.1463 0.1052 1
+ I6 I e 4 0.3814 0.2606 0.0117 1
+ I9 I e 4 0.4231 0.0174 0.4103 1
+ Te1 Te e 4 0.4526 0.1369 0.3114 1
+ I2 I e 4 0.5168 0.2659 0.1980 1
+ I10 I e 4 0.5650 0.0081 0.0906 1
+ I7 I e 4 0.6312 0.2660 0.3881 1
+ I3 I e 4 0.7727 0.2529 0.0737 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    5824
+_exptl_absorpt_coefficient_mu            18.10
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3709
+_refine_ls_R_factor_all                  0.073
+_refine_ls_wR_factor_all                 0.104
+_computing_structure_refinement          ?
+
+# End of data set 1251058

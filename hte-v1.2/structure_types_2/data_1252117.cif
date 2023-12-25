@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# S-Tc             # TcS2                                          # 1252117 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252117
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252117
+
+# Entry summary
+
+_chemical_formula_structural             TcS2
+_chemical_formula_sum                    S2Tc
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TcS2,aP12,2
+_chemical_formula_weight                 162.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structure of some rhenium and technetium dichalcogenides'        
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1996
+_journal_volume                          241
+_journal_page_first                      34
+_journal_page_last                       39
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lamfers H.J.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'Meetsma A.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'Wiegers G.A.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+'De Boer J.L.'
+;
+Groningen University
+Department of Chemical Physics
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.371
+_cell_length_b                           6.464
+_cell_length_c                           6.654
+_cell_angle_alpha                        62.94
+_cell_angle_beta                         76.39
+_cell_angle_gamma                        61.
+_cell_volume                             213.39
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tc2 Tc i 2 0.01047 0.28505 0.00285 1
+ S1 S i 2 0.1389 0.3076 0.2900 1
+ S4 S i 2 0.1789 0.8124 0.2011 1
+ S3 S i 2 0.3566 0.1714 0.7741 1
+ Tc1 Tc i 2 0.43967 0.30642 0.00959 1
+ S2 S i 2 0.6760 0.2802 0.2622 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            22
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4F'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1617
+_exptl_absorpt_coefficient_mu            8.21
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             55
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.032
+_refine_ls_wR_factor_all                 0.037
+_computing_structure_refinement          'XTAL package'
+
+# End of data set 1252117

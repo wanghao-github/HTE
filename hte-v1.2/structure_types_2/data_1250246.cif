@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# As-Sr            # Sr3As4                                        # 1250246 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250246
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250246
+
+# Entry summary
+
+_chemical_formula_structural             Sr3As4
+_chemical_formula_sum                    As4Sr3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sr3As4,oF56,43
+_chemical_formula_weight                 562.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Die Kristallstruktur des Sr3As4'
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1977
+_journal_volume                          32
+_journal_page_first                      1368
+_journal_page_last                       1370
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Deller K.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Eisenmann B.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.84
+_cell_length_b                           17.89
+_cell_length_c                           5.97
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1584.96
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              43
+_symmetry_space_group_name_H-M           Fdd2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.25-x, 0.25+y, 0.25+z'
+ 3 '-x, -y, z'
+ 4 '0.25+x, 0.25-y, 0.25+z'
+ 5 'x, 0.5+y, 0.5+z'
+ 6 '0.25-x, 0.75+y, 0.75+z'
+ 7 '-x, 0.5-y, 0.5+z'
+ 8 '0.25+x, 0.75-y, 0.75+z'
+ 9 '0.5+x, y, 0.5+z'
+ 10 '0.75-x, 0.25+y, 0.75+z'
+ 11 '0.5-x, -y, 0.5+z'
+ 12 '0.75+x, 0.25-y, 0.75+z'
+ 13 '0.5+x, 0.5+y, z'
+ 14 '0.75-x, 0.75+y, 0.25+z'
+ 15 '0.5-x, 0.5-y, z'
+ 16 '0.75+x, 0.75-y, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sr2 Sr b 16 0.0020 0.3325 0.0277 1
+ As2 As b 16 0.0858 0.0029 0.4949 1
+ As1 As b 16 0.0861 0.1705 0.0178 1
+ Sr1 Sr a 8 0 0 0.0000 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI-2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            35.994
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 802
+_refine_ls_R_factor_all                  0.057
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250246

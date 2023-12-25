@@ -1,0 +1,8 @@
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,+1 mx,my,mz
+3 x,-y,-z,-1 -mx,my,mz
+4 -x,y,z,-1 -mx,my,mz
+5 -x+1/2,z+1/2,y+1/2,+1 -mx,mz,my
+6 x+1/2,-z+1/2,-y+1/2,+1 -mx,mz,my
+7 -x+1/2,-z+1/2,-y+1/2,-1 mx,mz,my
+8 x+1/2,z+1/2,y+1/2,-1 mx,mz,my

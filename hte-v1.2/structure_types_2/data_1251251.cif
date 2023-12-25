@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# Nb-P             # Nb2P5hp                                       # 1251251 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251251
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251251
+
+# Entry summary
+
+_chemical_formula_structural             Nb2P5
+_chemical_formula_sum                    Nb2P5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nb2P5,oP28,62
+_chemical_formula_weight                 340.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'High-Pressure Synthesis and Structure of the New Niobium Phosphide Nb2P5'    
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1980
+_journal_volume                          36
+_journal_page_first                      2206
+_journal_page_last                       2210
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kanno R.'
+;
+Osaka University
+Institute of Scientific and Industrial Research
+Suita
+Japan
+;
+'Kinomura N.'
+;
+Osaka University
+Institute of Scientific and Industrial Research
+Suita
+Japan
+;
+'Koizumi M.'
+;
+Osaka University
+Institute of Scientific and Industrial Research
+Suita
+Japan
+;
+'Nishigaki S.'
+;
+Kwansei Gakuin University
+Faculty of Science
+Nishinomiya
+Japan
+;
+'Nakatsu K.'
+;
+Kwansei Gakuin University
+Faculty of Science
+Nishinomiya
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.742
+_cell_length_b                           3.3499
+_cell_length_c                           7.912
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             443.74
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P3 P c 4 0.02257 0.25 0.62131 1
+ P1 P c 4 0.04016 0.25 0.03856 1
+ Nb1 Nb c 4 0.09506 0.25 0.33609 1
+ P2 P c 4 0.11574 0.25 0.81707 1
+ Nb2 Nb c 4 0.27343 0.25 0.32790 1
+ P5 P c 4 0.31496 0.25 0.65206 1
+ P4 P c 4 0.31556 0.25 0.00656 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              5.08
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            36
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Rigaku
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1198
+_refine_ls_R_factor_all                  0.0367
+_refine_ls_wR_factor_all                 0.0448
+_computing_structure_refinement          ?
+
+# End of data set 1251251

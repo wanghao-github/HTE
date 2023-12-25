@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# F-Sb             # Sb4F15orth1                                   # 1251079 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251079
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251079
+
+# Entry summary
+
+_chemical_formula_structural             5SbF3.3SbF5
+_chemical_formula_sum                    F15Sb4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sb4F15,oP304,62
+_chemical_formula_weight                 772.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Preparation and Crystal Structure of 5SbF3.3SbF5'                        
+_journal_coden_ASTM                      JCDTBI
+_journal_year                            1987
+_journal_volume                          ?
+_journal_page_first                      1989
+_journal_page_last                       1998
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Shantha Nandana W.A.'
+;
+New Brunswick University
+Department of Chemistry
+Fredericton
+Canada
+;
+'Passmore J.'
+;
+New Brunswick University
+Department of Chemistry
+Fredericton
+Canada
+;
+'White P.S.'
+;
+New Brunswick University
+Department of Chemistry
+Fredericton
+Canada
+;
+'Wong C.M.'
+;
+New Brunswick University
+Department of Chemistry
+Fredericton
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.187
+_cell_length_b                           15.89
+_cell_length_c                           15.713
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             4790.6
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb5 Sb3+ d 8 0.00769 0.01889 0.74768 1
+ F95 F d 8 0.0362 0.6660 0.4625 1
+ F53 F d 8 0.0539 0.1159 0.6838 1
+ F12 F d 8 0.0548 0.0614 0.1382 1
+ F80 F d 8 0.0628 0.1654 0.3122 1
+ F52 F d 8 0.0647 0.6072 0.2215 1
+ F94 F d 8 0.0688 0.5286 0.3889 1
+ Sb1 Sb3+ d 8 0.07046 0.09648 0.02219 1
+ Sb11 Sb5+ d 8 0.11011 0.58984 0.47552 1
+ F11 F d 8 0.1392 0.0119 0.0122 1
+ F98 F d 8 0.1597 0.6514 0.3911 1
+ F31 F d 8 0.1623 0.1665 0.0914 1
+ F84 F d 8 0.1729 0.0162 0.2654 1
+ F22 F d 8 0.1739 0.6602 0.1190 1
+ F96 F d 8 0.1807 0.5106 0.4792 1
+ F81 F d 8 0.1823 0.1662 0.3928 1
+ F21 F d 8 0.1829 0.1575 0.5857 1
+ F89 F d 8 0.2458 0.5154 0.1290 1
+ Sb2 Sb3+ d 8 0.26397 0.12184 0.52348 1
+ F88 F d 8 0.2655 0.1241 0.2151 1
+ Sb9 Sb5+ d 8 0.26634 0.00984 0.24574 1
+ F85 F d 8 0.2698 0.6056 0.2658 1
+ F86 F d 8 0.2915 0.0347 0.3566 1
+ F99 F d 8 0.3454 0.1516 0.0597 1
+ F41 F d 8 0.3485 0.6694 0.4054 1
+ F87 F d 8 0.3616 0.0081 0.2172 1
+ F92 F d 8 0.3997 0.1672 0.4422 1
+ F90 F d 8 0.4357 0.1678 0.2810 1
+ F97 F d 8 0.4379 0.0306 0.0599 1
+ F51 F d 8 0.4448 0.5564 0.3471 1
+ F91 F c 4 0.0107 0.25 0.1049 1
+ Sb7 Sb3+ c 4 0.07017 0.25 0.64277 1
+ F82 F c 4 0.0787 0.25 0.4620 1
+ Sb8 Sb5+ c 4 0.11935 0.25 0.35323 1
+ F71 F c 4 0.1269 0.25 0.7438 1
+ F83 F c 4 0.1661 0.25 0.2461 1
+ Sb4 Sb3+ c 4 0.21270 0.25 0.86248 1
+ Sb3 Sb3+ c 4 0.23497 0.25 0.12162 1
+ F23 F c 4 0.2734 0.25 0.4975 1
+ F93 F c 4 0.3225 0.25 0.3272 1
+ Sb6 Sb3+ c 4 0.39396 0.25 0.70318 1
+ Sb10 Sb5+ c 4 0.41581 0.25 0.35858 1
+ F61 F c 4 0.4564 0.25 0.6128 1
+ F72 F c 4 0.4828 0.25 0.7853 1
+ F42 F c 4 0.7471 0.25 0.5139 1
+ F13 F a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            43
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          'Picker FACS-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            9.21
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3718
+_refine_ls_R_factor_all                  0.057
+_refine_ls_wR_factor_all                 0.098
+_computing_structure_refinement          MULTAN-80
+
+# End of data set 1251079

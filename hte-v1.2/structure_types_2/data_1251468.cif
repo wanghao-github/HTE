@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# Nb-S             # Nb21S8                                        # 1251468 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251468
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251468
+
+# Entry summary
+
+_chemical_formula_structural             Nb21S8
+_chemical_formula_sum                    Nb21S8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nb21S8,tI58,87
+_chemical_formula_weight                 2207.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of Nb21S8'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1968
+_journal_volume                          24
+_journal_page_first                      412
+_journal_page_last                       416
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Franzen H.F.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+'Beineke T.A.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+'Conrad B.R.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.794
+_cell_length_b                           16.794
+_cell_length_c                           3.359
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             947.4
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              87
+_symmetry_space_group_name_H-M           I4/m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-y, x, -z'
+ 5 '-y, x, z'
+ 6 'x, y, -z'
+ 7 'y, -x, -z'
+ 8 'y, -x, z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5-z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-y, 0.5+x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5+z'
+ 14 '0.5+x, 0.5+y, 0.5-z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5-x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Nb3 Nb h 8 0.0202 0.2777 0 1
+ S1 S h 8 0.0637 0.1377 0 1
+ Nb4 Nb h 8 0.1851 0.3843 0 1
+ Nb5 Nb h 8 0.1986 0.1919 0 1
+ Nb6 Nb h 8 0.3643 0.4509 0 1
+ S2 S h 8 0.3644 0.2126 0 1
+ Nb2 Nb h 8 0.4502 0.0813 0 1
+ Nb1 Nb a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          'General Electric'
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            13.65
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'crystal chemical considerations, direct methods'                             
+_refine_ls_number_parameters             22
+_refine_ls_number_reflns                 557
+_refine_ls_R_factor_all                  0.063
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251468

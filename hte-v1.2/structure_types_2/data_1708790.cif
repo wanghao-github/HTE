@@ -1,0 +1,131 @@
+##############################################################################
+#                                                                            #
+# As-Cs            # Cs3As11                                       # 1708790 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1708790
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1708790
+
+# Entry summary
+
+_chemical_formula_structural             Cs3As11
+_chemical_formula_sum                    As11Cs3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs3As11,mS112,15
+_chemical_formula_weight                 1222.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Alkaline Metal Arsenides A3As11 (A= Rb, Cs): Preparation and Crystal Structures
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2003
+_journal_volume                          629
+_journal_page_first                      467
+_journal_page_last                       472
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Emmerling F.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.245
+_cell_length_b                           15.245
+_cell_length_c                           19.372
+_cell_angle_alpha                        90
+_cell_angle_beta                         95.29
+_cell_angle_gamma                        90
+_cell_volume                             3894.9
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cs2 Cs f 8 0.04111 0.24724 0.39153 1
+ As4B As f 8 0.0817 0.0117 0.18139 1
+ As1B As f 8 0.10023 0.04924 0.05874 1
+ As3A As f 8 0.13215 0.46917 0.44703 1
+ As1A As f 8 0.1364 0.4852 0.32033 1
+ As7 As f 8 0.1551 0.1317 0.24706 1
+ As3B As f 8 0.1946 0.0766 0.51765 1
+ As2B As f 8 0.2299 0.16464 0.06985 1
+ As4A As f 8 0.2882 0.3994 0.29834 1
+ As2A As f 8 0.3058 0.1393 0.18765 1
+ As6 As f 8 0.3246 0.3107 0.39908 1
+ As5 As f 8 0.3659 0.11458 0.00532 1
+ Cs3 Cs f 8 0.38395 0.36151 0.12088 1
+ Cs1 Cs f 8 0.38801 0.08118 0.37019 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            300
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              300
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    9994
+_diffrn_reflns_theta_min                 2.1
+_diffrn_reflns_theta_max                 28.7
+_exptl_absorpt_coefficient_mu            12.052
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             128
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0668
+_refine_ls_wR_factor_all                 0.1281
+_computing_structure_refinement          'SHELXS-97; SHELXL-97'
+
+# End of data set 1708790

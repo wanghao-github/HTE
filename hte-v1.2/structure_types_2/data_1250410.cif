@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# O-S              # S8O                                           # 1250410 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250410
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250410
+
+# Entry summary
+
+_chemical_formula_structural             S8O
+_chemical_formula_sum                    OS8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            S8O,oP36,29
+_chemical_formula_weight                 272.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Roentgenstrukturanalyse von Cyclooctaschwefeloxid'                           
+_journal_coden_ASTM                      CHBEAM
+_journal_year                            1976
+_journal_volume                          109
+_journal_page_first                      180
+_journal_page_last                       184
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Luger P.'
+;
+Berlin Free University
+Institut für Kristallographie
+Berlin
+Germany
+;
+'Bradaczek H.'
+;
+Berlin Free University
+Institut für Kristallographie
+Berlin
+Germany
+;
+'Steudel R.'
+;
+Berlin Technical University
+Institut für Anorganische und Analytische Chemie
+Berlin
+Germany
+;
+'Rebsch M.'
+;
+Berlin Technical University
+Institut für Anorganische und Analytische Chemie
+Berlin
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.197
+_cell_length_b                           7.973
+_cell_length_c                           8.096
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             851.86
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              29
+_symmetry_space_group_name_H-M           Pca21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, 0.5+z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5+x, -y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S7 S a 4 0.1207 0.5460 0.2217 1
+ S2 S a 4 0.1439 0.0208 0.0000 1
+ O1 O a 4 0.1834 0.1895 0.3212 1
+ S8 S a 4 0.2029 0.4345 0.0449 1
+ S1 S a 4 0.2340 0.1887 0.1577 1
+ S5 S a 4 0.4088 0.6776 0.2542 1
+ S6 S a 4 0.4700 0.4672 0.1506 1
+ S3 S a 4 0.5223 0.0249 0.1406 1
+ S4 S a 4 0.5904 0.1411 0.5751 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              283
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Siemens
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1008
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 27
+_exptl_absorpt_coefficient_mu            1.92
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.050
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package'
+
+# End of data set 1250410

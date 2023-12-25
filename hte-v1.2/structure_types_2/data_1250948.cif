@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# Au-Ca            # Ca7Au3                                        # 1250948 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250948
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250948
+
+# Entry summary
+
+_chemical_formula_structural             Ca7Au3
+_chemical_formula_sum                    Au3Ca7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca7Au3,oP80,61
+_chemical_formula_weight                 871.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ca7Au3 and Ca5Au4, Two Structures Closely Related to the Th7Fe3 and Pu5Rh4 Types
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1985
+_journal_volume                          59
+_journal_page_first                      65
+_journal_page_last                       70
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fornasini M.L.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Merlo F.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.665
+_cell_length_b                           20.742
+_cell_length_c                           18.036
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2493.39
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              61
+_symmetry_space_group_name_H-M           Pbca
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Au3 Au c 8 0.0278 0.0190 0.3453 1
+ Ca1 Ca c 8 0.040 0.2826 0.3161 1
+ Ca3 Ca c 8 0.042 0.3754 0.1257 1
+ Ca2 Ca c 8 0.052 0.4699 0.3127 1
+ Ca5 Ca c 8 0.234 0.2168 0.0219 1
+ Ca7 Ca c 8 0.245 0.1273 0.4175 1
+ Ca6 Ca c 8 0.249 0.0276 0.0210 1
+ Ca4 Ca c 8 0.252 0.1267 0.2092 1
+ Au1 Au c 8 0.4694 0.3805 0.0602 1
+ Au2 Au c 8 0.4708 0.2320 0.3404 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    5745
+_exptl_absorpt_coefficient_mu            39.0
+_exptl_absorpt_correction_type           'semi-empirical and  spherical'
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             56
+_refine_ls_number_reflns                 1280
+_refine_ls_R_factor_all                  0.051
+_refine_ls_wR_factor_all                 0.052
+_computing_structure_refinement          SHELX-76
+
+# End of data set 1250948

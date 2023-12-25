@@ -1,0 +1,193 @@
+##############################################################################
+#                                                                            #
+# Li-Te            # LiTe3                                         # 1251792 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251792
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251792
+
+# Entry summary
+
+_chemical_formula_structural             LiTe3
+_chemical_formula_sum                    LiTe3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LiTe3,hP48,165
+_chemical_formula_weight                 389.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'On the Crystal Structure of LiTe3'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1977
+_journal_volume                          33
+_journal_page_first                      1389
+_journal_page_last                       1396
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Valentine D.Y.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Cavin O.B.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Yakel H.L. Jr.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.7144
+_cell_length_b                           8.7144
+_cell_length_c                           21.35
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1404.12
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              165
+_symmetry_space_group_name_H-M           P-3c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, 0.5+z'
+ 4 '-x, -x+y, 0.5-z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, 0.5+z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, 0.5+z'
+ 9 'x-y, -y, 0.5-z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te4 Te g 12 0.149 0.3333 0.1667 1
+ Te3 Te g 12 0.3333 0.1563 0.0833 1
+ Te2 Te f 6 0.48 0 0.25 1
+ Te1 Te e 6 0.5 0 0 1
+ Li4 Li d 4 0.333333 0.666667 0.0833 1
+ Li3 Li d 4 0.333333 0.666667 0.3333 1
+ Li1 Li b 2 0 0 0 1
+ Li2 Li a 2 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              5.29(25)
+_cell_measurement_temperature            294(1)
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54178
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'HB3, High-Flux Isotope reactor, Oak Ridge, USA'                              
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.542
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 43.24 25
+ 0 2 4 30.6 74
+ 3 0 0 25.04 21
+ 2 2 0 21.7 94
+ 1 3 3 19.99 4
+ 1 3 4 19.42 13
+ 1 3 5 18.76 4
+ 4 0 4 17.75 38
+ 3 1 7 17.21 3
+ 4 1 0 16.43 28
+ 3 1 9 15.65 3
+ 0 4 8 15.37 31
+ 3 3 0 14.49 15
+ 2 4 4 13.76 100
+ 5 1 3 13.29 4
+ 5 1 4 13.12 13
+ 5 1 5 12.91 4
+ 6 0 0 12.57 46
+ 3 5 15 8.5914 6
+ 4 6 4 8.5415 62
+ ? ? ? 8.5414 31
+ 1 8 7 8.4842 9
+ ? ? ? 8.4824 4
+ 7 3 3 8.429 8
+ ? ? ? 8.4268 4
+ 1 8 8 8.3837 21
+ ? ? ? 8.3833 11
+ 7 3 5 8.3255 8
+ ? ? ? 8.3275 4
+ 1 8 9 8.2744 5
+ ? ? ? 8.2735 2
+ 8 2 0 8.2322 93
+ ? ? ? 8.2328 46
+ 3 5 17 8.1783 12
+ ? ? ? 8.1799 6
+ 1 5 21 8.1316 4
+ 3 7 8 8.0898 15
+ ? ? ? 8.0895 7
+ 6 1 19 8.0387 4
+ ? ? ? 8.0395 2
+ ? ? ? 7.9953 5
+ 3 7 9 7.9946 10
+ 5 5 11 7.9498 12
+ ? ? ? 7.9511 6
+ 1 9 3 7.8632 18
+ ? ? ? 7.8638 ?
+ 1 9 4 7.8258 44
+ ? ? ? 7.8254 22
+ 1 9 5 7.7797 25
+ ? ? ? 7.7796 14
+
+# End of data set 1251792

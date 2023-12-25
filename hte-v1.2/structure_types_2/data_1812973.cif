@@ -1,0 +1,222 @@
+##############################################################################
+#                                                                            #
+# B-K              # KB6                                           # 1812973 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1812973
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1812973
+
+# Entry summary
+
+_chemical_formula_structural             KB6
+_chemical_formula_sum                    B6K
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CaB6,cP7,221
+_chemical_formula_weight                 104.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Investigation of the Electronic and Structural Properties of Potassium Hexaboride, KB6, by Transport, Magnetic Susceptibility, EPR, and NMR Measurements, Temperature-Dependent Crystal Structure Determination, and Electronic Band Structure
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2004
+_journal_volume                          43
+_journal_page_first                      4974
+_journal_page_last                       4987
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ammar A.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Smirnov A.I.'
+;
+North Carolina State University
+Department of Chemistry
+Raleigh
+U.S.A. North Carolina
+;
+'Whangbo M.H.'
+;
+North Carolina State University
+Department of Chemistry
+Raleigh
+U.S.A. North Carolina
+;
+'Ménétrier M.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Villesuzanne A.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Matar S.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Chevalier B.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Etourneau J.'
+;
+Bordeaux I University
+Institut de Chimie de la Matière Condensée de Bordeaux
+Pessac
+France
+;
+'Villeneuve G.'
+;
+Bordeaux I University
+?
+Pessac
+France
+;
+'Rodriguez Carvajal J.'
+;
+Commissariat a l'Energie Atomique
+Laboratoire Léon Brillouin
+Gif-sur-Yvette
+France
+;
+'Koo H.J.'
+;
+Kyung Hee University
+Department of Chemistry
+Seoul
+South Korea
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.2218
+_cell_length_b                           4.2218
+_cell_length_c                           4.2218
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             75.2
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              221
+_symmetry_space_group_name_H-M           Pm-3m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ B B f 6 0.19789 0.5 0.5 1
+ K K a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    'red bordeaux'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            35
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              35
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'BM1, ESRF, Grenoble, France'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 6.0147
+_diffrn_reflns_theta_max                 11.1438
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1812973

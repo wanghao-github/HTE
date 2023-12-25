@@ -1,0 +1,158 @@
+##############################################################################
+#                                                                            #
+# O-W              # W18O49ht                                      # 1250166 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250166
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250166
+
+# Entry summary
+
+_chemical_formula_structural             W18O49
+_chemical_formula_sum                    O49W18
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            W18O49,mP67,10
+_chemical_formula_weight                 4093.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Reaffinement et nouvelle analyse de la structure de W18O49'                  
+_journal_coden_ASTM                      RVCMA8
+_journal_year                            1987
+_journal_volume                          24
+_journal_page_first                      369
+_journal_page_last                       381
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lamire M.'
+;
+Caen University
+Laboratoire de Cristallographie et Sciences des Matériaux
+Caen
+France
+;
+'Labbé P.'
+;
+Caen University
+Laboratoire de Cristallographie et Sciences des Matériaux
+Caen
+France
+;
+'Goreaud M.'
+;
+Caen University
+Laboratoire de Cristallographie et Sciences des Matériaux
+Caen
+France
+;
+'Raveau B.'
+;
+Caen University
+Laboratoire de Cristallographie et Sciences des Matériaux
+Caen
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.028
+_cell_length_b                           3.7828
+_cell_length_c                           17.7039
+_cell_angle_alpha                        90
+_cell_angle_beta                         110.587
+_cell_angle_gamma                        90
+_cell_volume                             879.47
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              10
+_symmetry_space_group_name_H-M           P12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O6 O n 2 0.030 0.5 0.276 1
+ O1 O n 2 0.073 0.5 0.077 1
+ O8 O n 2 0.125 0.5 0.587 1
+ O5 O n 2 0.245 0.5 0.256 1
+ O9 O n 2 0.284 0.5 0.449 1
+ O3 O n 2 0.362 0.5 0.130 1
+ O7 O n 2 0.487 0.5 0.362 1
+ O4 O n 2 0.641 0.5 0.220 1
+ O2 O n 2 0.804 0.5 0.081 1
+ W6 W m 2 0.02442 0 0.27585 1
+ O21 O m 2 0.034 0 0.649 1
+ W1 W m 2 0.07119 0 0.07308 1
+ O16 O m 2 0.090 0 0.812 1
+ O15 O m 2 0.098 0 0.195 1
+ W8 W m 2 0.12406 0 0.58603 1
+ O20 O m 2 0.175 0 0.340 1
+ O24 O m 2 0.204 0 0.514 1
+ O12 O m 2 0.226 0 0.136 1
+ O19 O m 2 0.233 0 0.689 1
+ W5 W m 2 0.24637 0 0.25608 1
+ W9 W m 2 0.28471 0 0.45266 1
+ O10 O m 2 0.306 0 0.017 1
+ O22 O m 2 0.355 0 0.371 1
+ W3 W m 2 0.36814 0 0.12754 1
+ O17 O m 2 0.384 0 0.243 1
+ O23 O m 2 0.414 0 0.535 1
+ W7 W m 2 0.49472 0 0.35843 1
+ O14 O m 2 0.506 0 0.147 1
+ O18 O m 2 0.581 0 0.306 1
+ W4 W m 2 0.64858 0 0.22145 1
+ O13 O m 2 0.712 0 0.143 1
+ W2 W m 2 0.80012 0 0.08618 1
+ O11 O m 2 0.915 0 0.036 1
+ O25 O c 1 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    5917
+_exptl_absorpt_coefficient_mu            60.0
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3215
+_refine_ls_R_factor_all                  0.046
+_refine_ls_wR_factor_all                 0.057
+_computing_structure_refinement          ?
+
+# End of data set 1250166

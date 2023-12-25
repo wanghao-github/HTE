@@ -1,0 +1,205 @@
+##############################################################################
+#                                                                            #
+# S-Zn             # ZnS44H1                                       # 1905221 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1905221
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1905221
+
+# Entry summary
+
+_chemical_formula_structural             ZnS
+_chemical_formula_sum                    SZn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZnS-a,hP88,156
+_chemical_formula_weight                 97.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'New Families of ZnS Polytypes'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1969
+_journal_volume                          25
+_journal_page_first                      1581
+_journal_page_last                       1586
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kiflawi I.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+'Mardix S.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+'Steinberger I.T.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           3.82
+_cell_length_c                           137.72
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1740.4
+_cell_formula_units_Z                    44
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S3 S c 1 0.666667 0.333333 0.05114 1
+ Zn3 Zn c 1 0.666667 0.333333 0.06818 1
+ S6 S c 1 0.666667 0.333333 0.11932 1
+ Zn6 Zn c 1 0.666667 0.333333 0.13636 1
+ S9 S c 1 0.666667 0.333333 0.1875 1
+ Zn9 Zn c 1 0.666667 0.333333 0.20455 1
+ S12 S c 1 0.666667 0.333333 0.25568 1
+ Zn12 Zn c 1 0.666667 0.333333 0.27273 1
+ S15 S c 1 0.666667 0.333333 0.32386 1
+ Zn15 Zn c 1 0.666667 0.333333 0.34091 1
+ S18 S c 1 0.666667 0.333333 0.39204 1
+ Zn18 Zn c 1 0.666667 0.333333 0.40909 1
+ S21 S c 1 0.666667 0.333333 0.46023 1
+ Zn21 Zn c 1 0.666667 0.333333 0.47727 1
+ S24 S c 1 0.666667 0.333333 0.52841 1
+ Zn24 Zn c 1 0.666667 0.333333 0.54545 1
+ S27 S c 1 0.666667 0.333333 0.59659 1
+ Zn27 Zn c 1 0.666667 0.333333 0.61364 1
+ S30 S c 1 0.666667 0.333333 0.66477 1
+ Zn30 Zn c 1 0.666667 0.333333 0.68182 1
+ S33 S c 1 0.666667 0.333333 0.73295 1
+ Zn33 Zn c 1 0.666667 0.333333 0.75 1
+ S36 S c 1 0.666667 0.333333 0.80114 1
+ Zn36 Zn c 1 0.666667 0.333333 0.81818 1
+ S40 S c 1 0.666667 0.333333 0.89205 1
+ Zn40 Zn c 1 0.666667 0.333333 0.90909 1
+ S43 S c 1 0.666667 0.333333 0.96023 1
+ Zn43 Zn c 1 0.666667 0.333333 0.97727 1
+ S1 S b 1 0.333333 0.666667 0.00568 1
+ Zn1 Zn b 1 0.333333 0.666667 0.02273 1
+ S4 S b 1 0.333333 0.666667 0.07386 1
+ Zn4 Zn b 1 0.333333 0.666667 0.09091 1
+ S7 S b 1 0.333333 0.666667 0.14205 1
+ Zn7 Zn b 1 0.333333 0.666667 0.15909 1
+ S10 S b 1 0.333333 0.666667 0.21023 1
+ Zn10 Zn b 1 0.333333 0.666667 0.22727 1
+ S13 S b 1 0.333333 0.666667 0.27841 1
+ Zn13 Zn b 1 0.333333 0.666667 0.29546 1
+ S16 S b 1 0.333333 0.666667 0.34659 1
+ Zn16 Zn b 1 0.333333 0.666667 0.36364 1
+ S19 S b 1 0.333333 0.666667 0.41477 1
+ Zn19 Zn b 1 0.333333 0.666667 0.43182 1
+ S22 S b 1 0.333333 0.666667 0.48296 1
+ Zn22 Zn b 1 0.333333 0.666667 0.5 1
+ S25 S b 1 0.333333 0.666667 0.55114 1
+ Zn25 Zn b 1 0.333333 0.666667 0.56818 1
+ S28 S b 1 0.333333 0.666667 0.61932 1
+ Zn28 Zn b 1 0.333333 0.666667 0.63636 1
+ S31 S b 1 0.333333 0.666667 0.6875 1
+ Zn31 Zn b 1 0.333333 0.666667 0.70455 1
+ S34 S b 1 0.333333 0.666667 0.75568 1
+ Zn34 Zn b 1 0.333333 0.666667 0.77273 1
+ S37 S b 1 0.333333 0.666667 0.82386 1
+ Zn37 Zn b 1 0.333333 0.666667 0.84091 1
+ S39 S b 1 0.333333 0.666667 0.86932 1
+ Zn39 Zn b 1 0.333333 0.666667 0.88636 1
+ S42 S b 1 0.333333 0.666667 0.9375 1
+ Zn42 Zn b 1 0.333333 0.666667 0.95455 1
+ Zn44 Zn a 1 0 0 0.0 1
+ S2 S a 1 0 0 0.02841 1
+ Zn2 Zn a 1 0 0 0.04546 1
+ S5 S a 1 0 0 0.09659 1
+ Zn5 Zn a 1 0 0 0.11364 1
+ S8 S a 1 0 0 0.16477 1
+ Zn8 Zn a 1 0 0 0.18182 1
+ S11 S a 1 0 0 0.23295 1
+ Zn11 Zn a 1 0 0 0.25 1
+ S14 S a 1 0 0 0.30114 1
+ Zn14 Zn a 1 0 0 0.31818 1
+ S17 S a 1 0 0 0.36932 1
+ Zn17 Zn a 1 0 0 0.38636 1
+ S20 S a 1 0 0 0.4375 1
+ Zn20 Zn a 1 0 0 0.45454 1
+ S23 S a 1 0 0 0.50568 1
+ Zn23 Zn a 1 0 0 0.52273 1
+ S26 S a 1 0 0 0.57386 1
+ Zn26 Zn a 1 0 0 0.59091 1
+ S29 S a 1 0 0 0.64205 1
+ Zn29 Zn a 1 0 0 0.65909 1
+ S32 S a 1 0 0 0.71023 1
+ Zn32 Zn a 1 0 0 0.72727 1
+ S35 S a 1 0 0 0.77841 1
+ Zn35 Zn a 1 0 0 0.79545 1
+ S38 S a 1 0 0 0.84659 1
+ Zn38 Zn a 1 0 0 0.86364 1
+ S41 S a 1 0 0 0.91477 1
+ Zn41 Zn a 1 0 0 0.93182 1
+ S44 S a 1 0 0 0.98295 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1905221

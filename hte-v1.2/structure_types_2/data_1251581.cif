@@ -1,0 +1,112 @@
+##############################################################################
+#                                                                            #
+# O-Rb             # Rb9O2lt                                       # 1251581 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251581
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251581
+
+# Entry summary
+
+_chemical_formula_structural             Rb9O2
+_chemical_formula_sum                    O2Rb9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb9O2,mP22,11
+_chemical_formula_weight                 801.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Das ,komplexe Metall' Rb9O2
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1977
+_journal_volume                          431
+_journal_page_first                      5
+_journal_page_last                       16
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.351
+_cell_length_b                           14.023
+_cell_length_c                           11.685
+_cell_angle_alpha                        90
+_cell_angle_beta                         104.51
+_cell_angle_gamma                        90
+_cell_volume                             1324.74
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rb3 Rb f 4 0.0610 0.1236 0.3159 1
+ Rb2 Rb f 4 0.2770 0.1097 0.0430 1
+ Rb1 Rb f 4 0.3886 0.11 0.6361 1
+ O2 O e 2 0.1568 0.25 0.1570 1
+ O1 O e 2 0.2184 0.25 0.4998 1
+ Rb6 Rb e 2 0.4350 0.25 0.3458 1
+ Rb5 Rb e 2 0.8541 0.25 0.0035 1
+ Rb4 Rb e 2 0.9726 0.25 0.6047 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            44
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          PAILRED
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1756
+_refine_ls_R_factor_all                  0.081
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package'
+
+# End of data set 1251581

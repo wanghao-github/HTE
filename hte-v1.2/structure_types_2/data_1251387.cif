@@ -1,0 +1,126 @@
+##############################################################################
+#                                                                            #
+# Te-U             # UTe2                                          # 1251387 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251387
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251387
+
+# Entry summary
+
+_chemical_formula_structural             UTe2
+_chemical_formula_sum                    Te2U
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            UTe2,oI12,71
+_chemical_formula_weight                 493.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Die Verfeinerung der Kristallstruktur von UTe2'                              
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            1988
+_journal_volume                          43
+_journal_page_first                      1547
+_journal_page_last                       1550
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Beck H.P.'
+;
+Erlangen University
+Institut für Anorganische Chemie
+Erlangen
+Germany
+;
+'Dausch W.'
+;
+Erlangen University
+Institut für Anorganische Chemie
+Erlangen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.159
+_cell_length_b                           6.124
+_cell_length_c                           13.945
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             355.18
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              71
+_symmetry_space_group_name_H-M           Immm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5-z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, 0.5+z'
+ 14 '0.5+x, 0.5-y, 0.5-z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ U U j 4 0.5 0 0.13524 1
+ Te1 Te i 4 0 0 0.2978 1
+ Te2 Te g 4 0 0.2491 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_reflns_number                    5142
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            45.50
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 640
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 0.046
+_computing_structure_refinement          SHELX-76
+
+# End of data set 1251387

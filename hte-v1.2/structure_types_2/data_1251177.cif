@@ -1,0 +1,226 @@
+##############################################################################
+#                                                                            #
+# Pb-Pd            # Pd13Pb9rt                                     # 1251177 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251177
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251177
+
+# Entry summary
+
+_chemical_formula_structural             Pd13Pb9.r
+_chemical_formula_sum                    Pb9Pd13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd13Pb9,mS88,15
+_chemical_formula_weight                 3248.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'CRYSTAL STRUCTURE OF Pd13Pb9.r'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1980
+_journal_volume                          71
+_journal_page_first                      P29
+_journal_page_last                       P38
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Mayer H.W.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Ellner M.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.6027
+_cell_length_b                           9.0599
+_cell_length_c                           13.908
+_cell_angle_alpha                        90
+_cell_angle_beta                         124.106
+_cell_angle_gamma                        90
+_cell_volume                             1627.87
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd7 Pd f 8 0.0167 0.3845 0.1243 1
+ Pd4 Pd f 8 0.0260 0.1329 0.6405 1
+ Pb4 Pb f 8 0.1014 0.1268 0.1174 1
+ Pd3 Pd f 8 0.1197 0.1184 0.5009 1
+ Pb3 Pb f 8 0.1602 0.3305 0.3749 1
+ Pd6 Pd f 8 0.2490 0.3739 0.2483 1
+ Pd5 Pd f 8 0.2807 0.1232 0.1299 1
+ Pb2 Pb f 8 0.3328 0.4145 0.1139 1
+ Pb5 Pb f 8 0.3705 0.1217 0.3819 1
+ Pd2 Pd f 8 0.3821 0.1375 0.0064 1
+ Pd1 Pd e 4 0 0.1251 0.25 1
+ Pb1 Pb e 4 0 0.6235 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2047
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 810
+_refine_ls_R_factor_all                  0.093
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-72 package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 2 3 32400 7
+ 4 0 4 32300 3
+ 1 1 4 30360 1
+ 1 3 1 29420 2
+ 0 2 3 29270 2
+ 0 0 4 28800 5
+ 4 2 3 28650 3
+ 1 3 2 27660 2
+ 5 1 4 27550 2
+ 3 3 2 25960 2
+ 6 0 4 25380 3
+ 1 3 3 24930 2
+ 5 1 5 24840 2
+ 3 3 3 24730 3
+ 4 2 5 23420 2
+ 2 2 5 23200 8
+ 0 4 0 22650 7
+ 6 2 3 22560 7
+ 3 1 6 22250 1
+ 1 3 4 21980 1
+ 6 0 6 21540 1
+ 2 4 2 21360 1
+ 5 3 4 20870 1
+ 7 1 5 20820 1
+ 0 2 5 20530 1
+ 3 3 5 20460 1
+ 5 3 5 19590 1
+ 1 3 5 19320 1
+ 2 4 4 18930 1
+ 4 4 4 18540 1
+ 8 0 6 18470 1
+ 3 3 6 18300 1
+ 4 2 7 18180 1
+ 5 3 6 18120 1
+ 7 1 7 18080 1
+ 0 4 4 17810 2
+ 6 2 7 17760 3
+ 6 0 8 17230 1
+ 1 3 6 17110 1
+ 5 1 8 17080 1
+ 9 1 5 16990 1
+ 6 4 4 16900 2
+ 1 5 3 16770 1
+ 7 3 6 16710 1
+ 3 5 3 16700 1
+ 9 1 6 16620 1
+ 8 2 7 16230 2
+ 4 4 6 16190 5
+ 8 0 8 16140 3
+ 3 5 4 16050 1
+ 9 1 7 15960 1
+ 2 4 6 15820 1
+ 1 5 4 15790 1
+ 7 3 7 15750 1
+ 5 5 3 15630 2
+ 10 0 6 15460 1
+ 5 5 4 15350 1
+ 8 2 8 15210 1
+ 9 1 8 15170 1
+ 5 3 8 15070 1
+ 9 3 5 14990 1
+ 5 5 5 14840 1
+ 7 3 8 14650 1
+ 10 0 8 14460 1
+ 0 0 8 14390 5
+ 3 5 6 14230 1
+ 9 1 9 14200 1
+ 5 5 6 14140 2
+ 0 6 3 14060 1
+ 4 6 3 13980 1
+ 6 0 10 13910 1
+ 7 5 5 13830 1
+ 11 1 7 13790 1
+ 5 3 9 13710 1
+ 9 3 8 13670 1
+ 1 5 6 13650 1
+ 2 2 9 13510 1
+ 7 5 6 13460 1
+ 11 1 8 13410 1
+ 5 5 7 13360 1
+ 4 6 5 13230 2
+ 2 6 5 13180 5
+ 8 4 8 13150 5
+ 10 2 9 13120 5
+ 6 6 3 13060 3
+ 12 0 6 13000 2
+
+# End of data set 1251177

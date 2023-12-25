@@ -1,0 +1,9 @@
+# Cc'cm (#66.493)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,-1 -mx,-my,-mz
+3 -x,-y,z,-1 mx,my,-mz
+4 x,y,-z,+1 -mx,-my,mz
+5 -y+1/2,-x+1/2,-z+1/2,+1 -my,-mx,-mz
+6 y+1/2,x+1/2,z+1/2,-1 my,mx,mz
+7 y+1/2,x+1/2,-z+1/2,-1 -my,-mx,mz
+8 -y+1/2,-x+1/2,z+1/2,+1 my,mx,-mz

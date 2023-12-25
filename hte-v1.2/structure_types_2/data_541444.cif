@@ -1,0 +1,125 @@
+##############################################################################
+#                                                                            #
+# F-Pt             # PtF5                                          #  541444 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541444
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541444
+
+# Entry summary
+
+_chemical_formula_structural             PtF5
+_chemical_formula_sum                    F5Pt
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            RuF5,mP48,14
+_chemical_formula_weight                 290.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Single-crystal investigations on PtF4 and PtF5'                              
+_journal_coden_ASTM                      EJSCE5
+_journal_year                            1992
+_journal_volume                          29
+_journal_page_first                      625
+_journal_page_last                       633
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Müller B.G.'
+;
+Giessen Justus Liebig University
+Institut für Anorganische und Analytische Chemie
+Giessen
+Germany
+;
+'Serafin M.'
+;
+Giessen Justus Liebig University
+Institut für Anorganische und Analytische Chemie
+Giessen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.523
+_cell_length_b                           9.942
+_cell_length_c                           12.43
+_cell_angle_alpha                        90
+_cell_angle_beta                         99.98
+_cell_angle_gamma                        90
+_cell_volume                             672.2
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt(1) Pt e 4 -0.0014 0.2505 0.0025 1
+ F(9) F e 4 0.023 0.0722 0.2425 1
+ F(4) F e 4 0.0885 0.3302 0.1321 1
+ F(1) F e 4 0.0962 0.8396 0.1451 1
+ F(3) F e 4 0.188 0.5981 0.0476 1
+ F(6) F e 4 0.2014 0.0863 0.0518 1
+ F(10) F e 4 0.2568 0.1784 0.4632 1
+ Pt(2) Pt e 4 0.3023 -0.0019 0.1987 1
+ F(7) F e 4 0.4279 0.422 0.3504 1
+ F(2) F e 4 0.4812 0.1415 0.2463 1
+ F(8) F e 4 0.6074 0.4136 0.1661 1
+ F(5) F e 4 0.7451 0.1672 0.0414 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens-Stoe AED2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4085
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            40.146
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             110
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.084
+_refine_ls_wR_factor_all                 0.047
+_computing_structure_refinement          ?
+
+# End of data set 541444

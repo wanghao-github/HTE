@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# B-H              # B9H11mon                                      # 1250208 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250208
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250208
+
+# Entry summary
+
+_chemical_formula_structural             iso-B18H22
+_chemical_formula_sum                    B9H11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B9H11,mP160,14
+_chemical_formula_weight                 108.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Molecular, Crystal, and Valence Structures of Iso-B18H22'                    
+_journal_coden_ASTM                      JCPSA6
+_journal_year                            1963
+_journal_volume                          39
+_journal_page_first                      2339
+_journal_page_last                       2348
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Simpson P.G.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Folting K.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Dobrott R.D.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Lipscomb W.N.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.199
+_cell_length_b                           13.18
+_cell_length_c                           12.515
+_cell_angle_alpha                        90
+_cell_angle_beta                         109.58
+_cell_angle_gamma                        90
+_cell_volume                             1429.61
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ H1 H e 4 0.036 0.212 0.313 1
+ B1 B e 4 0.0434 0.2273 0.2350 1
+ H3 H e 4 0.048 0.423 0.223 1
+ B3 B e 4 0.0485 0.3526 0.1815 1
+ B7 B e 4 0.0508 0.8483 0.4648 1
+ H20 H e 4 0.060 0.724 0.035 1
+ B5 B e 4 0.0656 0.6516 0.3778 1
+ H19 H e 4 0.067 0.650 0.478 1
+ H7 H e 4 0.102 0.586 0.014 1
+ H5 H e 4 0.119 0.589 0.362 1
+ B2 B e 4 0.1244 0.7794 0.3701 1
+ H11 H e 4 0.137 0.532 0.654 1
+ H14 H e 4 0.138 0.398 0.480 1
+ B6 B e 4 0.1453 0.7716 0.0003 1
+ B10 B e 4 0.1652 0.1495 0.1850 1
+ B8 B e 4 0.1746 0.3541 0.1029 1
+ H9 H e 4 0.189 0.293 0.031 1
+ B4 B e 4 0.2196 0.2810 0.2308 1
+ B14 B e 4 0.2209 0.1105 0.0645 1
+ B11 B e 4 0.2263 0.0239 0.1746 1
+ H8 H e 4 0.232 0.423 0.093 1
+ H15 H e 4 0.241 0.049 0.377 1
+ H6 H e 4 0.255 0.787 0.076 1
+ B9 B e 4 0.2638 0.2317 0.1177 1
+ B15 B e 4 0.2936 0.0671 0.3143 1
+ H4 H e 4 0.309 0.305 0.309 1
+ H21 H e 4 0.367 0.141 0.354 1
+ B13 B e 4 0.3821 0.0313 0.1215 1
+ H13 H e 4 0.411 0.523 0.559 1
+ B18 B e 4 0.4140 0.1583 0.0937 1
+ H10 H e 4 0.423 0.237 0.155 1
+ H18 H e 4 0.466 0.176 0.027 1
+ B16 B e 4 0.4967 0.0906 0.3565 1
+ B17 B e 4 0.5402 0.0840 0.2281 1
+ H22 H e 4 0.541 0.158 0.295 1
+ H12 H e 4 0.553 0.416 0.208 1
+ H16 H e 4 0.570 0.087 0.440 1
+ B12 B e 4 0.5813 0.4930 0.2363 1
+ H17 H e 4 0.653 0.068 0.234 1
+ H2 H e 4 0.776 0.298 0.162 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3195
+_refine_ls_R_factor_all                  0.108
+_refine_ls_wR_factor_all                 0.26
+_computing_structure_refinement          ORFLS
+
+# End of data set 1250208

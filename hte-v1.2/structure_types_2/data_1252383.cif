@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Cs-Ge            # Cs4Ge9                                        # 1252383 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252383
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252383
+
+# Entry summary
+
+_chemical_formula_structural             Cs4Ge9
+_chemical_formula_sum                    Cs4Ge9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs4Ge9,tP208,76
+_chemical_formula_weight                 1184.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ge94-: ein deltaedrisches Zintl-Ion, jetzt durch Festkoerperreaktionen zugaenglich
+;
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1997
+_journal_volume                          109
+_journal_page_first                      1818
+_journal_page_last                       1820
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Queneau V.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+'Sevov S.C.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.5074
+_cell_length_b                           15.5074
+_cell_length_c                           31.3997
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             7550.98
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              76
+_symmetry_space_group_name_H-M           P41
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 0.5+z'
+ 3 '-y, x, 0.25+z'
+ 4 'y, -x, -0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge9D Ge a 4 0.0051 0.1427 0.1993 1
+ Cs1 Cs a 4 0.01 0.3549 0.40415 1
+ Ge2D Ge a 4 0.0305 0.0406 0.1362 1
+ Cs5 Cs a 4 0.0363 0.4079 0.23086 1
+ Ge2C Ge a 4 0.0369 0.5603 0.1408 1
+ Ge7D Ge a 4 0.0492 0.0224 0.5099 1
+ Ge9C Ge a 4 0.0602 0.5701 0.622 1
+ Ge8D Ge a 4 0.0619 0.1005 0.0 1
+ Ge7C Ge a 4 0.0772 0.4 0.0385 1
+ Ge1D Ge a 4 0.079 0.085 0.6374 1
+ Ge8C Ge a 4 0.087 0.5628 0.5413 1
+ Ge5C Ge a 4 0.0957 0.4238 0.5835 1
+ Ge6C Ge a 4 0.1051 0.4174 0.1179 1
+ Cs11 Cs a 4 0.1059 0.1314 0.31806 1
+ Ge9 Ge a 4 0.1112 0.5197 0.3363 1
+ Ge4D Ge a 4 0.1148 0.0907 0.7175 1
+ Ge3D Ge a 4 0.1215 0.0495 0.437 1
+ Ge6D Ge a 4 0.1232 0.0252 0.204 1
+ Cs14 Cs a 4 0.1482 0.2319 0.52998 1
+ Cs15 Cs a 4 0.1515 0.3096 0.68297 1
+ Ge3C Ge a 4 0.1564 0.5334 0.0665 1
+ Cs10 Cs a 4 0.1774 0.2008 0.09654 1
+ Ge6A Ge a 4 0.1868 0.3728 0.3194 1
+ Ge8 Ge a 4 0.2026 0.5984 0.2788 1
+ Cs2 Cs a 4 0.2131 0.1002 0.82587 1
+ Ge2A Ge a 4 0.2246 0.4533 0.3879 1
+ Cs13 Cs a 4 0.2661 0.009 0.56344 1
+ Ge7A Ge a 4 0.271 0.4521 0.259 1
+ Cs7 Cs a 4 0.2896 0.2094 0.23761 1
+ Cs3 Cs a 4 0.3058 0.54 0.49022 1
+ Cs4 Cs a 4 0.3084 0.22 0.41368 1
+ Ge1C Ge a 4 0.3433 0.0477 0.3251 1
+ Cs6 Cs a 4 0.3455 0.4596 0.14311 1
+ Ge3A Ge a 4 0.349 0.3971 0.3258 1
+ Cs12 Cs a 4 0.3527 0.0351 0.68654 1
+ Ge4A Ge a 4 0.3631 0.5693 0.2975 1
+ Ge1A Ge a 4 0.3723 0.5243 0.3765 1
+ Ge6B Ge a 4 0.3761 0.3021 0.0595 1
+ Ge5A Ge a 4 0.3785 0.2399 0.6085 1
+ Ge2B Ge a 4 0.4071 0.14 0.0605 1
+ Ge9B Ge a 4 0.4148 0.2272 0.1308 1
+ Ge4C Ge a 4 0.4484 0.0196 0.2632 1
+ Ge3B Ge a 4 0.4991 0.2698 0.0064 1
+ Cs8 Cs a 4 0.5133 0.3604 0.24417 1
+ Ge7B Ge a 4 0.5219 0.3835 0.0656 1
+ Ge5B Ge a 4 0.5538 0.1356 0.1134 1
+ Ge1B Ge a 4 0.5577 0.1242 0.0312 1
+ Ge8B Ge a 4 0.5636 0.297 0.1331 1
+ Ge4B Ge a 4 0.6376 0.2573 0.0617 1
+ Cs9 Cs a 4 0.7048 0.4831 0.12644 1
+ Cs16 Cs a 4 0.7631 0.2529 0.2093 1
+ Ge5D Ge a 4 0.8705 0.06 0.1688 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            173
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              173
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens SMART'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            21.573
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             469
+_refine_ls_number_reflns                 5128
+_refine_ls_R_factor_all                  0.064
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SHELXTL5.0 package'
+
+# End of data set 1252383

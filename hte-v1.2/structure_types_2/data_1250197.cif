@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# B-H              # B13H19                                        # 1250197 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250197
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250197
+
+# Entry summary
+
+_chemical_formula_structural             B13H19
+_chemical_formula_sum                    B13H19
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B13H19,mP128,14
+_chemical_formula_weight                 159.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Studies of Boranes. XLV. Crystal and Molecular Structure, Improved Synthesis, and Reactions of Tridecaborane(19)
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1976
+_journal_volume                          15
+_journal_page_first                      227
+_journal_page_last                       232
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Huffman J.C.'
+;
+Indiana University
+Department of Chemistry
+Bloomington
+U.S.A. Indiana
+;
+'Moody D.C.'
+;
+Indiana University
+Department of Chemistry
+Bloomington
+U.S.A. Indiana
+;
+'Schaeffer R.'
+;
+Indiana University
+Department of Chemistry
+Bloomington
+U.S.A. Indiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.217
+_cell_length_b                           6.498
+_cell_length_c                           19.719
+_cell_angle_alpha                        90
+_cell_angle_beta                         97.69
+_cell_angle_gamma                        90
+_cell_volume                             1170.39
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ B3 B e 4 0.0132 0.5449 0.8582 1
+ H9-11 H e 4 0.0211 0.5142 0.3550 1
+ H4 H e 4 0.0256 0.2913 0.2550 1
+ H3 H e 4 0.0347 0.5956 0.1212 1
+ B9 B e 4 0.0545 0.1901 0.1350 1
+ H10 H e 4 0.0788 0.8348 0.4829 1
+ B4 B e 4 0.0823 0.3212 0.2103 1
+ B10 B e 4 0.0930 0.7945 0.4302 1
+ H11 H e 4 0.0964 0.4058 0.4429 1
+ B11 B e 4 0.0966 0.5360 0.4077 1
+ H3-13 H e 4 0.1291 0.5169 0.8302 1
+ H7-8 H e 4 0.2031 0.3250 0.0647 1
+ B1 B e 4 0.2123 0.1516 0.1890 1
+ H11-12 H e 4 0.2130 0.5390 0.3776 1
+ H1 H e 4 0.2308 0.0046 0.2157 1
+ B8 B e 4 0.2338 0.1622 0.1008 1
+ H8 H e 4 0.2442 0.0307 0.0677 1
+ H6-5 H e 4 0.2551 0.5610 0.1990 1
+ H13 H e 4 0.2649 0.0676 0.4054 1
+ B5 B e 4 0.2724 0.3919 0.2254 1
+ H6-7 H e 4 0.2921 0.5700 0.1095 1
+ H5 H e 4 0.3252 0.4038 0.2808 1
+ B7 B e 4 0.3325 0.3904 0.0865 1
+ B6 B e 4 0.3624 0.5258 0.1633 1
+ B2 B e 4 0.3730 0.2648 0.1634 1
+ H7 H e 4 0.4002 0.4097 0.0439 1
+ H2 H e 4 0.4698 0.1806 0.1775 1
+ H6 H e 4 0.5417 0.1463 0.3239 1
+ H12 H e 4 0.6466 0.1464 0.0498 1
+ H12-13 H e 4 0.7242 0.2904 0.1389 1
+ B12 B e 4 0.7438 0.1900 0.0869 1
+ B13 B e 4 0.7934 0.4408 0.1133 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            143
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            16
+_diffrn_ambient_temperature              143
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Picker FACS-1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    4023
+_exptl_absorpt_coefficient_mu            0.036
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 729
+_refine_ls_R_factor_all                  0.113
+_refine_ls_wR_factor_all                 0.055
+_computing_structure_refinement          ?
+
+# End of data set 1250197

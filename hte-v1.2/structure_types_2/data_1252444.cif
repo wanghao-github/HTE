@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Te-U             # U7Te12                                        # 1252444 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252444
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252444
+
+# Entry summary
+
+_chemical_formula_structural             U7Te12
+_chemical_formula_sum                    Te12U7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cr12P7,hP19,174
+_chemical_formula_weight                 3197.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Characterization of the Binary Uranium and Thorium Tellurides U7Te12 and Th7Te12
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1998
+_journal_volume                          37
+_journal_page_first                      5088
+_journal_page_last                       5091
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tougait O.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moleculaire
+Rennes
+France
+;
+'Potel M.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moleculaire
+Rennes
+France
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moleculaire
+Rennes
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.312
+_cell_length_b                           12.312
+_cell_length_c                           4.26
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             559.24
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              174
+_symmetry_space_group_name_H-M           P-6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-y, x-y, -z'
+ 5 '-y, x-y, z'
+ 6 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ U2 U k 3 0.1738 0.4659 0.5 1
+ Te1 Te k 3 0.2173 0.2094 0.5 1
+ Te2 Te k 3 0.5257 0.1349 0.5 1
+ Te4 Te j 3 0.0168 0.2644 0 1
+ Te3 Te j 3 0.3769 0.4956 0 1
+ U3 U j 3 0.4335 0.2676 0 1
+ U1 U a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    2862
+_exptl_absorpt_coefficient_mu            63.26
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.052
+_refine_ls_wR_factor_all                 0.063
+_computing_structure_refinement          'MOLEN package; ABSCOR'
+
+# End of data set 1252444

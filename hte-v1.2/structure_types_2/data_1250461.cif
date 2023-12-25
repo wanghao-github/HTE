@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# Ca-In            # Ca8In3                                        # 1250461 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250461
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250461
+
+# Entry summary
+
+_chemical_formula_structural             Ca8In3
+_chemical_formula_sum                    Ca8In3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca8In3,aP22,2
+_chemical_formula_weight                 665.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'On the structure of Ca8In3'
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1988
+_journal_volume                          44
+_journal_page_first                      395
+_journal_page_last                       396
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Marsh R.E.'
+;
+California Institute of Technology
+?
+Pasadena
+U.S.A. California
+;
+'Slagle K.M.'
+;
+California Institute of Technology
+?
+Pasadena
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.606
+_cell_length_b                           9.712
+_cell_length_c                           9.782
+_cell_angle_alpha                        99.01
+_cell_angle_beta                         101.15
+_cell_angle_gamma                        119.60
+_cell_volume                             743.74
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ca3,4 Ca i 2 0.0310 0.2013 0.6507 1
+ Ca11,15 Ca i 2 0.0433 0.2101 0.2980 1
+ In2,6 In i 2 0.1761 0.3402 0.0272 1
+ Ca2,6 Ca i 2 0.2013 0.0002 0.1098 1
+ Ca12,16 Ca i 2 0.2744 0.6531 0.2998 1
+ In1,4 In i 2 0.3269 0.1621 0.4999 1
+ Ca13,14 Ca i 2 0.5425 0.4390 0.3301 1
+ Ca1,8 Ca i 2 0.5787 0.7291 0.1078 1
+ Ca5,10 Ca i 2 0.6201 0.0981 0.3521 1
+ Ca7,9 Ca i 2 0.8339 0.3783 0.1094 1
+ In5 In g 1 0 0.5 0.5 1
+ In3 In d 1 0.5 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             104
+_refine_ls_number_reflns                 2789
+_refine_ls_R_factor_all                  0.0276
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250461

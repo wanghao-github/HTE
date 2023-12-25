@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# B-H              # B9H11orth                                     # 1250206 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250206
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250206
+
+# Entry summary
+
+_chemical_formula_structural             B18H22
+_chemical_formula_sum                    B9H11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B9H11,oP160,56
+_chemical_formula_weight                 108.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Molecular, Crystal, and Valence Structures of B18H22'                        
+_journal_coden_ASTM                      JCPSA6
+_journal_year                            1963
+_journal_volume                          39
+_journal_page_first                      26
+_journal_page_last                       34
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Simpson P.G.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Lipscomb W.N.'
+;
+Harvard University
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.844
+_cell_length_b                           12.107
+_cell_length_c                           10.803
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1418.31
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              56
+_symmetry_space_group_name_H-M           Pccn
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, z'
+ 3 '0.5-x, y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, -y, 0.5-z'
+ 7 '0.5+x, 0.5+y, -z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ B7 B e 8 0.0031 0.3945 0.2695 1
+ H6 H e 8 0.033 0.081 0.111 1
+ H7 H e 8 0.046 0.340 0.353 1
+ B6 B e 8 0.0467 0.0331 0.2021 1
+ H19 H e 8 0.049 0.106 0.291 1
+ B4 B e 8 0.0575 0.6172 0.0007 1
+ B8 B e 8 0.0664 0.3552 0.1045 1
+ B9 B e 8 0.0768 0.0316 0.4937 1
+ H4 H e 8 0.080 0.666 0.082 1
+ H8 H e 8 0.136 0.284 0.086 1
+ B5 B e 8 0.1442 0.0684 0.3288 1
+ H5 H e 8 0.212 0.136 0.324 1
+ H1 H e 8 0.234 0.563 0.449 1
+ H2 H e 8 0.267 0.587 0.189 1
+ H9 H e 8 0.373 0.046 0.098 1
+ H20 H e 8 0.437 0.014 0.265 1
+ B3 B e 8 0.5879 0.1626 0.1508 1
+ H3 H e 8 0.624 0.245 0.171 1
+ B2 B e 8 0.6543 0.0620 0.2501 1
+ B1 B e 8 0.6780 0.0536 0.0863 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1588
+_refine_ls_R_factor_all                  0.127
+_refine_ls_wR_factor_all                 0.286
+_computing_structure_refinement          'ORXLS; ORFLS'
+
+# End of data set 1250206

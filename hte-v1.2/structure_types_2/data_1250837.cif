@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# P-S              # P2S5rt                                        # 1250837 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250837
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250837
+
+# Entry summary
+
+_chemical_formula_structural             P4S10
+_chemical_formula_sum                    P2S5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P2S5,aP28,2
+_chemical_formula_weight                 222.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Refinement of the crystal structures of some phosphorus sulphides'           
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1965
+_journal_volume                          19
+_journal_page_first                      864
+_journal_page_last                       867
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Vos A.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Olthof R.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Van Bolhuis F.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Botterweg R.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.072
+_cell_length_b                           9.199
+_cell_length_c                           9.236
+_cell_angle_alpha                        92.58
+_cell_angle_beta                         100.90
+_cell_angle_gamma                        110.18
+_cell_volume                             705.31
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S2 S i 2 0.0094 0.9866 0.2118 1
+ S6 S i 2 0.0278 0.3410 0.0973 1
+ S7 S i 2 0.0655 0.7529 0.5656 1
+ P4 P i 2 0.1801 0.3482 0.5373 1
+ S10 S i 2 0.2064 0.4281 0.7388 1
+ P1 P i 2 0.2569 0.0859 0.3119 1
+ P3 P i 2 0.2698 0.4391 0.2016 1
+ S4 S i 2 0.2861 0.1760 0.5327 1
+ S9 S i 2 0.2920 0.5279 0.4195 1
+ S3 S i 2 0.3699 0.2687 0.1968 1
+ S8 S i 2 0.3703 0.6055 0.0943 1
+ S1 S i 2 0.6551 0.0724 0.6933 1
+ S5 S i 2 0.6837 0.0671 0.1265 1
+ P2 P i 2 0.9076 0.1616 0.2145 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Cu Ka1, Cu Ka2'
+_cell_measurement_wavelength             1.5418
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 640
+_refine_ls_R_factor_all                  0.087
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250837

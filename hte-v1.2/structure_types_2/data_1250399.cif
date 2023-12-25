@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Ga-Se            # Ga2Se3rt                                      # 1250399 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250399
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250399
+
+# Entry summary
+
+_chemical_formula_structural             'Ga2Se3 monoclinic'
+_chemical_formula_sum                    Ga2Se3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ga2Se3,mS20,9
+_chemical_formula_weight                 376.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure de la Phase Ordonnee du Sesquiseleniure de Gallium, Ga2Se3'        
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1983
+_journal_volume                          39
+_journal_page_first                      968
+_journal_page_last                       971
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ghémard G.'
+;
+Paris University
+Faculté des Sciences Pharmaceutiques et Biologiques de Paris Luxembourg
+Paris
+France
+;
+'Jaulmes S.'
+;
+Paris University
+Faculté des Sciences Pharmaceutiques et Biologiques de Paris Luxembourg
+Paris
+France
+;
+'Etienne J.'
+;
+Paris University
+Faculté des Sciences Pharmaceutiques et Biologiques de Paris Luxembourg
+Paris
+France
+;
+'Flahaut J.'
+;
+Paris University
+Faculté des Sciences Pharmaceutiques et Biologiques de Paris Luxembourg
+Paris
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.66
+_cell_length_b                           11.65
+_cell_length_c                           6.66
+_cell_angle_alpha                        90
+_cell_angle_beta                         108.12
+_cell_angle_gamma                        90
+_cell_volume                             491.12
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              9
+_symmetry_space_group_name_H-M           C1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+ 3 '0.5+x, 0.5+y, z'
+ 4 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se2 Se a 4 0.0 0.0793 0.0 1
+ Se3 Se a 4 0.0366 0.4182 0.0252 1
+ Ga1 Ga a 4 0.3688 0.0798 0.1368 1
+ Ga2 Ga a 4 0.3989 0.2568 0.6401 1
+ Se1 Se a 4 0.5099 0.2572 0.0295 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            15
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Nonius
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    875
+_exptl_absorpt_coefficient_mu            32.8
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 822
+_refine_ls_R_factor_all                  0.068
+_refine_ls_wR_factor_all                 0.073
+_computing_structure_refinement          ORXFLS
+
+# End of data set 1250399

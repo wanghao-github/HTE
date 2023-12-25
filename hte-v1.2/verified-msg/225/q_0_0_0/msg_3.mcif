@@ -1,0 +1,17 @@
+# I4'_mmm' (#139.535)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,+1 mx,my,mz
+3 -y,-z,x+y+z,-1 my,mz,-mx-my-mz
+4 y,z,-x-y-z,-1 my,mz,-mx-my-mz
+5 z,-x-y-z,x,+1 mz,-mx-my-mz,mx
+6 -z,x+y+z,-x,+1 mz,-mx-my-mz,mx
+7 x+y+z,-x,-y,-1 -mx-my-mz,mx,my
+8 -x-y-z,x,y,-1 -mx-my-mz,mx,my
+9 -x-y-z,z,y,-1 mx+my+mz,-mz,-my
+10 x+y+z,-z,-y,-1 mx+my+mz,-mz,-my
+11 -x,x+y+z,-z,+1 -mx,mx+my+mz,-mz
+12 x,-x-y-z,z,+1 -mx,mx+my+mz,-mz
+13 y,x,-x-y-z,-1 -my,-mx,mx+my+mz
+14 -y,-x,x+y+z,-1 -my,-mx,mx+my+mz
+15 -z,-y,-x,+1 -mz,-my,-mx
+16 z,y,x,+1 -mz,-my,-mx

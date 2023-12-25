@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# O-W              # WO3ht2                                        # 1252231 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252231
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252231
+
+# Entry summary
+
+_chemical_formula_structural             b-WO3
+_chemical_formula_sum                    O3W
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WO3,oP32,60
+_chemical_formula_weight                 231.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The High-Temperature Phases of WO3'
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1999
+_journal_volume                          144
+_journal_page_first                      209
+_journal_page_last                       215
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Vogt T.'
+;
+Brookhaven National Laboratory
+Department of Physics
+Upton
+U.S.A. New York
+;
+'Woodward P.M.'
+;
+Ohio State University
+Department of Chemistry
+Columbus
+U.S.A. Ohio
+;
+'Hunter B.A.'
+;
+Australian Nuclear Science and Technology Organization
+?
+Menai
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.3331
+_cell_length_b                           7.7401
+_cell_length_c                           7.5733
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             429.85
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              60
+_symmetry_space_group_name_H-M           Pbcn
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5+y, 0.5-z'
+ 8 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O2 O d 8 0.2167 0.2592 0.2693 1
+ O3 O d 8 0.2197 0.0017 0.013 1
+ W1 W d 8 0.2479 0.2830 0.0291 1
+ O1 O d 8 0.5016 0.2205 0.0322 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            623
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.4932
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              623
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'HIFAR, ANSTO, Lucas Heights, Australia'                                      
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.4932
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 476
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          PROFIL
+
+# End of data set 1252231

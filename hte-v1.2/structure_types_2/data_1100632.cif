@@ -1,0 +1,166 @@
+##############################################################################
+#                                                                            #
+# Ni-O             # NiOrt                                         # 1100632 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1100632
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1100632
+
+# Entry summary
+
+_chemical_formula_structural             NiO
+_chemical_formula_sum                    NiO
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NiO,hR6,166
+_chemical_formula_weight                 74.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structure and Antiferromagnetism of Nickel Oxide-Copper Oxide and Nickel Oxide-Zinc Oxide Solid Solutions. Influence on Reactivity
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1974
+_journal_volume                          11
+_journal_page_first                      26
+_journal_page_last                       32
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Grange P.'
+;
+Centre National de la Recherche Scientifique
+Institut de Recherches sur la Catalyse
+Villeurbanne
+France
+;
+'Charcosset H.'
+;
+Centre National de la Recherche Scientifique
+Institut de Recherches sur la Catalyse
+Villeurbanne
+France
+;
+'Gallezot P.'
+;
+Lyon I Claude Bernard University
+Institut de Recherches sur la Catalyse
+Villeurbanne
+France
+;
+'Turlier P.'
+;
+Centre National de la Recherche Scientifique
+Institut de Recherches sur la Catalyse
+Villeurbanne
+France
+;
+'Vialle J.'
+;
+Centre National de la Recherche Scientifique
+Institut de Recherches sur la Catalyse
+Villeurbanne
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           2.9534
+_cell_length_b                           2.9534
+_cell_length_c                           7.2235
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             54.6
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              166
+_symmetry_space_group_name_H-M           'R-3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+ 13 '0.66667+x, 0.33333+y, 0.33333+z'
+ 14 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 15 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 16 '0.66667-x, 0.33333-x+y, 0.33333-z'
+ 17 '0.66667-x, 0.33333-y, 0.33333-z'
+ 18 '0.66667-y, 0.33333-x, 0.33333+z'
+ 19 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 20 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 21 '0.66667+x-y, 0.33333-y, 0.33333-z'
+ 22 '0.66667+x-y, 0.33333+x, 0.33333-z'
+ 23 '0.66667+y, 0.33333-x+y, 0.33333-z'
+ 24 '0.66667+y, 0.33333+x, 0.33333-z'
+ 25 '0.33333+x, 0.66667+y, 0.66667+z'
+ 26 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 27 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 28 '0.33333-x, 0.66667-x+y, 0.66667-z'
+ 29 '0.33333-x, 0.66667-y, 0.66667-z'
+ 30 '0.33333-y, 0.66667-x, 0.66667+z'
+ 31 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 32 '0.33333+x, 0.66667+x-y, 0.66667+z'
+ 33 '0.33333+x-y, 0.66667-y, 0.66667-z'
+ 34 '0.33333+x-y, 0.66667+x, 0.66667-z'
+ 35 '0.33333+y, 0.66667-x+y, 0.66667-z'
+ 36 '0.33333+y, 0.66667+x, 0.66667-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O O b 3 0 0 0.5 1
+ Ni Ni a 3 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1100632

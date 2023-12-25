@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2ZSM-5m                                    # 1252453 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252453
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252453
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2 ZSM-5-m'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,mP288,14
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The monoclinic framework structure of zeolite H-ZSM-5. Comparison with the orthorhombic framework of as-synthesized ZSM-5
+;
+_journal_coden_ASTM                      ZEOLD3
+_journal_year                            1990
+_journal_volume                          10
+_journal_page_first                      235
+_journal_page_last                       242
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Koningsveld H.V.'
+;
+Delft University of Technology
+Laboratory of Applied Physics
+Delft
+Netherlands
+;
+'Jansen J.C.'
+;
+Delft University of Technology
+Laboratory of Organic Chemistry
+Delft
+Netherlands
+;
+'Bekkum H.V.'
+;
+Delft University of Technology
+Laboratory of Organic Chemistry
+Delft
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.369
+_cell_length_b                           20.107
+_cell_length_c                           23.8262
+_cell_angle_alpha                        90
+_cell_angle_beta                         123.46
+_cell_angle_gamma                        90
+_cell_volume                             5343.28
+_cell_formula_units_Z                    96
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O e 4 0.0007 0.2018 0.0472 1
+ Si3 Si e 4 0.00903 0.2796 0.06249 1
+ Si19 Si e 4 0.01379 0.57611 0.32796 1
+ Si24 Si e 4 0.02141 0.80554 0.3193 1
+ O46 O e 4 0.024 0.2926 0.1326 1
+ Si4 Si e 4 0.02559 0.12395 0.06233 1
+ O43 O e 4 0.0407 0.1062 0.132 1
+ Si11 Si e 4 0.04577 0.42844 0.37061 1
+ Si8 Si e 4 0.04735 0.18775 0.37347 1
+ O22 O e 4 0.0623 0.5023 0.3525 1
+ O7 O e 4 0.0756 0.1231 0.3467 1
+ O37 O e 4 0.0818 0.8768 0.3322 1
+ O42 O e 4 0.085 0.5846 0.4985 1
+ O23 O e 4 0.0912 0.0761 0.2499 1
+ O24 O e 4 0.0921 0.3013 0.2565 1
+ O10 O e 4 0.0936 0.5885 0.6689 1
+ O8 O e 4 0.0944 0.695 0.1669 1
+ O13 O e 4 0.1005 0.1811 0.4515 1
+ O14 O e 4 0.102 0.4219 0.4491 1
+ O12 O e 4 0.1048 0.2517 0.3624 1
+ O11 O e 4 0.1119 0.3792 0.3489 1
+ O38 O e 4 0.1162 0.7503 0.3306 1
+ O2 O e 4 0.1226 0.3106 0.0662 1
+ O33 O e 4 0.1241 0.6203 0.341 1
+ O48 O e 4 0.1399 0.0013 0.3519 1
+ O4 O e 4 0.1455 0.1032 0.0671 1
+ Si7 Si e 4 0.14782 0.07458 0.32852 1
+ Si12 Si e 4 0.1488 0.30921 0.33472 1
+ O9 O e 4 0.1874 0.804 0.1558 1
+ Si2 Si e 4 0.19448 0.31368 0.0309 1
+ Si20 Si e 4 0.20034 0.68722 0.3687 1
+ Si5 Si e 4 0.20401 0.07678 0.02804 1
+ Si10 Si e 4 0.2107 0.88105 0.17634 1
+ Si9 Si e 4 0.21187 0.72675 0.1759 1
+ Si13 Si e 4 0.22247 0.57163 0.55703 1
+ O41 O e 4 0.2401 0.5814 0.6286 1
+ O44 O e 4 0.2442 0.69 0.1289 1
+ Si18 Si e 4 0.24479 0.68737 0.06222 1
+ O21 O e 4 0.2556 0.0032 0.0515 1
+ O6 O e 4 0.2725 0.2483 0.0477 1
+ O1 O e 4 0.2782 0.3779 0.0588 1
+ O17 O e 4 0.2846 0.0978 0.366 1
+ O20 O e 4 0.2913 0.3052 0.3725 1
+ O27 O e 4 0.3089 0.6201 0.5497 1
+ O31 O e 4 0.3122 0.6206 0.0649 1
+ O5 O e 4 0.3136 0.123 0.0443 1
+ O32 O e 4 0.3148 0.7505 0.0599 1
+ O47 O e 4 0.332 0.4961 0.0424 1
+ Si17 Si e 4 0.34841 0.57096 0.02685 1
+ Si6 Si e 4 0.36916 0.19556 0.05585 1
+ Si1 Si e 4 0.37536 0.42056 0.05546 1
+ O16 O e 4 0.3851 0.1077 0.4959 1
+ Si16 Si e 4 0.40183 0.12155 0.43563 1
+ O19 O e 4 0.4034 0.2099 0.0026 1
+ Si15 Si e 4 0.40949 0.27704 0.43889 1
+ O29 O e 4 0.4224 0.1991 0.4318 1
+ O18 O e 4 0.4881 0.2003 0.1298 1
+ O15 O e 4 0.5024 0.4145 0.1253 1
+ O30 O e 4 0.5147 0.0812 0.4478 1
+ O28 O e 4 0.5234 0.3143 0.448 1
+ Si21 Si e 4 0.62284 0.22688 0.16892 1
+ O35 O e 4 0.6243 0.3039 0.1513 1
+ Si22 Si e 4 0.63139 0.38133 0.17007 1
+ Si14 Si e 4 0.66119 0.31237 0.47305 1
+ O26 O e 4 0.6777 0.3899 0.2474 1
+ O25 O e 4 0.6799 0.2178 0.2475 1
+ O34 O e 4 0.6967 0.1852 0.1459 1
+ O36 O e 4 0.7212 0.4178 0.1559 1
+ O40 O e 4 0.7353 0.4149 0.0519 1
+ O39 O e 4 0.7443 0.1946 0.053 1
+ Si23 Si e 4 0.80839 0.42732 0.13082 1
+ O45 O e 4 0.8895 0.3138 0.0032 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          CAD4
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             650
+_refine_ls_number_reflns                 8139
+_refine_ls_R_factor_all                  0.044
+_refine_ls_wR_factor_all                 0.045
+_computing_structure_refinement          'XRAY-72 package'
+
+# End of data set 1252453

@@ -1,0 +1,5 @@
+# C2_c' (#15.88)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,-1 -mx,-my,-mz
+3 -y,-x,-z+1/2,+1 -my,-mx,-mz
+4 y,x,z+1/2,-1 my,mx,mz

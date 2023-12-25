@@ -1,0 +1,152 @@
+##############################################################################
+#                                                                            #
+# Cd-Na            # Na26Cd141                                     # 1252413 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252413
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252413
+
+# Entry summary
+
+_chemical_formula_structural             Na26Cd141
+_chemical_formula_sum                    Cd141Na26
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Na26Cd141,hP167,191
+_chemical_formula_weight                 16447.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Intermetallic Frameworks: Synthesis, Characterization, and Bonding of K0.4Cd2 and Na26Cd141
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1998
+_journal_volume                          37
+_journal_page_first                      6341
+_journal_page_last                       6345
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Todorov E.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+'Sevov S.C.'
+;
+Notre-Dame de la Paix University
+Department of Chemistry and Biochemistry
+Notre Dame
+U.S.A. Indiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           21.306
+_cell_length_b                           21.306
+_cell_length_c                           9.625
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             3783.86
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              191
+_symmetry_space_group_name_H-M           P6/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, -z'
+ 5 '-x+y, y, z'
+ 6 '-x, -x+y, -z'
+ 7 '-x, -x+y, z'
+ 8 '-x, -y, -z'
+ 9 '-x, -y, z'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, x-y, -z'
+ 13 '-y, x-y, z'
+ 14 'x, x-y, -z'
+ 15 'x, x-y, z'
+ 16 'x, y, -z'
+ 17 'x-y, -y, -z'
+ 18 'x-y, -y, z'
+ 19 'x-y, x, -z'
+ 20 'x-y, x, z'
+ 21 'y, -x+y, -z'
+ 22 'y, -x+y, z'
+ 23 'y, x, -z'
+ 24 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cd8 Cd r 24 0.11074 0.45432 0.27575 1
+ Cd3 Cd q 12 0.08384 0.31683 0.5 1
+ Cd11 Cd p 12 0.12939 0.40832 0 1
+ Cd9 Cd o 12 0.09439 0.18877 0.2627 1
+ Cd6 Cd o 12 0.17908 0.35816 0.2564 1
+ Cd5 Cd o 12 0.26176 0.52352 0.1545 1
+ Cd7 Cd o 12 0.61929 0.23858 0.3386 1
+ Na2 Na n 12 0.2766 0 0.1914 1
+ Na1 Na m 6 0.2415 0.4831 0.5 1
+ Cd2 Cd m 6 0.5537 0.1074 0.5 1
+ Cd12 Cd l 6 0.13653 0.27306 0 1
+ Na3 Na l 6 0.5754 0.1509 0 1
+ Cd4 Cd k 6 0.15021 0 0.5 1
+ Cd1 Cd k 6 0.39367 0 0.5 1
+ Cd13 Cd j 6 0.13729 0 0 1
+ Cd14 Cd j 6 0.42041 0 0 1
+ Cd10 Cd i 6 0.5 0 0.2541 1
+ Na4 Na e 2 0 0 0.324 1
+ Cd15 Cd c 2 0.333333 0.666667 0 1
+ Cd16 Cd a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          CAD4
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            19.382
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0299
+_refine_ls_wR_factor_all                 0.0572
+_computing_structure_refinement          'SHELXTL5.0 package'
+
+# End of data set 1252413

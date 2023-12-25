@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# Ca-Ga            # Ca28Ga11                                      # 1250451 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250451
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250451
+
+# Entry summary
+
+_chemical_formula_structural             Ca28Ga11
+_chemical_formula_sum                    Ca28Ga11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca28Ga11,oI78,44
+_chemical_formula_weight                 1889.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ca28Ga11, a Structure with Three Types of Coordination Polyhedra around the Gallium Atoms
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1986
+_journal_volume                          42
+_journal_page_first                      394
+_journal_page_last                       396
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fornasini M.L.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Pani M.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.324
+_cell_length_b                           61.445
+_cell_length_c                           7.488
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2449.57
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              44
+_symmetry_space_group_name_H-M           Imm2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, 0.5+z'
+ 6 '0.5-x, 0.5-y, 0.5+z'
+ 7 '0.5-x, 0.5+y, 0.5+z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ca2 Ca d 4 0 0.0436 0.620 1
+ Ca7 Ca d 4 0 0.0599 0.066 1
+ Ga2 Ga d 4 0 0.0908 0.408 1
+ Ca8 Ca d 4 0 0.1168 0.760 1
+ Ca1 Ca d 4 0 0.1374 0.211 1
+ Ca13 Ca d 4 0 0.1760 0.825 1
+ Ga5 Ga d 4 0 0.1804 0.423 1
+ Ca4 Ca d 4 0 0.2241 0.218 1
+ Ca9 Ca d 4 0 0.2380 0.746 1
+ Ga3 Ga d 4 0 0.2729 0.453 1
+ Ca11 Ca d 4 0 0.2942 0.070 1
+ Ca3 Ca d 4 0 0.3175 0.652 1
+ Ca6 Ca d 4 0 0.3533 0.030 1
+ Ga1 Ga d 4 0 0.3605 0.439 1
+ Ca12 Ca d 4 0 0.4034 0.663 1
+ Ca5 Ca d 4 0 0.4171 0.135 1
+ Ga4 Ga d 4 0 0.4560 0.388 1
+ Ca10 Ca d 4 0 0.4700 0.788 1
+ Ca15 Ca b 2 0 0.5 0.196 1
+ Ca14 Ca a 2 0 0 0.0 1
+ Ga6 Ga a 2 0 0 0.414 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    3101
+_exptl_absorpt_coefficient_mu            9.03
+_exptl_absorpt_correction_type           'semi-empirical and  spherical'
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             120
+_refine_ls_number_reflns                 900
+_refine_ls_R_factor_all                  0.051
+_refine_ls_wR_factor_all                 0.056
+_computing_structure_refinement          'MULTAN-80; SHELX-76'
+
+# End of data set 1250451

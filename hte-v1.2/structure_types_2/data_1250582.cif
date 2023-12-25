@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# Cl-N             # NCl3                                          # 1250582 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250582
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250582
+
+# Entry summary
+
+_chemical_formula_structural             NCl3
+_chemical_formula_sum                    Cl3N
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NCl3,oP48,62
+_chemical_formula_weight                 120.4
+_chemical_melting_point                  178.6
+
+# Bibliographic data
+
+_publ_section_title
+'Die Struktur des festen Stickstofftrichlorids (-125 °C)'                     
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1975
+_journal_volume                          413
+_journal_page_first                      61
+_journal_page_last                       71
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hartl H.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Schöner J.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Jander J.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Schultz H.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.48
+_cell_length_b                           9.35
+_cell_length_c                           16.48
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1152.58
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl5 Cl d 8 0.0200 0.0996 0.7486 1
+ Cl3 Cl d 8 0.2167 0.0983 0.0895 1
+ Cl1 Cl d 8 0.2279 0.0988 0.4203 1
+ Cl2 Cl c 4 0.0816 0.25 0.5529 1
+ N1 N c 4 0.107 0.25 0.446 1
+ N2 N c 4 0.188 0.25 0.154 1
+ Cl4 Cl c 4 0.3577 0.25 0.2236 1
+ N3 N c 4 0.458 0.25 0.692 1
+ Cl6 Cl c 4 0.5830 0.25 0.6056 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              148(5)
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            19.7
+_exptl_absorpt_correction_type           cylindrical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.091
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-70 package; XRAY-72 package'
+
+# End of data set 1250582

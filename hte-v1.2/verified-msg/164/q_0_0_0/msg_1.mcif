@@ -1,0 +1,13 @@
+# P-3m'1 (#164.89)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,+1 mx,my,mz
+3 -y,x-y,z,+1 -my,mx-my,mz
+4 y,-x+y,-z,+1 -my,mx-my,mz
+5 -x+y,-x,z,+1 -mx+my,-mx,mz
+6 x-y,x,-z,+1 -mx+my,-mx,mz
+7 y,x,-z,-1 -my,-mx,mz
+8 -y,-x,z,-1 -my,-mx,mz
+9 x-y,-y,-z,-1 -mx+my,my,mz
+10 -x+y,y,z,-1 -mx+my,my,mz
+11 -x,-x+y,-z,-1 mx,mx-my,mz
+12 x,x-y,z,-1 mx,mx-my,mz

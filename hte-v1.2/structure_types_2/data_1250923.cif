@@ -1,0 +1,131 @@
+##############################################################################
+#                                                                            #
+# P-S              # P4S5mon1                                      # 1250923 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250923
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250923
+
+# Entry summary
+
+_chemical_formula_structural             P4S5
+_chemical_formula_sum                    P4S5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P4S5,mP18,4
+_chemical_formula_weight                 284.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Refinement of the crystal structures of some phosphorus sulphides'           
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1965
+_journal_volume                          19
+_journal_page_first                      864
+_journal_page_last                       867
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Vos A.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Olthof R.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Van Bolhuis F.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+'Botterweg R.'
+;
+Groningen University
+Laboratorium voor Anorganische Chemie
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.412
+_cell_length_b                           10.903
+_cell_length_c                           6.694
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.66
+_cell_angle_gamma                        90
+_cell_volume                             434.93
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              4
+_symmetry_space_group_name_H-M           P1211
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P4 P a 2 0.0204 0.0000 0.4487 1
+ P2 P a 2 0.0372 0.1060 0.0026 1
+ S1 S a 2 0.1305 0.6739 0.5855 1
+ S3 S a 2 0.2212 0.3921 0.7868 1
+ S2 S a 2 0.2512 0.0308 0.2895 1
+ P3 P a 2 0.2583 0.4809 0.0732 1
+ S5 S a 2 0.3526 0.3613 0.3033 1
+ S4 S a 2 0.4682 0.6335 0.1196 1
+ P1 P a 2 0.8150 0.2360 0.0977 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5418
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 690
+_refine_ls_R_factor_all                  0.073
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250923

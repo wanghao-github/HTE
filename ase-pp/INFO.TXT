@@ -1,0 +1,10 @@
+ase seems not to support ultrasoft pseudopotentials from vasp at the moment:
+workaround: 
+potpaw_GGA: 'PW91' -> US_PP from potUSPP_GGA.tar.gz
+potpaw_PBE: 'PBE' -> PAW_PP from potpaw_PBE.54.tar.gz
+
+original files delivered with VASP, exception:
+* in potpaw_GGA/Bi/POTCAR:
+VRHFIN =Pb changed to VRHFIN =Bi in POTCAR
+(seems to be a typo which leads to Bi replaced by Pb in CONTCAR file)
+

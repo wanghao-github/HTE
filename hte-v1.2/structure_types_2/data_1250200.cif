@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# B-H              # B5H7mon                                       # 1250200 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250200
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250200
+
+# Entry summary
+
+_chemical_formula_structural             B10H14
+_chemical_formula_sum                    B5H7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B5H7,mP96,13
+_chemical_formula_weight                 61.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Die Verteilung der Bindungselektronen im Dekaboran-Molekuel (B10H14)'        
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1971
+_journal_volume                          27
+_journal_page_first                      2003
+_journal_page_last                       2018
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Brill R.'
+;
+Max Planck Society
+Fritz-Haber-Institut
+Berlin
+Germany
+;
+'Dietrich H.'
+;
+Max Planck Society
+Fritz-Haber-Institut
+Berlin
+Germany
+;
+'Dierks H.'
+;
+Max Planck Society
+Fritz-Haber-Institut
+Berlin
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.44
+_cell_length_b                           5.62
+_cell_length_c                           14.32
+_cell_angle_alpha                        90
+_cell_angle_beta                         125.08
+_cell_angle_gamma                        90
+_cell_volume                             819.29
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              13
+_symmetry_space_group_name_H-M           P12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ B21 B g 4 0.0478 0.3274 0.1746 1
+ B31 B g 4 0.0568 0.6309 0.1597 1
+ H71 H g 4 0.0584 0.7217 0.3689 1
+ H21 H g 4 0.0766 0.1915 0.1290 1
+ B51 B g 4 0.0826 0.2612 0.3115 1
+ H31 H g 4 0.0890 0.2630 0.6087 1
+ B41 B g 4 0.0998 0.4994 0.3979 1
+ H61 H g 4 0.1216 0.7223 0.2664 1
+ H51 H g 4 0.1504 0.0936 0.3617 1
+ B11 B g 4 0.1630 0.5001 0.2981 1
+ H41 H g 4 0.1812 0.5053 0.4981 1
+ H12 H g 4 0.2222 0.0006 0.0652 1
+ H11 H g 4 0.2784 0.5066 0.3449 1
+ H42 H g 4 0.3166 0.0016 0.8145 1
+ B12 B g 4 0.3372 0.0045 0.1343 1
+ H52 H g 4 0.3490 0.4104 0.2103 1
+ H62 H g 4 0.3770 0.2172 0.6425 1
+ B42 B g 4 0.3990 0.0041 0.2967 1
+ H32 H g 4 0.4130 0.2355 0.5203 1
+ B52 B g 4 0.4174 0.2432 0.2282 1
+ H22 H g 4 0.4262 0.3133 0.0536 1
+ B32 B g 4 0.4446 0.1273 0.6033 1
+ B22 B g 4 0.4536 0.1767 0.1272 1
+ H72 H g 4 0.5588 0.2184 0.6914 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              113
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Siemens
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.061
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-63 package'
+
+# End of data set 1250200

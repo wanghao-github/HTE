@@ -1,0 +1,143 @@
+##############################################################################
+#                                                                            #
+# S-Tm             # Tm8S11                                        # 1251450 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251450
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251450
+
+# Entry summary
+
+_chemical_formula_structural             Tm8S11
+_chemical_formula_sum                    S11Tm8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tm8S11,oS76,63
+_chemical_formula_weight                 1704.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'SYNTHESIS, CRYSTAL STRUCTURE AND MAGNETIC PROPERTIES OF Tm8S11'              
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1990
+_journal_volume                          166
+_journal_page_first                      135
+_journal_page_last                       140
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhang Y.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Franzen H.F.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Harbrecht B.'
+;
+Dortmund University
+Fachbereich Chemie
+Dortmund
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.7486
+_cell_length_b                           12.616
+_cell_length_c                           34.932
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1652.02
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tm5 Tm f 8 0 0.01927 0.63307 1
+ S2 S f 8 0 0.0894 0.0682 1
+ S3 S f 8 0 0.1142 0.7033 1
+ Tm4 Tm f 8 0 0.24166 0.18297 1
+ Tm3 Tm f 8 0 0.25787 0.55876 1
+ S5 S f 8 0 0.3363 0.1113 1
+ S4 S f 8 0 0.3532 0.0159 1
+ S6 S f 8 0 0.6058 0.1623 1
+ S1 S c 4 0 0.1459 0.25 1
+ Tm2 Tm c 4 0 0.4930 0.25 1
+ Tm1 Tm a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54051
+_cell_measurement_reflns_used            54
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4B'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    3794
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             61
+_refine_ls_number_reflns                 883
+_refine_ls_R_factor_all                  0.043
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SDP package'
+
+# End of data set 1251450

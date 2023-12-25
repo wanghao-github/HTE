@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# Cl-P             # PCl3lt                                        # 1250656 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250656
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250656
+
+# Entry summary
+
+_chemical_formula_structural             PCl3
+_chemical_formula_sum                    Cl3P
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PCl3,oP16,62
+_chemical_formula_weight                 137.3
+_chemical_melting_point                  161
+
+# Bibliographic data
+
+_publ_section_title
+'Cristallochimie. Etude structurale a 123 K du trichlorure de phosphore PCl3' 
+_journal_coden_ASTM                      CHDCAQ
+_journal_year                            1980
+_journal_volume                          290
+_journal_page_first                      239
+_journal_page_last                       241
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Enjalbert R.'
+;
+?
+?
+?
+France
+;
+'Savariault J.M.'
+;
+?
+?
+?
+France
+;
+'Legros J.P.'
+;
+?
+?
+?
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.0425
+_cell_length_b                           9.3691
+_cell_length_c                           6.0794
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             458.09
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl1 Cl d 8 0.09817 0.08326 0.2627 1
+ P P c 4 0.01844 0.25 0.0750 1
+ Cl2 Cl c 4 0.1959 0.25 0.8385 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              123
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 655
+_refine_ls_R_factor_all                  0.029
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250656

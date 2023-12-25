@@ -1,0 +1,120 @@
+##############################################################################
+#                                                                            #
+# Ge-Yb            # Yb3Ge8                                        # 1810058 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1810058
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810058
+
+# Entry summary
+
+_chemical_formula_structural             Yb3Ge8
+_chemical_formula_sum                    Ge8Yb3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb3Ge8,aP22,2
+_chemical_formula_weight                 1099.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The phase diagram of the Yb-Ge system'                                       
+_journal_coden_ASTM                      JALCEU
+_journal_year                            2003
+_journal_volume                          360
+_journal_page_first                      151
+_journal_page_last                       161
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pani M.'
+;
+Genova University
+Dipartimento di Chimica e Chimica Industriale
+Genova
+Italy
+;
+'Palenzona A.'
+;
+Genova University
+Dipartimento di Chimica e Chimica Industriale
+Genova
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.307
+_cell_length_b                           7.415
+_cell_length_c                           10.365
+_cell_angle_alpha                        69.32
+_cell_angle_beta                         70.24
+_cell_angle_gamma                        65.02
+_cell_volume                             464.3
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge i 2 0.111 0.0349 0.3586 1
+ Ge2 Ge i 2 0.1225 0.8716 0.0914 1
+ Ge3 Ge i 2 0.1733 0.4526 0.5266 1
+ Yb1 Yb i 2 0.18029 0.43369 0.22045 1
+ Ge5 Ge i 2 0.3195 0.1057 0.4803 1
+ Ge4 Ge i 2 0.3213 0.0929 0.0692 1
+ Ge6 Ge i 2 0.3304 0.6959 0.3091 1
+ Yb2 Yb i 2 0.33868 0.09095 0.77116 1
+ Ge7 Ge i 2 0.6271 0.3581 0.0741 1
+ Yb3 Yb i 2 0.66842 0.32005 0.37358 1
+ Ge8 Ge i 2 0.8289 0.5561 0.083 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    4337
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            55.3
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             101
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.048
+_refine_ls_wR_factor_all                 0.101
+_computing_structure_refinement          'SHELXS-97; SHELXL-97'
+
+# End of data set 1810058

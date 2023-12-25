@@ -1,0 +1,173 @@
+##############################################################################
+#                                                                            #
+# Cl-Re            # ReCl4ht                                       # 1250152 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250152
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250152
+
+# Entry summary
+
+_chemical_formula_structural             'ReCl4 b'
+_chemical_formula_sum                    Cl4Re
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ReCl4,mP20,13
+_chemical_formula_weight                 328.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Chemistry of Rhenium(IV) Chloride. II. Structure of One of the Polymorphs (b) and Evidence for a New Polymorph (g)
+;
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1973
+_journal_volume                          95
+_journal_page_first                      1159
+_journal_page_last                       1163
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cotton F.A.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'De Boer B.G.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Mester Z.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.362
+_cell_length_b                           6.273
+_cell_length_c                           12.165
+_cell_angle_alpha                        90
+_cell_angle_beta                         93.15
+_cell_angle_gamma                        90
+_cell_volume                             484.76
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              13
+_symmetry_space_group_name_H-M           P12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl3 Cl g 4 0.1431 0.0683 0.6347 1
+ Cl1 Cl g 4 0.2480 0.3871 0.0213 1
+ Re Re g 4 0.31534 0.23273 0.18749 1
+ Cl2 Cl g 4 0.3663 0.0929 0.3728 1
+ Cl4 Cl f 2 0.5 0.5503 0.25 1
+ Cl5 Cl e 2 0 0.4070 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            50
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          'General Electric'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            28.63
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1108
+_refine_ls_R_factor_all                  0.049
+_refine_ls_wR_factor_all                 0.049
+_computing_structure_refinement          'SFIX (local of SFLS-5)'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 60.46 7
+ 0 1 1 55.74 10
+ 1 0 -2 45.06 7
+ 1 1 -1 42.2 7
+ 2 0 0 31.59 3
+ 1 1 -3 30.68 3
+ 1 1 3 29.65 2
+ 0 2 2 27.93 5
+ 2 1 1 27.18 7
+ 1 0 4 26.61 1
+ 2 1 -2 26.11 2
+ 1 1 -4 25.53 2
+ 2 0 -4 22.57 2
+ 2 2 -1 22.25 2
+ 2 0 4 21.54 2
+ 1 1 5 20.87 5
+ 0 3 1 20.6 5
+ 0 0 6 20.29 4
+ 3 1 -1 19.87 6
+ 3 0 2 19.45 3
+ 2 1 -5 18.93 2
+ 2 2 -4 18.26 2
+ 1 3 -3 17.86 5
+ 2 0 -6 17.51 4
+ 3 1 -4 17.2 1
+ 0 2 6 16.97 1
+ 0 1 7 16.65 2
+ 1 2 6 16.17 2
+ 3 2 3 15.81 1
+ 1 3 -5 15.41 1
+ 4 0 2 15.09 2
+ 1 4 -2 14.81 1
+ 3 1 -6 14.6 1
+ 1 4 -3 14.32 1
+ 3 3 -3 14.11 1
+ 3 2 5 13.92 1
+ 4 2 2 13.65 3
+ 2 4 -3 13.33 1
+ 2 4 3 13.17 1
+ 4 2 -4 13.05 1
+
+# End of data set 1250152

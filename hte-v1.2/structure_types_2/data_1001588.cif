@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# H-S              # [H2S]hp3                                      # 1001588 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1001588
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1001588
+
+# Entry summary
+
+_chemical_formula_structural             'H2S, phase IV'
+_chemical_formula_sum                    [H2S]
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            [H2S],tI48,142
+_chemical_formula_weight                 34.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures of H2S: Phases I' and IV under high pressure
+;
+_journal_coden_ASTM                      PRBMDO
+_journal_year                            1998
+_journal_volume                          57
+_journal_page_first                      2651
+_journal_page_last                       2654
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fujihisa H.'
+;
+National Institute of Materials and Chemical Research
+?
+Tsukuba
+Japan
+;
+'Yamawaki H.'
+;
+National Institute of Materials and Chemical Research
+?
+Tsukuba
+Japan
+;
+'Sakashita M.'
+;
+National Institute of Materials and Chemical Research
+?
+Tsukuba
+Japan
+;
+'Aoki K.'
+;
+National Institute of Materials and Chemical Research
+?
+Tsukuba
+Japan
+;
+'Sasaki S.'
+;
+Gifu University
+Department of Electrical and Electronic Engineering
+Gifu
+Japan
+;
+'Shimizu H.'
+;
+Gifu University
+Department of Electrical and Electronic Engineering
+Gifu
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.85
+_cell_length_b                           6.85
+_cell_length_c                           9.203
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             431.8
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              142
+_symmetry_space_group_name_H-M           'I41/acd O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, -z'
+ 3 '-x, 0.5-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5+z'
+ 6 '0.25-y, 0.25-x, 0.25-z'
+ 7 '0.25-y, -0.25-x, -0.25+z'
+ 8 '0.25-y, -0.25+x, 0.25+z'
+ 9 '-0.25-y, -0.25+x, 0.25-z'
+ 10 '0.5+x, -y, z'
+ 11 'x, -y, 0.5-z'
+ 12 'x, 0.5+y, -z'
+ 13 '0.25+y, 0.25-x, -0.25+z'
+ 14 '-0.25+y, 0.25-x, -0.25-z'
+ 15 '-0.25+y, 0.25+x, 0.25-z'
+ 16 '-0.25+y, -0.25+x, -0.25+z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '1-x, 0.5+y, 0.5-z'
+ 19 '0.5-x, 1-y, 0.5+z'
+ 20 '0.5-x, 0.5-y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 1+z'
+ 22 '0.75-y, 0.75-x, 0.75-z'
+ 23 '0.75-y, 0.25-x, 0.25+z'
+ 24 '0.75-y, 0.25+x, 0.75+z'
+ 25 '0.25-y, 0.25+x, 0.75-z'
+ 26 '1+x, 0.5-y, 0.5+z'
+ 27 '0.5+x, 0.5-y, 1-z'
+ 28 '0.5+x, 1+y, 0.5-z'
+ 29 '0.75+y, 0.75-x, 0.25+z'
+ 30 '0.25+y, 0.75-x, 0.25-z'
+ 31 '0.25+y, 0.75+x, 0.75-z'
+ 32 '0.25+y, 0.25+x, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ H H g 32 0.412 0.071 0.163 1
+ S S e 16 0.044 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_pressure               1.4e+007
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 1.4e+007
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, starting values from the literature'        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'RIETAN package'
+
+# End of data set 1001588

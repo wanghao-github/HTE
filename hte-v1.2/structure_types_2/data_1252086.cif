@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# Cl-Fe            # FeCl312-lay                                   # 1252086 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252086
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252086
+
+# Entry summary
+
+_chemical_formula_structural             'FeCl3 polytype III'
+_chemical_formula_sum                    Cl3Fe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            FeCl3,hP96,147
+_chemical_formula_weight                 162.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure of FeCl3 Polytypes'                                        
+_journal_coden_ASTM                      RJICAQ
+_journal_year                            1993
+_journal_volume                          38
+_journal_page_first                      1821
+_journal_page_last                       1824
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Troyanov S.I.'
+;
+Moscow M.V. Lomonosov State University
+?
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.063
+_cell_length_b                           6.063
+_cell_length_c                           69.7
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             2218.9
+_cell_formula_units_Z                    24
+_symmetry_Int_Tables_number              147
+_symmetry_space_group_name_H-M           P-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x, -y, -z'
+ 4 '-y, x-y, z'
+ 5 'x-y, x, -z'
+ 6 'y, -x+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl1 Cl g 6 0.020 0.336 0.0224 1
+ Cl11 Cl g 6 0.030 0.328 0.4384 1
+ Cl5 Cl g 6 0.042 0.335 0.1872 1
+ Cl6 Cl g 6 0.293 0.338 0.2287 1
+ Cl2 Cl g 6 0.302 0.332 0.0608 1
+ Cl8 Cl g 6 0.320 0.302 0.3106 1
+ Cl7 Cl g 6 0.326 0.021 0.2713 1
+ Cl12 Cl g 6 0.334 0.032 0.5221 1
+ Cl4 Cl g 6 0.345 0.347 0.1423 1
+ Cl10 Cl g 6 0.354 0.351 0.3936 1
+ Cl3 Cl g 6 0.359 0.011 0.1048 1
+ Cl9 Cl g 6 0.362 0.010 0.3556 1
+ Fe2 Fe d 2 0.333333 0.666667 0.0418 1
+ Fe4 Fe d 2 0.333333 0.666667 0.1253 1
+ Fe5 Fe d 2 0.333333 0.666667 0.2089 1
+ Fe10 Fe d 2 0.333333 0.666667 0.3748 1
+ Fe11 Fe d 2 0.333333 0.666667 0.4585 1
+ Fe9 Fe d 2 0.333333 0.666667 0.6247 1
+ Fe7 Fe d 2 0.333333 0.666667 0.7079 1
+ Fe3 Fe d 2 0.333333 0.666667 0.8746 1
+ Fe1 Fe c 2 0 0 0.0416 1
+ Fe6 Fe c 2 0 0 0.2096 1
+ Fe8 Fe c 2 0 0 0.2923 1
+ Fe12 Fe c 2 0 0 0.4587 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    4553
+_exptl_absorpt_coefficient_mu            6.01
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             79
+_refine_ls_number_reflns                 1165
+_refine_ls_R_factor_all                  0.095
+_refine_ls_wR_factor_all                 0.100
+_computing_structure_refinement          'SDP package; SHELXS-86; SHELX-76'
+
+# End of data set 1252086

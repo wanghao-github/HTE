@@ -1,0 +1,176 @@
+##############################################################################
+#                                                                            #
+# Pd-Sn            # PdSn2rt                                       # 1251487 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251487
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251487
+
+# Entry summary
+
+_chemical_formula_structural             'PdSn2 low-temperature modification'
+_chemical_formula_sum                    PdSn2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PdSn2,tI48,142
+_chemical_formula_weight                 343.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Flussspat-Misch-Typen (mit einer Strukturbestimmung des RhSn2 und PdSn2)'    
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1956
+_journal_volume                          107
+_journal_page_first                      99
+_journal_page_last                       123
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hellner E.'
+;
+Marburg Lahn Philipps University
+Institut für Mineralogie Petrologie und Kristallographie
+Marburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.49
+_cell_length_b                           6.49
+_cell_length_c                           24.378
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1026.8
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              142
+_symmetry_space_group_name_H-M           'I41/acd O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, -z'
+ 3 '-x, 0.5-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5+z'
+ 6 '0.25-y, 0.25-x, 0.25-z'
+ 7 '0.25-y, -0.25-x, -0.25+z'
+ 8 '0.25-y, -0.25+x, 0.25+z'
+ 9 '-0.25-y, -0.25+x, 0.25-z'
+ 10 '0.5+x, -y, z'
+ 11 'x, -y, 0.5-z'
+ 12 'x, 0.5+y, -z'
+ 13 '0.25+y, 0.25-x, -0.25+z'
+ 14 '-0.25+y, 0.25-x, -0.25-z'
+ 15 '-0.25+y, 0.25+x, 0.25-z'
+ 16 '-0.25+y, -0.25+x, -0.25+z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '1-x, 0.5+y, 0.5-z'
+ 19 '0.5-x, 1-y, 0.5+z'
+ 20 '0.5-x, 0.5-y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 1+z'
+ 22 '0.75-y, 0.75-x, 0.75-z'
+ 23 '0.75-y, 0.25-x, 0.25+z'
+ 24 '0.75-y, 0.25+x, 0.75+z'
+ 25 '0.25-y, 0.25+x, 0.75-z'
+ 26 '1+x, 0.5-y, 0.5+z'
+ 27 '0.5+x, 0.5-y, 1-z'
+ 28 '0.5+x, 1+y, 0.5-z'
+ 29 '0.75+y, 0.75-x, 0.25+z'
+ 30 '0.25+y, 0.75-x, 0.25-z'
+ 31 '0.25+y, 0.75+x, 0.75-z'
+ 32 '0.25+y, 0.25+x, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn2 Sn f 16 0.158 0.408 0.125 1
+ Sn1 Sn e 16 0.25 0 0.25 1
+ Pd Pd d 16 0 0.25 0.283 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'rotation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 2 32190 7.58
+ 2 0 0 56330 2.29
+ 0 0 8 64050 18.35
+ 2 1 1 71380 7.73
+ 2 0 4 72320 7.28
+ 2 1 3 79380 6.83
+ 2 1 5 95390 5.04
+ 2 2 0 112700 13.37
+ 2 1 7 120250 36.62
+ 1 1 10 128080 9.73
+ 3 1 2 144840 12.36
+ 2 1 9 151290 2.12
+ 2 1 11 191210 1.63
+ 4 0 0 225340 1.42
+ 2 1 13 238000 0.71
+ 4 0 4 241580 5.65
+ 4 1 3 248670 1.05
+ 0 0 16 255990 4.33
+ 4 1 5 264410 1.59
+ 3 3 6 289640 3.65
+ 2 1 15 295280 1.46
+ 4 2 4 297910 6.00
+ 3 1 14 337150 1.67
+ 4 2 8 345650 5.20
+ 3 3 10 354130 2.76
+ 2 2 16 368990 6.07
+ 0 0 20 401010 0.75
+ 4 1 13 408710 1.51
+ 5 2 3 417310 1.21
+ 4 2 12 425060 1.46
+ 2 1 19 433100 1.30
+ 3 3 14 452430 3.77
+ 2 0 20 457030 2.22
+
+# End of data set 1251487

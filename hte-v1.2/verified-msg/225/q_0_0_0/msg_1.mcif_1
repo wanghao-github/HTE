@@ -1,0 +1,16 @@
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,+1 mx,my,mz
+3 z,-x-y-z,x,-1 -mz,mx+my+mz,-mx
+4 -z,x+y+z,-x,-1 -mz,mx+my+mz,-mx
+5 -x-y-z,z,y,+1 -mx-my-mz,mz,my
+6 x+y+z,-z,-y,+1 -mx-my-mz,mz,my
+7 y,x,-x-y-z,-1 -my,-mx,mx+my+mz
+8 -y,-x,x+y+z,-1 -my,-mx,mx+my+mz
+9 -z,-x,x+y+z,+1 -mz,-mx,mx+my+mz
+10 z,x,-x-y-z,+1 -mz,-mx,mx+my+mz
+11 -x,-z,-y,-1 mx,mz,my
+12 x,z,y,-1 mx,mz,my
+13 x+y+z,-y,-z,-1 -mx-my-mz,my,mz
+14 -x-y-z,y,z,-1 -mx-my-mz,my,mz
+15 -y,x+y+z,-x,+1 -my,mx+my+mz,-mx
+16 y,-x-y-z,x,+1 -my,mx+my+mz,-mx

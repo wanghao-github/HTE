@@ -1,0 +1,132 @@
+##############################################################################
+#                                                                            #
+# O-Pb             # Pb3O4lt                                       # 1250564 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250564
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250564
+
+# Entry summary
+
+_chemical_formula_structural             Pb3O4
+_chemical_formula_sum                    O4Pb3
+_chemical_name_mineral                   minium
+_chemical_compound_source                synthetic
+_chemical_name_structure_type            Pb3O4,oP28,55
+_chemical_formula_weight                 685.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Oxydes de plomb. Evolution structurale de l'oxyde Pb3O4 entre 240 et 5 K et mecanisme de la transition
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1978
+_journal_volume                          23
+_journal_page_first                      327
+_journal_page_last                       339
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gavarri J.R.'
+;
+Ecole Centrale des Arts et Manufactures
+Laboratoire de Chimie-Physique du Solide
+Chatenay-Malabry
+France
+;
+'Weigel D.'
+;
+Ecole Centrale des Arts et Manufactures
+Laboratoire de Chimie-Physique du Solide
+Chatenay-Malabry
+France
+;
+'Hewat A.W.'
+;
+Laue-Langevin Institute
+?
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.6638
+_cell_length_b                           8.9496
+_cell_length_c                           6.5616
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             508.77
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O i 8 0.3277 0.3282 0.2505 1
+ O2C O h 4 0.0969 0.1332 0.5 1
+ PbII2 Pb2+ h 4 0.3609 0.1665 0.5 1
+ O2A O g 4 0.1371 0.0898 0 1
+ PbII1 Pb2+ g 4 0.1577 0.3518 0 1
+ PbIV Pb4+ e 4 0 0 0.2495 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              140
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'D1A, ILL, Grenoble, France'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.384
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 4.5
+_diffrn_reflns_theta_max                 78
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             46
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250564

@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# As-Zn            # Zn3As2ht1                                     # 1251480 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251480
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251480
+
+# Entry summary
+
+_chemical_formula_structural             a'-Zn3As2
+_chemical_formula_sum                    As2Zn3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn3As2,tP160,133
+_chemical_formula_weight                 346.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structure of Zinc Arsenide Polymorphic Modifications a-Zn3As2 and a'-Zn3As2
+;
+_journal_coden_ASTM                      BAPCAQ
+_journal_year                            1976
+_journal_volume                          24
+_journal_page_first                      459
+_journal_page_last                       464
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pietraszko A.'
+;
+Polish Academy of Sciences
+Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Lukaszewicz K.'
+;
+Polish Academy of Sciences
+Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.789
+_cell_length_b                           11.789
+_cell_length_c                           23.635
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3284.8
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              133
+_symmetry_space_group_name_H-M           'P42/nbc O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, z'
+ 3 '0.5-x, y, -z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, z'
+ 6 '0.5-y, 0.5-x, 0.5-z'
+ 7 '0.5-y, x, 0.5+z'
+ 8 '-y, -x, 0.5+z'
+ 9 '-y, 0.5+x, 0.5-z'
+ 10 '0.5+x, -y, z'
+ 11 '0.5+x, 0.5+y, -z'
+ 12 'x, 0.5-y, -z'
+ 13 '0.5+y, -x, 0.5-z'
+ 14 '0.5+y, 0.5+x, 0.5+z'
+ 15 'y, 0.5-x, 0.5+z'
+ 16 'y, x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ As6 As k 16 0.0049 0.0014 0.1269 1
+ Zn6 Zn k 16 0.103 0.1288 0.1873 1
+ Zn3 Zn k 16 0.1376 0.6093 0.0709 1
+ Zn1 Zn k 16 0.1377 0.1393 0.0547 1
+ As5 As k 16 0.2455 0.5086 0.2477 1
+ Zn4 Zn k 16 0.3695 0.1133 0.1792 1
+ Zn2 Zn k 16 0.6031 0.1287 0.0619 1
+ Zn5 Zn k 16 0.6409 0.1402 0.1959 1
+ As3 As i 8 0.5043 0.25 0.5 1
+ As4 As h 8 0.5027 0.25 0 1
+ As1 As g 8 0.75 0.25 0.124 1
+ As2 As f 8 0.25 0.25 0.1251 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          DAR
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            39.40
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 478
+_refine_ls_R_factor_all                  0.135
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251480

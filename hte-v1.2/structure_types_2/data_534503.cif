@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Li-Pb            # Li22Pb5                                       #  534503 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_534503
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      534503
+
+# Entry summary
+
+_chemical_formula_structural             Li10Pb3
+_chemical_formula_sum                    Li10Pb3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cu9Al4,cP52,215
+_chemical_formula_weight                 691.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'La fase gamma della lega lition-piombo, Li10Pb3. Stechiometria e struttura'  
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1939
+_journal_volume                          101
+_journal_page_first                      470
+_journal_page_last                       482
+_journal_language                        Italian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Rollier M.A.'
+;
+Milan University
+?
+Milan
+Italy
+;
+'Arreghini E.'
+;
+Milan University
+?
+Milan
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.082
+_cell_length_b                           10.082
+_cell_length_c                           10.082
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1024.8
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              215
+_symmetry_space_group_name_H-M           P-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Li7 Li i 12 0.188 0.188 0.536 1
+ Pb Pb i 12 0.312 0.312 0.036 1
+ Li6 Li g 6 0.144 0.5 0.5 1
+ Li5 Li f 6 0.356 0 0 1
+ Li1 Li e 4 0.101 0.101 0.101 1
+ Li4 Li e 4 0.331 0.331 0.331 1
+ Li2 Li e 4 0.604 0.604 0.604 1
+ Li3 Li e 4 0.828 0.828 0.828 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 534503

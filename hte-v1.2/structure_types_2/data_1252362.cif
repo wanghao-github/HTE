@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Ag-I             # AgI8T                                         # 1252362 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252362
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252362
+
+# Entry summary
+
+_chemical_formula_structural             'AgI 8H'
+_chemical_formula_sum                    AgI
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            AgI,hP16,156
+_chemical_formula_weight                 234.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Polytypism in Silver Iodide'
+_journal_coden_ASTM                      ACACBN
+_journal_year                            1974
+_journal_volume                          30
+_journal_page_first                      369
+_journal_page_last                       373
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Prager P.R.'
+;
+New England University
+Department of Physics
+Armidale
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.592
+_cell_length_b                           4.592
+_cell_length_c                           30.04
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             548.57
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I1 I c 1 0.666667 0.333333 0.03125 1
+ Ag1 Ag c 1 0.666667 0.333333 0.125 1
+ I3 I b 1 0.333333 0.666667 0.28125 1
+ Ag3 Ag b 1 0.333333 0.666667 0.375 1
+ I5 I b 1 0.333333 0.666667 0.53125 1
+ Ag5 Ag b 1 0.333333 0.666667 0.625 1
+ I7 I b 1 0.333333 0.666667 0.78125 1
+ Ag7 Ag b 1 0.333333 0.666667 0.875 1
+ Ag8 Ag a 1 0 0 0.0 1
+ I2 I a 1 0 0 0.15625 1
+ Ag2 Ag a 1 0 0 0.25 1
+ I4 I a 1 0 0 0.40625 1
+ Ag4 Ag a 1 0 0 0.5 1
+ I6 I a 1 0 0 0.65625 1
+ Ag6 Ag a 1 0 0 0.75 1
+ I8 I a 1 0 0 0.90625 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'precession photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252362

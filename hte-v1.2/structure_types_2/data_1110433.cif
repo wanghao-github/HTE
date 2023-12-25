@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2ht ZSM11                                  # 1110433 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1110433
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1110433
+
+# Entry summary
+
+_chemical_formula_structural             SiO2
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,tI288,119
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Direct Observation of "Pure MEL Type" Zeolite'                               
+_journal_coden_ASTM                      CMATEX
+_journal_year                            1996
+_journal_volume                          8
+_journal_page_first                      463
+_journal_page_last                       468
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Terasaki O.'
+;
+Tohoku University
+Department of Physics
+Sendai
+Japan
+;
+'Ohsuna T.'
+;
+Iwaki Meisei University
+College of Science and Engineering
+Iwaki
+Japan
+;
+'Sakuma H.'
+;
+Tohoku University
+Department of Physics
+Sendai
+Japan
+;
+'Watanabe D.'
+;
+Iwaki Meisei University
+College of Science and Engineering
+Iwaki
+Japan
+;
+'Nakagawa Y.'
+;
+Chevron Petroleum Co.
+?
+Richmond
+U.S.A. California
+;
+'Medrud R.C.'
+;
+Chevron Petroleum Co.
+?
+Richmond
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           20.0599
+_cell_length_b                           20.0599
+_cell_length_c                           13.4031
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5393.4
+_cell_formula_units_Z                    96
+_symmetry_Int_Tables_number              119
+_symmetry_space_group_name_H-M           I-4m2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, -z'
+ 5 '-y, x, -z'
+ 6 'x, -y, z'
+ 7 'y, -x, -z'
+ 8 'y, x, -z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5+z'
+ 11 '0.5-x, 0.5+y, 0.5+z'
+ 12 '0.5-y, 0.5-x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5-z'
+ 14 '0.5+x, 0.5-y, 0.5+z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5+x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si5 Si j 16 0.0757 0.1934 0.2415 1
+ O14 O j 16 0.0863 0.1222 0.1862 1
+ O2 O j 16 0.1009 0.3812 0.1569 1
+ O13 O j 16 0.0928 0.2511 0.1639 1
+ O5 O j 16 0.12 0.1974 0.3377 1
+ Si7 Si j 16 0.12 0.0756 0.1064 1
+ Si2 Si j 16 0.1215 0.313 0.1055 1
+ O10 O j 16 0.1973 0.0941 0.096 1
+ O4 O j 16 0.2005 0.3076 0.1041 1
+ Si3 Si j 16 0.2751 0.0768 0.1067 1
+ Si4 Si j 16 0.2792 0.3112 0.1105 1
+ O9 O j 16 0.3065 0.2503 0.173 1
+ O8 O j 16 0.3067 0.1192 0.1958 1
+ O3 O j 16 0.3096 0.0942 0.0038 1
+ O12 O i 8 0.1092 0 0.1383 1
+ O6 O i 8 0.2026 0 0.7271 1
+ O11 O i 8 0.287 0 0.133 1
+ O1 O i 8 0.4106 0 0.7234 1
+ Si1 Si h 8 0.0765 0.5765 0.25 1
+ Si6 Si h 8 0.69 0.19 0.25 1
+ O15 O g 8 0.0867 0.0867 0 1
+ O7 O g 8 0.3104 0.3104 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             1.18551
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'X7A, NSLS, Brookhaven NL, USA'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             1.18551
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'RIETAN-94 package'
+
+# End of data set 1110433

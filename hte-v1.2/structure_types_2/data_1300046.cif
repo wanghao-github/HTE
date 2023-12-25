@@ -1,0 +1,111 @@
+##############################################################################
+#                                                                            #
+# Cl-Fe            # FeCl33-lay2                                   # 1300046 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1300046
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1300046
+
+# Entry summary
+
+_chemical_formula_structural             'FeCl3 polytype II'
+_chemical_formula_sum                    Cl3Fe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiCl3,hP24,149
+_chemical_formula_weight                 162.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure of FeCl3 Polytypes'                                        
+_journal_coden_ASTM                      RJICAQ
+_journal_year                            1993
+_journal_volume                          38
+_journal_page_first                      1821
+_journal_page_last                       1824
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Troyanov S.I.'
+;
+Moscow M.V. Lomonosov State University
+?
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.056
+_cell_length_b                           6.056
+_cell_length_c                           17.401
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             552.68
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              149
+_symmetry_space_group_name_H-M           P312
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, -z'
+ 4 '-y, -x, -z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl3 Cl l 6 -0.01397 0.31496 0.4105 1
+ Cl1 Cl l 6 0.02843 0.33567 0.0828 1
+ Cl2 Cl l 6 0.32793 0.30517 0.26 1
+ Fe3 Fe i 2 0.666667 0.333333 0.3336 1
+ Fe4 Fe g 2 0 0 0.3287 1
+ Fe1 Fe c 1 0.333333 0.666667 0 1
+ Fe2 Fe a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2006
+_exptl_absorpt_coefficient_mu            6.03
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             39
+_refine_ls_number_reflns                 572
+_refine_ls_R_factor_all                  0.070
+_refine_ls_wR_factor_all                 0.068
+_computing_structure_refinement          'SDP package; SHELX'
+
+# End of data set 1300046

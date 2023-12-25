@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# Li-P             # Li3P7rt                                       # 1250773 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250773
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250773
+
+# Entry summary
+
+_chemical_formula_structural             Li3P7
+_chemical_formula_sum                    Li3P7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Li3P7,oP40,19
+_chemical_formula_weight                 237.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Trilithiumheptaphosphid Li3P7: Darstellung, Struktur und Eigenschaften'      
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1986
+_journal_volume                          539
+_journal_page_first                      95
+_journal_page_last                       109
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Manriquez V.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Hönle W.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.596
+_cell_length_b                           9.742
+_cell_length_c                           10.535
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             779.59
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              19
+_symmetry_space_group_name_H-M           P212121
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P32 P a 4 0.0335 0.0537 0.0648 1
+ Li1 Li a 4 0.094 0.1993 0.3058 1
+ P33 P a 4 0.0946 0.3627 0.5074 1
+ P23 P a 4 0.1827 0.5732 0.1189 1
+ P30 P a 4 0.2803 0.3749 0.1806 1
+ P31 P a 4 0.3638 0.0499 0.3866 1
+ P22 P a 4 0.3708 0.2826 0.0040 1
+ Li2 Li a 4 0.436 0.0253 0.0150 1
+ P21 P a 4 0.5324 0.4288 0.2662 1
+ Li3 Li a 4 0.651 0.1932 0.1840 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex R3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             92
+_refine_ls_number_reflns                 1022
+_refine_ls_R_factor_all                  0.023
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SHELX-76; SHELXTL3.0 package'
+
+# End of data set 1250773

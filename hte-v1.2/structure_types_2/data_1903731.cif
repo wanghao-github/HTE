@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# Ni-Zr            # Zr8Ni21                                       # 1903731 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1903731
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1903731
+
+# Entry summary
+
+_chemical_formula_structural             Zr8Ni21
+_chemical_formula_sum                    Ni21Zr8
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Hf8Ni21,aP29,2
+_chemical_formula_weight                 1962.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Refinement of the crystal structure of zirconium nickel, Zr8Ni21'            
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            1998
+_journal_volume                          213
+_journal_page_first                      227
+_journal_page_last                       228
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Joubert J.M.'
+;
+Geneva University
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Cerny R.'
+;
+Geneva University
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Yvon K.'
+;
+Geneva University
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Latroche M.'
+;
+Centre National de la Recherche Scientifique
+Laboratoire des Terres Rares
+Meudon-Bellevue
+France
+;
+'Percheron Guégan A.'
+;
+Centre National de la Recherche Scientifique
+Laboratoire des Terres Rares
+Meudon-Bellevue
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.476
+_cell_length_b                           8.064
+_cell_length_c                           8.594
+_cell_angle_alpha                        75.15
+_cell_angle_beta                         68.07
+_cell_angle_gamma                        75.23
+_cell_volume                             396
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zr1 Zr i 2 0.0691 0.9052 0.3147 1
+ Ni1 Ni i 2 0.0997 0.2803 0.8453 1
+ Ni2 Ni i 2 0.118 0.5556 0.3503 1
+ Ni3 Ni i 2 0.136 0.2125 0.3427 1
+ Zr2 Zr i 2 0.246 0.4364 0.0344 1
+ Zr3 Zr i 2 0.2462 0.5604 0.607 1
+ Ni4 Ni i 2 0.3038 0.2447 0.5409 1
+ Ni5 Ni i 2 0.3181 0.098 0.0369 1
+ Ni6 Ni i 2 0.3197 0.7437 0.0486 1
+ Ni7 Ni i 2 0.482 0.7098 0.2738 1
+ Ni8 Ni i 2 0.4855 0.3837 0.244 1
+ Zr4 Zr i 2 0.5685 0.0374 0.2475 1
+ Ni9 Ni i 2 0.7108 0.1139 0.4701 1
+ Ni10 Ni i 2 0.9024 0.2405 0.1524 1
+ Ni11 Ni a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            29.221
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             100
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.085
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XTAL-3.2 package'
+
+# End of data set 1903731

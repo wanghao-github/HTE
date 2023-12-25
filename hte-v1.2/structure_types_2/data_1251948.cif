@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# O-Pb             # Pb3O4rt                                       # 1251948 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251948
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251948
+
+# Entry summary
+
+_chemical_formula_structural             Pb3O4
+_chemical_formula_sum                    O4Pb3
+_chemical_name_mineral                   minium
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pb3O4,tP28,135
+_chemical_formula_weight                 685.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Oxydes de Plomb. Structure Cristalline du Minium Pb3O4, a Temperature Ambiante (293 K)
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1975
+_journal_volume                          13
+_journal_page_first                      252
+_journal_page_last                       257
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gavarri J.R.'
+;
+Ecole Centrale des Arts et Manufactures
+Laboratoire de Chimie-Physique du Solide
+Chatenay-Malabry
+France
+;
+'Weigel D.'
+;
+Ecole Centrale des Arts et Manufactures
+Laboratoire de Chimie-Physique du Solide
+Chatenay-Malabry
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.811
+_cell_length_b                           8.811
+_cell_length_c                           6.563
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             509.51
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              135
+_symmetry_space_group_name_H-M           P42/mbc
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5-y, 0.5-x, 0.5-z'
+ 7 '0.5-y, 0.5-x, 0.5+z'
+ 8 '-y, x, 0.5-z'
+ 9 '-y, x, 0.5+z'
+ 10 '0.5+x, 0.5-y, -z'
+ 11 '0.5+x, 0.5-y, z'
+ 12 'x, y, -z'
+ 13 '0.5+y, 0.5+x, 0.5-z'
+ 14 '0.5+y, 0.5+x, 0.5+z'
+ 15 'y, -x, 0.5-z'
+ 16 'y, -x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O2 O h 8 0.137 0.404 0 1
+ PbII Pb2+ h 8 0.163 0.140 0 1
+ O1 O g 8 0.171 0.671 0.25 1
+ PbIV Pb4+ d 4 0 0.5 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            15
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'EL3, CEN, Saclay, France'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.14
+_diffrn_reflns_number                    29
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 22
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.06
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251948

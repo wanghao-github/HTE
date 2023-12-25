@@ -1,0 +1,107 @@
+##############################################################################
+#                                                                            #
+# O-W              # WO3ht1                                        # 1250994 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250994
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250994
+
+# Entry summary
+
+_chemical_formula_structural             WO3
+_chemical_formula_sum                    O3W
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WO3-a,mP16,14
+_chemical_formula_weight                 231.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Die Kristallstrukturen der Trioxyde von Chrom, Molybdaen und Wolfram'        
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1931
+_journal_volume                          78
+_journal_page_first                      484
+_journal_page_last                       488
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bräkken H.'
+;
+Norwegian Institute of Technology
+Institute for Physics
+Trondheim
+Norway
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           7.48
+_cell_length_c                           7.28
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             208.02
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O5,6 O e 4 0.0 0.28125 0.25 1
+ W1,2 W e 4 0.0625 0.03125 0.25 1
+ O7,8 O e 4 0.5625 0.03125 0.25 1
+ O2,3 O c 2 0 0 0.5 1
+ O1,4 O a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'rotation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250994

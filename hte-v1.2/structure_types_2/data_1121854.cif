@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# Na-Sn            # NaSn2                                         # 1121854 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1121854
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1121854
+
+# Entry summary
+
+_chemical_formula_structural             NaSn2
+_chemical_formula_sum                    NaSn2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NaSn2,mS48,12
+_chemical_formula_weight                 260.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+NaSn2: A Novel Binary Zintl Phase with 2D Polyanions of Realgar-Type Units [Sn8]4-
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2005
+_journal_volume                          44
+_journal_page_first                      477
+_journal_page_last                       479
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dubois F.'
+;
+Munich Technical University
+Department of Chemistry
+Garching
+Germany
+;
+'Schreyer M.'
+;
+Munich Technical University
+Department of Chemistry
+Garching
+Germany
+;
+'Fassler T.F.'
+;
+Munich Technical University
+Department of Chemistry
+Garching
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.3916
+_cell_length_b                           6.8854
+_cell_length_c                           15.4889
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.529
+_cell_angle_gamma                        90
+_cell_volume                             1394.2
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn2 Sn j 8 0.17097 0.28308 0.25234 1
+ Sn3 Sn j 8 0.3479 0.21702 0.39318 1
+ Sn1 Sn j 8 0.45549 0.28481 0.25289 1
+ Na4 Na i 4 0.1147 0 0.436 1
+ Sn5 Sn i 4 0.17364 0 0.11595 1
+ Sn4 Sn i 4 0.38532 0 0.11666 1
+ Na3 Na i 4 0.4047 0 0.581 1
+ Na2 Na i 4 0.7718 0 0.0867 1
+ Na1 Na g 4 0 0.2492 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            150
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              150
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Enraf-Nonius
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            1.4222
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             63
+_refine_ls_number_reflns                 1721
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.086
+_computing_structure_refinement          SHELX-97
+
+# End of data set 1121854

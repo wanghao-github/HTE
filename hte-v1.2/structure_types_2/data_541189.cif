@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# F-Pd             # PdF2                                          #  541189 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541189
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541189
+
+# Entry summary
+
+_chemical_formula_structural             PdF2
+_chemical_formula_sum                    F2Pd
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiO2,tP6,136
+_chemical_formula_weight                 144.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structure of palladium difluoride'                               
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1958
+_journal_volume                          11
+_journal_page_first                      747
+_journal_page_last                       748
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bartlett N.'
+;
+King's College
+Department of Chemistry
+Newcastle upon Tyne
+United Kingdom
+;
+'Maltland R.'
+;
+King's College
+Department of Chemistry
+Newcastle upon Tyne
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.956
+_cell_length_b                           4.956
+_cell_length_c                           3.389
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             83.24
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              136
+_symmetry_space_group_name_H-M           P42/mnm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5-z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5-y, 0.5+x, 0.5-z'
+ 7 '0.5-y, 0.5+x, 0.5+z'
+ 8 '-y, -x, -z'
+ 9 '-y, -x, z'
+ 10 '0.5+x, 0.5-y, 0.5-z'
+ 11 '0.5+x, 0.5-y, 0.5+z'
+ 12 'x, y, -z'
+ 13 '0.5+y, 0.5-x, 0.5-z'
+ 14 '0.5+y, 0.5-x, 0.5+z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F F f 4 0.31 0.31 0 1
+ Pd Pd a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka'
+_cell_measurement_wavelength             1.93597
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               photographs
+_diffrn_measurement_device_type          Unicam
+_diffrn_radiation_type                   'X-rays, Fe Ka'
+_diffrn_radiation_wavelength             1.93597
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 0.773 100
+ 1 0 1 1.211 109
+ 2 0 0 1.54 46
+ 1 1 1 1.591 46
+ 2 1 0 1.915 5
+ 2 1 1 2.741 230
+ 2 2 0 3.066 63
+ 0 0 2 3.283 38
+ 3 1 0 3.83 72
+ 1 1 2 4.045 86
+ 3 0 1 4.268 124
+ 2 0 2 4.807 42
+ 2 1 2 5.188 4
+ 3 2 1 5.79 96
+ 4 0 0 6.12 36
+ 2 2 2 6.331 95
+ 4 1 0 6.507 1
+ 3 3 0 6.873 61
+ 3 1 2 7.088 146
+ 4 1 1 7.31 173
+ 4 2 0 7.639 171
+ 1 0 3 7.743 171
+ 1 1 3 8.126 2
+ 4 2 1 8.451 2
+ 2 1 3 9.257 553
+ 4 0 2 9.38 553
+
+# End of data set 541189

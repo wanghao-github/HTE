@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Al-Mo            # MoAl3ht                                       # 1251663 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251663
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251663
+
+# Entry summary
+
+_chemical_formula_structural             Al3Mo(h)
+_chemical_formula_sum                    Al3Mo
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            MoAl3,mS32,12
+_chemical_formula_weight                 176.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Al-Al8Mo3 Section of the Binary System Aluminum-Molybdenum'              
+_journal_coden_ASTM                      MTTABN
+_journal_year                            1991
+_journal_volume                          22
+_journal_page_first                      1729
+_journal_page_last                       1736
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schuster J.C.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Ipser H.'
+;
+Vienna University
+Institut für Anorganische Chemie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.396
+_cell_length_b                           3.594
+_cell_length_c                           8.386
+_cell_angle_alpha                        90
+_cell_angle_beta                         101.88
+_cell_angle_gamma                        90
+_cell_volume                             483.58
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Al1,11 Al i 4 0.0625 0 0.42455 1
+ Al3,12 Al i 4 0.0625 0 0.92455 1
+ Al4,8 Al i 4 0.1875 0 0.22485 1
+ Mo2,3 Mo i 4 0.1875 0 0.72485 1
+ Al6,9 Al i 4 0.3125 0 0.02515 1
+ Al5,7 Al i 4 0.3125 0 0.52515 1
+ Al2,10 Al i 4 0.4375 0 0.32545 1
+ Mo1,4 Mo i 4 0.5625 0 0.17455 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          Huber
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'STRUKTUR package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 0.088 2
+ 2 0 -1 0.143 2
+ 0 0 2 0.353 4
+ 2 0 -2 0.37 3
+ 4 0 -1 0.383 4
+ 1 1 0 0.482 2
+ 2 0 2 0.517 5
+ 4 0 1 0.53 5
+ 1 1 -1 0.549 5
+ 1 1 1 0.59 3
+ 3 1 0 0.667 3
+ 0 0 3 0.796 2
+ 4 0 2 0.871 2
+ 2 0 3 0.995 5
+ 5 1 0 1.035 4
+ 3 1 2 1.132 7
+ 5 1 -2 1.202 7
+ 1 1 -3 1.221 3
+ 6 0 -3 1.289 2
+ 2 0 -4 1.357 5
+ 4 0 3 1.381 2
+ 0 0 4 1.412 2
+ 8 0 0 1.475 5
+ 0 2 0 1.835 5
+ 5 1 -4 2.074 3
+ 8 0 2 2.12 2
+ 0 2 2 2.188 3
+ 9 1 -1 2.25 3
+ 3 1 4 2.295 3
+ 4 2 1 2.367 3
+ 6 0 -5 2.477 3
+ 3 1 -5 2.589 2
+ 9 1 -3 2.616 3
+ 6 0 4 2.681 4
+ 7 1 3 2.771 3
+ 2 2 3 2.83 2
+ 10 0 -4 2.972 7
+ 12 0 -1 3.189 4
+ 8 2 0 3.308 4
+
+# End of data set 1251663

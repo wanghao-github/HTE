@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# S-Zn             # ZnS26H1                                       # 1251334 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251334
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251334
+
+# Entry summary
+
+_chemical_formula_structural             'ZnS 26L polytype'
+_chemical_formula_sum                    SZn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZnS-a,hP52,156
+_chemical_formula_weight                 97.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Five New Zinc Sulphide Polytypes: 10L (8 2); 14L (5 4 2 3); 24L (5 3)3; 26L (17 4 2 3) and 28L (9 5 5 9)
+;
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1967
+_journal_volume                          22
+_journal_page_first                      347
+_journal_page_last                       352
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Brafman O.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+'Alexander E.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+'Steinberger I.T.'
+;
+Jerusalem Hebrew University
+Department of Physics
+Jerusalem
+Israel
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           3.82
+_cell_length_c                           81.38
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1028.43
+_cell_formula_units_Z                    26
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S23 S c 1 0.666667 0.333333 0.00962 1
+ Zn23 Zn c 1 0.666667 0.333333 0.03846 1
+ S19 S c 1 0.666667 0.333333 0.16346 1
+ Zn19 Zn c 1 0.666667 0.333333 0.19231 1
+ S15 S c 1 0.666667 0.333333 0.31731 1
+ Zn15 Zn c 1 0.666667 0.333333 0.34615 1
+ S12 S c 1 0.666667 0.333333 0.43269 1
+ Zn12 Zn c 1 0.666667 0.333333 0.46154 1
+ S9 S c 1 0.666667 0.333333 0.54808 1
+ Zn9 Zn c 1 0.666667 0.333333 0.57692 1
+ S6 S c 1 0.666667 0.333333 0.66346 1
+ Zn6 Zn c 1 0.666667 0.333333 0.69231 1
+ S3 S c 1 0.666667 0.333333 0.77885 1
+ Zn3 Zn c 1 0.666667 0.333333 0.80769 1
+ S26 S c 1 0.666667 0.333333 0.89423 1
+ Zn26 Zn c 1 0.666667 0.333333 0.92308 1
+ S21 S b 1 0.333333 0.666667 0.08654 1
+ Zn21 Zn b 1 0.333333 0.666667 0.11539 1
+ S18 S b 1 0.333333 0.666667 0.20192 1
+ Zn18 Zn b 1 0.333333 0.666667 0.23077 1
+ S16 S b 1 0.333333 0.666667 0.27885 1
+ Zn16 Zn b 1 0.333333 0.666667 0.30769 1
+ S13 S b 1 0.333333 0.666667 0.39423 1
+ Zn13 Zn b 1 0.333333 0.666667 0.42308 1
+ S10 S b 1 0.333333 0.666667 0.50962 1
+ Zn10 Zn b 1 0.333333 0.666667 0.53846 1
+ S7 S b 1 0.333333 0.666667 0.625 1
+ Zn7 Zn b 1 0.333333 0.666667 0.65385 1
+ S4 S b 1 0.333333 0.666667 0.74038 1
+ Zn4 Zn b 1 0.333333 0.666667 0.76923 1
+ S1 S b 1 0.333333 0.666667 0.85577 1
+ Zn1 Zn b 1 0.333333 0.666667 0.88462 1
+ S25 S b 1 0.333333 0.666667 0.93269 1
+ Zn25 Zn b 1 0.333333 0.666667 0.96154 1
+ Zn24 Zn a 1 0 0 0.0 1
+ S22 S a 1 0 0 0.04808 1
+ Zn22 Zn a 1 0 0 0.07692 1
+ S20 S a 1 0 0 0.125 1
+ Zn20 Zn a 1 0 0 0.15385 1
+ S17 S a 1 0 0 0.24038 1
+ Zn17 Zn a 1 0 0 0.26923 1
+ S14 S a 1 0 0 0.35577 1
+ Zn14 Zn a 1 0 0 0.38462 1
+ S11 S a 1 0 0 0.47115 1
+ Zn11 Zn a 1 0 0 0.5 1
+ S8 S a 1 0 0 0.58654 1
+ Zn8 Zn a 1 0 0 0.61538 1
+ S5 S a 1 0 0 0.70192 1
+ Zn5 Zn a 1 0 0 0.73077 1
+ S2 S a 1 0 0 0.81731 1
+ Zn2 Zn a 1 0 0 0.84615 1
+ S24 S a 1 0 0 0.97115 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251334

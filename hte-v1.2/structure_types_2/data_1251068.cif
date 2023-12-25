@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# I-Th             # ThI4                                          # 1251068 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251068
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251068
+
+# Entry summary
+
+_chemical_formula_structural             ThI4
+_chemical_formula_sum                    I4Th
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ThI4,mP20,14
+_chemical_formula_weight                 739.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Thorium Tetraiodide'                                
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1964
+_journal_volume                          3
+_journal_page_first                      639
+_journal_page_last                       644
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zalkin A.'
+;
+California State University
+Lawrence Radiation Laboratory
+Berkeley
+U.S.A. California
+;
+'Forrester J.D.'
+;
+California State University
+Lawrence Radiation Laboratory
+Berkeley
+U.S.A. California
+;
+'Templeton D.H.'
+;
+California State University
+Lawrence Radiation Laboratory
+Berkeley
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.766
+_cell_length_b                           8.068
+_cell_length_c                           14.283
+_cell_angle_alpha                        90
+_cell_angle_beta                         113.83
+_cell_angle_gamma                        90
+_cell_volume                             818.62
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Th Th e 4 0.0066 0.0149 0.1835 1
+ I4 I e 4 0.1503 0.3638 0.1517 1
+ I3 I e 4 0.2279 0.1917 0.4028 1
+ I1 I e 4 0.2493 0.5902 0.5587 1
+ I2 I e 4 0.6817 0.2535 0.1801 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_wavelength             0.70926
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 622
+_refine_ls_R_factor_all                  0.09
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251068

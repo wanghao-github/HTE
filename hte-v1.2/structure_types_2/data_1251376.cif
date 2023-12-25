@@ -1,0 +1,146 @@
+##############################################################################
+#                                                                            #
+# Cs-Se            # Cs2Sehp                                       # 1251376 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251376
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251376
+
+# Entry summary
+
+_chemical_formula_structural             Cs2Se-II
+_chemical_formula_sum                    Cs2Se
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs2Se,oF24,43
+_chemical_formula_weight                 344.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'ZUR KENNTNIS VON Cs2Se'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1980
+_journal_volume                          76
+_journal_page_first                      271
+_journal_page_last                       277
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Böttcher P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.75
+_cell_length_b                           16.49
+_cell_length_c                           6.775
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1312.71
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              43
+_symmetry_space_group_name_H-M           Fdd2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.25-x, 0.25+y, 0.25+z'
+ 3 '-x, -y, z'
+ 4 '0.25+x, 0.25-y, 0.25+z'
+ 5 'x, 0.5+y, 0.5+z'
+ 6 '0.25-x, 0.75+y, 0.75+z'
+ 7 '-x, 0.5-y, 0.5+z'
+ 8 '0.25+x, 0.75-y, 0.75+z'
+ 9 '0.5+x, y, 0.5+z'
+ 10 '0.75-x, 0.25+y, 0.75+z'
+ 11 '0.5-x, -y, 0.5+z'
+ 12 '0.75+x, 0.25-y, 0.75+z'
+ 13 '0.5+x, 0.5+y, z'
+ 14 '0.75-x, 0.75+y, 0.25+z'
+ 15 '0.5-x, 0.5-y, z'
+ 16 '0.75+x, 0.75-y, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cs Cs b 16 0.3249 0.0480 0.0618 1
+ Se Se a 8 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          CAD4
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 344
+_refine_ls_R_factor_all                  0.068
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SDP package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 1 160.2 4
+ 0 4 0 215.4 3
+ 1 3 1 221.4 3
+ 2 4 0 264 4
+ 3 1 1 268.4 7
+ 0 2 2 284.7 6
+ 2 0 2 304.5 2
+ 3 3 1 310.5 7
+ 4 2 0 323.6 4
+ 1 7 1 412.9 2
+ 5 3 1 440 3
+ 4 6 0 451.5 3
+ 4 4 2 463.9 3
+ 2 8 0 466.7 4
+ 6 2 0 477.1 3
+ 3 3 3 494.7 3
+ 1 9 1 522.4 2
+ 6 0 2 540.5 3
+ 5 7 1 570 3
+ 2 4 4 612.8 3
+
+# End of data set 1251376

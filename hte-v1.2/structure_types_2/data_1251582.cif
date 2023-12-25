@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# Cs-I             # CsI4                                          # 1251582 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251582
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251582
+
+# Entry summary
+
+_chemical_formula_structural             CsI4
+_chemical_formula_sum                    CsI4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CsI4,mP20,14
+_chemical_formula_weight                 640.5
+_chemical_melting_point                  413
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Cs2I8 (CsI4)'                                       
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1954
+_journal_volume                          7
+_journal_page_first                      487
+_journal_page_last                       490
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Havinga E.E.'
+;
+Groningen University
+Laboratorium voor Anorganische en Physische Chemie
+Groningen
+Netherlands
+;
+'Boswijk K.H.'
+;
+Groningen University
+Laboratorium voor Anorganische en Physische Chemie
+Groningen
+Netherlands
+;
+'Wiebenga E.H.'
+;
+Groningen University
+Laboratorium voor Anorganische en Physische Chemie
+Groningen
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.23
+_cell_length_b                           9
+_cell_length_c                           11.19
+_cell_angle_alpha                        90
+_cell_angle_beta                         114.33
+_cell_angle_gamma                        90
+_cell_volume                             938.76
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I4 I e 4 0.059 0.900 0.326 1
+ I3 I e 4 0.121 0.208 0.107 1
+ Cs Cs e 4 0.277 0.624 0.200 1
+ I2 I e 4 0.328 0.015 0.050 1
+ I1 I e 4 0.446 0.357 0.006 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Mo Ka'
+_cell_measurement_wavelength             1.5418
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.085
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251582

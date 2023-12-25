@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# C-Lu             # Lu4C7                                         # 1251248 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251248
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251248
+
+# Entry summary
+
+_chemical_formula_structural             Lu4C7
+_chemical_formula_sum                    C7Lu4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu4C7,mP22,14
+_chemical_formula_weight                 783.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Preparation, Crystal Structure, and Properties of the Lanthanoid Carbides Ln4C7 with Ln= Ho, Er, Tm, and Lu
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            1996
+_journal_volume                          51
+_journal_page_first                      646
+_journal_page_last                       654
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Czekalla R.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Jeitschko W.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Hoffmann R.D.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Rabeneck H.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.604
+_cell_length_b                           13.514
+_cell_length_c                           6.29
+_cell_angle_alpha                        90
+_cell_angle_beta                         104.97
+_cell_angle_gamma                        90
+_cell_volume                             295.95
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Lu1 Lu e 4 0.0582 0.16026 0.1620 1
+ C1 C e 4 0.262 0.6047 0.046 1
+ Lu2 Lu e 4 0.3625 0.4449 0.2377 1
+ C2 C e 4 0.376 0.6974 0.0418 1
+ C3 C e 4 0.454 0.2869 0.4192 1
+ C4 C a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'E21, Hahn-Meitner Institute, Berlin, Germany'                                
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.2166
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 4.5
+_diffrn_reflns_theta_max                 44.5
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             15
+_refine_ls_number_reflns                 429
+_refine_ls_R_factor_all                  0.026
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          FULLPROF
+
+# End of data set 1251248

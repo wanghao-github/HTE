@@ -1,0 +1,159 @@
+##############################################################################
+#                                                                            #
+# As-Cu            # Cu3Asht                                       # 1250927 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250927
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250927
+
+# Entry summary
+
+_chemical_formula_structural             'a Cu3As'
+_chemical_formula_sum                    AsCu3
+_chemical_name_mineral                   'domeykite high'
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cu3As,cI64,220
+_chemical_formula_weight                 265.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Refinement of the crystal structure of a domeykite, a structure related to the A15 type
+;
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1977
+_journal_volume                          145
+_journal_page_first                      334
+_journal_page_last                       345
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Iglesias J.E.'
+;
+Bern University
+?
+Bern
+Switzerland
+;
+'Nowacki W.'
+;
+Bern University
+?
+Bern
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.619
+_cell_length_b                           9.619
+_cell_length_c                           9.619
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             890
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              220
+_symmetry_space_group_name_H-M           I-43d
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, -z'
+ 3 '0.25-x, 0.25+z, -0.25-y'
+ 4 '-x, 0.5-y, z'
+ 5 '-0.25-x, 0.25-z, 0.25+y'
+ 6 '0.5-y, z, -x'
+ 7 '0.25-y, 0.25+x, -0.25-z'
+ 8 '-y, 0.5-z, x'
+ 9 '-0.25-y, 0.25-x, 0.25+z'
+ 10 '0.5-z, x, -y'
+ 11 '0.25-z, 0.25+y, -0.25-x'
+ 12 '-z, 0.5-x, y'
+ 13 '-0.25-z, 0.25-y, 0.25+x'
+ 14 '0.25+x, -0.25-z, 0.25-y'
+ 15 '0.25+x, 0.25+z, 0.25+y'
+ 16 'x, -y, 0.5-z'
+ 17 '0.25+y, -0.25-x, 0.25-z'
+ 18 '0.25+y, 0.25+x, 0.25+z'
+ 19 'y, -z, 0.5-x'
+ 20 'y, z, x'
+ 21 '0.25+z, -0.25-y, 0.25-x'
+ 22 '0.25+z, 0.25+y, 0.25+x'
+ 23 'z, -x, 0.5-y'
+ 24 'z, x, y'
+ 25 '0.5+x, 0.5+y, 0.5+z'
+ 26 '1-x, 0.5+y, 0.5-z'
+ 27 '0.75-x, 0.75+z, 0.25-y'
+ 28 '0.5-x, 1-y, 0.5+z'
+ 29 '0.25-x, 0.75-z, 0.75+y'
+ 30 '1-y, 0.5+z, 0.5-x'
+ 31 '0.75-y, 0.75+x, 0.25-z'
+ 32 '0.5-y, 1-z, 0.5+x'
+ 33 '0.25-y, 0.75-x, 0.75+z'
+ 34 '1-z, 0.5+x, 0.5-y'
+ 35 '0.75-z, 0.75+y, 0.25-x'
+ 36 '0.5-z, 1-x, 0.5+y'
+ 37 '0.25-z, 0.75-y, 0.75+x'
+ 38 '0.75+x, 0.25-z, 0.75-y'
+ 39 '0.75+x, 0.75+z, 0.75+y'
+ 40 '0.5+x, 0.5-y, 1-z'
+ 41 '0.75+y, 0.25-x, 0.75-z'
+ 42 '0.75+y, 0.75+x, 0.75+z'
+ 43 '0.5+y, 0.5-z, 1-x'
+ 44 '0.5+y, 0.5+z, 0.5+x'
+ 45 '0.75+z, 0.25-y, 0.75-x'
+ 46 '0.75+z, 0.75+y, 0.75+x'
+ 47 '0.5+z, 0.5-x, 1-y'
+ 48 '0.5+z, 0.5+x, 0.5+y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cu Cu e 48 0.0624 0.1298 0.2793 1
+ As As c 16 0.0298 0.0298 0.0298 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            291
+_cell_measurement_radiation              'X-rays, Cu Ka1, Ni Ka1, W La1'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            18
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          Supper-Pace
+_diffrn_radiation_type                   'X-rays, Cu'
+_diffrn_radiation_wavelength             1.54178
+_diffrn_reflns_number                    1048
+_exptl_absorpt_coefficient_mu            48.73
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 131
+_refine_ls_R_factor_all                  0.0256
+_refine_ls_wR_factor_all                 0.0191
+_computing_structure_refinement          ?
+
+# End of data set 1250927

@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2MCM-35                                    # 1413921 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1413921
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1413921
+
+# Entry summary
+
+_chemical_formula_structural             Si44O88
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,mS132,12
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure of Zeolite MCM-35 (MTF)'                                   
+_journal_coden_ASTM                      CMATEX
+_journal_year                            1999
+_journal_volume                          11
+_journal_page_first                      2919
+_journal_page_last                       2927
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Barrett P.A.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+'Diaz Cabanas M.J.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+'Camblor M.A.'
+;
+Valencia Polytechnical University
+Instituto de Tecnologia Quimica
+Valencia
+Spain
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.5
+_cell_length_b                           30.7096
+_cell_length_c                           7.3133
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.711
+_cell_angle_gamma                        90
+_cell_volume                             2132.6
+_cell_formula_units_Z                    44
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O13 O j 8 0.0624 0.231 0.3019 1
+ O16 O j 8 0.0798 0.31305 0.2669 1
+ O14 O j 8 0.1281 0.38889 0.4196 1
+ Si6 Si j 8 0.1609 0.12303 0.0251 1
+ O19 O j 8 0.1732 0.16144 0.1731 1
+ Si2 Si j 8 0.191 0.34641 0.3333 1
+ Si5 Si j 8 0.1951 0.19803 0.3178 1
+ O11 O j 8 0.2077 0.17606 0.5075 1
+ O12 O j 8 0.2407 0.08102 0.0938 1
+ O15 O j 8 0.2807 0.36101 0.1705 1
+ O18 O j 8 0.3354 0.22635 0.277 1
+ Si4 Si j 8 0.3729 0.04862 0.129 1
+ O7 O j 8 0.4244 0.05227 0.3391 1
+ Si3 Si j 8 0.4952 0.22858 0.2087 1
+ O17 O i 4 0.3234 0 0.0971 1
+ Si1 Si h 4 0 0.41644 0.5 1
+ O8 O g 4 0 0.10684 0 1
+ O9 O g 4 0 0.26494 0 1
+ O10 O g 4 0 0.43655 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             1.40013
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             1.40013
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 40
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'Fourier synthesis, starting values from the literature'                      
+_refine_ls_number_parameters             72
+_refine_ls_number_reflns                 893
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1413921

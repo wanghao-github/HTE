@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# H-Ta             # Ta2Hrt                                        # 1301731 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1301731
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301731
+
+# Entry summary
+
+_chemical_formula_structural             Ta2H
+_chemical_formula_sum                    HTa2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ta2H,oS6,21
+_chemical_formula_weight                 362.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Single-Crystal X-ray Diffraction Study on the Hydrogen Ordering in Ta2H'     
+_journal_coden_ASTM                      JACGAR
+_journal_year                            1978
+_journal_volume                          11
+_journal_page_first                      681
+_journal_page_last                       683
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Asano H.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+'Ishikawa Y.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+'Hirabayashi M.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.398
+_cell_length_b                           4.738
+_cell_length_c                           4.763
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             76.7
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              21
+_symmetry_space_group_name_H-M           C222
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, -z'
+ 4 'x, -y, -z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ta Ta k 4 0.25 0.25 0.268 1
+ H H a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device
+'precession and Weissenberg photographs'                                      
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1301731

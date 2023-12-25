@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Mo-O             # MoO3hp-ht                                     # 1252481 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252481
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252481
+
+# Entry summary
+
+_chemical_formula_structural             MoO3-II
+_chemical_formula_sum                    MoO3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            MoO3,mP8,11
+_chemical_formula_weight                 143.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Growth and Single Crystal Structure of a High Pressure Phase of Molybdenum Trioxide: MoO3-II
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1991
+_journal_volume                          91
+_journal_page_first                      121
+_journal_page_last                       125
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'McCarron E.M.'
+;
+Du Pont de Nemours and Co.
+Central Research and Development Department
+Wilmington
+U.S.A. Delaware
+;
+'Calabrese J.C.'
+;
+Du Pont de Nemours and Co.
+Central Research and Development Department
+Wilmington
+U.S.A. Delaware
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.954
+_cell_length_b                           3.687
+_cell_length_c                           7.095
+_cell_angle_alpha                        90
+_cell_angle_beta                         103.75
+_cell_angle_gamma                        90
+_cell_volume                             100.47
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O e 2 0.2709 0.25 0.0547 1
+ Mo Mo e 2 0.3286 0.25 0.2966 1
+ O1 O e 2 0.5599 0.25 0.6309 1
+ O2 O e 2 0.9076 0.25 0.324 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            14
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    462
+_diffrn_reflns_theta_min                 2.95
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 198
+_refine_ls_R_factor_all                  0.048
+_refine_ls_wR_factor_all                 0.061
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 68.917 43
+ 1 0 0 38.407 23
+ 1 0 -1 37.559 90
+ 0 0 2 34.458 100
+ 0 1 1 32.51 82
+ 1 0 1 30.598 18
+ 1 1 0 26.598 31
+ 1 1 -1 26.311 6
+ 0 1 2 25.175 1
+ 1 1 1 23.546 5
+ 1 0 2 23.068 100
+ 0 0 3 22.972 ?
+ 1 1 -2 22.962 ?
+ 1 0 -3 22.173 14
+ 2 0 -1 19.752 36
+ 1 1 2 19.556 26
+ 0 1 3 19.497 ?
+ 2 0 0 19.203 7
+ 1 1 -3 19.001 4
+ 2 0 -2 18.78 20
+ 0 2 0 18.435 24
+ 0 2 1 17.809 5
+ 2 0 1 17.457 13
+ 2 1 -1 17.411 20
+ 1 0 -4 17.334 21
+ 0 0 4 17.229 ?
+ 2 1 0 17.032 16
+ 2 1 -2 16.734 7
+ 1 2 0 16.62 8
+ 1 2 -1 16.549 16
+ 0 2 2 16.255 14
+ 1 1 3 16.122 15
+ 1 2 1 15.791 11
+ 2 1 1 15.778 ?
+ 1 1 -4 15.687 37
+ 1 2 -2 15.611 ?
+ 0 1 4 15.609 ?
+
+# End of data set 1252481

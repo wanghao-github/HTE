@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# I-Te             # TeI                                           # 1250026 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250026
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250026
+
+# Entry summary
+
+_chemical_formula_structural             Te4I4
+_chemical_formula_sum                    ITe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TeI,aP16,2
+_chemical_formula_weight                 254.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'High-Temperature Synthesis and Structure Redetermination of Te4I4'           
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1991
+_journal_volume                          47
+_journal_page_first                      2642
+_journal_page_last                       2644
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cai G.L.'
+;
+Fuzhou University
+Institute of Structural Chemistry
+Fuzhou
+China
+;
+'Liu S.X.'
+;
+Fuzhou University
+Institute of Structural Chemistry
+Fuzhou
+China
+;
+'Huang J.L.'
+;
+Fuzhou University
+Institute of Structural Chemistry
+Fuzhou
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.995
+_cell_length_b                           8.201
+_cell_length_c                           9.952
+_cell_angle_alpha                        90.08
+_cell_angle_beta                         103.05
+_cell_angle_gamma                        104.37
+_cell_volume                             614.64
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I2 I i 2 0.1977 0.1566 0.8285 1
+ I1 I i 2 0.2003 0.6905 0.0676 1
+ I3 I i 2 0.2118 0.6810 0.4336 1
+ I4 I i 2 0.2129 0.1826 0.4613 1
+ Te4 Te i 2 0.2310 0.1848 0.1898 1
+ Te3 Te i 2 0.5008 0.4776 0.1999 1
+ Te1 Te i 2 0.5043 0.0046 0.1931 1
+ Te2 Te i 2 0.7727 0.3147 0.2884 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          AFC5R
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    5572
+_exptl_absorpt_coefficient_mu            19.317
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2560
+_refine_ls_R_factor_all                  0.061
+_refine_ls_wR_factor_all                 0.074
+_computing_structure_refinement          'TEXSAN package'
+
+# End of data set 1250026

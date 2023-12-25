@@ -1,0 +1,2 @@
+VRHFIN =Pb changed to VRHFIN =Bi in POTCAR 
+(seems to be a typo which leads to Bi replaced by Pb in CONTCAR file)

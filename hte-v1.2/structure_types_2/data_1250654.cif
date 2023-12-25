@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# O-Pr             # Pr9O16rt                                      # 1250654 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250654
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250654
+
+# Entry summary
+
+_chemical_formula_structural             'low-temperature Pr9O16'
+_chemical_formula_sum                    O16Pr9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pr9O16,aP25,2
+_chemical_formula_weight                 1524.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures in the Oxygen-Deficient Fluorite-Related RnO2n-2 Homologous Series: Pr9O16
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1995
+_journal_volume                          118
+_journal_page_first                      133
+_journal_page_last                       140
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhang J.'
+;
+Arizona State University
+Department of Chemistry and Biochemistry
+Tempe
+U.S.A. Arizona
+;
+'Von Dreele R.B.'
+;
+Los Alamos National Laboratory
+Manuel Lujan Neutron Scattering
+Los Alamos
+U.S.A. New Mexico
+;
+'Eyring L.'
+;
+Arizona State University
+Department of Chemistry and Biochemistry
+Tempe
+U.S.A. Arizona
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.6726
+_cell_length_b                           6.7396
+_cell_length_c                           8.711
+_cell_angle_alpha                        75.301
+_cell_angle_beta                         82.576
+_cell_angle_gamma                        80.027
+_cell_volume                             371.695
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O i 2 0.0348 0.1911 0.7445 1
+ O3 O i 2 0.0586 0.2938 0.0408 1
+ Pr3 Pr i 2 0.1121 0.5260 0.7719 1
+ O8 O i 2 0.1985 0.3904 0.2947 1
+ Pr4 Pr i 2 0.2312 0.1246 0.5302 1
+ O7 O i 2 0.3213 0.9099 0.0589 1
+ O4 O i 2 0.3271 0.4076 0.5749 1
+ Pr5 Pr3+ i 2 0.3369 0.6796 0.3321 1
+ Pr2 Pr i 2 0.4129 0.2326 0.1006 1
+ O6 O i 2 0.4656 0.0016 0.3464 1
+ O5 O i 2 0.5952 0.4977 0.1457 1
+ O2 O i 2 0.8700 0.1834 0.4418 1
+ Pr1 Pr4+ a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'NPD, Manuel Lujan NSC, Los Alamos, USA'                                      
+_diffrn_radiation_type                   'neutrons, time-of-flight'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             104
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1250654

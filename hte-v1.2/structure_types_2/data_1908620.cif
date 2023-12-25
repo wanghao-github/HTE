@@ -1,0 +1,238 @@
+##############################################################################
+#                                                                            #
+# S-Zn             # ZnS64H                                        # 1908620 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1908620
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1908620
+
+# Entry summary
+
+_chemical_formula_structural             ZnS
+_chemical_formula_sum                    SZn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZnS,hP128,156
+_chemical_formula_weight                 97.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'New ZnS Polytypes'
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1986
+_journal_volume                          42
+_journal_page_first                      518
+_journal_page_last                       519
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Medizadeh V.'
+;
+Rhode Island University
+Department of Electrical Engineering
+Kingston
+U.S.A. Rhode Island
+;
+'Mardix S.'
+;
+Rhode Island University
+Department of Electrical Engineering
+Kingston
+U.S.A. Rhode Island
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           3.82
+_cell_length_c                           200.32
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             2531.5
+_cell_formula_units_Z                    64
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S62 S c 1 0.666667 0.333333 0.00391 1
+ Zn62 Zn c 1 0.666667 0.333333 0.01563 1
+ S59 S c 1 0.666667 0.333333 0.05078 1
+ Zn59 Zn c 1 0.666667 0.333333 0.0625 1
+ S56 S c 1 0.666667 0.333333 0.09766 1
+ Zn56 Zn c 1 0.666667 0.333333 0.10938 1
+ S53 S c 1 0.666667 0.333333 0.14453 1
+ Zn53 Zn c 1 0.666667 0.333333 0.15625 1
+ S49 S c 1 0.666667 0.333333 0.20703 1
+ Zn49 Zn c 1 0.666667 0.333333 0.21875 1
+ S46 S c 1 0.666667 0.333333 0.25391 1
+ Zn46 Zn c 1 0.666667 0.333333 0.26563 1
+ S43 S c 1 0.666667 0.333333 0.30078 1
+ Zn43 Zn c 1 0.666667 0.333333 0.3125 1
+ S40 S c 1 0.666667 0.333333 0.34766 1
+ Zn40 Zn c 1 0.666667 0.333333 0.35938 1
+ S37 S c 1 0.666667 0.333333 0.39453 1
+ Zn37 Zn c 1 0.666667 0.333333 0.40625 1
+ S34 S c 1 0.666667 0.333333 0.44141 1
+ Zn34 Zn c 1 0.666667 0.333333 0.45313 1
+ S31 S c 1 0.666667 0.333333 0.48828 1
+ Zn31 Zn c 1 0.666667 0.333333 0.5 1
+ S28 S c 1 0.666667 0.333333 0.53516 1
+ Zn28 Zn c 1 0.666667 0.333333 0.54688 1
+ S25 S c 1 0.666667 0.333333 0.58203 1
+ Zn25 Zn c 1 0.666667 0.333333 0.59375 1
+ S22 S c 1 0.666667 0.333333 0.62891 1
+ Zn22 Zn c 1 0.666667 0.333333 0.64063 1
+ S19 S c 1 0.666667 0.333333 0.67578 1
+ Zn19 Zn c 1 0.666667 0.333333 0.6875 1
+ S16 S c 1 0.666667 0.333333 0.72266 1
+ Zn16 Zn c 1 0.666667 0.333333 0.73438 1
+ S13 S c 1 0.666667 0.333333 0.76953 1
+ Zn13 Zn c 1 0.666667 0.333333 0.78125 1
+ S10 S c 1 0.666667 0.333333 0.81641 1
+ Zn10 Zn c 1 0.666667 0.333333 0.82813 1
+ S7 S c 1 0.666667 0.333333 0.86328 1
+ Zn7 Zn c 1 0.666667 0.333333 0.875 1
+ S4 S c 1 0.666667 0.333333 0.91016 1
+ Zn4 Zn c 1 0.666667 0.333333 0.92188 1
+ S1 S c 1 0.666667 0.333333 0.95703 1
+ Zn1 Zn c 1 0.666667 0.333333 0.96875 1
+ S60 S b 1 0.333333 0.666667 0.03516 1
+ Zn60 Zn b 1 0.333333 0.666667 0.04688 1
+ S57 S b 1 0.333333 0.666667 0.08203 1
+ Zn57 Zn b 1 0.333333 0.666667 0.09375 1
+ S54 S b 1 0.333333 0.666667 0.12891 1
+ Zn54 Zn b 1 0.333333 0.666667 0.14063 1
+ S51 S b 1 0.333333 0.666667 0.17578 1
+ Zn51 Zn b 1 0.333333 0.666667 0.1875 1
+ S48 S b 1 0.333333 0.666667 0.22266 1
+ Zn48 Zn b 1 0.333333 0.666667 0.23438 1
+ S44 S b 1 0.333333 0.666667 0.28516 1
+ Zn44 Zn b 1 0.333333 0.666667 0.29688 1
+ S41 S b 1 0.333333 0.666667 0.33203 1
+ Zn41 Zn b 1 0.333333 0.666667 0.34375 1
+ S38 S b 1 0.333333 0.666667 0.37891 1
+ Zn38 Zn b 1 0.333333 0.666667 0.39063 1
+ S35 S b 1 0.333333 0.666667 0.42578 1
+ Zn35 Zn b 1 0.333333 0.666667 0.4375 1
+ S32 S b 1 0.333333 0.666667 0.47266 1
+ Zn32 Zn b 1 0.333333 0.666667 0.48438 1
+ S29 S b 1 0.333333 0.666667 0.51953 1
+ Zn29 Zn b 1 0.333333 0.666667 0.53125 1
+ S26 S b 1 0.333333 0.666667 0.56641 1
+ Zn26 Zn b 1 0.333333 0.666667 0.57813 1
+ S23 S b 1 0.333333 0.666667 0.61328 1
+ Zn23 Zn b 1 0.333333 0.666667 0.625 1
+ S20 S b 1 0.333333 0.666667 0.66016 1
+ Zn20 Zn b 1 0.333333 0.666667 0.67188 1
+ S17 S b 1 0.333333 0.666667 0.70703 1
+ Zn17 Zn b 1 0.333333 0.666667 0.71875 1
+ S14 S b 1 0.333333 0.666667 0.75391 1
+ Zn14 Zn b 1 0.333333 0.666667 0.76563 1
+ S11 S b 1 0.333333 0.666667 0.80078 1
+ Zn11 Zn b 1 0.333333 0.666667 0.8125 1
+ S8 S b 1 0.333333 0.666667 0.84766 1
+ Zn8 Zn b 1 0.333333 0.666667 0.85938 1
+ S5 S b 1 0.333333 0.666667 0.89453 1
+ Zn5 Zn b 1 0.333333 0.666667 0.90625 1
+ S2 S b 1 0.333333 0.666667 0.94141 1
+ Zn2 Zn b 1 0.333333 0.666667 0.95313 1
+ S64 S b 1 0.333333 0.666667 0.97266 1
+ Zn64 Zn b 1 0.333333 0.666667 0.98438 1
+ Zn63 Zn a 1 0 0 0.0 1
+ S61 S a 1 0 0 0.01953 1
+ Zn61 Zn a 1 0 0 0.03125 1
+ S58 S a 1 0 0 0.06641 1
+ Zn58 Zn a 1 0 0 0.07813 1
+ S55 S a 1 0 0 0.11328 1
+ Zn55 Zn a 1 0 0 0.125 1
+ S52 S a 1 0 0 0.16016 1
+ Zn52 Zn a 1 0 0 0.17188 1
+ S50 S a 1 0 0 0.19141 1
+ Zn50 Zn a 1 0 0 0.20313 1
+ S47 S a 1 0 0 0.23828 1
+ Zn47 Zn a 1 0 0 0.25 1
+ S45 S a 1 0 0 0.26953 1
+ Zn45 Zn a 1 0 0 0.28125 1
+ S42 S a 1 0 0 0.31641 1
+ Zn42 Zn a 1 0 0 0.32813 1
+ S39 S a 1 0 0 0.36328 1
+ Zn39 Zn a 1 0 0 0.375 1
+ S36 S a 1 0 0 0.41016 1
+ Zn36 Zn a 1 0 0 0.42188 1
+ S33 S a 1 0 0 0.45703 1
+ Zn33 Zn a 1 0 0 0.46875 1
+ S30 S a 1 0 0 0.50391 1
+ Zn30 Zn a 1 0 0 0.51563 1
+ S27 S a 1 0 0 0.55078 1
+ Zn27 Zn a 1 0 0 0.5625 1
+ S24 S a 1 0 0 0.59766 1
+ Zn24 Zn a 1 0 0 0.60938 1
+ S21 S a 1 0 0 0.64453 1
+ Zn21 Zn a 1 0 0 0.65625 1
+ S18 S a 1 0 0 0.69141 1
+ Zn18 Zn a 1 0 0 0.70313 1
+ S15 S a 1 0 0 0.73828 1
+ Zn15 Zn a 1 0 0 0.75 1
+ S12 S a 1 0 0 0.78516 1
+ Zn12 Zn a 1 0 0 0.79688 1
+ S9 S a 1 0 0 0.83203 1
+ Zn9 Zn a 1 0 0 0.84375 1
+ S6 S a 1 0 0 0.87891 1
+ Zn6 Zn a 1 0 0 0.89063 1
+ S3 S a 1 0 0 0.92578 1
+ Zn3 Zn a 1 0 0 0.9375 1
+ S63 S a 1 0 0 0.98828 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1908620

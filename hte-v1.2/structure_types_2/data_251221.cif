@@ -1,0 +1,176 @@
+##############################################################################
+#                                                                            #
+# Mg-Tl            # Mg2Tl                                         #  251221 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_251221
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      251221
+
+# Entry summary
+
+_chemical_formula_structural             Mg2Tl
+_chemical_formula_sum                    Mg2Tl
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mg2In,hP9,189
+_chemical_formula_weight                 253.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'KRISTALLSTRUKTUR VON Mg2Ga UND Mg2Tl'                                        
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1970
+_journal_volume                          20
+_journal_page_first                      215
+_journal_page_last                       221
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Frank K.'
+;
+Max Planck Society
+Max Planck Institut für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+Max Planck Institut für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.0828
+_cell_length_b                           8.0828
+_cell_length_c                           3.6796
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             208.19
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              189
+_symmetry_space_group_name_H-M           P-62m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -x+y, z'
+ 6 '-y, x-y, -z'
+ 7 '-y, x-y, z'
+ 8 'x, y, -z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, -y, z'
+ 11 'y, x, -z'
+ 12 'y, x, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Mg 0
+ Tl 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mg1 Mg g 3 0.25 0 0.5 1
+ Mg2 Mg f 3 0.59 0 0 1
+ Tl1 Tl d 2 0.333333 0.666667 0.5 1
+ Tl2 Tl a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 0.363 8
+ 0 0 1 0.439 4
+ 0 1 1 0.559 8
+ 1 1 1 0.802 6
+ 1 2 0 0.848 2
+ 0 2 1 0.923 7
+ 0 3 0 1.091 7
+ 1 2 1 1.286 8
+ 2 2 0 1.453 5
+ 0 3 1 1.528 3
+ 1 3 0 1.576 1
+ 0 0 2 1.753 4
+ 2 2 1 1.891 3
+ 1 3 1 2.013 5
+ 1 1 2 2.116 5
+ 0 4 1 2.377 3
+ 1 4 0 2.542 5
+ 1 2 2 2.595 1
+ 2 3 1 2.738 5
+ 0 3 2 2.843 5
+ 1 4 1 2.98 3
+ 2 2 2 3.205 4
+ 3 3 0 3.269 4
+ 0 5 1 3.466 3
+ 3 3 1 3.707 1
+ 2 4 1 3.825 4
+ 1 5 1 4.192 3
+ 1 4 2 4.29 5
+ 0 6 0 4.353 2
+
+# End of data set 251221

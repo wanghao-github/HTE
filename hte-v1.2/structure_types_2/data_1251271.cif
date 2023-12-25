@@ -1,0 +1,226 @@
+##############################################################################
+#                                                                            #
+# Cd-Sm            # Cd45Sm11                                      # 1251271 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251271
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251271
+
+# Entry summary
+
+_chemical_formula_structural             Sm11Cd45
+_chemical_formula_sum                    Cd45Sm11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cd45Sm11,cF448,216
+_chemical_formula_weight                 6712.9
+_chemical_melting_point                  1071
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Sm11Cd45 with g-Brass and a-Mn Clusters'            
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1978
+_journal_volume                          34
+_journal_page_first                      2093
+_journal_page_last                       2099
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fornasini M.L.'
+;
+Genova University
+Istituto di Chimica Fisica
+Genova
+Italy
+;
+'Chabot B.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Parthé E.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           21.699
+_cell_length_b                           21.699
+_cell_length_c                           21.699
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             10216.9
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              216
+_symmetry_space_group_name_H-M           F-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 'x, 0.5+y, 0.5+z'
+ 26 '-x, 0.5-y, 0.5+z'
+ 27 '-x, 0.5-z, 0.5+y'
+ 28 '-x, 0.5+y, 0.5-z'
+ 29 '-x, 0.5+z, 0.5-y'
+ 30 '-y, 0.5-x, 0.5+z'
+ 31 '-y, 0.5-z, 0.5+x'
+ 32 '-y, 0.5+x, 0.5-z'
+ 33 '-y, 0.5+z, 0.5-x'
+ 34 '-z, 0.5-x, 0.5+y'
+ 35 '-z, 0.5-y, 0.5+x'
+ 36 '-z, 0.5+x, 0.5-y'
+ 37 '-z, 0.5+y, 0.5-x'
+ 38 'x, 0.5-y, 0.5-z'
+ 39 'x, 0.5-z, 0.5-y'
+ 40 'x, 0.5+z, 0.5+y'
+ 41 'y, 0.5-x, 0.5-z'
+ 42 'y, 0.5-z, 0.5-x'
+ 43 'y, 0.5+x, 0.5+z'
+ 44 'y, 0.5+z, 0.5+x'
+ 45 'z, 0.5-x, 0.5-y'
+ 46 'z, 0.5-y, 0.5-x'
+ 47 'z, 0.5+x, 0.5+y'
+ 48 'z, 0.5+y, 0.5+x'
+ 49 '0.5+x, y, 0.5+z'
+ 50 '0.5-x, -y, 0.5+z'
+ 51 '0.5-x, -z, 0.5+y'
+ 52 '0.5-x, y, 0.5-z'
+ 53 '0.5-x, z, 0.5-y'
+ 54 '0.5-y, -x, 0.5+z'
+ 55 '0.5-y, -z, 0.5+x'
+ 56 '0.5-y, x, 0.5-z'
+ 57 '0.5-y, z, 0.5-x'
+ 58 '0.5-z, -x, 0.5+y'
+ 59 '0.5-z, -y, 0.5+x'
+ 60 '0.5-z, x, 0.5-y'
+ 61 '0.5-z, y, 0.5-x'
+ 62 '0.5+x, -y, 0.5-z'
+ 63 '0.5+x, -z, 0.5-y'
+ 64 '0.5+x, z, 0.5+y'
+ 65 '0.5+y, -x, 0.5-z'
+ 66 '0.5+y, -z, 0.5-x'
+ 67 '0.5+y, x, 0.5+z'
+ 68 '0.5+y, z, 0.5+x'
+ 69 '0.5+z, -x, 0.5-y'
+ 70 '0.5+z, -y, 0.5-x'
+ 71 '0.5+z, x, 0.5+y'
+ 72 '0.5+z, y, 0.5+x'
+ 73 '0.5+x, 0.5+y, z'
+ 74 '0.5-x, 0.5-y, z'
+ 75 '0.5-x, 0.5-z, y'
+ 76 '0.5-x, 0.5+y, -z'
+ 77 '0.5-x, 0.5+z, -y'
+ 78 '0.5-y, 0.5-x, z'
+ 79 '0.5-y, 0.5-z, x'
+ 80 '0.5-y, 0.5+x, -z'
+ 81 '0.5-y, 0.5+z, -x'
+ 82 '0.5-z, 0.5-x, y'
+ 83 '0.5-z, 0.5-y, x'
+ 84 '0.5-z, 0.5+x, -y'
+ 85 '0.5-z, 0.5+y, -x'
+ 86 '0.5+x, 0.5-y, -z'
+ 87 '0.5+x, 0.5-z, -y'
+ 88 '0.5+x, 0.5+z, y'
+ 89 '0.5+y, 0.5-x, -z'
+ 90 '0.5+y, 0.5-z, -x'
+ 91 '0.5+y, 0.5+x, z'
+ 92 '0.5+y, 0.5+z, x'
+ 93 '0.5+z, 0.5-x, -y'
+ 94 '0.5+z, 0.5-y, -x'
+ 95 '0.5+z, 0.5+x, y'
+ 96 '0.5+z, 0.5+y, x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ BTT Cd h 48 0.0458 0.0458 0.6404 1
+ ACO Sm h 48 0.0765 0.0765 0.2642 1
+ CCO Cd h 48 0.0772 0.0772 0.7623 1
+ DCO Cd h 48 0.1661 0.1661 0.0137 1
+ BCO Cd h 48 0.1877 0.1877 0.5127 1
+ CTT Cd h 48 0.2045 0.2045 0.8903 1
+ AOH Cd g 24 0.0927 0.25 0.25 1
+ DOH Cd f 24 0.1605 0 0 1
+ DIT Cd e 16 0.0797 0.0797 0.0797 1
+ AOT Cd e 16 0.1626 0.1626 0.1626 1
+ AIT Cd e 16 0.3334 0.3334 0.3334 1
+ BOT Cd e 16 0.4136 0.4136 0.4136 1
+ COT Sm e 16 0.6559 0.6559 0.6559 1
+ DOT Sm e 16 0.9118 0.9118 0.9118 1
+ CCC Cd d 4 0.75 0.75 0.75 1
+ ACC Sm c 4 0.25 0.25 0.25 1
+ BCC Sm b 4 0.5 0.5 0.5 1
+ DCC Cd a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            30
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            30.6
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 492
+_refine_ls_R_factor_all                  0.050
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'CAMEL JOCKEY; CRYLSQ-76'
+
+# End of data set 1251271

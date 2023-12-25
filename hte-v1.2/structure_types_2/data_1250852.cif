@@ -1,0 +1,171 @@
+##############################################################################
+#                                                                            #
+# O-U              # U3O8ht2                                       # 1250852 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250852
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250852
+
+# Entry summary
+
+_chemical_formula_structural             'trigonal U3O8'
+_chemical_formula_sum                    O8U3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U3O8,hP11,162
+_chemical_formula_weight                 842.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Trigonal U3O8'                                      
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1955
+_journal_volume                          8
+_journal_page_first                      617
+_journal_page_last                       619
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Siegel S.'
+;
+Argonne National Laboratory
+Department of Chemistry
+Argonne
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.815
+_cell_length_b                           6.815
+_cell_length_c                           4.136
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             166.36
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              162
+_symmetry_space_group_name_H-M           P-31m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, -z'
+ 4 '-x, -x+y, z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, -z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, -z'
+ 9 'x-y, -y, z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ OI O k 6 0.3333 0 0.1 1
+ OII O d 2 0.333333 0.666667 0.5 1
+ UII U c 2 0.333333 0.666667 0 1
+ UI U a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            773
+_cell_measurement_radiation              'X-rays, Cu'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              773
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 0.3531 164
+ 1 1 0 0.5206 258
+ 1 1 1 0.8685 229
+ 2 1 0 1.207 5
+ 0 0 2 1.403 62
+ 2 1 1 1.558 125
+ 3 0 1 1.915 214
+ 2 2 0 2.072 56
+ 3 1 0 2.246 5
+ 2 2 1 2.419 90
+ 3 1 1 2.596 5
+ 3 0 2 2.954 99
+ 0 0 3 3.15 20
+ 3 2 0 3.28 5
+ 2 2 2 3.463 71
+ 4 1 0 3.613 58
+ 1 1 3 3.664 63
+ 4 1 1 3.96 89
+ 3 3 0 4.641 29
+ 3 0 3 4.69 62
+ 3 3 1 4.993 105
+ 2 2 3 5.202 37
+ 0 0 4 5.577 11
+ 5 1 1 5.667 5
+ 3 3 2 6.018 36
+ 1 1 4 6.089 39
+ 6 0 0 6.177 22
+ 6 0 1 6.519 30
+ 5 2 0 6.681 31
+ 4 1 3 6.722 39
+ 5 2 1 7.021 51
+ 5 2 1 7.065 26
+ 3 0 4 7.101 45
+ 3 0 4 7.132 23
+ 5 2 2 8.048 64
+ 5 2 2 8.08 32
+ 4 4 0 8.198 51
+ 4 4 0 8.235 ?
+ 7 0 0 8.357 1
+ 7 0 0 8.396 1
+ 4 1 4 9.121 115
+ 1 1 5 9.171 156
+ 6 2 1 9.214 50
+ 4 4 2 9.564 40
+ 4 4 2 9.606 20
+ 7 1 0 9.711 108
+ 7 0 2 9.759 158
+ 7 0 2 9.804 52
+
+# End of data set 1250852

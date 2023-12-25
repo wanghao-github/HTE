@@ -1,0 +1,264 @@
+##############################################################################
+#                                                                            #
+# Lu-Ni            # LuNi2cub1                                     # 1711013 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1711013
+_audit_creation_date                     2010-12-15
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1711013
+
+# Entry summary
+
+_chemical_formula_structural             LuNi2
+_chemical_formula_sum                    LuNi2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TmNi2,cF192,216
+_chemical_formula_weight                 292.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The effect of substitution of Lu for Ho on some physical properties of LuxHo1-xNi solid solutions
+;
+_journal_coden_ASTM                      PHYBE3
+_journal_year                            2005
+_journal_volume                          358
+_journal_page_first                      323
+_journal_page_last                       331
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cwik J.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+'Palewski T.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+'Nenkov K.'
+;
+Jülich Kernforschungsanlage
+?
+Jülich
+Germany
+;
+'Burkhanov G.S.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+'Chistyakov O.D.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+'Kolchugina N.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+'Mädge H.'
+;
+Wroclaw University of Technology
+International Laboratory of High Magnetic Fields and Low Temperatures
+Wroclaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.11
+_cell_length_b                           14.11
+_cell_length_c                           14.11
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2809.2
+_cell_formula_units_Z                    64
+_symmetry_Int_Tables_number              216
+_symmetry_space_group_name_H-M           F-43m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 'x, 0.5+y, 0.5+z'
+ 26 '-x, 0.5-y, 0.5+z'
+ 27 '-x, 0.5-z, 0.5+y'
+ 28 '-x, 0.5+y, 0.5-z'
+ 29 '-x, 0.5+z, 0.5-y'
+ 30 '-y, 0.5-x, 0.5+z'
+ 31 '-y, 0.5-z, 0.5+x'
+ 32 '-y, 0.5+x, 0.5-z'
+ 33 '-y, 0.5+z, 0.5-x'
+ 34 '-z, 0.5-x, 0.5+y'
+ 35 '-z, 0.5-y, 0.5+x'
+ 36 '-z, 0.5+x, 0.5-y'
+ 37 '-z, 0.5+y, 0.5-x'
+ 38 'x, 0.5-y, 0.5-z'
+ 39 'x, 0.5-z, 0.5-y'
+ 40 'x, 0.5+z, 0.5+y'
+ 41 'y, 0.5-x, 0.5-z'
+ 42 'y, 0.5-z, 0.5-x'
+ 43 'y, 0.5+x, 0.5+z'
+ 44 'y, 0.5+z, 0.5+x'
+ 45 'z, 0.5-x, 0.5-y'
+ 46 'z, 0.5-y, 0.5-x'
+ 47 'z, 0.5+x, 0.5+y'
+ 48 'z, 0.5+y, 0.5+x'
+ 49 '0.5+x, y, 0.5+z'
+ 50 '0.5-x, -y, 0.5+z'
+ 51 '0.5-x, -z, 0.5+y'
+ 52 '0.5-x, y, 0.5-z'
+ 53 '0.5-x, z, 0.5-y'
+ 54 '0.5-y, -x, 0.5+z'
+ 55 '0.5-y, -z, 0.5+x'
+ 56 '0.5-y, x, 0.5-z'
+ 57 '0.5-y, z, 0.5-x'
+ 58 '0.5-z, -x, 0.5+y'
+ 59 '0.5-z, -y, 0.5+x'
+ 60 '0.5-z, x, 0.5-y'
+ 61 '0.5-z, y, 0.5-x'
+ 62 '0.5+x, -y, 0.5-z'
+ 63 '0.5+x, -z, 0.5-y'
+ 64 '0.5+x, z, 0.5+y'
+ 65 '0.5+y, -x, 0.5-z'
+ 66 '0.5+y, -z, 0.5-x'
+ 67 '0.5+y, x, 0.5+z'
+ 68 '0.5+y, z, 0.5+x'
+ 69 '0.5+z, -x, 0.5-y'
+ 70 '0.5+z, -y, 0.5-x'
+ 71 '0.5+z, x, 0.5+y'
+ 72 '0.5+z, y, 0.5+x'
+ 73 '0.5+x, 0.5+y, z'
+ 74 '0.5-x, 0.5-y, z'
+ 75 '0.5-x, 0.5-z, y'
+ 76 '0.5-x, 0.5+y, -z'
+ 77 '0.5-x, 0.5+z, -y'
+ 78 '0.5-y, 0.5-x, z'
+ 79 '0.5-y, 0.5-z, x'
+ 80 '0.5-y, 0.5+x, -z'
+ 81 '0.5-y, 0.5+z, -x'
+ 82 '0.5-z, 0.5-x, y'
+ 83 '0.5-z, 0.5-y, x'
+ 84 '0.5-z, 0.5+x, -y'
+ 85 '0.5-z, 0.5+y, -x'
+ 86 '0.5+x, 0.5-y, -z'
+ 87 '0.5+x, 0.5-z, -y'
+ 88 '0.5+x, 0.5+z, y'
+ 89 '0.5+y, 0.5-x, -z'
+ 90 '0.5+y, 0.5-z, -x'
+ 91 '0.5+y, 0.5+x, z'
+ 92 '0.5+y, 0.5+z, x'
+ 93 '0.5+z, 0.5-x, -y'
+ 94 '0.5+z, 0.5-y, -x'
+ 95 '0.5+z, 0.5+x, y'
+ 96 '0.5+z, 0.5+y, x'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Ni 0
+ Lu 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni h 48 0.0677 0.0677 0.3167 1
+ Ni2 Ni h 48 0.0678 0.0678 0.8195 1
+ Lu1 Lu g 24 0.0132 0.25 0.25 1
+ Lu2 Lu e 16 0.1210 0.1210 0.1210 1
+ Ni3 Ni e 16 0.3092 0.3092 0.3092 1
+ Lu3 Lu e 16 0.6276 0.6276 0.6276 1
+ Ni4 Ni e 16 0.8160 0.8160 0.8160 1
+ Lu4 Lu b 4 0.5 0.5 0.5 1
+ Lu5 Lu a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1711013

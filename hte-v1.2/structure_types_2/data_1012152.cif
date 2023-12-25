@@ -1,0 +1,201 @@
+##############################################################################
+#                                                                            #
+# S-Zn             # ZnS96R1                                       # 1012152 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1012152
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1012152
+
+# Entry summary
+
+_chemical_formula_structural             ZnS
+_chemical_formula_sum                    SZn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZnS-a,hR192,160
+_chemical_formula_weight                 97.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'High-Order ZnS Polytypes and Their Identification'                           
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1972
+_journal_volume                          28
+_journal_page_first                      2110
+_journal_page_last                       2115
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kiflawi I.'
+;
+Jerusalem Hebrew University
+Racah Institute of Physics
+Jerusalem
+Israel
+;
+'Kalman Z.H.'
+;
+Jerusalem Hebrew University
+Racah Institute of Physics
+Jerusalem
+Israel
+;
+'Mardix S.'
+;
+Jerusalem Hebrew University
+Racah Institute of Physics
+Jerusalem
+Israel
+;
+'Steinberger I.T.'
+;
+Jerusalem Hebrew University
+Racah Institute of Physics
+Jerusalem
+Israel
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           3.82
+_cell_length_c                           300.48
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             3797.3
+_cell_formula_units_Z                    96
+_symmetry_Int_Tables_number              160
+_symmetry_space_group_name_H-M           'R3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 10 '0.66667-y, 0.33333-x, 0.33333+z'
+ 11 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 12 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 16 '0.33333-y, 0.66667-x, 0.66667+z'
+ 17 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 18 '0.33333+x, 0.66667+x-y, 0.66667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn24 Zn a 3 0 0 0.0 1
+ S24 S a 3 0 0 0.00781 1
+ Zn22 Zn a 3 0 0 0.02083 1
+ S22 S a 3 0 0 0.02865 1
+ Zn19 Zn a 3 0 0 0.05208 1
+ S19 S a 3 0 0 0.0599 1
+ Zn17 Zn a 3 0 0 0.07292 1
+ S17 S a 3 0 0 0.08073 1
+ Zn14 Zn a 3 0 0 0.10417 1
+ S14 S a 3 0 0 0.11198 1
+ Zn11 Zn a 3 0 0 0.13542 1
+ S11 S a 3 0 0 0.14323 1
+ Zn8 Zn a 3 0 0 0.16667 1
+ S8 S a 3 0 0 0.17448 1
+ Zn5 Zn a 3 0 0 0.19792 1
+ S5 S a 3 0 0 0.20573 1
+ Zn2 Zn a 3 0 0 0.22917 1
+ S2 S a 3 0 0 0.23698 1
+ Zn32 Zn a 3 0 0 0.25 1
+ S32 S a 3 0 0 0.25781 1
+ Zn29 Zn a 3 0 0 0.28125 1
+ S29 S a 3 0 0 0.28906 1
+ Zn26 Zn a 3 0 0 0.3125 1
+ S26 S a 3 0 0 0.32031 1
+ Zn23 Zn a 3 0 0 0.34375 1
+ S23 S a 3 0 0 0.35156 1
+ Zn20 Zn a 3 0 0 0.375 1
+ S20 S a 3 0 0 0.38281 1
+ Zn16 Zn a 3 0 0 0.41667 1
+ S16 S a 3 0 0 0.42448 1
+ Zn13 Zn a 3 0 0 0.44792 1
+ S13 S a 3 0 0 0.45573 1
+ Zn10 Zn a 3 0 0 0.47917 1
+ S10 S a 3 0 0 0.48698 1
+ Zn7 Zn a 3 0 0 0.51042 1
+ S7 S a 3 0 0 0.51823 1
+ Zn4 Zn a 3 0 0 0.54167 1
+ S4 S a 3 0 0 0.54948 1
+ Zn1 Zn a 3 0 0 0.57292 1
+ S1 S a 3 0 0 0.58073 1
+ Zn30 Zn a 3 0 0 0.60417 1
+ S30 S a 3 0 0 0.61198 1
+ Zn28 Zn a 3 0 0 0.625 1
+ S28 S a 3 0 0 0.63281 1
+ Zn25 Zn a 3 0 0 0.65625 1
+ S25 S a 3 0 0 0.66406 1
+ Zn21 Zn a 3 0 0 0.69792 1
+ S21 S a 3 0 0 0.70573 1
+ Zn18 Zn a 3 0 0 0.72917 1
+ S18 S a 3 0 0 0.73698 1
+ Zn15 Zn a 3 0 0 0.76042 1
+ S15 S a 3 0 0 0.76823 1
+ Zn12 Zn a 3 0 0 0.79167 1
+ S12 S a 3 0 0 0.79948 1
+ Zn9 Zn a 3 0 0 0.82292 1
+ S9 S a 3 0 0 0.83073 1
+ Zn6 Zn a 3 0 0 0.85417 1
+ S6 S a 3 0 0 0.86198 1
+ Zn3 Zn a 3 0 0 0.88542 1
+ S3 S a 3 0 0 0.89323 1
+ Zn31 Zn a 3 0 0 0.92708 1
+ S31 S a 3 0 0 0.9349 1
+ Zn27 Zn a 3 0 0 0.96875 1
+ S27 S a 3 0 0 0.97656 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1012152

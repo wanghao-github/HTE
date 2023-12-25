@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# Te-Tm            # TmTehp                                        # 1252461 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252461
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252461
+
+# Entry summary
+
+_chemical_formula_structural             TmTe
+_chemical_formula_sum                    TeTm
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TmTe,tP2,99
+_chemical_formula_weight                 296.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'High pressure behaviour of TmTe and EuO'                                     
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1995
+_journal_volume                          230
+_journal_page_first                      89
+_journal_page_last                       93
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Heathman S.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Le Bihan T.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Darracq S.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Abraham C.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'De Ridder D.J.A.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Benedict U.'
+;
+European Commission Joint Research Center
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Mattenberger K.'
+;
+Swiss Federal Institute of Technology
+Laboratorium für Festkörperphysik
+Zurich
+Switzerland
+;
+'Vogt O.'
+;
+Swiss Federal Institute of Technology
+Laboratorium für Festkörperphysik
+Zurich
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.08
+_cell_length_b                           4.08
+_cell_length_c                           2.97
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             49.44
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              99
+_symmetry_space_group_name_H-M           P4mm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te Te b 1 0.5 0.5 0.2 1
+ Tm Tm a 1 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_pressure               1.2e+007
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 1.2e+007
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'DORIS III, Hasylab, DESY, Hamburg, Germany'                                  
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252461

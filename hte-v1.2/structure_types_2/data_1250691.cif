@@ -1,0 +1,200 @@
+##############################################################################
+#                                                                            #
+# Ni-Sn            # NiSnrt                                        # 1250691 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250691
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250691
+
+# Entry summary
+
+_chemical_formula_structural             NiSn
+_chemical_formula_sum                    NiSn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NiSn,oP32,55
+_chemical_formula_weight                 177.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'KRISTALLSTRUKTUR VON NiSn'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1973
+_journal_volume                          33
+_journal_page_first                      181
+_journal_page_last                       189
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bhargava M.K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.2
+_cell_length_b                           24.452
+_cell_length_c                           4.091
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             520.17
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni5 Ni h 4 0.000 0.139 0.5 1
+ Sn1 Sn h 4 0.0 0.340 0.5 1
+ Sn2 Sn h 4 0.235 0.036 0.5 1
+ Ni3 Ni h 4 0.289 0.255 0.5 1
+ Sn4 Sn g 4 0.051 0.210 0 1
+ Sn3 Sn g 4 0.283 0.414 0 1
+ Ni4 Ni g 4 0.294 0.107 0 1
+ Ni1 Ni c 2 0 0.5 0 1
+ Ni2 Ni a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.15
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 0 1 0.393 1
+ 5 1 0 0.466 1
+ 6 1 0 0.578 5
+ 1 1 1 0.586 4
+ 2 1 1 0.614 5
+ 3 1 1 0.663 7
+ 7 1 0 0.703 6
+ 6 0 1 0.712 7
+ 4 1 1 0.734 7
+ 5 1 1 0.822 6
+ 8 1 0 0.856 5
+ 2 2 0 0.917 6
+ 6 1 1 0.932 5
+ 3 2 0 0.968 3
+ 8 0 1 0.993 3
+ 9 1 0 1.022 5
+ 7 1 1 1.059 5
+ 8 1 1 1.207 6
+ 0 2 1 1.232 7
+ 3 2 1 1.319 5
+ 10 0 1 1.345 7
+ 7 2 0 1.36 3
+ 9 1 1 1.389 8
+ 0 0 2 1.416 7
+ 10 1 1 1.564 2
+ 12 1 0 1.646 2
+ 11 1 1 1.772 1
+ 13 1 0 1.892 2
+ 1 3 0 1.987 2
+ 6 1 2 1.997 4
+ 11 2 0 2.08 1
+ 7 1 2 2.129 5
+ 14 1 0 2.165 4
+ 13 1 1 2.25 2
+ 8 1 2 2.275 5
+ 14 0 1 2.304 4
+ 2 2 2 2.34 5
+ 2 3 1 2.362 2
+ 3 2 2 2.373 3
+ 3 3 1 2.42 4
+ 9 1 2 2.45 5
+ 14 1 1 2.52 3
+ 16 0 0 2.543 4
+ 5 3 1 2.58 4
+ 8 3 0 2.614 4
+ 10 1 2 2.633 4
+ 6 2 2 2.659 6
+ 6 3 1 2.689 4
+ 9 3 0 2.781 4
+ 14 2 0 2.823 5
+ 11 1 2 2.842 3
+ 13 2 1 2.908 2
+ 10 3 0 2.966 1
+ 12 1 2 3.084 1
+ 11 3 0 3.175 1
+ 13 1 2 3.315 1
+ 1 3 2 3.4 1
+ 18 1 0 3.444 3
+ 3 1 3 3.513 5
+ 6 0 3 3.55 3
+ 4 1 3 3.578 3
+ 13 3 0 3.656 3
+ 6 1 3 3.767 3
+ 0 4 1 3.87 4
+ 3 4 1 3.958 4
+ 8 3 2 4.02 4
+ 18 2 0 4.087 3
+ 19 1 1 4.175 5
+ 9 3 2 4.217 6
+
+# End of data set 1250691

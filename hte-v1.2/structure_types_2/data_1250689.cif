@@ -1,0 +1,171 @@
+##############################################################################
+#                                                                            #
+# Al-Au            # Au2Alrt Al-                                   # 1250689 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250689
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250689
+
+# Entry summary
+
+_chemical_formula_structural             'Au2Al1- (r)'
+_chemical_formula_sum                    AlAu2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Au2Al,oP12,62
+_chemical_formula_weight                 420.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'KRISTALLSTRUKTUREN DER PHASEN Au2Al(h), Au2Al1 - (r) UND Au2Al1 + (r)'       
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1974
+_journal_volume                          35
+_journal_page_first                      259
+_journal_page_last                       266
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Puselj M.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.715
+_cell_length_b                           3.219
+_cell_length_c                           8.815
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             190.54
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Au2 Au c 4 0.092 0.25 0.111 1
+ Al Al c 4 0.104 0.25 0.702 1
+ Au1 Au c 4 0.147 0.25 0.422 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.186
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 0 1 0.207 2
+ 0 0 2 0.305 6
+ 2 0 0 0.526 1
+ 2 0 1 0.604 7
+ 0 1 1 0.649 7
+ 1 1 1 0.782 3
+ 1 0 3 0.819 3
+ 1 1 2 1.011 4
+ 2 1 0 1.1 8
+ 2 0 3 1.216 8
+ 0 0 4 1.219 5
+ 0 1 3 1.261 8
+ 1 0 4 1.355 4
+ 1 1 3 1.392 2
+ 2 1 2 1.407 5
+ 3 0 2 1.494 4
+ 2 0 4 1.749 1
+ 3 1 1 1.831 3
+ 1 1 4 1.92 2
+ 1 0 5 2.042 1
+ 3 1 2 2.055 3
+ 4 0 0 2.108 5
+ 0 2 0 2.284 5
+ 2 1 4 2.314 6
+ 4 0 2 2.411 2
+ 3 1 3 2.436 2
+ 0 2 2 2.591 2
+ 0 0 6 2.752 5
+ 2 2 1 2.899 5
+ 3 1 4 2.981 4
+ 3 0 5 3.099 1
+ 4 0 4 3.331 2
+ 4 1 3 3.37 7
+ 1 1 6 3.455 3
+ 2 2 3 3.505 7
+ 3 2 1 3.555 3
+ 5 0 2 3.596 3
+ 1 2 4 3.646 1
+ 3 2 2 3.784 3
+ 2 1 6 3.844 6
+ 3 0 6 3.936 4
+ 5 1 2 4.164 3
+ 2 0 7 4.258 3
+ 0 1 7 4.318 3
+ 4 2 0 4.387 4
+
+# End of data set 1250689

@@ -1,0 +1,156 @@
+##############################################################################
+#                                                                            #
+# Nb-O             # Nb2O5R                                        # 1250159 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250159
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250159
+
+# Entry summary
+
+_chemical_formula_structural             R-Nb2O5
+_chemical_formula_sum                    Nb2O5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nb2O5,mS14,12
+_chemical_formula_weight                 265.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'EINE WElTERE NEUE MODIFIKATION DES NIOBPENTOXIDS'                            
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1966
+_journal_volume                          11
+_journal_page_first                      119
+_journal_page_last                       126
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gruehn R.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.79
+_cell_length_b                           3.826
+_cell_length_c                           3.983
+_cell_angle_alpha                        90
+_cell_angle_beta                         90.75
+_cell_angle_gamma                        90
+_cell_volume                             194.89
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Nb Nb i 4 0.146 0 0.07 1
+ O3 O i 4 0.16 0 0.50 1
+ O2 O i 4 0.32 0 0.00 1
+ O1 O a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_radiation_wavelength             1.5405
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, Patterson synthesis'                        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.14
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 14470 363
+ 1 0 0 37380 825
+ 0 1 1 44070 742
+ 1 0 -2 51280 25
+ 1 0 2 52540 272
+ 0 0 4 58000 454
+ 0 1 3 73120 470
+ 1 1 -1 81240 462
+ 1 0 -4 94320 149
+ 1 0 4 96650 50
+ 1 1 -3 109740 41
+ 1 1 3 111510 132
+ 0 0 6 130470 173
+ 2 0 0 149550 190
+ 0 2 0 162020 231
+ 2 0 -2 162300 17
+ 2 0 2 165420 124
+ 1 1 -5 167240 50
+ 1 0 6 169760 83
+ 0 2 2 176480 41
+ 2 1 -1 193340 256
+ 1 2 0 199500 165
+ 2 0 -4 205280 66
+ 1 2 2 214810 50
+ 0 1 7 218280 140
+ 0 2 4 220340 91
+ 2 1 3 224700 66
+ 0 0 8 231700 17
+ 1 1 -7 253740 50
+ 1 2 -4 256310 74
+ 1 1 7 258130 58
+ 1 0 -8 267380 17
+ 2 1 -5 277740 50
+ 2 1 5 283410 74
+ 0 2 6 292860 50
+
+# End of data set 1250159

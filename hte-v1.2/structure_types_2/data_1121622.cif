@@ -1,0 +1,121 @@
+##############################################################################
+#                                                                            #
+# O-Ta             # Ta2O5rt orth1                                 # 1121622 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1121622
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1121622
+
+# Entry summary
+
+_chemical_formula_structural             b-Ta2O5
+_chemical_formula_sum                    O5Ta2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ta2O5,oP14,49
+_chemical_formula_weight                 441.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Rietveld Analysis of X-ray Diffraction Pattern from b-Ta2O5 Oxide'           
+_journal_coden_ASTM                      KRISAJ
+_journal_year                            2002
+_journal_volume                          47
+_journal_page_first                      460
+_journal_page_last                       464
+_journal_language                        Russian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Aleshina L.A.'
+;
+Petrozavodsk State University
+?
+Apatity
+Russia
+;
+'Loginova S.V.'
+;
+Petrozavodsk State University
+?
+Apatity
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.677
+_cell_length_b                           6.217
+_cell_length_c                           7.794
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             178.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              49
+_symmetry_space_group_name_H-M           Pccm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, 0.5+z'
+ 6 'x, -y, 0.5-z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O2 O q 4 0.002 0.319 0 1
+ O4 O h 2 0.5 0.5 0.25 1
+ O3 O e 2 0 0 0.25 1
+ O1 O d 2 0.5 0 0 1
+ Ta2 Ta b 2 0.5 0.5 0 1
+ Ta1 Ta a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          DRON-3
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'KRISTALL package'
+
+# End of data set 1121622

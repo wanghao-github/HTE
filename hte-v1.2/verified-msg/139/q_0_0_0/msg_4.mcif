@@ -1,0 +1,9 @@
+# Im'm'm (#71.536)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,+1 mx,my,mz
+3 y-z,x-z,-z,-1 -my+mz,-mx+mz,mz
+4 -y+z,-x+z,z,-1 -my+mz,-mx+mz,mz
+5 -y+z,-y,x-y,+1 -my+mz,-my,mx-my
+6 y-z,y,-x+y,+1 -my+mz,-my,mx-my
+7 -x,-x+z,-x+y,-1 mx,mx-mz,mx-my
+8 x,x-z,x-y,-1 mx,mx-mz,mx-my

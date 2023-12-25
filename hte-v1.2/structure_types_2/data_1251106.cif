@@ -1,0 +1,114 @@
+##############################################################################
+#                                                                            #
+# Al-Os            # Os4Al13                                       # 1251106 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251106
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251106
+
+# Entry summary
+
+_chemical_formula_structural             Os4Al13
+_chemical_formula_sum                    Al13Os4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Os4Al13,mS34,12
+_chemical_formula_weight                 1111.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of Os4Al13'
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1964
+_journal_volume                          18
+_journal_page_first                      2294
+_journal_page_last                       2302
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Edshammar L.E.'
+;
+Stockholm University
+Department of Inorganic Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.64
+_cell_length_b                           4.228
+_cell_length_c                           7.773
+_cell_angle_alpha                        90
+_cell_angle_beta                         115.15
+_cell_angle_gamma                        90
+_cell_volume                             524.77
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Os2 Os i 4 0.0081 0 0.3053 1
+ Al5 Al i 4 0.086 0 0.068 1
+ Al3 Al i 4 0.132 0 0.662 1
+ Al4 Al i 4 0.210 0 0.413 1
+ Al2 Al i 4 0.257 0 0.113 1
+ Al1 Al i 4 0.413 0 0.132 1
+ Al6 Al i 4 0.591 0 0.306 1
+ Os1 Os i 4 0.7060 0 0.2085 1
+ Al7 Al d 2 0 0.5 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu K'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.103
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251106

@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# F-I              # IF7lt3                                        # 1250446 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250446
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250446
+
+# Entry summary
+
+_chemical_formula_structural             'IF7 (III)'
+_chemical_formula_sum                    F7I
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            IF7,oP32,54
+_chemical_formula_weight                 259.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Time-of-flight neutron diffraction study on the low temperature phases of IF'
+_journal_coden_ASTM                      JCPSA6
+_journal_year                            1994
+_journal_volume                          101
+_journal_page_first                      585
+_journal_page_last                       593
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Marx R.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Mahjoub A.R.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Seppelt K.'
+;
+Berlin Free University
+Institut für Anorganische Chemie
+Berlin
+Germany
+;
+'Ibberson R.M.'
+;
+Rutherford Appleton Laboratory
+ISIS Science Division
+Didcot
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.5216
+_cell_length_b                           5.9909
+_cell_length_c                           8.841
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             451.35
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              54
+_symmetry_space_group_name_H-M           Pcca
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, z'
+ 3 '0.5-x, y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5-z'
+ 6 '0.5+x, -y, 0.5-z'
+ 7 '0.5+x, y, -z'
+ 8 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F3 F f 8 0.1139 0.3331 0.0842 1
+ F1 F f 8 0.1754 0.2407 0.3624 1
+ F4 F f 8 0.4242 0.0103 0.1506 1
+ I I c 4 0 0.2434 0.25 1
+ F2 F c 4 0 0.5482 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              77
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'ISIS, Rutherford Appleton Laboratory, Chilton, UK'                           
+_diffrn_radiation_type                   'neutrons, time-of-flight'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 0.05
+_diffrn_reflns_theta_max                 1
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'local programs'
+
+# End of data set 1250446

@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# Br-In            # In7Br9                                        # 1301540 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1301540
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301540
+
+# Entry summary
+
+_chemical_formula_structural             In7Br9
+_chemical_formula_sum                    Br9In7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            In7Cl9,cP64,205
+_chemical_formula_weight                 1522.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The crystal structure of In7Br9'
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1995
+_journal_volume                          210
+_journal_page_first                      920
+_journal_page_last                       923
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dronskowski R.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.681
+_cell_length_b                           12.681
+_cell_length_c                           12.681
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2039.2
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              205
+_symmetry_space_group_name_H-M           Pa-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5-y, -z, 0.5+x'
+ 7 '0.5-y, 0.5+z, x'
+ 8 '-y, -z, -x'
+ 9 '-y, 0.5+z, 0.5-x'
+ 10 '0.5-z, -x, 0.5+y'
+ 11 '0.5-z, 0.5+x, y'
+ 12 '-z, -x, -y'
+ 13 '-z, 0.5+x, 0.5-y'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, y, 0.5-z'
+ 16 'x, 0.5-y, 0.5+z'
+ 17 '0.5+y, 0.5-z, -x'
+ 18 '0.5+y, z, 0.5-x'
+ 19 'y, 0.5-z, 0.5+x'
+ 20 'y, z, x'
+ 21 '0.5+z, 0.5-x, -y'
+ 22 '0.5+z, x, 0.5-y'
+ 23 'z, 0.5-x, 0.5+y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Br3 Br d 24 0.0453 0.4468 0.1994 1
+ In2 In d 24 0.1734 0.3161 0.4301 1
+ Br2 Br c 8 0.1718 0.1718 0.1718 1
+ In1 In b 4 0.5 0.5 0.5 1
+ Br1 Br a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            33
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    7147
+_exptl_absorpt_coefficient_mu            25.38
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 580
+_refine_ls_R_factor_all                  0.081
+_refine_ls_wR_factor_all                 0.048
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 2 1 4227 11
+ 3 1 1 3824 22
+ 2 3 1 3389 13
+ 4 1 0 3076 72
+ 4 1 1 2989 100
+ 3 3 1 2909 38
+ 4 2 0 2836 32
+ 2 4 1 2767 10
+ 3 3 2 2704 22
+ 4 3 0 2536 24
+ 4 3 2 2355 10
+ 5 3 1 2144 10
+ 6 0 0 2114 11
+ 3 5 2 2057 11
+ 4 5 0 1980 21
+ 4 5 2 1890 23
+ 5 4 3 1793 10
+ 8 0 0 1585 14
+ 4 7 0 1574 16
+ 7 4 1 1561 24
+ 5 6 4 1445 11
+ 8 4 1 1409 13
+ 4 9 1 1281 14
+ 8 8 0 1121 24
+ 7 8 4 1117 14
+
+# End of data set 1301540

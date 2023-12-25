@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# Cl-Gd            # Gd2Cl3                                        # 1251614 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251614
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251614
+
+# Entry summary
+
+_chemical_formula_structural             Gd2Cl3
+_chemical_formula_sum                    Cl3Gd2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd2Cl3,mS20,8
+_chemical_formula_weight                 420.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ram Earth Metal-Metal Halide Systems. XV. Crystal Structure of Gadolinium Sesquichloride. A Phase with Unique Metal Chains
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1973
+_journal_volume                          12
+_journal_page_first                      556
+_journal_page_last                       559
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lokken D.A.'
+;
+Iowa State University
+Ames Laboratory-Atomic Energy Commission
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory-Atomic Energy Commission
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.237
+_cell_length_b                           3.896
+_cell_length_c                           10.179
+_cell_angle_alpha                        90
+_cell_angle_beta                         117.66
+_cell_angle_gamma                        90
+_cell_volume                             535.2
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              8
+_symmetry_space_group_name_H-M           C1m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, z'
+ 3 '0.5+x, 0.5+y, z'
+ 4 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Gd3 Gd a 2 0.0000 0 0.0000 1
+ Cl7 Cl a 2 0.0862 0 0.5628 1
+ Cl8 Cl a 2 0.1857 0 0.0266 1
+ Gd2 Gd a 2 0.2725 0 0.5850 1
+ Cl5 Cl a 2 0.3669 0 0.4066 1
+ Cl6 Cl a 2 0.4752 0 0.7797 1
+ Gd1 Gd a 2 0.5456 0 0.3422 1
+ Gd4 Gd a 2 0.7248 0 0.2393 1
+ Cl9 Cl a 2 0.7932 0 0.8047 1
+ Cl10 Cl a 2 0.9052 0 0.1725 1
+
+
+_exptl_crystal_colour                    'dark bronze, almost black'
+_exptl_crystal_density_meas              5.14(30)
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Hilger-Watts
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            26.67
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1331
+_refine_ls_R_factor_all                  0.053
+_refine_ls_wR_factor_all                 0.066
+_computing_structure_refinement          'ABCOR; ALF; ORFLS'
+
+# End of data set 1251614

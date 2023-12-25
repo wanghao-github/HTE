@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# Mn-O             # Mn2O7                                         # 1250997 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250997
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250997
+
+# Entry summary
+
+_chemical_formula_structural             Mn2O7
+_chemical_formula_sum                    Mn2O7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn2O7,mP72,14
+_chemical_formula_weight                 221.9
+_chemical_melting_point                  279.1
+
+# Bibliographic data
+
+_publ_section_title
+'Die Kristall- und Molekuelstruktur von Mangan(VII)-oxid'                     
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1988
+_journal_volume                          558
+_journal_page_first                      7
+_journal_page_last                       20
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dronskowski R.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Krebs B.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Miller G.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Hettich B.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.7956
+_cell_length_b                           16.687
+_cell_length_c                           9.454
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.20
+_cell_angle_gamma                        90
+_cell_volume                             1055.12
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O12 O e 4 0.0212 0.6897 0.1088 1
+ O11 O e 4 0.0736 0.1934 0.0741 1
+ O42 O e 4 0.1147 0.4375 0.1095 1
+ O32 O e 4 0.1195 0.5614 0.6194 1
+ Mn1 Mn e 4 0.14385 0.25328 0.45236 1
+ O13 O e 4 0.1979 0.3086 0.3274 1
+ O41 O e 4 0.2080 0.5549 0.2902 1
+ O31 O e 4 0.2254 0.0599 0.2898 1
+ Mn4 Mn e 4 0.27816 0.50137 0.16971 1
+ Mn3 Mn e 4 0.28776 0.00201 0.17239 1
+ O43 O e 4 0.3324 0.5557 0.0443 1
+ O33 O e 4 0.3392 0.0523 0.0412 1
+ OA O e 4 0.3611 0.2994 0.0296 1
+ OB O e 4 0.4953 0.4495 0.2481 1
+ O23 O e 4 0.5254 0.1985 0.2429 1
+ Mn2 Mn e 4 0.57795 0.24773 0.11091 1
+ O21 O e 4 0.6414 0.3112 0.4956 1
+ O22 O e 4 0.7471 0.3112 0.1619 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            243
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              243
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    3225
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            4.57
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             164
+_refine_ls_number_reflns                 2308
+_refine_ls_R_factor_all                  0.043
+_refine_ls_wR_factor_all                 0.040
+_computing_structure_refinement          'SHELXTL package'
+
+# End of data set 1250997

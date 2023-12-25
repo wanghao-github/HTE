@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# As-Sr            # Sr4As3                                        # 1400038 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1400038
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1400038
+
+# Entry summary
+
+_chemical_formula_structural             Sr4As3
+_chemical_formula_sum                    As3Sr4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ba4P3,oP56,55
+_chemical_formula_weight                 575.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of tetrastrontium triarsenide, Sr4As3'                     
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1995
+_journal_volume                          210
+_journal_page_first                      876
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Somer M.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Carrillo Cabrera W.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Peters K.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.185
+_cell_length_b                           12.775
+_cell_length_c                           10.958
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1705.8
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sr2 Sr i 8 0.0945 0.2349 0.2765 1
+ Sr4 Sr i 8 0.324 0.4338 0.3212 1
+ As3 As i 8 0.337 0.1768 0.2341 1
+ As4 As h 4 0.0372 0.092 0.5 1
+ As2 As h 4 0.1356 0.3865 0.5 1
+ Sr5 Sr h 4 0.3751 0.1351 0.5 1
+ As5 As g 4 0.1398 0.3577 0 1
+ Sr3 Sr g 4 0.2251 0.0785 0 1
+ Sr1 Sr g 4 0.399 0.2926 0 1
+ Sr6 Sr f 4 0 0.5 0.1854 1
+ As1 As e 4 0 0 0.1165 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Siemens-Nicolet
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            35.58
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             75
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.068
+_refine_ls_wR_factor_all                 0.057
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# End of data set 1400038

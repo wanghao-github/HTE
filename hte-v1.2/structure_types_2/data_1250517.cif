@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# Cs-P             # Cs3P7rt                                       # 1250517 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250517
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250517
+
+# Entry summary
+
+_chemical_formula_structural             'Cs3P7 a'
+_chemical_formula_sum                    Cs3P7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs3P7,tP40,76
+_chemical_formula_weight                 615.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Tricaesiumheptaphosphid Cs3P7: Darstellung, Struktur und Eigenschaften'      
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1987
+_journal_volume                          552
+_journal_page_first                      69
+_journal_page_last                       80
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Meyer T.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Hönle W.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.046
+_cell_length_b                           9.046
+_cell_length_c                           16.714
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1367.71
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              76
+_symmetry_space_group_name_H-M           P41
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 0.5+z'
+ 3 '-y, x, 0.25+z'
+ 4 'y, -x, -0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P30 P a 4 0.024 0.357 0.250 1
+ Cs3 Cs a 4 0.0260 0.1596 0.0691 1
+ P22 P a 4 0.095 0.443 0.364 1
+ P23 P a 4 0.106 0.527 0.1677 1
+ Cs1 Cs a 4 0.2565 0.3852 0.5605 1
+ P33 P a 4 0.290 0.011 0.471 1
+ P21 P a 4 0.400 0.210 0.0000 1
+ Cs2 Cs a 4 0.4169 0.2670 0.2246 1
+ P31 P a 4 0.629 0.206 0.0288 1
+ P32 P a 4 0.659 0.002 0.1056 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            30
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    997
+_diffrn_reflns_theta_min                 1.75
+_diffrn_reflns_theta_max                 27.5
+_exptl_absorpt_coefficient_mu            8.264
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             91
+_refine_ls_number_reflns                 646
+_refine_ls_R_factor_all                  0.081
+_refine_ls_wR_factor_all                 0.061
+_computing_structure_refinement          'SHELXTL package; SHELX-76'
+
+# End of data set 1250517

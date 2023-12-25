@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# C-Si             # SiC33R                                        # 1251347 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251347
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251347
+
+# Entry summary
+
+_chemical_formula_structural             'a-SiC, type VI'
+_chemical_formula_sum                    CSi
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiC,hR66,160
+_chemical_formula_weight                 40.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'THE CRYSTAL STRUCTURE OF a-SIC, TYPE VI'                                     
+_journal_coden_ASTM                      AMMIAY
+_journal_year                            1945
+_journal_volume                          30
+_journal_page_first                      519
+_journal_page_last                       525
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ramsdell L.S.'
+;
+Michigan State University
+Mineralogical Institute
+Ann Arbor
+U.S.A. Michigan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.079
+_cell_length_b                           3.079
+_cell_length_c                           83.11
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             682.3
+_cell_formula_units_Z                    33
+_symmetry_Int_Tables_number              160
+_symmetry_space_group_name_H-M           'R3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 10 '0.66667-y, 0.33333-x, 0.33333+z'
+ 11 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 12 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 16 '0.33333-y, 0.66667-x, 0.66667+z'
+ 17 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 18 '0.33333+x, 0.66667+x-y, 0.66667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si11 Si a 3 0 0 0.0 1
+ C11 C a 3 0 0 0.02273 1
+ Si1 Si a 3 0 0 0.06061 1
+ C1 C a 3 0 0 0.08333 1
+ Si2 Si a 3 0 0 0.12121 1
+ C2 C a 3 0 0 0.14394 1
+ Si3 Si a 3 0 0 0.24242 1
+ C3 C a 3 0 0 0.26515 1
+ Si4 Si a 3 0 0 0.30303 1
+ C4 C a 3 0 0 0.32576 1
+ Si5 Si a 3 0 0 0.42424 1
+ C5 C a 3 0 0 0.44697 1
+ Si6 Si a 3 0 0 0.51515 1
+ C6 C a 3 0 0 0.53788 1
+ Si7 Si a 3 0 0 0.60606 1
+ C7 C a 3 0 0 0.62879 1
+ Si8 Si a 3 0 0 0.69697 1
+ C8 C a 3 0 0 0.7197 1
+ Si9 Si a 3 0 0 0.81818 1
+ C9 C a 3 0 0 0.84091 1
+ Si10 Si a 3 0 0 0.87879 1
+ C10 C a 3 0 0 0.90152 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 34
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251347

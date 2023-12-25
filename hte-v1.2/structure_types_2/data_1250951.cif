@@ -1,0 +1,132 @@
+##############################################################################
+#                                                                            #
+# Ni-Zr            # Zr7Ni10                                       # 1250951 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250951
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250951
+
+# Entry summary
+
+_chemical_formula_structural             'Ni10Zr7, stoichiometric phase'
+_chemical_formula_sum                    Ni10Zr7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr7Ni10,oS68,41
+_chemical_formula_weight                 1225.5
+_chemical_melting_point                  1333
+
+# Bibliographic data
+
+_publ_section_title
+'Structures of the Intermediate Phases Ni10Zr7 and Ni10Hf7'                   
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1962
+_journal_volume                          15
+_journal_page_first                      894
+_journal_page_last                       903
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kirkpatrick M.E.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+'Smith J.F.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+'Larsen W.L.'
+;
+Iowa State University
+Institute for Atomic Research
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.211
+_cell_length_b                           9.156
+_cell_length_c                           12.386
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1044.58
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              41
+_symmetry_space_group_name_H-M           Aea2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, 0.5+z'
+ 3 '-x, -y, z'
+ 4 '0.5+x, -y, 0.5+z'
+ 5 'x, 0.5+y, 0.5+z'
+ 6 '0.5-x, 0.5+y, 1+z'
+ 7 '-x, 0.5-y, 0.5+z'
+ 8 '0.5+x, 0.5-y, 1+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni6 Ni b 8 0.0031 0.2919 0.3406 1
+ Ni7 Ni b 8 0.0122 0.2986 0.051 1
+ Ni8 Ni b 8 0.1063 0.109 0.1929 1
+ Zr2 Zr b 8 0.2459 0.256 0.4446 1
+ Ni4 Ni b 8 0.29 0.0008 0.001 1
+ Ni5 Ni b 8 0.2915 0.0082 0.3384 1
+ Zr3 Zr b 8 0.3129 0.3106 0.1957 1
+ Zr1b Zr a 4 0 0 0.0 1
+ Zr1a Zr a 4 0 0 0.3862 1
+ Zr0 Zr a 4 0 0 0.6973 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              7.78
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device
+'precession and Weissenberg photographs'                                      
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 170
+_refine_ls_R_factor_all                  0.166
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250951

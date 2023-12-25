@@ -1,0 +1,152 @@
+##############################################################################
+#                                                                            #
+# O-V              # V7O3rt                                        # 1250186 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250186
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250186
+
+# Entry summary
+
+_chemical_formula_structural             V14O6
+_chemical_formula_sum                    O3V7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            V7O3,mS20,12
+_chemical_formula_weight                 404.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'STRUCTURE OF THE SUBOXIDE V2O IN THE SYSTEM VANADIUM-OXYGEN'                 
+_journal_coden_ASTM                      INOMAF
+_journal_year                            1977
+_journal_volume                          13
+_journal_page_first                      1481
+_journal_page_last                       1484
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Galkin L.N.'
+;
+Russian Academy of Sciences
+A.A. Baikov Institute of Metallurgy
+Moscow
+Russia
+;
+'Vavilova V.V.'
+;
+Russian Academy of Sciences
+A.A. Baikov Institute of Metallurgy
+Moscow
+Russia
+;
+'Fykin L.E.'
+;
+Russian Academy of Sciences
+A.A. Baikov Institute of Metallurgy
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.501
+_cell_length_b                           2.936
+_cell_length_c                           7.753
+_cell_angle_alpha                        90
+_cell_angle_beta                         90.44
+_cell_angle_gamma                        90
+_cell_volume                             216.26
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ V2 V i 4 0.133 0 0.601 1
+ O2 O i 4 0.214 0 0.357 1
+ V3 V i 4 0.296 0 0.113 1
+ V4 V i 4 0.581 0 0.256 1
+ O1 O d 2 0 0.5 0.5 1
+ V1 V a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   neutrons
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.13
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 77.51 ?
+ -2 0 2 30.12 ?
+ -1 1 1 26.35 ?
+ 0 0 3 23.88 ?
+ -2 0 3 22.7 ?
+ 4 0 1 21.51 ?
+ -3 1 1 20.77 ?
+ -4 0 2 20.24 ?
+ -1 1 3 18.95 ?
+ -2 0 4 17.81 ?
+ -1 1 4 15.89 ?
+ -5 1 1 15.41 ?
+ -2 0 5 14.72 ?
+ 2 2 0 13.9 ?
+ -5 1 3 13.48 ?
+ 4 0 5 12.92 ?
+ 3 1 5 12.36 ?
+
+# End of data set 1250186

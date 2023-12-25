@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Br-Hg            # HgBr2                                         # 1251605 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251605
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251605
+
+# Entry summary
+
+_chemical_formula_structural             HgBr2
+_chemical_formula_sum                    Br2Hg
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            HgBr2,oS12,36
+_chemical_formula_weight                 360.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Refinement of the structure of HgBr2'                                        
+_journal_coden_ASTM                      RJICAQ
+_journal_year                            1990
+_journal_volume                          35
+_journal_page_first                      1407
+_journal_page_last                       1409
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pakhomov V.I.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Goryunov A.V.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Ivanova Korfini I.N.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Boguslavskii A.A.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Lotfullin R.S.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.628
+_cell_length_b                           6.802
+_cell_length_c                           12.476
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             392.74
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              36
+_symmetry_space_group_name_H-M           Cmc21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 0.5+z'
+ 3 '-x, y, z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, 0.5+z'
+ 7 '0.5-x, 0.5+y, z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Br2 Br a 4 0 0.0994 0.0000 1
+ Hg Hg a 4 0 0.1687 0.3695 1
+ Br1 Br a 4 0 0.4363 0.2387 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1237
+_refine_ls_R_factor_all                  0.08
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251605

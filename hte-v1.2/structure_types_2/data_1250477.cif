@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# I-Si             # SiI2                                          # 1250477 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250477
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250477
+
+# Entry summary
+
+_chemical_formula_structural             Si5I10
+_chemical_formula_sum                    I2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiI2,mP60,14
+_chemical_formula_weight                 281.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures of the Perhalogenated Cyclopentasilanes Si5Br10 and Si5I10 at Normal and Low Temperatures
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1985
+_journal_volume                          41
+_journal_page_first                      824
+_journal_page_last                       827
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kratky C.'
+;
+Graz Karl Franzen University
+Institut für Physikalische Chemie
+Graz
+Austria
+;
+'Hengge H.'
+;
+Graz Technical University
+Institut für Anorganische Chemie
+Graz
+Austria
+;
+'Stüger H.'
+;
+Graz Technical University
+Institut für Anorganische Chemie
+Graz
+Austria
+;
+'Rheingold A.L.'
+;
+Delaware University
+Department of Chemistry
+Newark
+U.S.A. Delaware
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.966
+_cell_length_b                           15.782
+_cell_length_c                           16.2292
+_cell_angle_alpha                        90
+_cell_angle_beta                         120.20
+_cell_angle_gamma                        90
+_cell_volume                             2427.5
+_cell_formula_units_Z                    20
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I41 I e 4 0.0051 0.2827 0.2632 1
+ Si4 Si e 4 0.0732 0.2528 0.4282 1
+ I52 I e 4 0.1215 0.0321 0.3429 1
+ I42 I e 4 0.1311 0.7453 0.0499 1
+ I32 I e 4 0.1535 0.5005 0.4548 1
+ I51 I e 4 0.1804 0.4367 0.1049 1
+ Si5 Si e 4 0.2073 0.1270 0.4781 1
+ Si3 Si e 4 0.2289 0.1402 0.0198 1
+ I31 I e 4 0.2568 0.1543 0.1773 1
+ Si2 Si e 4 0.4473 0.1807 0.0363 1
+ Si1 Si e 4 0.4473 0.3316 0.0436 1
+ I21 I e 4 0.4488 0.3623 0.3943 1
+ I12 I e 4 0.5463 0.1131 0.4485 1
+ I11 I e 4 0.5894 0.3790 0.2067 1
+ I22 I e 4 0.6422 0.1209 0.1804 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              297(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nicolet R3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    2298
+_exptl_absorpt_coefficient_mu            12.86
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             137
+_refine_ls_number_reflns                 1574
+_refine_ls_R_factor_all                  0.069
+_refine_ls_wR_factor_all                 0.067
+_computing_structure_refinement          'SHELXTL package; Nicolet package'
+
+# End of data set 1250477

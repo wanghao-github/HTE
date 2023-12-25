@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Rb-Te            # Rb2Te3                                        #  450055 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_450055
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      450055
+
+# Entry summary
+
+_chemical_formula_structural             Rb2Te3
+_chemical_formula_sum                    Rb2Te3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K2Te3,oP20,62
+_chemical_formula_weight                 553.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'SYNTHESIS AND CRYSTAL STRUCTURE OF Rb2Te3 AND Cs2Te3'                        
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1980
+_journal_volume                          70
+_journal_page_first                      263
+_journal_page_last                       271
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Böttcher P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.109
+_cell_length_b                           10.591
+_cell_length_c                           4.786
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             816.54
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rb Rb d 8 0.3772 0.5315 0.2097 1
+ Te(1) Te c 4 0.016 0.25 0.1916 1
+ Te(2) Te c 4 0.2419 0.25 0.2865 1
+ Te(3) Te c 4 0.3766 0.25 0.6569 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    648
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            50
+_exptl_absorpt_correction_type           no
+_computing_structure_solution
+'Fourier synthesis, starting values from the literature'                      
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 637
+_refine_ls_R_factor_all                  0.054
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SDP package'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 2 0 166.7 4
+ 1 1 1 210.3 2
+ 1 2 1 255.9 2
+ 2 2 1 273.5 7
+ 2 3 0 274.7 2
+ 4 2 0 277.2 7
+ 3 2 1 301 8
+ 0 4 0 337.2 5
+ 6 1 0 343.5 3
+ 6 2 0 374.7 3
+ 4 3 1 386.7 5
+ 3 1 2 421.5 7
+ 8 0 0 449 5
+ 4 2 2 472.9 3
+ 4 5 1 522.8 7
+
+# End of data set 450055

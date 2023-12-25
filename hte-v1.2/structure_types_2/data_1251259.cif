@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# P-Zr             # Zr2P                                          # 1251259 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251259
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251259
+
+# Entry summary
+
+_chemical_formula_structural             Zr2P
+_chemical_formula_sum                    PZr2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr2P,oS108,65
+_chemical_formula_weight                 213.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The crystal structure of Zr2P'
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1989
+_journal_volume                          189
+_journal_page_first                      117
+_journal_page_last                       124
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ahlzén P.J.'
+;
+Uppsala University
+Department of Inorganic Chemistry
+Uppsala
+Sweden
+;
+'Rundqvist S.'
+;
+Uppsala University
+Department of Inorganic Chemistry
+Uppsala
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.0634
+_cell_length_b                           29.5099
+_cell_length_c                           3.6076
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2029.49
+_cell_formula_units_Z                    36
+_symmetry_Int_Tables_number              65
+_symmetry_space_group_name_H-M           Cmmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, z'
+ 12 '0.5-x, 0.5+y, -z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, z'
+ 16 '0.5+x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zr5 Zr q 8 0.08127 0.38067 0.5 1
+ Zr4 Zr q 8 0.08971 0.12141 0.5 1
+ P4 P q 8 0.10673 0.28471 0.5 1
+ P3 P q 8 0.20543 0.16715 0.5 1
+ Zr3 Zr q 8 0.24857 0.08322 0.5 1
+ Zr1 Zr p 8 0.12946 0.21574 0 1
+ P1 P p 8 0.14524 0.06324 0 1
+ Zr2 Zr p 8 0.31072 0.17064 0 1
+ P2 P p 8 0.35093 0.06853 0 1
+ Zr12 Zr j 4 0 0.22087 0.5 1
+ Zr9 Zr i 4 0 0.05691 0 1
+ P5 P i 4 0 0.15538 0 1
+ Zr10 Zr i 4 0 0.30738 0 1
+ Zr11 Zr i 4 0 0.44754 0 1
+ Zr7 Zr h 4 0.10833 0 0.5 1
+ Zr8 Zr h 4 0.38473 0 0.5 1
+ Zr6 Zr g 4 0.25038 0 0 1
+ Zr13 Zr f 4 0.25 0.25 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Cr Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Stoe
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    4782
+_exptl_absorpt_coefficient_mu            9.4
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             91
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.019
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'DUPALS; MULTAN-80'
+
+# End of data set 1251259

@@ -1,0 +1,192 @@
+##############################################################################
+#                                                                            #
+# S-Tl             # TlShp1                                        #  533556 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_533556
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      533556
+
+# Entry summary
+
+_chemical_formula_structural             'TlS II'
+_chemical_formula_sum                    STl
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc0.685S,hR12,166
+_chemical_formula_weight                 236.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'X-Ray Studies of Thallium Chalcogenides TlS and TlSe up to 37 GPa'           
+_journal_coden_ASTM                      PSSABA
+_journal_year                            1988
+_journal_volume                          108
+_journal_page_first                      89
+_journal_page_last                       95
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Demishev G.B.'
+;
+Russian Academy of Sciences
+Vereshchagin Institute of High Pressure Physics
+Troitsk
+Russia
+;
+'Kabalkina S.S.'
+;
+Russian Academy of Sciences
+Vereshchagin Institute of High Pressure Physics
+Troitsk
+Russia
+;
+'Kolobyanina T.N.'
+;
+Russian Academy of Sciences
+Vereshchagin Institute of High Pressure Physics
+Troitsk
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.945
+_cell_length_b                           3.945
+_cell_length_c                           21.788
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             293.66
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              166
+_symmetry_space_group_name_H-M           'R-3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+ 13 '0.66667+x, 0.33333+y, 0.33333+z'
+ 14 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 15 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 16 '0.66667-x, 0.33333-x+y, 0.33333-z'
+ 17 '0.66667-x, 0.33333-y, 0.33333-z'
+ 18 '0.66667-y, 0.33333-x, 0.33333+z'
+ 19 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 20 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 21 '0.66667+x-y, 0.33333-y, 0.33333-z'
+ 22 '0.66667+x-y, 0.33333+x, 0.33333-z'
+ 23 '0.66667+y, 0.33333-x+y, 0.33333-z'
+ 24 '0.66667+y, 0.33333+x, 0.33333-z'
+ 25 '0.33333+x, 0.66667+y, 0.66667+z'
+ 26 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 27 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 28 '0.33333-x, 0.66667-x+y, 0.66667-z'
+ 29 '0.33333-x, 0.66667-y, 0.66667-z'
+ 30 '0.33333-y, 0.66667-x, 0.66667+z'
+ 31 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 32 '0.33333+x, 0.66667+x-y, 0.66667+z'
+ 33 '0.33333+x-y, 0.66667-y, 0.66667-z'
+ 34 '0.33333+x-y, 0.66667+x, 0.66667-z'
+ 35 '0.33333+y, 0.66667-x+y, 0.66667-z'
+ 36 '0.33333+y, 0.66667+x, 0.66667-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ S 0
+ Tl 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S1 S c 6 0 0 0.25 1
+ Tl1 Tl b 3 0 0 0.5 1
+ Tl2 Tl a 3 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 6 36.38 5
+ 0 1 2 32.54 7
+ 1 0 4 28.91 8
+ 0 1 8 21.33 7
+ 1 1 0 19.71 5
+ 1 0 10 18.42 3
+ 1 1 6 17.35 3
+ 2 0 2 16.87 3
+ 0 2 4 16.35 3
+ 2 0 8 14.55 3
+ 0 2 10 13.44 2
+ 1 1 12 13.35 2
+ 1 0 16 12.59 2
+ 1 2 8 11.75 2
+ 2 1 10 11.1 2
+
+# End of data set 533556

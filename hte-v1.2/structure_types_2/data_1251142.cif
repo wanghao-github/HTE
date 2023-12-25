@@ -1,0 +1,217 @@
+##############################################################################
+#                                                                            #
+# Ru-Zn            # Zn6Ru                                         # 1251142 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251142
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251142
+
+# Entry summary
+
+_chemical_formula_structural             RuZn6
+_chemical_formula_sum                    RuZn6
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn6Ru,cP252,213
+_chemical_formula_weight                 493.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of the Primitive Cubic, Non-centrosymmetric Phase RuZn6'
+_journal_coden_ASTM                      CSRPB9
+_journal_year                            1971
+_journal_volume                          1
+_journal_page_first                      137
+_journal_page_last                       143
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Edström V.A.'
+;
+Stockholm University
+Institute of Inorganic and Physical Chemistry
+Stockholm
+Sweden
+;
+'Westman S.'
+;
+Stockholm University
+Institute of Inorganic and Physical Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.5575
+_cell_length_b                           15.5575
+_cell_length_c                           15.5575
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3765.47
+_cell_formula_units_Z                    36
+_symmetry_Int_Tables_number              213
+_symmetry_space_group_name_H-M           P4132
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.25-x, -0.25+z, 0.25+y'
+ 4 '-x, 0.5+y, 0.5-z'
+ 5 '-0.25-x, -0.25-z, -0.25-y'
+ 6 '0.5-y, -z, 0.5+x'
+ 7 '0.25-y, -0.25+x, 0.25+z'
+ 8 '-y, 0.5+z, 0.5-x'
+ 9 '-0.25-y, -0.25-x, -0.25-z'
+ 10 '0.5-z, -x, 0.5+y'
+ 11 '0.25-z, -0.25+y, 0.25+x'
+ 12 '-z, 0.5+x, 0.5-y'
+ 13 '-0.25-z, -0.25-y, -0.25-x'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.25+x, 0.25-z, -0.25+y'
+ 16 '-0.25+x, 0.25+z, 0.25-y'
+ 17 '0.5+y, 0.5-z, -x'
+ 18 '0.25+y, 0.25-x, -0.25+z'
+ 19 'y, z, x'
+ 20 '-0.25+y, 0.25+x, 0.25-z'
+ 21 '0.5+z, 0.5-x, -y'
+ 22 '0.25+z, 0.25-y, -0.25+x'
+ 23 'z, x, y'
+ 24 '-0.25+z, 0.25+y, 0.25-x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zn6 Zn e 24 0.0099 0.6018 0.2870 1
+ Zn5 Zn e 24 0.0245 0.6147 0.4607 1
+ Ru1 Ru e 24 0.0406 0.3258 0.3994 1
+ Zn2 Zn e 24 0.1014 0.4359 0.2874 1
+ Zn1 Zn e 24 0.1130 0.4521 0.4750 1
+ Zn7 Zn e 24 0.1157 0.2251 0.2636 1
+ Zn3 Zn e 24 0.2102 0.3315 0.3506 1
+ Zn4 Zn e 24 0.2717 0.4767 0.2881 1
+ Zn10 Zn d 12 0.125 0.0259 0.2759 1
+ Zn8 Zn d 12 0.125 0.1810 0.4310 1
+ Zn9 Zn d 12 0.125 0.2985 0.5485 1
+ Zn11 Zn d 12 0.125 0.8325 0.0825 1
+ Ru2 Ru c 8 0.1225 0.1225 0.1225 1
+ Ru3 Ru a 4 0.375 0.375 0.375 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              7.79(5)
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5405
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens AED'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1893
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 281
+_refine_ls_R_factor_all                  0.074
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'WILSN; KSFN; EKS; PHASE; LALS'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 1 0.074 5
+ 2 1 0 0.1236 2
+ 2 2 0 0.1972 2
+ 2 2 2 0.2952 5
+ 3 2 0 0.3195 5
+ 3 2 1 0.3435 5
+ 4 0 0 0.3927 3
+ 4 1 0 0.4177 3
+ 3 3 0 0.4422 3
+ 3 3 1 0.4676 1
+ 4 2 1 0.5157 2
+ 5 1 0 0.6398 1
+ 5 2 0 0.7119 5
+ 5 2 1 0.7354 3
+ 4 4 1 0.8088 3
+ 5 3 0 0.8351 3
+ 5 3 1 0.8593 5
+ 4 4 2 0.8832 3
+ 6 1 0 0.9059 3
+ 6 1 1 0.9318 3
+ 5 4 0 1.0053 5
+ 5 4 1 1.0301 7
+ 5 3 3 1.0537 7
+ 6 3 0 1.1031 5
+ 6 3 1 1.1278 8
+ 4 4 4 1.1762 7
+ 7 1 0 1.2263 9
+ 7 1 1 1.2501 5
+ 6 4 0 1.2766 4
+ 7 2 0 1.2982 9
+ 7 2 1 1.3238 9
+ 6 4 2 1.3735 8
+ 7 2 2 1.3967 8
+ 7 3 0 1.4214 5
+ 7 3 1 1.4467 7
+ 6 5 0 1.496 7
+ 6 5 1 1.5192 3
+ 8 0 0 1.5691 5
+ 8 1 0 1.594 7
+ 8 1 1 1.6178 7
+ 7 3 3 1.6444 1
+ 8 2 1 1.6917 5
+ 6 5 3 1.7151 5
+ 7 5 0 1.8137 2
+ 7 5 1 1.8378 1
+ 8 4 0 1.9607 5
+ 8 4 1 1.9854 2
+ 9 1 0 2.0108 3
+ 9 1 1 2.0323 2
+ 8 4 2 2.0594 3
+ 9 2 1 2.1074 6
+ 8 5 0 2.1814 2
+ 9 3 0 2.2035 2
+ 9 3 1 2.2288 2
+ 8 5 2 2.2803 5
+ 9 3 2 2.3023 5
+ 8 4 4 2.3527 7
+ 9 4 0 2.376 6
+ 7 7 1 2.4286 2
+ 10 1 0 2.4757 4
+ 10 1 1 2.4983 1
+ 10 2 0 2.5512 5
+ 9 5 1 2.6242 1
+ 10 3 0 2.6709 2
+
+# End of data set 1251142

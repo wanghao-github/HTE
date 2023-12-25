@@ -1,0 +1,184 @@
+##############################################################################
+#                                                                            #
+# Nb-S             # Nb14S5                                        # 1251421 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251421
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251421
+
+# Entry summary
+
+_chemical_formula_structural             Nb14S5
+_chemical_formula_sum                    Nb14S5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nb14S5,oP76,62
+_chemical_formula_weight                 1461.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Preparation and Crystal Structure of Nb14S5'                                 
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1973
+_journal_volume                          12
+_journal_page_first                      552
+_journal_page_last                       555
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Chen H.Y.'
+;
+Iowa State University
+Ames Laboratory-Atomic Energy Commission
+Ames
+U.S.A. Iowa
+;
+'Tuenge R.T.'
+;
+Iowa State University
+Ames Laboratory-Atomic Energy Commission
+Ames
+U.S.A. Iowa
+;
+'Franzen H.F.'
+;
+Iowa State University
+Ames Laboratory-Atomic Energy Commission
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.48
+_cell_length_b                           3.374
+_cell_length_c                           19.797
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1234.37
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S1 S c 4 0.016 0.25 0.824 1
+ Nb9 Nb c 4 0.0492 0.25 0.4500 1
+ Nb6 Nb c 4 0.0528 0.25 0.6156 1
+ Nb14 Nb c 4 0.0707 0.25 0.1210 1
+ S3 S c 4 0.120 0.25 0.240 1
+ Nb5 Nb c 4 0.1398 0.25 0.7577 1
+ S2 S c 4 0.178 0.25 0.411 1
+ Nb7 Nb c 4 0.2026 0.25 0.5340 1
+ S4 S c 4 0.210 0.25 0.079 1
+ Nb10 Nb c 4 0.2442 0.25 0.2953 1
+ Nb4 Nb c 4 0.3001 0.25 0.6770 1
+ Nb13 Nb c 4 0.3284 0.25 0.1516 1
+ Nb8 Nb c 4 0.3613 0.25 0.5191 1
+ Nb1 Nb c 4 0.3832 0.25 0.8339 1
+ Nb11 Nb c 4 0.3972 0.25 0.3650 1
+ S5 S c 4 0.404 0.25 0.032 1
+ Nb12 Nb c 4 0.4916 0.25 0.2260 1
+ Nb3 Nb c 4 0.5334 0.25 0.5444 1
+ Nb2 Nb c 4 0.7192 0.25 0.5811 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5405
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            12.73
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 502
+_refine_ls_R_factor_all                  0.079
+_refine_ls_wR_factor_all                 0.057
+_computing_structure_refinement          ORABS
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 0 1 83.07 5
+ 2 0 2 66.91 5
+ 1 1 1 32.48 5
+ 0 1 3 30.13 5
+ 5 0 4 29.64 10
+ 6 0 3 27.88 8
+ 1 1 4 27.54 5
+ 4 1 0 27.27 30
+ 3 1 3 27.02 10
+ 2 0 7 26.95 8
+ 4 0 6 26.82 2
+ 2 1 4 26.74 5
+ 6 0 4 26.22 15
+ 7 0 2 25.47 50
+ 4 1 3 25.2 70
+ 5 0 6 24.57 30
+ 5 1 2 24.2 80
+ 4 1 4 23.89 8
+ 3 1 5 23.64 12
+ 1 1 6 23.43 90
+ 5 1 3 23.33 60
+ 3 0 8 22.99 25
+ 2 1 6 22.85 90
+ 6 1 0 22.74 40
+ 8 0 2 22.44 5
+ 6 1 2 22.19 60
+ 3 1 6 22.06 45
+ 4 0 8 21.84 35
+ 4 1 6 21.03 40
+ 8 0 4 20.96 20
+ 9 0 2 20.13 2
+ 5 0 9 18.88 5
+ 3 0 10 18.79 3
+ 0 2 0 16.87 100
+
+# End of data set 1251421

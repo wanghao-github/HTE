@@ -1,0 +1,148 @@
+##############################################################################
+#                                                                            #
+# Nb-O             # NbO2rt                                        # 1251918 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251918
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251918
+
+# Entry summary
+
+_chemical_formula_structural             'NbO2, room temperature form'
+_chemical_formula_sum                    NbO2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NbO2,tI96,88
+_chemical_formula_weight                 124.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+A Powder Neutron Diffraction Study of Semiconducting and Metallic Niobium Dioxide
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1994
+_journal_volume                          113
+_journal_page_first                      9
+_journal_page_last                       14
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bolzan A.A.'
+;
+Sydney University
+Department of Inorganic Chemistry
+Sydney
+Australia
+;
+'Fong C.'
+;
+Sydney University
+Department of Inorganic Chemistry
+Sydney
+Australia
+;
+'Kennedy B.J.'
+;
+Sydney University
+Department of Inorganic Chemistry
+Sydney
+Australia
+;
+'Howard C.J.'
+;
+Australian Atomic Energy Commission Research Establishment
+?
+Lucas Heights
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.702
+_cell_length_b                           13.702
+_cell_length_c                           5.985
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1123.65
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              88
+_symmetry_space_group_name_H-M           'I41/a O2'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, 0.5-y, z'
+ 3 '-x, -y, -z'
+ 4 '-0.25-y, 0.25+x, 0.25+z'
+ 5 '-0.25-y, -0.25+x, -0.25-z'
+ 6 'x, 0.5+y, -z'
+ 7 '0.25+y, 0.25-x, 0.25+z'
+ 8 '0.25+y, -0.25-x, -0.25-z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 1-y, 0.5+z'
+ 11 '0.5-x, 0.5-y, 0.5-z'
+ 12 '0.25-y, 0.75+x, 0.75+z'
+ 13 '0.25-y, 0.25+x, 0.25-z'
+ 14 '0.5+x, 1+y, 0.5-z'
+ 15 '0.75+y, 0.75-x, 0.75+z'
+ 16 '0.75+y, 0.25-x, 0.25-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Nb1 Nb f 16 0.1150 0.1254 0.4766 1
+ O1 O f 16 0.1215 0.2363 0.2538 1
+ O3 O f 16 0.1239 0.5246 0.2505 1
+ O4 O f 16 0.1269 0.0141 0.2544 1
+ Nb2 Nb f 16 0.1349 0.1247 0.0271 1
+ O2 O f 16 0.4758 0.1303 0.0001 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.5
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'HIFAR, ANSTO, Lucas Heights, Australia'                                      
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.5
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 10
+_diffrn_reflns_theta_max                 80
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             36
+_refine_ls_number_reflns                 662
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          LHPM1
+
+# End of data set 1251918

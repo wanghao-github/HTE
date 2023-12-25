@@ -1,0 +1,116 @@
+##############################################################################
+#                                                                            #
+# Al-Hf            # Hf2Al3                                        #  527843 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_527843
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      527843
+
+# Entry summary
+
+_chemical_formula_structural             Hf2Al3
+_chemical_formula_sum                    Al3Hf2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr2Al3,oF40,43
+_chemical_formula_weight                 437.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of Hf2Al3'
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1960
+_journal_volume                          14
+_journal_page_first                      2244
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Edshammar L.E.'
+;
+Stockholm University
+Institute of Inorganic and Physical Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.529
+_cell_length_b                           13.763
+_cell_length_c                           5.522
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             724.2
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              43
+_symmetry_space_group_name_H-M           Fdd2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.25-x, 0.25+y, 0.25+z'
+ 3 '-x, -y, z'
+ 4 '0.25+x, 0.25-y, 0.25+z'
+ 5 'x, 0.5+y, 0.5+z'
+ 6 '0.25-x, 0.75+y, 0.75+z'
+ 7 '-x, 0.5-y, 0.5+z'
+ 8 '0.25+x, 0.75-y, 0.75+z'
+ 9 '0.5+x, y, 0.5+z'
+ 10 '0.75-x, 0.25+y, 0.75+z'
+ 11 '0.5-x, -y, 0.5+z'
+ 12 '0.75+x, 0.25-y, 0.75+z'
+ 13 '0.5+x, 0.5+y, z'
+ 14 '0.75-x, 0.75+y, 0.25+z'
+ 15 '0.5-x, 0.5-y, z'
+ 16 '0.75+x, 0.75-y, 0.25+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Al1 Al b 16 0.065 0.117 0.36 1
+ Hf Hf b 16 0.315 0.052 0.11 1
+ Al2 Al a 8 0 0 0.00 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 527843

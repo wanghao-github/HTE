@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# I-Zr             # ZrI2rhom                                      #  541510 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541510
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541510
+
+# Entry summary
+
+_chemical_formula_structural             Zr6I12
+_chemical_formula_sum                    I2Zr
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZrCl2,hR54,148
+_chemical_formula_weight                 345.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Two Zirconium Iodide Clusters. Hexazirconium Dodecaiodide (Zr6I12) and Cesium Hexazirconium Tetradecaiodide (CsZr6I14)
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1982
+_journal_volume                          21
+_journal_page_first                      3290
+_journal_page_last                       3295
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Guthrie D.H.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.502
+_cell_length_b                           14.502
+_cell_length_c                           9.996
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1820.59
+_cell_formula_units_Z                    18
+_symmetry_Int_Tables_number              148
+_symmetry_space_group_name_H-M           'R-3 h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x, -y, -z'
+ 4 '-y, x-y, z'
+ 5 'x-y, x, -z'
+ 6 'y, -x+y, -z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x, 0.33333-y, 0.33333-z'
+ 10 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 11 '0.66667+x-y, 0.33333+x, 0.33333-z'
+ 12 '0.66667+y, 0.33333-x+y, 0.33333-z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x, 0.66667-y, 0.66667-z'
+ 16 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 17 '0.33333+x-y, 0.66667+x, 0.66667-z'
+ 18 '0.33333+y, 0.66667-x+y, 0.66667-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I1 I f 18 0.08085 0.31154 -0.00074 1
+ I2 I f 18 0.12625 0.17765 0.3246 1
+ Zr Zr f 18 0.143 0.0407 0.1303 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1119
+_refine_ls_R_factor_all                  0.109
+_refine_ls_wR_factor_all                 0.121
+_computing_structure_refinement          MULTAN
+
+# End of data set 541510

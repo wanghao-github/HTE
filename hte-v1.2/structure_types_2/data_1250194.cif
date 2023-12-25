@@ -1,0 +1,167 @@
+##############################################################################
+#                                                                            #
+# B-H              # B10H13mon                                     # 1250194 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250194
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250194
+
+# Entry summary
+
+_chemical_formula_structural             1,5'-B20H26
+_chemical_formula_sum                    B10H13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B10H13,mP184,14
+_chemical_formula_weight                 121.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal and Molecular Structure of 1,5'-Bidecaboran(14)yl: A New Borane from g Irradiation of Decaborane(14)
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1979
+_journal_volume                          18
+_journal_page_first                      1951
+_journal_page_last                       1956
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Brown G.M.'
+;
+Oak Ridge National Laboratory
+Chemistry Division
+Oak Ridge
+U.S.A. Tennessee
+;
+'Pinson J.W.'
+;
+Southern Mississippi University
+Department of Chemistry
+Hattiesburg
+U.S.A. Mississippi
+;
+'Ingram L.L. Jr.'
+;
+Southern Mississippi University
+Department of Chemistry
+Hattiesburg
+U.S.A. Mississippi
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.235
+_cell_length_b                           15.453
+_cell_length_c                           16.3971
+_cell_angle_alpha                        90
+_cell_angle_beta                         114.754
+_cell_angle_gamma                        90
+_cell_volume                             1664.79
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ B-8 B e 4 0.01365 0.35238 0.45421 1
+ H3 H e 4 0.0184 0.5417 0.0922 1
+ H-5-6 H e 4 0.0197 0.3463 0.0368 1
+ H2 H e 4 0.0424 0.4283 0.2316 1
+ H-8 H e 4 0.0615 0.5917 0.5911 1
+ H-8-9 H e 4 0.0667 0.7869 0.0929 1
+ B-6 B e 4 0.07193 0.79585 0.42991 1
+ B-7 B e 4 0.09058 0.68394 0.45843 1
+ H-9 H e 4 0.101 0.2604 0.3348 1
+ B-9 B e 4 0.11934 0.26826 0.41049 1
+ B-2 B e 4 0.12011 0.22846 0.13489 1
+ H-10-9 H e 4 0.1269 0.1882 0.4451 1
+ H7 H e 4 0.1476 0.6215 0.2623 1
+ H-2 H e 4 0.1513 0.2146 0.2068 1
+ B-3 B e 4 0.154 0.14364 0.06923 1
+ B3 B e 4 0.17527 0.52338 0.14539 1
+ H-7-6 H e 4 0.1793 0.7543 0.0096 1
+ B2 B e 4 0.18594 0.45612 0.23461 1
+ H-3 H e 4 0.1864 0.0773 0.0963 1
+ B-5 B e 4 0.18924 0.32767 0.09811 1
+ B7 B e 4 0.24194 0.56918 0.25085 1
+ H9 H e 4 0.2727 0.0769 0.3252 1
+ B-4 B e 4 0.2769 0.17565 0.00121 1
+ B1 B e 4 0.28835 0.41842 0.15886 1
+ B-10 B e 4 0.28973 0.29076 0.00647 1
+ B-1 B e 4 0.325 0.23259 0.10234 1
+ H4 H e 4 0.3297 0.5039 0.0347 1
+ H8 H e 4 0.3378 0.6672 0.1417 1
+ B4 B e 4 0.37244 0.50467 0.10966 1
+ B6 B e 4 0.3731 0.49054 0.33414 1
+ H6 H e 4 0.3885 0.4867 0.4046 1
+ H-4 H e 4 0.4004 0.1342 0.001 1
+ B9 B e 4 0.40157 0.04811 0.31535 1
+ H-10 H e 4 0.4063 0.167 0.4992 1
+ B5 B e 4 0.42608 0.40397 0.27462 1
+ H8-9 H e 4 0.4547 0.0995 0.269 1
+ H5 H e 4 0.4645 0.3409 0.3062 1
+ H-1 H e 4 0.4815 0.2311 0.1533 1
+ H5-6 H e 4 0.5348 0.4568 0.3346 1
+ B10 B e 4 0.54962 0.43593 0.19243 1
+ H7-6 H e 4 0.5853 0.0704 0.1816 1
+ B8 B e 4 0.63255 0.1008 0.33132 1
+ H10 H e 4 0.6544 0.388 0.1847 1
+ H10-9 H e 4 0.6641 0.4911 0.248 1
+ H-7 H e 4 0.7791 0.146 0.0412 1
+ H-6 H e 4 0.8142 0.3323 0.0848 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            294
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            28
+_diffrn_ambient_temperature              294
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    2953
+_exptl_absorpt_coefficient_mu            0.189
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+;
+direct methods, Long's multisolution method
+;
+_refine_ls_number_parameters             415
+_refine_ls_number_reflns                 2227
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250194

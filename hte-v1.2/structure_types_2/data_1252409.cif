@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# K-Tl             # K10Tl7                                        # 1252409 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252409
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252409
+
+# Entry summary
+
+_chemical_formula_structural             K10Tl7
+_chemical_formula_sum                    K10Tl7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K10Tl7,mP68,14
+_chemical_formula_weight                 1821.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis and Structure of K10Tl7: The First Binary Trielide Containing Naked Pentagonal Bipyramidal Tl7Clusters
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2000
+_journal_volume                          39
+_journal_page_first                      778
+_journal_page_last                       782
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kaskel S.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.132
+_cell_length_b                           22.323
+_cell_length_c                           13.376
+_cell_angle_alpha                        90
+_cell_angle_beta                         93.14
+_cell_angle_gamma                        90
+_cell_volume                             3020.8
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ K9 K e 4 0.0135 0.1225 0.0812 1
+ K8 K e 4 0.0385 0.2719 0.2435 1
+ K5 K e 4 0.0476 0.5221 0.7664 1
+ K1 K e 4 0.0711 0.6288 0.0863 1
+ Tl7 Tl e 4 0.2428 0.1237 0.2919 1
+ Tl3 Tl e 4 0.2807 0.553 0.2754 1
+ K6 K e 4 0.3033 0.2698 0.004 1
+ K10 K e 4 0.3124 0.5249 0.5325 1
+ K3 K e 4 0.3133 0.4701 0.0289 1
+ K2 K e 4 0.3215 0.7835 0.0575 1
+ K7 K e 4 0.3382 0.3937 0.3336 1
+ Tl4 Tl e 4 0.4188 0.2396 0.253 1
+ Tl5 Tl e 4 0.4289 0.009 0.2746 1
+ Tl2 Tl e 4 0.4569 0.1216 0.1218 1
+ Tl1 Tl e 4 0.5484 0.128 0.3748 1
+ K4 K e 4 0.6412 0.3551 0.1455 1
+ Tl6 Tl e 4 0.7149 0.1953 0.2078 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            43
+_diffrn_ambient_temperature              296
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker SMART CCD 1000'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    15017
+_exptl_absorpt_coefficient_mu            38.560
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2986
+_refine_ls_R_factor_all                  0.046
+_refine_ls_wR_factor_all                 0.065
+_computing_structure_refinement          'SADABS; SAINT package'
+
+# End of data set 1252409

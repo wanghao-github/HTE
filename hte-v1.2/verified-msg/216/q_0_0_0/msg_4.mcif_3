@@ -1,0 +1,4 @@
+1 x,y,z,+1 mx,my,mz
+2 -x-y-z,z,y,-1 mx+my+mz,-mz,-my
+3 x,z,y,+1 -mx,-mz,-my
+4 -x-y-z,y,z,-1 -mx-my-mz,my,mz

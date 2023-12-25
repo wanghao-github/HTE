@@ -1,0 +1,166 @@
+##############################################################################
+#                                                                            #
+# Mo-P             # Mo8P5ht                                       # 1250802 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250802
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250802
+
+# Entry summary
+
+_chemical_formula_structural             Mo8P5
+_chemical_formula_sum                    Mo8P5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mo8P5,mP13,6
+_chemical_formula_weight                 922.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Mo8P5 from Twin-crystal Data'                       
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1972
+_journal_volume                          26
+_journal_page_first                      365
+_journal_page_last                       382
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Johnsson T.'
+;
+Uppsala University
+Institute of Chemistry
+Uppsala
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.5369
+_cell_length_b                           3.2088
+_cell_length_c                           9.3992
+_cell_angle_alpha                        90
+_cell_angle_beta                         109.592
+_cell_angle_gamma                        90
+_cell_volume                             185.74
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              6
+_symmetry_space_group_name_H-M           P1m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P2 P b 1 0.0123 0.5 0.2051 1
+ Mo3 Mo b 1 0.1818 0.5 0.4663 1
+ Mo5 Mo b 1 0.1826 0.5 0.7901 1
+ Mo1 Mo b 1 0.3887 0.5 0.2195 1
+ Mo2 Mo b 1 0.6277 0.5 0.0001 1
+ Mo4 Mo b 1 0.7456 0.5 0.5256 1
+ P1 P b 1 0.8188 0.5 0.8026 1
+ Mo7 Mo a 1 0.0000 0 0.0000 1
+ P4 P a 1 0.0440 0 0.5911 1
+ P5 P a 1 0.3700 0 0.0053 1
+ P3 P a 1 0.4546 0 0.4285 1
+ Mo8 Mo a 1 0.5119 0 0.7172 1
+ Mo6 Mo a 1 0.7824 0 0.2724 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cr Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo K'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             39
+_refine_ls_number_reflns                 458
+_refine_ls_R_factor_all                  0.119
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 34560 1
+ 1 0 -1 35430 2
+ 1 0 1 67310 2
+ 2 0 -1 69350 2
+ 0 1 0 127250 5
+ 2 0 1 133290 7
+ 3 0 -1 136690 3
+ 0 0 2 138110 2
+ 2 0 -2 140700 1
+ 1 1 0 143790 2
+ 0 1 1 161990 5
+ 1 1 -1 162500 5
+ 1 0 2 187090 7
+ 3 0 -2 191880 7
+ 1 1 1 194590 7
+ 2 1 -1 196310 7
+ 3 0 1 233710 7
+ 4 0 -1 237410 5
+ 1 1 -2 250090 5
+ 2 1 1 260960 7
+ 3 1 -1 263860 7
+ 0 1 2 265460 7
+ 4 0 0 267500 7
+ 2 1 -2 267830 7
+ 2 0 2 269650 3
+ 4 0 -2 276650 3
+ 3 1 0 277760 7
+ 1 0 -3 279440 7
+ 2 0 -3 281120 3
+ 0 0 3 311150 2
+ 1 1 2 314500 5
+ 3 1 -2 319430 5
+ 3 1 1 360670 3
+ 4 1 -1 364690 2
+ 5 0 -1 372020 1
+ 4 0 -3 385320 1
+ 4 1 0 394860 2
+ 2 1 2 397000 3
+ 4 1 -2 404140 2
+ 1 1 -3 406590 3
+ 2 1 -3 408180 2
+ 5 0 0 417510 2
+ 2 0 3 474270 2
+ 5 0 -3 487290 2
+
+# End of data set 1250802

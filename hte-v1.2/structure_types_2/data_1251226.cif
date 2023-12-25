@@ -1,0 +1,131 @@
+##############################################################################
+#                                                                            #
+# Ni-Se            # Ni6Se5ht                                      # 1251226 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251226
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251226
+
+# Entry summary
+
+_chemical_formula_structural             Ni6Se5
+_chemical_formula_sum                    Ni6Se5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni6Se5,oP88,29
+_chemical_formula_weight                 747.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'A Superstructure of Ni6Se5'
+_journal_coden_ASTM                      ACAPCT
+_journal_year                            1975
+_journal_volume                          29
+_journal_page_first                      236
+_journal_page_last                       240
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Akesson G.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+'Rost E.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.863
+_cell_length_b                           17.09
+_cell_length_c                           11.821
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1386.47
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              29
+_symmetry_space_group_name_H-M           Pca21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, y, 0.5+z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5+x, -y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni11 Ni a 4 0.1081 0.2248 0.0763 1
+ Ni9 Ni a 4 0.1107 0.4236 0.4389 1
+ Se9 Se a 4 0.1126 0.2029 0.2737 1
+ Ni8 Ni a 4 0.1151 0.4942 0.2438 1
+ Ni12 Ni a 4 0.1152 0.0759 0.3490 1
+ Se10 Se a 4 0.1168 0.0994 0.0000 1
+ Se6 Se a 4 0.1247 0.4942 0.0407 1
+ Ni6 Ni a 4 0.1263 0.6249 0.1220 1
+ Ni7 Ni a 4 0.1277 0.5694 0.4303 1
+ Se5 Se a 4 0.3593 0.6001 0.2766 1
+ Se4 Se a 4 0.3686 0.6915 0.0147 1
+ Se7 Se a 4 0.3696 0.4006 0.2921 1
+ Ni5 Ni a 4 0.3717 0.7274 0.3781 1
+ Se8 Se a 4 0.3720 0.2991 0.0182 1
+ Se1 Se a 4 0.3728 0.0089 0.2450 1
+ Ni10 Ni a 4 0.3758 0.2759 0.2159 1
+ Ni1 Ni a 4 0.3761 0.0043 0.0432 1
+ Se2 Se a 4 0.6261 0.0956 0.0021 1
+ Ni2 Ni a 4 0.6311 0.0712 0.3530 1
+ Se3 Se a 4 0.6411 0.1989 0.2766 1
+ Ni4 Ni a 4 0.6415 0.2200 0.0801 1
+ Ni3 Ni a 4 0.8759 0.1207 0.1703 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Kb'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3600
+_exptl_absorpt_coefficient_mu            44.0
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1750
+_refine_ls_R_factor_all                  0.060
+_refine_ls_wR_factor_all                 0.053
+_computing_structure_refinement          ?
+
+# End of data set 1251226

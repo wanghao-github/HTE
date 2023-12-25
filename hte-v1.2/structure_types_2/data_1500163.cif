@@ -1,0 +1,153 @@
+##############################################################################
+#                                                                            #
+# Nb-Te            # NbTe4lt1                                      # 1500163 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1500163
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1500163
+
+# Entry summary
+
+_chemical_formula_structural             NbTe4
+_chemical_formula_sum                    NbTe4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NbTe4,tP120,75
+_chemical_formula_weight                 603.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Low-Temperature Structure of NbTe4'                                      
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1994
+_journal_volume                          50
+_journal_page_first                      649
+_journal_page_last                       655
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kusz J.'
+;
+Katowice Silesian University
+Institute of Physics
+Katowice
+Poland
+;
+'Böhm H.'
+;
+Mainz Johannes Gutenberg University
+Institut für Geowissenschaften
+Mainz
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.967
+_cell_length_b                           12.967
+_cell_length_c                           20.465
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3441
+_cell_formula_units_Z                    24
+_symmetry_Int_Tables_number              75
+_symmetry_space_group_name_H-M           P4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-y, x, z'
+ 4 'y, -x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ TeC62 Te d 4 0.0642 0.3397 0.4141 1
+ TeB1 Te d 4 0.0684 0.167 0.2491 1
+ TeB5 Te d 4 0.0716 0.1619 0.5811 1
+ TeC22 Te d 4 0.0729 0.3332 0.0829 1
+ TeB3 Te d 4 0.0791 0.167 0.9139 1
+ TeC42 Te d 4 0.0797 0.3347 0.7459 1
+ TeC32 Te d 4 0.1586 0.4371 0.9153 1
+ TeB2 Te d 4 0.1615 0.0705 0.0815 1
+ TeC12 Te d 4 0.1651 0.4249 0.246 1
+ TeC52 Te d 4 0.1654 0.4253 0.5837 1
+ TeB4 Te d 4 0.1663 0.0683 0.7484 1
+ TeB6 Te d 4 0.1666 0.0818 0.4137 1
+ TeA2 Te d 4 0.3307 0.4266 0.0767 1
+ TeC51 Te d 4 0.3318 0.073 0.5832 1
+ TeC11 Te d 4 0.3332 0.0798 0.2463 1
+ TeA6 Te d 4 0.3367 0.424 0.4164 1
+ TeC31 Te d 4 0.3395 0.0621 0.9142 1
+ TeA4 Te d 4 0.3443 0.4374 0.7462 1
+ TeA3 Te d 4 0.4198 0.3365 0.9168 1
+ TeC41 Te d 4 0.4235 0.1665 0.7458 1
+ TeC21 Te d 4 0.4246 0.1668 0.0836 1
+ TeA5 Te d 4 0.4251 0.3309 0.5775 1
+ TeA1 Te d 4 0.4369 0.344 0.2458 1
+ TeC61 Te d 4 0.439 0.1589 0.4158 1
+ NbC2 Nb c 2 0 0.5 0.0094 1
+ NbC1 Nb c 2 0 0.5 0.17 1
+ NbC6 Nb c 2 0 0.5 0.3217 1
+ NbC5 Nb c 2 0 0.5 0.5119 1
+ NbC4 Nb c 2 0 0.5 0.6614 1
+ NbC3 Nb c 2 0 0.5 0.817 1
+ NbA2 Nb b 1 0.5 0.5 0.0049 1
+ NbA1 Nb b 1 0.5 0.5 0.1543 1
+ NbA6 Nb b 1 0.5 0.5 0.3436 1
+ NbA5 Nb b 1 0.5 0.5 0.4945 1
+ NbA4 Nb b 1 0.5 0.5 0.6533 1
+ NbA3 Nb b 1 0.5 0.5 0.848 1
+ NbB2 Nb a 1 0 0 0.0 1
+ NbB1 Nb a 1 0 0 0.1765 1
+ NbB6 Nb a 1 0 0 0.3348 1
+ NbB5 Nb a 1 0 0 0.4897 1
+ NbB4 Nb a 1 0 0 0.6758 1
+ NbB3 Nb a 1 0 0 0.8367 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            100
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              100
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    37347
+_exptl_absorpt_coefficient_mu            22.41
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.047
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SHELX-76; MSRLSQ; PROMETHEUS'
+
+# End of data set 1500163

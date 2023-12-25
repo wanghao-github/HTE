@@ -1,0 +1,139 @@
+##############################################################################
+#                                                                            #
+# Cd-I             # CdI218H3                                      # 1252055 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252055
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252055
+
+# Entry summary
+
+_chemical_formula_structural             'cadmium iodide, 18H3'
+_chemical_formula_sum                    CdI2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CdI2,hP27,164
+_chemical_formula_weight                 366.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure of an eighteen-layered polytype of cadmium iodide'                 
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1971
+_journal_volume                          134
+_journal_page_first                      91
+_journal_page_last                       96
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lal G.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+'Chadha G.K.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+'Trigunayat G.C.'
+;
+New Dehli University
+Department of Physics and Astrophysics
+New Delhi
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.24
+_cell_length_b                           4.24
+_cell_length_c                           61.515
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             957.73
+_cell_formula_units_Z                    9
+_symmetry_Int_Tables_number              164
+_symmetry_space_group_name_H-M           P-3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I5,10 I d 2 0.333333 0.666667 0.02778 1
+ I4,11 I d 2 0.333333 0.666667 0.13889 1
+ I3,12 I d 2 0.333333 0.666667 0.25 1
+ I2,13 I d 2 0.333333 0.666667 0.36111 1
+ I1,14 I d 2 0.333333 0.666667 0.47222 1
+ I7,8 I d 2 0.333333 0.666667 0.58333 1
+ Cd2,3 Cd d 2 0.333333 0.666667 0.66667 1
+ I6,9 I d 2 0.333333 0.666667 0.80556 1
+ Cd1,4 Cd d 2 0.333333 0.666667 0.88889 1
+ I16,17 I c 2 0 0 0.08333 1
+ Cd6,8 Cd c 2 0 0 0.22222 1
+ I15,18 I c 2 0 0 0.30556 1
+ Cd5,9 Cd c 2 0 0 0.44444 1
+ Cd7 Cd a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device
+'oscillation and Weissenberg photographs'                                     
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1252055

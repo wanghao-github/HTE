@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Nb-O             # Nb12O29orth                                   #  541401 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541401
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541401
+
+# Entry summary
+
+_chemical_formula_structural             Nb12O29
+_chemical_formula_sum                    Nb12O29
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            (Ti0.17Nb0.83)12O29,oS164,63
+_chemical_formula_weight                 1578.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Nb12O29(o-rh)'                                      
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1963
+_journal_volume                          17
+_journal_page_first                      1391
+_journal_page_last                       1404
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Norin R.'
+;
+Stockholm University
+Institute of Inorganic and Physical Chemistry
+Stockholm
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.835
+_cell_length_b                           20.72
+_cell_length_c                           28.9
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2296.43
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O12 O f 8 0 0.05 0.18 1
+ O4 O f 8 0 0.08 0.05 1
+ O15 O f 8 0 0.15 0.69 1
+ O7 O f 8 0 0.16 0.52 1
+ O10 O f 8 0 0.16 0.11 1
+ Nb2 Nb f 8 0 0.17 0.049 1
+ Nb5 Nb f 8 0 0.169 0.185 1
+ O6 O f 8 0 0.26 0.05 1
+ O14 O f 8 0 0.26 0.18 1
+ Nb3 Nb f 8 0 0.352 0.049 1
+ O11 O f 8 0 0.35 0.12 1
+ Nb6 Nb f 8 0 0.352 0.187 1
+ O5 O f 8 0 0.34 0.53 1
+ O16 O f 8 0 0.44 0.18 1
+ O8 O f 8 0 0.45 0.05 1
+ Nb4 Nb f 8 0 0.534 0.184 1
+ Nb1 Nb f 8 0 0.533 0.049 1
+ O9 O f 8 0 0.54 0.12 1
+ O13 O f 8 0 0.64 0.19 1
+ O2 O c 4 0 0.16 0.25 1
+ O3 O c 4 0 0.35 0.25 1
+ O1 O c 4 0 0.54 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5418
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.116
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 541401

@@ -1,0 +1,5 @@
+# Im'm2' (#44.231)
+1 x,y,z,+1 mx,my,mz
+2 z,-x-y-z,x,-1 -mz,mx+my+mz,-mx
+3 x,-x-y-z,z,+1 -mx,mx+my+mz,-mz
+4 z,y,x,-1 mz,my,mx

@@ -1,0 +1,196 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2COK-5 o2                                  # 1321743 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1321743
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1321743
+
+# Entry summary
+
+_chemical_formula_structural             Centre
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,oS432,65
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Characterization of COK-5, Member of a New Family of Zeolite Material with Multiple Channel Systems
+;
+_journal_coden_ASTM                      CMATEX
+_journal_year                            2005
+_journal_volume                          17
+_journal_page_first                      5618
+_journal_page_last                       5624
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kirschhock C.E.A.'
+;
+Leuven Catholic University
+Center for Surface Chemistry and Catalysis
+Leuven
+Belgium
+;
+'Bons A.J.'
+;
+Exxon Chemical Co.
+European Technology Center
+Machelen
+Belgium
+;
+'Mertens M.'
+;
+Exxon Chemical Co.
+European Technology Center
+Machelen
+Belgium
+;
+'Ravishankar R.'
+;
+Leuven Catholic University
+Center for Surface Chemistry and Catalysis
+Leuven
+Belgium
+;
+'Mortier W.'
+;
+Exxon Chemical Co.
+European Technology Center
+Machelen
+Belgium
+;
+'Jacobs P.'
+;
+Leuven Catholic University
+Center for Surface Chemistry and Catalysis
+Leuven
+Belgium
+;
+'Martens J.A.'
+;
+Leuven Catholic University
+Center for Surface Chemistry and Catalysis
+Leuven
+Belgium
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.39
+_cell_length_b                           37.67
+_cell_length_c                           14.47
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             7843.8
+_cell_formula_units_Z                    144
+_symmetry_Int_Tables_number              65
+_symmetry_space_group_name_H-M           Cmmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, z'
+ 12 '0.5-x, 0.5+y, -z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, z'
+ 16 '0.5+x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O10 O r 16 0.065 0.194 0.237 1
+ Si6 Si r 16 0.096 0.156 0.194 1
+ O15 O r 16 0.096 0.262 0.277 1
+ Si3 Si r 16 0.107 0.041 0.184 1
+ Si11 Si r 16 0.107 0.372 0.203 1
+ O8 O r 16 0.116 0.213 0.408 1
+ O25 O r 16 0.122 0.375 0.092 1
+ Si5 Si r 16 0.127 0.222 0.299 1
+ O21 O r 16 0.129 0.331 0.237 1
+ O14 O r 16 0.143 0.162 0.093 1
+ O20 O r 16 0.155 0.306 0.408 1
+ O3 O r 16 0.156 0.067 0.26 1
+ Si10 Si r 16 0.16 0.297 0.298 1
+ O4 O r 16 0.167 0.137 0.266 1
+ O6 O r 16 0.171 0.042 0.091 1
+ Si2 Si r 16 0.218 0.1 0.296 1
+ O1 O r 16 0.225 0.098 0.408 1
+ O9 O r 16 0.235 0.215 0.27 1
+ O18 O r 16 0.322 0.1 0.253 1
+ Si4 Si q 8 0.105 0.189 0.5 1
+ Si9 Si q 8 0.113 0.325 0.5 1
+ O2 O q 8 0.18 0.156 0.5 1
+ Si1 Si q 8 0.245 0.121 0.5 1
+ O17 O q 8 0.353 0.134 0.5 1
+ Si8 Si p 8 0.112 0.141 0 1
+ O13 O p 8 0.161 0.102 0 1
+ Si7 Si p 8 0.208 0.063 0 1
+ O24 O p 8 0.32 0.067 0 1
+ Si12 Si p 8 0.394 0.1 0 1
+ O5 O o 8 0.107 0 0.223 1
+ O16 O n 8 0 0.052 0.164 1
+ O11 O n 8 0 0.134 0.183 1
+ O22 O n 8 0 0.382 0.228 1
+ O7 O j 4 0 0.172 0.5 1
+ O19 O j 4 0 0.322 0.5 1
+ O12 O i 4 0 0.136 0 1
+ O23 O i 4 0 0.415 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.006
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          DLS-76
+
+# End of data set 1321743

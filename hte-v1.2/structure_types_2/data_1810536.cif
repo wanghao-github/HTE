@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# N-S              # SNht                                          # 1810536 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1810536
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810536
+
+# Entry summary
+
+_chemical_formula_structural             S4N4
+_chemical_formula_sum                    NS
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SN,oP32,60
+_chemical_formula_weight                 46.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Tetrasulphur Tetranitride: Phase Transition and Crystal Structure at Elevated Temperature
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2001
+_journal_volume                          627
+_journal_page_first                      321
+_journal_page_last                       325
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Irsen S.H.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+'Jacobs P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+'Dronskowski R.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.839
+_cell_length_b                           8.755
+_cell_length_c                           7.2581
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             561.7
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              60
+_symmetry_space_group_name_H-M           Pbcn
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5+y, 0.5-z'
+ 8 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S1 S d 8 0.0208 0.209 0.0605 1
+ S2 S d 8 0.1453 0.4217 0.2861 1
+ N3 N d 8 0.178 0.307 0.103 1
+ N2 N c 4 0 0.093 0.25 1
+ N1 N c 4 0 0.51 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            393
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              393
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Huber G644'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            14.56
+_exptl_absorpt_correction_type           cylindrical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          FULLPROF
+
+# End of data set 1810536

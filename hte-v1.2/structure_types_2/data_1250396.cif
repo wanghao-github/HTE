@@ -1,0 +1,126 @@
+##############################################################################
+#                                                                            #
+# Ni-Ta            # TaNi3mon                                      # 1250396 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250396
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250396
+
+# Entry summary
+
+_chemical_formula_structural             '12-layer TaNi3'
+_chemical_formula_sum                    Ni3Ta
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NbPt3,mP16,11
+_chemical_formula_weight                 357.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structure Refinement of Monoclinic 12-Layer TaNi3 with b-NbPt3 Type. New Crystallographic Descriptions of the Type and of the Nb3Rh5 Type Based on Smaller Unit Cells
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1991
+_journal_volume                          47
+_journal_page_first                      479
+_journal_page_last                       483
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhao J.T.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Gelato L.M.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Parthé E.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.5319
+_cell_length_b                           5.1253
+_cell_length_c                           8.632
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.79
+_cell_angle_gamma                        90
+_cell_volume                             196.95
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni f 4 0.1130 0.0025 0.3736 1
+ Ni2 Ni f 4 0.7044 0.0017 0.1235 1
+ Ni3 Ni e 2 0.2011 0.25 0.1262 1
+ Ni4 Ni e 2 0.3675 0.25 0.6234 1
+ Ta1 Ta e 2 0.6115 0.25 0.3781 1
+ Ta2 Ta e 2 0.7907 0.25 0.8722 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            300
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            35
+_diffrn_ambient_temperature              300
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1352
+_exptl_absorpt_coefficient_mu            82.661
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             43
+_refine_ls_number_reflns                 309
+_refine_ls_R_factor_all                  0.068
+_refine_ls_wR_factor_all                 0.062
+_computing_structure_refinement          'XTAL2.6 package'
+
+# End of data set 1250396

@@ -1,0 +1,155 @@
+##############################################################################
+#                                                                            #
+# Ce-Sn            # Ce2Sn5                                        # 1250608 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250608
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250608
+
+# Entry summary
+
+_chemical_formula_structural             Ce2Sn5
+_chemical_formula_sum                    Ce2Sn5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce2Sn5,oS28,65
+_chemical_formula_weight                 873.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structures of Ce2Sn5 and Ce3Sn7, Two Superstructures of CeSn3'               
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1988
+_journal_volume                          44
+_journal_page_first                      377
+_journal_page_last                       380
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Boucherle J.X.'
+;
+Centre d'Etudes Nucléaires
+Département de Recherche Fondamentale sur la Matière Condensée
+Grenoble
+France
+;
+'Givord F.'
+;
+Centre National de la Recherche Scientifique
+Laboratoire Louis Néel
+Grenoble
+France
+;
+'Lejay P.'
+;
+Centre National de la Recherche Scientifique
+Centre de Recherche sur les Très Basses Températures
+Grenoble
+France
+;
+'Schweizer J.'
+;
+Centre d'Etudes Nucléaires
+Département de Recherche Fondamentale sur la Matière Condensée
+Grenoble
+France
+;
+'Stunault A.'
+;
+Centre d'Etudes Nucléaires
+Département de Recherche Fondamentale sur la Matière Condensée
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.559
+_cell_length_b                           35.014
+_cell_length_c                           4.619
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             737.33
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              65
+_symmetry_space_group_name_H-M           Cmmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, z'
+ 12 '0.5-x, 0.5+y, -z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, z'
+ 16 '0.5+x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce j 4 0 0.06794 0.5 1
+ Ce2 Ce j 4 0 0.20236 0.5 1
+ Sn3 Sn j 4 0 0.36339 0.5 1
+ Sn4 Sn i 4 0 0.13702 0 1
+ Sn6 Sn i 4 0 0.27853 0 1
+ Sn5 Sn i 4 0 0.42898 0 1
+ Sn1 Sn c 2 0.5 0 0.5 1
+ Sn2 Sn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.175
+_cell_measurement_reflns_used            17
+_diffrn_ambient_temperature              10
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'Siloe reactor, CEN, Grenoble, France'                                        
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.175
+_diffrn_reflns_number                    950
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 303
+_refine_ls_R_factor_all                  0.048
+_refine_ls_wR_factor_all                 0.059
+_computing_structure_refinement          ORXFLS3
+
+# End of data set 1250608

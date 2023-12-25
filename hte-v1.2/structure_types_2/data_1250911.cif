@@ -1,0 +1,138 @@
+##############################################################################
+#                                                                            #
+# Ni-Y             # Y3Ni2                                         # 1250911 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250911
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250911
+
+# Entry summary
+
+_chemical_formula_structural             Y3Ni2
+_chemical_formula_sum                    Ni2Y3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y3Ni2,tP80,92
+_chemical_formula_weight                 384.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Y3Ni2: A New Tetragonal Phase with Ni-Centred Trigonal Prisms'               
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1977
+_journal_volume                          33
+_journal_page_first                      3406
+_journal_page_last                       3409
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Le Roy J.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Moreau J.M.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Paccard D.'
+;
+Centre National de la Recherche Scientifique
+Laboratoire de Magnétisme
+Grenoble
+France
+;
+'Parthé E.'
+;
+Geneva University
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.104
+_cell_length_b                           7.104
+_cell_length_c                           36.597
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1846.93
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              92
+_symmetry_space_group_name_H-M           P41212
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.25-z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5-y, 0.5+x, 0.25+z'
+ 5 '-y, -x, 0.5-z'
+ 6 '0.5+x, 0.5-y, -0.25-z'
+ 7 '0.5+y, 0.5-x, -0.25+z'
+ 8 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni b 8 0.008 0.310 0.4516 1
+ Y7 Y b 8 0.014 0.207 0.1567 1
+ Ni2 Ni b 8 0.130 0.399 0.2243 1
+ Y4 Y b 8 0.159 0.337 0.3180 1
+ Ni3 Ni b 8 0.160 0.490 0.1063 1
+ Y6 Y b 8 0.163 0.012 0.4109 1
+ Y3 Y b 8 0.308 0.057 0.2344 1
+ Y5 Y b 8 0.355 0.191 0.0747 1
+ Ni4 Ni b 8 0.443 0.178 0.3667 1
+ Y1 Y a 4 0.034 0.034 0 1
+ Y2 Y a 4 0.683 0.683 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            20
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    580
+_exptl_absorpt_coefficient_mu            46.3
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 456
+_refine_ls_R_factor_all                  0.11
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          CRYLSQ-76
+
+# End of data set 1250911

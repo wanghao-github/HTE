@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# F-Xe             # XeF3                                          # 1251081 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251081
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251081
+
+# Entry summary
+
+_chemical_formula_structural             XeF2.XeF4
+_chemical_formula_sum                    F3Xe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            XeF3,mP16,14
+_chemical_formula_weight                 188.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Crystal Structure of the Molecular Addition Compound Xenon Difluoride-Xenon Tetrafluoride
+;
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1965
+_journal_volume                          18
+_journal_page_first                      11
+_journal_page_last                       16
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Burns J.H.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Ellison R.D.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+'Levy H.A.'
+;
+Oak Ridge National Laboratory
+?
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.64
+_cell_length_b                           7.33
+_cell_length_c                           6.4
+_cell_angle_alpha                        90
+_cell_angle_beta                         92.67
+_cell_angle_gamma                        90
+_cell_volume                             311.16
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F e 4 0.1681 0.1875 0.1524 1
+ F3 F e 4 0.2400 0.6087 0.0163 1
+ F2 F e 4 0.4947 0.4217 0.2886 1
+ Xe2 Xe4+ d 2 0.5 0 0.5 1
+ Xe1 Xe2+ a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    575
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 540
+_refine_ls_R_factor_all                  0.048
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251081

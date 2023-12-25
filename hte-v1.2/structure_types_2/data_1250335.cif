@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Na-S             # Na2S5rt                                       # 1250335 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250335
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250335
+
+# Entry summary
+
+_chemical_formula_structural             a-Na2S5
+_chemical_formula_sum                    Na2S5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Na2S5,oP28,62
+_chemical_formula_weight                 206.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Die Kristallstruktur des a-Na2S5'
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1984
+_journal_volume                          39
+_journal_page_first                      577
+_journal_page_last                       581
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Böttcher P.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+'Keller R.'
+;
+Aachen RWTH University
+Institut für Anorganische Chemie
+Aachen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.654
+_cell_length_b                           14.51
+_cell_length_c                           5.846
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             649.25
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S2 S d 8 0.04253 0.63475 0.39078 1
+ S1 S d 8 0.29771 0.10248 0.16313 1
+ Na2 Na c 4 0.05399 0.25 0.19738 1
+ S3 S c 4 0.35341 0.25 0.73418 1
+ Na1 Na a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1385
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 407
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.024
+_computing_structure_refinement          'SDP package'
+
+# End of data set 1250335

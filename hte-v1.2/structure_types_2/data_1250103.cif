@@ -1,0 +1,131 @@
+##############################################################################
+#                                                                            #
+# O-Ti             # Ti7O13                                        # 1250103 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250103
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250103
+
+# Entry summary
+
+_chemical_formula_structural             Ti7O13
+_chemical_formula_sum                    O13Ti7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti7O13,aP40,2
+_chemical_formula_weight                 543.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural Chemistry of the Magneli Phases TinO2n-1, 4 <= n <= 9. II. Refinements and Structural Discussion
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1982
+_journal_volume                          44
+_journal_page_first                      273
+_journal_page_last                       281
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Le Page Y.'
+;
+National Research Council
+Solid State Chemistry
+Ottawa
+Canada
+;
+'Strobel P.'
+;
+National Research Council
+Solid State Chemistry
+Ottawa
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.537
+_cell_length_b                           7.132
+_cell_length_c                           11.306
+_cell_angle_alpha                        83.70
+_cell_angle_beta                         89.53
+_cell_angle_gamma                        71.50
+_cell_volume                             420.68
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O11 O i 2 0.00265 0.00377 0.20298 1
+ O42 O i 2 0.05380 0.15300 0.55640 1
+ O32 O i 2 0.07340 0.31540 0.31420 1
+ Ti21 Ti i 2 0.10526 0.73976 0.14776 1
+ Ti11 Ti i 2 0.11271 0.23662 0.14576 1
+ O30 O i 2 0.13330 0.17034 0.98676 1
+ O21 O i 2 0.17960 0.28768 0.75192 1
+ O20 O i 2 0.22005 0.47231 0.09974 1
+ Ti22 Ti i 2 0.28836 0.01253 0.70406 1
+ Ti13 Ti i 2 0.29042 0.71248 0.44778 1
+ Ti23 Ti i 2 0.29786 0.21070 0.44336 1
+ O33 O i 2 0.29865 0.45215 0.52930 1
+ O41 O i 2 0.35005 0.63309 0.29366 1
+ O10 O i 2 0.38765 0.76549 0.05146 1
+ O31 O i 2 0.46675 0.07663 0.16742 1
+ O22 O i 2 0.55715 0.07037 0.59058 1
+ O12 O i 2 0.63115 0.23967 0.37698 1
+ Ti12 Ti i 2 0.71527 0.48897 0.29240 1
+ O40 O i 2 0.74205 0.40381 0.14074 1
+ Ti20 Ti e 1 0.5 0.5 0 1
+ Ti10 Ti d 1 0.5 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_wavelength             0.70932
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3007
+_refine_ls_R_factor_all                  0.036
+_refine_ls_wR_factor_all                 0.041
+_computing_structure_refinement          ?
+
+# End of data set 1250103

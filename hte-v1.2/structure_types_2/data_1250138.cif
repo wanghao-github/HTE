@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Br-In            # In5Br7mon                                     # 1250138 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250138
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250138
+
+# Entry summary
+
+_chemical_formula_structural             In5Br7
+_chemical_formula_sum                    Br7In5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            In5Br7,mS192,15
+_chemical_formula_weight                 1133.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'On the Structure of In5Br7'
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1990
+_journal_volume                          582
+_journal_page_first                      128
+_journal_page_last                       130
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Marsh R.E.'
+;
+California Institute of Technology
+Noyes Laboratory of Chemical Physics
+Pasadena
+U.S.A. California
+;
+'Meyer G.'
+;
+Hannover Gottfried Wilhelm Leibniz University
+Institut für Anorganische Chemie
+Hannover
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.688
+_cell_length_b                           18.602
+_cell_length_c                           19.217
+_cell_angle_alpha                        90
+_cell_angle_beta                         104.19
+_cell_angle_gamma                        90
+_cell_volume                             6476.65
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Br6,7 Br f 8 0.0215 0.4388 0.3502 1
+ Br22,43 Br f 8 0.0478 0.2481 0.0786 1
+ In53,74 In f 8 0.0587 0.0863 0.4149 1
+ Br21,41 Br f 8 0.1083 0.1280 0.2479 1
+ In54,72 In f 8 0.1097 0.4191 0.0860 1
+ Br23,42 Br f 8 0.1158 0.0492 0.0620 1
+ Br15,36 Br f 8 0.1458 0.1477 0.5860 1
+ In21,41 In f 8 0.1542 0.1624 0.1367 1
+ Br14,34 Br f 8 0.1565 0.2833 0.4340 1
+ Br16,35 Br f 8 0.1903 0.3268 0.2476 1
+ In52,71 In f 8 0.1918 0.4549 0.3997 1
+ Br12,31 Br f 8 0.2320 0.0293 0.4246 1
+ In12,32 In f 8 0.2545 0.2580 0.3645 1
+ In22,42 In f 8 0.2900 0.2100 0.1329 1
+ Br26,44 Br f 8 0.2994 0.3263 0.0650 1
+ In11,31 In f 8 0.3033 0.1215 0.3659 1
+ Br13,32 Br f 8 0.3096 0.0459 0.2551 1
+ In63,64 In f 8 0.3638 0.4374 0.2468 1
+ Br25,46 Br f 8 0.3727 0.1223 0.0840 1
+ Br24,45 Br f 8 0.3890 0.2454 0.2483 1
+ Br5,8 Br f 8 0.4776 0.4389 0.1499 1
+ In51,73 In f 8 0.4807 0.2816 0.0989 1
+ Br11,33 Br f 8 0.5647 0.1000 0.0602 1
+ In61 In e 4 0 0.3029 0.25 1
+ In62 In e 4 0 0.5746 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    8396
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1498
+_refine_ls_R_factor_all                  0.085
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250138

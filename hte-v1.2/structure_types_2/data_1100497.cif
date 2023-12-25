@@ -1,0 +1,150 @@
+##############################################################################
+#                                                                            #
+# Cr-O             # Cr6O11                                        # 1100497 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1100497
+_audit_creation_date                     2010-12-15
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1100497
+
+# Entry summary
+
+_chemical_formula_structural             Cr6O11
+_chemical_formula_sum                    Cr6O11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti6O11,aP34,2
+_chemical_formula_weight                 488.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystallographic Shear Structures Derived from CrO2: An Electron Microscopic Study
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1974
+_journal_volume                          9
+_journal_page_first                      261
+_journal_page_last                       266
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Alario Franco M.A.'
+;
+Consejo Superior de Investigaciones Cientificas
+Instituto de Quimica Inorganica Elhuyar
+Madrid
+Spain
+;
+'Thomas J.M.'
+;
+Wales University College
+Edward Davies Chemical Laboratories
+Aberystwyth
+United Kingdom
+;
+'Shannon R.D.'
+;
+Du Pont de Nemours and Co.
+Central Research and Development Department
+Wilmington
+U.S.A. Delaware
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.3
+_cell_length_b                           6.8999
+_cell_length_c                           9.0975
+_cell_angle_alpha                        87.148
+_cell_angle_beta                         82.039
+_cell_angle_gamma                        72.499
+_cell_volume                             314.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ O 0
+ Cr 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O i 2 0.02690 0.17072 0.06668 1
+ O2 O i 2 0.06195 0.35951 0.29854 1
+ O3 O i 2 0.09680 0.69902 0.42348 1
+ O4 O i 2 0.15850 0.26436 0.78284 1
+ Cr1 Cr i 2 0.18784 0.57013 0.24408 1
+ Cr2 Cr i 2 0.19198 0.07145 0.24032 1
+ Cr3 Cr i 2 0.26942 0.64134 0.58608 1
+ Cr4 Cr i 2 0.27361 0.13816 0.58378 1
+ O5 O i 2 0.28695 0.45909 0.03446 1
+ O6 O i 2 0.31260 0.79584 0.14416 1
+ Cr5 Cr i 2 0.32400 0.19508 0.93346 1
+ O7 O i 2 0.37605 0.01703 0.39102 1
+ O8 O i 2 0.40245 0.36027 0.52558 1
+ O9 O i 2 0.51365 0.09631 0.10754 1
+ O10 O i 2 0.55500 0.42612 0.24308 1
+ Cr6 Cr i 2 0.68485 0.30273 0.06176 1
+ O11 O i 2 0.85905 0.07977 0.34858 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1100497

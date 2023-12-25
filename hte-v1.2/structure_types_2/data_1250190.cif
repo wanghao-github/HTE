@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2(Fe) qua                                  # 1250190 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250190
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250190
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2 a Fe-doped brown'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   'quartz low'
+_chemical_compound_source                synthetic
+_chemical_name_structure_type            SiO2,aP9,1
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'On the Structure of a-SiO2 Crystals with Fe3+ Impurity'                      
+_journal_coden_ASTM                      RJICAQ
+_journal_year                            1993
+_journal_volume                          38
+_journal_page_first                      39
+_journal_page_last                       44
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pakhomov V.I.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Goryunov A.V.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Pakhomov P.V.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+'Chibiskova N.T.'
+;
+Russian Academy of Sciences
+N.S. Kurnakov Institute of General and Inorganic Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.916
+_cell_length_b                           4.916
+_cell_length_c                           5.407
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        119.99
+_cell_volume                             113.18
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              1
+_symmetry_space_group_name_H-M           P1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O a 1 0.0000 0.0000 0.0000 1
+ Si1 Si a 1 0.0551 0.7326 0.8801 1
+ Si2 Si a 1 0.1149 0.2626 0.2135 1
+ O6 O a 1 0.1722 0.5861 0.0958 1
+ O2 O a 1 0.3172 0.8787 0.6648 1
+ O5 O a 1 0.4386 0.3189 0.3327 1
+ Si3 Si a 1 0.5850 0.2021 0.5467 1
+ O4 O a 1 0.7310 0.4647 0.7627 1
+ O1 O a 1 0.8521 0.1465 0.4281 1
+
+
+_exptl_crystal_colour                    brown
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2777
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2101
+_refine_ls_R_factor_all                  0.046
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250190

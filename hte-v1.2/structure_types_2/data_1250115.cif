@@ -1,0 +1,139 @@
+##############################################################################
+#                                                                            #
+# Mo-O             # Mo8O23ht                                      # 1250115 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250115
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250115
+
+# Entry summary
+
+_chemical_formula_structural             'Mo8O23 370 K'
+_chemical_formula_sum                    Mo8O23
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mo8O23,mP62,13
+_chemical_formula_weight                 1135.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure Determination of Low-Dimensional Conductor Mo8O23'                 
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1987
+_journal_volume                          66
+_journal_page_first                      40
+_journal_page_last                       46
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fujishita H.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Sato M.'
+;
+Tokyo University
+Institute for Solid State Physics
+Tokyo
+Japan
+;
+'Sato S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Hoshino S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.384
+_cell_length_b                           4.0616
+_cell_length_c                           16.883
+_cell_angle_alpha                        90
+_cell_angle_beta                         106.27
+_cell_angle_gamma                        90
+_cell_volume                             881.01
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              13
+_symmetry_space_group_name_H-M           P12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mo1 Mo g 4 0.06397 0.0850 0.91655 1
+ O6 O g 4 0.0645 0.0057 0.1643 1
+ O1 O g 4 0.0658 0.5012 0.4164 1
+ O7 O g 4 0.1293 0.0070 0.3303 1
+ Mo2 Mo g 4 0.18514 0.0869 0.24568 1
+ O2 O g 4 0.1911 0.5029 0.2458 1
+ O8 O g 4 0.1989 0.0055 0.4960 1
+ O9 O g 4 0.2612 0.0144 0.6632 1
+ Mo3 Mo g 4 0.31501 0.0900 0.57903 1
+ O3 O g 4 0.3191 0.4931 0.0770 1
+ O10 O g 4 0.3261 0.0109 0.3282 1
+ O11 O g 4 0.4113 0.0015 0.5045 1
+ O12 O g 4 0.4570 0.0092 0.1532 1
+ O4 O g 4 0.5531 0.5082 0.0926 1
+ Mo4 Mo g 4 0.55341 0.0921 0.09796 1
+ O5 O a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              370
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Rigaku
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1972
+_refine_ls_R_factor_all                  0.0271
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1250115

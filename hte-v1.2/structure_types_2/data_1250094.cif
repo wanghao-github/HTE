@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# O-Ti             # Ti4O7rt                                       # 1250094 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250094
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250094
+
+# Entry summary
+
+_chemical_formula_structural             Ti4O7
+_chemical_formula_sum                    O7Ti4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti4O7,aP44,2
+_chemical_formula_weight                 303.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Ti4O7, a Member of the Homologous Series TinO2n-1'  
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1971
+_journal_volume                          3
+_journal_page_first                      340
+_journal_page_last                       348
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Marezio M.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+'Dernier P.D.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.6
+_cell_length_b                           7.133
+_cell_length_c                           12.466
+_cell_angle_alpha                        95.05
+_cell_angle_beta                         95.17
+_cell_angle_gamma                        108.71
+_cell_volume                             466.1
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O9 O i 2 0.0350 0.0630 0.1969 1
+ O6 O i 2 0.0400 0.5771 0.6994 1
+ O1 O i 2 0.1042 0.3637 0.5180 1
+ O14 O i 2 0.1105 0.8615 0.0119 1
+ O3 O i 2 0.1527 0.0070 0.4222 1
+ Ti1 Ti i 2 0.2159 0.6526 0.5629 1
+ Ti3 Ti i 2 0.2165 0.1530 0.0628 1
+ Ti4 Ti i 2 0.2185 0.6524 0.0661 1
+ Ti2 Ti i 2 0.2186 0.1528 0.5663 1
+ O8 O i 2 0.2928 0.7859 0.2220 1
+ O7 O i 2 0.2964 0.2949 0.7258 1
+ Ti8 Ti i 2 0.3109 0.0575 0.7986 1
+ Ti6 Ti i 2 0.3119 0.5578 0.2987 1
+ Ti5 Ti i 2 0.3164 0.0599 0.2987 1
+ O11 O i 2 0.3209 0.4367 0.1377 1
+ O5 O i 2 0.4686 0.3533 0.3334 1
+ O10 O i 2 0.5221 0.1432 0.1613 1
+ O2 O i 2 0.5832 0.2974 0.5562 1
+ O13 O i 2 0.5907 0.7867 0.0595 1
+ O4 O i 2 0.6646 0.0596 0.3604 1
+ Ti7 Ti i 2 0.6833 0.4399 0.2011 1
+ O12 O i 2 0.8641 0.4996 0.0845 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3693
+_exptl_absorpt_coefficient_mu            6.809
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1104
+_refine_ls_R_factor_all                  0.025
+_refine_ls_wR_factor_all                 0.044
+_computing_structure_refinement          ORFLS
+
+# End of data set 1250094

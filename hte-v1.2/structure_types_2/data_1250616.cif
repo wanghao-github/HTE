@@ -1,0 +1,120 @@
+##############################################################################
+#                                                                            #
+# P-Se             # P4Se5rt                                       # 1250616 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250616
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250616
+
+# Entry summary
+
+_chemical_formula_structural             P4Se5
+_chemical_formula_sum                    P4Se5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P4Se5,oP36,33
+_chemical_formula_weight                 518.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal and Molecular Structure of Tetraphosphorus Pentaselenide'            
+_journal_coden_ASTM                      JCSIAP
+_journal_year                            1971
+_journal_volume                          ?
+_journal_page_first                      245
+_journal_page_last                       248
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Penney G.J.'
+;
+Cambridge University
+Chemical Institute
+Cambridge
+United Kingdom
+;
+'Sheldrick G.M.'
+;
+Cambridge University
+Chemical Institute
+Cambridge
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.79
+_cell_length_b                           6.66
+_cell_length_c                           11.19
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             953.18
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              33
+_symmetry_space_group_name_H-M           Pna21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5+z'
+ 3 '-x, -y, 0.5+z'
+ 4 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se5 Se a 4 0.0122 0.3233 0.3833 1
+ P1 P a 4 0.0572 0.0117 0.1022 1
+ Se4 Se a 4 0.0692 0.7840 0.3499 1
+ P3 P a 4 0.0983 0.1015 0.2890 1
+ P2 P a 4 0.1095 0.6951 0.1564 1
+ Se1 Se a 4 0.1888 0.1390 0.0000 1
+ Se2 Se a 4 0.2170 0.2077 0.6370 1
+ Se3 Se a 4 0.2689 0.1735 0.2982 1
+ P4 P a 4 0.3216 0.0437 0.1208 1
+
+
+_exptl_crystal_colour                    'red, deep'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5418
+_cell_measurement_reflns_used            105
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_wavelength             1.5418
+_diffrn_reflns_number                    1165
+_exptl_absorpt_coefficient_mu            31.6
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             81
+_refine_ls_number_reflns                 796
+_refine_ls_R_factor_all                  0.105
+_refine_ls_wR_factor_all                 0.108
+_computing_structure_refinement          ?
+
+# End of data set 1250616

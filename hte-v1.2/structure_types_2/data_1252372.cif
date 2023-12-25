@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# Cs-Sb            # Cs3Sb7rt                                      # 1252372 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252372
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252372
+
+# Entry summary
+
+_chemical_formula_structural             Cs3Sb7
+_chemical_formula_sum                    Cs3Sb7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cs3Sb7,mP160,14
+_chemical_formula_weight                 1251.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Synthesis and Crystal Structure of the known Zintl Phases Cs3Sb7 and Cs4Sb2' 
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2000
+_journal_volume                          626
+_journal_page_first                      1992
+_journal_page_last                       1998
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hirschle C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische und Analytische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.057
+_cell_length_b                           15.711
+_cell_length_c                           27.939
+_cell_angle_alpha                        90
+_cell_angle_beta                         96.3
+_cell_angle_gamma                        90
+_cell_volume                             7005.65
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb45 Sb e 4 0.01947 0.0582 0.37963 1
+ Sb44 Sb e 4 0.04109 0.82528 0.1697 1
+ Sb47 Sb e 4 0.05109 0.71592 0.09384 1
+ Sb41 Sb e 4 0.0526 0.70387 0.24262 1
+ Sb42 Sb e 4 0.05998 0.07418 0.28634 1
+ Cs7 Cs e 4 0.07959 0.36323 0.19161 1
+ Cs10 Cs e 4 0.08675 0.59413 0.50553 1
+ Sb23 Sb e 4 0.09051 0.08405 0.11486 1
+ Sb21 Sb e 4 0.10621 0.23435 0.06392 1
+ Cs9 Cs e 4 0.11219 0.52143 0.33987 1
+ Cs12 Cs e 4 0.14623 0.46434 0.01075 1
+ Sb46 Sb e 4 0.15997 0.57985 0.13279 1
+ Sb24 Sb e 4 0.16045 0.32802 0.47959 1
+ Cs1 Cs e 4 0.19793 0.23897 0.3598 1
+ Sb43 Sb e 4 0.19958 0.61959 0.22776 1
+ Sb26 Sb e 4 0.2451 0.0141 0.10676 1
+ Sb22 Sb e 4 0.25439 0.29772 0.11315 1
+ Sb32 Sb e 4 0.25454 0.01002 0.38999 1
+ Cs11 Cs e 4 0.26424 0.13724 0.22948 1
+ Sb27 Sb e 4 0.29607 0.07767 0.01737 1
+ Sb12 Sb e 4 0.30093 0.40113 0.26903 1
+ Sb15 Sb e 4 0.34267 0.43899 0.3657 1
+ Sb25 Sb e 4 0.35773 0.1591 0.10721 1
+ Sb34 Sb e 4 0.37007 0.61789 0.01921 1
+ Cs5 Cs e 4 0.38207 0.34223 0.00316 1
+ Cs3 Cs e 4 0.40854 0.4819 0.15151 1
+ Sb11 Sb e 4 0.44307 0.30695 0.25528 1
+ Sb16 Sb e 4 0.44324 0.29836 0.40326 1
+ Sb13 Sb e 4 0.45213 0.18647 0.32934 1
+ Sb17 Sb e 4 0.52269 0.45347 0.37772 1
+ Cs6 Cs e 4 0.56477 0.1194 0.0237 1
+ Sb14 Sb e 4 0.56628 0.42541 0.28587 1
+ Cs2 Cs e 4 0.57593 0.12708 0.21268 1
+ Sb33 Sb e 4 0.5817 0.29805 0.12203 1
+ Sb31 Sb e 4 0.59282 0.44599 0.06941 1
+ Cs4 Cs e 4 0.69458 0.27032 0.37338 1
+ Sb36 Sb e 4 0.7359 0.22793 0.10951 1
+ Sb37 Sb e 4 0.76645 0.28534 0.01439 1
+ Cs8 Cs e 4 0.76838 0.37397 0.22906 1
+ Sb35 Sb e 4 0.84595 0.36959 0.09916 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    43938
+_diffrn_reflns_theta_min                 1.3
+_diffrn_reflns_theta_max                 28.3
+_exptl_absorpt_coefficient_mu            16.74
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            ?
+_refine_ls_number_parameters             361
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0485
+_refine_ls_wR_factor_all                 0.0922
+_computing_structure_refinement          'SHELXL-97; SHELXS-97'
+
+# End of data set 1252372

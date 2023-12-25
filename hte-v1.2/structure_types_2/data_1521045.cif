@@ -1,0 +1,146 @@
+##############################################################################
+#                                                                            #
+# Ru-Si            # RuSi2tet                                      # 1521045 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1521045
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1521045
+
+# Entry summary
+
+_chemical_formula_structural             a-RuSi2
+_chemical_formula_sum                    RuSi2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Fe0.92Si2,tP3,123
+_chemical_formula_weight                 157.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural, electronic and optical properties of a new binary phase - ruthenium disilicide
+;
+_journal_coden_ASTM                      PSSBBD
+_journal_year                            2005
+_journal_volume                          242
+_journal_page_first                      2864
+_journal_page_last                       2871
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Shaposhnikov V.L.'
+;
+Belarussian State University of Informatics and Radioelectronics
+?
+Minsk
+Belarus
+;
+'Filonov A.B.'
+;
+Belarussian State University of Informatics and Radioelectronics
+?
+Minsk
+Belarus
+;
+'Krivosheeva A.V.'
+;
+Belarussian State University of Informatics and Radioelectronics
+?
+Minsk
+Belarus
+;
+'Ivanenko L.I.'
+;
+Belarussian State University of Informatics and Radioelectronics
+?
+Minsk
+Belarus
+;
+'Borisenko V.E.'
+;
+Belarussian State University of Informatics and Radioelectronics
+?
+Minsk
+Belarus
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           2.836
+_cell_length_b                           2.836
+_cell_length_c                           5.209
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             41.9
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              123
+_symmetry_space_group_name_H-M           P4/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si Si h 2 0.5 0.5 0.28 1
+ Ru Ru a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1521045

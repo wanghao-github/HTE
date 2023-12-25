@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# H-Ni             # Ni2Hht                                        # 1251608 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251608
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251608
+
+# Entry summary
+
+_chemical_formula_structural             Ni2H
+_chemical_formula_sum                    HNi2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni2H,hP3,156
+_chemical_formula_weight                 118.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Electron diffraction investigation of hexagonal nickel hydride'              
+_journal_coden_ASTM                      SPHCA6
+_journal_year                            1978
+_journal_volume                          23
+_journal_page_first                      405
+_journal_page_last                       408
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Khodyrev Y.P.'
+;
+Russian Academy of Sciences
+Institute of Crystallography
+Moscow
+Russia
+;
+'Baranova R.V.'
+;
+Russian Academy of Sciences
+Institute of Crystallography
+Moscow
+Russia
+;
+'Imamov R.M.'
+;
+Russian Academy of Sciences
+Institute of Organic and Physical Chemistry
+Moscow
+Russia
+;
+'Semiletov S.A.'
+;
+Russian Academy of Sciences
+Institute of Organic and Physical Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           2.66
+_cell_length_b                           2.66
+_cell_length_c                           4.33
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             26.53
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ H H c 1 0.666667 0.333333 0.224 1
+ Ni1 Ni b 1 0.333333 0.666667 0.451 1
+ Ni2 Ni a 1 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              275
+_diffrn_measurement_device               'electron diffraction'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   electrons
+_diffrn_reflns_number                    30
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.145
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251608

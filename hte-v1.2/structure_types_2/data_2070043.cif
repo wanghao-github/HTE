@@ -1,0 +1,113 @@
+##############################################################################
+#                                                                            #
+# Fe-S             # FeS2lt pyr                                    # 2070043 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_2070043
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      2070043
+
+# Entry summary
+
+_chemical_formula_structural             FeS2
+_chemical_formula_sum                    FeS2
+_chemical_name_mineral                   pyrite
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni(As0.4S0.6)2,aP12,1
+_chemical_formula_weight                 120.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure refinement of a weakly anisotropic pyrite'                 
+_journal_coden_ASTM                      AMMIAY
+_journal_year                            1977
+_journal_volume                          62
+_journal_page_first                      1168
+_journal_page_last                       1172
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bayliss P.'
+;
+Calgary University
+Department of Geology
+Calgary
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.417
+_cell_length_b                           5.417
+_cell_length_c                           5.417
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             158.96
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              1
+_symmetry_space_group_name_H-M           P1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S7 S a 1 0.0 0.0 0.0 1
+ S2 S a 1 -0.0002 0.5005 0.7258 1
+ Fe1 Fe a 1 0.1137 0.6189 0.1164 1
+ Fe4 Fe a 1 0.1153 0.1197 0.6157 1
+ S6 S a 1 0.2293 0.7308 0.4962 1
+ S3 S a 1 0.2293 0.2302 0.2301 1
+ S5 S a 1 0.4996 0.2296 0.7276 1
+ S4 S a 1 0.4994 0.73 0.0009 1
+ Fe3 Fe a 1 0.6146 0.617 0.6164 1
+ Fe2 Fe a 1 0.6181 0.1195 0.1145 1
+ S1 S a 1 0.729 -0.0001 0.4976 1
+ S8 S a 1 0.729 0.5001 0.2305 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu K'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 50
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 0.025
+_computing_structure_refinement          RFINE-4
+
+# End of data set 2070043

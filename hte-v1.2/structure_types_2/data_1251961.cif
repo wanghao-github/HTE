@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# S-Tm             # Tm15S22                                       # 1251961 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251961
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251961
+
+# Entry summary
+
+_chemical_formula_structural             Tm15S22
+_chemical_formula_sum                    S22Tm15
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tm15S22,mS74,12
+_chemical_formula_weight                 3239.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'A SINGLE CRYSTAL STRUCTURE DETERMINATION OF Tm15S22 - A NEW THULIUM SULFIDE' 
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1991
+_journal_volume                          168
+_journal_page_first                      377
+_journal_page_last                       382
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhang Y.'
+;
+Iowa State University
+Ames Laboratory-Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Franzen H.F.'
+;
+Iowa State University
+Ames Laboratory-Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           38.395
+_cell_length_b                           3.8421
+_cell_length_c                           11.141
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.02
+_cell_angle_gamma                        90
+_cell_volume                             1643.23
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S4 S i 4 0.0072 0 0.2384 1
+ Tm2 Tm i 4 0.06861 0 0.3582 1
+ S7 S i 4 0.0900 0 0.7514 1
+ Tm8 Tm i 4 0.10476 0 0.0106 1
+ S10 S i 4 0.1340 0 0.4618 1
+ S5 S i 4 0.1668 0 0.1494 1
+ S9 S i 4 0.1862 0 0.6922 1
+ S6 S i 4 0.2551 0 0.1201 1
+ Tm6 Tm i 4 0.26545 0 0.3529 1
+ S2 S i 4 0.2799 0 0.5916 1
+ S3 S i 4 0.3530 0 0.0922 1
+ Tm1 Tm i 4 0.36670 0 0.3428 1
+ S11 S i 4 0.4473 0 0.4970 1
+ S1 S i 4 0.4511 0 0.0321 1
+ Tm3 Tm i 4 0.46071 0 0.2740 1
+ S8 S i 4 0.5930 0 0.2061 1
+ Tm7 Tm i 4 0.65718 0 0.3054 1
+ Tm4 Tm i 4 0.79879 0 0.0568 1
+ Tm5 Tm a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              296
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC6R'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71079
+_diffrn_reflns_number                    3359
+_exptl_absorpt_coefficient_mu            42.135
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             114
+_refine_ls_number_reflns                 1072
+_refine_ls_R_factor_all                  0.0256
+_refine_ls_wR_factor_all                 0.0295
+_computing_structure_refinement          'TEXSAN; SHELXS-86; DIFABS'
+
+# End of data set 1251961

@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# Pd-Se            # Pd34Se11                                      # 1250457 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250457
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250457
+
+# Entry summary
+
+_chemical_formula_structural             Pd34Se11
+_chemical_formula_sum                    Pd34Se11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd34Se11,mP90,14
+_chemical_formula_weight                 4486.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structures of Superconducting Palladium Selenides, Pd7Se2 and Pd34Se11'      
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1989
+_journal_volume                          45
+_journal_page_first                      1
+_journal_page_last                       3
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sato S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Takabatake T.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Ishikawa M.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.03
+_cell_length_b                           5.504
+_cell_length_c                           22.776
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.96
+_cell_angle_gamma                        90
+_cell_volume                             1398.65
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd15 Pd e 4 0.0168 0.3556 0.2085 1
+ Pd13 Pd e 4 0.0423 0.1835 0.4048 1
+ Pd1 Pd e 4 0.0756 0.1808 0.1038 1
+ Se6 Se e 4 0.0853 0.4503 0.3218 1
+ Pd2 Pd e 4 0.1138 0.6125 0.0211 1
+ Pd16 Pd e 4 0.1279 0.8489 0.2142 1
+ Pd12 Pd e 4 0.1658 0.7028 0.4144 1
+ Se2 Se e 4 0.1741 0.5763 0.1386 1
+ Pd3 Pd e 4 0.2067 0.1244 0.0211 1
+ Pd17 Pd e 4 0.2117 0.0942 0.3345 1
+ Pd4 Pd e 4 0.2605 0.2945 0.2245 1
+ Se5 Se e 4 0.2658 0.0844 0.4560 1
+ Pd8 Pd e 4 0.2774 0.6097 0.3253 1
+ Pd6 Pd e 4 0.3562 0.4091 0.1293 1
+ Pd10 Pd e 4 0.3587 0.7228 0.0338 1
+ Pd14 Pd e 4 0.3904 0.4217 0.4507 1
+ Se4 Se e 4 0.4501 0.0881 0.0887 1
+ Pd7 Pd e 4 0.4533 0.2466 0.3439 1
+ Pd9 Pd e 4 0.5238 0.0856 0.2431 1
+ Pd11 Pd e 4 0.5636 0.4158 0.0664 1
+ Se3 Se e 4 0.6420 0.4149 0.2259 1
+ Pd5 Pd e 4 0.6991 0.4194 0.3566 1
+ Se1 Se a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            35
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            35.2
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2591
+_refine_ls_R_factor_all                  0.032
+_refine_ls_wR_factor_all                 0.055
+_computing_structure_refinement          'MULTAN-78; UNICS-II; RADIEL'
+
+# End of data set 1250457

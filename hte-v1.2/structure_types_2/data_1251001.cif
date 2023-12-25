@@ -1,0 +1,200 @@
+##############################################################################
+#                                                                            #
+# Cu-S             # Cu31S16rt dju                                 # 1251001 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251001
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251001
+
+# Entry summary
+
+_chemical_formula_structural             Cu31S16
+_chemical_formula_sum                    Cu31S16
+_chemical_name_mineral                   djurleite
+_chemical_compound_source
+'Ozark Lead Co. mine, Sweetwater, Missouri, USA'                              
+_chemical_name_structure_type            Cu31S16,mP376,14
+_chemical_formula_weight                 2482.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structures of low chalcocite and djurleite'                      
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1979
+_journal_volume                          150
+_journal_page_first                      299
+_journal_page_last                       320
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Evans H.T. Jr.'
+;
+U.S. Geological Survey
+National Center
+Reston
+U.S.A. Virginia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.465
+_cell_length_b                           15.745
+_cell_length_c                           30.052
+_cell_angle_alpha                        90
+_cell_angle_beta                         116.49
+_cell_angle_gamma                        90
+_cell_volume                             5702.32
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cu48 Cu e 4 0.0174 0.4944 0.3593 1
+ Cu50 Cu e 4 0.0282 0.4969 0.1445 1
+ Cu49 Cu e 4 0.0354 0.7449 0.1455 1
+ Cu57 Cu e 4 0.0415 0.4591 0.2340 1
+ Cu20 Cu e 4 0.0461 0.6225 0.3072 1
+ Cu38 Cu e 4 0.0466 0.3411 0.1077 1
+ Cu39 Cu e 4 0.0496 0.1670 0.1076 1
+ Cu58 Cu e 4 0.0508 0.2857 0.2322 1
+ Cu29 Cu e 4 0.0515 0.1117 0.4895 1
+ Cu19 Cu e 4 0.0527 0.1148 0.3112 1
+ Cu5 Cu e 4 0.0559 0.7575 0.0558 1
+ Cu6 Cu e 4 0.0691 0.4915 0.0643 1
+ Cu4 Cu e 4 0.0715 0.0101 0.0659 1
+ Cu18 Cu e 4 0.0738 0.3664 0.3189 1
+ Cu28 Cu e 4 0.0789 0.3955 0.4858 1
+ S10 S e 4 0.1005 0.2644 0.4339 1
+ S11 S e 4 0.1021 0.0096 0.4355 1
+ S12 S e 4 0.1035 0.7523 0.4317 1
+ S9 S e 4 0.1057 0.5068 0.4431 1
+ S25 S e 4 0.1059 0.8761 0.1827 1
+ S27 S e 4 0.1100 0.3784 0.1900 1
+ S26 S e 4 0.1104 0.6220 0.1822 1
+ S28 S e 4 0.1120 0.1222 0.1875 1
+ Cu30 Cu e 4 0.1161 0.6401 0.4829 1
+ S32 S e 4 0.1331 0.7472 0.3085 1
+ S6 S e 4 0.1377 0.6271 0.0569 1
+ S30 S e 4 0.1389 0.2397 0.3118 1
+ Cu60 Cu e 4 0.1392 0.8655 0.2633 1
+ S29 S e 4 0.1405 0.5011 0.3149 1
+ S31 S e 4 0.1436 0.5080 0.8066 1
+ S5 S e 4 0.1482 0.6167 0.5621 1
+ S8 S e 4 0.1523 0.1363 0.0669 1
+ S7 S e 4 0.1584 0.3674 0.0698 1
+ Cu61 Cu e 4 0.1766 0.6466 0.2644 1
+ Cu8 Cu e 4 0.1817 0.1402 0.4384 1
+ Cu27 Cu e 4 0.1839 0.2609 0.0174 1
+ Cu7 Cu e 4 0.1919 0.3874 0.4326 1
+ Cu26 Cu e 4 0.1968 0.5355 0.0159 1
+ Cu16 Cu e 4 0.1977 0.0013 0.1811 1
+ Cu17 Cu e 4 0.1991 0.2497 0.1943 1
+ Cu59 Cu e 4 0.2060 0.0914 0.2694 1
+ Cu25 Cu e 4 0.2080 0.7104 0.0144 1
+ Cu46 Cu e 4 0.2170 0.8300 0.1390 1
+ Cu47 Cu e 4 0.2187 0.6335 0.1398 1
+ Cu42 Cu e 4 0.2211 0.0283 0.3871 1
+ Cu41 Cu e 4 0.2698 0.2499 0.3926 1
+ Cu40 Cu e 4 0.2828 0.4926 0.3954 1
+ Cu36 Cu e 4 0.2857 0.2333 0.1125 1
+ Cu37 Cu e 4 0.2928 0.0427 0.1087 1
+ Cu56 Cu e 4 0.2945 0.4116 0.2311 1
+ Cu35 Cu e 4 0.2954 0.4654 0.1077 1
+ Cu11 Cu e 4 0.3005 0.2465 0.3069 1
+ Cu10 Cu e 4 0.3095 0.5005 0.3116 1
+ Cu55 Cu e 4 0.3264 0.6090 0.2342 1
+ S23 S e 4 0.3497 0.5049 0.1871 1
+ S14 S e 4 0.3515 0.1258 0.4366 1
+ S13 S e 4 0.3626 0.3686 0.4350 1
+ S24 S e 4 0.3660 0.2527 0.1950 1
+ Cu22 Cu e 4 0.3800 0.6095 0.0171 1
+ S4 S e 4 0.3816 0.2441 0.0563 1
+ S3 S e 4 0.3841 0.4873 0.0587 1
+ S17 S e 4 0.3855 0.3709 0.3114 1
+ S1 S e 4 0.3903 0.0089 0.0646 1
+ Cu24 Cu e 4 0.3907 0.1239 0.0149 1
+ S18 S e 4 0.3918 0.1166 0.3128 1
+ Cu23 Cu e 4 0.3946 0.3656 0.0183 1
+ Cu1 Cu e 4 0.4431 0.0008 0.4411 1
+ Cu14 Cu e 4 0.4451 0.3786 0.1946 1
+ Cu15 Cu e 4 0.4478 0.1294 0.1901 1
+ Cu33 Cu e 4 0.4557 0.1574 0.3927 1
+ Cu52 Cu e 4 0.462 0.2116 0.2759 1
+ Cu32 Cu e 4 0.4635 0.4176 0.3918 1
+ Cu53 Cu e 4 0.4689 0.0378 0.2702 1
+ Cu44 Cu e 4 0.4888 0.0006 0.3610 1
+ Cu45 Cu e 4 0.4891 0.2678 0.1374 1
+ Cu21 Cu e 4 0.5500 0.3469 0.4837 1
+ Cu13 Cu e 4 0.5502 0.3745 0.3113 1
+ Cu34 Cu e 4 0.5528 0.0890 0.1035 1
+ Cu2 Cu e 4 0.5570 0.2448 0.0630 1
+ S19 S e 4 0.6033 0.3767 0.1834 1
+ S2 S e 4 0.6064 0.2433 0.4430 1
+ S20 S e 4 0.6090 0.1300 0.1838 1
+ Cu62 Cu e 4 0.6169 0.2385 0.3723 1
+ S21 S e 4 0.6318 0.4956 0.3111 1
+ S15 S e 4 0.6381 0.3703 0.0617 1
+ S22 S e 4 0.6486 0.2430 0.3072 1
+ S16 S e 4 0.6629 0.1247 0.0660 1
+ Cu3 Cu e 4 0.6807 0.3714 0.4341 1
+ Cu54 Cu e 4 0.6893 0.3619 0.2656 1
+ Cu12 Cu e 4 0.6914 0.2541 0.1806 1
+ Cu31 Cu e 4 0.7014 0.0332 0.0148 1
+ Cu51 Cu e 4 0.7125 0.4024 0.1428 1
+ Cu43 Cu e 4 0.7933 0.2252 0.1095 1
+ Cu9 Cu e 4 0.8141 0.3845 0.0683 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    8494
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 22.5
+_exptl_absorpt_coefficient_mu            23.0
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'direct methods, starting values derived from related structure'              
+_refine_ls_number_parameters             849
+_refine_ls_number_reflns                 5686
+_refine_ls_R_factor_all                  0.116
+_refine_ls_wR_factor_all                 0.088
+_computing_structure_refinement          'XRAY-76 package; RFINE'
+
+# End of data set 1251001

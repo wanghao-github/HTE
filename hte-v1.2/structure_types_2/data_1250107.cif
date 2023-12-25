@@ -1,0 +1,161 @@
+##############################################################################
+#                                                                            #
+# O-Ti             # Ti6O11lt1                                     # 1250107 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250107
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250107
+
+# Entry summary
+
+_chemical_formula_structural             'Ti6O11 intermediate phase'
+_chemical_formula_sum                    O11Ti6
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti6O11,aP102,2
+_chemical_formula_weight                 463.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural Chemistry of Magneli Phases TinO2n-1 (4 <= n <= 9). III. Valence Ordering of Titanium in Ti6O11 at 130 K
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1983
+_journal_volume                          47
+_journal_page_first                      6
+_journal_page_last                       15
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Le Page Y.'
+;
+National Research Council
+Solid State Chemistry
+Ottawa
+Canada
+;
+'Strobel P.'
+;
+Joseph Fourier Institute
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.517
+_cell_length_b                           11.986
+_cell_length_c                           13.397
+_cell_angle_alpha                        98.29
+_cell_angle_beta                         105.52
+_cell_angle_gamma                        107.79
+_cell_volume                             1073.32
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O312 O i 2 0.0164 0.2256 0.8331 1
+ O311 O i 2 0.0163 0.5574 0.1675 1
+ O310 O i 2 0.0175 0.8912 0.5011 1
+ Ti222 Ti i 2 0.06690 0.07884 0.84509 1
+ Ti221 Ti i 2 0.07015 0.41260 0.17031 1
+ Ti220 Ti i 2 0.07259 0.74813 0.50701 1
+ O111 O i 2 0.0776 0.3784 0.0304 1
+ O112 O i 2 0.0800 0.0459 0.6943 1
+ O110 O i 2 0.0838 0.7134 0.3646 1
+ O221 O i 2 0.0872 0.4412 0.3302 1
+ O222 O i 2 0.1047 0.1092 0.0044 1
+ Ti111 Ti i 2 0.13500 0.35851 0.77662 1
+ Ti110 Ti i 2 0.13727 0.02810 0.44161 1
+ Ti112 Ti i 2 0.14076 0.69396 0.11097 1
+ O421 O i 2 0.1691 0.6107 0.5455 1
+ O422 O i 2 0.1711 0.2777 0.2087 1
+ Ti230 Ti i 2 0.19372 0.30203 0.36303 1
+ Ti232 Ti i 2 0.19441 0.96193 0.03274 1
+ O120 O i 2 0.1993 0.3650 0.5153 1
+ O122 O i 2 0.2143 0.0416 0.1825 1
+ O321 O i 2 0.2648 0.4970 0.7137 1
+ O322 O i 2 0.2664 0.8276 0.0463 1
+ O320 O i 2 0.2680 0.1650 0.3836 1
+ O402 O i 2 0.3008 0.6189 0.0406 1
+ O401 O i 2 0.3015 0.2858 0.7099 1
+ Ti131 Ti i 2 0.30186 0.52800 0.47175 1
+ Ti132 Ti i 2 0.30548 0.20666 0.14345 1
+ Ti212 Ti i 2 0.35060 0.13546 0.72563 1
+ O211 O i 2 0.3567 0.5063 0.2085 1
+ O200 O i 2 0.3610 0.1046 0.5807 1
+ O212 O i 2 0.3619 0.1737 0.8746 1
+ Ti211 Ti i 2 0.36228 0.47360 0.05788 1
+ O202 O i 2 0.3622 0.7732 0.2466 1
+ Ti120 Ti i 2 0.42566 0.08682 0.33037 1
+ O412 O i 2 0.4257 0.3229 0.0792 1
+ O411 O i 2 0.4271 0.6580 0.4113 1
+ O331 O i 2 0.4604 0.4410 0.4018 1
+ O332 O i 2 0.4664 0.1084 0.0728 1
+ O330 O i 2 0.5443 0.2332 0.2651 1
+ Ti121 Ti i 2 0.56583 0.58444 0.33757 1
+ Ti122 Ti i 2 0.56781 0.24701 0.00287 1
+ O410 O i 2 0.5750 0.0128 0.2541 1
+ Ti210 Ti i 2 0.63583 0.19572 0.60854 1
+ O210 O i 2 0.6417 0.1624 0.4609 1
+ O201 O i 2 0.6426 0.5631 0.0900 1
+ O400 O i 2 0.6967 0.0460 0.6231 1
+ Ti130 Ti i 2 0.70086 0.12888 0.19168 1
+ O121 O i 2 0.7979 0.3011 0.1581 1
+ Ti231 Ti i 2 0.80154 0.37417 0.30947 1
+ O420 O i 2 0.8284 0.0573 0.1243 1
+ O220 O i 2 0.9029 0.2252 0.3335 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              130(5)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            6.4
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'direct methods, starting values from the literature'                         
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 3062
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          MULTAN
+
+# End of data set 1250107

@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# I-Re             # ReI3                                          # 1250140 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250140
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250140
+
+# Entry summary
+
+_chemical_formula_structural             Re3I9
+_chemical_formula_sum                    I3Re
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ReI3,mP24,11
+_chemical_formula_weight                 566.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal and Molecular Structure of Trirhenium Nonaiodide'                
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1968
+_journal_volume                          7
+_journal_page_first                      1563
+_journal_page_last                       1569
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bennett M.J.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Cotton F.A.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+'Foxman B.M.'
+;
+Massachusetts Institute of Technology
+Department of Chemistry
+Cambridge
+U.S.A. Massachusetts
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.799
+_cell_length_b                           11.309
+_cell_length_c                           9.234
+_cell_angle_alpha                        90
+_cell_angle_beta                         110.25
+_cell_angle_gamma                        90
+_cell_volume                             862.06
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I1T I f 4 0.01980 0.08982 0.30472 1
+ I1B I f 4 0.32339 0.00950 0.11091 1
+ Re1 Re f 4 0.32799 0.13917 0.36340 1
+ I3T I f 4 0.65359 0.09115 0.48280 1
+ I2T I e 2 0.03050 0.25 0.93232 1
+ Re2 Re e 2 0.31955 0.25 0.13401 1
+ I2B I e 2 0.34714 0.25 0.63366 1
+ I4T I e 2 0.60110 0.25 0.10167 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              294
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 623
+_refine_ls_R_factor_all                  0.044
+_refine_ls_wR_factor_all                 0.053
+_computing_structure_refinement          ?
+
+# End of data set 1250140

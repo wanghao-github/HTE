@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# Ga-Na            # Na22Ga39                                      # 1250381 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250381
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250381
+
+# Entry summary
+
+_chemical_formula_structural             Na22Ga39
+_chemical_formula_sum                    Ga39Na22
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Na22Ga39,oP244,62
+_chemical_formula_weight                 3224.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure of the Intermetallic Compound Na22Ga (~36.07%Na)'                  
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1982
+_journal_volume                          38
+_journal_page_first                      1101
+_journal_page_last                       1104
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ling R.G.'
+;
+Languedoc University of Science and Technology
+Laboratoire des Acides Minéraux
+Montpellier
+France
+;
+'Belin C.'
+;
+Languedoc University of Science and Technology
+Laboratoire des Acides Minéraux
+Montpellier
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.585
+_cell_length_b                           14.948
+_cell_length_c                           21.632
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5039.49
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Na6 Na d 8 0.0107 0.0593 0.2225 1
+ Ga6 Ga d 8 0.0116 0.5755 0.1124 1
+ Na5 Na d 8 0.0147 0.1265 0.3699 1
+ Ga15 Ga d 8 0.0293 0.6514 0.2276 1
+ Ga4 Ga d 8 0.0694 0.0926 0.5073 1
+ Ga13 Ga d 8 0.0694 0.5557 0.4379 1
+ Na2 Na d 8 0.0818 0.0763 0.6583 1
+ Ga7 Ga d 8 0.0961 0.0777 0.0809 1
+ Ga14 Ga d 8 0.1202 0.5600 0.3178 1
+ Ga12 Ga d 8 0.1446 0.5736 0.0288 1
+ Ga2 Ga d 8 0.1846 0.1610 0.1660 1
+ Ga3 Ga d 8 0.1896 0.0955 0.2817 1
+ Na7 Na d 8 0.2017 0.5602 0.1769 1
+ Ga9 Ga d 8 0.2079 0.6556 0.4141 1
+ Ga11 Ga d 8 0.2101 0.1500 0.5573 1
+ Na3 Na d 8 0.2187 0.0613 0.4214 1
+ Na4 Na d 8 0.3112 0.0636 0.0563 1
+ Na1 Na d 8 0.3306 0.5662 0.3055 1
+ Ga5 Ga d 8 0.3366 0.0959 0.2066 1
+ Ga8 Ga d 8 0.3391 0.1600 0.3246 1
+ Ga1 Ga d 8 0.3563 0.5789 0.4562 1
+ Ga10 Ga d 8 0.4225 0.0740 0.4119 1
+ Ga16 Ga d 8 0.5024 0.1643 0.5042 1
+ Na9 Na c 4 0.0103 0.25 0.1283 1
+ Ga20 Ga c 4 0.0955 0.25 0.2555 1
+ Ga22 Ga c 4 0.1006 0.25 0.7429 1
+ Ga21 Ga c 4 0.1236 0.25 0.4655 1
+ Ga18 Ga c 4 0.1915 0.25 0.3548 1
+ Ga23 Ga c 4 0.1933 0.25 0.6522 1
+ Na12 Na c 4 0.1948 0.25 0.0285 1
+ Na11 Na c 4 0.2988 0.25 0.7773 1
+ Na10 Na c 4 0.3280 0.25 0.4592 1
+ Ga19 Ga c 4 0.3332 0.25 0.1333 1
+ Na13 Na c 4 0.3790 0.25 0.6137 1
+ Ga17 Ga c 4 0.4241 0.25 0.2378 1
+ Na15 Na c 4 0.4254 0.25 0.0086 1
+ Na8 Na c 4 0.4774 0.25 0.8736 1
+ Na14 Na c 4 0.6064 0.25 0.6199 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            18
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            21.6
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1722
+_refine_ls_R_factor_all                  0.039
+_refine_ls_wR_factor_all                 0.045
+_computing_structure_refinement          'DRF; MULTAN-80; ORFLS'
+
+# End of data set 1250381

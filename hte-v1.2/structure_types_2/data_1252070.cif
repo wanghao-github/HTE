@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# Rb-Tl            # Rb15Tl27                                      # 1252070 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252070
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252070
+
+# Entry summary
+
+_chemical_formula_structural             Rb15Tl27
+_chemical_formula_sum                    Rb15Tl27
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rb15Tl27,hP42,189
+_chemical_formula_weight                 6800.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+A15Tl27 (A= Rb, Cs): A Structural Type Containing Both Isolated Clusters and Condensed Layers Based on the Tl11 Fragment. Syntheses, Structure, Properties, and Band Structure
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1996
+_journal_volume                          35
+_journal_page_first                      1444
+_journal_page_last                       1450
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dong Z.C.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.3248
+_cell_length_b                           10.3248
+_cell_length_c                           17.558
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1620.95
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              189
+_symmetry_space_group_name_H-M           P-62m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -x+y, z'
+ 6 '-y, x-y, -z'
+ 7 '-y, x-y, z'
+ 8 'x, y, -z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, -y, z'
+ 11 'y, x, -z'
+ 12 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tl4 Tl j 6 0.2920 0.4639 0 1
+ Tl5 Tl i 6 0.3801 0 0.1005 1
+ Rb1 Rb i 6 0.388 0 0.3156 1
+ Tl3 Tl i 6 0.7145 0 0.4089 1
+ Rb3 Rb i 6 0.73 0 0.1892 1
+ Tl6 Tl h 4 0.333333 0.666667 0.1566 1
+ Tl2 Tl g 3 0.2123 0 0.5 1
+ Tl1 Tl e 2 0 0 0.3490 1
+ Rb2 Rb d 2 0.333333 0.666667 0.5 1
+ Rb4 Rb a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            70
+_diffrn_ambient_temperature              296
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3146
+_exptl_absorpt_coefficient_mu            78.333
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             46
+_refine_ls_number_reflns                 495
+_refine_ls_R_factor_all                  0.049
+_refine_ls_wR_factor_all                 0.048
+_computing_structure_refinement          'DIFABS; TEXSAN-90'
+
+# End of data set 1252070

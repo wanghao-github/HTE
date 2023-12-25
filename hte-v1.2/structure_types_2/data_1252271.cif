@@ -1,0 +1,118 @@
+##############################################################################
+#                                                                            #
+# P-Rb             # RbP11                                         # 1252271 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252271
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252271
+
+# Entry summary
+
+_chemical_formula_structural             RbP11
+_chemical_formula_sum                    P11Rb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            RbP11,mP48,11
+_chemical_formula_weight                 426.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Homonucleare Bindungen bei Hauptgruppenelementen'                            
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1981
+_journal_volume                          93
+_journal_page_first                      44
+_journal_page_last                       63
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.508
+_cell_length_b                           9.699
+_cell_length_c                           18.005
+_cell_angle_alpha                        90
+_cell_angle_beta                         95.62
+_cell_angle_gamma                        90
+_cell_volume                             1131.03
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rb Rb f 4 0.0596 0.5283 0.6666 1
+ P10 P f 4 0.1421 0.5957 0.0820 1
+ P9 P f 4 0.2143 0.6313 0.2041 1
+ P5 P f 4 0.2899 0.6126 0.4831 1
+ P13 P f 4 0.3131 0.0877 0.0564 1
+ P3 P f 4 0.4738 0.1119 0.4243 1
+ P6 P f 4 0.5526 0.5940 0.2063 1
+ P15 P f 4 0.6017 0.0858 0.1377 1
+ P11 P e 2 0.1219 0.25 0.1022 1
+ P8 P e 2 0.2006 0.25 0.2211 1
+ P4 P e 2 0.2318 0.25 0.4626 1
+ P1 P e 2 0.2683 0.25 0.5799 1
+ P14 P e 2 0.3692 0.25 0.8748 1
+ P7 P e 2 0.5313 0.25 0.2180 1
+ P2 P e 2 0.5953 0.25 0.6010 1
+ P12 P e 2 0.6521 0.25 0.9604 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            10
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P-1'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            20.70
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.097
+_refine_ls_wR_factor_all                 0.090
+_computing_structure_refinement          ?
+
+# End of data set 1252271

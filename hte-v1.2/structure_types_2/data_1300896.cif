@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Mn-Sn            # Mn3Sn2rt                                      # 1300896 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1300896
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1300896
+
+# Entry summary
+
+_chemical_formula_structural             Mn3Sn2
+_chemical_formula_sum                    Mn3Sn2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni3Sn2,oP20,62
+_chemical_formula_weight                 402.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and phase relations for Mn3Sn2 and non-stoichiometric Mn2-xSn
+;
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1997
+_journal_volume                          259
+_journal_page_first                      140
+_journal_page_last                       144
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stange M.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+'Fjellvag H.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+'Furuseth S.'
+;
+Oslo University
+Kjemisk Institutt
+Oslo
+Norway
+;
+'Hauback B.C.'
+;
+Joint Establishment for Nuclear Energy Research
+?
+Kjeller
+Norway
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.5578
+_cell_length_b                           5.5007
+_cell_length_c                           8.584
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             356.9
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              62
+_symmetry_space_group_name_H-M           Pnma
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, 0.5+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, -z'
+ 6 '0.5+x, 0.5-y, 0.5-z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Mn1 Mn d 8 0.23 0.005 0.377 1
+ Sn2 Sn c 4 0.058 0.25 0.089 1
+ Sn1 Sn c 4 0.097 0.25 0.64 1
+ Mn2 Mn c 4 0.399 0.25 0.129 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'OPUS III, JEEP II reactor, Kjeller, Norway'                                  
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.825
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          FULLPROF
+
+# End of data set 1300896

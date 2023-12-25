@@ -1,0 +1,165 @@
+##############################################################################
+#                                                                            #
+# Ge-K             # KGe                                           # 1121007 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1121007
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1121007
+
+# Entry summary
+
+_chemical_formula_structural             K4Ge4
+_chemical_formula_sum                    GeK
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            KGe,cP64,218
+_chemical_formula_weight                 111.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Refinement of the crystal structures of the tetrahedro-tetragermanides K4Ge4, Rb4Ge4 and Cs4Ge4
+;
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            2005
+_journal_volume                          220
+_journal_page_first                      324
+_journal_page_last                       326
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Llanos J.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Chang J.H.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Peters K.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Peters E.M.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Nesper R.'
+;
+Swiss Federal Institute of Technology
+Laboratorium für Anorganische Chemie
+Zurich
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.784
+_cell_length_b                           12.784
+_cell_length_c                           12.784
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2089.3
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              218
+_symmetry_space_group_name_H-M           P-43n
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-z, 0.5+y'
+ 3 '0.5-x, 0.5+z, 0.5-y'
+ 4 '-x, -y, z'
+ 5 '-x, y, -z'
+ 6 '0.5-y, 0.5-x, 0.5+z'
+ 7 '0.5-y, 0.5+x, 0.5-z'
+ 8 '-y, -z, x'
+ 9 '-y, z, -x'
+ 10 '0.5-z, 0.5-y, 0.5+x'
+ 11 '0.5-z, 0.5+y, 0.5-x'
+ 12 '-z, -x, y'
+ 13 '-z, x, -y'
+ 14 '0.5+x, 0.5-z, 0.5-y'
+ 15 '0.5+x, 0.5+z, 0.5+y'
+ 16 'x, -y, -z'
+ 17 '0.5+y, 0.5-x, 0.5-z'
+ 18 '0.5+y, 0.5+x, 0.5+z'
+ 19 'y, -z, -x'
+ 20 'y, z, x'
+ 21 '0.5+z, 0.5-y, 0.5-x'
+ 22 '0.5+z, 0.5+y, 0.5+x'
+ 23 'z, -x, -y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ K2 K i 24 0.0651 0.1401 0.3359 1
+ Ge2 Ge i 24 0.06461 0.42236 0.31992 1
+ Ge1 Ge e 8 0.07089 0.07089 0.07089 1
+ K1 K e 8 0.3327 0.3327 0.3327 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              296
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    432
+_exptl_absorpt_coefficient_mu            12.914
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             25
+_refine_ls_number_reflns                 411
+_refine_ls_R_factor_all                  0.034
+_refine_ls_wR_factor_all                 0.086
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# End of data set 1121007

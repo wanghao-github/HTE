@@ -1,0 +1,9 @@
+# Fm'mm (#69.523)
+1 x,y,z,+1 mx,my,mz
+2 -x,-y,-z,-1 -mx,-my,-mz
+3 y-z,x-z,-z,-1 -my+mz,-mx+mz,mz
+4 -y+z,-x+z,z,+1 my-mz,mx-mz,-mz
+5 -x+z,-y+z,z,+1 -mx+mz,-my+mz,mz
+6 x-z,y-z,-z,-1 mx-mz,my-mz,-mz
+7 -y,-x,-z,-1 my,mx,mz
+8 y,x,z,+1 -my,-mx,-mz

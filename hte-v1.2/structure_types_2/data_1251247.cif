@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# C-Y              # Y4C5rt                                        # 1251247 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251247
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251247
+
+# Entry summary
+
+_chemical_formula_structural             Y4C5
+_chemical_formula_sum                    C5Y4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y4C5,oP18,55
+_chemical_formula_weight                 415.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Rare Earth Carbides R4C5 with R= Y, Gd, Tb, Dy, and Ho'                  
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1997
+_journal_volume                          132
+_journal_page_first                      294
+_journal_page_last                       299
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Czekalla R.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Hüfken T.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Jeitschko W.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Hoffmann R.D.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+'Pöttgen R.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.5735
+_cell_length_b                           11.918
+_cell_length_c                           3.6692
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             287.46
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Y1 Y h 4 0.3922 0.3045 0.5 1
+ C1 C g 4 0.093 0.3443 0 1
+ C2 C g 4 0.14 0.2353 0 1
+ Y2 Y g 4 0.2455 0.0434 0 1
+ C3 C b 2 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI/P'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 50
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             33
+_refine_ls_number_reflns                 179
+_refine_ls_R_factor_all                  0.035
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'FULLPROF; SHELXS-86; SHELXL-93'
+
+# End of data set 1251247

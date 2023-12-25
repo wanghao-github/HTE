@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# As-Ga            # GaAshp2                                       # 1251717 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251717
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251717
+
+# Entry summary
+
+_chemical_formula_structural             GaAs(III)
+_chemical_formula_sum                    AsGa
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            GaAs,oI4,44
+_chemical_formula_weight                 144.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structural phase transitions in GaAs to 108 GPa'                             
+_journal_coden_ASTM                      PRBMDO
+_journal_year                            1989
+_journal_volume                          39
+_journal_page_first                      1280
+_journal_page_last                       1285
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Weir S.T.'
+;
+Cornell University
+Department of Materials Science and Engineering
+Ithaca
+U.S.A. New York
+;
+'Vohra Y.K.'
+;
+Cornell University
+Department of Materials Science and Engineering
+Ithaca
+U.S.A. New York
+;
+'Vanderborgh C.A.'
+;
+Cornell University
+Department of Materials Science and Engineering
+Ithaca
+U.S.A. New York
+;
+'Ruoff A.L.'
+;
+Cornell University
+Department of Materials Science and Engineering
+Ithaca
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.79
+_cell_length_b                           4.92
+_cell_length_c                           2.635
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             62.1
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              44
+_symmetry_space_group_name_H-M           Imm2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, 0.5+z'
+ 6 '0.5-x, 0.5-y, 0.5+z'
+ 7 '0.5-x, 0.5+y, 0.5+z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ As As b 2 0 0.5 0.075 1
+ Ga Ga a 2 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 2.81e+007
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'CHESS, Cornell High En. Synchrotron, Ithaca, USA'                            
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 0 0 24.52 5.4
+ 0 2 0 23.99 3.7
+ 0 1 1 23.08 9.1
+ 2 2 0 16.84 81.9
+ 0 3 1 13.55 24.9
+ 1 1 2 12.29 32.1
+ 0 4 0 11.69 46.4
+ 4 2 0 10.85 100.0
+ 3 1 2 9.97 11.0
+ 4 3 1 9.07 20.2
+
+# End of data set 1251717

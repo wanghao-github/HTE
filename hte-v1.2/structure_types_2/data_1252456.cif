@@ -1,0 +1,119 @@
+##############################################################################
+#                                                                            #
+# Na-Sn            # NaSn5                                         # 1252456 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252456
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252456
+
+# Entry summary
+
+_chemical_formula_structural             NaSn5
+_chemical_formula_sum                    NaSn5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NaSn5,tP12,113
+_chemical_formula_weight                 616.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+NaSn5 - eine intermetallische Phase mit Strukturmotiven des kovalent aufgebauten a- und des metallischen b-Zinns
+;
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1998
+_journal_volume                          110
+_journal_page_first                      1641
+_journal_page_last                       1644
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fässler T.F.'
+;
+Swiss Federal Institute of Technology
+Laboratorium für Anorganische Chemie
+Zurich
+Switzerland
+;
+'Kronseder C.'
+;
+Swiss Federal Institute of Technology
+Laboratorium für Anorganische Chemie
+Zurich
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.2992
+_cell_length_b                           6.2992
+_cell_length_c                           8.8172
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             349.87
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              113
+_symmetry_space_group_name_H-M           P-421m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+y, 0.5+x, z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn2 Sn e 4 0.65715 0.15715 0.1825 1
+ Sn3 Sn e 4 0.74782 0.24782 0.49765 1
+ Na Na c 2 0 0.5 0.2055 1
+ Sn1 Sn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3663
+_exptl_absorpt_coefficient_mu            17.66
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             20
+_refine_ls_number_reflns                 466
+_refine_ls_R_factor_all                  0.025
+_refine_ls_wR_factor_all                 0.059
+_computing_structure_refinement          'SHELXS-86; SHELXL-96; ABSCOR'
+
+# End of data set 1252456

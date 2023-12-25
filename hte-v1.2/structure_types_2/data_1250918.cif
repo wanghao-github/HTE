@@ -1,0 +1,214 @@
+##############################################################################
+#                                                                            #
+# Sb-Tl            # Tl7Sb2rt                                      # 1250918 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250918
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250918
+
+# Entry summary
+
+_chemical_formula_structural             Sb2Tl7
+_chemical_formula_sum                    Sb2Tl7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tl7Sb2,cI54,229
+_chemical_formula_weight                 1674.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Crystal structure of Sb2Tl7'
+_journal_coden_ASTM                      CJCHAG
+_journal_year                            1977
+_journal_volume                          55
+_journal_page_first                      1120
+_journal_page_last                       1122
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stokhuyzen R.'
+;
+Waterloo University
+Faculty of Science
+Waterloo
+Canada
+;
+'Chieh C.'
+;
+Waterloo University
+Faculty of Science
+Waterloo
+Canada
+;
+'Pearson W.B.'
+;
+Waterloo University
+Faculty of Science
+Waterloo
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.618
+_cell_length_b                           11.618
+_cell_length_c                           11.618
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1568.2
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              229
+_symmetry_space_group_name_H-M           Im-3m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+ 49 '0.5+x, 0.5+y, 0.5+z'
+ 50 '0.5-x, 0.5-y, 0.5-z'
+ 51 '0.5-x, 0.5-y, 0.5+z'
+ 52 '0.5-x, 0.5-z, 0.5-y'
+ 53 '0.5-x, 0.5-z, 0.5+y'
+ 54 '0.5-x, 0.5+y, 0.5-z'
+ 55 '0.5-x, 0.5+y, 0.5+z'
+ 56 '0.5-x, 0.5+z, 0.5-y'
+ 57 '0.5-x, 0.5+z, 0.5+y'
+ 58 '0.5-y, 0.5-x, 0.5-z'
+ 59 '0.5-y, 0.5-x, 0.5+z'
+ 60 '0.5-y, 0.5-z, 0.5-x'
+ 61 '0.5-y, 0.5-z, 0.5+x'
+ 62 '0.5-y, 0.5+x, 0.5-z'
+ 63 '0.5-y, 0.5+x, 0.5+z'
+ 64 '0.5-y, 0.5+z, 0.5-x'
+ 65 '0.5-y, 0.5+z, 0.5+x'
+ 66 '0.5-z, 0.5-x, 0.5-y'
+ 67 '0.5-z, 0.5-x, 0.5+y'
+ 68 '0.5-z, 0.5-y, 0.5-x'
+ 69 '0.5-z, 0.5-y, 0.5+x'
+ 70 '0.5-z, 0.5+x, 0.5-y'
+ 71 '0.5-z, 0.5+x, 0.5+y'
+ 72 '0.5-z, 0.5+y, 0.5-x'
+ 73 '0.5-z, 0.5+y, 0.5+x'
+ 74 '0.5+x, 0.5-y, 0.5-z'
+ 75 '0.5+x, 0.5-y, 0.5+z'
+ 76 '0.5+x, 0.5-z, 0.5-y'
+ 77 '0.5+x, 0.5-z, 0.5+y'
+ 78 '0.5+x, 0.5+y, 0.5-z'
+ 79 '0.5+x, 0.5+z, 0.5-y'
+ 80 '0.5+x, 0.5+z, 0.5+y'
+ 81 '0.5+y, 0.5-x, 0.5-z'
+ 82 '0.5+y, 0.5-x, 0.5+z'
+ 83 '0.5+y, 0.5-z, 0.5-x'
+ 84 '0.5+y, 0.5-z, 0.5+x'
+ 85 '0.5+y, 0.5+x, 0.5-z'
+ 86 '0.5+y, 0.5+x, 0.5+z'
+ 87 '0.5+y, 0.5+z, 0.5-x'
+ 88 '0.5+y, 0.5+z, 0.5+x'
+ 89 '0.5+z, 0.5-x, 0.5-y'
+ 90 '0.5+z, 0.5-x, 0.5+y'
+ 91 '0.5+z, 0.5-y, 0.5-x'
+ 92 '0.5+z, 0.5-y, 0.5+x'
+ 93 '0.5+z, 0.5+x, 0.5-y'
+ 94 '0.5+z, 0.5+x, 0.5+y'
+ 95 '0.5+z, 0.5+y, 0.5-x'
+ 96 '0.5+z, 0.5+y, 0.5+x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ co Tl h 24 0 0.3497 0.3497 1
+ cub Tl f 16 0.1704 0.1704 0.1704 1
+ oh Sb e 12 0.3138 0 0 1
+ ce Tl a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            6
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'General Electric XRD-6'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    1094
+_exptl_absorpt_coefficient_mu            113.1
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 106
+_refine_ls_R_factor_all                  0.097
+_refine_ls_wR_factor_all                 0.060
+_computing_structure_refinement          ?
+
+# End of data set 1250918

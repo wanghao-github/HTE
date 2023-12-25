@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: spglib
+Version: 1.9.8.15
+Summary: This is the spglib module.
+Home-page: http://atztogo.github.io/spglib/
+Author: Atsushi Togo
+Author-email: atz.togo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: all
+Provides: spglib

@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# O-Ti             # TiOrt                                         # 1250187 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250187
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250187
+
+# Entry summary
+
+_chemical_formula_structural             'TiO ordered'
+_chemical_formula_sum                    OTi
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiO,mS20,12
+_chemical_formula_weight                 63.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Ordered Structure of TiO'
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1967
+_journal_volume                          23
+_journal_page_first                      307
+_journal_page_last                       313
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Watanabe D.'
+;
+Melbourne University
+School of Physics
+Parkville
+Australia
+;
+'Castles J.R.'
+;
+Melbourne University
+School of Physics
+Parkville
+Australia
+;
+'Jostsons A.'
+;
+New South Wales University
+School of Metallurgy
+Sydney
+Australia
+;
+'Malin A.S.'
+;
+New South Wales University
+School of Metallurgy
+Sydney
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.34
+_cell_length_b                           4.142
+_cell_length_c                           5.855
+_cell_angle_alpha                        90
+_cell_angle_beta                         107.53
+_cell_angle_gamma                        90
+_cell_volume                             215.99
+_cell_formula_units_Z                    10
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O3 O i 4 0.165 0 0.319 1
+ Ti2 Ti i 4 0.336 0 0.664 1
+ Ti3 Ti i 4 0.340 0 0.166 1
+ O2 O i 4 0.819 0 0.176 1
+ O1 O d 2 0 0.5 0.5 1
+ Ti1 Ti a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka, Cu Ka, Fe Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.11
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ORFLS
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 0 0 55.74 ?
+ 0 2 0 44.48 ?
+ 1 -2 0 41.37 ?
+ 0 1 1 37.51 ?
+ 1 -1 1 33.14 ?
+ 1 2 0 30.61 ?
+ 1 1 1 29.48 ?
+ 2 0 0 27.91 ?
+ 2 -2 0 27.71 ?
+ 1 -3 1 24.43 ?
+ 0 3 1 24.14 ?
+ 2 -1 1 23.91 ?
+ 0 4 0 22.27 ?
+ 2 2 0 20.99 ?
+ 2 -4 0 20.71 ?
+ 1 0 2 19.42 ?
+ 1 4 0 18.81 ?
+ 3 -1 -1 17.58 ?
+ 1 -5 1 17.01 ?
+ 3 -3 1 16.87 ?
+ 2 0 2 16.6 ?
+ 2 3 1 16.39 ?
+ 2 -5 1 16.2 ?
+ 3 1 1 15.91 ?
+ 0 4 2 15.17 ?
+ 0 6 0 14.85 ?
+ 2 2 2 14.74 ?
+ 4 -2 0 14.64 ?
+ 4 -1 1 13.65 ?
+ 1 -7 1 12.68 ?
+
+# End of data set 1250187

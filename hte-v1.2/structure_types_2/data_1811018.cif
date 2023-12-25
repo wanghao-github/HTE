@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Lu-Te            # Lu7Te                                         # 1811018 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1811018
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1811018
+
+# Entry summary
+
+_chemical_formula_structural             Lu7Te
+_chemical_formula_sum                    Lu7Te
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu7Te,oS32,63
+_chemical_formula_weight                 1352.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Lu8Te and Lu7Te. Novel Substitutional Derivatives of Lutetium Metal'         
+_journal_coden_ASTM                      JACSAT
+_journal_year                            2003
+_journal_volume                          125
+_journal_page_first                      7794
+_journal_page_last                       7795
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Chen L.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.7418
+_cell_length_b                           12.278
+_cell_length_c                           19.77
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             908.3
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Lu1 Lu f 8 0 0.02 0.109 1
+ Lu2 Lu f 8 0 0.2448 0.6454 1
+ Lu3 Lu f 8 0 0.3577 0.0126 1
+ Te Te c 4 0 0.148 0.25 1
+ Lu4 Lu c 4 0 0.438 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            273
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              273
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker APEX SMART CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    2784
+_diffrn_reflns_theta_min                 2.06
+_diffrn_reflns_theta_max                 28.25
+_exptl_absorpt_coefficient_mu            78.375
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             28
+_refine_ls_number_reflns                 626
+_refine_ls_R_factor_all                  0.0273
+_refine_ls_wR_factor_all                 0.0652
+_computing_structure_refinement          'SHELXTL package'
+
+# End of data set 1811018

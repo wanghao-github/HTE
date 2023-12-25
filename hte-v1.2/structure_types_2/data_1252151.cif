@@ -1,0 +1,149 @@
+##############################################################################
+#                                                                            #
+# O-Re             # ReO3hp1                                       # 1252151 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252151
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252151
+
+# Entry summary
+
+_chemical_formula_structural             'ReO3 intermediate pressure'
+_chemical_formula_sum                    O3Re
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ReO3,tP8,127
+_chemical_formula_weight                 234.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Order parameter and critical exponent for the pressure-induced phase transitions in ReO3
+;
+_journal_coden_ASTM                      PRBMDO
+_journal_year                            1986
+_journal_volume                          33
+_journal_page_first                      4793
+_journal_page_last                       4798
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Jorgensen J.E.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+'Jorgensen J.D.'
+;
+Argonne National Laboratory
+Materials Science and Technology
+Argonne
+U.S.A. Illinois
+;
+'Batlogg B.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+'Remeika J.P.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+'Axe J.D.'
+;
+Brookhaven National Laboratory
+?
+Upton
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.2968
+_cell_length_b                           5.2968
+_cell_length_c                           3.7415
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             104.97
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              127
+_symmetry_space_group_name_H-M           P4/mbm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5-y, 0.5-x, -z'
+ 7 '0.5-y, 0.5-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '0.5+x, 0.5-y, -z'
+ 11 '0.5+x, 0.5-y, z'
+ 12 'x, y, -z'
+ 13 '0.5+y, 0.5+x, -z'
+ 14 '0.5+y, 0.5+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O4h O g 4 0.2368 0.7368 0 1
+ O2a O b 2 0 0 0.5 1
+ Re Re a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_pressure               520000
+_cell_measurement_radiation              'neutrons, time-of-flight'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 520000
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'SEPD, IPNS, Argonne NL, USA'
+_diffrn_radiation_type                   'neutrons, time-of-flight'
+_diffrn_reflns_number                    874
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             9
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 0.05196
+_computing_structure_refinement          ?
+
+# End of data set 1252151

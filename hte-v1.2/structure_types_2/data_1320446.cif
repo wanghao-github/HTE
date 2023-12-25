@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# Bi-Zr            # ZrBi                                          # 1320446 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1320446
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1320446
+
+# Entry summary
+
+_chemical_formula_structural             ZrBi
+_chemical_formula_sum                    BiZr
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZrSb,oS24,63
+_chemical_formula_weight                 300.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Refinement of the crystal strycture of zirconium monobismuthide, ZrBi'       
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            2004
+_journal_volume                          219
+_journal_page_first                      3
+_journal_page_last                       4
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Boström M.'
+;
+Max Planck Society
+MPI für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.M.'
+;
+Max Planck Society
+MPI für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society
+MPI für Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.858
+_cell_length_b                           10.77
+_cell_length_c                           14.325
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             595.2
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zr1 Zr f 8 0 0.0719 0.1096 1
+ Bi2 Bi f 8 0 0.35945 0.04941 1
+ Zr2 Zr c 4 0 0.3912 0.25 1
+ Bi1 Bi c 4 0 0.67745 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7 Mercury'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    2862
+_exptl_absorpt_coefficient_mu            99.332
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            ?
+_refine_ls_number_parameters             22
+_refine_ls_number_reflns                 572
+_refine_ls_R_factor_all                  0.026
+_refine_ls_wR_factor_all                 0.044
+_computing_structure_refinement          'SHELXS-97; JANA-2000'
+
+# End of data set 1320446

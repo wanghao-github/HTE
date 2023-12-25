@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# O-V              # V5O9lt                                        # 1250105 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250105
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250105
+
+# Entry summary
+
+_chemical_formula_structural             'V5O9 LT'
+_chemical_formula_sum                    O9V5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            V5O9,aP56,2
+_chemical_formula_weight                 398.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Valence Ordering in V5O9 Below 120 K'                                        
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1991
+_journal_volume                          92
+_journal_page_first                      380
+_journal_page_last                       385
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Le Page Y.'
+;
+National Research Council
+Solid State Chemistry
+Ottawa
+Canada
+;
+'Bordet P.'
+;
+Joseph Fourier Institute
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+'Marezio M.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.002
+_cell_length_b                           8.3516
+_cell_length_c                           10.9052
+_cell_angle_alpha                        91.91
+_cell_angle_beta                         108.39
+_cell_angle_gamma                        110.5
+_cell_volume                             559.35
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O10 O i 2 0.01158 0.08486 0.20515 1
+ O41 O i 2 0.02325 0.42614 0.21898 1
+ O31- O i 2 0.04474 0.75798 0.23547 1
+ V22- V i 2 0.06156 0.40927 0.89304 1
+ V12 V4+ i 2 0.06836 0.43005 0.3836 1
+ V11 V3+ i 2 0.08784 0.78814 0.43148 1
+ O32- O i 2 0.12805 0.46083 0.59261 1
+ O20 O i 2 0.14508 0.13046 0.62047 1
+ O21- O i 2 0.17414 0.63233 0.03956 1
+ O11 O i 2 0.19564 0.3201 0.04711 1
+ O30- O i 2 0.2158 0.97946 0.06449 1
+ V10 V3+ i 2 0.2476 0.00644 0.25577 1
+ V20 V4+ i 2 0.25282 0.00469 0.74738 1
+ O30 O i 2 0.29626 0.03269 0.44179 1
+ O11- O i 2 0.30583 0.67559 0.453 1
+ O21 O i 2 0.32331 0.36713 0.45764 1
+ O40- O i 2 0.37117 0.1848 0.88572 1
+ V21 V4+ i 2 0.40567 0.20021 0.58288 1
+ V11- V i 2 0.43144 0.21598 0.07272 1
+ V12- V i 2 0.43737 0.57854 0.10758 1
+ O31 O i 2 0.45495 0.24835 0.26523 1
+ O41- O i 2 0.49089 0.58984 0.28969 1
+ O10- O i 2 0.51656 0.07691 0.70866 1
+ V22 V4+ i 2 0.56393 0.42192 0.38984 1
+ O32 O i 2 0.63369 0.46457 0.0946 1
+ O20- O i 2 0.66692 0.14495 0.12349 1
+ O40 O i 2 0.88012 0.20312 0.38738 1
+ V21- V i 2 0.9083 0.19497 0.0658 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            105
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            38
+_diffrn_ambient_temperature              105
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             114
+_refine_ls_number_reflns                 5823
+_refine_ls_R_factor_all                  0.0269
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          MULTAN
+
+# End of data set 1250105

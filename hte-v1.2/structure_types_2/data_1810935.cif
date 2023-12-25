@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# Hg-N             # Hg[N3]                                        # 1810935 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1810935
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810935
+
+# Entry summary
+
+_chemical_formula_structural             Hg2(N3)2
+_chemical_formula_sum                    Hg[N3]
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Hg[N3],mP16,14
+_chemical_formula_weight                 242.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Mercurous Azide, Hg2(N3)2'
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2003
+_journal_volume                          629
+_journal_page_first                      2079
+_journal_page_last                       2082
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nockemann P.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+'Cremer U.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+'Ruschewitz U.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+'Meyer G.'
+;
+Cologne University
+Institut für Anorganische Chemie
+Cologne
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.5795
+_cell_length_b                           12.5907
+_cell_length_c                           6.2097
+_cell_angle_alpha                        90
+_cell_angle_beta                         110.878
+_cell_angle_gamma                        90
+_cell_volume                             261.5
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Hg Hg e 4 0.0899 0.03505 0.2044 1
+ N1 N e 4 0.241 0.4013 0.051 1
+ N2 N e 4 0.383 0.3148 0.086 1
+ N3 N e 4 0.497 0.2319 0.135 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            15
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              15
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Huber G645'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 45
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             31
+_refine_ls_number_reflns                 211
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1810935

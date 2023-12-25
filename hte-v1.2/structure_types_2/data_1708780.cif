@@ -1,0 +1,126 @@
+##############################################################################
+#                                                                            #
+# Cs-Sb            # CsSbmon                                       # 1708780 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1708780
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1708780
+
+# Entry summary
+
+_chemical_formula_structural             b-CsSb
+_chemical_formula_sum                    CsSb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CsSb,mP32,14
+_chemical_formula_weight                 254.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Cs5Sb8 und b-CsSb: Zwei neue binaere Zintl-Phasen'                           
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            2002
+_journal_volume                          628
+_journal_page_first                      559
+_journal_page_last                       563
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Emmerling F.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Hirschle C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische Chemie
+Freiburg im Breisgau
+Germany
+;
+'Röhr C.'
+;
+Freiburg Albert Ludwig University
+Institut für Anorganische Chemie
+Freiburg im Breisgau
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.194
+_cell_length_b                           7.34
+_cell_length_c                           14.322
+_cell_angle_alpha                        90
+_cell_angle_beta                         113.661
+_cell_angle_gamma                        90
+_cell_volume                             1463
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb1 Sb e 4 0.0688 0.6351 0.198 1
+ Sb2 Sb e 4 0.0927 0.3705 0.354 1
+ Cs1 Cs e 4 0.131 0.1214 0.1422 1
+ Cs2 Cs e 4 0.3882 0.3101 0.0246 1
+ Sb3 Sb e 4 0.4093 0.0762 0.269 1
+ Sb4 Sb e 4 0.5711 0.3077 0.3679 1
+ Cs3 Cs e 4 0.658 0.0858 0.179 1
+ Cs4 Cs e 4 0.8516 0.3568 0.037 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART 1000 CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    7063
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            14.929
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             74
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.0665
+_refine_ls_wR_factor_all                 0.1777
+_computing_structure_refinement          'SHELXS-93; SHELXL-93'
+
+# End of data set 1708780

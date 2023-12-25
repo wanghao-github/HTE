@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# In-Te            # In2Te5mon2                                    # 1251122 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251122
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251122
+
+# Entry summary
+
+_chemical_formula_structural             In2Te5(II)
+_chemical_formula_sum                    In2Te5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            In2Te5,mS84,15
+_chemical_formula_weight                 867.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Indium Polytelluride In2Te5(II)'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1978
+_journal_volume                          34
+_journal_page_first                      41
+_journal_page_last                       45
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Walton P.D.'
+;
+Hull University
+Department of Physics
+Hull
+United Kingdom
+;
+'Sutherland H.H.'
+;
+Hull University
+Department of Physics
+Hull
+United Kingdom
+;
+'Hogg J.H.C.'
+;
+Hull University
+Department of Physics
+Hull
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.66
+_cell_length_b                           4.36
+_cell_length_c                           41.34
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.1
+_cell_angle_gamma                        90
+_cell_volume                             2956.3
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te7 Te f 8 0.0575 0.0636 0.3026 1
+ Te2 Te f 8 0.0923 0.0565 0.0406 1
+ In2 In f 8 0.1355 0.0584 0.1119 1
+ Te6 Te f 8 0.1847 0.1213 0.2082 1
+ Te4 Te f 8 0.1855 0.0913 0.4193 1
+ In3 In f 8 0.2035 0.1256 0.2798 1
+ Te3 Te f 8 0.3028 0.0100 0.1331 1
+ Te5 Te f 8 0.3304 0.0107 0.0289 1
+ In1 In f 8 0.4937 0.0593 0.0557 1
+ Te1 Te f 8 0.5367 0.0588 0.1267 1
+ Te8 Te e 4 0 0.6544 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2595
+_refine_ls_R_factor_all                  0.0961
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251122

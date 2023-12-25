@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# N-Se             # SeNmon2                                       # 1301026 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1301026
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301026
+
+# Entry summary
+
+_chemical_formula_structural             b-Se4N4
+_chemical_formula_sum                    NSe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SN,mP32,14
+_chemical_formula_weight                 93.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthese und Kristallstruktur einer neuen Modifikation von Tetraselentetranitrid, Se4N4
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1994
+_journal_volume                          620
+_journal_page_first                      1011
+_journal_page_last                       1015
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Folkerts H.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie
+Marburg
+Germany
+;
+'Neumüller B.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie
+Marburg
+Germany
+;
+'Dehnicke K.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie
+Marburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.818
+_cell_length_b                           7.387
+_cell_length_c                           12.1975
+_cell_angle_alpha                        90
+_cell_angle_beta                         132.601
+_cell_angle_gamma                        90
+_cell_volume                             584.84
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ N3 N e 4 0.072 0.227 0.4701 1
+ N2 N e 4 0.1752 0.09 0.3143 1
+ Se3 Se e 4 0.1969 0.0357 0.4678 1
+ Se4 Se e 4 0.1943 0.0662 -0.0066 1
+ Se2 Se e 4 0.29771 0.3002 0.34181 1
+ N4 N e 4 0.4521 0.105 0.1684 1
+ N1 N e 4 0.5589 0.237 0.0137 1
+ Se1 Se e 4 0.57027 0.2947 0.16197 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            223
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            24
+_diffrn_ambient_temperature              223
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens P4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2404
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            24.98
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1667
+_refine_ls_R_factor_all                  0.054
+_refine_ls_wR_factor_all                 0.131
+_computing_structure_refinement          'SHELXTL-PLUS; SHELXL-93'
+
+# End of data set 1301026

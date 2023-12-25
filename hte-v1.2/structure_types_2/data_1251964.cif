@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# O-Ti             # Ti6Ort                                        # 1251964 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251964
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251964
+
+# Entry summary
+
+_chemical_formula_structural             Ti6O
+_chemical_formula_sum                    OTi6
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti6O,hP14,163
+_chemical_formula_weight                 303.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Interstitial Superlattice of Ti6O and Its Transformation'                    
+_journal_coden_ASTM                      JUPSAU
+_journal_year                            1966
+_journal_volume                          21
+_journal_page_first                      2096
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yamaguchi S.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+'Koiwa M.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+'Hirabayashi M.'
+;
+Tohoku University
+Research Institute of Iron, Steel and Other Metals
+Sendai
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.14
+_cell_length_b                           5.14
+_cell_length_c                           9.48
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             216.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              163
+_symmetry_space_group_name_H-M           P-31c
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, 0.5-z'
+ 4 '-x, -x+y, 0.5+z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, 0.5-z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, 0.5-z'
+ 9 'x-y, -y, 0.5+z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ti1,2 Ti i 12 0.0 0.333 0.125 1
+ O O c 2 0.333333 0.666667 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              neutrons
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'TOG, JAERI, Tokai, Japan'
+_diffrn_radiation_type                   neutrons
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251964

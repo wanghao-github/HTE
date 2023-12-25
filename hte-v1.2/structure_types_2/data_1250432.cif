@@ -1,0 +1,162 @@
+##############################################################################
+#                                                                            #
+# Se-Ti            # Ti9Se2                                        # 1250432 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250432
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250432
+
+# Entry summary
+
+_chemical_formula_structural             Ti9Se2
+_chemical_formula_sum                    Se2Ti9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ti9Se2,oP22,55
+_chemical_formula_weight                 589.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Ti9Se2-Eine Verbindung mit kolumnaren 1š[Ti9]-Baueinheiten'                  
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1996
+_journal_volume                          622
+_journal_page_first                      630
+_journal_page_last                       634
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Weirich T.E.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Pöttgen R.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.917
+_cell_length_b                           15.505
+_cell_length_c                           3.454
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             370.43
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Se Se h 4 0.01823 0.30249 0.5 1
+ Ti5 Ti h 4 0.28381 0.05636 0.5 1
+ Ti4 Ti h 4 0.40376 0.35966 0.5 1
+ Ti2 Ti g 4 0.10871 0.42125 0 1
+ Ti3 Ti g 4 0.22315 0.21078 0 1
+ Ti1 Ti a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_wavelength             0.56086
+_cell_measurement_reflns_used            24
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_radiation_wavelength             0.56086
+_diffrn_reflns_number                    1894
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            9.806
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             36
+_refine_ls_number_reflns                 593
+_refine_ls_R_factor_all                  0.0271
+_refine_ls_wR_factor_all                 0.0635
+_computing_structure_refinement          'SHELXL-93; SHELXTL-PLUS'
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 3 0 4147.5 3
+ 0 4 1 2582.7 3
+ 2 0 1 2442.3 3
+ 1 4 1 2417.9 7
+ 2 2 1 2331.2 7
+ 3 2 0 2209.9 5
+ 1 5 1 2191 7
+ 3 3 0 2105.8 5
+ 2 6 0 2070.9 3
+ 0 8 0 1940.2 3
+ 3 5 0 1850.9 3
+ 1 7 1 1801.6 3
+ 0 0 2 1726.9 5
+ 3 5 1 1632.1 3
+ 4 4 0 1578.8 3
+ 2 9 0 1543.1 3
+ 2 10 0 1415.7 3
+ 1 6 2 1405.8 3
+ 1 10 1 1386.6 3
+ 3 2 2 1360.2 3
+ 1 7 2 1335.9 5
+ 2 6 2 1326.4 3
+ 2 10 1 1310 3
+
+# End of data set 1250432

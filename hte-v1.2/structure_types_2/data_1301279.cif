@@ -1,0 +1,153 @@
+##############################################################################
+#                                                                            #
+# Ge-Mn            # Mn3Ge5hp                                      # 1301279 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1301279
+_audit_creation_date                     2010-12-15
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301279
+
+# Entry summary
+
+_chemical_formula_structural             Mn3Ge5
+_chemical_formula_sum                    Ge5Mn3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ir3Ga5,tP32,118
+_chemical_formula_weight                 527.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+High-Pressure Synthesis and Electrical Properties of Mn3Ge5 with Mn11Si19-Type Structure
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1987
+_journal_volume                          68
+_journal_page_first                      234
+_journal_page_last                       238
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Takizawa H.'
+;
+Tohoku University
+Department of Applied Chemistry
+Sendai / Miyagi
+Japan
+;
+'Sato T.'
+;
+Tohoku University
+Department of Applied Chemistry
+Sendai / Miyagi
+Japan
+;
+'Endo T.'
+;
+Tohoku University
+Department of Applied Chemistry
+Sendai / Miyagi
+Japan
+;
+'Shimada M.'
+;
+Tohoku University
+Department of Applied Chemistry
+Sendai / Miyagi
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.745
+_cell_length_b                           5.745
+_cell_length_c                           13.89
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             458.4
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              118
+_symmetry_space_group_name_H-M           P-4n2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5+z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, 0.5-z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, 0.5+z'
+ 7 '0.5+y, 0.5+x, 0.5-z'
+ 8 'y, -x, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Ge 0
+ Mn 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge i 8 0.23 0.35 0.0515 1
+ Ge2 Ge i 8 0.34 0.30 0.6500 1
+ Mn1 Mn h 4 0 0.5 0.5861 1
+ Ge3 Ge f 4 0.325 0.175 0.25 1
+ Mn2 Mn e 4 0 0 0.3291 1
+ Mn3 Mn c 2 0 0.5 0.25 1
+ Mn4 Mn a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1301279

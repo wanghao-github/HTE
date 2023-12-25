@@ -1,0 +1,133 @@
+##############################################################################
+#                                                                            #
+# Ga-Mg            # MgGa2                                         # 1250527 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250527
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250527
+
+# Entry summary
+
+_chemical_formula_structural             Ga2Mg
+_chemical_formula_sum                    Ga2Mg
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            MgGa2,oP24,55
+_chemical_formula_weight                 163.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of Ga2Mg'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1969
+_journal_volume                          25
+_journal_page_first                      549
+_journal_page_last                       553
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Smith G.S.'
+;
+Livermore University
+Lawrence Radiation Laboratory
+Livermore
+U.S.A. California
+;
+'Mucker K.F.'
+;
+Livermore University
+Lawrence Radiation Laboratory
+Livermore
+U.S.A. California
+;
+'Johnson Q.'
+;
+Livermore University
+Lawrence Radiation Laboratory
+Livermore
+U.S.A. California
+;
+'Wood D.H.'
+;
+Livermore University
+Lawrence Radiation Laboratory
+Livermore
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.802
+_cell_length_b                           16.346
+_cell_length_c                           4.111
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             457.08
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              55
+_symmetry_space_group_name_H-M           Pbam
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, 0.5-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga2 Ga h 4 0.0903 0.3098 0.5 1
+ Ga3 Ga h 4 0.3555 0.0625 0.5 1
+ Ga4 Ga h 4 0.4713 0.3420 0.5 1
+ Ga1 Ga g 4 0.0987 0.0665 0 1
+ Mg1 Mg g 4 0.1759 0.4230 0 1
+ Mg2 Mg g 4 0.2981 0.2196 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    252
+_exptl_absorpt_coefficient_mu            24.7
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 252
+_refine_ls_R_factor_all                  0.051
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'XRAY-63 package'
+
+# End of data set 1250527

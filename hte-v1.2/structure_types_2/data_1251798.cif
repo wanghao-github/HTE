@@ -1,0 +1,130 @@
+##############################################################################
+#                                                                            #
+# F-U              # UF5rt                                         # 1251798 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251798
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251798
+
+# Entry summary
+
+_chemical_formula_structural             b-UF5
+_chemical_formula_sum                    F5U
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            UF5-b,tI48,122
+_chemical_formula_weight                 333.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Neutron Diffraction Study of b-Uranium Pentafluoride between 77 and 403 K'   
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1980
+_journal_volume                          35
+_journal_page_first                      137
+_journal_page_last                       140
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Taylor J.C.'
+;
+Australian Atomic Energy Commission Research Establishment
+Chemical Technology
+Sutherland
+Australia
+;
+'Waugh A.B.'
+;
+Australian Atomic Energy Commission Research Establishment
+Chemical Technology
+Sutherland
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.473
+_cell_length_b                           11.473
+_cell_length_c                           5.208
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             685.53
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              122
+_symmetry_space_group_name_H-M           I-42d
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, 0.5+y, 0.25-z'
+ 4 '-y, 0.5-x, 0.25+z'
+ 5 '-y, x, -z'
+ 6 'x, 0.5-y, 0.25-z'
+ 7 'y, -x, -z'
+ 8 'y, 0.5+x, 0.25+z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5+z'
+ 11 '0.5-x, 1+y, 0.75-z'
+ 12 '0.5-y, 1-x, 0.75+z'
+ 13 '0.5-y, 0.5+x, 0.5-z'
+ 14 '0.5+x, 1-y, 0.75-z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 1+x, 0.75+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F e 16 0.0421 0.1706 0.4357 1
+ F3 F e 16 0.1442 0.0749 0.0096 1
+ U U d 8 0.0853 0.25 0.125 1
+ F2 F d 8 0.725 0.25 0.125 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.08
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'6HB, HIFAR reactor, AAEC, Lucas Heights, Australia'                          
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.08
+_diffrn_reflns_number                    146
+_diffrn_reflns_theta_min                 11
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251798

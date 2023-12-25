@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# Ba-Te            # BaTe3                                         # 2050096 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_2050096
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      2050096
+
+# Entry summary
+
+_chemical_formula_structural             BaTe3
+_chemical_formula_sum                    BaTe3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            BaS3,tP8,113
+_chemical_formula_weight                 520.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'BaTe3, das erste binaere Erdalkalipolytellurid'                              
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1984
+_journal_volume                          39
+_journal_page_first                      833
+_journal_page_last                       834
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cordier G.'
+;
+Darmstadt University of Technology
+Abteilung für Anorganische Chemie
+Darmstadt
+Germany
+;
+'Schwidetzky C.'
+;
+Darmstadt University of Technology
+Abteilung für Anorganische Chemie
+Darmstadt
+Germany
+;
+'Schäfer H.'
+;
+Darmstadt University of Technology
+Abteilung für Anorganische Chemie
+Darmstadt
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.915
+_cell_length_b                           7.915
+_cell_length_c                           4.43
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             277.53
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              113
+_symmetry_space_group_name_H-M           P-421m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+y, 0.5+x, z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te2 Te e 4 0.2024 0.7024 0.4919 1
+ Te1 Te c 2 0 0.5 0.1301 1
+ Ba Ba a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    430
+_exptl_absorpt_coefficient_mu            23.181
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             13
+_refine_ls_number_reflns                 425
+_refine_ls_R_factor_all                  0.091
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 2050096

@@ -1,0 +1,168 @@
+##############################################################################
+#                                                                            #
+# F-Sb             # Sb7F29                                        # 1251076 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251076
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251076
+
+# Entry summary
+
+_chemical_formula_structural             F29Sb7
+_chemical_formula_sum                    F29Sb7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sb7F29,mP144,14
+_chemical_formula_weight                 1403.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Preparations and the crystal structure of 3SbF3.4SbF5'                       
+_journal_coden_ASTM                      CJCHAG
+_journal_year                            1989
+_journal_volume                          67
+_journal_page_first                      2041
+_journal_page_last                       2046
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fawcett J.'
+;
+Leicester University
+Department of Chemistry
+Leicester
+United Kingdom
+;
+'Holloway J.H.'
+;
+Leicester University
+Department of Chemistry
+Leicester
+United Kingdom
+;
+'Russell D.R.'
+;
+Leicester University
+Department of Chemistry
+Leicester
+United Kingdom
+;
+'Edwards A.J.'
+;
+Birmingham University
+Department of Chemistry
+Birmingham
+United Kingdom
+;
+'Khallow K.I.'
+;
+Birmingham University
+Department of Chemistry
+Birmingham
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.547
+_cell_length_b                           13.521
+_cell_length_c                           19.551
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.3
+_cell_angle_gamma                        90
+_cell_volume                             2222.98
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ F1 F e 4 0.0075 0.7766 0.2188 1
+ Sb1 Sb3+ e 4 0.01218 0.75489 0.12717 1
+ F19 F e 4 0.0583 0.0816 0.0460 1
+ F23 F e 4 0.0790 0.5599 0.0522 1
+ F18 F e 4 0.0982 0.1896 0.1602 1
+ F4 F e 4 0.0984 0.6016 0.1749 1
+ F3 F e 4 0.1029 0.5808 0.6239 1
+ Sb3 Sb5+ e 4 0.11366 0.05941 0.14033 1
+ F7 F e 4 0.1150 0.5447 0.3579 1
+ F22 F e 4 0.1188 0.3650 0.0790 1
+ Sb4 Sb5+ e 4 0.12638 0.47865 0.12898 1
+ F17 F e 4 0.1472 0.0272 0.2347 1
+ F21 F e 4 0.1567 0.4225 0.2161 1
+ F5 F e 4 0.1986 0.1542 0.3733 1
+ F6 F e 4 0.2032 0.3561 0.3792 1
+ F27 F e 4 0.2241 0.7515 0.0095 1
+ F2 F e 4 0.2837 0.7567 0.1681 1
+ F25 F e 4 0.3226 0.4811 0.4785 1
+ F24 F e 4 0.3265 0.0321 0.4772 1
+ F16 F e 4 0.3290 0.0544 0.1370 1
+ Sb5 Sb3+ e 4 0.33540 0.03438 0.38266 1
+ Sb6 Sb3+ e 4 0.34533 0.47298 0.38567 1
+ F20 F e 4 0.3462 0.5012 0.1356 1
+ F28 F e 4 0.3516 0.2491 0.0086 1
+ F15 F e 4 0.4032 0.2697 0.1673 1
+ F12 F e 4 0.4368 0.1677 0.2868 1
+ F13 F e 4 0.4581 0.3599 0.2903 1
+ F9 F e 4 0.5204 0.1562 0.4297 1
+ F10 F e 4 0.5251 0.3516 0.4350 1
+ Sb2 Sb5+ e 4 0.55595 0.26096 0.24739 1
+ Sb7 Sb5+ e 4 0.56398 0.25020 0.00372 1
+ F29 F e 4 0.6053 0.3538 0.0681 1
+ F26 F e 4 0.6058 0.1549 0.0741 1
+ F11 F e 4 0.6627 0.1580 0.2136 1
+ F14 F e 4 0.6806 0.3565 0.2143 1
+ F8 F e 4 0.8962 0.4647 0.1273 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI-2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            8.005
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 4274
+_refine_ls_R_factor_all                  0.0486
+_refine_ls_wR_factor_all                 0.0526
+_computing_structure_refinement          'MULTAN-80; SHELX-76'
+
+# End of data set 1251076

@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# K-Tl             # K49Tl108                                      # 1251609 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251609
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251609
+
+# Entry summary
+
+_chemical_formula_structural             K49Tl108
+_chemical_formula_sum                    K49Tl108
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            K49Tl108,cP157,200
+_chemical_formula_weight                 23987.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of potassium thallide (49/108), K49TI108'                  
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1993
+_journal_volume                          203
+_journal_page_first                      148
+_journal_page_last                       149
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cordier G.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Müller V.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Fröhlich R.'
+;
+Enraf Nonius GmbH
+?
+Solingen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.287
+_cell_length_b                           17.287
+_cell_length_c                           17.287
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5166.05
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              200
+_symmetry_space_group_name_H-M           Pm-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tl2 Tl l 24 0.0920 0.3374 0.3214 1
+ Tl1 Tl l 24 0.1659 0.1690 0.4084 1
+ K2 K k 12 0.5 0.195 0.377 1
+ Tl5 Tl k 12 0.5 0.3263 0.1817 1
+ Tl3 Tl k 12 0.5 0.4081 0.3497 1
+ K1 K j 12 0 0.134 0.295 1
+ Tl4 Tl j 12 0 0.1511 0.0903 1
+ Tl6 Tl j 12 0 0.3228 0.1595 1
+ K4 K i 8 0.190 0.190 0.190 1
+ K5 K i 8 0.3126 0.3126 0.3126 1
+ K3 K g 6 0.271 0.5 0 1
+ Tl8 Tl f 6 0.2241 0 0.5 1
+ Tl7 Tl f 6 0.4076 0 0.5 1
+ K6 K d 3 0.5 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            85.4
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             65
+_refine_ls_number_reflns                 1778
+_refine_ls_R_factor_all                  0.086
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          SHELX
+
+# End of data set 1251609

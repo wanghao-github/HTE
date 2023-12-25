@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# S-Zn             # ZnS40H                                        # 1908622 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1908622
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1908622
+
+# Entry summary
+
+_chemical_formula_structural             ZnS
+_chemical_formula_sum                    SZn
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZnS,hP80,156
+_chemical_formula_weight                 97.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'New ZnS Polytypes'
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1986
+_journal_volume                          42
+_journal_page_first                      518
+_journal_page_last                       519
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Medizadeh V.'
+;
+Rhode Island University
+Department of Electrical Engineering
+Kingston
+U.S.A. Rhode Island
+;
+'Mardix S.'
+;
+Rhode Island University
+Department of Electrical Engineering
+Kingston
+U.S.A. Rhode Island
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.82
+_cell_length_b                           3.82
+_cell_length_c                           125.2
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1582.2
+_cell_formula_units_Z                    40
+_symmetry_Int_Tables_number              156
+_symmetry_space_group_name_H-M           P3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S39 S c 1 0.666667 0.333333 0.05625 1
+ Zn39 Zn c 1 0.666667 0.333333 0.075 1
+ S36 S c 1 0.666667 0.333333 0.13125 1
+ Zn36 Zn c 1 0.666667 0.333333 0.15 1
+ S32 S c 1 0.666667 0.333333 0.23125 1
+ Zn32 Zn c 1 0.666667 0.333333 0.25 1
+ S28 S c 1 0.666667 0.333333 0.33125 1
+ Zn28 Zn c 1 0.666667 0.333333 0.35 1
+ S25 S c 1 0.666667 0.333333 0.40625 1
+ Zn25 Zn c 1 0.666667 0.333333 0.425 1
+ S21 S c 1 0.666667 0.333333 0.50625 1
+ Zn21 Zn c 1 0.666667 0.333333 0.525 1
+ S18 S c 1 0.666667 0.333333 0.58125 1
+ Zn18 Zn c 1 0.666667 0.333333 0.6 1
+ S15 S c 1 0.666667 0.333333 0.65625 1
+ Zn15 Zn c 1 0.666667 0.333333 0.675 1
+ S12 S c 1 0.666667 0.333333 0.73125 1
+ Zn12 Zn c 1 0.666667 0.333333 0.75 1
+ S9 S c 1 0.666667 0.333333 0.80625 1
+ Zn9 Zn c 1 0.666667 0.333333 0.825 1
+ S6 S c 1 0.666667 0.333333 0.88125 1
+ Zn6 Zn c 1 0.666667 0.333333 0.9 1
+ S3 S c 1 0.666667 0.333333 0.95625 1
+ Zn3 Zn c 1 0.666667 0.333333 0.975 1
+ S1 S b 1 0.333333 0.666667 0.00625 1
+ Zn1 Zn b 1 0.333333 0.666667 0.025 1
+ S37 S b 1 0.333333 0.666667 0.10625 1
+ Zn37 Zn b 1 0.333333 0.666667 0.125 1
+ S34 S b 1 0.333333 0.666667 0.18125 1
+ Zn34 Zn b 1 0.333333 0.666667 0.2 1
+ S31 S b 1 0.333333 0.666667 0.25625 1
+ Zn31 Zn b 1 0.333333 0.666667 0.275 1
+ S29 S b 1 0.333333 0.666667 0.30625 1
+ Zn29 Zn b 1 0.333333 0.666667 0.325 1
+ S26 S b 1 0.333333 0.666667 0.38125 1
+ Zn26 Zn b 1 0.333333 0.666667 0.4 1
+ S23 S b 1 0.333333 0.666667 0.45625 1
+ Zn23 Zn b 1 0.333333 0.666667 0.475 1
+ S20 S b 1 0.333333 0.666667 0.53125 1
+ Zn20 Zn b 1 0.333333 0.666667 0.55 1
+ S17 S b 1 0.333333 0.666667 0.60625 1
+ Zn17 Zn b 1 0.333333 0.666667 0.625 1
+ S14 S b 1 0.333333 0.666667 0.68125 1
+ Zn14 Zn b 1 0.333333 0.666667 0.7 1
+ S10 S b 1 0.333333 0.666667 0.78125 1
+ Zn10 Zn b 1 0.333333 0.666667 0.8 1
+ S7 S b 1 0.333333 0.666667 0.85625 1
+ Zn7 Zn b 1 0.333333 0.666667 0.875 1
+ S4 S b 1 0.333333 0.666667 0.93125 1
+ Zn4 Zn b 1 0.333333 0.666667 0.95 1
+ Zn2 Zn a 1 0 0 0.0 1
+ S40 S a 1 0 0 0.03125 1
+ Zn40 Zn a 1 0 0 0.05 1
+ S38 S a 1 0 0 0.08125 1
+ Zn38 Zn a 1 0 0 0.1 1
+ S35 S a 1 0 0 0.15625 1
+ Zn35 Zn a 1 0 0 0.175 1
+ S33 S a 1 0 0 0.20625 1
+ Zn33 Zn a 1 0 0 0.225 1
+ S30 S a 1 0 0 0.28125 1
+ Zn30 Zn a 1 0 0 0.3 1
+ S27 S a 1 0 0 0.35625 1
+ Zn27 Zn a 1 0 0 0.375 1
+ S24 S a 1 0 0 0.43125 1
+ Zn24 Zn a 1 0 0 0.45 1
+ S22 S a 1 0 0 0.48125 1
+ Zn22 Zn a 1 0 0 0.5 1
+ S19 S a 1 0 0 0.55625 1
+ Zn19 Zn a 1 0 0 0.575 1
+ S16 S a 1 0 0 0.63125 1
+ Zn16 Zn a 1 0 0 0.65 1
+ S13 S a 1 0 0 0.70625 1
+ Zn13 Zn a 1 0 0 0.725 1
+ S11 S a 1 0 0 0.75625 1
+ Zn11 Zn a 1 0 0 0.775 1
+ S8 S a 1 0 0 0.83125 1
+ Zn8 Zn a 1 0 0 0.85 1
+ S5 S a 1 0 0 0.90625 1
+ Zn5 Zn a 1 0 0 0.925 1
+ S2 S a 1 0 0 0.98125 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1908622

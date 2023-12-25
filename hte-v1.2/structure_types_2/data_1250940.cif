@@ -1,0 +1,125 @@
+##############################################################################
+#                                                                            #
+# Ge-S             # GeS2rt                                        # 1250940 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250940
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250940
+
+# Entry summary
+
+_chemical_formula_structural             LT-GeS2
+_chemical_formula_sum                    GeS2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            GeS2,mP36,7
+_chemical_formula_weight                 136.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Die Kristallstruktur von L.T.-GeS2'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1976
+_journal_volume                          32
+_journal_page_first                      1188
+_journal_page_last                       1192
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dittmar G.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+'Schäfer H.'
+;
+Darmstadt University of Technology
+Eduard Zintl Institut
+Darmstadt
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.796
+_cell_length_b                           22.55
+_cell_length_c                           6.809
+_cell_angle_alpha                        90
+_cell_angle_beta                         119.29
+_cell_angle_gamma                        90
+_cell_volume                             910.07
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              7
+_symmetry_space_group_name_H-M           P1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S4 S a 2 0.0 0.3021 0.0 1
+ S9 S a 2 0.010 0.2540 0.532 1
+ S7 S a 2 0.051 0.1483 0.129 1
+ S5 S a 2 0.102 0.5519 0.395 1
+ S6 S a 2 0.119 0.0005 0.403 1
+ Ge4 Ge a 2 0.1394 0.2376 0.2965 1
+ Ge6 Ge a 2 0.2438 0.3752 0.1517 1
+ S11 S a 2 0.272 0.3944 0.483 1
+ Ge3 Ge a 2 0.3873 0.5131 0.0426 1
+ S8 S a 2 0.503 0.2464 0.525 1
+ S3 S a 2 0.506 0.2010 0.010 1
+ S10 S a 2 0.579 0.3559 0.169 1
+ S1 S a 2 0.596 0.0496 0.907 1
+ S12 S a 2 0.621 0.5075 0.402 1
+ Ge2 Ge a 2 0.6317 0.2625 0.2907 1
+ S2 S a 2 0.730 0.1024 0.456 1
+ Ge5 Ge a 2 0.7471 0.1251 0.1525 1
+ Ge1 Ge a 2 0.8830 0.0120 0.5400 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe STADI'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           cylindrical
+_computing_structure_solution
+'Patterson and Fourier synthesis, starting values from the literature'        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2644
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 0.054
+_computing_structure_refinement          ?
+
+# End of data set 1250940

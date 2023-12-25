@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# Fe-S             # FeShp                                         # 1521457 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1521457
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1521457
+
+# Entry summary
+
+_chemical_formula_structural             FeS-III
+_chemical_formula_sum                    FeS
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            FeS,mP24,14
+_chemical_formula_weight                 87.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure of the high-pressure phase III of iron sulfide'                    
+_journal_coden_ASTM                      PRBMDO
+_journal_year                            1999
+_journal_volume                          59
+_journal_page_first                      9048
+_journal_page_last                       9052
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nelmes R.J.'
+;
+Edinburgh University
+Department of Physics and Astronomy
+Edinburgh
+United Kingdom
+;
+'McMahon M.I.'
+;
+Liverpool University
+Department of Physics
+Liverpool
+United Kingdom
+;
+'Belmonte S.A.'
+;
+Edinburgh University
+Department of Physics and Astronomy
+Edinburgh
+United Kingdom
+;
+'Parise J.B.'
+;
+New York State University
+Department of Earth and Space Sciences
+Stony Brook
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.4832
+_cell_length_b                           5.6666
+_cell_length_c                           8.1103
+_cell_angle_alpha                        90
+_cell_angle_beta                         93.05
+_cell_angle_gamma                        90
+_cell_volume                             297.5
+_cell_formula_units_Z                    12
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Fe3 Fe e 4 0.0511 0.2607 0.078 1
+ S3 S e 4 0.0922 0.4163 0.3321 1
+ S2 S e 4 0.2547 0.589 0.0182 1
+ S1 S e 4 0.3652 0.0779 0.1845 1
+ Fe1 Fe e 4 0.4171 0.2988 0.4345 1
+ Fe2 Fe e 4 0.6803 0.2139 0.212 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_pressure               7.5e+006
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.4654
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 7.5e+006
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          '9.1. SRS, Daresbury, UK'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.4654
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, starting values from the literature'        
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1521457

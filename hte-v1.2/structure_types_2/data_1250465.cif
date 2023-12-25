@@ -1,0 +1,183 @@
+##############################################################################
+#                                                                            #
+# Ge-Mn            # Mn23Ge9ht                                     # 1250465 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250465
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250465
+
+# Entry summary
+
+_chemical_formula_structural             'Mn5.11Ge2 z1'
+_chemical_formula_sum                    Ge9Mn23
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mn23Ge9,hP128,158
+_chemical_formula_weight                 1916.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Structure of z1-Mn5.11Ge2'
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1987
+_journal_volume                          43
+_journal_page_first                      7
+_journal_page_last                       10
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Komura Y.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+'Ohba T.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+'Kifune K.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+'Hirayama H.'
+;
+Hiroshima University
+Department of Materials Science
+Hiroshima
+Japan
+;
+'Tagai T.'
+;
+Tokyo University
+Institute of Mineralogy
+Tokyo
+Japan
+;
+'Yamada N.'
+;
+Chofu University of Electro-Communications
+Department of Engineering Physics
+Chofu
+Japan
+;
+'Ohoyama T.'
+;
+Chofu University of Electro-Communications
+Department of Engineering Physics
+Chofu
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.198
+_cell_length_b                           7.198
+_cell_length_c                           39.227
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1760.11
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              158
+_symmetry_space_group_name_H-M           P3c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, 0.5+z'
+ 4 '-y, -x, 0.5+z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge9 Ge d 6 0.0067 0.3457 0.4770 1
+ Mn15 Mn d 6 0.0222 0.3503 0.4113 1
+ Mn14 Mn d 6 0.0231 0.3454 0.0788 1
+ Mn4 Mn d 6 0.0549 0.3945 0.3436 1
+ Mn6 Mn d 6 0.0589 0.3903 0.0110 1
+ Mn13 Mn d 6 0.3053 0.3387 0.2440 1
+ Mn5 Mn d 6 0.3064 0.3476 0.1762 1
+ Ge7 Ge d 6 0.3230 0.3166 0.3108 1
+ Mn1 Mn d 6 0.3263 0.2985 0.3761 1
+ Mn3 Mn d 6 0.3364 0.3031 0.0412 1
+ Mn12 Mn d 6 0.3373 0.3088 0.4442 1
+ Ge8 Ge d 6 0.3482 0.0026 0.1445 1
+ Mn11 Mn d 6 0.3588 0.3203 0.1090 1
+ Mn2 Mn d 6 0.3626 0.0292 0.2082 1
+ Mn10 Mn d 6 0.3927 0.0566 0.2774 1
+ Mn31 Mn c 2 0.666667 0.333333 0.0013 1
+ Ge33 Ge c 2 0.666667 0.333333 0.0674 1
+ Mn30 Mn c 2 0.666667 0.333333 0.1692 1
+ Ge32 Ge c 2 0.666667 0.333333 0.2351 1
+ Mn29 Mn c 2 0.666667 0.333333 0.3349 1
+ Ge34 Ge c 2 0.666667 0.333333 0.4031 1
+ Ge25 Ge b 2 0.333333 0.666667 0.0523 1
+ Mn27 Mn b 2 0.333333 0.666667 0.1216 1
+ Ge24 Ge b 2 0.333333 0.666667 0.2176 1
+ Mn26 Mn b 2 0.333333 0.666667 0.2877 1
+ Ge23 Ge b 2 0.333333 0.666667 0.3855 1
+ Mn28 Mn b 2 0.333333 0.666667 0.4527 1
+ Mn19 Mn a 2 0 0 0.0000 1
+ Ge21 Ge a 2 0 0 0.0684 1
+ Mn18 Mn a 2 0 0 0.1402 1
+ Ge20 Ge a 2 0 0 0.2135 1
+ Mn17 Mn a 2 0 0 0.2773 1
+ Mn16 Mn a 2 0 0 0.3402 1
+ Ge22 Ge a 2 0 0 0.4083 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 25
+_exptl_absorpt_coefficient_mu            31.0
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'direct methods, starting values derived from related structure'              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 923
+_refine_ls_R_factor_all                  0.0557
+_refine_ls_wR_factor_all                 0.0400
+_computing_structure_refinement          RADIEL
+
+# End of data set 1250465

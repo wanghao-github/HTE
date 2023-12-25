@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# Ce-Co            # Ce24Co11                                      # 1251435 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251435
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251435
+
+# Entry summary
+
+_chemical_formula_structural             Ce24Co11
+_chemical_formula_sum                    Ce24Co11
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce24Co11,hP70,186
+_chemical_formula_weight                 4011.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystal Structure of Ce24Co11'
+_journal_coden_ASTM                      ACCRA9
+_journal_year                            1962
+_journal_volume                          15
+_journal_page_first                      1224
+_journal_page_last                       1227
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Larson A.C.'
+;
+Los Alamos National Laboratory
+?
+Los Alamos
+U.S.A. New Mexico
+;
+'Cromer D.T.'
+;
+Los Alamos National Laboratory
+?
+Los Alamos
+U.S.A. New Mexico
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.587
+_cell_length_b                           9.587
+_cell_length_c                           21.825
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1737.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              186
+_symmetry_space_group_name_H-M           P63mc
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, 0.5+z'
+ 5 '-x, -y, 0.5+z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, 0.5+z'
+ 10 'x-y, x, 0.5+z'
+ 11 'y, -x+y, 0.5+z'
+ 12 'y, x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce7 Ce c 6 0.1245 0.8755 0.3528 1
+ Ce1 Ce c 6 0.2011 0.7989 0.2070 1
+ Ce2 Ce c 6 0.2016 0.7984 0.0442 1
+ Ce4 Ce c 6 0.2065 0.7935 0.4979 1
+ Co3 Co c 6 0.4819 0.5181 0.2780 1
+ Ce6 Ce c 6 0.5414 0.4586 0.1322 1
+ Ce5 Ce c 6 0.5420 0.4580 0.4013 1
+ Ce3 Ce c 6 0.7971 0.2029 0.2656 1
+ Co2 Co c 6 0.8497 0.1503 0.1189 1
+ Co1 Co c 6 0.8544 0.1456 0.4308 1
+ Co4 Co b 2 0.333333 0.666667 0.1225 1
+ Ce8 Ce b 2 0.333333 0.666667 0.3423 1
+ Ce9 Ce a 2 0 0 0.0000 1
+ Ce10 Ce a 2 0 0 0.1544 1
+ Co5 Co a 2 0 0 0.2744 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_wavelength             0.70926
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          'General Electric XRD-5'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            38.4
+_exptl_absorpt_correction_type           'empirical and spherical'
+_computing_structure_solution
+;
+Buerger's minimum function
+;
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 435
+_refine_ls_R_factor_all                  0.103
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251435

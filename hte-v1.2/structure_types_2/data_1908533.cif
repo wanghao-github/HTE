@@ -1,0 +1,232 @@
+##############################################################################
+#                                                                            #
+# C-Si             # SiC174R                                       # 1908533 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1908533
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1908533
+
+# Entry summary
+
+_chemical_formula_structural             SiC
+_chemical_formula_sum                    CSi
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiC,hR348,160
+_chemical_formula_weight                 40.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure of Silicon Carbide of 174 Layers'                          
+_journal_coden_ASTM                      JUPSAU
+_journal_year                            1960
+_journal_volume                          15
+_journal_page_first                      99
+_journal_page_last                       105
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tomita T.'
+;
+Saitama University
+Department of Physics
+Urawa
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.078
+_cell_length_b                           3.078
+_cell_length_c                           436.7
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             3583
+_cell_formula_units_Z                    174
+_symmetry_Int_Tables_number              160
+_symmetry_space_group_name_H-M           'R3m h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x+y, 0.33333+y, 0.33333+z'
+ 10 '0.66667-y, 0.33333-x, 0.33333+z'
+ 11 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 12 '0.66667+x, 0.33333+x-y, 0.33333+z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x+y, 0.66667+y, 0.66667+z'
+ 16 '0.33333-y, 0.66667-x, 0.66667+z'
+ 17 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 18 '0.33333+x, 0.66667+x-y, 0.66667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C57 C a 3 0 0 0.0 1
+ Si57 Si a 3 0 0 0.00431 1
+ C1 C a 3 0 0 0.01149 1
+ Si1 Si a 3 0 0 0.0158 1
+ C4 C a 3 0 0 0.02874 1
+ Si4 Si a 3 0 0 0.03305 1
+ C7 C a 3 0 0 0.04598 1
+ Si7 Si a 3 0 0 0.05029 1
+ C10 C a 3 0 0 0.06322 1
+ Si10 Si a 3 0 0 0.06753 1
+ C13 C a 3 0 0 0.08046 1
+ Si13 Si a 3 0 0 0.08477 1
+ C16 C a 3 0 0 0.0977 1
+ Si16 Si a 3 0 0 0.10201 1
+ C19 C a 3 0 0 0.11494 1
+ Si19 Si a 3 0 0 0.11925 1
+ C22 C a 3 0 0 0.13218 1
+ Si22 Si a 3 0 0 0.13649 1
+ C25 C a 3 0 0 0.14942 1
+ Si25 Si a 3 0 0 0.15373 1
+ C28 C a 3 0 0 0.16667 1
+ Si28 Si a 3 0 0 0.17098 1
+ C31 C a 3 0 0 0.18391 1
+ Si31 Si a 3 0 0 0.18822 1
+ C34 C a 3 0 0 0.20115 1
+ Si34 Si a 3 0 0 0.20546 1
+ C37 C a 3 0 0 0.21839 1
+ Si37 Si a 3 0 0 0.2227 1
+ C40 C a 3 0 0 0.23563 1
+ Si40 Si a 3 0 0 0.23994 1
+ C43 C a 3 0 0 0.25287 1
+ Si43 Si a 3 0 0 0.25718 1
+ C46 C a 3 0 0 0.27011 1
+ Si46 Si a 3 0 0 0.27442 1
+ C49 C a 3 0 0 0.28736 1
+ Si49 Si a 3 0 0 0.29167 1
+ C52 C a 3 0 0 0.3046 1
+ Si52 Si a 3 0 0 0.30891 1
+ C55 C a 3 0 0 0.32184 1
+ Si55 Si a 3 0 0 0.32615 1
+ C58 C a 3 0 0 0.33908 1
+ Si58 Si a 3 0 0 0.34339 1
+ C3 C a 3 0 0 0.35632 1
+ Si3 Si a 3 0 0 0.36063 1
+ C5 C a 3 0 0 0.36782 1
+ Si5 Si a 3 0 0 0.37213 1
+ C9 C a 3 0 0 0.3908 1
+ Si9 Si a 3 0 0 0.39511 1
+ C11 C a 3 0 0 0.4023 1
+ Si11 Si a 3 0 0 0.40661 1
+ C15 C a 3 0 0 0.42529 1
+ Si15 Si a 3 0 0 0.4296 1
+ C17 C a 3 0 0 0.43678 1
+ Si17 Si a 3 0 0 0.44109 1
+ C21 C a 3 0 0 0.45977 1
+ Si21 Si a 3 0 0 0.46408 1
+ C23 C a 3 0 0 0.47126 1
+ Si23 Si a 3 0 0 0.47557 1
+ C26 C a 3 0 0 0.48851 1
+ Si26 Si a 3 0 0 0.49282 1
+ C30 C a 3 0 0 0.51149 1
+ Si30 Si a 3 0 0 0.5158 1
+ C32 C a 3 0 0 0.52299 1
+ Si32 Si a 3 0 0 0.5273 1
+ C36 C a 3 0 0 0.54598 1
+ Si36 Si a 3 0 0 0.55029 1
+ C38 C a 3 0 0 0.55747 1
+ Si38 Si a 3 0 0 0.56178 1
+ C42 C a 3 0 0 0.58046 1
+ Si42 Si a 3 0 0 0.58477 1
+ C44 C a 3 0 0 0.59195 1
+ Si44 Si a 3 0 0 0.59626 1
+ C48 C a 3 0 0 0.61494 1
+ Si48 Si a 3 0 0 0.61925 1
+ C50 C a 3 0 0 0.62644 1
+ Si50 Si a 3 0 0 0.63075 1
+ C54 C a 3 0 0 0.64943 1
+ Si54 Si a 3 0 0 0.65373 1
+ C56 C a 3 0 0 0.66092 1
+ Si56 Si a 3 0 0 0.66523 1
+ C2 C a 3 0 0 0.68391 1
+ Si2 Si a 3 0 0 0.68822 1
+ C6 C a 3 0 0 0.7069 1
+ Si6 Si a 3 0 0 0.71121 1
+ C8 C a 3 0 0 0.71839 1
+ Si8 Si a 3 0 0 0.7227 1
+ C12 C a 3 0 0 0.74138 1
+ Si12 Si a 3 0 0 0.74569 1
+ C14 C a 3 0 0 0.75287 1
+ Si14 Si a 3 0 0 0.75718 1
+ C18 C a 3 0 0 0.77586 1
+ Si18 Si a 3 0 0 0.78017 1
+ C20 C a 3 0 0 0.78736 1
+ Si20 Si a 3 0 0 0.79167 1
+ C24 C a 3 0 0 0.81034 1
+ Si24 Si a 3 0 0 0.81466 1
+ C27 C a 3 0 0 0.82759 1
+ Si27 Si a 3 0 0 0.8319 1
+ C29 C a 3 0 0 0.83908 1
+ Si29 Si a 3 0 0 0.84339 1
+ C33 C a 3 0 0 0.86207 1
+ Si33 Si a 3 0 0 0.86638 1
+ C35 C a 3 0 0 0.87356 1
+ Si35 Si a 3 0 0 0.87787 1
+ C39 C a 3 0 0 0.89655 1
+ Si39 Si a 3 0 0 0.90086 1
+ C41 C a 3 0 0 0.90805 1
+ Si41 Si a 3 0 0 0.91236 1
+ C45 C a 3 0 0 0.93103 1
+ Si45 Si a 3 0 0 0.93534 1
+ C47 C a 3 0 0 0.94253 1
+ Si47 Si a 3 0 0 0.94684 1
+ C51 C a 3 0 0 0.96552 1
+ Si51 Si a 3 0 0 0.96983 1
+ C53 C a 3 0 0 0.97701 1
+ Si53 Si a 3 0 0 0.98132 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'oscillation photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1908533

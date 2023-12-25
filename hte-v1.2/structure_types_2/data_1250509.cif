@@ -1,0 +1,210 @@
+##############################################################################
+#                                                                            #
+# Pd-Se            # Pd7Se4                                        # 1250509 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250509
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250509
+
+# Entry summary
+
+_chemical_formula_structural             Pd7Se4
+_chemical_formula_sum                    Pd7Se4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd7Se4,oP22,18
+_chemical_formula_weight                 1060.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'KRISTALLSTRUKTUR VON Pd7Se4'
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1978
+_journal_volume                          59
+_journal_page_first                      P57
+_journal_page_last                       P63
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Matkovic T.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.863
+_cell_length_b                           10.162
+_cell_length_c                           5.375
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             374.86
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              18
+_symmetry_space_group_name_H-M           P21212
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, -z'
+ 3 '-x, -y, z'
+ 4 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd3 Pd c 4 0.1277 0.3681 0.3378 1
+ Se1 Se c 4 0.1755 0.2208 0.683 1
+ Pd1 Pd c 4 0.3122 0.0846 0.3492 1
+ Pd2 Pd c 4 0.4155 0.2744 0.0041 1
+ Se3 Se b 2 0 0.5 0.0011 1
+ Se2 Se a 2 0 0 0.1705 1
+ Pd4 Pd a 2 0 0 0.6757 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 530
+_refine_ls_R_factor_all                  0.035
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 0 1 56980 2
+ 0 1 1 47700 2
+ 1 1 0 42400 2
+ 1 0 2 40860 2
+ 1 1 1 39110 3
+ 0 1 2 36970 4
+ 2 0 0 34330 3
+ 1 1 2 32540 3
+ 1 0 3 30400 3
+ 2 1 0 28940 6
+ 0 1 3 28680 5
+ 2 0 2 28440 4
+ 2 1 1 27820 7
+ 0 2 0 26910 2
+ 1 1 3 26440 8
+ 0 2 1 26010 3
+ 0 0 4 25400 3
+ 2 1 2 25150 7
+ 1 2 0 25040 3
+ 1 2 1 24320 4
+ 1 0 4 23820 3
+ 0 2 2 23780 3
+ 0 1 4 22970 6
+ 1 2 2 22460 4
+ 3 0 1 22310 6
+ 2 1 3 22000 6
+ 1 1 4 21780 4
+ 2 2 0 21170 3
+ 0 2 3 21040 3
+ 3 0 2 20850 4
+ 2 2 1 20710 7
+ 3 1 1 20610 5
+ 2 0 4 20400 5
+ 1 2 3 20140 7
+ 2 2 2 19540 6
+ 1 0 5 19460 6
+ 2 1 4 19090 3
+ 0 1 5 19000 3
+ 0 2 4 18470 3
+ 1 1 5 18310 3
+ 2 2 3 17940 7
+ 3 1 3 17830 5
+ 2 0 5 17480 4
+ 3 2 1 17170 5
+ 1 3 1 17100 3
+ 3 0 4 17010 1
+ 0 0 6 16910 3
+ 2 1 5 16620 3
+ 3 2 2 16470 3
+ 1 0 6 16450 2
+ 4 1 0 16360 1
+ 2 2 4 16250 5
+ 0 2 5 16210 5
+ 4 1 1 16120 3
+ 1 2 5 15780 3
+ 1 1 6 15720 4
+ 4 1 2 15550 4
+ 3 2 3 15490 3
+ 4 0 3 15290 5
+ 3 0 5 15180 5
+ 4 1 3 14710 3
+ 3 1 5 14600 3
+ 2 3 3 14360 2
+ 0 2 6 14320 3
+ 4 0 4 14200 4
+ 1 2 6 14020 4
+ 3 3 1 13970 3
+ 4 2 2 13890 3
+ 4 1 4 13720 3
+ 5 0 1 13580 4
+ 2 3 4 13460 3
+ 0 4 1 13280 5
+ 3 2 5 13210 3
+ 3 1 6 13190 6
+ 3 3 3 12980 3
+ 5 1 2 12860 1
+ 0 2 7 12760 4
+ 0 0 8 12690 3
+ 4 2 4 12550 4
+ 2 3 5 12510 4
+ 1 0 8 12490 2
+ 2 4 1 12410 3
+ 4 3 0 12380 3
+ 0 3 6 12280 5
+ 5 2 0 12210 4
+ 1 1 8 12130 6
+
+# End of data set 1250509

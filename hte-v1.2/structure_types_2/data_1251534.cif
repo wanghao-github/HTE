@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# Pt-Zr            # Zr9Pt11                                       # 1251534 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251534
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251534
+
+# Entry summary
+
+_chemical_formula_structural             Zr9Pt11
+_chemical_formula_sum                    Pt11Zr9
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr9Pt11,tI40,87
+_chemical_formula_weight                 2967.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Alloying Behaviour of Zirconium With Other Transition Metals'                
+_journal_coden_ASTM                      ZEMTAE
+_journal_year                            1973
+_journal_volume                          64
+_journal_page_first                      793
+_journal_page_last                       799
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Panda S.C.'
+;
+Banares Hindu University
+Department of Metallurgical Engineering
+Varanasi
+India
+;
+'Bhan S.'
+;
+Banares Hindu University
+Department of Metallurgical Engineering
+Varanasi
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.297
+_cell_length_b                           10.297
+_cell_length_c                           6.888
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             730.32
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              87
+_symmetry_space_group_name_H-M           I4/m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-y, x, -z'
+ 5 '-y, x, z'
+ 6 'x, y, -z'
+ 7 'y, -x, -z'
+ 8 'y, -x, z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5-z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-y, 0.5+x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5+z'
+ 14 '0.5+x, 0.5+y, 0.5-z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5-x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt3 Pt i 16 0.125 0.225 0.22 1
+ Zr3 Zr h 8 0.21 0.405 0 1
+ Zr2 Zr h 8 0.305 0.108 0 1
+ Pt2 Pt d 4 0 0.5 0.25 1
+ Pt1 Pt b 2 0 0 0.5 1
+ Zr1 Zr a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251534

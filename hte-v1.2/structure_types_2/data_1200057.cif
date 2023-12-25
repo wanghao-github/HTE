@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# Te-Zr            # Zr5Te6                                        # 1200057 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1200057
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1200057
+
+# Entry summary
+
+_chemical_formula_structural             'Zr5Te6, rt'
+_chemical_formula_sum                    Te6Zr5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zr5Te6,hP33,164
+_chemical_formula_weight                 1221.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Clustering of Zirconium Atoms in Zr5Te6: A Novel NiAs-Type-Related Telluride with Ordered Vacancies
+;
+_journal_coden_ASTM                      CEUJED
+_journal_year                            2000
+_journal_volume                          6
+_journal_page_first                      4170
+_journal_page_last                       4176
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Örlygsson G.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie
+Marburg
+Germany
+;
+'Harbrecht B.'
+;
+Marburg Lahn Philipps University
+Fachbereich Chemie
+Marburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.728
+_cell_length_b                           11.728
+_cell_length_c                           7.07
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             842.2
+_cell_formula_units_Z                    3
+_symmetry_Int_Tables_number              164
+_symmetry_space_group_name_H-M           P-3m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te1 Te i 6 0.1064 0.8936 0.28923 1
+ Te2 Te i 6 0.44111 0.55889 0.20925 1
+ Te3 Te i 6 0.77511 0.22489 0.24421 1
+ Zr4 Zr h 6 0.36084 0 0.5 1
+ Zr3 Zr g 6 0.2994 0 0 1
+ Zr2 Zr d 2 0.333333 0.666667 0.4888 1
+ Zr1 Zr a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            5000
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    18382
+_exptl_absorpt_coefficient_mu            19.70
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'Patterson and Fourier synthesis, starting values from the literature'        
+_refine_ls_number_parameters             36
+_refine_ls_number_reflns                 1075
+_refine_ls_R_factor_all                  0.0200
+_refine_ls_wR_factor_all                 0.0409
+_computing_structure_refinement          SHELXS-97
+
+# End of data set 1200057

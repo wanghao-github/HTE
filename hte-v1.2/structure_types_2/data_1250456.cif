@@ -1,0 +1,122 @@
+##############################################################################
+#                                                                            #
+# Pd-Se            # Pd7Se2                                        # 1250456 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250456
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250456
+
+# Entry summary
+
+_chemical_formula_structural             Pd7Se2
+_chemical_formula_sum                    Pd7Se2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd7Se2,mP18,14
+_chemical_formula_weight                 902.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structures of Superconducting Palladium Selenides, Pd7Se2 and Pd34Se11'      
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            1989
+_journal_volume                          45
+_journal_page_first                      1
+_journal_page_last                       3
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sato S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Takabatake T.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Ishikawa M.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.495
+_cell_length_b                           5.37
+_cell_length_c                           9.441
+_cell_angle_alpha                        90
+_cell_angle_beta                         93.61
+_cell_angle_gamma                        90
+_cell_volume                             278.03
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd4 Pd e 4 0.07238 0.15724 0.2913 1
+ Pd2 Pd e 4 0.29242 0.42084 0.07262 1
+ Pd3 Pd e 4 0.53078 0.40151 0.35143 1
+ Se Se e 4 0.72675 0.27175 0.12188 1
+ Pd1 Pd a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_reflns_used            35
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC3'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_radiation_wavelength             0.5608
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            17.5
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 863
+_refine_ls_R_factor_all                  0.042
+_refine_ls_wR_factor_all                 0.087
+_computing_structure_refinement          'MULTAN-78; UNICS-II; RADIEL'
+
+# End of data set 1250456

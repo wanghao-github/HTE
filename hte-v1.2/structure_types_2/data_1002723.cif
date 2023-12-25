@@ -1,0 +1,127 @@
+##############################################################################
+#                                                                            #
+# Al-Ca            # Ca13Al14                                      # 1002723 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1002723
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1002723
+
+# Entry summary
+
+_chemical_formula_structural             Ca13Al14
+_chemical_formula_sum                    Al14Ca13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca13Al14,mS54,12
+_chemical_formula_weight                 898.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Two New Binary Calcium-Aluminum Compounds: Ca13Al14, with a Novel Two-Dimensional Aluminum Network, and Ca8Al3, an Fe3Al-Type Analogue
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1998
+_journal_volume                          37
+_journal_page_first                      5827
+_journal_page_last                       5833
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Huang B.'
+;
+Iowa State University
+Ames Laboratory - U.S. Department of Energy
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory - U.S. Department of Energy
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.551
+_cell_length_b                           9.873
+_cell_length_c                           9.726
+_cell_angle_alpha                        90
+_cell_angle_beta                         108.09
+_cell_angle_gamma                        90
+_cell_volume                             1419.5
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ca1 Ca j 8 0.14628 0.2027 0.3659 1
+ Al1 Al j 8 0.1581 0.3653 0.0827 1
+ Ca2 Ca j 8 0.36159 0.2819 0.2275 1
+ Al2 Al i 4 0.0013 0 0.1578 1
+ Ca3 Ca i 4 0.1969 0 0.0851 1
+ Al3 Al i 4 0.2586 0 0.6548 1
+ Al4 Al i 4 0.3398 0 0.4311 1
+ Ca4 Ca i 4 0.5036 0 0.2024 1
+ Al5 Al h 4 0 0.3542 0.5 1
+ Al6 Al g 4 0 0.2249 0 1
+ Ca5 Ca c 2 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              296
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC6R'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3537
+_exptl_absorpt_coefficient_mu            2.762
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             72
+_refine_ls_number_reflns                 918
+_refine_ls_R_factor_all                  0.031
+_refine_ls_wR_factor_all                 0.028
+_computing_structure_refinement          'SHELXS-86; TEXSAN-6.0 package'
+
+# End of data set 1002723

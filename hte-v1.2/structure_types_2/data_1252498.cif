@@ -1,0 +1,115 @@
+##############################################################################
+#                                                                            #
+# La-Te            # LaTe2                                         # 1252498 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252498
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252498
+
+# Entry summary
+
+_chemical_formula_structural             LaTe2
+_chemical_formula_sum                    LaTe2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaTe2,mP24,7
+_chemical_formula_weight                 394.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure and Electronic Band Structure of LaTe2'                    
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            2000
+_journal_volume                          149
+_journal_page_first                      155
+_journal_page_last                       166
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stöwe K.'
+;
+Saarland University
+Institut für Anorganische und Analytische Chemie und Radiochemie
+Saarbrücken
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.19
+_cell_length_b                           9.107
+_cell_length_c                           9.07
+_cell_angle_alpha                        90
+_cell_angle_beta                         90.04
+_cell_angle_gamma                        90
+_cell_volume                             759.098
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              7
+_symmetry_space_group_name_H-M           P1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te13 Te a 2 0.0 0.002 0.0 1
+ Te12 Te a 2 0.0009 0.262 0.2653 1
+ Te14 Te a 2 0.0013 0.5006 0.0392 1
+ La2 La a 2 0.2733 0.5038 0.2772 1
+ La1 La a 2 0.274 0.0038 0.261 1
+ Te24 Te a 2 0.3676 0.2504 0.0201 1
+ Te23 Te a 2 0.3679 0.2503 0.52 1
+ Te21 Te a 2 0.6343 0.0009 0.266 1
+ Te22 Te a 2 0.6346 0.5009 0.2716 1
+ La3 La a 2 0.7254 0.2498 0.5195 1
+ La4 La a 2 0.7255 0.2504 0.0194 1
+ Te11 Te a 2 0.9997 0.7579 0.2678 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            98
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens P4'
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    8853
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            26.17
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             113
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 0.0585
+_computing_structure_refinement          'HABITUS; SHELX-97 package'
+
+# End of data set 1252498

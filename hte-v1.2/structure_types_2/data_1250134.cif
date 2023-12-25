@@ -1,0 +1,124 @@
+##############################################################################
+#                                                                            #
+# I-Te             # TeIm                                          # 1250134 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250134
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250134
+
+# Entry summary
+
+_chemical_formula_structural             'TeI b'
+_chemical_formula_sum                    ITe
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TeI,mS16,12
+_chemical_formula_weight                 254.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Zur Kenntnis der Subhalogenide des Tellurs'                                  
+_journal_coden_ASTM                      ZAACAB
+_journal_year                            1976
+_journal_volume                          422
+_journal_page_first                      17
+_journal_page_last                       38
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kniep R.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Mootz D.'
+;
+Düsseldorf Heinrich Heine University
+Institut für Anorganische und Strukturchemie
+Düsseldorf
+Germany
+;
+'Rabenau A.'
+;
+Düsseldorf Heinrich Heine University
+Institut für Anorganische und Strukturchemie
+Düsseldorf
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.383
+_cell_length_b                           4.182
+_cell_length_c                           11.999
+_cell_angle_alpha                        90
+_cell_angle_beta                         128.09
+_cell_angle_gamma                        90
+_cell_volume                             607.53
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ I1 I i 4 0.15374 0 0.68251 1
+ Te1 Te i 4 0.19341 0 0.31408 1
+ I2 I i 4 0.38927 0 0.05161 1
+ Te2 Te i 4 0.57083 0 0.33183 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            30
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens AED'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            20.07
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.054
+_refine_ls_wR_factor_all                 0.036
+_computing_structure_refinement          ?
+
+# End of data set 1250134

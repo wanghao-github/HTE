@@ -1,0 +1,139 @@
+##############################################################################
+#                                                                            #
+# Ga-Tm            # Tm5Ga3mon                                     # 1110790 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1110790
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1110790
+
+# Entry summary
+
+_chemical_formula_structural             Tm5Ga3
+_chemical_formula_sum                    Ga3Tm5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y5Ga3,mS32,12
+_chemical_formula_weight                 1053.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Formation of Gallium Dimers in the Intermetallic Compounds R5Ga3 (R= Sc, Y, Ho, Er, Tm, Lu). Deformation of the Mn5Si3-Type Structure
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            2001
+_journal_volume                          40
+_journal_page_first                      1352
+_journal_page_last                       1357
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Maggard P.A.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.467
+_cell_length_b                           14.647
+_cell_length_c                           6.3489
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.28
+_cell_angle_gamma                        90
+_cell_volume                             787.2
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Ga 0
+ Tm 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga j 8 0.212 0.301 0.293 1
+ Tm1 Tm j 8 0.378 0.123 0.264 1
+ Ga2 Ga i 4 0.11 0 0.198 1
+ Tm2 Tm i 4 0.73 0 0.226 1
+ Tm3 Tm h 4 0 0.151 0.5 1
+ Tm4 Tm g 4 0 0.18 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54056
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1110790

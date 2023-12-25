@@ -1,0 +1,177 @@
+##############################################################################
+#                                                                            #
+# O-W              # W17O47ht                                      # 1250169 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250169
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250169
+
+# Entry summary
+
+_chemical_formula_structural             W17O47
+_chemical_formula_sum                    O47W17
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            W17O47,mP64,10
+_chemical_formula_weight                 3877.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'A New Pseudo-Binary Tungsten Oxide, W17O47'                                  
+_journal_coden_ASTM                      ASBSDK
+_journal_year                            1988
+_journal_volume                          44
+_journal_page_first                      474
+_journal_page_last                       480
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dobson M.M.'
+;
+Cardiff University College
+Department of Materials
+Cardiff
+United Kingdom
+;
+'Tilley R.J.D.'
+;
+Cardiff University College
+Department of Materials
+Cardiff
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.326
+_cell_length_b                           3.787
+_cell_length_c                           18.84
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.67
+_cell_angle_gamma                        90
+_cell_volume                             858.01
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              10
+_symmetry_space_group_name_H-M           P12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O1 O n 2 0.000 0.5 0.157 1
+ O8 O n 2 0.128 0.5 0.358 1
+ O2 O n 2 0.181 0.5 0.709 1
+ O6 O n 2 0.213 0.5 0.041 1
+ O7 O n 2 0.241 0.5 0.205 1
+ O4 O n 2 0.335 0.5 0.550 1
+ O5 O n 2 0.425 0.5 0.373 1
+ O3 O n 2 0.468 0.5 0.179 1
+ W1 W m 2 0.000 0 0.157 1
+ O22 O m 2 0.010 0 0.645 1
+ O18 O m 2 0.095 0 0.254 1
+ O17 O m 2 0.117 0 0.093 1
+ W8 W m 2 0.128 0 0.358 1
+ O14 O m 2 0.133 0 0.803 1
+ W2 W m 2 0.181 0 0.709 1
+ O24 O m 2 0.191 0 0.471 1
+ W6 W m 2 0.213 0 0.041 1
+ O23 O m 2 0.218 0 0.627 1
+ W7 W m 2 0.241 0 0.205 1
+ O19 O m 2 0.266 0 0.328 1
+ O16 O m 2 0.298 0 0.123 1
+ W4 W m 2 0.335 0 0.550 1
+ O15 O m 2 0.414 0 0.239 1
+ W5 W m 2 0.425 0 0.373 1
+ O21 O m 2 0.442 0 0.466 1
+ W3 W m 2 0.468 0 0.179 1
+ O12 O m 2 0.525 0 0.096 1
+ O20 O m 2 0.570 0 0.375 1
+ O11 O m 2 0.644 0 0.024 1
+ O13 O m 2 0.665 0 0.224 1
+ O10 O m 2 0.883 0 0.060 1
+ O9 O e 1 0.5 0.5 0 1
+ W9 W d 1 0.5 0 0 1
+
+
+_exptl_crystal_colour                    'mauve pink'
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'model derived from HREM images'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 0 0 91.32 4
+ 2 0 1 66.19 1
+ 0 0 2 60.07 1
+ -2 0 2 56.08 2
+ 1 0 2 53.67 5
+ -4 0 2 41.15 6
+ 0 0 3 40.09 22
+ 0 1 0 37.87 100
+ 1 0 3 37.5 6
+ 5 0 0 36.76 1
+ -1 1 1 35.9 2
+ -5 0 2 34.96 8
+ 2 0 3 34.1 16
+ 4 0 2 33.14 4
+ 2 1 1 32.87 6
+ 3 1 0 32.2 4
+ 1 1 2 30.95 4
+ -1 0 4 30.77 4
+ -5 0 3 30.66 5
+ 3 0 3 30.61 4
+ 0 0 4 30.05 14
+ -3 0 4 29.69 36
+ 1 0 4 28.69 5
+ -4 0 4 28.15 9
+ -4 1 2 27.87 5
+ 4 1 1 27.51 25
+
+# End of data set 1250169

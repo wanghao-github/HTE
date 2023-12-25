@@ -1,0 +1,123 @@
+##############################################################################
+#                                                                            #
+# Lu-P             # LuP5                                          # 1300816 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1300816
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1300816
+
+# Entry summary
+
+_chemical_formula_structural             LuP5
+_chemical_formula_sum                    LuP5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NdP5,mP12,11
+_chemical_formula_weight                 329.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of thulium pentaphosphide, TmP5 and of lutetium pentaphosphide, LuP5
+;
+_journal_coden_ASTM                      ZKNSFT
+_journal_year                            1998
+_journal_volume                          213
+_journal_page_first                      467
+_journal_page_last                       468
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Von Schnering H.G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Wittmann M.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Peters K.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.871
+_cell_length_b                           9.283
+_cell_length_c                           5.277
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.57
+_cell_angle_gamma                        90
+_cell_volume                             232.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P1 P f 4 0.1179 0.5932 0.4585 1
+ P2 P f 4 0.2181 0.5291 0.0953 1
+ P3 P e 2 0.2291 0.25 0.6082 1
+ Lu Lu e 2 0.4967 0.25 0.1513 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            22.71
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             31
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.030
+_refine_ls_wR_factor_all                 0.033
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# End of data set 1300816

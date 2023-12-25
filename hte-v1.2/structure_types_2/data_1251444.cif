@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# Ge-Ir            # Ir4Ge5                                        # 1251444 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251444
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251444
+
+# Entry summary
+
+_chemical_formula_structural             Ir4Ge5
+_chemical_formula_sum                    Ge5Ir4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ir4Ge5,tP36,116
+_chemical_formula_weight                 1131.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Die Kristallstruktur von Ir4Ge5'
+_journal_coden_ASTM                      MOCMB7
+_journal_year                            1968
+_journal_volume                          99
+_journal_page_first                      877
+_journal_page_last                       883
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Flieher G.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Völlenkle H.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Nowotny H.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.615
+_cell_length_b                           5.615
+_cell_length_c                           18.308
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             577.22
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              116
+_symmetry_space_group_name_H-M           P-4c2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, 0.5+z'
+ 4 '-y, -x, 0.5-z'
+ 5 '-y, x, -z'
+ 6 'x, -y, 0.5+z'
+ 7 'y, -x, -z'
+ 8 'y, x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge3 Ge j 8 0.1514 0.2818 0.6490 1
+ Ge2 Ge j 8 0.332 0.1988 0.0511 1
+ Ir4 Ir i 4 0 0.5 0.0553 1
+ Ir5 Ir i 4 0 0.5 0.3176 1
+ Ir3 Ir h 4 0.5 0.5 0.1357 1
+ Ge1 Ge e 4 0.314 0.314 0.25 1
+ Ir1 Ir c 2 0 0 0 1
+ Ir2 Ir a 2 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.103
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 0 4 472 8
+ 2 0 0 755 6
+ 1 1 5 826 5
+ 2 1 1 960 4
+ 2 1 4 1226 8
+ 2 0 6 1391 2
+ 2 2 0 1514 8
+ 2 1 6 1583 3
+ 0 0 10 1779 3
+ 3 0 4 1984 6
+ 3 0 6 2336 3
+ 2 1 9 2379 ?
+ 3 2 4 2738 4
+ 4 0 0 3014 6
+ 2 2 10 3284 3
+ 4 1 4 3488 5
+ 4 2 0 3773 4
+ 3 0 12 4252 3
+ 3 3 8 4521 4
+ 5 0 4 5000 5
+ 3 0 14 5185 2
+ 2 0 16 5297 3
+ 3 1 14 5358 2
+ 5 2 4 5757 4
+ 4 4 0 6035 5
+ 5 2 6 6108 2
+ 4 1 14 6685 2
+ 6 0 0 6784 3
+ 6 1 4 7262 4
+ 6 2 0 7545 5
+ 5 4 4 8016 5
+ 4 2 16 8300 4
+ 6 0 10 8562 2
+ 6 1 10 8762 5
+ 5 2 14 8946 2
+ 6 3 6 9131 3
+ 7 0 4 9521 6
+ 6 4 0 9802 6
+
+# End of data set 1251444

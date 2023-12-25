@@ -1,0 +1,135 @@
+##############################################################################
+#                                                                            #
+# C-Cl             # C16Cl10                                       # 1401826 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1401826
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1401826
+
+# Entry summary
+
+_chemical_formula_structural             C16Cl10
+_chemical_formula_sum                    C16Cl10
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            C16Cl10,mP104,14
+_chemical_formula_weight                 546.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'The Structure of Decachloropyrene, C16Cl10: all Overcrowded Molecule'        
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1976
+_journal_volume                          32
+_journal_page_first                      682
+_journal_page_last                       686
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hazell A.C.'
+;
+Århus University
+Department of Inorganic Chemistry
+Århus
+Denmark
+;
+'Jagner S.'
+;
+Gothenburg University
+Department of Inorganic Chemistry
+Gothenburg
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.803
+_cell_length_b                           7.494
+_cell_length_c                           23.5514
+_cell_angle_alpha                        90
+_cell_angle_beta                         114.468
+_cell_angle_gamma                        90
+_cell_volume                             1735.4
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C1 C e 4 0.0278 0.60794 0.38175 1
+ C13 C e 4 0.04241 0.56895 0.28339 1
+ C11 C e 4 0.04458 0.56179 0.18049 1
+ Cl9 Cl e 4 0.10044 0.20113 0.46039 1
+ C10 C e 4 0.10071 0.09748 0.34914 1
+ C15 C e 4 0.10218 0.05087 0.24538 1
+ Cl1 Cl e 4 0.10315 0.67228 0.45844 1
+ C14 C e 4 0.10437 0.60213 0.34746 1
+ C2 C e 4 0.10998 0.06716 0.14504 1
+ C12 C e 4 0.1115 0.54915 0.24301 1
+ Cl11 Cl e 4 0.13393 0.51882 0.13678 1
+ C16 C e 4 0.17309 0.06774 0.31183 1
+ C9 C e 4 0.17481 0.151 0.41104 1
+ C3 C e 4 0.17651 0.03231 0.20845 1
+ Cl2 Cl e 4 0.19595 0.08152 0.09827 1
+ Cl12 Cl e 4 0.28005 0.48462 0.27295 1
+ C8 C e 4 0.31461 0.18162 0.43364 1
+ C6 C e 4 0.31733 0.07008 0.33893 1
+ C7 C e 4 0.38563 0.14059 0.39835 1
+ Cl8 Cl e 4 0.3993 0.22763 0.00616 1
+ Cl5 Cl e 4 0.46128 0.39042 0.15938 1
+ Cl7 Cl e 4 0.55363 0.20136 0.42706 1
+ Cl4 Cl e 4 0.60636 0.35672 0.29814 1
+ C5 C e 4 0.61714 0.49136 0.19721 1
+ C4 C e 4 0.68323 0.47438 0.25948 1
+ Cl14 Cl e 4 0.72593 0.1574 0.11386 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Supper-Pace
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2655
+_exptl_absorpt_coefficient_mu            1.59
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.038
+_refine_ls_wR_factor_all                 0.040
+_computing_structure_refinement          'LINUS; MULTAN'
+
+# End of data set 1401826

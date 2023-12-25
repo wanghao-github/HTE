@@ -1,0 +1,132 @@
+##############################################################################
+#                                                                            #
+# Ga-Sb            # Ga0.5Sb0.5hp2                                 # 1301679 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1301679
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301679
+
+# Entry summary
+
+_chemical_formula_structural             GaSb(II)
+_chemical_formula_sum                    GaSb
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            GaSb,tI4,119
+_chemical_formula_weight                 191.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Retention of GaSb (II) at Low Temperatures and One Atmosphere Pressure'      
+_journal_coden_ASTM                      JAPIAU
+_journal_year                            1965
+_journal_volume                          36
+_journal_page_first                      1498
+_journal_page_last                       1499
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'McDonald T.R.R.'
+;
+Air Reduction Co. Inc.
+Central Research Laboratory
+Murray Hill
+U.S.A. New Jersey
+;
+'Sard R.'
+;
+Air Reduction Co. Inc.
+Central Research Laboratory
+Murray Hill
+U.S.A. New Jersey
+;
+'Gregory E.'
+;
+Air Reduction Co. Inc.
+Central Research Laboratory
+Murray Hill
+U.S.A. New Jersey
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.479
+_cell_length_b                           5.479
+_cell_length_c                           3.06
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             91.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              119
+_symmetry_space_group_name_H-M           I-4m2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, -z'
+ 5 '-y, x, -z'
+ 6 'x, -y, z'
+ 7 'y, -x, -z'
+ 8 'y, x, -z'
+ 9 '0.5+x, 0.5+y, 0.5+z'
+ 10 '0.5-x, 0.5-y, 0.5+z'
+ 11 '0.5-x, 0.5+y, 0.5+z'
+ 12 '0.5-y, 0.5-x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5-z'
+ 14 '0.5+x, 0.5-y, 0.5+z'
+ 15 '0.5+y, 0.5-x, 0.5-z'
+ 16 '0.5+y, 0.5+x, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga Ga c 2 0 0.5 0.25 1
+ Sb Sb a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            90
+_cell_measurement_pressure               100
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 100
+_diffrn_ambient_temperature              90
+_diffrn_measurement_device               'Debye-Scherrer film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1301679

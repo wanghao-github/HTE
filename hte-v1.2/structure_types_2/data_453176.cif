@@ -1,0 +1,129 @@
+##############################################################################
+#                                                                            #
+# P-S              # PSrt                                          #  453176 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_453176
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      453176
+
+# Entry summary
+
+_chemical_formula_structural             a-P4S4
+_chemical_formula_sum                    PS
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            AsS,mS32,15
+_chemical_formula_weight                 63.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Syntheses of New Phenylimido- and Sulfido-Tetraphosphorus Ring and Cage Compounds
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1978
+_journal_volume                          17
+_journal_page_first                      2056
+_journal_page_last                       2062
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Chang C.C.'
+;
+Colorado State University
+Department of Chemistry
+Boulder
+U.S.A. Colorado
+;
+'Haltiwanger R.C.'
+;
+Colorado State University
+Department of Chemistry
+Boulder
+U.S.A. Colorado
+;
+'Norman A.D.'
+;
+Colorado State University
+Department of Chemistry
+Boulder
+U.S.A. Colorado
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.779
+_cell_length_b                           9.055
+_cell_length_c                           8.759
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.65
+_cell_angle_gamma                        90
+_cell_volume                             756.77
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ P(1) P f 8 0.00176 0.20228 0.43317 1
+ P(2) P f 8 0.15012 0.38611 0.36981 1
+ S(3) S f 8 0.19616 0.29449 0.16573 1
+ S(1) S e 4 0 0.05053 0.25 1
+ S(2) S e 4 0 0.53792 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            297
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            15
+_diffrn_ambient_temperature              297
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            1.933
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1615
+_refine_ls_R_factor_all                  0.038
+_refine_ls_wR_factor_all                 0.048
+_computing_structure_refinement          MULTAN
+
+# End of data set 453176

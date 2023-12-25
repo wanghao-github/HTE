@@ -1,0 +1,134 @@
+##############################################################################
+#                                                                            #
+# Cu-In            # Cu7In3rt                                      # 1250841 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250841
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250841
+
+# Entry summary
+
+_chemical_formula_structural             Cu7In3
+_chemical_formula_sum                    Cu7In3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cu7In3,aP40,2
+_chemical_formula_weight                 789.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Structure of Copper-Indium Cu7In3'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1980
+_journal_volume                          36
+_journal_page_first                      3094
+_journal_page_last                       3096
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Koster A.S.'
+;
+Eindhoven University of Technology
+Laboratory of Physical Chemistry
+Eindhoven
+Netherlands
+;
+'Wolff L.R.'
+;
+Eindhoven University of Technology
+Laboratory of Physical Chemistry
+Eindhoven
+Netherlands
+;
+'Visser G.J.'
+;
+Eindhoven University of Technology
+Computing Center
+Eindhoven
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.724
+_cell_length_b                           9.126
+_cell_length_c                           10.071
+_cell_angle_alpha                        73.19
+_cell_angle_beta                         82.84
+_cell_angle_gamma                        89.78
+_cell_volume                             586.63
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              2
+_symmetry_space_group_name_H-M           P-1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cu15 Cu i 2 0.069 0.765 0.415 1
+ In4 In i 2 0.142 0.265 0.317 1
+ Cu11 Cu i 2 0.144 0.240 0.787 1
+ Cu5 Cu i 2 0.153 0.572 0.272 1
+ In1 In i 2 0.207 0.472 0.556 1
+ Cu13 Cu i 2 0.227 0.450 0.063 1
+ Cu9 Cu i 2 0.245 0.857 0.164 1
+ Cu7 Cu i 2 0.273 0.150 0.082 1
+ Cu3 Cu i 2 0.304 0.145 0.561 1
+ Cu8 Cu i 2 0.339 0.002 0.338 1
+ In2 In i 2 0.382 0.006 0.866 1
+ Cu14 Cu i 2 0.471 0.413 0.366 1
+ In6 In i 2 0.518 0.636 0.121 1
+ Cu10 Cu i 2 0.539 0.306 0.154 1
+ Cu6 Cu i 2 0.556 0.294 0.634 1
+ In5 In i 2 0.678 0.164 0.396 1
+ Cu4 Cu i 2 0.843 0.459 0.196 1
+ In3 In i 2 0.921 0.280 0.018 1
+ Cu12 Cu i 2 0.967 0.019 0.249 1
+ Cu1 Cu b 1 0 0 0.5 1
+ Cu2 Cu a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3600
+_exptl_absorpt_coefficient_mu            36.8
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1760
+_refine_ls_R_factor_all                  0.098
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          MULTAN-78
+
+# End of data set 1250841

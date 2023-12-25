@@ -1,0 +1,270 @@
+##############################################################################
+#                                                                            #
+# Ta-Te            # Ta97Te60                                      # 1320366 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1320366
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1320366
+
+# Entry summary
+
+_chemical_formula_structural             Ta97Te60
+_chemical_formula_sum                    Ta97Te60
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ta97Te60,oP628,19
+_chemical_formula_weight                 25207.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ta97Te60: A Crystalline Approximant of a Tantalum Telluride Quasicrystal with Twelvefold Rotational Symmetry
+;
+_journal_coden_ASTM                      CEUJED
+_journal_year                            2002
+_journal_volume                          8
+_journal_page_first                      3093
+_journal_page_last                       3102
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Conrad M.'
+;
+Marburg Lahn Philipps University
+Institut für Chemie und Zentrum für Materialwissenschaften
+Marburg
+Germany
+;
+'Harbrecht B.'
+;
+Marburg Lahn Philipps University
+Institut für Chemie und Zentrum für Materialwissenschaften
+Marburg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           20.613
+_cell_length_b                           27.627
+_cell_length_c                           27.627
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             15732.9
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              19
+_symmetry_space_group_name_H-M           P212121
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ta8 Ta a 4 0.0049 0.04948 0.68323 1
+ Ta13 Ta a 4 0.0072 0.23113 0.63261 1
+ Ta12 Ta a 4 0.0089 0.09784 0.50307 1
+ Ta14 Ta a 4 0.0145 0.73453 0.13826 1
+ Ta10 Ta a 4 0.0165 0.55726 0.18872 1
+ Ta17 Ta a 4 0.01716 0.16845 0.06987 1
+ Ta7 Ta a 4 0.019 0.05338 0.04564 1
+ Ta11 Ta a 4 0.0197 0.42041 0.32379 1
+ Ta36 Ta a 4 0.0212 0.79435 0.30645 1
+ Ta28 Ta a 4 0.0221 0.1317 0.38875 1
+ Ta20 Ta a 4 0.0224 0.26641 0.09939 1
+ Ta18 Ta a 4 0.0233 0.33705 0.02723 1
+ Ta2 Ta a 4 0.0261 0.3772 0.13959 1
+ Ta33 Ta a 4 0.02855 0.59872 0.36333 1
+ Ta25 Ta a 4 0.0336 0.15829 0.29127 1
+ Ta40 Ta a 4 0.0351 0.03481 0.41818 1
+ Ta42 Ta a 4 0.04 0.81903 0.20149 1
+ Ta6 Ta a 4 0.0426 0.19057 0.17823 1
+ Ta56 Ta a 4 0.0472 0.19983 0.46069 1
+ Te1 Te a 4 0.0483 0.74457 0.4949 1
+ Ta59 Ta a 4 0.0521 0.27122 0.53822 1
+ Ta22 Ta a 4 0.05405 0.45399 0.21552 1
+ Ta39 Ta a 4 0.05395 0.52468 0.28781 1
+ Ta55 Ta a 4 0.0574 0.01552 0.14772 1
+ Ta53 Ta a 4 0.0601 0.08875 0.22069 1
+ Ta49 Ta a 4 0.0655 0.25414 0.26829 1
+ Ta79 Ta a 4 0.0663 0.47135 0.48702 1
+ Ta78 Ta a 4 0.0674 0.7224 0.23925 1
+ Ta48 Ta a 4 0.0696 0.50467 0.01593 1
+ Ta74 Ta a 4 0.0719 0.62456 0.26851 1
+ Ta45 Ta a 4 0.0733 0.35728 0.24337 1
+ Ta44 Ta a 4 0.0736 0.47912 0.11853 1
+ Ta75 Ta a 4 0.0738 0.4997 0.38829 1
+ Ta97 Ta a 4 0.0815 0.29782 0.44091 1
+ Te3 Te a 4 0.0822 0.83677 0.40326 1
+ Ta94 Ta a 4 0.0828 0.17028 0.55965 1
+ Te7 Te a 4 0.0832 0.7038 0.3539 1
+ Ta96 Ta a 4 0.0865 0.67607 0.06385 1
+ Ta91 Ta a 4 0.0883 0.32554 0.34262 1
+ Ta86 Ta a 4 0.0885 0.06986 0.58802 1
+ Ta89 Ta a 4 0.0892 0.39902 0.41556 1
+ Ta92 Ta a 4 0.0893 0.14408 0.65894 1
+ Te8 Te a 4 0.0901 0.6127 0.4636 1
+ Ta90 Ta a 4 0.0933 0.57757 0.0897 1
+ Ta88 Ta a 4 0.0941 0.64938 0.16705 1
+ Ta67 Ta a 4 0.10949 0.11041 0.12474 1
+ Te23 Te a 4 0.1123 0.0722 0.3271 1
+ Ta69 Ta a 4 0.1158 0.28523 0.17503 1
+ Ta68 Ta a 4 0.1169 0.41137 0.04635 1
+ Te27 Te a 4 0.1178 0.2184 0.3662 1
+ Te22 Te a 4 0.124 0.3662 0.5329 1
+ Te19 Te a 4 0.1256 0.1114 0.4543 1
+ Te30 Te a 4 0.1296 0.2734 0.6383 1
+ Ta65 Ta a 4 0.1328 0.1341 0.02448 1
+ Te15 Te a 4 0.1361 0.0397 0.698 1
+ Ta63 Ta a 4 0.1391 0.21084 0.09987 1
+ Ta60 Ta a 4 0.14303 0.31457 0.07672 1
+ Te14 Te a 4 0.1433 0.0206 0.0589 1
+ Te17 Te a 4 0.145 0.5339 0.1929 1
+ Te18 Te a 4 0.1454 0.4414 0.2906 1
+ Te51 Te a 4 0.1456 0.80728 0.26599 1
+ Te12 Te a 4 0.1475 0.172 0.2382 1
+ Te48 Te a 4 0.1553 0.57205 0.33833 1
+ Te9 Te a 4 0.1566 0.3922 0.1568 1
+ Te59 Te a 4 0.1666 0.23262 0.50073 1
+ Te54 Te a 4 0.1761 0.042 0.19313 1
+ Te42 Te a 4 0.1853 0.4699 0.4371 1
+ Te56 Te a 4 0.1855 0.30427 0.26753 1
+ Te41 Te a 4 0.1867 0.6722 0.238 1
+ Te57 Te a 4 0.1868 0.16763 0.7331 1
+ Te55 Te a 4 0.1871 0.5018 0.0654 1
+ Te43 Te a 4 0.1974 0.1327 0.5972 1
+ Te46 Te a 4 0.1978 0.339 0.403 1
+ Te45 Te a 4 0.2026 0.6403 0.1046 1
+ Te2 Te a 4 0.209 0.25042 0.0103 1
+ Te32 Te a 4 0.2338 0.1396 0.0937 1
+ Te34 Te a 4 0.239 0.2691 0.1397 1
+ Te33 Te a 4 0.2408 0.3766 0.0324 1
+ Te44 Te a 4 0.3011 0.16625 0.39925 1
+ Te58 Te a 4 0.3112 0.02913 0.4322 1
+ Te40 Te a 4 0.3171 0.1998 0.26631 1
+ Te39 Te a 4 0.3178 0.0007 0.0647 1
+ Te38 Te a 4 0.3233 0.46557 0.20158 1
+ Te37 Te a 4 0.3263 0.05912 0.79678 1
+ Te60 Te a 4 0.3318 0.26409 0.4989 1
+ Te47 Te a 4 0.3463 0.09839 0.17024 1
+ Te50 Te a 4 0.3523 0.33174 0.23282 1
+ Te16 Te a 4 0.3553 0.0523 0.2985 1
+ Te52 Te a 4 0.3559 0.4964 0.0684 1
+ Te21 Te a 4 0.3675 0.21697 0.6246 1
+ Te29 Te a 4 0.3703 0.117 0.5316 1
+ Te20 Te a 4 0.3765 0.2942 0.3697 1
+ Te24 Te a 4 0.3765 0.4286 0.3406 1
+ Te28 Te a 4 0.3769 0.3969 0.481 1
+ Te25 Te a 4 0.3865 0.0867 0.6683 1
+ Ta93 Ta a 4 0.4089 0.106 0.41078 1
+ Ta87 Ta a 4 0.4116 0.17899 0.3383 1
+ Te4 Te a 4 0.4121 0.35769 0.09894 1
+ Te6 Te a 4 0.4128 0.2227 0.1262 1
+ Te5 Te a 4 0.4173 0.1153 0.0357 1
+ Ta95 Ta a 4 0.4178 0.20481 0.43743 1
+ Ta47 Ta a 4 0.4267 0.00545 0.38115 1
+ Ta73 Ta a 4 0.4287 0.15138 0.23823 1
+ Ta84 Ta a 4 0.42931 0.01058 0.74663 1
+ Ta72 Ta a 4 0.4311 0.02982 0.11448 1
+ Ta51 Ta a 4 0.4317 0.03105 0.48194 1
+ Ta77 Ta a 4 0.4343 0.2506 0.26601 1
+ Ta76 Ta a 4 0.4367 0.00212 0.01542 1
+ Ta81 Ta a 4 0.4383 0.41637 0.22312 1
+ Ta83 Ta a 4 0.4406 0.48817 0.1519 1
+ Ta82 Ta a 4 0.4417 0.10903 0.7735 1
+ Ta80 Ta a 4 0.4419 0.03679 0.84629 1
+ Ta58 Ta a 4 0.4475 0.22549 0.53566 1
+ Ta38 Ta a 4 0.4498 0.05 0.21503 1
+ Ta57 Ta a 4 0.4502 0.30229 0.46408 1
+ Ta41 Ta a 4 0.4601 0.34683 0.2973 1
+ Ta24 Ta a 4 0.46 0.47102 0.41969 1
+ Ta27 Ta a 4 0.4627 0.05422 0.57763 1
+ Ta29 Ta a 4 0.4708 0.37309 0.39461 1
+ Ta30 Ta a 4 0.4712 0.15273 0.60354 1
+ Ta32 Ta a 4 0.47345 0.12426 0.14018 1
+ Ta35 Ta a 4 0.4756 0.31805 0.19449 1
+ Ta37 Ta a 4 0.4772 0.4572 0.05598 1
+ Ta9 Ta a 4 0.4807 0.08666 0.3171 1
+ Ta15 Ta a 4 0.4957 0.1314 0.49701 1
+ Ta21 Ta a 4 0.5148 0.36254 0.02962 1
+ Ta19 Ta a 4 0.5168 0.28955 0.10135 1
+ Ta16 Ta a 4 0.52113 0.19071 0.07092 1
+ Ta34 Ta a 4 0.5213 0.56952 0.55576 1
+ Ta5 Ta a 4 0.5218 0.21689 0.18515 1
+ Ta3 Ta a 4 0.52446 0.40087 0.13759 1
+ Ta31 Ta a 4 0.5295 0.15839 0.39154 1
+ Ta43 Ta a 4 0.5368 0.06118 0.41746 1
+ Ta26 Ta a 4 0.5386 0.18597 0.29319 1
+ Ta4 Ta a 4 0.5446 0.08402 0.04762 1
+ Ta23 Ta a 4 0.55157 0.47173 0.21493 1
+ Ta54 Ta a 4 0.5597 0.11537 0.22438 1
+ Ta52 Ta a 4 0.5625 0.04094 0.15082 1
+ Ta50 Ta a 4 0.5685 0.28177 0.26983 1
+ Ta46 Ta a 4 0.5708 0.38207 0.24201 1
+ Ta85 Ta a 4 0.5734 0.01545 0.25072 1
+ Ta1 Ta a 4 0.58259 0.27011 0.00826 1
+ Ta66 Ta a 4 0.61284 0.13621 0.12905 1
+ Te26 Te a 4 0.6136 0.0957 0.3269 1
+ Ta70 Ta a 4 0.6139 0.30969 0.17622 1
+ Ta71 Ta a 4 0.6141 0.43796 0.04813 1
+ Ta61 Ta a 4 0.63533 0.33931 0.0784 1
+ Ta64 Ta a 4 0.6367 0.23622 0.10529 1
+ Ta62 Ta a 4 0.6415 0.16172 0.02796 1
+ Te13 Te a 4 0.6454 0.2044 0.2201 1
+ Te11 Te a 4 0.6518 0.0283 0.0679 1
+ Te10 Te a 4 0.6537 0.4197 0.1568 1
+ Te53 Te a 4 0.6773 0.0681 0.19949 1
+ Te31 Te a 4 0.7363 0.164 0.10122 1
+ Te36 Te a 4 0.7371 0.3923 0.0344 1
+ Te35 Te a 4 0.7379 0.2978 0.1329 1
+ Te49 Te a 4 0.857 0.47383 0.0702 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    101018
+_diffrn_reflns_theta_min                 1.7
+_diffrn_reflns_theta_max                 26.1
+_exptl_absorpt_coefficient_mu            78.00
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             1415
+_refine_ls_number_reflns                 30458
+_refine_ls_R_factor_all                  0.059
+_refine_ls_wR_factor_all                 0.129
+_computing_structure_refinement          SHELX-93
+
+# End of data set 1320366

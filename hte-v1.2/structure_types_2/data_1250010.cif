@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# O-Si             # SiO2coe                                       # 1250010 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250010
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250010
+
+# Entry summary
+
+_chemical_formula_structural             'SiO2 coesite new'
+_chemical_formula_sum                    O2Si
+_chemical_name_mineral                   coesite
+_chemical_compound_source                ?
+_chemical_name_structure_type            SiO2,mP48,14
+_chemical_formula_weight                 60.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'A new phase of coesite SiO2'
+_journal_coden_ASTM                      ZEKRDZ
+_journal_year                            1979
+_journal_volume                          149
+_journal_page_first                      315
+_journal_page_last                       326
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kirfel A.'
+;
+Bonn Rheinich Friedrich Wilhelm University
+Institut für Mineralogische Chemie
+Bonn
+Germany
+;
+'Will G.'
+;
+Bonn Rheinich Friedrich Wilhelm University
+Institut für Mineralogische Chemie
+Bonn
+Germany
+;
+'Arndt J.'
+;
+Tübingen Eberhard Karl University
+Mineralogisches Institut
+Tübingen
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.098
+_cell_length_b                           12.334
+_cell_length_c                           7.148
+_cell_angle_alpha                        90
+_cell_angle_beta                         120.10
+_cell_angle_gamma                        90
+_cell_volume                             541.4
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O4 O e 4 0.0144 0.3726 0.4353 1
+ O3 O e 4 0.0609 0.1452 0.3258 1
+ Si1 Si e 4 0.1090 0.6415 0.4314 1
+ O5 O e 4 0.2319 0.5352 0.0184 1
+ Si3 Si e 4 0.2432 0.4086 0.4558 1
+ O1 O e 4 0.2514 0.7515 0.0012 1
+ O2 O e 4 0.2520 0.3662 0.2481 1
+ Si4 Si e 4 0.2562 0.4074 0.0372 1
+ Si2 Si e 4 0.3894 0.6418 0.0758 1
+ O8 O e 4 0.4403 0.1470 0.1703 1
+ O7 O e 4 0.4816 0.3738 0.0541 1
+ O6 O e 4 0.7334 0.0419 0.0251 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    3124
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1371
+_refine_ls_R_factor_all                  0.047
+_refine_ls_wR_factor_all                 0.036
+_computing_structure_refinement          ?
+
+# End of data set 1250010

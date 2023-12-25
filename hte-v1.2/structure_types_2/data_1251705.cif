@@ -1,0 +1,211 @@
+##############################################################################
+#                                                                            #
+# Au-In            # Au7In3rt                                      # 1251705 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251705
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251705
+
+# Entry summary
+
+_chemical_formula_structural             Au7In3
+_chemical_formula_sum                    Au7In3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Au7In3,hP60,147
+_chemical_formula_weight                 1723.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'KRISTALLSTRUKTUREN VON Au9In4 (h) und Au7In3'                                
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1975
+_journal_volume                          41
+_journal_page_first                      33
+_journal_page_last                       44
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Puselj M.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society
+MPI für Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.215
+_cell_length_b                           12.215
+_cell_length_c                           8.509
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1099.5
+_cell_formula_units_Z                    6
+_symmetry_Int_Tables_number              147
+_symmetry_space_group_name_H-M           P-3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x, -y, -z'
+ 4 '-y, x-y, z'
+ 5 'x-y, x, -z'
+ 6 'y, -x+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In g 6 0.022 0.186 0.254 1
+ Au6 Au g 6 0.087 0.445 0.129 1
+ In3 In g 6 0.140 0.498 0.456 1
+ Au2 Au g 6 0.233 0.220 0.075 1
+ Au1 Au g 6 0.244 0.207 0.417 1
+ Au3 Au g 6 0.296 0.435 0.294 1
+ Au4 Au g 6 0.422 0.108 0.374 1
+ Au5 Au g 6 0.471 0.363 0.206 1
+ In2 In g 6 0.473 0.167 0.043 1
+ Au8 Au d 2 0.333333 0.666667 0.188 1
+ Au7 Au d 2 0.333333 0.666667 0.675 1
+ Au9 Au b 1 0 0 0.5 1
+ Au10 Au a 1 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.20
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 1 0.239 3
+ 0 2 1 0.293 2
+ 0 0 2 0.326 1
+ 0 1 2 0.379 6
+ 1 2 1 0.453 5
+ 0 3 0 0.475 2
+ 0 3 1 0.559 3
+ 2 2 0 0.636 6
+ 1 2 2 0.697 5
+ 1 3 1 0.771 4
+ 0 1 3 0.789 3
+ 1 1 3 0.896 2
+ 0 4 1 0.93 2
+ 0 2 3 0.946 6
+ 1 3 2 1.015 7
+ 2 3 1 1.088 7
+ 2 1 3 1.11 8
+ 0 4 2 1.174 7
+ 1 4 1 1.196 3
+ 0 3 3 1.215 1
+ 2 3 2 1.335 5
+ 0 1 4 1.361 3
+ 2 2 3 1.366 1
+ 1 3 3 1.427 7
+ 1 1 4 1.466 4
+ 0 2 4 1.523 5
+ 2 4 1 1.567 3
+ 0 4 3 1.586 3
+ 0 5 2 1.651 4
+ 1 2 4 1.681 4
+ 1 5 1 1.726 2
+ 2 3 3 1.746 6
+ 0 3 4 1.786 3
+ 2 4 2 1.815 3
+ 0 6 0 1.909 5
+ 1 3 4 1.999 4
+ 2 5 0 2.068 1
+ 1 1 5 2.207 4
+ 2 4 3 2.222 7
+ 3 4 2 2.289 5
+ 2 3 4 2.313 2
+ 1 6 1 2.361 5
+ 1 2 5 2.418 1
+ 4 4 0 2.542 6
+ 1 6 2 2.604 2
+ 4 4 1 2.629 2
+ 3 5 1 2.674 1
+ 3 4 3 2.701 7
+ 1 3 5 2.74 2
+ 2 4 4 2.795 1
+ 2 6 1 2.839 1
+ 3 5 2 2.925 6
+ 1 5 4 2.951 2
+ 0 1 6 2.997 5
+ 1 6 3 3.022 6
+ 2 6 2 3.086 1
+ 1 7 1 3.108 1
+ 1 4 5 3.16 5
+ 0 6 4 3.221 5
+ 3 4 4 3.273 4
+ 4 5 1 3.32 4
+ 0 7 3 3.334 7
+ 2 5 4 3.382 4
+ 0 3 6 3.427 2
+ 2 6 3 3.498 6
+ 2 4 5 3.532 4
+ 2 7 0 3.55 4
+ 2 2 6 3.597 5
+ 0 8 2 3.725 4
+ 0 4 6 3.797 5
+ 4 4 4 3.854 3
+ 2 7 2 3.88 3
+ 1 8 1 3.949 6
+ 5 5 1 4.055 3
+ 4 6 1 4.11 5
+ 3 7 0 4.189 5
+ 3 7 1 4.261 5
+
+# End of data set 1251705

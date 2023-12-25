@@ -1,0 +1,115 @@
+##############################################################################
+#                                                                            #
+# Te-Zr            # ZrTe3                                         # 1613769 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1613769
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1613769
+
+# Entry summary
+
+_chemical_formula_structural             ZrTe3
+_chemical_formula_sum                    Te3Zr
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ZrSe3,mP8,11
+_chemical_formula_weight                 474.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal Structure and Calculated Electronic Band Structure of ZrTe3'         
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1998
+_journal_volume                          138
+_journal_page_first                      160
+_journal_page_last                       168
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stöwe K.'
+;
+Saarland University
+Institut für Anorganische und Analytische Chemie und Radiochemie
+Saarbrücken
+Germany
+;
+'Wagner F.R.'
+;
+Saarland University
+Institut für Anorganische und Analytische Chemie und Radiochemie
+Saarbrücken
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.898
+_cell_length_b                           3.9269
+_cell_length_c                           10.103
+_cell_angle_alpha                        90
+_cell_angle_beta                         97.81
+_cell_angle_gamma                        90
+_cell_volume                             231.82
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Zr Zr e 2 0.28836 0.25 0.16574 1
+ Te2 Te e 2 0.43267 0.25 0.66744 1
+ Te1 Te e 2 0.76359 0.25 0.05524 1
+ Te3 Te e 2 0.90479 0.25 0.66093 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens P4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    2672
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            20.703
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 762
+_refine_ls_R_factor_all                  0.0233
+_refine_ls_wR_factor_all                 0.0188
+_computing_structure_refinement          'SHELXTL-PLUS package'
+
+# End of data set 1613769

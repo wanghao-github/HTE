@@ -1,0 +1,168 @@
+##############################################################################
+#                                                                            #
+# B-Re             # ReB2                                          # 1250412 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250412
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250412
+
+# Entry summary
+
+_chemical_formula_structural             ReB3
+_chemical_formula_sum                    B3Re
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ReB3,hP8,194
+_chemical_formula_weight                 218.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Borides of Rhenium and the Platinum Metals. The Crystal Structure of Re7B3, ReB3, Rh7B3, RhB1.1 (approximate composition), IrB1.1 (approximate composition) and PtB
+;
+_journal_coden_ASTM                      ACSAA4
+_journal_year                            1960
+_journal_volume                          14
+_journal_page_first                      733
+_journal_page_last                       741
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Aronsson B.'
+;
+Uppsala University
+Institute of Chemistry
+Uppsala
+Sweden
+;
+'Stenberg E.'
+;
+Uppsala University
+Institute of Chemistry
+Uppsala
+Sweden
+;
+'Åselius J.'
+;
+Uppsala University
+Institute of Chemistry
+Uppsala
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           2.9
+_cell_length_b                           2.9
+_cell_length_c                           7.475
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             54.44
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              194
+_symmetry_space_group_name_H-M           P63/mmc
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, 0.5-z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, 0.5-z'
+ 5 '-x+y, y, z'
+ 6 '-x, -x+y, -z'
+ 7 '-x, -x+y, 0.5+z'
+ 8 '-x, -y, -z'
+ 9 '-x, -y, 0.5+z'
+ 10 '-y, -x, 0.5-z'
+ 11 '-y, -x, z'
+ 12 '-y, x-y, 0.5-z'
+ 13 '-y, x-y, z'
+ 14 'x, x-y, 0.5-z'
+ 15 'x, x-y, z'
+ 16 'x, y, 0.5-z'
+ 17 'x-y, -y, -z'
+ 18 'x-y, -y, 0.5+z'
+ 19 'x-y, x, -z'
+ 20 'x-y, x, 0.5+z'
+ 21 'y, -x+y, -z'
+ 22 'y, -x+y, 0.5+z'
+ 23 'y, x, -z'
+ 24 'y, x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ BI B f 4 0.333333 0.666667 0.55 1
+ Re Re c 2 0.333333 0.666667 0.25 1
+ BII B a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 0.425 7.5
+ ? ? ? 0.53 2
+ 1 0 0 0.942 4.5
+ 1 0 1 1.048 8
+ 1 0 2 1.367 5
+ 0 0 4 1.702 4.5
+ 1 0 3 1.898 7.5
+ 1 0 4 2.644 3.5
+ 1 1 0 2.827 5
+ 1 1 2 3.251 7
+ 1 0 5 3.602 5.5
+ 2 0 0 3.77 2.5
+ 0 0 6 3.83 3
+ 2 0 1 3.876 5.5
+ 2 0 2 4.197 3
+ 1 1 4 4.53 7
+ 2 0 3 4.731 6.5
+ 1 0 6 4.775 3.5
+
+# End of data set 1250412

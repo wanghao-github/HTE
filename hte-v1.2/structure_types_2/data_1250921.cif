@@ -1,0 +1,114 @@
+##############################################################################
+#                                                                            #
+# P-S              # P4S5mon2                                      # 1250921 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250921
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250921
+
+# Entry summary
+
+_chemical_formula_structural             b-P4S5
+_chemical_formula_sum                    P4S5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            P4S5,mP18,11
+_chemical_formula_weight                 284.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'b-Tetraphosphorus Pentasulphide'
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1975
+_journal_volume                          31
+_journal_page_first                      2738
+_journal_page_last                       2740
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Griffin A.M.'
+;
+Cambridge University
+Chemical Laboratory
+Cambridge
+United Kingdom
+;
+'Sheldrick G.M.'
+;
+Cambridge University
+Chemical Laboratory
+Cambridge
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.389
+_cell_length_b                           10.966
+_cell_length_c                           6.613
+_cell_angle_alpha                        90
+_cell_angle_beta                         115.65
+_cell_angle_gamma                        90
+_cell_volume                             417.66
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              11
+_symmetry_space_group_name_H-M           P121/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, -z'
+ 4 'x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S3 S f 4 0.2231 0.6053 0.5158 1
+ S2 S f 4 0.2327 0.1053 0.0821 1
+ P3 P f 4 0.5786 0.1458 0.1425 1
+ P2 P e 2 0.1294 0.25 0.2286 1
+ S1 S e 2 0.3551 0.25 0.5781 1
+ P1 P e 2 0.7149 0.25 0.6612 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            15
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P21'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    1639
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 581
+_refine_ls_R_factor_all                  0.029
+_refine_ls_wR_factor_all                 0.031
+_computing_structure_refinement          ?
+
+# End of data set 1250921

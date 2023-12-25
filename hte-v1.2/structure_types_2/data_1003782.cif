@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# Te-Tl            # Tl2Te                                         # 1003782 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1003782
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1003782
+
+# Entry summary
+
+_chemical_formula_structural             Tl2Te
+_chemical_formula_sum                    TeTl2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tl2Te,mS132,15
+_chemical_formula_weight                 536.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Tl2Te and its relationship with Tl5Te3'                                      
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            2002
+_journal_volume                          58
+_journal_page_first                      i63
+_journal_page_last                       i65
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cerny R.'
+;
+Geneva University
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Joubert J.M.'
+;
+Centre National de la Recherche Scientifique
+Laboratoire de Chimie Métallurgique des Terres Rares
+Thiais
+France
+;
+'Filinchuk Y.E.'
+;
+Geneva University
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Feutelais Y.'
+;
+Paris Sud University
+Laboratoire de Chimie Physique, Minérale et Bioinorganique
+Chatenay-Malabry
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.6621
+_cell_length_b                           8.9873
+_cell_length_c                           31.196
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.761
+_cell_angle_gamma                        90
+_cell_volume                             4313.9
+_cell_formula_units_Z                    44
+_symmetry_Int_Tables_number              15
+_symmetry_space_group_name_H-M           C12/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, 0.5+z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tl5 Tl f 8 0.00857 0.2612 0.14247 1
+ Te5 Te f 8 0.03175 0.2563 0.48253 1
+ Te2 Te f 8 0.1048 0.09 0.62835 1
+ Tl6 Tl f 8 0.10549 0.0575 0.23832 1
+ Tl9 Tl f 8 0.13476 0.0251 0.03605 1
+ Tl10 Tl f 8 0.14564 0.4243 0.00026 1
+ Te1 Te f 8 0.1584 0.066 0.35112 1
+ Tl3 Tl f 8 0.19502 0.4036 0.31242 1
+ Tl8 Tl f 8 0.21437 0.2561 0.4379 1
+ Tl2 Tl f 8 0.22052 0.2628 0.1204 1
+ Te4 Te f 8 0.26927 0.2498 0.22596 1
+ Tl7 Tl f 8 0.35135 0.0452 0.305 1
+ Te3 Te f 8 0.3869 0.0634 0.10499 1
+ Tl11 Tl f 8 0.41698 0.0902 0.41512 1
+ Tl4 Tl f 8 0.41703 0.4103 0.07023 1
+ Tl1 Tl f 8 0.46047 0.2594 0.19222 1
+ Te6 Te e 4 0 0.4012 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Stoe IPDS'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    12622
+_exptl_absorpt_coefficient_mu            89.10
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             150
+_refine_ls_number_reflns                 1989
+_refine_ls_R_factor_all                  0.107
+_refine_ls_wR_factor_all                 0.180
+_computing_structure_refinement          'SHELXS-97; XTAL-3.7 package'
+
+# End of data set 1003782

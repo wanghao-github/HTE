@@ -1,0 +1,227 @@
+##############################################################################
+#                                                                            #
+# Cr-Ga            # CrGa4                                         # 1815321 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1815321
+_audit_creation_date                     2010-12-15
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1815321
+
+# Entry summary
+
+_chemical_formula_structural             CrGa4
+_chemical_formula_sum                    CrGa4
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Hg4Pt,cI10,229
+_chemical_formula_weight                 330.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structure refinements of the transition metal gallides FeGa3, CoGa3, CrGa4, MnGa4, and Rh2Ga9
+;
+_journal_coden_ASTM                      ICCIC9
+_journal_year                            2005
+_journal_volume                          ?
+_journal_page_first                      79
+_journal_page_last                       79
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dolotko O.V.'
+;
+L'viv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Pohlabeln J.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische und Analytische Chemie
+Münster
+Germany
+;
+'Jeitschko W.'
+;
+Münster Westfälische Wilhelm University
+Institut für Anorganische und Analytische Chemie
+Münster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.6497
+_cell_length_b                           5.6497
+_cell_length_c                           5.6497
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             180.3
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              229
+_symmetry_space_group_name_H-M           Im-3m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+ 49 '0.5+x, 0.5+y, 0.5+z'
+ 50 '0.5-x, 0.5-y, 0.5-z'
+ 51 '0.5-x, 0.5-y, 0.5+z'
+ 52 '0.5-x, 0.5-z, 0.5-y'
+ 53 '0.5-x, 0.5-z, 0.5+y'
+ 54 '0.5-x, 0.5+y, 0.5-z'
+ 55 '0.5-x, 0.5+y, 0.5+z'
+ 56 '0.5-x, 0.5+z, 0.5-y'
+ 57 '0.5-x, 0.5+z, 0.5+y'
+ 58 '0.5-y, 0.5-x, 0.5-z'
+ 59 '0.5-y, 0.5-x, 0.5+z'
+ 60 '0.5-y, 0.5-z, 0.5-x'
+ 61 '0.5-y, 0.5-z, 0.5+x'
+ 62 '0.5-y, 0.5+x, 0.5-z'
+ 63 '0.5-y, 0.5+x, 0.5+z'
+ 64 '0.5-y, 0.5+z, 0.5-x'
+ 65 '0.5-y, 0.5+z, 0.5+x'
+ 66 '0.5-z, 0.5-x, 0.5-y'
+ 67 '0.5-z, 0.5-x, 0.5+y'
+ 68 '0.5-z, 0.5-y, 0.5-x'
+ 69 '0.5-z, 0.5-y, 0.5+x'
+ 70 '0.5-z, 0.5+x, 0.5-y'
+ 71 '0.5-z, 0.5+x, 0.5+y'
+ 72 '0.5-z, 0.5+y, 0.5-x'
+ 73 '0.5-z, 0.5+y, 0.5+x'
+ 74 '0.5+x, 0.5-y, 0.5-z'
+ 75 '0.5+x, 0.5-y, 0.5+z'
+ 76 '0.5+x, 0.5-z, 0.5-y'
+ 77 '0.5+x, 0.5-z, 0.5+y'
+ 78 '0.5+x, 0.5+y, 0.5-z'
+ 79 '0.5+x, 0.5+z, 0.5-y'
+ 80 '0.5+x, 0.5+z, 0.5+y'
+ 81 '0.5+y, 0.5-x, 0.5-z'
+ 82 '0.5+y, 0.5-x, 0.5+z'
+ 83 '0.5+y, 0.5-z, 0.5-x'
+ 84 '0.5+y, 0.5-z, 0.5+x'
+ 85 '0.5+y, 0.5+x, 0.5-z'
+ 86 '0.5+y, 0.5+x, 0.5+z'
+ 87 '0.5+y, 0.5+z, 0.5-x'
+ 88 '0.5+y, 0.5+z, 0.5+x'
+ 89 '0.5+z, 0.5-x, 0.5-y'
+ 90 '0.5+z, 0.5-x, 0.5+y'
+ 91 '0.5+z, 0.5-y, 0.5-x'
+ 92 '0.5+z, 0.5-y, 0.5+x'
+ 93 '0.5+z, 0.5+x, 0.5-y'
+ 94 '0.5+z, 0.5+x, 0.5+y'
+ 95 '0.5+z, 0.5+y, 0.5-x'
+ 96 '0.5+z, 0.5+y, 0.5+x'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Ga 0
+ Cr 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga Ga c 8 0.25 0.25 0.25 1
+ Cr Cr a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1263
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             5
+_refine_ls_number_reflns                 75
+_refine_ls_R_factor_all                  0.0107
+_refine_ls_wR_factor_all                 0.0247
+_computing_structure_refinement          'SHELXS-97, SHELXL-97'
+
+# End of data set 1815321

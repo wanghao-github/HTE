@@ -1,0 +1,152 @@
+##############################################################################
+#                                                                            #
+# Na-Sn            # Na5Sn13                                       # 1252218 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252218
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252218
+
+# Entry summary
+
+_chemical_formula_structural             Na5Sn13
+_chemical_formula_sum                    Na5Sn13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Na5Sn13,oS288,63
+_chemical_formula_weight                 1657.9
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Na5Sn13: A New Zintl Phase with a Complex Network Structure Constructed from Tin Pentagons
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1997
+_journal_volume                          36
+_journal_page_first                      4316
+_journal_page_last                       4320
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Vaughey J.T.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.979
+_cell_length_b                           19.448
+_cell_length_c                           50.43
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             8806.27
+_cell_formula_units_Z                    16
+_symmetry_Int_Tables_number              63
+_symmetry_space_group_name_H-M           Cmcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, y, 0.5-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 0.5+z'
+ 8 'x, y, 0.5-z'
+ 9 '0.5+x, 0.5+y, z'
+ 10 '0.5-x, 0.5-y, -z'
+ 11 '0.5-x, 0.5-y, 0.5+z'
+ 12 '0.5-x, 0.5+y, 0.5-z'
+ 13 '0.5-x, 0.5+y, z'
+ 14 '0.5+x, 0.5-y, -z'
+ 15 '0.5+x, 0.5-y, 0.5+z'
+ 16 '0.5+x, 0.5+y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn11 Sn h 16 0.2008 0.0848 0.03137 1
+ Na8 Na h 16 0.243 0.3421 0.1247 1
+ Sn15 Sn h 16 0.2536 0.0291 0.22091 1
+ Sn14 Sn h 16 0.2632 0.0277 0.12188 1
+ Sn17 Sn h 16 0.2641 0.2028 0.06666 1
+ Sn18 Sn h 16 0.2644 0.3833 0.2066 1
+ Sn9 Sn h 16 0.2668 0.4689 0.06878 1
+ Na9 Na h 16 0.285 0.2166 0.1872 1
+ Sn13 Sn h 16 0.3388 0.1722 0.12213 1
+ Sn19 Sn g 8 0.3345 0.2901 0.25 1
+ Sn2 Sn f 8 0 0.0008 0.15236 1
+ Na3 Na f 8 0 0.069 0.5205 1
+ Sn12 Sn f 8 0 0.0936 0.19699 1
+ Na7 Na f 8 0 0.095 0.0859 1
+ Sn3 Sn f 8 0 0.1299 0.58092 1
+ Sn5 Sn f 8 0 0.1391 0.66962 1
+ Na5 Na f 8 0 0.198 0.1427 1
+ Sn7 Sn f 8 0 0.2282 0.53873 1
+ Sn6 Sn f 8 0 0.2802 0.08189 1
+ Sn8 Sn f 8 0 0.3414 0.17827 1
+ Sn1 Sn f 8 0 0.4023 0.05091 1
+ Sn10 Sn f 8 0 0.4745 0.15336 1
+ Sn16 Sn f 8 0 0.5715 0.00624 1
+ Na4 Na f 8 0 0.577 0.0746 1
+ Sn4 Sn f 8 0 0.5832 0.19092 1
+ Na10 Na c 4 0 0.198 0.25 1
+ Na1 Na c 4 0 0.416 0.25 1
+ Na6 Na c 4 0 0.643 0.25 1
+ Na2 Na c 4 0 0.944 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    8059
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2152
+_refine_ls_R_factor_all                  0.067
+_refine_ls_wR_factor_all                 0.082
+_computing_structure_refinement          'TEXSAN6.0 package'
+
+# End of data set 1252218

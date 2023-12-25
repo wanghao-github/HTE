@@ -1,0 +1,196 @@
+##############################################################################
+#                                                                            #
+# O-Pt             # Pt3O4                                         # 1251646 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251646
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251646
+
+# Entry summary
+
+_chemical_formula_structural             Pt3O4
+_chemical_formula_sum                    O4Pt3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pt3O4,cP14,223
+_chemical_formula_weight                 649.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+FORMATION AND STABILITY OF THE PLATINUM AND RHODIUM OXIDES AT HIGH OXYGEN PRESSURES AND THE STRUCTURES OF Pt3O4, b-PtO2 AND RhO2
+;
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1968
+_journal_volume                          16
+_journal_page_first                      129
+_journal_page_last                       146
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Muller O.'
+;
+Pennsylvania State University
+Materials Research Laboratory
+University Park
+U.S.A. Pennsylvania
+;
+'Roy R.'
+;
+Pennsylvania State University
+Materials Research Laboratory
+University Park
+U.S.A. Pennsylvania
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.585
+_cell_length_b                           5.585
+_cell_length_c                           5.585
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             174.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              223
+_symmetry_space_group_name_H-M           Pm-3n
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-z, 0.5-y'
+ 3 '0.5-x, 0.5-z, 0.5+y'
+ 4 '0.5-x, 0.5+z, 0.5-y'
+ 5 '0.5-x, 0.5+z, 0.5+y'
+ 6 '-x, -y, -z'
+ 7 '-x, -y, z'
+ 8 '-x, y, -z'
+ 9 '-x, y, z'
+ 10 '0.5-y, 0.5-x, 0.5-z'
+ 11 '0.5-y, 0.5-x, 0.5+z'
+ 12 '0.5-y, 0.5+x, 0.5-z'
+ 13 '0.5-y, 0.5+x, 0.5+z'
+ 14 '-y, -z, -x'
+ 15 '-y, -z, x'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '0.5-z, 0.5-y, 0.5-x'
+ 19 '0.5-z, 0.5-y, 0.5+x'
+ 20 '0.5-z, 0.5+y, 0.5-x'
+ 21 '0.5-z, 0.5+y, 0.5+x'
+ 22 '-z, -x, -y'
+ 23 '-z, -x, y'
+ 24 '-z, x, -y'
+ 25 '-z, x, y'
+ 26 '0.5+x, 0.5-z, 0.5-y'
+ 27 '0.5+x, 0.5-z, 0.5+y'
+ 28 '0.5+x, 0.5+z, 0.5-y'
+ 29 '0.5+x, 0.5+z, 0.5+y'
+ 30 'x, -y, -z'
+ 31 'x, -y, z'
+ 32 'x, y, -z'
+ 33 '0.5+y, 0.5-x, 0.5-z'
+ 34 '0.5+y, 0.5-x, 0.5+z'
+ 35 '0.5+y, 0.5+x, 0.5-z'
+ 36 '0.5+y, 0.5+x, 0.5+z'
+ 37 'y, -z, -x'
+ 38 'y, -z, x'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 '0.5+z, 0.5-y, 0.5-x'
+ 42 '0.5+z, 0.5-y, 0.5+x'
+ 43 '0.5+z, 0.5+y, 0.5-x'
+ 44 '0.5+z, 0.5+y, 0.5+x'
+ 45 'z, -x, -y'
+ 46 'z, -x, y'
+ 47 'z, x, -y'
+ 48 'z, x, y'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O O e 8 0.25 0.25 0.25 1
+ Pt Pt c 6 0.25 0 0.5 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          Norelco
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 39.51 30.0
+ 2 0 0 27.92 3.6
+ 2 1 0 24.98 100.0
+ 2 1 1 22.8 19.6
+ 2 2 0 19.75 2.8
+ 3 1 0 17.66 10.3
+ 2 2 2 16.13 30.8
+ 3 2 0 15.49 32.9
+ 3 2 1 14.93 11.8
+ 4 0 0 13.96 14.1
+ 3 3 0 13.16 6.1
+ 4 2 0 12.49 1.7
+ 4 2 1 12.19 28.9
+ 3 3 2 11.908 2.8
+ 4 2 2 11.404 1.2
+ 4 3 1 10.953 7.8
+ 4 3 2 10.372 27.6
+ 5 2 1 10.194 5.0
+ 4 4 0 9.873 12.3
+ 5 3 0 9.578 4.5
+ 6 0 0 9.309 2.2
+ 6 1 0 9.182 8.2
+ 6 1 1 9.059 6.0
+ 6 2 0 8.831 1.4
+ 5 4 1 8.618 5.3
+ 6 2 2 8.421 29.0
+ 6 3 0 8.326 33.4
+ 6 3 1 8.235 5.9
+ 4 4 4 8.062 12.7
+ 7 1 0 7.897 18.5
+
+# End of data set 1251646

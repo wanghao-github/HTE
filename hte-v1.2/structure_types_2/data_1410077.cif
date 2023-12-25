@@ -1,0 +1,165 @@
+##############################################################################
+#                                                                            #
+# Ge-Yb            # Yb3Ge5rt                                      # 1410077 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1410077
+_audit_creation_date                     2010-05-10
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1410077
+
+# Entry summary
+
+_chemical_formula_structural             Yb3Ge5
+_chemical_formula_sum                    Ge5Yb3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Th3Pd5,hP8,189
+_chemical_formula_weight                 882.1
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Structure and Properties of Yb3Ge5'
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            2002
+_journal_volume                          165
+_journal_page_first                      178
+_journal_page_last                       181
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Grytsiv A.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Kaczorowski D.'
+;
+Polish Academy of Sciences
+Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Leithe Jasper A.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Potel M.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moléculaire
+Rennes
+France
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moléculaire
+Rennes
+France
+;
+'Pikul A.P.'
+;
+Polish Academy of Sciences
+Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Velikanova T.'
+;
+Ukrainian Academy of Sciences
+I.M. Frantsevich Institute for Problems of Materials Science
+Kiev
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.8495
+_cell_length_b                           6.8495
+_cell_length_c                           4.1765
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             169.7
+_cell_formula_units_Z                    1
+_symmetry_Int_Tables_number              189
+_symmetry_space_group_name_H-M           P-62m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -x+y, z'
+ 6 '-y, x-y, -z'
+ 7 '-y, x-y, z'
+ 8 'x, y, -z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, -y, z'
+ 11 'y, x, -z'
+ 12 'y, x, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Yb Yb g 3 0.64144 0 0.5 1
+ Ge1 Ge f 3 0.259 0 0 1
+ Ge2 Ge c 2 0.333333 0.666667 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius Kappa CCD'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    560
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 45.3
+_exptl_absorpt_coefficient_mu            62.6
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             12
+_refine_ls_number_reflns                 540
+_refine_ls_R_factor_all                  0.045
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          SHELXS-97
+
+# End of data set 1410077

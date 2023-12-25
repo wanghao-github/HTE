@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# Br-Ga            # GaBr2ht                                       #  541965 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_541965
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      541965
+
+# Entry summary
+
+_chemical_formula_structural             b-Ga2Br4
+_chemical_formula_sum                    Br2Ga
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            GaI2,hR108,161
+_chemical_formula_weight                 229.5
+_chemical_melting_point                  423
+
+# Bibliographic data
+
+_publ_section_title
+'Darstellung, Kristallstruktur und Eigenschaften von b-Ga2Br4'                
+_journal_coden_ASTM                      ZNBSEN
+_journal_year                            1987
+_journal_volume                          42
+_journal_page_first                      546
+_journal_page_last                       552
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hönle W.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Simon A.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+'Gerlach G.'
+;
+Max Planck Society
+MPI für Festkörperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           21.634
+_cell_length_b                           21.634
+_cell_length_c                           8.692
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             3523.09
+_cell_formula_units_Z                    36
+_symmetry_Int_Tables_number              161
+_symmetry_space_group_name_H-M           'R3c h'
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, 0.5+z'
+ 4 '-y, -x, 0.5+z'
+ 5 '-y, x-y, z'
+ 6 'x, x-y, 0.5+z'
+ 7 '0.66667+x, 0.33333+y, 0.33333+z'
+ 8 '0.66667-x+y, 0.33333-x, 0.33333+z'
+ 9 '0.66667-x+y, 0.33333+y, 0.83333+z'
+ 10 '0.66667-y, 0.33333-x, 0.83333+z'
+ 11 '0.66667-y, 0.33333+x-y, 0.33333+z'
+ 12 '0.66667+x, 0.33333+x-y, 0.83333+z'
+ 13 '0.33333+x, 0.66667+y, 0.66667+z'
+ 14 '0.33333-x+y, 0.66667-x, 0.66667+z'
+ 15 '0.33333-x+y, 0.66667+y, 1.16667+z'
+ 16 '0.33333-y, 0.66667-x, 1.16667+z'
+ 17 '0.33333-y, 0.66667+x-y, 0.66667+z'
+ 18 '0.33333+x, 0.66667+x-y, 1.16667+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Br2 Br b 18 0.01141 0.275 0.18084 1
+ Br1 Br b 18 0.1214 0.0424 0.11273 1
+ Ga1 Ga b 18 0.213 0.2059 0.01623 1
+ Br4 Br b 18 0.1374 0.2192 0.33333 1
+ Ga3 Ga b 18 0.2012 0.0149 -0.00287 1
+ Br3 Br b 18 0.2863 0.175 0.35423 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            12
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Syntex P1'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 631
+_refine_ls_R_factor_all                  0.07
+_refine_ls_wR_factor_all                 0.037
+_computing_structure_refinement          ?
+
+# End of data set 541965

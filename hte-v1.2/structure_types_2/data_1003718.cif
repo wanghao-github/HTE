@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# B-H              # B10H13orth2                                   # 1003718 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1003718
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1003718
+
+# Entry summary
+
+_chemical_formula_structural             B20H26
+_chemical_formula_sum                    B10H13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            B10H13,oP184,61
+_chemical_formula_weight                 121.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Isomeric icosaboranes B20H26: the synchrotron structure of 1,1'-bis(nido-decaboranyl)
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_year                            2001
+_journal_volume                          57
+_journal_page_first                      779
+_journal_page_last                       780
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bould J.'
+;
+Leeds University
+School of Chemistry
+Leeds
+United Kingdom
+;
+'Clegg W.'
+;
+Newcastle University
+Department of Chemistry
+Newcastle upon Tyne
+United Kingdom
+;
+'Kennedy J.D.'
+;
+Leeds University
+School of Chemistry
+Leeds
+United Kingdom
+;
+'Teat S.J.'
+;
+Council for the Central Laboratory of the Research Councils
+Daresbury Laboratory
+Warrington
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.5515
+_cell_length_b                           14.5604
+_cell_length_c                           10.6601
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1637.8
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              61
+_symmetry_space_group_name_H-M           Pbca
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '0.5-x, 0.5+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 0.5+y, 0.5-z'
+ 6 '0.5+x, 0.5-y, -z'
+ 7 '0.5+x, y, 0.5-z'
+ 8 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ H3 H c 8 0.0096 0.3019 0.4453 1
+ B1 B c 8 0.05218 0.0373 0.03353 1
+ B3 B c 8 0.06719 0.15784 0.00778 1
+ H8 H c 8 0.0832 0.281 0.1709 1
+ B10 B c 8 0.08756 0.01881 0.19308 1
+ H9 H c 8 0.089 0.1404 0.3671 1
+ B9 B c 8 0.10423 0.12652 0.27152 1
+ B8 B c 8 0.10858 0.21091 0.15023 1
+ H14 H c 8 0.174 0.0544 0.2581 1
+ B2 B c 8 0.17977 0.41826 0.44141 1
+ H2 H c 8 0.182 0.4308 0.3413 1
+ H13 H c 8 0.1912 0.1846 0.2307 1
+ B7 B c 8 0.22877 0.18714 0.01234 1
+ H5 H c 8 0.2652 0.4242 0.0385 1
+ H7 H c 8 0.2655 0.2549 0.4663 1
+ B5 B c 8 0.2931 0.49487 0.05666 1
+ H11 H c 8 0.2963 0.0302 0.1168 1
+ H12 H c 8 0.3139 0.1604 0.0894 1
+ B6 B c 8 0.31984 0.08323 0.02302 1
+ H4 H c 8 0.3996 0.1264 0.334 1
+ H6 H c 8 0.4159 0.429 0.4902 1
+ H10 H c 8 0.447 0.4611 0.2459 1
+ B4 B c 8 0.49886 0.11753 0.35058 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            150
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.689
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              150
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens SMART'
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.689
+_diffrn_reflns_number                    10589
+_exptl_absorpt_coefficient_mu            0.04
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             143
+_refine_ls_number_reflns                 1746
+_refine_ls_R_factor_all                  0.056
+_refine_ls_wR_factor_all                 0.150
+_computing_structure_refinement          'SHELXTL-5.1 package'
+
+# End of data set 1003718

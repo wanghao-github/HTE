@@ -1,0 +1,147 @@
+##############################################################################
+#                                                                            #
+# O-Pr             # Pr5O9rt                                       # 1250655 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250655
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250655
+
+# Entry summary
+
+_chemical_formula_structural             Pr10O18
+_chemical_formula_sum                    O9Pr5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pr5O9-b,mP112,14
+_chemical_formula_weight                 848.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures in the Oxygen-Deficient Fluorite-Related RnO2n-2 Homologous Series: Pr10O18
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1995
+_journal_volume                          118
+_journal_page_first                      141
+_journal_page_last                       147
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhang J.'
+;
+Arizona State University
+Department of Chemistry and Biochemistry
+Tempe
+U.S.A. Arizona
+;
+'Von Dreele R.B.'
+;
+Los Alamos National Laboratory
+Manuel Lujan Neutron Scattering
+Los Alamos
+U.S.A. New Mexico
+;
+'Eyring L.'
+;
+Arizona State University
+Department of Chemistry and Biochemistry
+Tempe
+U.S.A. Arizona
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.7304
+_cell_length_b                           19.39
+_cell_length_c                           12.794
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.213
+_cell_angle_gamma                        90
+_cell_volume                             1643.19
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O5 O e 4 0.0644 0.4997 0.1834 1
+ O6 O e 4 0.0767 0.7099 0.1653 1
+ O8 O e 4 0.0838 0.8903 0.174 1
+ O12 O e 4 0.0879 0.2982 0.1988 1
+ Pr2 Pr e 4 0.0975 0.0983 0.3808 1
+ O10 O e 4 0.1079 0.1047 0.2088 1
+ Pr8 Pr e 4 0.1137 0.6993 0.3594 1
+ Pr6 Pr3+ e 4 0.120 0.5027 0.3753 1
+ Pr4 Pr e 4 0.1567 0.3007 0.3693 1
+ O18 O e 4 0.1645 0.3961 0.0541 1
+ O16 O e 4 0.1675 0.1960 0.0438 1
+ O14 O e 4 0.1940 0.0063 0.0609 1
+ O2 O e 4 0.2365 0.5958 0.0742 1
+ O3 O e 4 0.3209 0.1937 0.4172 1
+ O4 O e 4 0.3228 0.4033 0.4226 1
+ O1 O e 4 0.3407 0.0140 0.4274 1
+ Pr1 Pr e 4 0.3661 0.4930 0.1175 1
+ Pr7 Pr e 4 0.3751 0.0987 0.1089 1
+ Pr9 Pr3+ e 4 0.3804 0.2962 0.1186 1
+ O7 O e 4 0.4974 0.3007 0.3314 1
+ O11 O e 4 0.5396 0.1859 0.1995 1
+ O13 O e 4 0.5430 0.3999 0.1810 1
+ O9 O e 4 0.5463 0.0158 0.2074 1
+ Pr5 Pr e 4 0.618 0.4112 0.3712 1
+ Pr3 Pr4+ e 4 0.626 0.1997 0.3784 1
+ O15 O e 4 0.6987 0.1058 0.0481 1
+ O17 O e 4 0.7039 0.2895 0.0576 1
+ Pr10 Pr3+ e 4 0.877 0.4004 0.1330 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'NPD, Manuel Lujan NSC, Los Alamos, USA'                                      
+_diffrn_radiation_type                   'neutrons, time-of-flight'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             150
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'GSAS package'
+
+# End of data set 1250655

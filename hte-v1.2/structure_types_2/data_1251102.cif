@@ -1,0 +1,115 @@
+##############################################################################
+#                                                                            #
+# S-Y              # Y5S7                                          # 1251102 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251102
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251102
+
+# Entry summary
+
+_chemical_formula_structural             Y5S7
+_chemical_formula_sum                    S7Y5
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y5S7,mS24,12
+_chemical_formula_weight                 668.9
+_chemical_melting_point                  2113
+
+# Bibliographic data
+
+_publ_section_title
+;
+Contribution a l'etude d'un groupe de sulfures isostructuraux de terres rares et d'yttrium de type: Y5S7 et FeY4S7
+;
+_journal_coden_ASTM                      ANCPAC
+_journal_year                            1965
+_journal_volume                          10
+_journal_page_first                      271
+_journal_page_last                       297
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Adolphe C.'
+;
+Paris University
+Laboratoire de Physique
+Paris
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.768
+_cell_length_b                           3.803
+_cell_length_c                           11.545
+_cell_angle_alpha                        90
+_cell_angle_beta                         104.82
+_cell_angle_gamma                        90
+_cell_volume                             541.9
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ S11 S i 4 0.1593 0 0.551 1
+ Y2 Y i 4 0.1979 0 0.3097 1
+ Y3 Y i 4 0.3873 0 0.0774 1
+ S12 S i 4 0.5401 0 0.2846 1
+ S13 S i 4 0.759 0 0.1476 1
+ Y1 Y d 2 0 0.5 0.5 1
+ S14 S a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            8
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            48.8
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 616
+_refine_ls_R_factor_all                  0.154
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ORFLS
+
+# End of data set 1251102

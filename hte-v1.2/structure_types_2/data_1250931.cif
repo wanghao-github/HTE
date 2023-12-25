@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# Re-Si            # Re2Si                                         # 1250931 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250931
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250931
+
+# Entry summary
+
+_chemical_formula_structural             Re2Si
+_chemical_formula_sum                    Re2Si
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Re2Si,mP24,14
+_chemical_formula_weight                 400.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure and superconductivity in Re2Si'                            
+_journal_coden_ASTM                      JCOMAH
+_journal_year                            1991
+_journal_volume                          171
+_journal_page_first                      171
+_journal_page_last                       177
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Siegrist T.'
+;
+AT and T Bell Laboratories Inc.
+?
+Murray Hill
+U.S.A. New Jersey
+;
+'Greedan J.E.'
+;
+McMaster University
+?
+Hamilton
+Canada
+;
+'Garrett J.D.'
+;
+McMaster University
+Institute of Materials Research
+Hamilton
+Canada
+;
+'Wenhe G.'
+;
+McMaster University
+?
+Hamilton
+Canada
+;
+'Stager C.V.'
+;
+McMaster University
+?
+Hamilton
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.4444
+_cell_length_b                           9.6019
+_cell_length_c                           5.3898
+_cell_angle_alpha                        90
+_cell_angle_beta                         94.214
+_cell_angle_gamma                        90
+_cell_volume                             332.61
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              14
+_symmetry_space_group_name_H-M           P121/c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 0.5+y, 0.5-z'
+ 4 'x, 0.5-y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si2 Si e 4 0.0076 0.4490 0.2660 1
+ Re2 Re e 4 0.11241 0.20503 0.4315 1
+ Re3 Re e 4 0.32030 0.55260 0.09263 1
+ Re4 Re e 4 0.32194 0.04199 0.09680 1
+ Re1 Re e 4 0.45884 0.29786 0.23944 1
+ Si1 Si e 4 0.7823 0.1978 0.0534 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            296.8
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_reflns_used            24
+_diffrn_ambient_temperature              296.8
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    5229
+_exptl_absorpt_coefficient_mu            147.6
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 3472
+_refine_ls_R_factor_all                  0.126
+_refine_ls_wR_factor_all                 0.116
+_computing_structure_refinement          'NRCC package'
+
+# End of data set 1250931

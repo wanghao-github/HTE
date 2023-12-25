@@ -1,0 +1,121 @@
+##############################################################################
+#                                                                            #
+# O-W              # WO3lt1                                        # 1252420 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252420
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252420
+
+# Entry summary
+
+_chemical_formula_structural             e-WO3
+_chemical_formula_sum                    O3W
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WO3,mP16,7
+_chemical_formula_weight                 231.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'Ferroelectric Tungsten Trioxide'
+_journal_coden_ASTM                      JSSCBI
+_journal_year                            1997
+_journal_volume                          131
+_journal_page_first                      9
+_journal_page_last                       17
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Woodward P.M.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+'Sleight A.W.'
+;
+Oregon State University
+Department of Chemistry
+Corvallis
+U.S.A. Oregon
+;
+'Vogt T.'
+;
+Brookhaven National Laboratory
+Department of Physics
+Upton
+U.S.A. New York
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.2778
+_cell_length_b                           5.1559
+_cell_length_c                           7.6639
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.762
+_cell_angle_gamma                        90
+_cell_volume                             208.45
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              7
+_symmetry_space_group_name_H-M           P1c1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O5 O a 2 0.0 0.209 0.0 1
+ O6 O a 2 0.0864 0.29 0.58 1
+ W1 W a 2 0.2874 0.014 0.0012 1
+ O7 O a 2 0.2874 0.0717 0.287 1
+ O3 O a 2 0.5044 0.292 0.01 1
+ O4 O a 2 0.5764 0.215 0.586 1
+ O8 O a 2 0.7924 0.4201 0.301 1
+ W2 W a 2 0.7994 0.528 0.078 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            15
+_cell_measurement_radiation              neutrons
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              15
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'HRNPD, HFBR, Brookhaven NL, USA'
+_diffrn_radiation_type                   neutrons
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             44
+_refine_ls_number_reflns                 237
+_refine_ls_R_factor_all                  0.0431
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          'SIRPOW; GSAS package'
+
+# End of data set 1252420

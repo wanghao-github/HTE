@@ -1,0 +1,176 @@
+##############################################################################
+#                                                                            #
+# S-Tl             # TlSmon                                        # 1251489 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251489
+_audit_creation_date                     2010-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251489
+
+# Entry summary
+
+_chemical_formula_structural             'monoclinic TlS'
+_chemical_formula_sum                    STl
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TlS,mS256,5
+_chemical_formula_weight                 236.4
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'X-Ray Study of the Room Temperature Structure in Monoclinic TlS'             
+_journal_coden_ASTM                      JUPSAU
+_journal_year                            1993
+_journal_volume                          62
+_journal_page_first                      3135
+_journal_page_last                       3141
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nakamura K.'
+;
+Mitsubishi Electric Corp.
+?
+Tokyo
+Japan
+;
+'Kashida S.'
+;
+Niigata University
+Department of Physics
+Niigata
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.018
+_cell_length_b                           11.039
+_cell_length_c                           59.12
+_cell_angle_alpha                        90
+_cell_angle_beta                         90.14
+_cell_angle_gamma                        90
+_cell_volume                             7190.61
+_cell_formula_units_Z                    128
+_symmetry_Int_Tables_number              5
+_symmetry_space_group_name_H-M           C121
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, y, -z'
+ 3 '0.5+x, 0.5+y, z'
+ 4 '0.5-x, 0.5+y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tl81 Tl3+ c 4 0.0012 0.258 0.6008 1
+ S34 S c 4 0.006 0.28 0.256 1
+ Tl74 Tl3+ c 4 0.0109 0.009 0.6491 1
+ Tl41 Tl+ c 4 0.0278 0.232 0.5332 1
+ S43 S c 4 0.038 0.236 0.053 1
+ S54 S c 4 0.048 0.467 0.301 1
+ Tl63 Tl+ c 4 0.1017 0.402 0.0913 1
+ S82 S c 4 0.107 0.128 0.129 1
+ S62 S c 4 0.109 0.363 0.176 1
+ S101 S c 4 0.109 0.399 0.375 1
+ Tl64 Tl+ c 4 0.1149 0.371 0.6571 1
+ Tl23 Tl3+ c 4 0.1168 0.384 0.0242 1
+ Tl24 Tl3+ c 4 0.1185 0.372 0.7255 1
+ S61 S c 4 0.132 0.391 0.578 1
+ S81 S c 4 0.137 0.123 0.624 1
+ Tl54 Tl+ c 4 0.1374 0.629 0.3416 1
+ S74 S c 4 0.149 0.098 0.321 1
+ S71 S c 4 0.168 0.174 0.422 1
+ S51 S c 4 0.224 0.036 0.552 1
+ S31 S c 4 0.231 0.251 0.496 1
+ Tl71 Tl3+ c 4 0.2384 0.007 0.3986 1
+ S23 S c 4 0.244 0.477 0.252 1
+ S44 S c 4 0.246 0.248 0.698 1
+ Tl31 Tl+ c 4 0.2461 0.491 0.5309 1
+ Tl82 Tl3+ c 4 0.2468 0.255 0.1492 1
+ Tl42 Tl+ c 4 0.2498 0.257 0.2172 1
+ S13 S c 4 0.250 0.01 0.250 1
+ Tl84 Tl3+ c 4 0.2522 0.258 0.3478 1
+ Tl33 Tl+ c 4 0.254 0.025 0.032 1
+ Tl73 Tl3+ c 4 0.2631 0.001 0.1009 1
+ Tl44 Tl+ c 4 0.2725 0.233 0.2835 1
+ S53 S c 4 0.279 0.454 0.050 1
+ S91 S c 4 0.336 0.374 0.624 1
+ Tl61 Tl+ c 4 0.3412 0.361 0.4078 1
+ S112 S c 4 0.354 0.394 0.121 1
+ Tl53 Tl+ c 4 0.3629 0.649 0.0921 1
+ Tl12 Tl3+ c 4 0.3687 0.633 0.2263 1
+ S92 S c 4 0.369 0.867 0.129 1
+ S64 S c 4 0.372 0.390 0.323 1
+ Tl11 Tl3+ c 4 0.3725 0.131 0.5235 1
+ Tl52 Tl+ c 4 0.373 0.617 0.159 1
+ Tl13 Tl3+ c 4 0.3785 0.637 0.0255 1
+ Tl21 Tl3+ c 4 0.3798 0.385 0.4742 1
+ S84 S c 4 0.387 0.137 0.372 1
+ S72 S c 4 0.393 0.154 0.173 1
+ S73 S c 4 0.398 0.112 0.077 1
+ Tl51 Tl+ c 4 0.4014 0.116 0.5926 1
+ S52 S c 4 0.469 0.489 0.200 1
+ S32 S c 4 0.475 0.24 0.249 1
+ Tl43 Tl+ c 4 0.4826 0.280 0.0344 1
+ Tl83 Tl3+ c 4 0.4944 0.257 0.1016 1
+ Tl32 Tl+ c 4 0.4969 0.000 0.2181 1
+ Tl72 Tl3+ c 4 0.5061 0.016 0.1509 1
+ Tl34 Tl+ c 4 0.5093 0.493 0.2817 1
+ S41 S c 4 0.539 0.291 0.450 1
+ Tl22 Tl3+ c 4 0.6188 0.377 0.2252 1
+ Tl14 Tl3+ c 4 0.6217 0.131 0.2743 1
+ S83 S c 4 0.626 0.141 0.130 1
+ Tl62 Tl+ c 4 0.6358 0.388 0.1572 1
+ S63 S c 4 0.663 0.337 0.078 1
+ S33 S c 4 0.749 0.286 0.009 1
+ S42 S c 4 0.755 0.259 0.200 1
+ S11 S b 2 0 0.03 0.5 1
+ S21 S b 2 0 0.50 0.5 1
+ S22 S a 2 0 0.00 0 1
+ S12 S a 2 0 0.53 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Huber
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    11496
+_exptl_absorpt_coefficient_mu            73.05
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             414
+_refine_ls_number_reflns                 2378
+_refine_ls_R_factor_all                  0.084
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          RADIEL
+
+# End of data set 1251489

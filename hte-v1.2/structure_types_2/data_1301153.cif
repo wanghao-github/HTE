@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Cl-S             # SCl4lt                                        # 1301153 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on CD-ROM)        #
+#                              Release 2010/11                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2010 #
+#  (Data generated pre-2002: Copyright (c) ASM International & MPDS & NIMS;  #
+#             post-2001: Copyright (c) ASM International & MPDS)             #
+#                   All rights reserved. Version 2010.06                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Ruhr-Universitat Bochum, ICAMS Bibliothek                                #
+#                                                                            #
+##############################################################################
+
+data_1301153
+_audit_creation_date                     2010-12-17
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1301153
+
+# Entry summary
+
+_chemical_formula_structural             SCl4
+_chemical_formula_sum                    Cl4S
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            SeCl4,cP160,218
+_chemical_formula_weight                 173.9
+_chemical_melting_point                  239
+
+# Bibliographic data
+
+_publ_section_title
+;
+Phasenbeziehungen im System Schwefel-Chlor sowie Kristallstrukturen von SCl2 und SCl4 [1]
+;
+_journal_coden_ASTM                      ZNBAD2
+_journal_year                            1984
+_journal_volume                          39
+_journal_page_first                      305
+_journal_page_last                       309
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kniep R.'
+;
+Düsseldorf Heinrich Heine University
+Institut für Anorganische Chemie und Strukturchemie
+Düsseldorf
+Germany
+;
+'Korte L.'
+;
+Düsseldorf Heinrich Heine University
+Institut für Anorganische Chemie und Strukturchemie
+Düsseldorf
+Germany
+;
+'Mootz D.'
+;
+Düsseldorf Heinrich Heine University
+Institut für Anorganische Chemie und Strukturchemie
+Düsseldorf
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.8
+_cell_length_b                           15.8
+_cell_length_c                           15.8
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3944.3
+_cell_formula_units_Z                    32
+_symmetry_Int_Tables_number              218
+_symmetry_space_group_name_H-M           P-43n
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5-z, 0.5+y'
+ 3 '0.5-x, 0.5+z, 0.5-y'
+ 4 '-x, -y, z'
+ 5 '-x, y, -z'
+ 6 '0.5-y, 0.5-x, 0.5+z'
+ 7 '0.5-y, 0.5+x, 0.5-z'
+ 8 '-y, -z, x'
+ 9 '-y, z, -x'
+ 10 '0.5-z, 0.5-y, 0.5+x'
+ 11 '0.5-z, 0.5+y, 0.5-x'
+ 12 '-z, -x, y'
+ 13 '-z, x, -y'
+ 14 '0.5+x, 0.5-z, 0.5-y'
+ 15 '0.5+x, 0.5+z, 0.5+y'
+ 16 'x, -y, -z'
+ 17 '0.5+y, 0.5-x, 0.5-z'
+ 18 '0.5+y, 0.5+x, 0.5+z'
+ 19 'y, -z, -x'
+ 20 'y, z, x'
+ 21 '0.5+z, 0.5-y, 0.5-x'
+ 22 '0.5+z, 0.5+y, 0.5+x'
+ 23 'z, -x, -y'
+ 24 'z, x, y'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+ Cl 0
+ S 0
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl1 Cl i 24 0.0371 0.1 0.5982 1
+ Cl2 Cl i 24 0.0747 0.4163 0.1646 1
+ Cl3 Cl i 24 0.078 0.2709 0.3191 1
+ Cl4 Cl i 24 0.0794 0.0842 0.2211 1
+ S1 S i 24 0.0924 0.4001 0.3312 1
+ Cl5 Cl i 24 0.2225 0.4014 0.3162 1
+ S2 S e 8 0.0893 0.0893 0.0893 1
+ Cl6 Cl e 8 0.418 0.418 0.418 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            183
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            16
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1301153

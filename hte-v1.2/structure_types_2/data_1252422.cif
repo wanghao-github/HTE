@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# Ge-Ho            # Ho14Ge23                                      # 1252422 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252422
+_audit_creation_date                     2010-05-07
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252422
+
+# Entry summary
+
+_chemical_formula_structural             Ho14Ge23
+_chemical_formula_sum                    Ge23Ho14
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho14Ge23,oS148,20
+_chemical_formula_weight                 3978.6
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'RGe2-x compounds (R= Y, Gd-Ho) with new ordered ThSi2-defect structures'     
+_journal_coden_ASTM                      JALCEU
+_journal_year                            1999
+_journal_volume                          285
+_journal_page_first                      194
+_journal_page_last                       203
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Venturini G.'
+;
+Nancy I Henri Poincaré University
+Laboratoire de Chimie du Solide Minéral
+Vandoeuvre-lès-Nancy
+France
+;
+'Ijjaali I.'
+;
+Nancy I Henri Poincaré University
+Laboratoire de Chimie du Solide Minéral
+Vandoeuvre-lès-Nancy
+France
+;
+'Malaman B.'
+;
+Nancy I Henri Poincaré University
+Laboratoire de Chimie du Solide Minéral
+Vandoeuvre-lès-Nancy
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.4021
+_cell_length_b                           13.648
+_cell_length_c                           40
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2949.11
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              20
+_symmetry_space_group_name_H-M           C2221
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 0.5+z'
+ 3 '-x, y, 0.5-z'
+ 4 'x, -y, -z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, 0.5+z'
+ 7 '0.5-x, 0.5+y, 0.5-z'
+ 8 '0.5+x, 0.5-y, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge10 Ge c 8 0.0 0.1934 0.0357 1
+ Ge6 Ge c 8 0.0 0.3333 0.1786 1
+ Ho7 Ho c 8 0.014 0.2524 0.1084 1
+ Ge8 Ge c 8 0.06 0.1521 0.3293 1
+ Ge5 Ge c 8 0.19 0.4021 0.0078 1
+ Ge4 Ge c 8 0.19 0.4021 0.4364 1
+ Ho5 Ho c 8 0.236 0.0024 0.4298 1
+ Ge12 Ge c 8 0.25 0.0833 0.0714 1
+ Ge11 Ge c 8 0.25 0.0833 0.2143 1
+ Ge3 Ge c 8 0.25 0.4434 0.1429 1
+ Ho4 Ho c 8 0.25 0.4962 0.3571 1
+ Ho3 Ho c 8 0.264 0.0024 0.2845 1
+ Ge2 Ge c 8 0.31 0.4021 0.2779 1
+ Ho6 Ho c 8 0.486 0.2524 0.1773 1
+ Ho8 Ho c 8 0.5 0.2462 0.0357 1
+ Ge7 Ge c 8 0.5 0.3333 0.1071 1
+ Ge9 Ge c 8 0.56 0.1521 0.115 1
+ Ho2 Ho b 4 0 0.2462 0.25 1
+ Ge1 Ge b 4 0 0.6934 0.25 1
+ Ho1 Ho a 4 0.249 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'INEL CPS 120'
+_diffrn_radiation_type                   'X-rays, Co Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'crystal chemical considerations'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          FULLPROF
+
+# End of data set 1252422

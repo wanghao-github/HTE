@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# Fe-O             # Fe3O4lt                                       # 1250762 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250762
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250762
+
+# Entry summary
+
+_chemical_formula_structural             'Fe3O4 below Verwey transition'
+_chemical_formula_sum                    Fe3O4
+_chemical_name_mineral                   magnetite
+_chemical_compound_source                synthetic
+_chemical_name_structure_type            Fe3O4,oP56,57
+_chemical_formula_weight                 231.5
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Structure of Magnetite (Fe3O4) below the Verwey Transition Temperature'      
+_journal_coden_ASTM                      ACBCAR
+_journal_year                            1982
+_journal_volume                          38
+_journal_page_first                      2121
+_journal_page_last                       2133
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Iizumi M.'
+;
+Japan Atomic Energy Research Institute
+?
+Tokai
+Japan
+;
+'Koetzle T.F.'
+;
+Brookhaven National Laboratory
+?
+Upton
+U.S.A. New York
+;
+'Shirane G.'
+;
+Brookhaven National Laboratory
+?
+Upton
+U.S.A. New York
+;
+'Chikazumi S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Matsui M.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+'Todo S.'
+;
+Tokyo University
+Institute of Solid State Physics
+Tokyo
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.926
+_cell_length_b                           16.752
+_cell_length_c                           5.934
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             589.08
+_cell_formula_units_Z                    8
+_symmetry_Int_Tables_number              57
+_symmetry_space_group_name_H-M           Pbcm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 0.5+z'
+ 4 '-x, 0.5+y, 0.5-z'
+ 5 '-x, 0.5+y, z'
+ 6 'x, 0.5-y, -z'
+ 7 'x, 0.5-y, 0.5+z'
+ 8 'x, y, 0.5-z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O6 O e 8 0.005 0.1244 0.0067 1
+ O5 O e 8 0.5089 0.1295 0.0116 1
+ FeA2 Fe3+ d 4 0.0067 0.3113 0.25 1
+ FeB3 Fe d 4 0.2357 0.6211 0.25 1
+ O1 O d 4 0.237 0.0027 0.25 1
+ O2 O d 4 0.2477 0.5009 0.25 1
+ FeB4 Fe d 4 0.2549 0.1254 0.25 1
+ O4 O d 4 0.2696 0.2473 0.25 1
+ FeA1 Fe3+ d 4 0.5049 0.4365 0.25 1
+ O3 O d 4 0.7461 0.246 0.25 1
+ FeB2 Fe c 4 0.5099 0.25 0 1
+ FeB1 Fe a 4 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              10.0(5)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'HFBR, Brookhaven NL, USA'
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             0.8387
+_diffrn_reflns_number                    2160
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             37
+_refine_ls_number_reflns                 573
+_refine_ls_R_factor_all                  0.055
+_refine_ls_wR_factor_all                 0.078
+_computing_structure_refinement          ?
+
+# End of data set 1250762

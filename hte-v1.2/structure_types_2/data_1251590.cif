@@ -1,0 +1,126 @@
+##############################################################################
+#                                                                            #
+# Cl-Sc            # Sc7Cl10                                       # 1251590 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251590
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251590
+
+# Entry summary
+
+_chemical_formula_structural             Sc7Cl10
+_chemical_formula_sum                    Cl10Sc7
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc7Cl10,mS34,12
+_chemical_formula_weight                 669.2
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Metal-Metal Bonding in Reduced Scandium Halides. Synthesis and Characterization of Heptascandium Decachloride (Sc7Cl10). A Novel Metal-Chain Structure
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_year                            1977
+_journal_volume                          16
+_journal_page_first                      1107
+_journal_page_last                       1111
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Poeppelmeier K.R.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy Research and Development
+Ames
+U.S.A. Iowa
+;
+'Corbett J.D.'
+;
+Iowa State University
+Ames Laboratory-Department of Energy Research and Development
+Ames
+U.S.A. Iowa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.62
+_cell_length_b                           3.5366
+_cell_length_c                           12.25
+_cell_angle_alpha                        90
+_cell_angle_beta                         91.98
+_cell_angle_gamma                        90
+_cell_volume                             806.2
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              12
+_symmetry_space_group_name_H-M           C12/m1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '0.5+x, 0.5+y, z'
+ 6 '0.5-x, 0.5-y, -z'
+ 7 '0.5-x, 0.5+y, -z'
+ 8 '0.5+x, 0.5-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Cl2 Cl i 4 0.0988 0 0.3548 1
+ Cl5 Cl i 4 0.1098 0 0.8792 1
+ Sc4 Sc i 4 0.1836 0 0.5307 1
+ Cl4 Cl i 4 0.2150 0 0.1407 1
+ Sc2 Sc i 4 0.3314 0 0.2466 1
+ Cl1 Cl i 4 0.4155 0 0.4042 1
+ Cl3 Cl i 4 0.5565 0 0.1192 1
+ Sc3 Sc i 4 0.6891 0 0.2935 1
+ Sc1 Sc a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.70954
+_cell_measurement_reflns_used            19
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Ames Laboratory diffractometer'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.70954
+_diffrn_reflns_number                    877
+_exptl_absorpt_coefficient_mu            4.3
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 705
+_refine_ls_R_factor_all                  0.059
+_refine_ls_wR_factor_all                 0.072
+_computing_structure_refinement          MULTAN
+
+# End of data set 1251590

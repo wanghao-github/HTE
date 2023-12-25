@@ -1,0 +1,236 @@
+##############################################################################
+#                                                                            #
+# O-Pt             # Pt3O4                                         # 1252267 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1252267
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252267
+
+# Entry summary
+
+_chemical_formula_structural             Pt3O4
+_chemical_formula_sum                    O4Pt3
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pt3O4,cI14,229
+_chemical_formula_weight                 649.3
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title                      'The Crystalline Structure of Pt3O4'
+_journal_coden_ASTM                      JCPSA6
+_journal_year                            1941
+_journal_volume                          9
+_journal_page_first                      875
+_journal_page_last                       877
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Galloni E.E.'
+;
+Comahue University
+Instituto de Medicina Experimental
+Buenos Aires
+Argentina
+;
+'Roffo A.E. Jr.'
+;
+Comahue University
+Instituto de Medicina Experimental
+Buenos Aires
+Argentina
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.226
+_cell_length_b                           6.226
+_cell_length_c                           6.226
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             241.3
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              229
+_symmetry_space_group_name_H-M           Im-3m
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+ 49 '0.5+x, 0.5+y, 0.5+z'
+ 50 '0.5-x, 0.5-y, 0.5-z'
+ 51 '0.5-x, 0.5-y, 0.5+z'
+ 52 '0.5-x, 0.5-z, 0.5-y'
+ 53 '0.5-x, 0.5-z, 0.5+y'
+ 54 '0.5-x, 0.5+y, 0.5-z'
+ 55 '0.5-x, 0.5+y, 0.5+z'
+ 56 '0.5-x, 0.5+z, 0.5-y'
+ 57 '0.5-x, 0.5+z, 0.5+y'
+ 58 '0.5-y, 0.5-x, 0.5-z'
+ 59 '0.5-y, 0.5-x, 0.5+z'
+ 60 '0.5-y, 0.5-z, 0.5-x'
+ 61 '0.5-y, 0.5-z, 0.5+x'
+ 62 '0.5-y, 0.5+x, 0.5-z'
+ 63 '0.5-y, 0.5+x, 0.5+z'
+ 64 '0.5-y, 0.5+z, 0.5-x'
+ 65 '0.5-y, 0.5+z, 0.5+x'
+ 66 '0.5-z, 0.5-x, 0.5-y'
+ 67 '0.5-z, 0.5-x, 0.5+y'
+ 68 '0.5-z, 0.5-y, 0.5-x'
+ 69 '0.5-z, 0.5-y, 0.5+x'
+ 70 '0.5-z, 0.5+x, 0.5-y'
+ 71 '0.5-z, 0.5+x, 0.5+y'
+ 72 '0.5-z, 0.5+y, 0.5-x'
+ 73 '0.5-z, 0.5+y, 0.5+x'
+ 74 '0.5+x, 0.5-y, 0.5-z'
+ 75 '0.5+x, 0.5-y, 0.5+z'
+ 76 '0.5+x, 0.5-z, 0.5-y'
+ 77 '0.5+x, 0.5-z, 0.5+y'
+ 78 '0.5+x, 0.5+y, 0.5-z'
+ 79 '0.5+x, 0.5+z, 0.5-y'
+ 80 '0.5+x, 0.5+z, 0.5+y'
+ 81 '0.5+y, 0.5-x, 0.5-z'
+ 82 '0.5+y, 0.5-x, 0.5+z'
+ 83 '0.5+y, 0.5-z, 0.5-x'
+ 84 '0.5+y, 0.5-z, 0.5+x'
+ 85 '0.5+y, 0.5+x, 0.5-z'
+ 86 '0.5+y, 0.5+x, 0.5+z'
+ 87 '0.5+y, 0.5+z, 0.5-x'
+ 88 '0.5+y, 0.5+z, 0.5+x'
+ 89 '0.5+z, 0.5-x, 0.5-y'
+ 90 '0.5+z, 0.5-x, 0.5+y'
+ 91 '0.5+z, 0.5-y, 0.5-x'
+ 92 '0.5+z, 0.5-y, 0.5+x'
+ 93 '0.5+z, 0.5+x, 0.5-y'
+ 94 '0.5+z, 0.5+x, 0.5+y'
+ 95 '0.5+z, 0.5+y, 0.5-x'
+ 96 '0.5+z, 0.5+y, 0.5+x'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ O O c 8 0.25 0.25 0.25 1
+ Pt Pt b 6 0 0.5 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Co Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  ?
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 44 ?
+ 2 0 0 31.13 ?
+ 3 2 1 26.53 ?
+ 2 1 1 25.52 ?
+ ? ? ? 22.75 ?
+ 2 2 0 22.18 ?
+ 3 1 0 19.87 ?
+ 2 2 2 18.09 ?
+ 4 0 0 15.68 ?
+ 4 1 1 14.77 ?
+ 4 2 0 13.99 ?
+ 3 3 2 13.34 ?
+ 4 2 2 12.77 ?
+ 4 3 1 12.25 ?
+ ? ? ? 12 ?
+ 5 2 1 11.4 ?
+ 4 4 0 11.1 ?
+ 4 3 3 10.69 ?
+ 4 4 2 10.4 ?
+ 5 3 2 10.1 ?
+ 6 2 0 9.84 ?
+ 5 4 1 9.59 ?
+ 6 2 2 9.36 ?
+ 4 4 4 9.15 ?
+
+# End of data set 1252267

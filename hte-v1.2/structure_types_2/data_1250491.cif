@@ -1,0 +1,128 @@
+##############################################################################
+#                                                                            #
+# Te-W             # WTe2                                          # 1250491 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1250491
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1250491
+
+# Entry summary
+
+_chemical_formula_structural             WTe2
+_chemical_formula_sum                    Te2W
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            WTe2,oP12,31
+_chemical_formula_weight                 439.0
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+;
+Metal-Metal vs Tellurium-Tellurium Bonding in WTe2 and Its Ternary Variants TaIrTe4 and NbIrTe4
+;
+_journal_coden_ASTM                      JACSAT
+_journal_year                            1992
+_journal_volume                          114
+_journal_page_first                      8963
+_journal_page_last                       8971
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Mar A.'
+;
+Northwestern University
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+'Jobic S.'
+;
+Northwestern University
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+'Ibers J.A.'
+;
+Northwestern University
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.477
+_cell_length_b                           6.249
+_cell_length_c                           14.018
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             304.58
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              31
+_symmetry_space_group_name_H-M           Pmn21
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, -y, 0.5+z'
+ 3 '-x, y, z'
+ 4 '0.5+x, -y, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ W2 W a 2 0 0.03980 0.09590 1
+ Te4 Te a 2 0 0.20722 0.70725 1
+ Te3 Te a 2 0 0.29845 0.25129 1
+ W1 W a 2 0 0.60062 0.61112 1
+ Te2 Te a 2 0 0.64631 0.00000 1
+ Te1 Te a 2 0 0.85761 0.45587 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka1'
+_cell_measurement_wavelength             0.7093
+_cell_measurement_reflns_used            32
+_diffrn_ambient_temperature              113
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Picker
+_diffrn_radiation_type                   'X-rays, Mo Ka1'
+_diffrn_radiation_wavelength             0.7093
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 40
+_exptl_absorpt_coefficient_mu            57.25
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             19
+_refine_ls_number_reflns                 2122
+_refine_ls_R_factor_all                  0.084
+_refine_ls_wR_factor_all                 0.117
+_computing_structure_refinement          SHELXS-86
+
+# End of data set 1250491

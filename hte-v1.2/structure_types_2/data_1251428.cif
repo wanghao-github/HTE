@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# Ge-Mo            # Mo13Ge23                                      # 1251428 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251428
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251428
+
+# Entry summary
+
+_chemical_formula_structural             Mo13Ge23
+_chemical_formula_sum                    Ge23Mo13
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mo13Ge23,tP144,118
+_chemical_formula_weight                 2916.8
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Die Kristallstrukturen von Cr11Ge19, Mo13Ge23 und V17Ge31'                   
+_journal_coden_ASTM                      ZKKKAJ
+_journal_year                            1967
+_journal_volume                          124
+_journal_page_first                      9
+_journal_page_last                       25
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Völlenkle H.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Preisinger A.'
+;
+Vienna University
+Mineralogisches Institut
+Vienna
+Austria
+;
+'Nowotny H.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+'Wittmann A.'
+;
+Vienna University
+Institut für Physikalische Chemie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.987
+_cell_length_b                           5.987
+_cell_length_c                           63.54
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2277.54
+_cell_formula_units_Z                    4
+_symmetry_Int_Tables_number              118
+_symmetry_space_group_name_H-M           P-4n2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '0.5-x, 0.5+y, 0.5+z'
+ 3 '-x, -y, z'
+ 4 '0.5-y, 0.5-x, 0.5-z'
+ 5 '-y, x, -z'
+ 6 '0.5+x, 0.5-y, 0.5+z'
+ 7 '0.5+y, 0.5+x, 0.5-z'
+ 8 'y, -x, -z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge i 8 0.140 0.271 0.5114 1
+ Ge10 Ge i 8 0.148 0.302 0.2078 1
+ Ge6 Ge i 8 0.152 0.191 0.1184 1
+ Ge11 Ge i 8 0.180 0.159 0.7290 1
+ Ge2 Ge i 8 0.206 0.142 0.0336 1
+ Ge7 Ge i 8 0.212 0.644 0.1408 1
+ Ge8 Ge i 8 0.250 0.140 0.3370 1
+ Ge4 Ge i 8 0.328 0.337 0.0761 1
+ Ge3 Ge i 8 0.344 0.185 0.5552 1
+ Ge9 Ge i 8 0.640 0.275 0.3146 1
+ Ge5 Ge i 8 0.674 0.160 0.0974 1
+ Mo12 Mo h 4 0 0.5 0.0196 1
+ Mo13 Mo h 4 0 0.5 0.0958 1
+ Mo14 Mo h 4 0 0.5 0.1731 1
+ Mo9 Mo h 4 0 0.5 0.5585 1
+ Mo10 Mo h 4 0 0.5 0.6338 1
+ Mo11 Mo h 4 0 0.5 0.7121 1
+ Ge12 Ge f 4 0.338 0.162 0.25 1
+ Mo3 Mo e 4 0 0 0.0773 1
+ Mo4 Mo e 4 0 0 0.1534 1
+ Mo5 Mo e 4 0 0 0.2316 1
+ Mo6 Mo e 4 0 0 0.3073 1
+ Mo7 Mo e 4 0 0 0.3854 1
+ Mo8 Mo e 4 0 0 0.4609 1
+ Mo2 Mo c 2 0 0.5 0.25 1
+ Mo1 Mo a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cr Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu K'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           cylindrical
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_all                  0.097
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251428

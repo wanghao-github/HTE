@@ -1,0 +1,140 @@
+##############################################################################
+#                                                                            #
+# Hf-Te            # Hf3Te2                                        # 1251498 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#    Copyright (c) 2008 ASM International & Material Phases Data System.     #
+#                           All rights reserved.                             #
+#    This copy of Pearson's Crystal Data is licensed to:                     #
+#    ICAMS Ruhr Universitaet Bochum                                          #
+#                                                                            #
+##############################################################################
+
+data_1251498
+_audit_creation_date                     2009-11-26
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251498
+
+# Entry summary
+
+_chemical_formula_structural             Hf3Te2
+_chemical_formula_sum                    Hf3Te2
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Hf3Te2,tI10,139
+_chemical_formula_weight                 790.7
+_chemical_melting_point                  ?
+
+# Bibliographic data
+
+_publ_section_title
+'Hf3Te2: Ein neues Tellurid mit bemerkenswerter Schichtstruktur'              
+_journal_coden_ASTM                      ANCEAD
+_journal_year                            1994
+_journal_volume                          106
+_journal_page_first                      2414
+_journal_page_last                       2416
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Abdon R.L.'
+;
+Texas A and M University
+Department of Chemistry
+College Station
+U.S.A. Texas
+;
+'Hughbanks T.'
+;
+Texas A and M University
+Department of Chemistry
+College Station
+U.S.A. Texas
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.6837
+_cell_length_b                           3.6837
+_cell_length_c                           17.901
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             242.91
+_cell_formula_units_Z                    2
+_symmetry_Int_Tables_number              139
+_symmetry_space_group_name_H-M           I4/mmm
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+ 17 '0.5+x, 0.5+y, 0.5+z'
+ 18 '0.5-x, 0.5-y, 0.5-z'
+ 19 '0.5-x, 0.5-y, 0.5+z'
+ 20 '0.5-x, 0.5+y, 0.5-z'
+ 21 '0.5-x, 0.5+y, 0.5+z'
+ 22 '0.5-y, 0.5-x, 0.5-z'
+ 23 '0.5-y, 0.5-x, 0.5+z'
+ 24 '0.5-y, 0.5+x, 0.5-z'
+ 25 '0.5-y, 0.5+x, 0.5+z'
+ 26 '0.5+x, 0.5-y, 0.5-z'
+ 27 '0.5+x, 0.5-y, 0.5+z'
+ 28 '0.5+x, 0.5+y, 0.5-z'
+ 29 '0.5+y, 0.5-x, 0.5-z'
+ 30 '0.5+y, 0.5-x, 0.5+z'
+ 31 '0.5+y, 0.5+x, 0.5-z'
+ 32 '0.5+y, 0.5+x, 0.5+z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_Wyckoff_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Te1 Te e 4 0 0 0.1690 1
+ Hf2 Hf e 4 0 0 0.4038 1
+ Hf1 Hf a 2 0 0 0 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Siemens R3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1014
+_exptl_absorpt_coefficient_mu            75.518
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 188
+_refine_ls_R_factor_all                  0.0197
+_refine_ls_wR_factor_all                 ?
+_computing_structure_refinement          ?
+
+# End of data set 1251498
