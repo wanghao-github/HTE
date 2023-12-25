@@ -2878,6 +2878,7 @@ class HTE(object):
                                 prop_dict[subdir]['data_path']=calcpath
             self.tmpdata['prop_dict'][uid][subdir]=prop_dict[subdir]
         pd_ref={}
+        print "check_point9: print all subdirs:", subdirs
         for subdir in subdirs:
             if (prop_dict[subdir]!={}) and (not ('updating' in prop_dict[subdir])):
                 #tmp solution if DB file was not stored
@@ -2904,6 +2905,8 @@ class HTE(object):
                 self.tmpdata['prop_dict'][uid][subdir]={'updating':True}
         if (not ('return_all' in magsettings)) or (magsettings['return_all']==False):
             prop_dict=pd_ref
+            
+        print "check_point10: the final prop_dict for each uid:", prop_dict
         return prop_dict
 
     def restore_calculation(self, uid, calc_scheme, target_dir="", magsettings={'submitted':True}, uncompress=True):
