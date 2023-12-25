@@ -2788,7 +2788,7 @@ class HTE(object):
                 subdirs[subdir]=magconfigs[magconf]
         for subdir in subdirs:
             if subdir in self.tmpdata['prop_dict'][uid]:
-                print "check_point6, subdir in self.tmpdata"
+                print "check_point6, subdir in self.tmpdata, and the subdir is : ", subdir
                 prop_dict[subdir]=self.tmpdata['prop_dict'][uid][subdir]
                 continue
             prop_dict[subdir]={}
