@@ -2685,7 +2685,7 @@ class HTE(object):
             if 'cell' in prop_dict:
                 cell=prop_dict['cell']
         if isinstance(cell,type(None)):
-	    return None
+            return None
         return [norm(cell[0]),norm(cell[1]),norm(cell[2])]
                 
             
