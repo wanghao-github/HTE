@@ -3694,8 +3694,8 @@ class HTE(object):
                 qvecs=[[0,0,0], [0,0,1]]
             logmes=" - autoq: lattice parameters: "
             for i in range(3):
-                    ai=norm(ao_std.get_cell()[i])
-                    logmes=logmes+"%5.2f "%ai
+                ai=norm(ao_std.get_cell()[i])
+                logmes=logmes+"%5.2f "%ai
             spgno=symspg['number']
             if (spgno>195) and (norm(ao_std.get_cell()[0])<dmax):
                 if (use_primitive==True) or (spgno<221):
