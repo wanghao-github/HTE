@@ -2662,12 +2662,14 @@ class HTE(object):
                 #check if lower part is still necessary
                 for sp in self.get_searchpaths():
                     try:
+                        print "check_point38, change dir to sp" 
                         os.chdir(sp)
                     except OSError, e:
                         warnings.warn("Searchpaths: OSError {0}".format(e))
                         continue
                     calc=self.setup_calculator(uid,calc_scheme,basic=True)
                     atoms=self.structureDB[uid].get_converged_structure(calc_scheme,calc)
+                    print "check_point39, get the ao in sp,and the atoms is:", atoms 
                     os.chdir(parentdir)
                     if atoms!=None:
                         return atoms
