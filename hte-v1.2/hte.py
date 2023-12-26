@@ -2636,18 +2636,18 @@ class HTE(object):
         parentdir=os.getcwd()
         if uid in self.structureDB:
             if calc_scheme==None:
-                print "in get_atoms_object, calc_schmem is none"
+                print "check_point29, in get_atoms_object, calc_schmem is none,return init_ao", self.structureDB[uid].atoms_initial
                 return self.structureDB[uid].atoms_initial
             if calc_scheme in self.calc_schemes:
-                print "here is no problem1"
+                print "check_point30,calc_scheme is existed in calc_schemes"
                 if (self.use_prop_dict==True):
-                    print "in get_atoms_object, use_prop_dict"
+                    print "check_point31, in get_atoms_object, use_prop_dict=True"
                     mags=deepcopy(magsettings)
-                    print "here ,mags_setting is none, no problem",
-                    print "here , sub_directories is :",sub_directories
+                    print "check_point32, in get_atoms_object, mags_setting is none"
+                    print "check_point33, in get_atoms_object, sub_directories are:",sub_directories
                     mags['get_atoms']=False  #for the moment (recursion problem)
                     prop_dict=self.get_properties(uid, calc_scheme, magsettings=mags, sub_directories=sub_directories)
-                    print "~~~prop_dict is :", prop_dict
+                    print "check_point34, in get_atoms_object, prop_dict is :", prop_dict
                     if ('chemical_symbols' in prop_dict) and ('cell' in prop_dict) and ('scaled_positions' in prop_dict):
                         atoms=Atoms(prop_dict['chemical_symbols'],cell=prop_dict['cell'],scaled_positions=prop_dict['scaled_positions'],pbc=True)
                         return atoms
@@ -4155,8 +4155,8 @@ class HTE(object):
         """
         B=None
         ao=self.get_atoms_object(uid, calc_scheme=calc_scheme)
-	if ao==None:
-	 return None
+        if ao==None:
+            return None
         V_at=ao.get_volume()/len(ao)
         etab=[]
         for V in Vrel:
@@ -5116,7 +5116,7 @@ class HTE(object):
                 calc_parent=self.setup_calculator(uid, calc_scheme)
                 calc_tr=self.setup_calculator(uid, calc_scheme, transport=True, transport_kspace_density=kspace_density)
                 #calc_initr=self.setup_calculator(uid, calc_scheme, transport=True)
-		calc_initr=self.setup_calculator(uid, calc_scheme, bandstructure_init=True)
+                calc_initr=self.setup_calculator(uid, calc_scheme, bandstructure_init=True)
                 # check if transport calculation is ready
                 if dbentry.check_convergency(os.path.join(calc_scheme, transpdir),calc_tr):
                     # run Boltztrap (copy boltzini, write bs, run)
