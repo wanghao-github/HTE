@@ -3145,7 +3145,7 @@ class HTE(object):
                 #    #break
         # rm when tested
         #symdirhte='msg/'
-         print "check_point16, debug=False, ao is:",ao
+        print "check_point16, debug=False, ao is:",ao
         if ('auto' in settings):
             aset={}
             ao_ini=self.get_atoms_object(uid)
