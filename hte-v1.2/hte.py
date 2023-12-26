@@ -3451,14 +3451,16 @@ class HTE(object):
                             magconfigs[name]={'magmom':prop_dict['magnetic_moments'],'atoms_object':ao,'subdir':name}
                             if isinstance(prop_dict['magnetic_moments'][0],list):
                                 magconfigs[name]['lnoncollinear']=True
-        print "magconfigs is:",magconfigs
-        print "before ao return"
-        print "calc_sheme is", calc_scheme
-        print "uid is", uid
-        print "only uid ao is:", self.get_atoms_object(uid)
+        # print "magconfigs is:",magconfigs
+        # print "before ao return"
+        # print "calc_sheme is", calc_scheme
+        # print "uid is", uid
+        # print "only uid ao is:", self.get_atoms_object(uid)
+        print "check_point26, before get_atom_object"
         ao=self.get_atoms_object(uid, calc_scheme=calc_scheme, magsettings={})
-        print "after ao return"
+        print "check_point27,after ao return"
         if (ao==None):
+            print "check_point28,ao is None, will return empty dictionary"
             return magconfigs
         # determine site magnetic moments
         if isinstance(AF_atoms,dict):
