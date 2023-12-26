@@ -2649,13 +2649,15 @@ class HTE(object):
                     prop_dict=self.get_properties(uid, calc_scheme, magsettings=mags, sub_directories=sub_directories)
                     print "check_point34, in get_atoms_object, prop_dict is :", prop_dict
                     if ('chemical_symbols' in prop_dict) and ('cell' in prop_dict) and ('scaled_positions' in prop_dict):
+                        print "check_point35, in get_atoms_object, pd_dict have scaled_positions"
                         atoms=Atoms(prop_dict['chemical_symbols'],cell=prop_dict['cell'],scaled_positions=prop_dict['scaled_positions'],pbc=True)
                         return atoms
                     elif ('chemical_symbols' in prop_dict) and ('cell' in prop_dict) and ('positions' in prop_dict):
+                        print "check_point36, in get_atoms_object, pd_dict have positions"
                         atoms=Atoms(prop_dict['chemical_symbols'],cell=prop_dict['cell'],positions=prop_dict['positions'],pbc=True)
                         return atoms
                     else:
-                        print "this prop_dict is not complete"
+                        print "check_point37, this prop_dict is not include position"
                     return None
                 #check if lower part is still necessary
                 for sp in self.get_searchpaths():
