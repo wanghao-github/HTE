@@ -3702,14 +3702,14 @@ class HTE(object):
                     for j in range(2,5):
                         if (ai*(j-1)<dmax):
                             qix[i].append(float(1./j))
-		print qix
+                print qix
                 for qx in qix[0]:
                     for qy in qix[1]:
                         for qz in qix[2]:
                             qv=[qx,qy,qz]
                             if qv!=[0,0,0]:
                                 qvecs.append(qv)
-			    print qv,qvecs
+                            print qv,qvecs
             logmes=logmes+" --> qvecs=%s"%str(qvecs)
             self.add_logmessage(logmes)
             for qvec in qvecs: #[[0, 0, 0], [0,0,1],[0, 0, 0.5],[0.5, 0, 0],[0.5, 0.5, 0],[0.5, 0, 0.5],[0.5, 0.5, 0.5]]:
@@ -3798,7 +3798,7 @@ class HTE(object):
                 #self.add_logmessage("--NTOT %d for %s (after %s)"%(len(magconfigs),uid,qstr))
         if ('max_subgroups' in settings):
             #symprec=1e-2
-            print "max_subgroups ao1 is :",ao
+            print "check_point 24, begin_max_groups."
             if 'symprec' in settings:
                 symprec=settings['symprec']
                 symspg=spglib.get_symmetry_dataset(ao, symprec=settings['symprec'])
@@ -3808,7 +3808,7 @@ class HTE(object):
                     for el,pos in zip(ao.get_chemical_symbols(),ao.get_scaled_positions()):
                         print el,pos
             symspg=spglib.get_symmetry_dataset(ao)
-            print symspg
+            print "check_point25, symspg is: ",symspg
             lattice, scaled_positions, numbers=spglib.find_primitive(ao, symprec=symprec)
             if (len(scaled_positions)!=len(ao)):
                 print "not primitive",len(scaled_positions),len(ao)
