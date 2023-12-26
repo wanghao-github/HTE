@@ -3109,7 +3109,7 @@ class HTE(object):
         max_configs: maximal number of spin configurations (only for 'max_subgroups' and 'sublattices'), can be overwritten by 'max_configs' in settings
         """
         settings=deepcopy(magsettings)
-        print "setting",settings
+        print "check_point11, the start of setup_magnetic_structures, show magsetting:",settings
         AF_atoms=AFatoms
         if 'AFatoms' in settings:
             AF_atoms=settings['AFatoms']
@@ -3124,14 +3124,15 @@ class HTE(object):
         elif ('report_magnetic_structures' in settings) and (settings['report_magnetic_structures']==True):
             report_magnetic_structures=True
         comp_r=self.structureDB[uid].get_composition(reduce=True)
-        print "comp_r is ", comp_r
+        print "check_point12, comp_r is ", comp_r
         symdirhte=os.path.join(self.dir_of_hte,'verified-msg/')
-        print "symdirhte is :",symdirhte
+        print "check_point13, symdirhte is :",symdirhte
         # determine symmetry
         if debug==True:
             ao_ini=self.get_atoms_object(uid)
             ao=self.get_atoms_object(uid,calc_scheme,magsettings={})
-            print "debuuuuuuug",ao_ini
+            print "check_point14, debug=True, ao_ini is:",ao_ini
+            print "check_point15, debug=True, ao is:",ao
             for sympr in [symprec, 1e-4, 1e-3, 5e-2]:
                 symspg=spglib.get_symmetry_dataset(ao, symprec=sympr)
                 lattice_p, scaled_positions_p, numbers_p=spglib.find_primitive(ao, symprec=sympr)
@@ -3144,34 +3145,35 @@ class HTE(object):
                 #    #break
         # rm when tested
         #symdirhte='msg/'
+         print "check_point16, debug=False, ao is:",ao
         if ('auto' in settings):
             aset={}
             ao_ini=self.get_atoms_object(uid)
             ao=self.get_atoms_object(uid,calc_scheme,magsettings={})
-	    if ao==None:
-		self.add_logmessage("* autoAF: initial FM calculation not ready for %s (%s/%s)"%(uid,comp_r,calc_scheme))
-	 	return {'':{}} 	
-            symspg=spglib.get_symmetry_dataset(ao, symprec=symprec)
-            symspg_ini=spglib.get_symmetry_dataset(ao_ini, symprec=symprec)
-            if symspg['number']<symspg_ini['number']:
-                self.add_logmessage("* autoAF: check symmetry of %s (%s/%s:%d/%d)"%(uid,comp_r,calc_scheme,symspg['number'],symspg_ini['number']))
-                return {}
-            ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
-            afmconfigs=get_magnetic_sublattices(ao, symprec=symprec)
-            aset['sublattices']=afmconfigs
-            if (len(ao)!=len(ao_std)) and (len(ao_std)<30) and (not (symspg['number'] in [227,15])): #exclude some cases for the moment
-                aset['maxmags']=[[0,0,0],[0,0,1]]
+        if ao==None:
+            self.add_logmessage("* autoAF: initial FM calculation not ready for %s (%s/%s)"%(uid,comp_r,calc_scheme))
+            return {'':{}} 	
+        symspg=spglib.get_symmetry_dataset(ao, symprec=symprec)
+        symspg_ini=spglib.get_symmetry_dataset(ao_ini, symprec=symprec)
+        if symspg['number']<symspg_ini['number']:
+            self.add_logmessage("* autoAF: check symmetry of %s (%s/%s:%d/%d)"%(uid,comp_r,calc_scheme,symspg['number'],symspg_ini['number']))
+            return {}
+        ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+        afmconfigs=get_magnetic_sublattices(ao, symprec=symprec)
+        aset['sublattices']=afmconfigs
+        if (len(ao)!=len(ao_std)) and (len(ao_std)<30) and (not (symspg['number'] in [227,15])): #exclude some cases for the moment
+            aset['maxmags']=[[0,0,0],[0,0,1]]
+        else:
+            comp=self.structureDB[uid].get_composition(reduce=False)
+            if ('Mn' in comp) and (comp['Mn']==1):
+                aset['maxmags']=[[0.5,0.5,0],[0,0,0],[0,0,0.5]]
             else:
-                comp=self.structureDB[uid].get_composition(reduce=False)
-                if ('Mn' in comp) and (comp['Mn']==1):
-                    aset['maxmags']=[[0.5,0.5,0],[0,0,0],[0,0,0.5]]
-                else:
-                    aset['maxmags']=[[0,0,0]]
-            self.add_logmessage("* autoAF: %s %s"%(uid,str(aset)))
-            settings['max_subgroups']=aset['maxmags']
-            settings['sublattices']=True
-            if len(afmconfigs)>5:
-                settings['max_subgroups']={}
+                aset['maxmags']=[[0,0,0]]
+        self.add_logmessage("* autoAF: %s %s"%(uid,str(aset)))
+        settings['max_subgroups']=aset['maxmags']
+        settings['sublattices']=True
+        if len(afmconfigs)>5:
+            settings['max_subgroups']={}
         if ('include_default' in settings) and (settings['include_default']==False):
             magconfigs={}
         else:
@@ -3599,12 +3601,12 @@ class HTE(object):
                         magconfigs[name]=afmconfigs[name]
         if ('user_magconf' in settings):
             #to be done: make sure this is consistent
-	    for name in settings['user_magconf']:
-		namex=name+'_user_magconf'
-		if not namex in  magconfigs:
-			magconfigs[namex]={'magmom':settings['user_magconf'][name]['magmom'],'atoms_object':settings['user_magconf'][name]['atoms_object']}
-			if isinstance(settings['user_magconf'][name]['magmom'][0],np.ndarray):
-				magconfigs[namex]['lnoncollinear']=True
+            for name in settings['user_magconf']:
+                namex=name+'_user_magconf'
+                if not namex in  magconfigs:
+                    magconfigs[namex]={'magmom':settings['user_magconf'][name]['magmom'],'atoms_object':settings['user_magconf'][name]['atoms_object']}
+                    if isinstance(settings['user_magconf'][name]['magmom'][0],np.ndarray):
+                        magconfigs[namex]['lnoncollinear']=True
         if ('autoprio' in settings):
             status_Ntot=0
             status_Nnew=0
