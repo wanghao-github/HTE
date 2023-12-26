@@ -2785,7 +2785,7 @@ class HTE(object):
             print "check_point3: sub_directories is not empty, so what is seems like", sub_directories
         else:
             magconfigs=self.setup_magnetic_structures(uid,calc_scheme, magsettings=magsettings)
-            print "check_point4, the magconfigs from the setup_magnetic_structures function:", magconfigs
+            print "check_point4, sub_directories is empty!! the magconfigs from the setup_magnetic_structures function:", magconfigs
             for magconf in magconfigs:
                 print "check_point5, here is a cycle, out put of each magconfigs subdirs,", magconf
                 subdir=os.path.join(calc_scheme,magconf)
@@ -2794,6 +2794,7 @@ class HTE(object):
             if subdir in self.tmpdata['prop_dict'][uid]:
                 print "check_point6, subdir in self.tmpdata, and the subdir is : ", subdir
                 prop_dict[subdir]=self.tmpdata['prop_dict'][uid][subdir]
+                print "check_point40, subdir in self.tmpdata and prop_dict[subdir]", prop_dict[subdir]
                 continue
             prop_dict[subdir]={}
             print "check_point7, search path is : ", searchpaths
