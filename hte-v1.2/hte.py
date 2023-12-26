@@ -3387,6 +3387,7 @@ class HTE(object):
                     if isinstance(pd_sc['magnetic_moments'][0],list):
                         magconfigs[name]['lnoncollinear']=True
         if ('init_structure' in settings):
+            print "check_point42, 'init_structure' in settings"
             calc_name, calc_settings=self.calc_schemes[calc_scheme]
             prop_dicts=[]
             if 'init_structure' in calc_settings:
