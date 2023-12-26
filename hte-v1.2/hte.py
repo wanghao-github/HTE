@@ -3145,34 +3145,37 @@ class HTE(object):
                 #    #break
         # rm when tested
         #symdirhte='msg/'
-        print "check_point16, debug=False, ao is:",ao
+        # print "check_point16, debug=False, ao is:",ao
         if ('auto' in settings):
             aset={}
             ao_ini=self.get_atoms_object(uid)
             ao=self.get_atoms_object(uid,calc_scheme,magsettings={})
-        if ao==None:
-            self.add_logmessage("* autoAF: initial FM calculation not ready for %s (%s/%s)"%(uid,comp_r,calc_scheme))
-            return {'':{}} 	
-        symspg=spglib.get_symmetry_dataset(ao, symprec=symprec)
-        symspg_ini=spglib.get_symmetry_dataset(ao_ini, symprec=symprec)
-        if symspg['number']<symspg_ini['number']:
-            self.add_logmessage("* autoAF: check symmetry of %s (%s/%s:%d/%d)"%(uid,comp_r,calc_scheme,symspg['number'],symspg_ini['number']))
-            return {}
-        ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
-        afmconfigs=get_magnetic_sublattices(ao, symprec=symprec)
-        aset['sublattices']=afmconfigs
-        if (len(ao)!=len(ao_std)) and (len(ao_std)<30) and (not (symspg['number'] in [227,15])): #exclude some cases for the moment
-            aset['maxmags']=[[0,0,0],[0,0,1]]
-        else:
-            comp=self.structureDB[uid].get_composition(reduce=False)
+            if ao==None:
+                self.add_logmessage("* autoAF: initial FM calculation not ready for %s (%s/%s)"%(uid,comp_r,calc_scheme))
+                print "check_point17, in auto, ao is None!"
+                return {'':{}} 	
+            symspg=spglib.get_symmetry_dataset(ao, symprec=symprec)
+            symspg_ini=spglib.get_symmetry_dataset(ao_ini, symprec=symprec)
+            print "check_point18, in auto, symspg is:", symspg
+            print "check_point19, in auto, symspg_ini is:", symspg_ini
+            if symspg['number']<symspg_ini['number']:
+                self.add_logmessage("* autoAF: check symmetry of %s (%s/%s:%d/%d)"%(uid,comp_r,calc_scheme,symspg['number'],symspg_ini['number']))
+                return {}
+            ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+            afmconfigs=get_magnetic_sublattices(ao, symprec=symprec)
+            aset['sublattices']=afmconfigs
+            if (len(ao)!=len(ao_std)) and (len(ao_std)<30) and (not (symspg['number'] in [227,15])): #exclude some cases for the moment
+                aset['maxmags']=[[0,0,0],[0,0,1]]
+            else:
+                comp=self.structureDB[uid].get_composition(reduce=False)
             if ('Mn' in comp) and (comp['Mn']==1):
                 aset['maxmags']=[[0.5,0.5,0],[0,0,0],[0,0,0.5]]
             else:
                 aset['maxmags']=[[0,0,0]]
-        self.add_logmessage("* autoAF: %s %s"%(uid,str(aset)))
-        settings['max_subgroups']=aset['maxmags']
-        settings['sublattices']=True
-        if len(afmconfigs)>5:
+            self.add_logmessage("* autoAF: %s %s"%(uid,str(aset)))
+            settings['max_subgroups']=aset['maxmags']
+            settings['sublattices']=True
+            if len(afmconfigs)>5:
             settings['max_subgroups']={}
         if ('include_default' in settings) and (settings['include_default']==False):
             magconfigs={}
