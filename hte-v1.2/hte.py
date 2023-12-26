@@ -3176,7 +3176,7 @@ class HTE(object):
             settings['max_subgroups']=aset['maxmags']
             settings['sublattices']=True
             if len(afmconfigs)>5:
-            settings['max_subgroups']={}
+                settings['max_subgroups']={}
         if ('include_default' in settings) and (settings['include_default']==False):
             magconfigs={}
         else:
