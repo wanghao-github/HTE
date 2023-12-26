@@ -3287,7 +3287,7 @@ class HTE(object):
                 ao_ini=self.get_atoms_object(uid)
                 spglib_info=spglib.get_symmetry_dataset(ao_mag,symprec=symprec)
                 origin_shift=spglib_info['origin_shift']
-		spglib_info_ini=spglib.get_symmetry_dataset(ao_ini,symprec=symprec)
+                spglib_info_ini=spglib.get_symmetry_dataset(ao_ini,symprec=symprec)
                 if (spglib_info['number']==spglib_info_ini['number']) and (sorted(spglib_info['std_types'])==sorted(spglib_info_ini['std_types'])):
                     for i in range(len(spglib_info['std_types'])):
                         found=False
@@ -3312,11 +3312,11 @@ class HTE(object):
                         namex=name
                         match_uid=True
                         match_proto=True
-			set_ispin=True
+                        set_ispin=True
                         for iat,momf,el in zip(range(len(chem_symb)),spinstruct,chem_symb):
                             mom_el=self.get_initial_magnetic_moment(el)
-			    if abs(mom_el)>0.1:
-			      set_ispin=False
+                            if abs(mom_el)>0.1:
+                                set_ispin=False
                             if ('non_default_magnetic_atoms' in settings['user'][name]) and (el in settings['user'][name]['non_default_magnetic_atoms']):
                                 mom_el=settings['user'][name]['non_default_magnetic_atoms'][el]
                                 if (mom_el!=self.get_initial_magnetic_moment(el)) and (not (el in namex.split('_'))):
@@ -3344,8 +3344,8 @@ class HTE(object):
                             doit=False
                         if ((Nup>0) and (Ndn>0)) and (doit==True):
                             magconfigs['q_user_'+namex]={'magmom':magmoms,'atoms_object':ao_mag}
-			    if set_ispin==True:
-				magconfigs['q_user_'+namex]['ispin']=2
+                            if set_ispin==True:
+                                magconfigs['q_user_'+namex]['ispin']=2
                         else:
                             self.add_logmessage("WARNING(setup_magnetic_structures): spin structure %s for uid %s excluded because it does not match condition <%s>."%(name,uid,matches))
                 else:
@@ -3497,15 +3497,19 @@ class HTE(object):
         # AF coupling of non-equivalent atoms 
         if ('sublattices' in settings):
             maxconfigs=max_configs
+            print "check_point20, in sublattice, maxconfigs is :",maxconfigs
             if 'max_configs' in settings:
                 maxconfigs=settings['max_configs']
             afmconfigs=get_magnetic_sublattices(ao, symprec=symprec)
             if afmconfigs==False:
+                print "check_point21, in sublattice, afmconfigs is False:", afmconfigs
                 self.add_logmessage("WARNING(setup_magnetic_structures): Failed to get sublattices for %s (%s/%s), check spglib!"%(uid,comp_r,calc_scheme))
             elif (pow(2,len(afmconfigs)-1)-1)>maxconfigs:
+                print "check_point22, pow(2,len(afmconfigs)-1)-1 is larger than max config", 
                 self.add_logmessage("WARNING(setup_magnetic_structures): %d sublattice configurations for %s (%s), increase max_configs!"%(pow(2,len(afmconfigs)-1)-1,uid,calc_scheme))
             else:
                 afmconfigs=get_magnetic_sublattices(ao,return_afm=True, symprec=symprec)
+                print "check_point23, print_afmconfigs:", afmconfigs
                 if len(afmconfigs)>maxconfigs:
                     self.add_logmessage("WARNING(setup_magnetic_structures): %d sublattice configurations for %s, increase max_configs!"%(len(afmconfigs),uid))
                     afmconfigs={}
