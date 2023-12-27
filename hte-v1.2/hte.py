@@ -3390,10 +3390,11 @@ class HTE(object):
             print "check_point42, 'init_structure' in settings."
             calc_name, calc_settings=self.calc_schemes[calc_scheme]
             prop_dicts=[]
+            print "check_point43, calc_name is :",calc_name,"calc_settings is:", calc_settings
             if 'init_structure' in calc_settings:
-                print "check_point43, 'init_structure' in calc_settings."
+                print "check_point44, 'init_structure' in calc_settings."
                 cs_ini=calc_settings['init_structure']
-                print "check_point44, cs_ini shold be like 'vaspopt':",cs_ini
+                print "check_point45, cs_ini shold be like 'vaspopt':",cs_ini
                 if ('all' in settings['init_structure']) and (settings['init_structure']['all']==True):
                     configs=self.setup_magnetic_structures(uid,cs_ini, magsettings=settings['init_structure'])
                     for config in configs:
