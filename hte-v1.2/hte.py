@@ -692,6 +692,7 @@ class HTE(object):
                 job_commands['job_file']=jobfile
         except:
             self.add_logmessage("WARNING(get_job_commands): Failed to get job commands for %s"%str(calc_scheme))
+        print "check_point52, final job_commands is :", job_commands
         return job_commands
 
     def set_job_commands(self, calc_scheme, **kwargs):
