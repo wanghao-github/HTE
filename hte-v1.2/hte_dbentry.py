@@ -547,6 +547,7 @@ class HTEdbentry(object):
                 status['qstat']='done(%s)'%(jobid)
             status['nsubmit']=self.submitted_jobs[calcdir]['nsubmit']
         if calc==None:
+            print "check_point60 , calc is None, return status"
             return status
         #check if calculation is converged and get energy etc.
         if self.check_convergency(subdir, calc):
