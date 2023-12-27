@@ -534,6 +534,7 @@ class HTEdbentry(object):
             print "check_point55 , jobid is:",jobid
             if job_environment=='SLURM':
                 qstatcmd='squeue -j '+str(jobid)+'| grep '+str(jobid) #squeue seems to have some delay 
+                print "check_point55 , qstatcmd is:",qstatcmd
             else: # SGE
                 qstatcmd='qstat -j '+str(jobid)
             exitcode, out = commands.getstatusoutput(qstatcmd)
