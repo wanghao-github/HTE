@@ -2381,6 +2381,7 @@ class HTE(object):
         if (update_atoms==True):
             self.structureDB[uid].atoms=self.structureDB[uid].atoms_initial.copy()
         pass2calc=settings.copy()
+        print "check_point61, pass2calc is :",pass2calc
         if options!={}:
             for keyw in options:
                 pass2calc[keyw]=options[keyw]
