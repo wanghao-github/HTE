@@ -1194,12 +1194,13 @@ class HTE(object):
                     if status==None:
                         print "check_point48, jobstatus is none"
                         job_commands=self.get_job_commands(kwargs['calc_scheme'])
-                        if 'job_environment' in job_commands:
+                        if 'job_environment' in job_commands:                            
                             job_environment=job_commands['job_environment']
+                            print "check_point53, job_environment is: ",job_environment
                         else:
                             job_environment=None
                         status=self.structureDB[uid].get_jobstatus( kwargs['calc_scheme'], None,job_environment=job_environment)
-                        print "check_point53, status is: ", status
+                        print "check_point54, status is: ", status
                     line=line+str(status['qstat'])+'('+str(status['nsubmit'])
                     if status['converged']:
                         line=line+', converged111) '
