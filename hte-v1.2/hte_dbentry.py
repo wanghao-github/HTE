@@ -531,6 +531,7 @@ class HTEdbentry(object):
         #check if job is still in the queue:
         if calcdir in self.submitted_jobs:
             jobid=self.submitted_jobs[calcdir]['jobid']
+            print "check_point55 , jobid is:",jobid
             if job_environment=='SLURM':
                 qstatcmd='squeue -j '+str(jobid)+'| grep '+str(jobid) #squeue seems to have some delay 
             else: # SGE
