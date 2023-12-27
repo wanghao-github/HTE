@@ -1188,6 +1188,7 @@ class HTE(object):
                 elif argument=='jobstatus':
                     print "check_point47, the output have jobstatus"
                     if status==None:
+                        print "check_point48, jobstatus is none"
                         job_commands=self.get_job_commands(kwargs['calc_scheme'])
                         if 'job_environment' in job_commands:
                             job_environment=job_commands['job_environment']
