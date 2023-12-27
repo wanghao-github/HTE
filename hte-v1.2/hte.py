@@ -74,6 +74,7 @@ class HTE(object):
             fplo_commands={'fedit':'fedit14.00-49-x86_64','job_command':'bash prep-job-fplo.sh ; sbatch job-fplo.sh','job_file':'job-fplo/*','job_environment':'SLURM'}
             self.job_commands['fplo']=fplo_commands
             self.job_commands['array_job']={'vasp': {'job_command':'bash prep-job-vasp.sh','array_job':True,'job_file':'jobarray-vasp/*','job_environment':'SLURM'}}        
+            print "check_point51, self.job_commands['array_job']= ",self.job_commands['array_job']
         else: #ICAMS vulcan cluster
             fplo_commands={'fedit':'fedit9.01-35-x86_64','job_command':'qsub job-fplo.sh','job_file':'job-fplo.sh','job_environment':'SGE'}
             self.job_commands['fplo']=fplo_commands
@@ -664,6 +665,7 @@ class HTE(object):
         
         job_commands={}
         if self.use_job_array==True:
+            print "check_point50, use_job_array is True"
             try:
                 if calc_scheme in self.job_commands['array_job']:
                     job_commands=self.job_commands['array_job'][calc_scheme]
