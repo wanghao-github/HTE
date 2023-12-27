@@ -545,6 +545,7 @@ class HTEdbentry(object):
             return status
         #check if calculation is converged and get energy etc.
         if self.check_convergency(subdir, calc):
+            print "check_point46, jobstatus check_convergency"
             status['converged']=True
             if calc.name.lower()=='vasp':
                 outcar=os.path.join(calcdir,'OUTCAR')
