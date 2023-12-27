@@ -2353,7 +2353,7 @@ class HTE(object):
     # routines to run & evaluate calculations  #
     ############################################
     def setup_calculator(self, uid, calc_scheme, basic=False, update_atoms=True, transport=False, bandstructure=False, bandstructure_init=False, transport_kspace_density=None,elastic=False,emat=None,afm={},update=False, options={},return_settings=False):
-        #print "***",uid, calc_scheme,afm
+        print "check_point62",uid, calc_scheme,afm
         # set up calculator for calc_scheme and uid:
         return_failed=None
         if return_settings==True:
