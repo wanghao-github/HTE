@@ -528,6 +528,7 @@ class HTEdbentry(object):
         #
         parentdir=os.getcwd()
         calcdir=os.path.join(self.calcdir,subdir,"")
+        print "check_point59 , calcdir is:",calcdir
         #check if job is still in the queue:
         if calcdir in self.submitted_jobs:
             jobid=self.submitted_jobs[calcdir]['jobid']
