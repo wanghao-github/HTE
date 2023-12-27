@@ -84,6 +84,8 @@ class HTE(object):
             # VASP
             #ultrasoft pseudopotentials (by convention xc = 'PW91') for scan
             setups_uspp={'C': '_s', 'B': '_s', 'Ba': '_pv', 'N': '_s'}
+            self.add_calc_scheme('vaspopt','vasp', ispin='auto', xc = 'PBE', encut = 500,  nsw = 60, lwave= False, lcharg = False, kspace_density=40, gamma=True, prec='High', ismear=0,ibrion=2, isif=2)
+            self.add_calc_scheme('vasp-scf-hao','vasp', ispin='auto', xc = 'PBE', encut = 500,  nsw = 0, lwave= False, lcharg = False, kspace_density=50, gamma=True, prec='High', ismear=-5,init_structure='vaspopt')
             self.add_calc_scheme('us-k30-e250-opt','vasp', xc = 'PW91', encut = 250, enaug = 250, nsw = 40, lreal=True, lwave= False, lcharg = False, kspace_density=30, gamma=True, ibrion=2, isif=3,setups=setups_uspp)
             #self.add_calc_scheme('us-k30-e150-noopt','vasp', xc = 'PW91', encut = 150, enaug = 150, nsw = 0, lreal=True, lwave= False, lcharg = False, kspace_density=30, gamma=True)
             #self.add_calc_scheme('us-k30-e150-vscale','vasp', xc = 'PW91', encut = 150, enaug = 150, nsw = 0, lreal=True, lwave= False, lcharg = False, kspace_density=30, gamma=True, scale_volume='atomic_volume')
