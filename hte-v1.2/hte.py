@@ -1186,6 +1186,7 @@ class HTE(object):
                             statistics_E_form_diff[calc_scheme]=sumefd,nstat,maxefd
                 #
                 elif argument=='jobstatus':
+                    print "check_point47, the output have jobstatus"
                     if status==None:
                         job_commands=self.get_job_commands(kwargs['calc_scheme'])
                         if 'job_environment' in job_commands:
