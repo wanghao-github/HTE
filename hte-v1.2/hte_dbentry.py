@@ -542,6 +542,7 @@ class HTEdbentry(object):
             if exitcode==0:
                 status['qstat']='in queue(%s)'%(jobid)
             else:
+                print "check_point58 ,status['qstat']= is done"
                 status['qstat']='done(%s)'%(jobid)
             status['nsubmit']=self.submitted_jobs[calcdir]['nsubmit']
         if calc==None:
