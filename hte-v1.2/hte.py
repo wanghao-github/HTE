@@ -2657,7 +2657,7 @@ class HTE(object):
                 if (self.use_prop_dict==True):
                     print "check_point31, in get_atoms_object, use_prop_dict=True"
                     mags=deepcopy(magsettings)
-                    print "check_point32, in get_atoms_object, mags_setting is none"
+                    print "check_point32, in get_atoms_object, mags_setting is:",mags
                     print "check_point33, in get_atoms_object, sub_directories are:",sub_directories
                     mags['get_atoms']=False  #for the moment (recursion problem)
                     prop_dict=self.get_properties(uid, calc_scheme, magsettings=mags, sub_directories=sub_directories)
@@ -2941,6 +2941,8 @@ class HTE(object):
                 except:
                     self.add_logmessage("WARNING(get_properties): Failed to run uid %s (%s) in %s!"%(uid,calc_scheme,subdir))
                 self.tmpdata['prop_dict'][uid][subdir]={'updating':True}
+                
+                ### if (prop_dict[subdir]=={}) and (update==True):
         if (not ('return_all' in magsettings)) or (magsettings['return_all']==False):
             prop_dict=pd_ref
             
