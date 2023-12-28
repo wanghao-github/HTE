@@ -2724,6 +2724,7 @@ class HTE(object):
             calc=self.setup_calculator(uid,calc_scheme,basic=True)
             print "check_point68, here is get_converged_calculation_path and set the basic=True"
             for sp in self.get_searchpaths():
+                print "check_point69, here is self.get_searchpaths():"
                 os.chdir(sp)
                 if self.structureDB[uid].check_convergency(calc_scheme_sp,calc):
                     calcpath=os.path.join(sp,uid,calc_scheme_sp)
