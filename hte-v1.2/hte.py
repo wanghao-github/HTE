@@ -2728,6 +2728,7 @@ class HTE(object):
             for sp in self.get_searchpaths():
                 print "check_point69, here is self.get_searchpaths(): and sp is:",sp
                 os.chdir(sp)
+                print "check_point74, here we change the dir now in:",os.chdir(sp)
                 if self.structureDB[uid].check_convergency(calc_scheme_sp,calc):
                     calcpath=os.path.join(sp,uid,calc_scheme_sp)
                 os.chdir(parentdir)
