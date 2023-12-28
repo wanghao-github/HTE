@@ -475,6 +475,7 @@ class HTEdbentry(object):
         parentdir=os.getcwd()
         converged=False
         calcdir=os.path.join(self.calcdir,subdir)
+        print "check_point78, calcdir is:",calcdir
         if calc.name.lower()=='vasp':
             outcar=os.path.join(calcdir,'OUTCAR')
             if os.path.isfile(outcar):
