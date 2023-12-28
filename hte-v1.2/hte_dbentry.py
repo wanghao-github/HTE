@@ -500,7 +500,7 @@ class HTEdbentry(object):
             outfilename=os.path.join(calcdir,'out')
             converged=calc.read_convergence(outfile=outfilename)
             
-            print "check_point80, final return converged is:",converged
+        print "check_point80, final return converged is:",converged
         return converged
     
     def get_converged_structure(self, subdir, calc, silent=False):
