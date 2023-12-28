@@ -2850,6 +2850,7 @@ class HTE(object):
                 if (prop_dict[subdir]!={}):
                     print "check_point89, self.get_main_storage_directory() is :",self.get_main_storage_directory()
                     print "check_point90, get_storage_directories() is :", self.get_storage_directories()
+                    print "check_point91, sp is :", sp
                     if (self.get_main_storage_directory()!=None) and (not (sp in self.get_storage_directories())):
                         print "check_point88,self.get_main_storage_directory()!=None) and (not (sp in self.get_storage_directories())"
                         store_files(os.path.join(sp,self.structureDB[uid].calcdir,subdir),os.path.join(self.get_main_storage_directory(),self.structureDB[uid].calcdir,subdir),files=st_files)
