@@ -2806,7 +2806,7 @@ class HTE(object):
         subdirs={}
         if sub_directories!={}:
             subdirs=sub_directories
-            print "check_point3: sub_directories is not empty, so what is seems like", sub_directories
+            print "check_point3, sub_directories is not empty, so what is seems like", sub_directories
         else:
             magconfigs=self.setup_magnetic_structures(uid,calc_scheme, magsettings=magsettings)
             print "check_point4, sub_directories is empty!! the magconfigs from the setup_magnetic_structures function:", magconfigs
@@ -2841,6 +2841,7 @@ class HTE(object):
                 if (not ('hte_version' in prop_dict[subdir])) or (('errors' in  prop_dict[subdir]) and (prop_dict[subdir]['errors']!='False')): # or (float(prop_dict[subdir]['hte_version'].split('-')[0])<1.2):
                     prop_dict[subdir]={}
                 if 'initial_magnetization' in prop_dict[subdir]: #tmp version
+                    print "check_point85, prop_dict[subdir] have initial_magnetization "
                     prop_dict[subdir]={}
                 if (not (reference_prop in prop_dict[subdir])):
                     prop_dict[subdir]={}
@@ -2907,7 +2908,7 @@ class HTE(object):
                             else:
                                 prop_dict[subdir]['data_path']=calcpath
             self.tmpdata['prop_dict'][uid][subdir]=prop_dict[subdir]
-        print "check_point83, prop_dict[subdir] = self.tmpdata and is:",self.tmpdata['prop_dict'][uid][subdir]
+        print "check_point83, prop_dict[subdir] = self.tmpdata and they are:",self.tmpdata['prop_dict'][uid][subdir]
         pd_ref={}
         print "check_point9: print all subdirs:", subdirs
         for subdir in subdirs:
