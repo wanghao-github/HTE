@@ -2804,6 +2804,7 @@ class HTE(object):
             self.tmpdata['prop_dict'][uid]={}
         # subdirectories with AF calculations etc.
         subdirs={}
+        print "check_point93, self.tmpdata is:",self.tmpdata
         if sub_directories!={}:
             subdirs=sub_directories
             print "check_point3, sub_directories is not empty, so what is seems like", sub_directories
