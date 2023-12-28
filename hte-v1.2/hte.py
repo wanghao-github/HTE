@@ -2368,6 +2368,7 @@ class HTE(object):
         calculator_name, settings=self.calc_schemes[calc_scheme]
         print "check_point65, calculator_name, settings=:", calculator_name, settings
         if (basic==True): #convergence tests etc. do not need to know about details
+            print "check_point66, here show the basic is True"
             if calculator_name.lower()=='vasp':
                 if 'ibrion' in settings:
                     return Vasp(ibrion=settings['ibrion'])
