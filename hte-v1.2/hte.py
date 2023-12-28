@@ -2682,6 +2682,7 @@ class HTE(object):
                         warnings.warn("Searchpaths: OSError {0}".format(e))
                         continue
                     calc=self.setup_calculator(uid,calc_scheme,basic=True)
+                    print "check_point67, here is get_atoms_object and set the basic==True"
                     atoms=self.structureDB[uid].get_converged_structure(calc_scheme,calc)
                     print "check_point39, get the ao in sp,and the atoms is:", atoms 
                     os.chdir(parentdir)
@@ -2721,6 +2722,7 @@ class HTE(object):
         if calc_scheme in self.calc_schemes:
             parentdir=os.getcwd()
             calc=self.setup_calculator(uid,calc_scheme,basic=True)
+            print "check_point68, here is get_converged_calculation_path and set the basic=True"
             for sp in self.get_searchpaths():
                 os.chdir(sp)
                 if self.structureDB[uid].check_convergency(calc_scheme_sp,calc):
