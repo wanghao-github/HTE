@@ -2714,11 +2714,13 @@ class HTE(object):
         calc_scheme can be found."""
         calcpath=None
         calc_scheme_sp=calc_scheme
+        print "check_point70, here is get_converged_calculation_path: and calc_scheme_sp is:", calc_scheme_sp
         if subdir!='':
             calc_scheme_sp=subdir
+            print "check_point71, here is get_converged_calculation_path: and subdir!='', calc_scheme_sp is:", calc_scheme_sp
         elif special!='':
             calc_scheme_sp=os.path.join(calc_scheme,special)
-
+            print "check_point72, special!='', calc_scheme_sp is:",calc_scheme_sp
         if calc_scheme in self.calc_schemes:
             parentdir=os.getcwd()
             calc=self.setup_calculator(uid,calc_scheme,basic=True)
