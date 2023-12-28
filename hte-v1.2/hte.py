@@ -2835,6 +2835,7 @@ class HTE(object):
                             line=infile.readline()
                         infile.close()
                         prop_dict[subdir]['data_path']=os.path.join(sp,self.structureDB[uid].calcdir,subdir)
+                        print "check_point86,prop_dict[subdir]['data_path'] is : ", prop_dict[subdir]['data_path']
                     except:
                         print "WARNING(get_properties()): Failed to read ",prop_file
                         prop_dict[subdir]={}
