@@ -482,7 +482,7 @@ class HTEdbentry(object):
                 os.chdir(calcdir)
                 try:
                     converged=calc.read_convergence()
-                    print "check_point77, here is converged", converged
+                    print "check_point79, here is converged", converged
                 except:
                     print "WARNING: Check file ",outcar
                 if converged==True:
@@ -499,6 +499,8 @@ class HTEdbentry(object):
         elif calc.name.lower()=='fplo':
             outfilename=os.path.join(calcdir,'out')
             converged=calc.read_convergence(outfile=outfilename)
+            
+            print "check_point80, final return converged is:",converged
         return converged
     
     def get_converged_structure(self, subdir, calc, silent=False):
