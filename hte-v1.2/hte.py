@@ -2839,6 +2839,8 @@ class HTE(object):
                     except:
                         print "WARNING(get_properties()): Failed to read ",prop_file
                         prop_dict[subdir]={}
+                    print "check_point87,the dict prop_dict[subdir] is : ",prop_dict[subdir]
+                        
                 if (not ('hte_version' in prop_dict[subdir])) or (('errors' in  prop_dict[subdir]) and (prop_dict[subdir]['errors']!='False')): # or (float(prop_dict[subdir]['hte_version'].split('-')[0])<1.2):
                     prop_dict[subdir]={}
                 if 'initial_magnetization' in prop_dict[subdir]: #tmp version
