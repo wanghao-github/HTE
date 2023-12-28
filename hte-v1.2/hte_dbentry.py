@@ -469,6 +469,7 @@ class HTEdbentry(object):
         return energy
 
     def check_convergency(self, subdir, calc, maxdV=0.1):
+        print "check_point77, entering the check_convergency subroutine"
         if calc==None:
             return False
         parentdir=os.getcwd()
@@ -480,7 +481,7 @@ class HTEdbentry(object):
                 os.chdir(calcdir)
                 try:
                     converged=calc.read_convergence()
-                    print "__________________________________________here is converged", converged
+                    print "check_point77, here is converged", converged
                 except:
                     print "WARNING: Check file ",outcar
                 if converged==True:
