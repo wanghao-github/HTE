@@ -2907,6 +2907,7 @@ class HTE(object):
                             else:
                                 prop_dict[subdir]['data_path']=calcpath
             self.tmpdata['prop_dict'][uid][subdir]=prop_dict[subdir]
+        print "check_point83, prop_dict[subdir] = self.tmpdata and is:",self.tmpdata['prop_dict'][uid][subdir]
         pd_ref={}
         print "check_point9: print all subdirs:", subdirs
         for subdir in subdirs:
