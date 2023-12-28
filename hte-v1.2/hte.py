@@ -2839,8 +2839,7 @@ class HTE(object):
                     except:
                         print "WARNING(get_properties()): Failed to read ",prop_file
                         prop_dict[subdir]={}
-                    print "check_point87,the dict prop_dict[subdir] is : ",prop_dict[subdir]
-                        
+                    print "check_point87,the dict prop_dict[subdir] is : ",prop_dict[subdir]                
                 if (not ('hte_version' in prop_dict[subdir])) or (('errors' in  prop_dict[subdir]) and (prop_dict[subdir]['errors']!='False')): # or (float(prop_dict[subdir]['hte_version'].split('-')[0])<1.2):
                     prop_dict[subdir]={}
                 if 'initial_magnetization' in prop_dict[subdir]: #tmp version
@@ -2850,6 +2849,7 @@ class HTE(object):
                     prop_dict[subdir]={}
                 if (prop_dict[subdir]!={}):
                     if (self.get_main_storage_directory()!=None) and (not (sp in self.get_storage_directories())):
+                        print "check_point86,self.get_main_storage_directory()!=None) and (not (sp in self.get_storage_directories())"
                         store_files(os.path.join(sp,self.structureDB[uid].calcdir,subdir),os.path.join(self.get_main_storage_directory(),self.structureDB[uid].calcdir,subdir),files=st_files)
                     break
             if prop_dict[subdir]=={}:
