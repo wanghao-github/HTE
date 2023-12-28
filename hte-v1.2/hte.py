@@ -400,9 +400,9 @@ class HTE(object):
                         exitcode, out = commands.getstatusoutput(rsynccmd)
                         print rsynccmd,exitcode, out
                     transppaths=[]
-		    if include_transport==True:
-                      for cpath in convpaths:
-                        transppaths.extend(glob.glob(os.path.join(cpath,'transp-*/')))
+                    if include_transport==True:
+                        for cpath in convpaths:
+                            transppaths.extend(glob.glob(os.path.join(cpath,'transp-*/')))
                     for tpath in transppaths:
                         kdir=tpath.split('/')[len(tpath.split('/'))-2]
                         targetpath=os.path.join(dbentry.calcdir,cs,kdir)
@@ -2366,6 +2366,7 @@ class HTE(object):
             print 'setup_calculator(): unknown uid %s, nothing done!'%uid
             return return_failed
         calculator_name, settings=self.calc_schemes[calc_scheme]
+        print "check_point65, calculator_name, settings=:", calculator_name, settings
         if (basic==True): #convergence tests etc. do not need to know about details
             if calculator_name.lower()=='vasp':
                 if 'ibrion' in settings:
