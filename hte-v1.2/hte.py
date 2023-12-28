@@ -2733,6 +2733,7 @@ class HTE(object):
                 os.chdir(parentdir)
                 if calcpath!=None:
                     break
+        print "check_point73, here is the calcpath:", calcpath
         return calcpath
 
     def get_effective_calc_scheme(self, uid, calc_scheme):
