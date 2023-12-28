@@ -2851,12 +2851,13 @@ class HTE(object):
             if prop_dict[subdir]=={}:
                 #check if path with converged calculation exists
                 calcpath=self.get_converged_calculation_path(uid, calc_scheme, subdir=subdir)
+                print "check_point81, here prop_dict={}, first check_convergence and get the calcpath", calcpath
                 if calcpath!=None:
                     print "get_properties(): converged calculation in ",calcpath
                     calc_name,settings=self.calc_schemes[calc_scheme]
                     if calc_name.lower()=='vasp':
                         pdict=get_properties_vasp(calcdir=calcpath)
-                        print "pdict is:"
+                        print "check_point82, get_properties_vasp, the pdict is:"
                     elif calc_name.lower()=='fplo':
                         pdict=get_properties_fplo(calcdir=calcpath)
                     else:
