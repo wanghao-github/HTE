@@ -300,7 +300,7 @@ class HTE(object):
             if (main_storage!=None):
                 shutil.copy(self.dbfile,main_storage)
             self.write_logmessages()
-
+        ### write 这个函数, name参数里写的定义为名字 如果不是空的就把这个文件复制到主存储目录 把db的参考能量 性质词典和chull三个属性都清空了 然后atoms属性设置为空 然后字节化
     
     def merge(self, dbfile, **kwargs):
         """Merge present HTE object with HTE object from file dbfile
@@ -366,6 +366,9 @@ class HTE(object):
                     self.add_logmessage("WARNING(merge): check %s in <%s>"%(uid,dbfile))
             self.add_structDB_entry(uid, structureDB_entry=dbentry,silent=True, exclude_similar=False)
         os.chdir(parentdir)
+        
+        
+        ### 比较老的HTE文件和新的HTE文件然后合并包括CS 以及每个UID条目等等
 
     def collect_calculations(self,uid_list='all',calc_schemes='all', include_transport=True, reduce_searchpath='auto'):
         """collect (finished) calculations from other HTE repositories.
@@ -440,6 +443,8 @@ class HTE(object):
             return sps
         return self.searchpaths
     
+    ### 这个函数是从searchpaths属性中获得不重复的路径
+    
     def get_version(self, main_only=False):
         """return present HTE version
         """
@@ -506,7 +511,7 @@ class HTE(object):
                         print uid,cs," reset from ",nsub," to ",self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']
                         resets.append((uid,cs))
         return resets
-
+    ## 如果获得能量为None 就把uid cs添加到reset列表里 然后把那个任务的submitted_jobs[calcdir]['nsubmit']设置成0
     def get_cif_source(self,uid):
         """returns the cif source as tuple (filename,cif_uid,cif_index)
         or a tuple (None,None,None) if no source is accessible.
@@ -633,6 +638,9 @@ class HTE(object):
                 print 'new setups:',settings['setups']
                 return True
             return False
+        
+        
+        #### 这个函数看上去只升级了下赝势 同时也加入了赝势还有
 
     def get_calc_schemes(self,substring=None, calc_names=[]):
         """returns dictionary with calc_schemes defined for present HTE object
@@ -694,6 +702,8 @@ class HTE(object):
             self.add_logmessage("WARNING(get_job_commands): Failed to get job commands for %s"%str(calc_scheme))
         print "check_point52, final job_commands is :", job_commands
         return job_commands
+    
+    ### use_job_array==True的话就是嵌套词典了
 
     def set_job_commands(self, calc_scheme, **kwargs):
         """Sets the job commands for the given calc_scheme (or calculator name).
@@ -742,7 +752,7 @@ class HTE(object):
         if (silent==False):
             print ' %s added to DB' % uid
         return True
-
+####使用 HTEdbentry这个函数添加新的计算条目 主要内容是计算路径uid 原子对象
     def print_source_info(self,uidlist):
         """print source information of structure database entry (e.g. cif source)
         """
@@ -1251,6 +1261,8 @@ class HTE(object):
         else:
             print similar
         return similar
+    
+    ###看着像是使用struct_diff把相似结构的uid存到similar列表里面    dbstructure是要比较的结构
 
     def import_mcif(self,cifnames, primitive_cell=True, exclude_similar=True, exclude_fractional=True, silent=True, check=True, filename_as_uid=False, methods=['ase','cif2struct'],modify_cif=False,dry_run=False, symprec=1e-3):
         """ import_cif(cifnames): import structures from cif files in HTE structure database
@@ -1290,13 +1302,13 @@ class HTE(object):
                     else:
                         dbentry=HTEdbentry(ao,uid,_source_info=source_info)
                     if not ('mcif_structure' in dbentry.cif_info):
-                            dbentry.cif_info['mcif_structure']={}
+                        dbentry.cif_info['mcif_structure']={}
                     dbentry.cif_info['mcif_structure']['mcif_%s'%mcif_short]={'atoms_object':ao,'magmom':pd['initial_magnetic_moments'],'lnoncollinear':True} #TODO: reduce to coll
                     #print "xx",dbentry.cif_info
                     if self.add_structDB_entry(uid, structureDB_entry=dbentry,_source_info=source_info, exclude_similar=exclude_similar, silent=silent)==True:
                         import_statistics['imported'].append((ciffile,uid))
                         if self.get_cif_repository()!=None:
-                                shutil.copy(ciffile,os.path.join(self.get_cif_repository(),uid+'.mcif'))
+                            shutil.copy(ciffile,os.path.join(self.get_cif_repository(),uid+'.mcif'))
             except:
                 import_statistics['failed'].append((ciffile,uid))
         print " Imported %d structures from %d [%d already in db/%d failed/%d excluded]"%(
@@ -1495,31 +1507,39 @@ class HTE(object):
         atfraction_min: alloys with at least at% of elements in dict
         structure_type: structure type of uid matches full('CsCl,cP2,221') or short('CsCl')
                         structure type
+                        
+        ### unknown1:structure_type?
         structure_types: same as structure_type for a list of types
         spacegroup_no: spacegroup number of uid matches given spacegroup number
         calculated    : Is there a non empty stored_calc_results-dictionary? If 
                         yes: select
         """
         # return list with structures uids according to keyword list
- 	magsettings={'submitted':True}
-	if 'magsettings' in kwargs:
-	    magsettings=kwargs['magsettings']
+        magsettings={'submitted':True}
+        if 'magsettings' in kwargs:
+            magsettings=kwargs['magsettings']
         if 'uid_list' in kwargs:
             uidlist_in=kwargs['uid_list']
         else:
             uidlist_in=self.structureDB.keys()
+            ### uid就是每个条目的键值
         uidlist=[]
         if 'update' in kwargs:
             update=kwargs['update']
         else:
             update=False
+            
+            ###默认FALSE 除非给定了
         if 'formation_energy_max' in kwargs:
             if ('calc_scheme' in kwargs) and (kwargs['calc_scheme'] in self.calc_schemes):
                 calc_scheme=kwargs['calc_scheme']
                 E_ref={}
+                
+                ##如果参数里有formation_energy_max 并且给定了存在的calc_scheme
             else:
                 print 'select(): formation_energy_max needs calc_scheme, nothing done!'
                 return None
+                ### 否则直接返回None
         for uid in uidlist_in:
             if ('all' in kwargs) and (kwargs['all']==True):
                 uidlist.append(uid)
@@ -1535,13 +1555,15 @@ class HTE(object):
                 elif (not ('do_not_calc' in kwargs)) and (self.structureDB[uid].do_not_calc==True):
                     add=False
                 elif ('nelements' in kwargs) and (self.structureDB[uid].get_number_of_elements()!=kwargs['nelements']):
+                    
+                    ###通过get_number_of_elements这个函数判断每个条目包含的元素个数
                     add=False
                 elif ('nelements_max' in kwargs) and (self.structureDB[uid].get_number_of_elements()>kwargs['nelements_max']):
                     add=False
                 elif ('nelements_min' in kwargs) and (self.structureDB[uid].get_number_of_elements()<kwargs['nelements_min']):
                     add=False
-		elif ('natoms_max' in kwargs) and (len(self.structureDB[uid].atoms_initial)>kwargs['natoms_max']):
-		    add=False
+                elif ('natoms_max' in kwargs) and (len(self.structureDB[uid].atoms_initial)>kwargs['natoms_max']):
+                    add=False
                 if (add==True) and ('elements' in kwargs):
                     elements=self.structureDB[uid].get_composition()
                     if self.structureDB[uid].get_number_of_elements()>=len(kwargs['elements']):
@@ -1549,6 +1571,7 @@ class HTE(object):
                         for el in kwargs['elements']:
                             if not (el in elements):
                                 add=False
+                            ###这个是通过成分判断加不加到选择列表里
                     else:
                         #require that all elements in the compound are in the list
                         for el in elements:
@@ -1601,6 +1624,8 @@ class HTE(object):
                         short_type=structure_type.split(',')[0]
                     if (not(structure_type in kwargs['structure_types'])) and (not(short_type in kwargs['structure_types'])):
                         add=False
+                        
+                        ###上面我们可以看出对列表 和字符串两种数据的不同处理 方式 !=和not in
                 #
                 if (add==True) and ('spacegroup_no' in kwargs):
                     if (self.get_spacegroup_number(uid)!=kwargs['spacegroup_no']):
@@ -1695,6 +1720,9 @@ class HTE(object):
                 self.mark_do_not_calc(uid,comment=uid_list[uid])
                 print 'do_not_calc flag set for ',uid
                 nexcluded=nexcluded+1
+                
+                
+                ### 询问是不是把这个uid添加到排除列表里面 也就是直接添加到了 do_not_calc条目属性里面 也会在comment里面加上uid信息
             else:
                 print 'nothing done for ',uid
         print '** do_not_calc flag set for ',nexcluded,' data base entries'
@@ -2271,7 +2299,9 @@ class HTE(object):
         for sym in sorted(comp.keys()):
             formula=formula+sym+str(comp[sym])
         return formula
-
+        ###获取化学表达式
+        
+        
     def struc_diff_wyckoff(self, structA, structB):
         #experimental!
         #wyckoffA=zip(*structA.info['wyckoff_info'])
@@ -2314,6 +2344,9 @@ class HTE(object):
         if ('spacegroup' in structA.info) and ('spacegroup' in structB.info):
             if structA.info['spacegroup'].no!=structB.info['spacegroup'].no:
                 return True
+            
+            ### 很重要的逻辑 就是先判断有没有 再判断一不一样
+            
         if self.get_composition(structA)!=self.get_composition(structB):
             return True
         #'''
@@ -2342,6 +2375,9 @@ class HTE(object):
                     for k in range(3):
                         if np.abs(posA[i][k]-posB[j][k])>Tol:
                             found=False
+                            
+                    ####判断原子位置是否一致
+                    
                 if found==True:
                     #print posA[i],posB[j],' similar'
                     break
@@ -2349,6 +2385,8 @@ class HTE(object):
                 #print posA[i],' not found'
                 return True
         return False
+    
+    
     
     ############################################
     # routines to run & evaluate calculations  #
@@ -4093,8 +4131,8 @@ class HTE(object):
         """get the formation enthalpy per atom for compound with respect to decomposition
         into the elements for specified calc_scheme. 
         """
-	used_calc_scheme=None
-	E_form=None
+        used_calc_scheme=None
+        E_form=None
         if isinstance(calc_scheme,tuple):
             css=calc_scheme
         else:
@@ -4112,7 +4150,7 @@ class HTE(object):
             if element in reference_enthalpy:
                 E_ref=reference_enthalpy[element]
             else:
-		E_ref=None
+                E_ref=None
                 for cs in css:
                     Er=self.get_reference_enthalpy_per_atom(element,calc_scheme=cs, sloppy_mode=sloppy_mode, update=update)
                     if (E_ref==None) or ((Er!=None) and (Er<E_ref)):
@@ -4121,13 +4159,13 @@ class HTE(object):
                 E_form=E_form-E_ref*self.structureDB[uid].get_atfraction(element)
             else:
                 E_form=None
-	if returns!=[]:
+        if returns!=[]:
             retval=[]
             for x in returns:
                 if x=='calc_scheme':
                     retval.append(used_calc_scheme)
                 return E_form,retval
-	else: 
+        else: 
             return E_form
     
     def get_elastic(self, uid, calc_scheme, update=False, sloppy_mode=True, nsub_max=2, tau=["-0.03","-0.02","-0.01","0","0.01","0.02","0.03"],special='C11'):
@@ -4135,8 +4173,8 @@ class HTE(object):
         """
         B=None
         ao=self.get_atoms_object(uid, calc_scheme=calc_scheme)
-	if ao==None:
-	 return None
+        if ao==None:
+            return None
         etab=[]
         ax=[]
         ex=[]
@@ -4165,17 +4203,17 @@ class HTE(object):
             poly3d2 = np.polyder(poly3, 2)
             GPa=(units.kJ*10**-3)/(10**10)**3*10**9
             B=poly3d2(0.)/(ao.get_volume())/GPa
-	if B!=None:
-	    if special=="C12":
-		C11=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C11')
-		C22=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C22')
-		if (C11!=None) and (C22!=None):
-		  B=0.5*(B-C11-C22)
-	    elif special=="C13":
-		C11=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C11')
-		C33=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C33')
-		if (C11!=None) and (C33!=None):
-                  B=0.5*(B-C11-C33)
+        if B!=None:
+            if special=="C12":
+                C11=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C11')
+                C22=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C22')
+                if (C11!=None) and (C22!=None):
+                    B=0.5*(B-C11-C22)
+            elif special=="C13":
+                C11=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C11')
+                C33=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C33')
+                if (C11!=None) and (C33!=None):
+                    B=0.5*(B-C11-C33)
             elif special=="C23":
                 C22=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C22')
                 C33=self.get_elastic(uid, calc_scheme, update=update, sloppy_mode=sloppy_mode, nsub_max=nsub_max, special='C33')
@@ -4272,13 +4310,13 @@ class HTE(object):
     def get_reference_energy_per_atom(self, element, sloppy_mode=False, calc_scheme=None, update=False, nsub_max=2):
         energy=None
         found=False
-	if (element in self.tmpdata['reference_energies']):
+        if (element in self.tmpdata['reference_energies']):
             if calc_scheme in self.tmpdata['reference_energies'][element]:
                 energy=self.tmpdata['reference_energies'][element][calc_scheme]
                 if (update==False):
                     return energy
-	else:
-	 self.tmpdata['reference_energies'][element]={}
+        else:
+            self.tmpdata['reference_energies'][element]={}
         for uid in self.structureDB:
             comp=self.structureDB[uid].get_composition(reduce=False)
             if (len(comp)==1) and (element in comp):
@@ -4295,7 +4333,7 @@ class HTE(object):
                 self.add_structDB_entry(uid, atoms_obj=crystr, _source_info=source_info)
                 calc=self.setup_calculator(uid,calc_scheme)
                 self.structureDB[uid].get_energy_per_atom(calc_scheme,calc,update=update, job_commands=self.get_job_commands(calc_scheme))
-	self.tmpdata['reference_energies'][element][calc_scheme]=energy
+        self.tmpdata['reference_energies'][element][calc_scheme]=energy
         return energy
 
     def get_reference_enthalpy_per_atom(self, element, sloppy_mode=True, calc_scheme=None, update=False,return_uid=False):
@@ -4311,7 +4349,7 @@ class HTE(object):
                     if return_uid==True:
                         return enthalpy,uid_ref
                     return enthalpy
-	else:
+        else:
             self.tmpdata['reference_enthalpies'][element]={}
         for uid in self.structureDB:
             comp=self.structureDB[uid].get_composition(reduce=False)
@@ -4335,7 +4373,7 @@ class HTE(object):
                 if (self.add_structDB_entry(uid, atoms_obj=crystr, _source_info=source_info)==True) and (update==True):
                     calc=self.setup_calculator(uid,calc_scheme)
                     self.structureDB[uid].get_energy_per_atom(calc_scheme,calc,update=update, job_commands=self.get_job_commands(calc_scheme))
-	self.tmpdata['reference_enthalpies'][element][calc_scheme]=enthalpy,uid_ref
+        self.tmpdata['reference_enthalpies'][element][calc_scheme]=enthalpy,uid_ref
         if return_uid==True:
             return enthalpy,uid_ref
         return enthalpy
