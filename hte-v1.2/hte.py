@@ -2456,8 +2456,8 @@ class HTE(object):
                 tmpatoms=self.get_atoms_object(uid,calc_scheme_ini, magsettings={}) #exclude AF structures here
                 print "check_point98, tmpatoms is:", tmpatoms
                 if (tmpatoms!=None):
-                    break
                     print "check_point99"
+                    break       
                 elif (calcdir in self.structureDB[uid].submitted_jobs) and ((self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']>=self.nsub_max) or (self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']<0)):
                     #print "Failed to get init_structure for ",uid,calc_scheme_ini
                     print "check_point100"
