@@ -1215,9 +1215,11 @@ class HTE(object):
                         print "check_point54, status is: ", status
                     line=line+str(status['qstat'])+'('+str(status['nsubmit'])
                     if status['converged']:
+                        print "check_point104, converged",status['converged']
                         line=line+', converged111) '
                     else:
                         line=line+', not converged1) '
+                        print "check_point105, not converged",status['converged']
                 elif argument=='cputime':
                     if status==None:
                         status=self.structureDB[uid].get_jobstatus( kwargs['calc_scheme'], calc)
