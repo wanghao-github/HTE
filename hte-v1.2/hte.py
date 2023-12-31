@@ -896,7 +896,7 @@ class HTE(object):
             else:
                 subdirectories.append((uid,{}))
 
-        print subdirectories
+        print "check_point106 , check subdirectories in output", subdirectories
         for uid,subdir in subdirectories:
             status=None
             if debug==True:
