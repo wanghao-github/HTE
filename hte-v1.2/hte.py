@@ -2454,16 +2454,17 @@ class HTE(object):
                     calcdir=os.path.join(self.structureDB[uid].calcdir,calc_scheme_ini,"")
                     print "check_point97"
                 tmpatoms=self.get_atoms_object(uid,calc_scheme_ini, magsettings={}) #exclude AF structures here
+                print "check_point98, tmpatoms is:", tmpatoms
                 if (tmpatoms!=None):
                     break
-                    print "check_point98"
+                    print "check_point99"
                 elif (calcdir in self.structureDB[uid].submitted_jobs) and ((self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']>=self.nsub_max) or (self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']<0)):
                     #print "Failed to get init_structure for ",uid,calc_scheme_ini
-                    print "check_point99"
+                    print "check_point100"
                     continue
                 else:
                     self.get_energy(uid,calc_scheme_ini,update=update,nsub_max=self.nsub_max, sloppy_mode=False)
-                    print "check_point100"
+                    print "check_point101"
                     return return_failed
             if (tmpatoms!=None):
                 self.structureDB[uid].atoms=tmpatoms
