@@ -2440,27 +2440,35 @@ class HTE(object):
         if ('init_structure' in pass2calc) and (update_atoms==True):
             if (isinstance(pass2calc['init_structure'],list)==True):
                 calc_schemes_ini=pass2calc['init_structure']
+                print "check_point94"
             else:
                 calc_schemes_ini=[pass2calc['init_structure']]
+                print "check_point95"
             for calc_scheme_ini in calc_schemes_ini:
                 #print "setup_calc:",uid,calc_scheme_ini
                 if not calc_scheme_ini in self.calc_schemes:
                     continue
                 calcdir=os.path.join(self.structureDB[uid].calcdir,calc_scheme_ini)
+                print "check_point96"
                 if not (calcdir in self.structureDB[uid].submitted_jobs):
                     calcdir=os.path.join(self.structureDB[uid].calcdir,calc_scheme_ini,"")
+                    print "check_point97"
                 tmpatoms=self.get_atoms_object(uid,calc_scheme_ini, magsettings={}) #exclude AF structures here
                 if (tmpatoms!=None):
                     break
+                    print "check_point98"
                 elif (calcdir in self.structureDB[uid].submitted_jobs) and ((self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']>=self.nsub_max) or (self.structureDB[uid].submitted_jobs[calcdir]['nsubmit']<0)):
                     #print "Failed to get init_structure for ",uid,calc_scheme_ini
+                    print "check_point99"
                     continue
                 else:
                     self.get_energy(uid,calc_scheme_ini,update=update,nsub_max=self.nsub_max, sloppy_mode=False)
+                    print "check_point100"
                     return return_failed
             if (tmpatoms!=None):
                 self.structureDB[uid].atoms=tmpatoms
                 del pass2calc['init_structure']
+                print "check_point101"
             else:
                 return return_failed
             if 'symprec' in pass2calc:
