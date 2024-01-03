@@ -3554,9 +3554,9 @@ class HTE(object):
         print "check_point26, before get_atom_object"
         ao=self.get_atoms_object(uid, calc_scheme=calc_scheme, magsettings={})
         print "check_point27,after ao return"
-        # if (ao==None):
-        #     print "check_point28,ao is None, will return empty dictionary"
-        #     return magconfigs
+        if (ao==None):
+            print "check_point28,ao is None, will return empty dictionary"
+            return magconfigs
         # determine site magnetic moments
         if isinstance(AF_atoms,dict):
             # determine AFatoms by site magnetic moments

@@ -429,6 +429,7 @@ def get_properties_vasp(calcdir='./',outcar='OUTCAR', contcar='CONTCAR', incar='
                     else:
                         scaled_positions.append(scpos)
                 prop_dict['scaled_positions']=scaled_positions
+                print "check_point107, print scaled_positions",  scaled_positions               
             infile.close()
         except:
             errors=True
