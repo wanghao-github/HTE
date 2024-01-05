@@ -1275,6 +1275,7 @@ class HTE(object):
         # import structures from cif file(s)
         print '* Importing structure data from ',cifnames
         cif_list=glob.glob(cifnames)
+        print "check_point110, print cif_list",cif_list
         import_statistics={'imported':[],'already_in':[],'excluded':[],'failed':[]}
         nentry_total=0
         index=0 #for the moment: only single mcifs
