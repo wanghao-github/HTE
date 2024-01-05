@@ -1281,6 +1281,7 @@ class HTE(object):
         for ciffile in cif_list:
             nentry_total=nentry_total+1
             try:
+                print "check_point109, entering read_mcif"
                 uid,pd,ciftags=MSG().read_full_mcif(ciffile)
                 mcif_short=ciffile.split('/')[-1].split('.mcif')[0]
                 print "check_point108, read_mcif", mcif_short
