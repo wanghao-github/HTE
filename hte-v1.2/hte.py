@@ -1283,7 +1283,7 @@ class HTE(object):
             try:
                 uid,pd,ciftags=MSG().read_full_mcif(ciffile)
                 mcif_short=ciffile.split('/')[-1].split('.mcif')[0]
-                print "*****"
+                print "check_point108, read_mcif", mcif_short
                 if (filename_as_uid==True):
                     uid=mcif_short
                 ao=Atoms(symbols=pd['chemical_symbols'],scaled_positions=pd['scaled_positions'],cell=pd['cell'],pbc=True)
