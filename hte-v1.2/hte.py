@@ -2671,6 +2671,7 @@ class HTE(object):
             calc=None
             print 'setup_calculator:', calculator_name,'not yet implemented in HTE, nothing done!'
         if return_settings==True:
+            print "check_point136,returned calc,pass2calc :",calc,pass2calc
             return calc,pass2calc
         return calc
     
