@@ -5601,6 +5601,7 @@ class HTE(object):
             os.mkdir(sp)
         os.chdir(sp)
         calc_name,settings=self.calc_schemes[calc_scheme]
+        print "check_point125,calc_name,settings are:",calc_name,settings
         for subdir in subdirs:
             calc,settings=self.setup_calculator(uid,calc_scheme,afm=subdirs[subdir],update=True, options=options,return_settings=True)
             if (calc!=None) and (not (os.path.isfile(os.path.join(uid,subdir,"POSCAR")))) and (calc_name.lower()=='vasp'):
