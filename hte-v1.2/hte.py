@@ -2980,8 +2980,10 @@ class HTE(object):
         print "check_point83, prop_dict[subdir] = self.tmpdata and they are:",self.tmpdata['prop_dict'][uid][subdir]
         pd_ref={}
         print "check_point9: print all subdirs:", subdirs
+        
         for subdir in subdirs:
             if (prop_dict[subdir]!={}) and (not ('updating' in prop_dict[subdir])):
+                print "check_point137: (prop_dict[subdir]==!{}) and (update==True):",
                 #tmp solution if DB file was not stored
                 if not os.path.join(uid,subdir) in self.structureDB[uid].submitted_jobs:
                     self.structureDB[uid].submitted_jobs[os.path.join(uid,subdir)]={'jobid':'unknown','nsubmit':0, 'settings':subdirs[subdir]}
