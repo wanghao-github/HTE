@@ -5590,6 +5590,7 @@ class HTE(object):
                 subdir=os.path.join(calc_scheme,magconf)
                 subdirs[subdir]=magconfigs[magconf]
         sp=self.get_scratch_directory()
+        print "check_point124,sp=:",sp
         if sp==None:
             print "check_point122,sp==None:"
             return False
