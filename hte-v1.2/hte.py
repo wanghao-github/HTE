@@ -1096,7 +1096,9 @@ class HTE(object):
                     val=self.get_magnetic_moment_per_atom(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
                     line=line+value2string(val,latex=latex, format_string=format_strings[argument])
                 elif argument=='magnetic_moments':
+                    print "check_point150, entering output magnetic_moments"
                     vallist=self.get_magnetic_moments(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
+                    print "check_point151,vallist is: ",vallist
                     for (valel,valmom) in vallist:
                         line=line+valel+" ("
                         if (isinstance(valmom,np.ndarray)) or (isinstance(valmom,list)):
