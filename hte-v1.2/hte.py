@@ -3323,7 +3323,8 @@ class HTE(object):
                     #if (report_magnetic_structures==True): 
                     #    self.add_logmessage("* %s not added for %s (already in, E=%s)."%(name,uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(calc_scheme,name):magconfigs[name]}))))
         
-        ao=self.get_atoms_object(uid,magsettings={})
+        # ao=self.get_atoms_object(uid,magsettings={})
+        ao=self.get_atoms_object(uid,calc_scheme=calc_scheme,magsettings={})
         if ('max_subgroups' in settings):
             #symprec=1e-2
             print "check_point 24, begin_max_groups."
