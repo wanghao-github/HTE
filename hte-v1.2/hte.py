@@ -2980,7 +2980,7 @@ class HTE(object):
         print "check_point83, prop_dict[subdir] = self.tmpdata and they are:",self.tmpdata['prop_dict'][uid][subdir]
         pd_ref={}
         print "check_point9: print all subdirs:", subdirs
-        
+        print "check_point140: print magsettings:", magsettings
         for subdir in subdirs:
             if (prop_dict[subdir]!={}) and (not ('updating' in prop_dict[subdir])):
                 print "check_point137: (prop_dict[subdir]==!{}) and (update==True), prop_dict[subdir]:",prop_dict[subdir]
