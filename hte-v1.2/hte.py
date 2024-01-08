@@ -2498,6 +2498,7 @@ class HTE(object):
                     magmom_ini.append(0)
             if pass2calc['ispin']==2:
                 pass2calc['magmom']=magmom_ini
+            print "check_point132, magmom_ini is :",magmom_ini
         if ('scale_volume_mag' in pass2calc):
             if pass2calc['ispin']==2:
                 pass2calc['scale_volume']=pass2calc['scale_volume_mag']
