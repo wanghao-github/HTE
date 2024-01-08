@@ -2487,6 +2487,7 @@ class HTE(object):
                     print "WARNING(setup_calculator): could not determine symmetry for uid ",uid," calc scheme=",calc_scheme
                     return None
         if ('ispin' in pass2calc) and (pass2calc['ispin']=='auto'):
+            print "check_point131,('ispin' in pass2calc) and (pass2calc['ispin']=='auto')"
             pass2calc['ispin']=1
             magmom_ini=[]
             for el in self.structureDB[uid].atoms.get_chemical_symbols():
