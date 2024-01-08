@@ -2994,6 +2994,7 @@ class HTE(object):
                 print "check_point110 uid,calc_scheme,  ", uid, calc_scheme
                 try:
                     self.run_calculation(uid,calc_scheme, sub_directories={subdir:subdirs[subdir]}, nsub_max=nsub_max)
+                    print "check_point113 after run_calculation"
                 except:
                     self.add_logmessage("WARNING(get_properties): Failed to run uid %s (%s) in %s!"%(uid,calc_scheme,subdir))
                 self.tmpdata['prop_dict'][uid][subdir]={'updating':True}
