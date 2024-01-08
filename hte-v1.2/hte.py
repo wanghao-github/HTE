@@ -3323,6 +3323,7 @@ class HTE(object):
                     #if (report_magnetic_structures==True): 
                     #    self.add_logmessage("* %s not added for %s (already in, E=%s)."%(name,uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(calc_scheme,name):magconfigs[name]}))))
         if ('get_atoms' in settings) and (settings['get_atoms']==False):
+            print "check_point147, 'get_atoms' in settings",settings
             return magconfigs
         magconfigs_submitted={}
         if (debug==True) or (report_magnetic_structures==True):
