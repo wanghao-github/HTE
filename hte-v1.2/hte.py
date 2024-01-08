@@ -3322,9 +3322,11 @@ class HTE(object):
                         self.add_logmessage("WARNING(setup_magnetic_structures): No settings found for %s, check magnetic structure!"%jobdir)
                     #if (report_magnetic_structures==True): 
                     #    self.add_logmessage("* %s not added for %s (already in, E=%s)."%(name,uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(calc_scheme,name):magconfigs[name]}))))
-        if ('get_atoms' in settings) and (settings['get_atoms']==False):
-            print "check_point147, 'get_atoms' in settings",settings
-            return magconfigs
+        # if ('get_atoms' in settings) and (settings['get_atoms']==False):
+        #     print "check_point147, 'get_atoms' in settings",settings
+        #     return magconfigs
+        
+        ### 先把这个地方注释了再说
         magconfigs_submitted={}
         if (debug==True) or (report_magnetic_structures==True):
             self.add_logmessage("----- setup_magnetic_structures(): %s (%s/%s/%s) -----"%(comp_r,uid,calc_scheme,str(settings)))
@@ -3989,6 +3991,11 @@ class HTE(object):
                                 self.add_logmessage("* %s (%s,%s) added for %s."%(name,maxsub,str(maxsubs[maxsub].name),uid))
                         elif (debug==True):
                             self.add_logmessage("* %s (%s,%s) not added for %s (already in, E=%s)."%(name,maxsub,str(maxsubs[maxsub].name),uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(str(calc_scheme),name):afmconfigs[name]}))))
+        if ('get_atoms' in settings) and (settings['get_atoms']==False):
+            print "check_point147, 'get_atoms' in settings",settings
+            return magconfigs
+        #先把这个挪到这试试
+        
         if ('ispin' in settings):
             if isinstance(settings['ispin'],list):
                 ispins=settings['ispin']

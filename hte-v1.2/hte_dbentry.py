@@ -480,6 +480,7 @@ class HTEdbentry(object):
             outcar=os.path.join(calcdir,'OUTCAR')
             if os.path.isfile(outcar):
                 os.chdir(calcdir)
+                print "check_point150, here is calcdir", calcdir
                 try:
                     converged=calc.read_convergence()
                     print "check_point79, here is converged", converged
