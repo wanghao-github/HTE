@@ -2991,9 +2991,11 @@ class HTE(object):
                         self.add_logmessage("WARNING(get_properties): Submission history lost for %s %s, pd=%s"%(uid,subdir,str(prop_dict[subdir])))
                 if (isinstance(magsettings,dict)) and ('non_collinear' in magsettings) and (magsettings['non_collinear']==False):
                     if ('magnetic_moments' in prop_dict[subdir]) and (isinstance(prop_dict[subdir]['magnetic_moments'][0],list)):
+                        print "check_point140:('magnetic_moments' in prop_dict[subdir]), collinear, jump out of the cycle"
                         continue
                 elif (isinstance(magsettings,dict)) and ('non_collinear' in magsettings) and (magsettings['non_collinear']==True):
                     if (not ('magnetic_moments' in prop_dict[subdir])) or (isinstance(prop_dict[subdir]['magnetic_moments'][0],float)):
+                        print "check_point141:('magnetic_moments' in prop_dict[subdir]), noncollinear, jump out of the cycle"
                         continue
                 if (reference_prop in prop_dict[subdir]) and ('chemical_symbols' in prop_dict[subdir]):
                     if (pd_ref=={}) or (prop_dict[subdir][reference_prop]/float(len(prop_dict[subdir]['chemical_symbols']))<pd_ref[reference_prop]/float(len(pd_ref['chemical_symbols']))):
