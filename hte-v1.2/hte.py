@@ -5564,13 +5564,13 @@ class HTE(object):
         if not ('qstat' in self.tmpdata):
          exitcode, out = commands.getstatusoutput("squeue|wc -l")
          self.tmpdata['qstat']=(int(out),0)
-         print "queue status:",self.tmpdata['qstat']
+         print "check_point118,queue status:",self.tmpdata['qstat']
         nqueue,nsub=self.tmpdata['qstat']
         #print self.tmpdata['qstat'],nsub
         if nsub>50:
          exitcode, out = commands.getstatusoutput("squeue|wc -l")
          self.tmpdata['qstat']=(int(out),0)
-         print "queue status:",self.tmpdata['qstat']
+         print "check_point119,queue status:",self.tmpdata['qstat']
          nqueue,nsub=self.tmpdata['qstat']
         self.tmpdata['qstat']=(nqueue,nsub+1)
         if ((nqueue+nsub)>self.max_jobs_in_queue['total']):
