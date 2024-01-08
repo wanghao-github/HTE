@@ -2545,6 +2545,7 @@ class HTE(object):
                 if self.check_vasp_pp_files(element, pass2calc)==False:
                     calcdir=os.path.join(self.structureDB[uid].calcdir,calc_scheme)
                     self.structureDB[uid].submitted_jobs[calcdir]={'nsubmit':-1,'jobid':-1}
+                    print "check_point135, check_vasp_pp_files False,self.structureDB[uid].submitted_jobs[calcdir] is ",self.structureDB[uid].submitted_jobs[calcdir]
                     self.add_logmessage("WARNING(setup_calculator): Could not find PP files for %s and calc_scheme %s, check setups!"%(element,calc_scheme))
                     return return_failed
             # preprocess some arguments before sending them to ase-vasp interface:
