@@ -5607,6 +5607,7 @@ class HTE(object):
             calc,settings=self.setup_calculator(uid,calc_scheme,afm=subdirs[subdir],update=True, options=options,return_settings=True)
             print "check_point127, calc,settings in subdir are:", calc,settings
             if (calc!=None) and (not (os.path.isfile(os.path.join(uid,subdir,"POSCAR")))) and (calc_name.lower()=='vasp'):
+                print "check_point128,calc!=None) and (not (os.path.isfile(os.path.join(uid,subdir,"POSCAR")))) and (calc_name.lower()=='vasp'):"
                 ao=self.structureDB[uid].atoms
                 submit=True
                 if ('natoms_max' in self.max_jobs_in_queue):
