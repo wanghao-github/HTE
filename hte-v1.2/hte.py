@@ -2550,6 +2550,7 @@ class HTE(object):
                     return return_failed
             # preprocess some arguments before sending them to ase-vasp interface:
             if ('ispin' in pass2calc) and (pass2calc['ispin']==2):
+                print "check_point137,('ispin' in pass2calc) and (pass2calc['ispin']==2):"
                 if not ('lorbit' in pass2calc):
                     pass2calc['lorbit']=11 #seems to be only way to get local atomic moments
             if ('LSDA_U' in pass2calc):
