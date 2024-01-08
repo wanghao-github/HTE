@@ -3322,6 +3322,86 @@ class HTE(object):
                         self.add_logmessage("WARNING(setup_magnetic_structures): No settings found for %s, check magnetic structure!"%jobdir)
                     #if (report_magnetic_structures==True): 
                     #    self.add_logmessage("* %s not added for %s (already in, E=%s)."%(name,uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(calc_scheme,name):magconfigs[name]}))))
+        
+        ao=self.get_atoms_object(uid,magsettings={})
+        if ('max_subgroups' in settings):
+            #symprec=1e-2
+            print "check_point 24, begin_max_groups."
+            if 'symprec' in settings:
+                symprec=settings['symprec']
+                symspg=spglib.get_symmetry_dataset(ao, symprec=settings['symprec'])
+                ao=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+                if silent==False:
+                    print 'std_lattice',ao.get_cell(),symspg['number'],symspg['international']
+                    for el,pos in zip(ao.get_chemical_symbols(),ao.get_scaled_positions()):
+                        print el,pos
+            symspg=spglib.get_symmetry_dataset(ao)
+            print "check_point25, symspg is: ",symspg
+            lattice, scaled_positions, numbers=spglib.find_primitive(ao, symprec=symprec)
+            if (len(scaled_positions)!=len(ao)):
+                print "not primitive",len(scaled_positions),len(ao)
+                #bla #TODO
+            aop=Atoms(numbers=numbers,cell=lattice,scaled_positions=scaled_positions,pbc=True)
+            ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+            sym_parent=spglib.get_symmetry_dataset(ao,symprec=1e-2) #symprec)
+            ao_ini=self.get_atoms_object(uid)
+            symspg_parent_ini=spglib.get_symmetry_dataset(ao_ini)
+            for qvec in settings['max_subgroups']:
+                qstr="q"
+                for i in range(len(qvec)):
+                    if fabs(qvec[i])<0.01:
+                        qstr=qstr+"_0"
+                    else:
+                        qstr=qstr+"_%5.3f"%qvec[i]
+                self.add_logmessage("setup_magnetic_structures: uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
+                if qstr=="q_0_0_0":
+                    aoq=setup_supercell(ao,q=qvec)
+                else:
+                    aoq=setup_supercell(ao_std,q=qvec)
+                symspg=spglib.get_symmetry_dataset(aoq,symprec=1e-2)
+                print "**********new symspg with q vec*********", symspg
+                msg=MSG(symelem=zip(symspg['rotations'],symspg['translations']),eps=symprec)
+                #msg.get_maximal_subgroups(symdir='msg-par',sym_parent=sym_parent,q=qvec,symdirhte="XXX",silent=False)
+                #bla
+                print "msg is _________" , msg
+                greymsg=msg.grey_msg()
+                #print "XXX",len(msg.elements),len(greymsg.elements)
+                #print symspg
+                maxsubs=greymsg.get_maximal_subgroups(symdir='msg',sym_parent=sym_parent,q=qvec,silent=silent,symdirhte=symdirhte)
+                print "*******maxsubs is *********", maxsubs
+                if maxsubs==[]:
+                    self.add_logmessage("WARNING(setup_magnetic_structures): failed to determine maximal subgroups for uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
+                exclude_ferromagnetic=True
+                if 'exclude_ferromagnetic' in settings:
+                    exclude_ferromagnetic=settings['exclude_ferromagnetic']
+                reduce_collinear=True
+                if 'reduce_collinear' in settings:
+                    reduce_collinear=settings['reduce_collinear']
+                for maxsub in maxsubs:
+                    if (debug==True):
+                        self.add_logmessage("-- %s,%s -- "%(maxsub,str(maxsubs[maxsub].name)))
+                    try:
+                        afmconfigs=maxsubs[maxsub].get_magnetic_configurations(aoq,name=qstr,exclude_ferromagnetic=exclude_ferromagnetic,reduce_collinear=reduce_collinear, AFatoms=AF_atoms)
+                    except:
+                        self.add_logmessage("WARNING(setup_magnetic_structures): failed to set up spin configurations for %s(%s)"%(uid,maxsub))
+                        continue
+                    if len(afmconfigs)>max_configs:
+                        self.add_logmessage("WARNING(setup_magnetic_structures): too many spin configurations (%d) for %s(%s), increase max_configs=%d"%(len(afmconfigs),uid,maxsub,max_configs))
+                        continue
+                    for name in afmconfigs:
+                        if not name in magconfigs:
+                            magconfigs[name]=afmconfigs[name]
+                            if (debug==True):
+                                self.add_logmessage("* %s (%s,%s) added for %s."%(name,maxsub,str(maxsubs[maxsub].name),uid))
+                        elif (debug==True):
+                            self.add_logmessage("* %s (%s,%s) not added for %s (already in, E=%s)."%(name,maxsub,str(maxsubs[maxsub].name),uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(str(calc_scheme),name):afmconfigs[name]}))))
+ 
+        
+        
+        
+        
+        
+        
         if ('get_atoms' in settings) and (settings['get_atoms']==False):
             print "check_point147, 'get_atoms' in settings",settings
             print "check_point149, magconfigs", magconfigs
@@ -3921,78 +4001,78 @@ class HTE(object):
                 logmes=logmes+")"
                 self.add_logmessage(logmes)
                 #self.add_logmessage("--NTOT %d for %s (after %s)"%(len(magconfigs),uid,qstr))
-        if ('max_subgroups' in settings):
-            #symprec=1e-2
-            print "check_point 24, begin_max_groups."
-            if 'symprec' in settings:
-                symprec=settings['symprec']
-                symspg=spglib.get_symmetry_dataset(ao, symprec=settings['symprec'])
-                ao=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
-                if silent==False:
-                    print 'std_lattice',ao.get_cell(),symspg['number'],symspg['international']
-                    for el,pos in zip(ao.get_chemical_symbols(),ao.get_scaled_positions()):
-                        print el,pos
-            symspg=spglib.get_symmetry_dataset(ao)
-            print "check_point25, symspg is: ",symspg
-            lattice, scaled_positions, numbers=spglib.find_primitive(ao, symprec=symprec)
-            if (len(scaled_positions)!=len(ao)):
-                print "not primitive",len(scaled_positions),len(ao)
-                #bla #TODO
-            aop=Atoms(numbers=numbers,cell=lattice,scaled_positions=scaled_positions,pbc=True)
-            ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
-            sym_parent=spglib.get_symmetry_dataset(ao,symprec=1e-2) #symprec)
-            ao_ini=self.get_atoms_object(uid)
-            symspg_parent_ini=spglib.get_symmetry_dataset(ao_ini)
-            for qvec in settings['max_subgroups']:
-                qstr="q"
-                for i in range(len(qvec)):
-                    if fabs(qvec[i])<0.01:
-                        qstr=qstr+"_0"
-                    else:
-                        qstr=qstr+"_%5.3f"%qvec[i]
-                self.add_logmessage("setup_magnetic_structures: uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
-                if qstr=="q_0_0_0":
-                    aoq=setup_supercell(ao,q=qvec)
-                else:
-                    aoq=setup_supercell(ao_std,q=qvec)
-                symspg=spglib.get_symmetry_dataset(aoq,symprec=1e-2)
-                print "**********new symspg with q vec*********", symspg
-                msg=MSG(symelem=zip(symspg['rotations'],symspg['translations']),eps=symprec)
-                #msg.get_maximal_subgroups(symdir='msg-par',sym_parent=sym_parent,q=qvec,symdirhte="XXX",silent=False)
-                #bla
-                print "msg is _________" , msg
-                greymsg=msg.grey_msg()
-                #print "XXX",len(msg.elements),len(greymsg.elements)
-                #print symspg
-                maxsubs=greymsg.get_maximal_subgroups(symdir='msg',sym_parent=sym_parent,q=qvec,silent=silent,symdirhte=symdirhte)
-                print "*******maxsubs is *********", maxsubs
-                if maxsubs==[]:
-                    self.add_logmessage("WARNING(setup_magnetic_structures): failed to determine maximal subgroups for uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
-                exclude_ferromagnetic=True
-                if 'exclude_ferromagnetic' in settings:
-                    exclude_ferromagnetic=settings['exclude_ferromagnetic']
-                reduce_collinear=True
-                if 'reduce_collinear' in settings:
-                    reduce_collinear=settings['reduce_collinear']
-                for maxsub in maxsubs:
-                    if (debug==True):
-                        self.add_logmessage("-- %s,%s -- "%(maxsub,str(maxsubs[maxsub].name)))
-                    try:
-                        afmconfigs=maxsubs[maxsub].get_magnetic_configurations(aoq,name=qstr,exclude_ferromagnetic=exclude_ferromagnetic,reduce_collinear=reduce_collinear, AFatoms=AF_atoms)
-                    except:
-                        self.add_logmessage("WARNING(setup_magnetic_structures): failed to set up spin configurations for %s(%s)"%(uid,maxsub))
-                        continue
-                    if len(afmconfigs)>max_configs:
-                        self.add_logmessage("WARNING(setup_magnetic_structures): too many spin configurations (%d) for %s(%s), increase max_configs=%d"%(len(afmconfigs),uid,maxsub,max_configs))
-                        continue
-                    for name in afmconfigs:
-                        if not name in magconfigs:
-                            magconfigs[name]=afmconfigs[name]
-                            if (debug==True):
-                                self.add_logmessage("* %s (%s,%s) added for %s."%(name,maxsub,str(maxsubs[maxsub].name),uid))
-                        elif (debug==True):
-                            self.add_logmessage("* %s (%s,%s) not added for %s (already in, E=%s)."%(name,maxsub,str(maxsubs[maxsub].name),uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(str(calc_scheme),name):afmconfigs[name]}))))
-        # if ('get_atoms' in settings) and (settings['get_atoms']==False):
+        # if ('max_subgroups' in settings):
+        #     #symprec=1e-2
+        #     print "check_point 24, begin_max_groups."
+        #     if 'symprec' in settings:
+        #         symprec=settings['symprec']
+        #         symspg=spglib.get_symmetry_dataset(ao, symprec=settings['symprec'])
+        #         ao=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+        #         if silent==False:
+        #             print 'std_lattice',ao.get_cell(),symspg['number'],symspg['international']
+        #             for el,pos in zip(ao.get_chemical_symbols(),ao.get_scaled_positions()):
+        #                 print el,pos
+        #     symspg=spglib.get_symmetry_dataset(ao)
+        #     print "check_point25, symspg is: ",symspg
+        #     lattice, scaled_positions, numbers=spglib.find_primitive(ao, symprec=symprec)
+        #     if (len(scaled_positions)!=len(ao)):
+        #         print "not primitive",len(scaled_positions),len(ao)
+        #         #bla #TODO
+        #     aop=Atoms(numbers=numbers,cell=lattice,scaled_positions=scaled_positions,pbc=True)
+        #     ao_std=Atoms(numbers=symspg['std_types'],cell=symspg['std_lattice'],scaled_positions=symspg['std_positions'],pbc=True)
+        #     sym_parent=spglib.get_symmetry_dataset(ao,symprec=1e-2) #symprec)
+        #     ao_ini=self.get_atoms_object(uid)
+        #     symspg_parent_ini=spglib.get_symmetry_dataset(ao_ini)
+        #     for qvec in settings['max_subgroups']:
+        #         qstr="q"
+        #         for i in range(len(qvec)):
+        #             if fabs(qvec[i])<0.01:
+        #                 qstr=qstr+"_0"
+        #             else:
+        #                 qstr=qstr+"_%5.3f"%qvec[i]
+        #         self.add_logmessage("setup_magnetic_structures: uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
+        #         if qstr=="q_0_0_0":
+        #             aoq=setup_supercell(ao,q=qvec)
+        #         else:
+        #             aoq=setup_supercell(ao_std,q=qvec)
+        #         symspg=spglib.get_symmetry_dataset(aoq,symprec=1e-2)
+        #         print "**********new symspg with q vec*********", symspg
+        #         msg=MSG(symelem=zip(symspg['rotations'],symspg['translations']),eps=symprec)
+        #         #msg.get_maximal_subgroups(symdir='msg-par',sym_parent=sym_parent,q=qvec,symdirhte="XXX",silent=False)
+        #         #bla
+        #         print "msg is _________" , msg
+        #         greymsg=msg.grey_msg()
+        #         #print "XXX",len(msg.elements),len(greymsg.elements)
+        #         #print symspg
+        #         maxsubs=greymsg.get_maximal_subgroups(symdir='msg',sym_parent=sym_parent,q=qvec,silent=silent,symdirhte=symdirhte)
+        #         print "*******maxsubs is *********", maxsubs
+        #         if maxsubs==[]:
+        #             self.add_logmessage("WARNING(setup_magnetic_structures): failed to determine maximal subgroups for uid=%s, SG=%s, q=%s"%(uid,str(sym_parent['number']),qstr))
+        #         exclude_ferromagnetic=True
+        #         if 'exclude_ferromagnetic' in settings:
+        #             exclude_ferromagnetic=settings['exclude_ferromagnetic']
+        #         reduce_collinear=True
+        #         if 'reduce_collinear' in settings:
+        #             reduce_collinear=settings['reduce_collinear']
+        #         for maxsub in maxsubs:
+        #             if (debug==True):
+        #                 self.add_logmessage("-- %s,%s -- "%(maxsub,str(maxsubs[maxsub].name)))
+        #             try:
+        #                 afmconfigs=maxsubs[maxsub].get_magnetic_configurations(aoq,name=qstr,exclude_ferromagnetic=exclude_ferromagnetic,reduce_collinear=reduce_collinear, AFatoms=AF_atoms)
+        #             except:
+        #                 self.add_logmessage("WARNING(setup_magnetic_structures): failed to set up spin configurations for %s(%s)"%(uid,maxsub))
+        #                 continue
+        #             if len(afmconfigs)>max_configs:
+        #                 self.add_logmessage("WARNING(setup_magnetic_structures): too many spin configurations (%d) for %s(%s), increase max_configs=%d"%(len(afmconfigs),uid,maxsub,max_configs))
+        #                 continue
+        #             for name in afmconfigs:
+        #                 if not name in magconfigs:
+        #                     magconfigs[name]=afmconfigs[name]
+        #                     if (debug==True):
+        #                         self.add_logmessage("* %s (%s,%s) added for %s."%(name,maxsub,str(maxsubs[maxsub].name),uid))
+        #                 elif (debug==True):
+        #                     self.add_logmessage("* %s (%s,%s) not added for %s (already in, E=%s)."%(name,maxsub,str(maxsubs[maxsub].name),uid,str(self.get_energy_per_atom(uid,calc_scheme, sub_directories={os.path.join(str(calc_scheme),name):afmconfigs[name]}))))
+        # # if ('get_atoms' in settings) and (settings['get_atoms']==False):
         #     print "check_point147, 'get_atoms' in settings",settings
         #     return magconfigs
         # #先把这个挪到这试试
