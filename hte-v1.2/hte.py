@@ -5582,6 +5582,7 @@ class HTE(object):
         parentdir=os.getcwd()
         if sub_directories!={}:
             subdirs=sub_directories
+            print "check_point121,subdirs:",subdirs
         else:
             subdirs={}
             magconfigs=self.setup_magnetic_structures(uid,calc_scheme, magsettings=magsettings)
