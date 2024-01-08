@@ -2521,8 +2521,10 @@ class HTE(object):
                 self.structureDB[uid].atoms.set_cell(scale*self.structureDB[uid].atoms.get_cell(), scale_atoms=True)
                 del pass2calc['scale_volume']    
         if afm!={}:
+            print "check_point133, afm!={}",afm
             if 'ispin' in afm:
                 if ('ispin' in pass2calc) and (pass2calc['ispin']==afm['ispin']):
+                    print "check_point134, ('ispin' in pass2calc) and (pass2calc['ispin']==afm['ispin']) retrurn failed"
                     return return_failed # don't make double calculation of default
                 pass2calc['ispin']=afm['ispin']
                 #if (afm['ispin']==1) and ('magmom' in pass2calc):
