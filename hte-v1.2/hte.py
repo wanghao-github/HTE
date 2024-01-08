@@ -5610,6 +5610,7 @@ class HTE(object):
                     self.add_logmessage("run_calculation(): %s(%s) not submitted because queue is full (nat=%d)"%(uid,calc_scheme,len(ao)))
                     continue
                 structure_info={'cell':ao.get_cell(),'chemical_symbols':ao.get_chemical_symbols(),'scaled_positions':ao.get_scaled_positions()}
+                print "check_point117, structure_info:",structure_info
                 setup_vasp_calculation(structure_info,settings,pathname=os.path.join(uid,subdir))
             try:
                 energy=self.structureDB[uid].get_energy(subdir,calc, sloppy_mode=False, update=True, job_commands=self.get_job_commands(calc_scheme),nsub_max=nsub_max, settings=subdirs[subdir])
