@@ -5574,6 +5574,7 @@ class HTE(object):
             nqueue,nsub=self.tmpdata['qstat']
         self.tmpdata['qstat']=(nqueue,nsub+1)
         if ((nqueue+nsub)>self.max_jobs_in_queue['total']):
+            print "check_point120,return True:",
             self.add_logmessage("run_calculation(): %s(%s) not submitted because queue is full"%(uid,calc_scheme))
             return True
         if nsub_max<0:
