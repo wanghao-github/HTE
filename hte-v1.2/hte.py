@@ -5560,6 +5560,7 @@ class HTE(object):
             magsettings: define magnetic structures, see setup_magnetic_structures() for details
             sub_directories: (not ready, remove?) 
         """
+        print "check_point115, entering hte.run_calculation"
         if not ('qstat' in self.tmpdata):
          exitcode, out = commands.getstatusoutput("squeue|wc -l")
          self.tmpdata['qstat']=(int(out),0)

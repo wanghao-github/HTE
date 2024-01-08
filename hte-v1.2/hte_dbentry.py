@@ -578,6 +578,7 @@ class HTEdbentry(object):
             return None
         
     def run_calculation(self, subdirx, calc, silent=False, check_convergency=True, nsub_max=2, job_commands=None, settings={}):
+        print "check_point116, entering db.run_calculation"
         update_input=False
         if calc.name.lower()=='fplo': #TODO (for the moment o.k.)
             update_input=True
