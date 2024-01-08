@@ -5605,6 +5605,7 @@ class HTE(object):
         for subdir in subdirs:
             print "check_point126, entering subdir"
             calc,settings=self.setup_calculator(uid,calc_scheme,afm=subdirs[subdir],update=True, options=options,return_settings=True)
+            print "check_point127, calc,settings in subdir are:", calc,settings
             if (calc!=None) and (not (os.path.isfile(os.path.join(uid,subdir,"POSCAR")))) and (calc_name.lower()=='vasp'):
                 ao=self.structureDB[uid].atoms
                 submit=True
