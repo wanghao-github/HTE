@@ -5562,20 +5562,20 @@ class HTE(object):
         """
         print "check_point115, entering hte.run_calculation"
         if not ('qstat' in self.tmpdata):
-         exitcode, out = commands.getstatusoutput("squeue|wc -l")
-         self.tmpdata['qstat']=(int(out),0)
-         print "check_point118,queue status:",self.tmpdata['qstat']
+            exitcode, out = commands.getstatusoutput("squeue|wc -l")
+            self.tmpdata['qstat']=(int(out),0)
+            print "check_point118,queue status:",self.tmpdata['qstat']
         nqueue,nsub=self.tmpdata['qstat']
         #print self.tmpdata['qstat'],nsub
         if nsub>50:
-         exitcode, out = commands.getstatusoutput("squeue|wc -l")
-         self.tmpdata['qstat']=(int(out),0)
-         print "check_point119,queue status:",self.tmpdata['qstat']
-         nqueue,nsub=self.tmpdata['qstat']
+            exitcode, out = commands.getstatusoutput("squeue|wc -l")
+            self.tmpdata['qstat']=(int(out),0)
+            print "check_point119,queue status:",self.tmpdata['qstat']
+            nqueue,nsub=self.tmpdata['qstat']
         self.tmpdata['qstat']=(nqueue,nsub+1)
         if ((nqueue+nsub)>self.max_jobs_in_queue['total']):
-         self.add_logmessage("run_calculation(): %s(%s) not submitted because queue is full"%(uid,calc_scheme))
-         return True
+            self.add_logmessage("run_calculation(): %s(%s) not submitted because queue is full"%(uid,calc_scheme))
+            return True
         if nsub_max<0:
             nsub_max=self.nsub_max
         parentdir=os.getcwd()
