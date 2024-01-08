@@ -3001,6 +3001,7 @@ class HTE(object):
                 print "check_point112 self.tmpdata['prop_dict'][uid][subdir]:", self.tmpdata['prop_dict'][uid][subdir]
                 ### if (prop_dict[subdir]=={}) and (update==True):
         if (not ('return_all' in magsettings)) or (magsettings['return_all']==False):
+            print "check_point114 (not ('return_all' in magsettings)) or (magsettings['return_all']==False)"
             prop_dict=pd_ref
             
         print "check_point10: the final prop_dict for each uid:", prop_dict
