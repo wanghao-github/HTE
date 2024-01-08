@@ -2430,10 +2430,12 @@ class HTE(object):
         pass2calc=settings.copy()
         print "check_point61, pass2calc is :",pass2calc
         if options!={}:
+            print "check_point129,options!={}",options
             for keyw in options:
                 pass2calc[keyw]=options[keyw]
         if (elastic==True) and (update_atoms==True):
             tmpatoms=self.get_atoms_object(uid,calc_scheme)
+            print "check_point130,(elastic==True) and (update_atoms==True),tmpatoms:",tmpatoms
             if tmpatoms==None:
                 return None
             self.structureDB[uid].atoms=tmpatoms
