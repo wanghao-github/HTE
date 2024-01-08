@@ -2991,6 +2991,7 @@ class HTE(object):
                             pd_ref['subdir']=subdirs[subdir]['subdir']
             if (prop_dict[subdir]=={}) and (update==True):
                 print "check_point109: (prop_dict[subdir]=={}) and (update==True)"
+                print "check_point110 uid,calc_scheme,  ", uid, calc_scheme
                 try:
                     self.run_calculation(uid,calc_scheme, sub_directories={subdir:subdirs[subdir]}, nsub_max=nsub_max)
                 except:
