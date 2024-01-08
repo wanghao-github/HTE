@@ -5591,6 +5591,7 @@ class HTE(object):
                 subdirs[subdir]=magconfigs[magconf]
         sp=self.get_scratch_directory()
         if sp==None:
+            print "check_point122,sp==None:"
             return False
         elif (rerun==True):
             sp=os.path.join(sp,"rerun")
