@@ -5595,6 +5595,7 @@ class HTE(object):
             return False
         elif (rerun==True):
             sp=os.path.join(sp,"rerun")
+            print "check_point123,sp=:",sp
         if not (os.path.isdir(sp)):
             os.mkdir(sp)
         os.chdir(sp)
