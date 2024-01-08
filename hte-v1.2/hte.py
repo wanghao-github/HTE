@@ -2983,6 +2983,7 @@ class HTE(object):
         print "check_point140: print magsettings:", magsettings
         for subdir in subdirs:
             print "check_point143, entering subdir:", subdir
+            print "check_point145, prop_dict[subdir]", prop_dict[subdir]
             if (prop_dict[subdir]!={}) and (not ('updating' in prop_dict[subdir])):
                 print "check_point137: (prop_dict[subdir]==!{}) and (update==True), prop_dict[subdir]:",prop_dict[subdir]
                 #tmp solution if DB file was not stored
