@@ -2997,7 +2997,7 @@ class HTE(object):
                 except:
                     self.add_logmessage("WARNING(get_properties): Failed to run uid %s (%s) in %s!"%(uid,calc_scheme,subdir))
                 self.tmpdata['prop_dict'][uid][subdir]={'updating':True}
-                
+                print "check_point111 self.tmpdata['prop_dict'][uid][subdir]:", self.tmpdata['prop_dict'][uid][subdir]
                 ### if (prop_dict[subdir]=={}) and (update==True):
         if (not ('return_all' in magsettings)) or (magsettings['return_all']==False):
             prop_dict=pd_ref
