@@ -4402,29 +4402,29 @@ class HTE(object):
             mom=abs(prop_dict['magnetic_moment'])/float(len(prop_dict['chemical_symbols']))
         return mom
 
-    # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
-    #     """return local magnetic moments (as list: [(atom,mom),...])"""
-    #     prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
-    #     print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
-    #     moms=[]
-    #     if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
-    #         print "check_point154,entering condition"
-    #         for i in range(len(prop_dict['chemical_symbols'])):
-    #             moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
-    #     print "check_point155,moms is :",moms
-    #     return moms
-         
     def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
         """return local magnetic moments (as list: [(atom,mom),...])"""
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
         print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
         moms=[]
-        if ('magnetic_moments' in prop_dict[uid]) and ('chemical_symbols' in prop_dict[uid]):
+        if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
             print "check_point154,entering condition"
-            for i in range(len(prop_dict[uid]['chemical_symbols'])):
-                moms.append((prop_dict[uid]['chemical_symbols'][i],prop_dict[uid]['magnetic_moments'][i]))
+            for i in range(len(prop_dict['chemical_symbols'])):
+                moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
         print "check_point155,moms is :",moms
         return moms
+         
+    # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
+    #     """return local magnetic moments (as list: [(atom,mom),...])"""
+    #     prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
+    #     print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
+    #     moms=[]
+    #     if ('magnetic_moments' in prop_dict[uid]) and ('chemical_symbols' in prop_dict[uid]):
+    #         print "check_point154,entering condition"
+    #         for i in range(len(prop_dict[uid]['chemical_symbols'])):
+    #             moms.append((prop_dict[uid]['chemical_symbols'][i],prop_dict[uid]['magnetic_moments'][i]))
+    #     print "check_point155,moms is :",moms
+    #     return moms
             
     def get_magnetic_structure(self, uid, calc_scheme, latex=False, latex_symbols={"--":"","FM":"","AF":"$^{\dagger}$","NC":"$^{*}$"}, magsettings={'submitted':True}, sub_directories={}):
         """return magnetic structure type (NM, FM, AF, NC)"""
