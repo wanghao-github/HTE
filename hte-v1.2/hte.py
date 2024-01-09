@@ -4410,6 +4410,7 @@ class HTE(object):
         if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
             for i in range(len(prop_dict['chemical_symbols'])):
                 moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
+        print "check_point154,moms is :",moms
         return moms
             
     def get_magnetic_structure(self, uid, calc_scheme, latex=False, latex_symbols={"--":"","FM":"","AF":"$^{\dagger}$","NC":"$^{*}$"}, magsettings={'submitted':True}, sub_directories={}):
