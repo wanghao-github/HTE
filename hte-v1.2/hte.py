@@ -4247,10 +4247,10 @@ class HTE(object):
                 E_form=None
         if returns!=[]:
             retval=[]
-        for x in returns:
-            if x=='calc_scheme':
-            retval.append(used_calc_scheme)
-        return E_form,retval
+            for x in returns:
+                if x=='calc_scheme':
+                    retval.append(used_calc_scheme)
+            return E_form,retval
         else: 
             return E_form
     
