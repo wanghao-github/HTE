@@ -4210,49 +4210,49 @@ class HTE(object):
         """get the formation energy per atom for compound with respect to decomposition
         into the elements for specified calc_scheme. 
         """
-	used_calc_scheme=None
-	E_form=None
+        used_calc_scheme=None
+        E_form=None
         if isinstance(calc_scheme,tuple):
-	 for cs in calc_scheme:
-          Ef=self.get_energy_per_atom(uid, cs, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max, magsettings=magsettings, sub_directories=sub_directories)
-	  if (E_form==None) or ((Ef!=None) and (Ef<E_form)):
-	   E_form=Ef
-	   used_calc_scheme=cs
-	else:
-         E_form=self.get_energy_per_atom(uid, calc_scheme, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max, magsettings=magsettings, sub_directories=sub_directories)
-	 used_calc_scheme=calc_scheme
+            for cs in calc_scheme:
+                Ef=self.get_energy_per_atom(uid, cs, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max, magsettings=magsettings, sub_directories=sub_directories)
+            if (E_form==None) or ((Ef!=None) and (Ef<E_form)):
+                E_form=Ef
+                used_calc_scheme=cs
+        else:
+            E_form=self.get_energy_per_atom(uid, calc_scheme, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max, magsettings=magsettings, sub_directories=sub_directories)
+        used_calc_scheme=calc_scheme
         comp=self.structureDB[uid].get_composition(reduce=False)
         for element in comp:
             if element in reference_energy:
                 E_ref=reference_energy[element]
             elif 'reference_energy' in magsettings:
                 #allow to reference FM states to FM reference elements etc.
-		E_ref=None
+                E_ref=None
                 for uidx in self.select(nelements=1,elements=[element]):
                     Er=self.get_energy_per_atom(uidx, calc_scheme, update=update, nsub_max=nsub_max, magsettings=magsettings['reference_energy'])
                     if (E_ref==None) or ((Er!=None) and (Er<E_ref)):
                         E_ref=Er
             else:
-		E_ref=None
-		if isinstance(calc_scheme,tuple):
-		 for cs in calc_scheme:
-		  Er=self.get_reference_energy_per_atom(element,calc_scheme=cs, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max)
-		  if (E_ref==None) or ((Er!=None) and (Er<E_ref)):
-		   E_ref=Er
-		else:
-                 E_ref=self.get_reference_energy_per_atom(element,calc_scheme=calc_scheme, update=update, nsub_max=nsub_max)
+                E_ref=None
+                if isinstance(calc_scheme,tuple):
+                    for cs in calc_scheme:
+                        Er=self.get_reference_energy_per_atom(element,calc_scheme=cs, sloppy_mode=sloppy_mode, update=update, nsub_max=nsub_max)
+                        if (E_ref==None) or ((Er!=None) and (Er<E_ref)):
+                            E_ref=Er
+                else:
+                    E_ref=self.get_reference_energy_per_atom(element,calc_scheme=calc_scheme, update=update, nsub_max=nsub_max)
             if (E_form!=None) and (E_ref!=None):
                 E_form=E_form-E_ref*self.structureDB[uid].get_atfraction(element)
             else:
                 E_form=None
-	if returns!=[]:
-         retval=[]
-	 for x in returns:
-	  if x=='calc_scheme':
-	   retval.append(used_calc_scheme)
-	 return E_form,retval
-	else: 
-         return E_form
+        if returns!=[]:
+            retval=[]
+        for x in returns:
+            if x=='calc_scheme':
+            retval.append(used_calc_scheme)
+        return E_form,retval
+        else: 
+            return E_form
     
     
     def get_formation_enthalpy(self, uid, calc_scheme, sloppy_mode=True, update=False, reference_enthalpy={},returns=[]):
@@ -4407,6 +4407,7 @@ class HTE(object):
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
         print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
         moms=[]
+        ### 这个地方明天再弄 标记一下 获得磁矩在有子目录的情况下有问题
         if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
             print "check_point154,entering condition"
             for i in range(len(prop_dict['chemical_symbols'])):
@@ -5100,7 +5101,7 @@ class HTE(object):
         else:
             dopings=[doping]
         zTmax=None
-	doplevel=None
+        doplevel=None
         retval=[]
         zTdata=self.get_transport_properties(uid, calc_scheme, properties=['zT'], T=T, tau=tau, kappa_l=kappa_l, dopings=dopings, dopingrange=dopingrange,ksdmin=ksdmin,interpolate=interpolate)
         if zTdata!=None:
@@ -5130,8 +5131,8 @@ class HTE(object):
         else:
             dopings=[doping]
         PFmax=None
-	doplevel=None
-	retval=[]
+        doplevel=None
+        retval=[]
         PFdata=self.get_transport_properties(uid, calc_scheme, properties=['PF'], T=T, tau=tau, dopings=dopings, dopingrange=dopingrange,ksdmin=ksdmin,interpolate=interpolate)
         
         if PFdata!=None:
@@ -5139,7 +5140,7 @@ class HTE(object):
                 for (N,PF) in PFdata[dop]:
                     if (PFmax==None) or (PFmax<PF):
                         PFmax=PF
-			doplevel=N
+                        doplevel=N
             for name in returns:
                 if name=='dopinglevel':
                     retval.append(doplevel)
