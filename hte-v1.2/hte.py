@@ -4406,6 +4406,10 @@ class HTE(object):
         """return local magnetic moments (as list: [(atom,mom),...])"""
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
         print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
+        print_dict = []
+        for key in prop_dict.keys():
+            print_dict.append(key)
+        print "check_point156, all prodict key is:", print_dict
         moms=[]
         ### 这个地方明天再弄 标记一下 获得磁矩在有子目录的情况下有问题
         if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
