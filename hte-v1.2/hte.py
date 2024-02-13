@@ -4405,18 +4405,20 @@ class HTE(object):
     def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
         """return local magnetic moments (as list: [(atom,mom),...])"""
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
-        print "check_point153,get_magnetic_moments,prop_dict is :",prop_dict
+        print "check_point157, sub_directories are:", sub_directories
+        print "check_point153, get_magnetic_moments,prop_dict is :",prop_dict
         print_dict = []
         for key in prop_dict.keys():
             print_dict.append(key)
         print "check_point156, all prodict key is:", print_dict
         moms=[]
         ### 这个地方明天再弄 标记一下 获得磁矩在有子目录的情况下有问题
-        if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
-            print "check_point154,entering condition"
-            for i in range(len(prop_dict['chemical_symbols'])):
-                moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
-        print "check_point155,moms is :",moms
+        for sub_dir in print_dict:
+            if ('magnetic_moments' in sub_dir) and ('chemical_symbols' in sub_dir):
+                print "check_point154,entering condition"
+                for i in range(len(prop_dict['chemical_symbols'])):
+                    moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
+            print "check_point155,moms is :",moms
         return moms
          
     # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
