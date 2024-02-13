@@ -4404,6 +4404,7 @@ class HTE(object):
 
     def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
         """return local magnetic moments (as list: [(atom,mom),...])"""
+        print "check_point158, sub_directories are:", sub_directories
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
         print "check_point157, sub_directories are:", sub_directories
         print "check_point153, get_magnetic_moments,prop_dict is :",prop_dict
