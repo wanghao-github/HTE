@@ -1111,8 +1111,10 @@ class HTE(object):
                             for i in range(len(nested_pd['chemical_symbols'])):
                                 moms.append((nested_pd['chemical_symbols'][i],nested_pd['magnetic_moments'][i]))
                         # line=line+' %s '%str(subdir.keys())
+                        if 'energy' in nested_pd:
+                            energy = nested_pd['energy']
                         print "check_point161, moms is ", moms
-                        line = line + str(moms)
+                        line = line + str(energy) + ' ' + str(moms)
                     else:
                         line=line+'None '
                     
