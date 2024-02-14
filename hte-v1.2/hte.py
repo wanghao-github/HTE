@@ -1113,18 +1113,18 @@ class HTE(object):
                         line=line+'None '
                     
                     
-                    print "check_point151, entering output magnetic_moments"
-                    print "check_point159, print subdir", subdir
-                    vallist=self.get_magnetic_moments(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
-                    print "check_point152,vallist is: ",vallist
-                    for (valel,valmom) in vallist:
-                        line=line+valel+" ("
-                        if (isinstance(valmom,np.ndarray)) or (isinstance(valmom,list)):
-                            for vmom in valmom:
-                                line=line+value2string(vmom,latex=latex, format_string=format_strings[argument])
-                        else:
-                            line=line+value2string(valmom,latex=latex, format_string=format_strings[argument])
-                        line=line+") "
+                    # print "check_point151, entering output magnetic_moments"
+                    # print "check_point159, print subdir", subdir
+                    # vallist=self.get_magnetic_moments(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
+                    # print "check_point152,vallist is: ",vallist
+                    # for (valel,valmom) in vallist:
+                    #     line=line+valel+" ("
+                    #     if (isinstance(valmom,np.ndarray)) or (isinstance(valmom,list)):
+                    #         for vmom in valmom:
+                    #             line=line+value2string(vmom,latex=latex, format_string=format_strings[argument])
+                    #     else:
+                    #         line=line+value2string(valmom,latex=latex, format_string=format_strings[argument])
+                    #     line=line+") "
                 elif argument=='magnetic_type':
                     if latex==True:
                         line=line.strip()
