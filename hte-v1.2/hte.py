@@ -4435,12 +4435,12 @@ class HTE(object):
         # if prop_dict!={}:
         ### 这个地方明天再弄 标记一下 获得磁矩在有子目录的情况下有问题
  ##       for sub_dir in print_dict:
-        if ('magnetic_moments' in sub_dir) and ('chemical_symbols' in sub_dir):
-            print "check_point154,entering condition"
-            for i in range(len(prop_dict['chemical_symbols'])):
-                moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
-        print "check_point155,moms is :",moms
-        return moms
+        # if ('magnetic_moments' in sub_dir) and ('chemical_symbols' in sub_dir):
+        #     print "check_point154,entering condition"
+        #     for i in range(len(prop_dict['chemical_symbols'])):
+        #         moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
+        # print "check_point155,moms is :",moms
+        # return moms
          
     # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
     #     """return local magnetic moments (as list: [(atom,mom),...])"""
