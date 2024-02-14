@@ -47,7 +47,7 @@ class HTE(object):
         self.job_commands={}
         self.searchpaths=['./',os.getcwd()]
         self.backupfile=None
-        self.max_jobs_in_queue={'total':950,'natoms_max':{20:600}}
+        self.max_jobs_in_queue={'total':2000,'natoms_max':{20:600}}
         #dictionary to store tempory data which is read in only once during run time and removed afterwards
         self.tmpdata={'reference_energies':{},'prop_dict':{},'chulls':{}}
         self.dir_of_hte=os.path.split(os.path.abspath(__file__))[0]
