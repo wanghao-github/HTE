@@ -1102,6 +1102,7 @@ class HTE(object):
                     if 'magnetic_moments' in pd:
                         line=line+pd['magnetic_moments']+' '
                     elif subdir!={}:
+                        print "check_point162, subdir!={}! and is", subdir
                         for each_subdir in subdir.keys():
                             if ('magnetic_moments' in each_subdir) and ('chemical_symbols' in each_subdir):
                                 for i in range(len(each_subdir['chemical_symbols'])):
