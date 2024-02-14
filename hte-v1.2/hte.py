@@ -900,7 +900,8 @@ class HTE(object):
         for uid,subdir in subdirectories:
             status=None
             if debug==True:
-                 print "DEBUG(output): uid=",uid,subdir
+                print "DEBUG(output): uid=",uid,subdir
+            print "check_point160, uid and subdir are:",uid,subdir
             line=''
             print "check_point111, before converged_ao"
             converged_ao=self.get_atoms_object(uid,calc_scheme=calc_scheme,magsettings=magsettings, sub_directories=subdir)
