@@ -1107,9 +1107,9 @@ class HTE(object):
                         nested_pd = pd[unique_key] 
                         print "check_point162, subdir!={}! and is", subdir
                         # for each_subdir in subdir.keys():
-                        if ('magnetic_moments' in nested_pd.keys) and ('chemical_symbols' in nested_pd.keys):
-                            for i in range(len(nested_pd.keys['chemical_symbols'])):
-                                moms.append((nested_pd.keys['chemical_symbols'][i],nested_pd.keys['magnetic_moments'][i]))
+                        if ('magnetic_moments' in nested_pd) and ('chemical_symbols' in nested_pd):
+                            for i in range(len(nested_pd['chemical_symbols'])):
+                                moms.append((nested_pd['chemical_symbols'][i],nested_pd['magnetic_moments'][i]))
                         # line=line+' %s '%str(subdir.keys())
                         print "check_point161, moms is ", moms
                         line = line + ''
