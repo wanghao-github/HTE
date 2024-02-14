@@ -1098,6 +1098,7 @@ class HTE(object):
                     line=line+value2string(val,latex=latex, format_string=format_strings[argument])
                 elif argument=='magnetic_moments':
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
+                    print "check_point163, pd is", pd
                     moms = []
                     if 'magnetic_moments' in pd:
                         line=line+pd['magnetic_moments']+' '
