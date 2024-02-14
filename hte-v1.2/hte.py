@@ -1103,11 +1103,13 @@ class HTE(object):
                     if 'magnetic_moments' in pd:
                         line=line+pd['magnetic_moments']+' '
                     elif subdir!={}:
+                        unique_key = next(iter(pd))
+                        nested_pd = pd[unique_key] 
                         print "check_point162, subdir!={}! and is", subdir
-                        for each_subdir in subdir.keys():
-                            if ('magnetic_moments' in each_subdir) and ('chemical_symbols' in each_subdir):
-                                for i in range(len(each_subdir['chemical_symbols'])):
-                                    moms.append((each_subdir['chemical_symbols'][i],each_subdir['magnetic_moments'][i]))
+                        # for each_subdir in subdir.keys():
+                        if ('magnetic_moments' in nested_pd.keys) and ('chemical_symbols' in nested_pd.keys):
+                            for i in range(len(nested_pd.keys['chemical_symbols'])):
+                                moms.append((nested_pd.keys['chemical_symbols'][i],nested_pd.keys['magnetic_moments'][i]))
                         # line=line+' %s '%str(subdir.keys())
                         print "check_point161, moms is ", moms
                         line = line + ''
