@@ -1112,7 +1112,7 @@ class HTE(object):
                                 moms.append((nested_pd['chemical_symbols'][i],nested_pd['magnetic_moments'][i]))
                         # line=line+' %s '%str(subdir.keys())
                         print "check_point161, moms is ", moms
-                        line = line + moms
+                        line = line + str(moms)
                     else:
                         line=line+'None '
                     
