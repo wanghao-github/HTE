@@ -1115,6 +1115,9 @@ class HTE(object):
                         if 'energy' in nested_pd:
                             energy = nested_pd['energy']
                             energy_per_atom = energy/atoms_num
+                        else:
+                            energy = 0.0
+                            energy_per_atom = 0.0
                         print "check_point161, moms is ", moms
                         line = line + str(energy) + ' ' + str(energy_per_atom) + str(moms)
                     else:
