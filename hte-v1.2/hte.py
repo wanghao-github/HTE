@@ -1108,13 +1108,15 @@ class HTE(object):
                         print "check_point162, subdir!={}! and is", subdir
                         # for each_subdir in subdir.keys():
                         if ('magnetic_moments' in nested_pd) and ('chemical_symbols' in nested_pd):
+                            atoms_num = len(nested_pd['chemical_symbols'])
                             for i in range(len(nested_pd['chemical_symbols'])):
                                 moms.append((nested_pd['chemical_symbols'][i],nested_pd['magnetic_moments'][i]))
                         # line=line+' %s '%str(subdir.keys())
                         if 'energy' in nested_pd:
                             energy = nested_pd['energy']
+                            energy_per_atom = energy/atoms_num
                         print "check_point161, moms is ", moms
-                        line = line + str(energy) + ' ' + str(moms)
+                        line = line + str(energy) + ' ' + str(energy_per_atom) + str(moms)
                     else:
                         line=line+'None '
                     
