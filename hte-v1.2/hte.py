@@ -900,8 +900,7 @@ class HTE(object):
         for uid,subdir in subdirectories:
             status=None
             if debug==True:
-                print "DEBUG(output): uid=",uid,subdir
-            print "check_point160, uid and subdir are:",uid,subdir
+                 print "DEBUG(output): uid=",uid,subdir
             line=''
             print "check_point111, before converged_ao"
             converged_ao=self.get_atoms_object(uid,calc_scheme=calc_scheme,magsettings=magsettings, sub_directories=subdir)
@@ -1096,9 +1095,10 @@ class HTE(object):
                 elif argument=='magnetic_moment_per_atom':
                     val=self.get_magnetic_moment_per_atom(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
                     line=line+value2string(val,latex=latex, format_string=format_strings[argument])
-                    
                 elif argument=='magnetic_moments':
+                    print "check_point151, entering output magnetic_moments"
                     vallist=self.get_magnetic_moments(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
+                    print "check_point152,vallist is: ",vallist
                     for (valel,valmom) in vallist:
                         line=line+valel+" ("
                         if (isinstance(valmom,np.ndarray)) or (isinstance(valmom,list)):
@@ -1107,46 +1107,6 @@ class HTE(object):
                         else:
                             line=line+value2string(valmom,latex=latex, format_string=format_strings[argument])
                         line=line+") "
-                # elif argument=='magnetic_moments':
-                #     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
-                #     print "check_point163, pd is", pd
-                #     moms = []
-                #     if 'magnetic_moments' in pd:
-                #         line=line+pd['magnetic_moments']+' '
-                #     elif subdir!={}:
-                #         unique_key = next(iter(pd))
-                #         nested_pd = pd[unique_key] 
-                #         print "check_point162, subdir!={}! and is", subdir
-                #         # for each_subdir in subdir.keys():
-                #         if ('magnetic_moments' in nested_pd) and ('chemical_symbols' in nested_pd):
-                #             atoms_num = len(nested_pd['chemical_symbols'])
-                #             for i in range(len(nested_pd['chemical_symbols'])):
-                #                 moms.append((nested_pd['chemical_symbols'][i],nested_pd['magnetic_moments'][i]))
-                #         # line=line+' %s '%str(subdir.keys())
-                #         if 'energy' in nested_pd:
-                #             energy = nested_pd['energy']
-                #             energy_per_atom = energy/atoms_num
-                #         else:
-                #             energy = 0.0
-                #             energy_per_atom = 0.0
-                #         print "check_point161, moms is ", moms
-                #         line = line + str(energy) + ' ' + str(energy_per_atom) + str(moms)
-                #     else:
-                #         line=line+'None '
-                    
-                    
-                    # print "check_point151, entering output magnetic_moments"
-                    # print "check_point159, print subdir", subdir
-                    # vallist=self.get_magnetic_moments(uid,kwargs['calc_scheme'],magsettings=magsettings, sub_directories=subdir)
-                    # print "check_point152,vallist is: ",vallist
-                    # for (valel,valmom) in vallist:
-                    #     line=line+valel+" ("
-                    #     if (isinstance(valmom,np.ndarray)) or (isinstance(valmom,list)):
-                    #         for vmom in valmom:
-                    #             line=line+value2string(vmom,latex=latex, format_string=format_strings[argument])
-                    #     else:
-                    #         line=line+value2string(valmom,latex=latex, format_string=format_strings[argument])
-                    #     line=line+") "
                 elif argument=='magnetic_type':
                     if latex==True:
                         line=line.strip()
@@ -4442,36 +4402,25 @@ class HTE(object):
             mom=abs(prop_dict['magnetic_moment'])/float(len(prop_dict['chemical_symbols']))
         return mom
 
-    # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
-    #     """return local magnetic moments (as list: [(atom,mom),...])"""
-    #     print "check_point158, sub_directories are:", sub_directories
-    #     prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
-    #     # print "check_point157, sub_directories are:", sub_directories
-    #     # print "check_point153, get_magnetic_moments, prop_dict is :",prop_dict
-    #     # print_dict = []
-    #     # for key in prop_dict.keys():
-    #         # print_dict.append(key)
-    #     # print "check_point156, all prodict key is:", print_dict
-    #     moms=[]
-    
     def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
         """return local magnetic moments (as list: [(atom,mom),...])"""
+        print "check_point158, sub_directories are:", sub_directories
         prop_dict=self.get_properties(uid, calc_scheme, magsettings=magsettings, sub_directories=sub_directories)
+        print "check_point157, sub_directories are:", sub_directories
+        print "check_point153, get_magnetic_moments,prop_dict is :",prop_dict
+        print_dict = []
+        for key in prop_dict.keys():
+            print_dict.append(key)
+        print "check_point156, all prodict key is:", print_dict
         moms=[]
-        if ('magnetic_moments' in prop_dict) and ('chemical_symbols' in prop_dict):
-            for i in range(len(prop_dict['chemical_symbols'])):
-                moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
-        return moms
-    
-        # if prop_dict!={}:
         ### 这个地方明天再弄 标记一下 获得磁矩在有子目录的情况下有问题
- ##       for sub_dir in print_dict:
-        # if ('magnetic_moments' in sub_dir) and ('chemical_symbols' in sub_dir):
-        #     print "check_point154,entering condition"
-        #     for i in range(len(prop_dict['chemical_symbols'])):
-        #         moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
-        # print "check_point155,moms is :",moms
-        # return moms
+        for sub_dir in print_dict:
+            if ('magnetic_moments' in sub_dir) and ('chemical_symbols' in sub_dir):
+                print "check_point154,entering condition"
+                for i in range(len(prop_dict['chemical_symbols'])):
+                    moms.append((prop_dict['chemical_symbols'][i],prop_dict['magnetic_moments'][i]))
+            print "check_point155,moms is :",moms
+        return moms
          
     # def get_magnetic_moments(self, uid, calc_scheme, magsettings={'submitted':True}, sub_directories={}):
     #     """return local magnetic moments (as list: [(atom,mom),...])"""
