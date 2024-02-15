@@ -1115,6 +1115,40 @@ class HTE(object):
                             energy = nested_pd['energy']
                         print "check_point161, moms is ", moms
                         line = line + str(energy) + ' ' + str(moms)
+                        
+                        
+                        
+                        #### write mcif files by hao
+                        file_tmp = unique_key+'.mcif'
+                        cell_tmp=nested_pd['cell']
+                        a_tmp = norm(cell_tmp[0])
+                        b_tmp = norm(cell_tmp[1])
+                        c_tmp = norm(cell_tmp[2])
+                        alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
+                        beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
+                        gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
+                        lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+                        abc_tmp=['a','b','c']
+                        for i in range(3):
+                            lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(nested_pd['cell'][i])))
+                        lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                        for i in range(len(nested_pd['chemical_symbols'])):
+                            lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(nested_pd['chemical_symbols'][i],i+1,nested_pd['chemical_symbols'][i],nested_pd['scaled_positions'][i][0],nested_pd['scaled_positions'][i][1],nested_pd['scaled_positions'][i][2]))
+                        lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+                        
+                        magnetic_moments_tmp=nested_pd['magnetic_moments']
+                        
+                        for i in range(len(nested_pd['chemical_symbols'])):
+                            if isinstance(magnetic_moments_tmp[i],float):
+                                moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
+                            else:
+                                moms_tmp=magnetic_moments_tmp[i]
+
+                            lines_tmp.append("%s%d %.4f %.4f %.4f"%(nested_pd['chemical_symbols'][i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
+                        outfile_tmp=open(file_tmp,"w")
+                        for line in lines_tmp:
+                            outfile_tmp.write("%s\n"%line)
+                        outfile_tmp.close()        
                     else:
                         line=line+'None '
                     
