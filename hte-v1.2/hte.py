@@ -2560,6 +2560,12 @@ class HTE(object):
             if pass2calc['ispin']==2:
                 pass2calc['magmom']=magmom_ini
             print "check_point132, magmom_ini is :",magmom_ini
+            
+        if ('I_CONSTRAINED_M' in pass2calc):
+            pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
+        if ('LAMBDA' in pass2calc):
+            pass2calc['LAMBDA']=pass2calc['LAMBDA']
+        
         if ('scale_volume_mag' in pass2calc):
             if pass2calc['ispin']==2:
                 pass2calc['scale_volume']=pass2calc['scale_volume_mag']
