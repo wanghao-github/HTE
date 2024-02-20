@@ -2623,9 +2623,10 @@ class HTE(object):
                     
             if ('I_CONSTRAINED_M' in pass2calc):
                 pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
+                del pass2calc['I_CONSTRAINED_M']
             if ('LAMBDA' in pass2calc):
                 pass2calc['LAMBDA']=pass2calc['LAMBDA']
-            
+                del pass2calc['LAMBDA']
             if ('LSDA_U' in pass2calc):
                 lsdau=False
                 ldauL=[]
