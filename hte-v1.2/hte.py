@@ -2565,7 +2565,7 @@ class HTE(object):
             pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
         if ('LAMBDA' in pass2calc):
             pass2calc['LAMBDA']=pass2calc['LAMBDA']
-        
+        print "check_point165, add I_CONSTRAINED_M into pass2calc:",pass2calc
         if ('scale_volume_mag' in pass2calc):
             if pass2calc['ispin']==2:
                 pass2calc['scale_volume']=pass2calc['scale_volume_mag']
@@ -2620,6 +2620,12 @@ class HTE(object):
                 print "check_point138,('ispin' in pass2calc) and (pass2calc['ispin']==2):"
                 if not ('lorbit' in pass2calc):
                     pass2calc['lorbit']=11 #seems to be only way to get local atomic moments
+                    
+            if ('I_CONSTRAINED_M' in pass2calc):
+                pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
+            if ('LAMBDA' in pass2calc):
+                pass2calc['LAMBDA']=pass2calc['LAMBDA']
+            
             if ('LSDA_U' in pass2calc):
                 lsdau=False
                 ldauL=[]
