@@ -2698,6 +2698,7 @@ class HTE(object):
                 if 'ibrion' in  pass2calc:
                     del pass2calc['ibrion']
                 pass2calc['nsw']=0
+            print "check_point169, before Vasp(**pass2calc)"
             calc=Vasp(**pass2calc)
             print "check_point167, calc is :", calc
             #print pass2calc
