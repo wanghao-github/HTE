@@ -2606,6 +2606,7 @@ class HTE(object):
                 self.structureDB[uid].atoms=afm['atoms_object']
         #vasp specific
         if calculator_name.lower()=='vasp':
+            print "check_point168,calculator_name.lower()=='vasp' "
             # check if PP files are present
             comp=self.structureDB[uid].get_composition(reduce=False)
             for element in comp:
