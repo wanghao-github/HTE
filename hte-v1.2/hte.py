@@ -2698,6 +2698,7 @@ class HTE(object):
                     del pass2calc['ibrion']
                 pass2calc['nsw']=0
             calc=Vasp(**pass2calc)
+            print "check_point167, calc is :", calc
             #print pass2calc
         elif (calculator_name.lower()=='fplo') and (self.get_scratch_directory()!=None):
             if 'subdir' in afm:
