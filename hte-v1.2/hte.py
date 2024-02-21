@@ -2561,10 +2561,10 @@ class HTE(object):
                 pass2calc['magmom']=magmom_ini
             print "check_point132, magmom_ini is :",magmom_ini
             
-        if ('I_CONSTRAINED_M' in pass2calc):
-            pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
-        if ('LAMBDA' in pass2calc):
-            pass2calc['LAMBDA']=pass2calc['LAMBDA']
+        # if ('I_CONSTRAINED_M' in pass2calc):
+        #     pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
+        # if ('LAMBDA' in pass2calc):
+        #     pass2calc['LAMBDA']=pass2calc['LAMBDA']
         print "check_point165, add I_CONSTRAINED_M into pass2calc:",pass2calc
         if ('scale_volume_mag' in pass2calc):
             if pass2calc['ispin']==2:
@@ -2621,12 +2621,12 @@ class HTE(object):
                 if not ('lorbit' in pass2calc):
                     pass2calc['lorbit']=11 #seems to be only way to get local atomic moments
                     
-            if ('I_CONSTRAINED_M' in pass2calc):
-                pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
-                del pass2calc['I_CONSTRAINED_M']
-            if ('LAMBDA' in pass2calc):
-                pass2calc['LAMBDA']=pass2calc['LAMBDA']
-                del pass2calc['LAMBDA']
+            # if ('I_CONSTRAINED_M' in pass2calc):
+            #     pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
+            #     del pass2calc['I_CONSTRAINED_M']
+            # if ('LAMBDA' in pass2calc):
+            #     pass2calc['LAMBDA']=pass2calc['LAMBDA']
+            #     del pass2calc['LAMBDA']
             if ('LSDA_U' in pass2calc):
                 lsdau=False
                 ldauL=[]
