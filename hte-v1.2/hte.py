@@ -3028,7 +3028,7 @@ class HTE(object):
                     calc_name,settings=self.calc_schemes[calc_scheme]
                     if calc_name.lower()=='vasp':
                         pdict=get_properties_vasp(calcdir=calcpath)
-                        print "check_point82, get_properties_vasp, the pdict is:"
+                        print "check_point82, get_properties_vasp, the pdict is:",pdict
                     elif calc_name.lower()=='fplo':
                         pdict=get_properties_fplo(calcdir=calcpath)
                     else:
