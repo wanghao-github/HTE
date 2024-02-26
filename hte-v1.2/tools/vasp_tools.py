@@ -155,6 +155,41 @@ def write_vasp_incar(settings, pathname=""):
                     #    else:
                     #        line=line+" %.2f"%m
                 linesincar.append(line)
+                
+            if tup=="M_CONSTR":
+                line=" M_CONSTR ="
+                mcoll=[0,""]
+                for mom in settings[tag]:
+                    if (isinstance(mom,list)) or (isinstance(mom,np.ndarray)):
+                        moms=mom
+                    else:
+                        moms=[mom]
+                    for m in moms:
+                        #print m,mcoll
+                        if abs(m)<0.01:
+                            mstr="0"
+                        else:
+                            mstr="%.2f"%m
+                        if mstr!=mcoll[1]:
+                            if mcoll[0]>1:
+                                line=line+" %d*%s"%(mcoll[0],mcoll[1])
+                            elif mcoll[0]==1:
+                                line=line+" %s"%mcoll[1]
+                            mcoll=[1,mstr]
+                        else:
+                            mcoll[0]=mcoll[0]+1
+                        #print line,mstr,mcoll
+                if mcoll[0]>1:
+                    line=line+" %d*%s"%(mcoll[0],mcoll[1])
+                elif mcoll[0]==1:
+                    line=line+" %s"%mcoll[1]
+                    #for m in moms:
+                    #    if abs(m)<0.01:
+                    #        line=line+" 0"
+                    #    else:
+                    #        line=line+" %.2f"%m
+                linesincar.append(line)
+                
             elif isinstance(settings[tag],list):
                 line=" %s ="%tup
                 for val in settings[tag]:
