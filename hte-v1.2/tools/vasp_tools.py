@@ -553,7 +553,8 @@ def get_properties_vasp(calcdir='./',outcar='OUTCAR', contcar='CONTCAR', incar='
                     if ispin==2:
                         print 'magnetic_moment'
                         errors=True
-            if (line.startswith(' magnetization (')):
+            if (line.startswith(' magnetization (')) or (line.startswith('magnetization (')):
+                ##太坑爹了
                 dir=line.split('(')[-1][0]
                 if dir in ['x','y','z']:
                     magmoms[dir]=[]
