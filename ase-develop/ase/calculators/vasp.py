@@ -204,7 +204,7 @@ list_keys = [
     'ferdo',      # Fixed band occupation (spin-plarized)
     'iband',      # bands to calculate partial charge for
     'magmom',     # initial magnetic moments
-    'm_constr'
+    'm_constr',
     'kpuse',      # k-point to calculate partial charge for
     'ropt',       # number of grid points for non-local proj in real space
     'rwigs',      # Wigner-Seitz radii
