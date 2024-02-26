@@ -834,14 +834,14 @@ class Vasp(Calculator):
                 elif key in ('iband', 'kpuse'):
                     [incar.write('%i ' % x) for x in val]
                 elif key == 'magmom': #IO
-		    val=np.array(val)[self.sort]
+                    val=np.array(val)[self.sort]
                     if ('lnoncollinear',True) in self.bool_params.items():
                         for mom in val:
-			    for i in range(3):
-                             if np.fabs(mom[i])<0.01:
-                                incar.write('0 ')
-                             else:
-                                incar.write('%.2f '%mom[i])
+                            for i in range(3):
+                                if np.fabs(mom[i])<0.01:
+                                    incar.write('0 ')
+                                else:
+                                    incar.write('%.2f '%mom[i])
                     else:
                         list = [[1, val[0]]]
                         for n in range(1, len(val)):
@@ -850,6 +850,25 @@ class Vasp(Calculator):
                             else:
                                 list.append([1, val[n]])
                         [incar.write('%i*%.4f ' % (mom[0], mom[1])) for mom in list]
+                        
+                elif key == 'm_constr': #IO
+                    val=np.array(val)[self.sort]
+                    if ('lnoncollinear',True) in self.bool_params.items():
+                        for mconstr in val:
+                            for i in range(3):
+                                if np.fabs(mconstr[i])<0.01:
+                                    incar.write('0 ')
+                                else:
+                                    incar.write('%.2f '%mconstr[i])
+                    else:
+                        list = [[1, val[0]]]
+                        for n in range(1, len(val)):
+                            if val[n] == val[n-1]:
+                                list[-1][0] += 1
+                            else:
+                                list.append([1, val[n]])
+                        [incar.write('%i*%.4f ' % (mconstr[0], mconstr[1])) for mconstr in list]
+             ## add mconstr in vasp_tool   
                 incar.write('\n')
         for key, val in self.bool_params.items():
             if val is not None:
