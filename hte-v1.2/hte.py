@@ -575,6 +575,8 @@ class HTE(object):
                             ppdict['ENMAX']=float(line.split("=")[1].split(";")[0])
                         if (line.strip().startswith('EAUG')):
                             ppdict['EAUG']=float(line.split("=")[1])
+                        if (line.strip().startswith('RWIGS')):
+                            ppdict['RWIGS']=round(float(line.split(";")[0].split("=")[1].strip().split(";")[0].strip())*0.5291772,3)
                         line=infile.readline()
                     infile.close()
                 break
@@ -2627,7 +2629,8 @@ class HTE(object):
             if ('i_constrained_m' in pass2calc):
                 pass2calc['lorbit']=1
                 pass2calc['m_constr']=pass2calc['magmom']
-                    
+                for el in self.structureDB[uid].atoms.get_chemical_symbols():
+                     
             print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
             # if ('I_CONSTRAINED_M' in pass2calc):
             #     pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
@@ -3130,6 +3133,7 @@ class HTE(object):
                         if el!=elpot:
                             elpot=el
                             isok,pp_dict=self.check_vasp_pp_files(el,settings,return_dict=True)
+                            print "check_point171: pp_dict is:",pp_dict
                             if 'filename' in pp_dict:
                                 if pp_dict['filename'].endswith(".Z"):
                                     command="gunzip -c %s"%pp_dict['filename']
