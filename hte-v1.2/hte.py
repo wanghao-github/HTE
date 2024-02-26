@@ -2622,6 +2622,7 @@ class HTE(object):
                     pass2calc['lorbit']=11 #seems to be only way to get local atomic moments
             if ('lambda1' in pass2calc):
                 pass2calc['lambda']=pass2calc['lambda1']
+                del pass2calc['lambda1']
             print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
             # if ('I_CONSTRAINED_M' in pass2calc):
             #     pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
