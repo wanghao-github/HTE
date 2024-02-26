@@ -572,6 +572,7 @@ def get_properties_vasp(calcdir='./',outcar='OUTCAR', contcar='CONTCAR', incar='
                             errors=True
                         line=infile.readline()
                     prop_dict['magnetic_moments']=magmoms
+                    print "check_point177,prop_dict['magnetic_moments'] is", prop_dict['magnetic_moments']
             if (line.startswith(' TOTAL ELASTIC MODULI (kBar)')):
                 #adopted from D. Ohmer
                 try:
