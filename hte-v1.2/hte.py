@@ -2626,7 +2626,7 @@ class HTE(object):
             # add this because lambda is a keyword in python, could not directly use this.
             if ('i_constrained_m' in pass2calc):
                 pass2calc['lorbit']=1
-                # pass2calc['m_constr']=pass2calc['magmom']
+                pass2calc['m_constr']=pass2calc['magmom']
                     
             print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
             # if ('I_CONSTRAINED_M' in pass2calc):
