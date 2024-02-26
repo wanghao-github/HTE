@@ -2641,7 +2641,8 @@ class HTE(object):
                         isok,pp_dict=self.check_vasp_pp_files(el,settings,return_dict=True)
                         print "check_point174, pp_dict is", pp_dict
                         rwigs_list.append(pp_dict['RWIGS'])
-                print  "check_point176, rwigs_list  is ", rwigs_list   
+                print  "check_point176, rwigs_list  is ", rwigs_list
+                pass2calc['rwigs'] = rwigs_list
             #     for el in self.structureDB[uid].atoms.get_chemical_symbols():
             #         print "check_point172, each element", el
             # print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
