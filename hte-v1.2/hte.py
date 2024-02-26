@@ -2630,9 +2630,17 @@ class HTE(object):
             if ('i_constrained_m' in pass2calc):
                 pass2calc['lorbit']=1
                 pass2calc['m_constr']=pass2calc['magmom']
-                for el in self.structureDB[uid].atoms.get_chemical_symbols():
-                    print "check_point172, each element", el
-            print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
+                
+                chem_sym_dict = self.structureDB[uid].atoms.get_chemical_symbols()
+                print "check_point175, chem_sym_dict is", chem_sym_dict
+            #     for el in prop_dict['chemical_symbols']:
+            #         if el!=elpot:
+            #             elpot=el
+            #             isok,pp_dict=self.check_vasp_pp_files(el,settings,return_dict=True)
+            #             print "check_point174, each element", pp_dict
+            #     for el in self.structureDB[uid].atoms.get_chemical_symbols():
+            #         print "check_point172, each element", el
+            # print "check_point170, add pass2calc['lambda'] and show pass2calc:", pass2calc    
             # if ('I_CONSTRAINED_M' in pass2calc):
             #     pass2calc['I_CONSTRAINED_M']=pass2calc['I_CONSTRAINED_M']
             #     del pass2calc['I_CONSTRAINED_M']
