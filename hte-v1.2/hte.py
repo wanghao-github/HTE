@@ -2611,6 +2611,7 @@ class HTE(object):
             # check if PP files are present
             comp=self.structureDB[uid].get_composition(reduce=False)
             for element in comp:
+                print "check_point173,get_composition",element
                 if self.check_vasp_pp_files(element, pass2calc)==False:
                     calcdir=os.path.join(self.structureDB[uid].calcdir,calc_scheme)
                     self.structureDB[uid].submitted_jobs[calcdir]={'nsubmit':-1,'jobid':-1}
