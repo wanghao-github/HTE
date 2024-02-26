@@ -5925,4 +5925,4 @@ class HTE(object):
         else: #except:
             print "write_mcif: failed %s"%uid
 
-    def add_m_constr
+    # def add_m_constr
