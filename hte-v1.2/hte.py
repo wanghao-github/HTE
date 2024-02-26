@@ -2627,7 +2627,7 @@ class HTE(object):
                 pass2calc['lambda']=pass2calc['lambda1']
                 del pass2calc['lambda1']
             # add this because lambda is a keyword in python, could not directly use this.
-            if ('i_constrained_m' in pass2calc):
+            if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==True):
                 pass2calc['lorbit']=1
                 pass2calc['m_constr']=pass2calc['magmom']
                 
