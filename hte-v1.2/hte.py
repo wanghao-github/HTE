@@ -1514,6 +1514,7 @@ class HTE(object):
                                         print "cif2struct: failed to read ",ciffile,uid
                             dbentry=None
                             if cifstruct!=None:
+                                print "check_point178, cifstruct!=None",cifstruct
                                 source_info=[('import_cif',cif_sources)]
                                 dbentry=HTEdbentry(cifstruct,uid,_source_info=source_info)
                                 dbentry.get_data_from_cif_source(fname)
