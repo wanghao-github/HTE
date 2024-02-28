@@ -3510,7 +3510,7 @@ class HTE(object):
             print "check_point149, magconfigs", magconfigs
             return magconfigs
         
-        ### 先把这个地方注释了再说
+        ### 
         magconfigs_submitted={}
         if (debug==True) or (report_magnetic_structures==True):
             self.add_logmessage("----- setup_magnetic_structures(): %s (%s/%s/%s) -----"%(comp_r,uid,calc_scheme,str(settings)))
