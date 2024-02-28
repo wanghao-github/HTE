@@ -1523,6 +1523,7 @@ class HTE(object):
                                     is_disordered=True
                                 if (check==True):
                                     warn,err=dbentry.self_check()
+                                    print "check_point180, self_check err is ", err
                                     if err!=None:
                                         dbentry=None
                                         if (silent==False):
