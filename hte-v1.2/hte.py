@@ -1517,6 +1517,7 @@ class HTE(object):
                                 print "check_point178, cifstruct!=None",cifstruct
                                 source_info=[('import_cif',cif_sources)]
                                 dbentry=HTEdbentry(cifstruct,uid,_source_info=source_info)
+                                print "check_point179, dbentry is ",dbentry
                                 dbentry.get_data_from_cif_source(fname)
                                 if (dbentry.is_disordered()):
                                     is_disordered=True
