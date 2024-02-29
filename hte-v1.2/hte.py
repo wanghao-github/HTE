@@ -1130,9 +1130,11 @@ class HTE(object):
                             if 'atoms_object' in subdir[unique_key]:
                                 print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
                                 position_tmp = subdir[unique_key]['atoms_object'].get_positions()
+                                position_matrix = np.array(position_tmp)
                                 cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
                                 cell_33_matrix = np.array(cell_tmp)
                                 print cell_33_matrix
+                                scaled_position_tmp = np.linalg.solve(cell_33_matrix.T, np.transpose(position_matrix)).T
                                 chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
                                 print "check_point182, print position:", position_tmp
                                 print "check_point183, print cell:", cell_tmp
@@ -1156,7 +1158,7 @@ class HTE(object):
                                 lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
                             lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
                             for i in range(len(chemical_symbols_tmp)):
-                                lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],position_tmp[i][0],position_tmp[i][1],position_tmp[i][2]))
+                                lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
                             lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
                     
                             magnetic_moments_tmp=nested_pd['magnetic_moments']
