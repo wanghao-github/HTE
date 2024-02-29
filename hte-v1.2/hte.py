@@ -1124,7 +1124,7 @@ class HTE(object):
                             #     print  "check_point180, ", key + ": " + str(value)
                             # # for sub in subdir:
                             # #     if subdir
-                            if subdir[unique_key] != None:
+                            if unique_key in subdir and subdir[unique_key] is not None:
                                 print "check_point179, atom_object is, ", subdir[unique_key]
                         
                             # if subdir[unique_key] != None:
