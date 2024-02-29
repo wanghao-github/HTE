@@ -1120,12 +1120,14 @@ class HTE(object):
                         print "unique_key is: ",unique_key
                         line = line + str(energy) + ' ' + str(moms)
                         if subdir != None:
-                            
+                            for key, value in subdir.items():
+                                print "%s, %s" % {key, value}
                             # for sub in subdir:
                             #     if subdir
                             print "check_point179, atom_object is, ", subdir[unique_key]
                         
-                        
+                            # if subdir[unique_key] != None:
+                                
                         # #### write mcif files by hao
                         # file_tmp = unique_key+'.mcif'
                         # cell_tmp=nested_pd['cell']
