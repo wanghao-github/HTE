@@ -1125,8 +1125,10 @@ class HTE(object):
                             # # for sub in subdir:
                             # #     if subdir
                             if unique_key in subdir and subdir[unique_key] is not None and bool(subdir[unique_key]):
+                            
                                 print "check_point179, atom_object is, ", subdir[unique_key]
-                        
+                                if 'atoms_object' in subdir[unique_key]:
+                                    print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
