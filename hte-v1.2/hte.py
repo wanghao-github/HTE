@@ -1144,6 +1144,7 @@ class HTE(object):
                             file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                             file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'_initial.mcif')
                             print "file_tmp is ",file_tmp
+                            print "file_tmp_init is ",file_tmp_init
                         # cell_tmp=nested_pd['cell']
                         
                             a_tmp = norm(cell_tmp[0])
@@ -1162,12 +1163,12 @@ class HTE(object):
                                 lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
                                 lines_tmp_init.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
                             lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
-                            lines_tmp_init=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                            lines_tmp_init=lines_tmp_init+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
                             for i in range(len(chemical_symbols_tmp)):
                                 lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
                                 lines_tmp_init.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
                             lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-                            lines_tmp_init=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+                            lines_tmp_init=lines_tmp_init+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
 
                             magnetic_moments_tmp=nested_pd['magnetic_moments']
                             magnetic_moments_tmp_init=nested_pd['initial_magnetic_moments']
