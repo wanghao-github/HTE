@@ -1137,7 +1137,7 @@ class HTE(object):
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
-                                file_tmp = str(unique_key+'.mcif')
+                                file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'aaa.mcif')
                                 print "file_tmp is ",file_tmp
                         # cell_tmp=nested_pd['cell']
                         
