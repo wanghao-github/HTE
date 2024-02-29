@@ -1119,7 +1119,7 @@ class HTE(object):
                         print "check_point161, moms is ", moms
                         print "unique_key is: ",unique_key
                         line = line + str(energy) + ' ' + str(moms)
-                        if subdir[unique_key]['atoms_object'] != None:
+                        if subdir != None:
                             print "check_point179, atom_object is, ", subdir[unique_key]['atoms_object']
                         
                         
