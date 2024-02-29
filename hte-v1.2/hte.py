@@ -1117,6 +1117,7 @@ class HTE(object):
                         if 'energy' in nested_pd:
                             energy = nested_pd['energy']
                         print "check_point161, moms is ", moms
+                        print "unique_key is: ",unique_key
                         line = line + str(energy) + ' ' + str(moms)
                         
                         
