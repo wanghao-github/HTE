@@ -1129,8 +1129,10 @@ class HTE(object):
                                 print "check_point179, atom_object is, ", subdir[unique_key]
                                 if 'atoms_object' in subdir[unique_key]:
                                     print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
-                                    atom_position = subdir[unique_key]['atoms_object'].get_positions()
-                                    print "check_point182, print position:", atom_position
+                                    position = subdir[unique_key]['atoms_object'].get_positions()
+                                    cell =  subdir[unique_key]['atoms_object'].get_cell()
+                                    print "check_point182, print position:", position
+                                    print "check_point183, print cell:", cell
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
