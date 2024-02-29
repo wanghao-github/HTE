@@ -1121,7 +1121,7 @@ class HTE(object):
                         line = line + str(energy) + ' ' + str(moms)
                         if subdir != None:
                             for key, value in subdir.items():
-                                print key + ": " + str(value)
+                                print  "check_point180, ", key + ": " + str(value)
                             # for sub in subdir:
                             #     if subdir
                             print "check_point179, atom_object is, ", subdir[unique_key]
