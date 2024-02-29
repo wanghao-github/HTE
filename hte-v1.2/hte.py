@@ -1131,6 +1131,8 @@ class HTE(object):
                                 print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
                                 position_tmp = subdir[unique_key]['atoms_object'].get_positions()
                                 cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
+                                cell_33_matrix = np.array(cell_tmp)
+                                print cell_33_matrix
                                 chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
                                 print "check_point182, print position:", position_tmp
                                 print "check_point183, print cell:", cell_tmp
