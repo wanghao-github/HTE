@@ -1158,7 +1158,7 @@ class HTE(object):
                                     lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
                         
                                 magnetic_moments_tmp=nested_pd['magnetic_moments']
-                        
+                                qaxis=[0,0,1]
                                 for i in range(len(chemical_symbols_tmp)):
                                     if isinstance(magnetic_moments_tmp[i],float):
                                         moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
