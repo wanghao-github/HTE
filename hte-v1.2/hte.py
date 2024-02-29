@@ -1136,14 +1136,14 @@ class HTE(object):
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
-                        file_tmp = str(unique_key+'/'+'aaa'+'.mcif')
-                        print "file_tmp is ",file_tmp
+                                file_tmp = str(unique_key+'/'+'aaa'+'.mcif')
+                                print "file_tmp is ",file_tmp
                         # cell_tmp=nested_pd['cell']
                         
-                        a_tmp = norm(cell_tmp[0])
-                        b_tmp = norm(cell_tmp[1])
-                        c_tmp = norm(cell_tmp[2])
-                        print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
+                                a_tmp = norm(cell_tmp[0])
+                                b_tmp = norm(cell_tmp[1])
+                                c_tmp = norm(cell_tmp[2])
+                                print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
                         alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
                         beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
                         gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
