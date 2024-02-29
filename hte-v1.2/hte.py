@@ -1119,57 +1119,57 @@ class HTE(object):
                         print "check_point161, moms is ", moms
                         print "unique_key is: ",unique_key
                         line = line + str(energy) + ' ' + str(moms)
-                        if subdir != None:
+                        # if subdir != None:
                             # for key, value in subdir.items():
                             #     print  "check_point180, ", key + ": " + str(value)
                             # # for sub in subdir:
                             # #     if subdir
-                            if unique_key in subdir and subdir[unique_key] is not None and bool(subdir[unique_key]):
+                        if unique_key in subdir and subdir[unique_key] is not None and bool(subdir[unique_key]):
                             
-                                print "check_point179, atom_object is, ", subdir[unique_key]
-                                if 'atoms_object' in subdir[unique_key]:
-                                    print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
-                                    position_tmp = subdir[unique_key]['atoms_object'].get_positions()
-                                    cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
-                                    chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
-                                    print "check_point182, print position:", position_tmp
-                                    print "check_point183, print cell:", cell_tmp
+                            print "check_point179, atom_object is, ", subdir[unique_key]
+                            if 'atoms_object' in subdir[unique_key]:
+                                print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
+                                position_tmp = subdir[unique_key]['atoms_object'].get_positions()
+                                cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
+                                chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
+                                print "check_point182, print position:", position_tmp
+                                print "check_point183, print cell:", cell_tmp
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
-                                file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'/'+'aaa.mcif')
-                                print "file_tmp is ",file_tmp
+                            file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'/'+'aaa.mcif')
+                            print "file_tmp is ",file_tmp
                         # cell_tmp=nested_pd['cell']
                         
-                                a_tmp = norm(cell_tmp[0])
-                                b_tmp = norm(cell_tmp[1])
-                                c_tmp = norm(cell_tmp[2])
-                                print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
-                                alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
-                                beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
-                                gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
-                                lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
-                                abc_tmp=['a','b','c']
-                                for i in range(3):
-                                    lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
-                                    lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
-                                for i in range(len(chemical_symbols_tmp)):
-                                    lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],position_tmp[i][0],position_tmp[i][1],position_tmp[i][2]))
-                                    lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-                        
-                                magnetic_moments_tmp=nested_pd['magnetic_moments']
-                                qaxis=[0,0,1]
-                                for i in range(len(chemical_symbols_tmp)):
-                                    if isinstance(magnetic_moments_tmp[i],float):
-                                        moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
-                                    else:
-                                        moms_tmp=magnetic_moments_tmp[i]
+                            a_tmp = norm(cell_tmp[0])
+                            b_tmp = norm(cell_tmp[1])
+                            c_tmp = norm(cell_tmp[2])
+                            print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
+                            alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
+                            beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
+                            gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
+                            lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+                            abc_tmp=['a','b','c']
+                            for i in range(3):
+                                lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
+                                lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                            for i in range(len(chemical_symbols_tmp)):
+                                lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],position_tmp[i][0],position_tmp[i][1],position_tmp[i][2]))
+                                lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+                    
+                            magnetic_moments_tmp=nested_pd['magnetic_moments']
+                            qaxis=[0,0,1]
+                            for i in range(len(chemical_symbols_tmp)):
+                                if isinstance(magnetic_moments_tmp[i],float):
+                                    moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
+                                else:
+                                    moms_tmp=magnetic_moments_tmp[i]
 
-                                    lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
-                                outfile_tmp=open(file_tmp,"w")
-                                for line in lines_tmp:
-                                    outfile_tmp.write("%s\n"%line)
-                                outfile_tmp.close()        
+                                lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
+                            outfile_tmp=open(file_tmp,"w")
+                            for line in lines_tmp:
+                                outfile_tmp.write("%s\n"%line)
+                            outfile_tmp.close()        
                     else:
                         line=line+'None '
                     
