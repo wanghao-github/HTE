@@ -1142,6 +1142,7 @@ class HTE(object):
                                 
                         # #### write mcif files by hao
                             file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
+                            file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'_initial.mcif')
                             print "file_tmp is ",file_tmp
                         # cell_tmp=nested_pd['cell']
                         
@@ -1152,28 +1153,44 @@ class HTE(object):
                             alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
                             beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
                             gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
+                            
                             lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+                            lines_tmp_init=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+
                             abc_tmp=['a','b','c']
                             for i in range(3):
                                 lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
+                                lines_tmp_init.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
                             lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                            lines_tmp_init=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
                             for i in range(len(chemical_symbols_tmp)):
                                 lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
+                                lines_tmp_init.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
                             lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-                    
+                            lines_tmp_init=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+
                             magnetic_moments_tmp=nested_pd['magnetic_moments']
+                            magnetic_moments_tmp_init=nested_pd['initial_magnetic_moments']
                             qaxis=[0,0,1]
                             for i in range(len(chemical_symbols_tmp)):
                                 if isinstance(magnetic_moments_tmp[i],float):
                                     moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
+                                    moms_tmp_init=np.dot(magnetic_moments_tmp_init[i],qaxis/norm(qaxis))
                                 else:
                                     moms_tmp=magnetic_moments_tmp[i]
-
+                                    moms_tmp_init=magnetic_moments_tmp_init[i]
                                 lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
+                                lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
+
                             outfile_tmp=open(file_tmp,"w")
                             for line in lines_tmp:
                                 outfile_tmp.write("%s\n"%line)
-                            outfile_tmp.close()        
+                            outfile_tmp.close()
+                            
+                            outfile_tmp_init=open(file_tmp_init,"w")
+                            for line in lines_tmp_init:
+                                outfile_tmp_init.write("%s\n"%line)
+                            outfile_tmp_init.close()
                     else:
                         line=line+'None '
                     
