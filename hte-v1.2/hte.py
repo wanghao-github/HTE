@@ -1120,7 +1120,7 @@ class HTE(object):
                         print "unique_key is: ",unique_key
                         line = line + str(energy) + ' ' + str(moms)
                         if subdir[unique_key] != None:
-                            print "check_point179, atom_object is, ", subdir[unique_key][atoms_object]
+                            print "check_point179, atom_object is, ", subdir
                         
                         
                         # #### write mcif files by hao
