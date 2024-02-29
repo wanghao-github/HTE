@@ -1129,22 +1129,24 @@ class HTE(object):
                                 print "check_point179, atom_object is, ", subdir[unique_key]
                                 if 'atoms_object' in subdir[unique_key]:
                                     print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
-                                    position = subdir[unique_key]['atoms_object'].get_positions()
-                                    cell =  subdir[unique_key]['atoms_object'].get_cell()
-                                    print "check_point182, print position:", position
-                                    print "check_point183, print cell:", cell
+                                    position_tmp = subdir[unique_key]['atoms_object'].get_positions()
+                                    cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
+                                    print "check_point182, print position:", position_tmp
+                                    print "check_point183, print cell:", cell_tmp
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
-                        file_tmp = str(unique_key+'.mcif')
+                        file_tmp = str(unique_key+'/'+'aaa'+'.mcif')
                         print "file_tmp is ",file_tmp
                         # cell_tmp=nested_pd['cell']
-                        # a_tmp = norm(cell_tmp[0])
-                        # b_tmp = norm(cell_tmp[1])
-                        # c_tmp = norm(cell_tmp[2])
-                        # alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
-                        # beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
-                        # gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
+                        
+                        a_tmp = norm(cell_tmp[0])
+                        b_tmp = norm(cell_tmp[1])
+                        c_tmp = norm(cell_tmp[2])
+                        print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
+                        alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
+                        beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
+                        gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
                         # lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
                         # abc_tmp=['a','b','c']
                         # for i in range(3):
