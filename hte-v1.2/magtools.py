@@ -340,8 +340,8 @@ class MSG(object):
                 print "check_point189, symb added:", symb
 
         # After processing, check if the group is complete
-        complete_group = msg.is_group(complete=True)
-        print "is group:", complete_group
+        # complete_group, = msg.is_group(complete=True)
+        print "is group:", msg.is_group()
         
         pd['chemical_symbols']=[]
         pd['scaled_positions']=[]
