@@ -249,6 +249,7 @@ class MSG(object):
         in_loop=False
         fin=open(fname,'r')
         line=fin.readline()
+        print "check_point184, line is: ", line
         while line:
             #print line
             line=line.strip()
