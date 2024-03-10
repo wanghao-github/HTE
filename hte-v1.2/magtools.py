@@ -287,23 +287,62 @@ class MSG(object):
         print "check_point185, pd['cell'] is: ", pd['cell']
         msg=MSG()
         print "check_point186, msg=MSG() is: ", msg
-        for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
-            symb=i+" "+g
+        # Assuming `ciftags` is a dictionary containing the CIF data
+        if '_space_group_symop_magn_operation.id' in ciftags and '_space_group_symop_magn_operation.xyz' in ciftags:
+            id_field = '_space_group_symop_magn_operation.id'
+            xyz_field = '_space_group_symop_magn_operation.xyz'
+        elif '_space_group_symop.magn_id' in ciftags and '_space_group_symop.magn_operation_xyz' in ciftags:
+            id_field = '_space_group_symop.magn_id'
+            xyz_field = '_space_group_symop.magn_operation_xyz'
+        else:
+            raise ValueError("Required CIF fields for magnetic symmetry operations not found.")
+
+        # Now use the determined field names in your loop
+        for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
+            symb = i + " " + g
             msg.symbols.append(symb)
             msg.elements.append(self.symbol2matrix(symb))
+
+        # for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
+        #     symb=i+" "+g
+        #     msg.symbols.append(symb)
+        #     msg.elements.append(self.symbol2matrix(symb))
             
         print "check_point187, msg.symbols. is: ", msg.symbols
         print "check_point188, msg.elements is: ", msg.elements
         
-        if '_space_group_symop_magn_centering.xyz' in ciftags:
-            for i,g in  zip(ciftags['_space_group_symop_magn_centering.id'],ciftags['_space_group_symop_magn_centering.xyz']):
-                symb=i+" "+g
-                if (not (symb in msg.symbols)):
-                    msg.symbols.append(symb)
-                    msg.elements.append(self.symbol2matrix(symb))
-                    #print "added _space_group_symop_magn_centering.xyz:",symb
-        msg.is_group(complete=True)
-        print "is group:",msg.is_group()
+        # if '_space_group_symop_magn_centering.xyz' in ciftags:
+        #     for i,g in  zip(ciftags['_space_group_symop_magn_centering.id'],ciftags['_space_group_symop_magn_centering.xyz']):
+        #         symb=i+" "+g
+        #         if (not (symb in msg.symbols)):
+        #             msg.symbols.append(symb)
+        #             msg.elements.append(self.symbol2matrix(symb))
+        #             #print "added _space_group_symop_magn_centering.xyz:",symb
+        # msg.is_group(complete=True)
+        # print "is group:",msg.is_group()
+        
+        if '_space_group_symop_magn_centering.xyz' in ciftags and '_space_group_symop_magn_centering.id' in ciftags:
+            id_center_field = '_space_group_symop_magn_centering.id'
+            xyz_center_field = '_space_group_symop_magn_centering.xyz'
+        elif '_space_group_symop.magn_centering_xyz' in ciftags and '_space_group_symop.magn_centering_id' in ciftags:
+            id_center_field = '_space_group_symop.magn_centering_id'
+            xyz_center_field = '_space_group_symop.magn_centering_xyz'
+        else:
+            raise ValueError("Required CIF fields for magnetic centering operations not found.")
+
+        # Process the data using the determined field names
+        for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
+            symb = i + " " + g
+            if not symb in msg.symbols:
+                msg.symbols.append(symb)
+                msg.elements.append(self.symbol2matrix(symb))
+        # Uncomment the following line to see logs of added symbols
+        # print("added:", symb)
+
+        # After processing, check if the group is complete
+        complete_group = msg.is_group(complete=True)
+        print "is group:", complete_group
+        
         pd['chemical_symbols']=[]
         pd['scaled_positions']=[]
         pd['initial_magnetic_moments']=[]
