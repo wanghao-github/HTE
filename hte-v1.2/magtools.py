@@ -286,6 +286,7 @@ class MSG(object):
         pd['cell']=cellpar_to_cell(cellpar)
         print "check_point185, pd['cell'] is: ", pd['cell']
         msg=MSG()
+        print "check_point186, msg=MSG() is: ", msg
         for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
             symb=i+" "+g
             msg.symbols.append(symb)
