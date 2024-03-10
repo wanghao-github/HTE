@@ -320,7 +320,7 @@ class MSG(object):
         #             #print "added _space_group_symop_magn_centering.xyz:",symb
         # msg.is_group(complete=True)
         # print "is group:",msg.is_group()
-        
+
         if '_space_group_symop_magn_centering.xyz' in ciftags and '_space_group_symop_magn_centering.id' in ciftags:
             id_center_field = '_space_group_symop_magn_centering.id'
             xyz_center_field = '_space_group_symop_magn_centering.xyz'
@@ -337,7 +337,7 @@ class MSG(object):
                 msg.symbols.append(symb)
                 msg.elements.append(self.symbol2matrix(symb))
         # Uncomment the following line to see logs of added symbols
-        # print("added:", symb)
+                print "check_point189, symb added:", symb
 
         # After processing, check if the group is complete
         complete_group = msg.is_group(complete=True)
