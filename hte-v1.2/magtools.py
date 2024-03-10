@@ -820,6 +820,7 @@ class MSG(object):
         complete=True: complete if necessary"""
         print "check_point190, is group" 
         G=self.get_elements()
+        print "check_point191, G is" , G
         isgroup=True
         #check completeness:
         iscomplete=False
