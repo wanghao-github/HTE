@@ -321,23 +321,23 @@ class MSG(object):
         # msg.is_group(complete=True)
         # print "is group:",msg.is_group()
 
-        if '_space_group_symop_magn_centering.xyz' in ciftags and '_space_group_symop_magn_centering.id' in ciftags:
-            id_center_field = '_space_group_symop_magn_centering.id'
-            xyz_center_field = '_space_group_symop_magn_centering.xyz'
-        elif '_space_group_symop.magn_centering_xyz' in ciftags and '_space_group_symop.magn_centering_id' in ciftags:
-            id_center_field = '_space_group_symop.magn_centering_id'
-            xyz_center_field = '_space_group_symop.magn_centering_xyz'
-        else:
-            raise ValueError("Required CIF fields for magnetic centering operations not found.")
+        # if '_space_group_symop_magn_centering.xyz' in ciftags and '_space_group_symop_magn_centering.id' in ciftags:
+        #     id_center_field = '_space_group_symop_magn_centering.id'
+        #     xyz_center_field = '_space_group_symop_magn_centering.xyz'
+        # elif '_space_group_symop.magn_centering_xyz' in ciftags and '_space_group_symop.magn_centering_id' in ciftags:
+        #     id_center_field = '_space_group_symop.magn_centering_id'
+        #     xyz_center_field = '_space_group_symop.magn_centering_xyz'
+        # else:
+        #     raise ValueError("Required CIF fields for magnetic centering operations not found.")
 
-        # Process the data using the determined field names
-        for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
-            symb = i + " " + g
-            if not symb in msg.symbols:
-                msg.symbols.append(symb)
-                msg.elements.append(self.symbol2matrix(symb))
-        # Uncomment the following line to see logs of added symbols
-                print "check_point189, symb added:", symb
+        # # Process the data using the determined field names
+        # for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
+        #     symb = i + " " + g
+        #     if not symb in msg.symbols:
+        #         msg.symbols.append(symb)
+        #         msg.elements.append(self.symbol2matrix(symb))
+        # # Uncomment the following line to see logs of added symbols
+        #         print "check_point189, symb added:", symb
 
         # After processing, check if the group is complete
         # complete_group, = msg.is_group(complete=True)
