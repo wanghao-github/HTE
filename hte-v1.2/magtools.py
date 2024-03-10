@@ -818,6 +818,7 @@ class MSG(object):
     def is_group(self, complete=False):
         """check if present elements form a group
         complete=True: complete if necessary"""
+        print "check_point190, is group" 
         G=self.get_elements()
         isgroup=True
         #check completeness:
