@@ -58,7 +58,16 @@ class HTE(object):
                               }
         self.use_prop_dict=True
         self.use_job_array=False
-        self.magnetic_atoms={'Mn':3.5,'Fe':2.5,'Co':1.5,'Ni':0.8}
+        # self.magnetic_atoms={'Mn':4.0,'Fe':3.5,'Co':2.0,'Ni':1.5,'Cr':3.0,'Os':1.5,'Cu':0.5,'Eu':6.5}
+        self.magnetic_atoms = {
+        'Mn': 4.0, 'Fe': 3.5, 'Co': 2.0, 'Ni': 1.5,
+        'Cr': 3.0, 'Os': 1.5, 'Cu': 0.5, 'Eu': 6.5,
+        'Gd': 6.0, 'Tb': 5.0, 'Dy': 5.0, 'Ho': 6.5,
+        'Er': 6.0, 'Tm': 6.0, 'Yb': 4.5, 'Pr': 3.2,
+        'Nd': 3.6, 'Sm': 0.8, 'V':2.0,'U':1.0,'Nd':2.0,'Ru':2.0,'Ir':1.0
+        }
+
+
         #directory to (permanently) store converged calculations in compressed form
         self.storage_directories=[]
         if silent==False:
