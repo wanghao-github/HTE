@@ -251,8 +251,9 @@ class MSG(object):
         line=fin.readline()
         print "check_point184, line is: ", line
         while line:
-            print line
+            # print line
             line=line.strip()
+            print line
             lspl=line.split()
             if (line=="") or (line=="\0"):
                 in_loop=False
