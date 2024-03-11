@@ -1212,7 +1212,7 @@ class HTE(object):
                                 lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
                                 lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
 
-                            outfile_tmp=open("file_tmp","w")
+                            outfile_tmp=open(file_tmp,"w")
                             # outfile_tmp=open("test1","w")
                             for line in lines_tmp:
                                 outfile_tmp.write("%s\n"%line)
