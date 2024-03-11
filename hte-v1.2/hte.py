@@ -2712,6 +2712,12 @@ class HTE(object):
             # if ('LAMBDA' in pass2calc):
             #     pass2calc['LAMBDA']=pass2calc['LAMBDA']
             #     del pass2calc['LAMBDA']
+            print "check_point193, before del, pass2calc is: ", pass2calc
+            if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==False):
+                print "check_point194, noncollinear"
+                del pass2calc['lambda']
+                del pass2calc['i_constrained_m']
+            
             if ('LSDA_U' in pass2calc):
                 lsdau=False
                 ldauL=[]
