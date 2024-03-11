@@ -1156,6 +1156,9 @@ class HTE(object):
                             file_tmp = os.path.join('scratch', uid, unique_key + '.mcif')
                             file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
+                            dir_path = os.path.dirname(file_tmp)
+                            print "dir_path = os.path.dirname(file_tmp) is", dir_path
+                            
                             print "file_tmp is ",file_tmp
                             print "file_tmp_init is ",file_tmp_init
                         # cell_tmp=nested_pd['cell']
