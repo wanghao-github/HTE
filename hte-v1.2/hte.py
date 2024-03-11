@@ -1113,6 +1113,8 @@ class HTE(object):
                     moms = []
                     
                     pd_second_layer = next(iter(pd.values()))
+                    
+                    print "check_point197,current dir is", os.getcwd()
                     if 'magnetic_moments' in pd:
                         print "check_point196, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
