@@ -434,6 +434,7 @@ class MSG(object):
             (rot,trans,t)=g
         else:
             return None
+        print "in symop_pos, g is,", g
         newpos=(np.dot(rot,pos)+trans)%1.
         return newpos
 
