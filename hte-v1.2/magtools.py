@@ -285,7 +285,7 @@ class MSG(object):
             # cellpar.append(float(ciftags[x]))
             cellpar.append(float(re.sub(r'\(.*?\)', '', ciftags[x])))
             print " ciftags[x] is ", ciftags[x]
-            
+            print "cellpar is ", cellpar
         pd['cell']=cellpar_to_cell(cellpar)
         print "check_point185, pd['cell'] is: ", pd['cell']
         msg=MSG()
@@ -391,6 +391,7 @@ class MSG(object):
                 mom[0] = float(re.sub(r'\(.*?\)', '', ciftags[x_field][label_index]))
                 mom[1] = float(re.sub(r'\(.*?\)', '', ciftags[y_field][label_index]))
                 mom[2] = float(re.sub(r'\(.*?\)', '', ciftags[z_field][label_index]))
+                print "mom is: ", mom
             for g in msg.get_elements():
                 # npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))           
                 npos = msg.symop_pos(g, (float(re.sub(r'\(.*?\)', '', pos[0]))), (float(re.sub(r'\(.*?\)', '', pos[1]))), (float(re.sub(r'\(.*?\)', '', pos[2]))))
