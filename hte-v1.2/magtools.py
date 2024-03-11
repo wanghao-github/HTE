@@ -520,8 +520,9 @@ class MSG(object):
                     elsAF.append(ao.get_chemical_symbols()[i])
                     posAF.append(ao.get_scaled_positions()[i])
                     mappingAF.append(i)
+            print "check_point194, before aoAF, elsAF and posAF are ",elsAF,posAF
             aoAF=Atoms(symbols=elsAF,scaled_positions=posAF,cell=ao.get_cell(),pbc=True)
-            print "check_point194, aoAF is",aoAF
+            print "check_point195, aoAF is",aoAF
             symmetry_constraints_r=self.get_symmetry_equivalent_positions(aoAF)
             symmetry_constraints={'mag_constraints':[]}
             for sol_r in symmetry_constraints_r['mag_constraints']:
