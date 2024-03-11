@@ -1217,7 +1217,7 @@ class HTE(object):
                             outfile_tmp.close()
                             
                             # outfile_tmp_init=open(file_tmp_init,"w")
-                            outfile_tmp=open("test2","w")
+                            outfile_tmp_init=open("test2","w")
                             for line in lines_tmp_init:
                                 outfile_tmp_init.write("%s\n"%line)
                             outfile_tmp_init.close()
