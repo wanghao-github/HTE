@@ -521,6 +521,7 @@ class MSG(object):
                     posAF.append(ao.get_scaled_positions()[i])
                     mappingAF.append(i)
             aoAF=Atoms(symbols=elsAF,scaled_positions=posAF,cell=ao.get_cell(),pbc=True)
+            print "check_point194, aoAF is",aoAF
             symmetry_constraints_r=self.get_symmetry_equivalent_positions(aoAF)
             symmetry_constraints={'mag_constraints':[]}
             for sol_r in symmetry_constraints_r['mag_constraints']:
@@ -579,10 +580,10 @@ class MSG(object):
             #    print "added:",ini_mag
             #else:
             #    print "not added:",ini_mag
-            max_configs=900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-	    if len(ini_mags)>=max_configs:
-		print "*** More configs possible, stopping here..."
-		break 
+            max_configs=10000000
+            if len(ini_mags)>=max_configs:
+                print "*** More configs possible, stopping here..."
+                break 
         if len(ini_mags)==0:
             if return_status==True:
                 return magconfigs,status

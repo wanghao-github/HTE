@@ -3543,9 +3543,9 @@ class HTE(object):
                     if (debug==True):
                         self.add_logmessage("-- %s,%s -- "%(maxsub,str(maxsubs[maxsub].name)))
                     try:
-                        print "check_point191, maxsub is, ", maxsub
+                        print "check_point192, maxsub is, ", maxsub
                         afmconfigs=maxsubs[maxsub].get_magnetic_configurations(aoq,name=qstr,exclude_ferromagnetic=exclude_ferromagnetic,reduce_collinear=reduce_collinear, AFatoms=AF_atoms)
-                        print "check_point192, afmconfigs is: ", afmconfigs
+                        print "check_point193, afmconfigs is: ", afmconfigs
                     except:
                         self.add_logmessage("WARNING(setup_magnetic_structures): failed to set up spin configurations for %s(%s)"%(uid,maxsub))
                         continue
