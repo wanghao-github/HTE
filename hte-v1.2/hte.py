@@ -1150,8 +1150,12 @@ class HTE(object):
                             # if subdir[unique_key] != None:
                                 
                         # #### write mcif files by hao
-                            file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
-                            file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
+                            # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
+                            # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
+                            
+                            file_tmp = os.path.join('scratch', uid, unique_key + '.mcif')
+                            file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                            
                             print "file_tmp is ",file_tmp
                             print "file_tmp_init is ",file_tmp_init
                         # cell_tmp=nested_pd['cell']
