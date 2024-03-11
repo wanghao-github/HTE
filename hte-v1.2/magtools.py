@@ -1,6 +1,6 @@
 from hte import *
 from ase.lattice.spacegroup.cell import *
-
+import re
 import scipy
 from scipy import linalg, matrix
 
@@ -381,10 +381,12 @@ class MSG(object):
     
             if lab in ciftags[label_field]:
                 label_index = ciftags[label_field].index(lab)
-                mom[0] = float(ciftags[x_field][label_index])
-                mom[1] = float(ciftags[y_field][label_index])
-                mom[2] = float(ciftags[z_field][label_index])
-
+                # mom[0] = float(ciftags[x_field][label_index])
+                # mom[1] = float(ciftags[y_field][label_index])
+                # mom[2] = float(ciftags[z_field][label_index])
+                mom[0] = float(re.sub(r'\(.*?\)', '', ciftags[x_field][label_index]))
+                mom[1] = float(re.sub(r'\(.*?\)', '', ciftags[y_field][label_index]))
+                mom[2] = float(re.sub(r'\(.*?\)', '', ciftags[z_field][label_index]))
             for g in msg.get_elements():
                 npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))
                 nmom = msg.symop_mag(g, mom)
