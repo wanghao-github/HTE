@@ -2716,7 +2716,8 @@ class HTE(object):
                 pass2calc['lambda']=pass2calc['lambda1']
                 del pass2calc['lambda1']
             # add this because lambda is a keyword in python, could not directly use this.
-            if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==True):
+            # if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==True):
+            if ('i_constrained_m' in pass2calc) and pass2calc.get('lnoncollinear') == True:    
                 pass2calc['lorbit']=1
                 pass2calc['m_constr']=pass2calc['magmom']
                 
@@ -2742,7 +2743,8 @@ class HTE(object):
             #     pass2calc['LAMBDA']=pass2calc['LAMBDA']
             #     del pass2calc['LAMBDA']
             print "check_point195, before del, pass2calc is: ", pass2calc
-            if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==False):
+            # if ('i_constrained_m' in pass2calc) and (pass2calc['lnoncollinear']==False):
+            if ('i_constrained_m' in pass2calc) and pass2calc.get('lnoncollinear') == False:
                 print "check_point196, noncollinear"
                 del pass2calc['lambda']
                 del pass2calc['i_constrained_m']
