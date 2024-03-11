@@ -395,11 +395,13 @@ class MSG(object):
             for g in msg.get_elements():
                 # npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))           
                 npos = msg.symop_pos(g, (float(re.sub(r'\(.*?\)', '', pos[0]))), (float(re.sub(r'\(.*?\)', '', pos[1]))), (float(re.sub(r'\(.*?\)', '', pos[2]))))
+                print "npos is ",npos
                 nmom = msg.symop_mag(g, mom)
-
+                print "mom is ",mom
                 is_new = True
                 for px in pd['scaled_positions']:
                     if msg.is_equal_site(npos, px):
+                        print "msg.is_equal_site "
                         is_new = False
                         break
 
