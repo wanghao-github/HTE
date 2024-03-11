@@ -1113,8 +1113,8 @@ class HTE(object):
                     moms = []
                     
                     pd_second_layer = next(iter(pd.values()))
-                    
-                    print "check_point197,current dir is", os.getcwd()
+                    scratch_folder = os.getcwd()
+                    print "check_point197,current dir is", scratch_folder
                     if 'magnetic_moments' in pd:
                         print "check_point196, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
@@ -1162,8 +1162,8 @@ class HTE(object):
                             # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                             # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
                             
-                            file_tmp = os.path.join('scratch', uid, unique_key + '1.mcif')
-                            file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                            file_tmp = os.path.join(scratch_folder, uid, unique_key + '.mcif')
+                            file_tmp_init = os.path.join(scratch_folder, uid, unique_key + 'initial.mcif')
                             
                             # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
                             # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
@@ -1219,7 +1219,7 @@ class HTE(object):
                                 lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
                                 lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
 
-                            outfile_tmp=open("file_tmp3","w")
+                            outfile_tmp=open(file_tmp,"w")
                             # outfile_tmp=open("test1","w")
                             for line in lines_tmp:
                                 outfile_tmp.write("%s\n"%line)
