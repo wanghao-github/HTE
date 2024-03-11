@@ -400,6 +400,7 @@ class MSG(object):
                 clear_pos[0] = re.sub(r'\(.*?\)', '', pos[0])
                 clear_pos[1] = re.sub(r'\(.*?\)', '', pos[1])    
                 clear_pos[2] = re.sub(r'\(.*?\)', '', pos[2])
+                print "clear_pos is ",clear_pos
                 # npos = msg.symop_pos(g, (float(re.sub(r'\(.*?\)', '', pos[0]))), (float(re.sub(r'\(.*?\)', '', pos[1]))), (float(re.sub(r'\(.*?\)', '', pos[2]))))
                 npos = msg.symop_pos(g, (float(clear_pos[0]), float(clear_pos[1]), float(clear_pos[2])))
                 print "npos is ",npos
