@@ -1153,14 +1153,14 @@ class HTE(object):
                             # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                             # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
                             
-                            # file_tmp = os.path.join('scratch', uid, unique_key + '.mcif')
-                            # file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                            file_tmp = os.path.join('scratch', uid, unique_key + '1.mcif')
+                            file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
-                            relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
-                            relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                            # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
+                            # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
-                            file_tmp = os.path.abspath(relative_path)
-                            file_tmp_init = os.path.abspath(relative_path_init)
+                            # file_tmp = os.path.abspath(relative_path)
+                            # file_tmp_init = os.path.abspath(relative_path_init)
                             # dir_path = os.path.dirname(file_tmp)
                             
                             # if not os.path.exists(dir_path):
