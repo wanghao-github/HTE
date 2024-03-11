@@ -1111,14 +1111,16 @@ class HTE(object):
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
                     print "check_point163, pd is", pd
                     moms = []
+                    
+                    pd_second_layer = next(iter(pd.values()))
                     if 'magnetic_moments' in pd:
                         print "check_point196, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
                     # elif subdir!={} and pd['']:
                         
                     # elif subdir != {} and pd['updating'] != True:
-                    elif subdir != {} and 'updating' not in pd:
-    
+                    # elif subdir != {} and 'updating' not in pd:
+                    elif subdir != {} and ('updating' not in pd_second_layer):
                         unique_key = next(iter(pd))
                         nested_pd = pd[unique_key] 
                         print "check_point162, subdir!={}! and is", subdir
