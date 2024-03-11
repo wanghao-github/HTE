@@ -1221,14 +1221,14 @@ class HTE(object):
 
                             outfile_tmp=open(file_tmp,"w")
                             # outfile_tmp=open("test1","w")
-                            for line in lines_tmp:
-                                outfile_tmp.write("%s\n"%line)
+                            for line_mcif1 in lines_tmp:
+                                outfile_tmp.write("%s\n"%line_mcif1)
                             outfile_tmp.close()
                             
                             outfile_tmp_init=open(file_tmp_init,"w")
                             # outfile_tmp_init=open("test2","w")
-                            for line in lines_tmp_init:
-                                outfile_tmp_init.write("%s\n"%line)
+                            for line_mcif2 in lines_tmp_init:
+                                outfile_tmp_init.write("%s\n"%line_mcif2)
                             outfile_tmp_init.close()
                     else:
                         line=line+'None '
