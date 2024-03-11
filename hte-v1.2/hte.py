@@ -1113,7 +1113,9 @@ class HTE(object):
                     moms = []
                     if 'magnetic_moments' in pd:
                         line=line+pd['magnetic_moments']+' '
-                    elif subdir!={}:
+                    # elif subdir!={} and pd['']:
+                        
+                    elif subdir != {} and ('updating' not in pd or pd['updating'] != 'true'):
                         unique_key = next(iter(pd))
                         nested_pd = pd[unique_key] 
                         print "check_point162, subdir!={}! and is", subdir
@@ -1210,14 +1212,14 @@ class HTE(object):
                                 lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
                                 lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
 
-                            # outfile_tmp=open("file_tmp","w")
-                            outfile_tmp=open("test1","w")
+                            outfile_tmp=open("file_tmp","w")
+                            # outfile_tmp=open("test1","w")
                             for line in lines_tmp:
                                 outfile_tmp.write("%s\n"%line)
                             outfile_tmp.close()
                             
-                            # outfile_tmp_init=open(file_tmp_init,"w")
-                            outfile_tmp_init=open("test2","w")
+                            outfile_tmp_init=open(file_tmp_init,"w")
+                            # outfile_tmp_init=open("test2","w")
                             for line in lines_tmp_init:
                                 outfile_tmp_init.write("%s\n"%line)
                             outfile_tmp_init.close()
