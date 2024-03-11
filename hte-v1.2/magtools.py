@@ -393,6 +393,7 @@ class MSG(object):
                 mom[2] = float(re.sub(r'\(.*?\)', '', ciftags[z_field][label_index]))
                 print "mom is: ", mom
             for g in msg.get_elements():
+                print "g is, ", g
                 # npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))           
                 npos = msg.symop_pos(g, (float(re.sub(r'\(.*?\)', '', pos[0]))), (float(re.sub(r'\(.*?\)', '', pos[1]))), (float(re.sub(r'\(.*?\)', '', pos[2]))))
                 print "npos is ",npos
