@@ -1153,20 +1153,25 @@ class HTE(object):
                             # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                             # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
                             
-                            file_tmp = os.path.join('scratch', uid, unique_key + '.mcif')
-                            file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                            # file_tmp = os.path.join('scratch', uid, unique_key + '.mcif')
+                            # file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
-                            dir_path = os.path.dirname(file_tmp)
+                            relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
+                            relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
-                            if not os.path.exists(dir_path):
-                                print "not exsited"
-                            else:
-                                print "existed"
+                            file_tmp = os.path.abspath(relative_path)
+                            file_tmp_init = os.path.abspath(relative_path_init)
+                            # dir_path = os.path.dirname(file_tmp)
                             
-                            print "dir_path = os.path.dirname(file_tmp) is", dir_path
+                            # if not os.path.exists(dir_path):
+                            #     print "not exsited"
+                            # else:
+                            #     print "existed"
                             
-                            print "file_tmp is ",file_tmp
-                            print "file_tmp_init is ",file_tmp_init
+                            # print "dir_path = os.path.dirname(file_tmp) is", dir_path
+                            
+                            # print "file_tmp is ",file_tmp
+                            # print "file_tmp_init is ",file_tmp_init
                         # cell_tmp=nested_pd['cell']
                         
                             a_tmp = norm(cell_tmp[0])
