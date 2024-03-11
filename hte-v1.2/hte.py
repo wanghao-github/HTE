@@ -1112,12 +1112,12 @@ class HTE(object):
                     print "check_point163, pd is", pd
                     moms = []
                     if 'magnetic_moments' in pd:
-                        print "check_point195, 'magnetic_moments' in pd, here is FM"
+                        print "check_point196, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
                     # elif subdir!={} and pd['']:
                         
                     # elif subdir != {} and pd['updating'] != True:
-                    elif subdir != {} and pd.get('updating', False) != True:
+                    elif subdir != {} and 'updating' not in pd:
     
                         unique_key = next(iter(pd))
                         nested_pd = pd[unique_key] 
