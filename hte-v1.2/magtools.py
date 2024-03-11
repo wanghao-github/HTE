@@ -346,24 +346,56 @@ class MSG(object):
         pd['chemical_symbols']=[]
         pd['scaled_positions']=[]
         pd['initial_magnetic_moments']=[]
-        for (el,pos,lab) in zip(ciftags['_atom_site_type_symbol']
-                                ,zip(ciftags['_atom_site_fract_x'],ciftags['_atom_site_fract_y'],ciftags['_atom_site_fract_z'])
-                                ,ciftags['_atom_site_label']):
-            #,zip(ciftags['_atom_site_moment.crystalaxis_x'],ciftags['_atom_site_moment.crystalaxis_y'],ciftags['_atom_site_moment.crystalaxis_z'])):
-            mom=np.zeros(3)
-            if lab in ciftags['_atom_site_moment.label']:
-                mom[0]=float(ciftags['_atom_site_moment.crystalaxis_x'][ciftags['_atom_site_moment.label'].index(lab)])
-                mom[1]=float(ciftags['_atom_site_moment.crystalaxis_y'][ciftags['_atom_site_moment.label'].index(lab)])
-                mom[2]=float(ciftags['_atom_site_moment.crystalaxis_z'][ciftags['_atom_site_moment.label'].index(lab)])
+        # for (el,pos,lab) in zip(ciftags['_atom_site_type_symbol']
+        #                         ,zip(ciftags['_atom_site_fract_x'],ciftags['_atom_site_fract_y'],ciftags['_atom_site_fract_z'])
+        #                         ,ciftags['_atom_site_label']):
+        #     #,zip(ciftags['_atom_site_moment.crystalaxis_x'],ciftags['_atom_site_moment.crystalaxis_y'],ciftags['_atom_site_moment.crystalaxis_z'])):
+        #     mom=np.zeros(3)
+        #     if lab in ciftags['_atom_site_moment.label']:
+        #         mom[0]=float(ciftags['_atom_site_moment.crystalaxis_x'][ciftags['_atom_site_moment.label'].index(lab)])
+        #         mom[1]=float(ciftags['_atom_site_moment.crystalaxis_y'][ciftags['_atom_site_moment.label'].index(lab)])
+        #         mom[2]=float(ciftags['_atom_site_moment.crystalaxis_z'][ciftags['_atom_site_moment.label'].index(lab)])
+        #     for g in msg.get_elements():
+        #         npos=msg.symop_pos(g,(float(pos[0]),float(pos[1]),float(pos[2])))
+        #         nmom=msg.symop_mag(g,mom)
+        #         is_new=True
+        #         for px in pd['scaled_positions']:
+        #             if msg.is_equal_site(npos,px):
+        #                 is_new=False
+        #                 break
+        #         if is_new==True:
+        #             pd['chemical_symbols'].append(el)
+        #             pd['scaled_positions'].append(npos)
+        #             pd['initial_magnetic_moments'].append(nmom)
+        
+        for (el, pos, lab) in zip(ciftags['_atom_site_type_symbol'],
+                          zip(ciftags['_atom_site_fract_x'], ciftags['_atom_site_fract_y'], ciftags['_atom_site_fract_z']),
+                          ciftags['_atom_site_label']):
+            mom = np.zeros(3)  # Initialize magnetic moment as zero vector
+
+            # Determine the correct field names
+            label_field = '_atom_site_moment.label' if '_atom_site_moment.label' in ciftags else '_atom_site_moment_label'
+            x_field = '_atom_site_moment.crystalaxis_x' if '_atom_site_moment.crystalaxis_x' in ciftags else '_atom_site_moment_crystalaxis_x'
+            y_field = '_atom_site_moment.crystalaxis_y' if '_atom_site_moment.crystalaxis_y' in ciftags else '_atom_site_moment_crystalaxis_y'
+            z_field = '_atom_site_moment.crystalaxis_z' if '_atom_site_moment.crystalaxis_z' in ciftags else '_atom_site_moment_crystalaxis_z'
+    
+            if lab in ciftags[label_field]:
+                label_index = ciftags[label_field].index(lab)
+                mom[0] = float(ciftags[x_field][label_index])
+                mom[1] = float(ciftags[y_field][label_index])
+                mom[2] = float(ciftags[z_field][label_index])
+
             for g in msg.get_elements():
-                npos=msg.symop_pos(g,(float(pos[0]),float(pos[1]),float(pos[2])))
-                nmom=msg.symop_mag(g,mom)
-                is_new=True
+                npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))
+                nmom = msg.symop_mag(g, mom)
+
+                is_new = True
                 for px in pd['scaled_positions']:
-                    if msg.is_equal_site(npos,px):
-                        is_new=False
+                    if msg.is_equal_site(npos, px):
+                        is_new = False
                         break
-                if is_new==True:
+
+                if is_new:
                     pd['chemical_symbols'].append(el)
                     pd['scaled_positions'].append(npos)
                     pd['initial_magnetic_moments'].append(nmom)
@@ -827,7 +859,9 @@ class MSG(object):
         while (iscomplete==False) and (len(G)<1000):
             iscomplete=True
             for a in G:
+                print "a is ", a
                 for b in G:
+                    print "b is  ", b
                     ab=self.mult(a,b)
                     if not self.is_element(ab):
                         isgroup=False
