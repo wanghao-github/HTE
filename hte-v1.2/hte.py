@@ -1157,6 +1157,12 @@ class HTE(object):
                             file_tmp_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
                             
                             dir_path = os.path.dirname(file_tmp)
+                            
+                            if not os.path.exists(dir_path):
+                                print "not exsited"
+                            else:
+                                print "existed"
+                            
                             print "dir_path = os.path.dirname(file_tmp) is", dir_path
                             
                             print "file_tmp is ",file_tmp
