@@ -1112,6 +1112,7 @@ class HTE(object):
                     print "check_point163, pd is", pd
                     moms = []
                     if 'magnetic_moments' in pd:
+                        print "check_point195, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
                     # elif subdir!={} and pd['']:
                         
