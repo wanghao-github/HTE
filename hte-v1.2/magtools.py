@@ -282,7 +282,9 @@ class MSG(object):
         #for the moment: use ASE to construct cell
         cellpar=[]
         for x in ['_cell_length_a','_cell_length_b','_cell_length_c','_cell_angle_alpha','_cell_angle_beta','_cell_angle_gamma']:
-            cellpar.append(float(ciftags[x]))
+            # cellpar.append(float(ciftags[x]))
+            
+            cellpar.append(float(re.sub(r'\(.*?\)', '', ciftags[x])))
         pd['cell']=cellpar_to_cell(cellpar)
         print "check_point185, pd['cell'] is: ", pd['cell']
         msg=MSG()
@@ -388,7 +390,8 @@ class MSG(object):
                 mom[1] = float(re.sub(r'\(.*?\)', '', ciftags[y_field][label_index]))
                 mom[2] = float(re.sub(r'\(.*?\)', '', ciftags[z_field][label_index]))
             for g in msg.get_elements():
-                npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))
+                # npos = msg.symop_pos(g, (float(pos[0]), float(pos[1]), float(pos[2])))           
+                npos = msg.symop_pos(g, (float(re.sub(r'\(.*?\)', '', pos[0]))), (float(re.sub(r'\(.*?\)', '', pos[1]))), (float(re.sub(r'\(.*?\)', '', pos[2]))))
                 nmom = msg.symop_mag(g, mom)
 
                 is_new = True
