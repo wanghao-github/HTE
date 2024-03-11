@@ -407,6 +407,7 @@ class MSG(object):
                     pd['chemical_symbols'].append(el)
                     pd['scaled_positions'].append(npos)
                     pd['initial_magnetic_moments'].append(nmom)
+        print "uid,pd,ciftags are", uid,pd,ciftags
         return uid,pd,ciftags
 
     def write_mcif(self,fname,print_mag=True):
