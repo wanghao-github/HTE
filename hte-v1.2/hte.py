@@ -1113,6 +1113,7 @@ class HTE(object):
                     moms = []
                     
                     pd_second_layer = next(iter(pd.values()))
+                    print "check_point200, 'pd_second_layer' is",pd_second_layer
                     scratch_folder = os.getcwd()
                     print "check_point197,current dir is", scratch_folder
                     if 'magnetic_moments' in pd:
