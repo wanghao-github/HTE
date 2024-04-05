@@ -1119,11 +1119,13 @@ class HTE(object):
                     for key in pd.keys():
                         if key.endswith('/'):
                             print "check_point201, end with'/', so here is FM and dir is under calc_scheme"
+                            line=line+pd_second_layer['magnetic_moments']+' '
+                            print "check_point203, line is"
                         else:
                             print "check_point202, did not end with'/', so here is AFM and dir is q_****"
                     if 'magnetic_moments' in pd_second_layer:
                         print "check_point196, 'magnetic_moments' in pd, here is FM"
-                        line=line+pd['magnetic_moments']+' '
+                        
                     # elif subdir!={} and pd['']:
                         
                     # elif subdir != {} and pd['updating'] != True:
