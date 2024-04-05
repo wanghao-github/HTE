@@ -1143,7 +1143,7 @@ class HTE(object):
                                 energy = nested_pd['energy']
                             print "check_point161, moms is ", moms
                             print "unique_key is: ",unique_key
-                            line = line + str(energy) + ' ' + str(moms)
+                            line = line + ' ' + str(energy) + ' ' + str(moms)
                             # if subdir != None:
                                 # for key, value in subdir.items():
                                 #     print  "check_point180, ", key + ": " + str(value)
@@ -1277,7 +1277,7 @@ class HTE(object):
                         
                                                         # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                                 # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
-                            mcif_path = subdir[unique_key]['data_path']
+                            mcif_path = nested_pd['data_path']
                             print "check_point204, mcif_path: ", mcif_path
                             file_tmp = os.path.join(mcif_path, unique_key + '.mcif')
                             # file_tmp_init = os.path.join(mcif_path, unique_key + 'initial.mcif')
