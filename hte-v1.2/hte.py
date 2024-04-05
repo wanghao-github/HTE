@@ -1117,7 +1117,7 @@ class HTE(object):
                     scratch_folder = os.getcwd()
                     print "check_point197,current dir is", scratch_folder
                     for key in pd.keys():
-                        if key.endwith('/'):
+                        if key.endswith('/'):
                             print "check_point201, end with'/', so here is FM and dir is under calc_scheme"
                         else:
                             print "check_point202, did not end with'/', so here is AFM and dir is q_****"
