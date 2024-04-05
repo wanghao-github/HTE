@@ -1281,7 +1281,7 @@ class HTE(object):
                             print "check_point204, mcif_path: ", mcif_path
                             file_base = unique_key.rsplit('/', 1)[-1]
                             file_tmp = os.path.join(mcif_path, file_base + '.mcif')
-                            # file_tmp_init = os.path.join(mcif_path, unique_key + 'initial.mcif')
+                            file_tmp_init = os.path.join(mcif_path, file_base + 'initial.mcif')
 
                                 # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
                                 # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
