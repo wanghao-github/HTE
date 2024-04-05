@@ -1116,7 +1116,12 @@ class HTE(object):
                     print "check_point200, 'pd_second_layer' is",pd_second_layer
                     scratch_folder = os.getcwd()
                     print "check_point197,current dir is", scratch_folder
-                    if 'magnetic_moments' in pd:
+                    for key in pd.keys():
+                        if key.endwiths('/'):
+                            print "check_point201, end with'/', so here is FM and dir is under calc_scheme"
+                        else:
+                            print "check_point202, did not end with'/', so here is AFM and dir is q_****"
+                    if 'magnetic_moments' in pd_second_layer:
                         print "check_point196, 'magnetic_moments' in pd, here is FM"
                         line=line+pd['magnetic_moments']+' '
                     # elif subdir!={} and pd['']:
