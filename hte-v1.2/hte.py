@@ -1127,10 +1127,9 @@ class HTE(object):
                     #     print "check_point196, 'magnetic_moments' in pd, here is FM"
                         
                     # elif subdir!={} and pd['']:
-                        
                     # elif subdir != {} and pd['updating'] != True:
                     # elif subdir != {} and 'updating' not in pd:
-                        if subdir != {} and ('updating' not in pd_second_layer):
+                        # if subdir != {} and ('updating' not in pd_second_layer):
                             unique_key = next(iter(pd))
                             nested_pd = pd[unique_key] 
                             print "check_point162, subdir!={}! and is", subdir
