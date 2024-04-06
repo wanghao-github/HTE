@@ -334,17 +334,20 @@ class MSG(object):
             raise ValueError("Required CIF fields for magnetic centering operations not found.")
 
         # # Process the data using the determined field names
+        # for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
+        #     symb = i + " " + g
+        #     if not symb in msg.symbols:
+        #         msg.symbols.append(symb)
+        #         msg.elements.append(self.symbol2matrix(symb))
+        # # Uncomment the following line to see logs of added symbols
+        #         print "check_point189, symb added:", symb
         for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
             symb = i + " " + g
-            if not symb in msg.symbols:
-                msg.symbols.append(symb)
-                msg.elements.append(self.symbol2matrix(symb))
-        # Uncomment the following line to see logs of added symbols
-                print "check_point189, symb added:", symb
-
+            
+            print "check_point205, symb"    ,symb
         # After processing, check if the group is complete
         # complete_group, = msg.is_group(complete=True)
-        print "is group:", msg.is_group()
+        # print "is group:", msg.is_group()
         
         pd['chemical_symbols']=[]
         pd['scaled_positions']=[]
