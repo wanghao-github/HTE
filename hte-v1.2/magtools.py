@@ -297,6 +297,7 @@ class MSG(object):
         print "check_point185, pd['cell'] is: ", pd['cell']
         msg=MSG()
         print "check_point186, msg=MSG() is: ", msg
+        
         # Assuming `ciftags` is a dictionary containing the CIF data
         if '_space_group_symop_magn_operation.id' in ciftags and '_space_group_symop_magn_operation.xyz' in ciftags:
             id_field = '_space_group_symop_magn_operation.id'
@@ -307,14 +308,16 @@ class MSG(object):
         else:
             raise ValueError("Required CIF fields for magnetic symmetry operations not found.")
 
+        
+        init_op = []
         # Now use the determined field names in your loop
         for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
-            symb = i + " " + g
-            
-            
+            symb = i + " " + g        
             print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
+            init_op.append(self.symbol2matrix(symb))
             msg.symbols.append(symb)
             msg.elements.append(self.symbol2matrix(symb))
+        print "check_point206 init_op is ", init_op
 
         # for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
         #     symb=i+" "+g
