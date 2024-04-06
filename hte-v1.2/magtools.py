@@ -63,15 +63,11 @@ class MSG(object):
         return self.multiplication_table
     
     
-    # def fraction_to_decimal(fraction):
-    #     sign = -1 if fraction.startswith('-') else 1
-    #     numerator, denominator = map(int, fraction.lstrip('+-').split('/'))
-    #     return sign * numerator / denominator
+    def fraction_to_decimal(fraction):
+        sign = -1 if fraction.startswith('-') else 1
+        numerator, denominator = map(int, fraction.lstrip('+-').split('/'))
+        return sign * numerator / denominator
     
-    def extract_fractions_and_convert(fraction_string):
-        fractions = re.findall(r'([+-]?\d+/\d+)', fraction_string)
-        decimals = [eval(frac) for frac in fractions]
-        return decimals
     
     def symbol2matrix(self,symb):
         #syntax from Bilbao: '1 x,y,z,+1 mx,my,mz'
@@ -314,14 +310,27 @@ class MSG(object):
         # Now use the determined field names in your loop
         for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
             symb = i + " " + g
-            initial_op = symbol2matrix(symb)
-            # msg.symbols.append(symb)
-            # msg.elements.append(self.symbol2matrix(symb))
+            msg.symbols.append(symb)
+            msg.elements.append(self.symbol2matrix(symb))
+
+        # for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
+        #     symb=i+" "+g
+        #     msg.symbols.append(symb)
+        #     msg.elements.append(self.symbol2matrix(symb))
+            
+        print "check_point187, msg.symbols. is: ", msg.symbols
+        print "check_point188, msg.elements is: ", msg.elements
         
-        print "check_point205 ,initial_op is ",initial_op
-        # print "check_point187, msg.symbols. is: ", msg.symbols
-        # print "check_point188, msg.elements is: ", msg.elements
-        
+        # if '_space_group_symop_magn_centering.xyz' in ciftags:
+        #     for i,g in  zip(ciftags['_space_group_symop_magn_centering.id'],ciftags['_space_group_symop_magn_centering.xyz']):
+        #         symb=i+" "+g
+        #         if (not (symb in msg.symbols)):
+        #             msg.symbols.append(symb)
+        #             msg.elements.append(self.symbol2matrix(symb))
+        #             #print "added _space_group_symop_magn_centering.xyz:",symb
+        # msg.is_group(complete=True)
+        # print "is group:",msg.is_group()
+
         if '_space_group_symop_magn_centering.xyz' in ciftags and '_space_group_symop_magn_centering.id' in ciftags:
             id_center_field = '_space_group_symop_magn_centering.id'
             xyz_center_field = '_space_group_symop_magn_centering.xyz'
@@ -334,9 +343,16 @@ class MSG(object):
         # # Process the data using the determined field names
         for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
             symb = i + " " + g
-            print "check_point206, g is",g
-                
-                
+            if not symb in msg.symbols:
+                msg.symbols.append(symb)
+                msg.elements.append(self.symbol2matrix(symb))
+        # # Uncomment the following line to see logs of added symbols
+        #         print "check_point189, symb added:", symb
+
+        # After processing, check if the group is complete
+        # complete_group, = msg.is_group(complete=True)
+        # print "is group:", msg.is_group()
+        
         pd['chemical_symbols']=[]
         pd['scaled_positions']=[]
         pd['initial_magnetic_moments']=[]
@@ -354,13 +370,15 @@ class MSG(object):
     
             if lab in ciftags[label_field]:
                 label_index = ciftags[label_field].index(lab)
+                # mom[0] = float(ciftags[x_field][label_index])
+                # mom[1] = float(ciftags[y_field][label_index])
+                # mom[2] = float(ciftags[z_field][label_index])
                 print "ciftags[x_field][label_index] is ",ciftags[x_field][label_index] 
                 mom[0] = float(re.sub(r'\(.*?\)', '', ciftags[x_field][label_index]))
                 mom[1] = float(re.sub(r'\(.*?\)', '', ciftags[y_field][label_index]))
                 mom[2] = float(re.sub(r'\(.*?\)', '', ciftags[z_field][label_index]))
                 print "mom is: ", mom
             for g in msg.get_elements():
-                
                 print "g is, ", g
                 print "pos is, ", pos
                                
