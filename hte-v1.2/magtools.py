@@ -310,6 +310,9 @@ class MSG(object):
         # Now use the determined field names in your loop
         for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
             symb = i + " " + g
+            
+            
+            print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
             msg.symbols.append(symb)
             msg.elements.append(self.symbol2matrix(symb))
 
@@ -343,6 +346,7 @@ class MSG(object):
         # # Process the data using the determined field names
         for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
             symb = i + " " + g
+            print "check_point205, g is" , g
             if not symb in msg.symbols:
                 msg.symbols.append(symb)
                 msg.elements.append(self.symbol2matrix(symb))
