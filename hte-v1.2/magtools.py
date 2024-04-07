@@ -346,6 +346,8 @@ class MSG(object):
         else:
             raise ValueError("Required CIF fields for magnetic centering operations not found.")
 
+        
+        print "check_point212, ciftags[id_center_field] is", ciftags[id_center_field]
         # # Process the data using the determined field names
         for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
             symb = i + " " + g
