@@ -355,8 +355,17 @@ class MSG(object):
                 msg.elements.append(self.symbol2matrix(symb))
             for j in range(len(init_op)):
                 init_trans = init_op[j][1]
-                lat_rot, lat_trans, *timeinv = self.symbol2matrix(symb)
-                print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
+                print "check_point208, init_trans is: ",init_trans
+                if len(self.symbol2matrix(symb)) == 2:
+                    
+                    lat_rot, lat_trans = self.symbol2matrix(symb)
+                    print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
+                    
+                elif len(self.symbol2matrix(symb)) == 3:          
+                    lat_rot, lat_trans, timeinv = self.symbol2matrix(symb)
+                    print "check_point207, lat_rot, lat_trans and time inv is, ", lat_rot,lat_trans,timeinv
+                    
+                    
         # # Uncomment the following line to see logs of added symbols
         #         print "check_point189, symb added:", symb
 
