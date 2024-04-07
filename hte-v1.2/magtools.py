@@ -369,7 +369,7 @@ class MSG(object):
                 
             else:
                 print "check_point213, stoped here "
-            print "Before copying:", init_op
+            print "Before copying:", type(init_op)
             new_ops = init_op.copy()
             print "After copying, new_ops:", new_ops
             # new_ops = init_op.copy()
