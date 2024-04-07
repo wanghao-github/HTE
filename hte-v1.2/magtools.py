@@ -350,21 +350,33 @@ class MSG(object):
         for i, g in zip(ciftags[id_center_field], ciftags[xyz_center_field]):
             symb = i + " " + g
             print "check_point205, g is" , g
-            if not symb in msg.symbols:
-                msg.symbols.append(symb)
-                msg.elements.append(self.symbol2matrix(symb))
-            for j in range(len(init_op)):
-                init_trans = init_op[j][1]
-                print "check_point208, init_trans is: ",init_trans
-                if len(self.symbol2matrix(symb)) == 2:
+            # if not symb in msg.symbols:
+            #     msg.symbols.append(symb)
+            #     msg.elements.append(self.symbol2matrix(symb))
+            # for j in range(len(init_op)):
+            #     init_trans = init_op[j][1]
+            #     print "check_point208, init_trans is: ",init_trans
+            if len(self.symbol2matrix(symb)) == 2:
                     
-                    lat_rot, lat_trans = self.symbol2matrix(symb)
-                    print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
+                lat_rot, lat_trans = self.symbol2matrix(symb)
+                print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
                     
-                elif len(self.symbol2matrix(symb)) == 3:          
-                    lat_rot, lat_trans, timeinv = self.symbol2matrix(symb)
-                    print "check_point207, lat_rot, lat_trans and time inv is, ", lat_rot,lat_trans,timeinv
-                    
+            elif len(self.symbol2matrix(symb)) == 3:          
+                lat_rot, lat_trans, timeinv = self.symbol2matrix(symb)
+                print "check_point207, lat_rot, lat_trans and time inv is, ", lat_rot,lat_trans,timeinv
+            
+            new_ops = init_op.copy()
+            if len(ciftags[id_center_field]) >=2:
+                for rotation, translation, timeinv in init_op:
+                    new_trans = translation + lat_trans
+                    new_ops.append((rotation, new_trans, timeinv))
+            print "check_point209, new_ops"
+            # for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
+            #     symb = i + " " + g        
+            #     print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
+            #     init_op.append(self.symbol2matrix(symb))
+            
+                      
                     
         # # Uncomment the following line to see logs of added symbols
         #         print "check_point189, symb added:", symb
