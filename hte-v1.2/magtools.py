@@ -366,6 +366,9 @@ class MSG(object):
             elif len(self.symbol2matrix(symb)) == 3:          
                 lat_rot, lat_trans, timeinv = self.symbol2matrix(symb)
                 print "check_point207, lat_rot, lat_trans and time inv is, ", lat_rot,lat_trans,timeinv
+                
+            else:
+                print "check_point213, stoped here "
             
             new_ops = init_op.copy()
             
