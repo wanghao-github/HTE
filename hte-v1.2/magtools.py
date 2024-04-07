@@ -315,8 +315,8 @@ class MSG(object):
             symb = i + " " + g        
             print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
             init_op.append(self.symbol2matrix(symb))
-            msg.symbols.append(symb)
-            msg.elements.append(self.symbol2matrix(symb))
+            # msg.symbols.append(symb)
+            # msg.elements.append(self.symbol2matrix(symb))
         print "check_point206 init_op is ", init_op
 
         # for i,g in zip(ciftags['_space_group_symop_magn_operation.id'],ciftags['_space_group_symop_magn_operation.xyz']):
@@ -353,6 +353,10 @@ class MSG(object):
             if not symb in msg.symbols:
                 msg.symbols.append(symb)
                 msg.elements.append(self.symbol2matrix(symb))
+            for j in range(len(init_op)):
+                init_trans = init_op[j][1]
+                lat_rot, lat_trans, *timeinv = self.symbol2matrix(symb)
+                print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
         # # Uncomment the following line to see logs of added symbols
         #         print "check_point189, symb added:", symb
 
