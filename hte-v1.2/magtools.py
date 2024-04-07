@@ -375,7 +375,8 @@ class MSG(object):
             #     symb = i + " " + g        
             #     print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
             #     init_op.append(self.symbol2matrix(symb))
-            
+            # msg.symbols.append(symb)
+            msg.elements = new_ops
                       
                     
         # # Uncomment the following line to see logs of added symbols
