@@ -366,10 +366,12 @@ class MSG(object):
                 print "check_point207, lat_rot, lat_trans and time inv is, ", lat_rot,lat_trans,timeinv
             
             new_ops = init_op.copy()
+            print "check_point210, ciftags[id_center_field] is ",ciftags[id_center_field]
             if len(ciftags[id_center_field]) >=2:
                 for rotation, translation, timeinv in init_op:
                     new_trans = translation + lat_trans
                     new_ops.append((rotation, new_trans, timeinv))
+                    
             print "check_point209, new_ops"
             # for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
             #     symb = i + " " + g        
