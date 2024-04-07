@@ -369,11 +369,11 @@ class MSG(object):
                 
             else:
                 print "check_point213, stoped here "
-            print "Before copying:", type(init_op)
-            new_ops = init_op.copy()
-            print "After copying, new_ops:", new_ops
+            # print "Before copying:", type(init_op)
             # new_ops = init_op.copy()
-            
+            # print "After copying, new_ops:", new_ops
+            # new_ops = init_op.copy()
+            new_ops = copy.deepcopy(init_op)
             print "check_point211, new_ops is ", new_ops
             print "check_point210, ciftags[id_center_field] is ",ciftags[id_center_field]
             if len(ciftags[id_center_field]) >=2:
