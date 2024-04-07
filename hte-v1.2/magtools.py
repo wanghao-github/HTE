@@ -381,13 +381,13 @@ class MSG(object):
                     new_trans = translation + lat_trans
                     new_ops.append((rotation, new_trans, timeinv))
                     
-            print "check_point209, new_ops"
+            print "check_point209, new_ops is ", new_ops
             # for i, g in zip(ciftags[id_field], ciftags[xyz_field]):
             #     symb = i + " " + g        
             #     print "check_point204, self.symbol2matrix(symb) is ", self.symbol2matrix(symb)
             #     init_op.append(self.symbol2matrix(symb))
             # msg.symbols.append(symb)
-            msg.elements = new_ops
+        msg.elements = new_ops
                       
                     
         # # Uncomment the following line to see logs of added symbols
