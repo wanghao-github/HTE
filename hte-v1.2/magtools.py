@@ -500,7 +500,7 @@ class MSG(object):
                     
                     
     
-        print "check_point219 ,initial_pos is ",initial_pos        
+        # print "check_point219 ,initial_pos is ",initial_pos        
         print "uid,pd,ciftags are", uid,pd,ciftags
         
         return uid,pd,ciftags
