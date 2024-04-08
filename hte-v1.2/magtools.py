@@ -474,7 +474,7 @@ class MSG(object):
                     pd_temp_no_center['scaled_positions'].append(npos)
                     pd_temp_no_center['initial_magnetic_moments'].append(nmom)
             
-        pd = pd_temp_no_center
+        # pd = pd_temp_no_center
             
             
         for j in range(pd_temp_no_center['scaled_positions']):
