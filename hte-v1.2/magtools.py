@@ -414,6 +414,8 @@ class MSG(object):
         pd['scaled_positions']=[]
         pd['initial_magnetic_moments']=[]
         
+        
+        initial_pos = []
         for (el, pos, lab) in zip(ciftags['_atom_site_type_symbol'],
                           zip(ciftags['_atom_site_fract_x'], ciftags['_atom_site_fract_y'], ciftags['_atom_site_fract_z']),
                           ciftags['_atom_site_label']):
@@ -437,8 +439,8 @@ class MSG(object):
                 print "mom is: ", mom
                 
             for g in msg.get_elements():
-                print "g is, ", g
-                print "pos is, ", pos
+                # print "g is, ", g
+                # print "pos is, ", pos
                                
                 clear_pos = [
                 re.sub(r'\(.*?\)', '', pos[0]),
@@ -453,19 +455,21 @@ class MSG(object):
                 nmom = msg.symop_mag(g, mom)
                 print "mom is ",mom
                 is_new = True
+                
+                initial_pos.append(npos)
                 for px in pd['scaled_positions']:
                     if msg.is_equal_site(npos, px):
                         print "msg.is_equal_site "
                         is_new = False
                         break
-
+                
                 if is_new:
                     print "check_point217 ,chemical_symbols is ",el
                     print "check_point218 , scaled_positions is ",npos 
                     pd['chemical_symbols'].append(el)
                     pd['scaled_positions'].append(npos)
                     pd['initial_magnetic_moments'].append(nmom)
-                    
+        print "check_point219 ,initial_pos is ",initial_pos        
         print "uid,pd,ciftags are", uid,pd,ciftags
         
         return uid,pd,ciftags
