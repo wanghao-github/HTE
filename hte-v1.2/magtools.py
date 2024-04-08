@@ -329,8 +329,8 @@ class MSG(object):
         #     msg.symbols.append(symb)
         #     msg.elements.append(self.symbol2matrix(symb))
             
-        print "check_point187, msg.symbols. is: ", msg.symbols
-        print "check_point188, msg.elements is: ", msg.elements
+        # print "check_point187, msg.symbols. is: ", msg.symbols
+        # print "check_point188, msg.elements is: ", msg.elements
         
         # if '_space_group_symop_magn_centering.xyz' in ciftags:
         #     for i,g in  zip(ciftags['_space_group_symop_magn_centering.id'],ciftags['_space_group_symop_magn_centering.xyz']):
