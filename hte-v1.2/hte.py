@@ -1531,6 +1531,7 @@ class HTE(object):
             try:
                 print "check_point109, entering read_mcif"
                 uid,pd,ciftags=MSG().read_full_mcif(ciffile)
+                print "check_point216, after read_full_mcif pd is", pd
                 mcif_short=ciffile.split('/')[-1].split('.mcif')[0]
                 print "check_point108, read_mcif", mcif_short
                 if (filename_as_uid==True):
