@@ -368,7 +368,7 @@ class MSG(object):
         #     #     init_trans = init_op[j][1]
         #     #     print "check_point208, init_trans is: ",init_trans
         #     if len(self.symbol2matrix(symb)) == 2:
-                    
+
         #         lat_rot, lat_trans = self.symbol2matrix(symb)
         #         print "check_point206, lat_rot and lat_trans is, ", lat_rot,lat_trans
                     

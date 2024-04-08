@@ -3544,7 +3544,10 @@ class HTE(object):
             report_magnetic_structures=False
         elif ('report_magnetic_structures' in settings) and (settings['report_magnetic_structures']==True):
             report_magnetic_structures=True
+            
+        print "check_point215, ao is ", self.get_atoms_object(uid)
         comp_r=self.structureDB[uid].get_composition(reduce=True)
+
         print "check_point12, comp_r is ", comp_r
         symdirhte=os.path.join(self.dir_of_hte,'verified-msg/')
         print "check_point13, symdirhte is :",symdirhte
