@@ -473,7 +473,9 @@ class MSG(object):
                     pd_temp_no_center['chemical_symbols'].append(el)
                     pd_temp_no_center['scaled_positions'].append(npos)
                     pd_temp_no_center['initial_magnetic_moments'].append(nmom)
-            
+        
+        
+        print "check_point221, no problem here pdpd_temp_no_center is ",pd_temp_no_center    
         # pd = pd_temp_no_center
             
             
