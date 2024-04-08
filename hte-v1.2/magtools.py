@@ -479,22 +479,25 @@ class MSG(object):
             
         for j in range(pd_temp_no_center['scaled_positions']):
             for g in msg.get_elements()[-(len(msg.get_elements()) - len(ciftags[id_field])):]:
-
+                print "check_point220 ,-(len(msg.get_elements()) - len(ciftags[id_field])): is ",g
                 npos2 = msg.symop_pos(g, (float(pd_temp_no_center['scaled_positions'][j][0]), float(pd_temp_no_center['scaled_positions'][j][1]), 
                                           float(pd_temp_no_center['scaled_positions'][j][2])))
                 nmom2 = msg.symop_mag(g, pd_temp_no_center['initial_magnetic_moments'][j])
-        #     print "mom2 is ",mom2
-            is_new = True
                 
-            for px in pd['scaled_positions']:
-                if msg.is_equal_site(npos2, px):
-                    print "msg.is_equal_site "
-                    is_new = False
-                    break            
-            if is_new:
-                pd['chemical_symbols'].append(pd_temp_no_center['chemical_symbols'][j])
-                pd['scaled_positions'].append(npos2)
-                pd['initial_magnetic_moments'].append(nmom2)
+                print "npos2 is ",npos2
+                print "nmom2 is ",mom2
+                
+                is_new = True
+                
+                for px in pd['scaled_positions']:
+                    if msg.is_equal_site(npos2, px):
+                        print "msg.is_equal_site "
+                        is_new = False
+                        break            
+                if is_new:
+                    pd['chemical_symbols'].append(pd_temp_no_center['chemical_symbols'][j])
+                    pd['scaled_positions'].append(npos2)
+                    pd['initial_magnetic_moments'].append(nmom2)
 
         #             pd_temp_no_center['chemical_symbols'].append(el)
         #             pd_temp_no_center['scaled_positions'].append(npos)
