@@ -460,6 +460,8 @@ class MSG(object):
                         break
 
                 if is_new:
+                    print "check_point217 ,chemical_symbols is ",el
+                    print "check_point218 , scaled_positions is ",npos 
                     pd['chemical_symbols'].append(el)
                     pd['scaled_positions'].append(npos)
                     pd['initial_magnetic_moments'].append(nmom)
