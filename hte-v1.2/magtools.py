@@ -584,7 +584,7 @@ class MSG(object):
             G.append(M[i])
         return np.array(G)
     
-    def get_magnetic_configurations(self,ao_in,name='xx',reduce_collinear=True,exclude_ferromagnetic=True, max_configs=1000000, silent=False, AFatoms=['Mn'], forceMAG=[], return_status=False):
+    def get_magnetic_configurations(self,ao_in,name='xx',reduce_collinear=True,exclude_ferromagnetic=True, max_configs=10000, silent=False, AFatoms=['Mn'], forceMAG=[], return_status=False):
         """get magnetic configurations for atoms object ao which are allowed by the symmetry of the present magnetic subgroup
         AFatoms: list of chemical elements which are expected to couple AF; alternatively ['Mn_0','Mn_2'] can be used to
                  couple atoms on selected sites
@@ -671,7 +671,7 @@ class MSG(object):
             #    print "added:",ini_mag
             #else:
             #    print "not added:",ini_mag
-            max_configs=10000000
+            max_configs=10000
             if len(ini_mags)>=max_configs:
                 print "*** More configs possible, stopping here..."
                 break 
