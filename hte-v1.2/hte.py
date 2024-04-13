@@ -1246,93 +1246,82 @@ class HTE(object):
                         # line=line+pd['data_path']+' '
                         print "here is FM"
                     elif subdir!={}:
-                        if pd != {}:
-                            unique_key = next(iter(pd))
-                            nested_pd = pd[unique_key] 
-                            if 'atoms_object' in subdir[unique_key]:
-                                print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
-                                position_tmp = subdir[unique_key]['atoms_object'].get_positions()
-                                position_matrix = np.array(position_tmp)
-                                cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
-                                cell_33_matrix = np.array(cell_tmp)
-                                print cell_33_matrix
-                                scaled_position_tmp = np.linalg.solve(cell_33_matrix.T, np.transpose(position_matrix)).T
-                                chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
-                                print "check_point182, print position:", position_tmp
-                                print "check_point183, print cell:", cell_tmp
-
-                                                            # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
-                                    # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
-                                if 'data_path' in nested_pd:
-                                    mcif_path = nested_pd['data_path']
-                                    print "check_point204, mcif_path: ", mcif_path
-                                    file_base = unique_key.rsplit('/', 1)[-1]
-                                    file_tmp = os.path.join(mcif_path, file_base + '.mcif')
-                                    file_tmp_init = os.path.join(mcif_path, file_base + 'initial.mcif')
-
-                                        # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
-                                        # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
-
-                                        # file_tmp = os.path.abspath(relative_path)
-                                        # file_tmp_init = os.path.abspath(relative_path_init)
-                                        # dir_path = os.path.dirname(file_tmp)
-
-                                        # if not os.path.exists(dir_path):
-                                        #     print "not exsited"
-                                        # else:
-                                        #     print "existed"
-
-                                        # print "dir_path = os.path.dirname(file_tmp) is", dir_path
-
-                                        # print "file_tmp is ",file_tmp
-                                        # print "file_tmp_init is ",file_tmp_init
-                                    # cell_tmp=nested_pd['cell']
-
-                                    a_tmp = norm(cell_tmp[0])
-                                    b_tmp = norm(cell_tmp[1])
-                                    c_tmp = norm(cell_tmp[2])
-                                    print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
-                                    alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
-                                    beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
-                                    gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
-
-                                    lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
-                                    lines_tmp_init=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
-
-                                    abc_tmp=['a','b','c']
-                                    for i in range(3):
-                                        lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
-                                        lines_tmp_init.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
-                                    lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
-                                    lines_tmp_init=lines_tmp_init+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
-                                    for i in range(len(chemical_symbols_tmp)):
-                                        lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
-                                        lines_tmp_init.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
-                                    lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-                                    lines_tmp_init=lines_tmp_init+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-
-                                    magnetic_moments_tmp=nested_pd['magnetic_moments']
-                                    magnetic_moments_tmp_init=nested_pd['initial_magnetic_moments']
-                                    qaxis=[0,0,1]
-                                    for i in range(len(chemical_symbols_tmp)):
-                                        if isinstance(magnetic_moments_tmp[i],float):
-                                            moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
-                                            moms_tmp_init=np.dot(magnetic_moments_tmp_init[i],qaxis/norm(qaxis))
-                                        else:
-                                            moms_tmp=magnetic_moments_tmp[i]
-                                            moms_tmp_init=magnetic_moments_tmp_init[i]
-                                        lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
-                                        lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
-                                    outfile_tmp=open(file_tmp,"w")
-                                    # outfile_tmp=open("test1","w")
-                                    for line_mcif1 in lines_tmp:
-                                        outfile_tmp.write("%s\n"%line_mcif1)
-                                    outfile_tmp.close()
-                                    outfile_tmp_init=open(file_tmp_init,"w")
-                                    # outfile_tmp_init=open("test2","w")
-                                    for line_mcif2 in lines_tmp_init:
-                                        outfile_tmp_init.write("%s\n"%line_mcif2)
-                                    outfile_tmp_init.close()
+                        unique_key = next(iter(pd))
+                        nested_pd = pd[unique_key] 
+                        if 'atoms_object' in subdir[unique_key]:
+                            print "check_point181, find atoms_object, it is: ",subdir[unique_key]['atoms_object']
+                            position_tmp = subdir[unique_key]['atoms_object'].get_positions()
+                            position_matrix = np.array(position_tmp)
+                            cell_tmp =  subdir[unique_key]['atoms_object'].get_cell()
+                            cell_33_matrix = np.array(cell_tmp)
+                            print cell_33_matrix
+                            scaled_position_tmp = np.linalg.solve(cell_33_matrix.T, np.transpose(position_matrix)).T
+                            chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
+                            print "check_point182, print position:", position_tmp
+                            print "check_point183, print cell:", cell_tmp
+                                                        # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
+                                # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
+                            if 'data_path' in nested_pd:
+                                mcif_path = nested_pd['data_path']
+                                print "check_point204, mcif_path: ", mcif_path
+                                file_base = unique_key.rsplit('/', 1)[-1]
+                                file_tmp = os.path.join(mcif_path, file_base + '.mcif')
+                                file_tmp_init = os.path.join(mcif_path, file_base + 'initial.mcif')
+                                    # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
+                                    # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
+                                    # file_tmp = os.path.abspath(relative_path)
+                                    # file_tmp_init = os.path.abspath(relative_path_init)
+                                    # dir_path = os.path.dirname(file_tmp)
+                                    # if not os.path.exists(dir_path):
+                                    #     print "not exsited"
+                                    # else:
+                                    #     print "existed"
+                                    # print "dir_path = os.path.dirname(file_tmp) is", dir_path
+                                    # print "file_tmp is ",file_tmp
+                                    # print "file_tmp_init is ",file_tmp_init
+                                # cell_tmp=nested_pd['cell']
+                                a_tmp = norm(cell_tmp[0])
+                                b_tmp = norm(cell_tmp[1])
+                                c_tmp = norm(cell_tmp[2])
+                                print "a_tmp, b_tmp, c_tmp is,", a_tmp,b_tmp,c_tmp
+                                alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
+                                beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
+                                gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
+                                lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+                                lines_tmp_init=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
+                                abc_tmp=['a','b','c']
+                                for i in range(3):
+                                    lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
+                                    lines_tmp_init.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
+                                lines_tmp=lines_tmp+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                                lines_tmp_init=lines_tmp_init+['loop_','_atom_site_label','_atom_site_type_symbol','_atom_site_fract_x','_atom_site_fract_y','_atom_site_fract_z']
+                                for i in range(len(chemical_symbols_tmp)):
+                                    lines_tmp.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
+                                    lines_tmp_init.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
+                                lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+                                lines_tmp_init=lines_tmp_init+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
+                                magnetic_moments_tmp=nested_pd['magnetic_moments']
+                                magnetic_moments_tmp_init=nested_pd['initial_magnetic_moments']
+                                qaxis=[0,0,1]
+                                for i in range(len(chemical_symbols_tmp)):
+                                    if isinstance(magnetic_moments_tmp[i],float):
+                                        moms_tmp=np.dot(magnetic_moments_tmp[i],qaxis/norm(qaxis))
+                                        moms_tmp_init=np.dot(magnetic_moments_tmp_init[i],qaxis/norm(qaxis))
+                                    else:
+                                        moms_tmp=magnetic_moments_tmp[i]
+                                        moms_tmp_init=magnetic_moments_tmp_init[i]
+                                    lines_tmp.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp[0],moms_tmp[1],moms_tmp[2]))
+                                    lines_tmp_init.append("%s%d %.4f %.4f %.4f"%(chemical_symbols_tmp[i],i+1,moms_tmp_init[0],moms_tmp_init[1],moms_tmp_init[2]))
+                                outfile_tmp=open(file_tmp,"w")
+                                # outfile_tmp=open("test1","w")
+                                for line_mcif1 in lines_tmp:
+                                    outfile_tmp.write("%s\n"%line_mcif1)
+                                outfile_tmp.close()
+                                outfile_tmp_init=open(file_tmp_init,"w")
+                                # outfile_tmp_init=open("test2","w")
+                                for line_mcif2 in lines_tmp_init:
+                                    outfile_tmp_init.write("%s\n"%line_mcif2)
+                                outfile_tmp_init.close()
                     else:
                         line=line+'None '       
                     
