@@ -1258,7 +1258,7 @@ class HTE(object):
                     
                 elif argument=='mcifs':
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
-                    print("check_point220, argument=='mcifs' pd is: "),pd
+                    print("check_point222, argument=='mcifs' pd is: "),pd
                     if pd != {}:
                         if 'data_path' in pd:
                             # line=line+pd['data_path']+' '
