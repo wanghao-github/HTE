@@ -135,6 +135,7 @@ def string2prop_dict(line, float_props=['magnetic_moments','magnetic_moment','en
             if ';' in val2[i]:
                 val3=val2[i].split(';')
                 valx=[]
+                print"check_point225 ,val3",val3
                 for j in range(len(val3)):
                     if prop in float_props:
                         valx.append(float(val3[j]))
