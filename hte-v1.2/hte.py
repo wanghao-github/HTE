@@ -1258,6 +1258,7 @@ class HTE(object):
                     
                 elif argument=='mcifs':
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
+                    print("check_point220, argument=='mcifs' pd is: "),pd
                     if pd != {}:
                         if 'data_path' in pd:
                             # line=line+pd['data_path']+' '
@@ -1276,7 +1277,7 @@ class HTE(object):
                                 chemical_symbols_tmp = subdir[unique_key]['atoms_object'].get_chemical_symbols()
                                 print "check_point182, print position:", position_tmp
                                 print "check_point183, print cell:", cell_tmp
-                            
+
                                                             # file_tmp = str('scratch'+'/'+uid+'/'+unique_key+'.mcif')
                                     # file_tmp_init = str('scratch'+'/'+uid+'/'+unique_key+'initial.mcif')
                                 if 'data_path' in nested_pd:
@@ -1285,25 +1286,25 @@ class HTE(object):
                                     file_base = unique_key.rsplit('/', 1)[-1]
                                     file_tmp = os.path.join(mcif_path, file_base + '.mcif')
                                     file_tmp_init = os.path.join(mcif_path, file_base + 'initial.mcif')
-        
+
                                         # relative_path = os.path.join('scratch', uid, unique_key + '.mcif')
                                         # relative_path_init = os.path.join('scratch', uid, unique_key + 'initial.mcif')
-        
+
                                         # file_tmp = os.path.abspath(relative_path)
                                         # file_tmp_init = os.path.abspath(relative_path_init)
                                         # dir_path = os.path.dirname(file_tmp)
-        
+
                                         # if not os.path.exists(dir_path):
                                         #     print "not exsited"
                                         # else:
                                         #     print "existed"
-        
+
                                         # print "dir_path = os.path.dirname(file_tmp) is", dir_path
-        
+
                                         # print "file_tmp is ",file_tmp
                                         # print "file_tmp_init is ",file_tmp_init
                                     # cell_tmp=nested_pd['cell']
-        
+
                                     a_tmp = norm(cell_tmp[0])
                                     b_tmp = norm(cell_tmp[1])
                                     c_tmp = norm(cell_tmp[2])
@@ -1311,10 +1312,10 @@ class HTE(object):
                                     alpha_tmp = arccos(dot(cell_tmp[1], cell_tmp[2])/(b_tmp*c_tmp))*180./pi
                                     beta_tmp  = arccos(dot(cell_tmp[0], cell_tmp[2])/(a_tmp*c_tmp))*180./pi
                                     gamma_tmp = arccos(dot(cell_tmp[0], cell_tmp[1])/(a_tmp*b_tmp))*180./pi
-        
+
                                     lines_tmp=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
                                     lines_tmp_init=['data_%s'%uid,'_cell_angle_alpha              %5.2f'%alpha_tmp,'_cell_angle_beta               %5.2f'%beta_tmp,'_cell_angle_gamma              %5.2f'%gamma_tmp,'loop_','_space_group_symop_magn_operation.id','_space_group_symop_magn_operation.xyz','1 x,y,z,+1','']
-        
+
                                     abc_tmp=['a','b','c']
                                     for i in range(3):
                                         lines_tmp.append("_cell_length_%s\t %.3f"%(abc_tmp[i],norm(cell_tmp[i])))
@@ -1326,7 +1327,7 @@ class HTE(object):
                                         lines_tmp_init.append("%s%d %s %.8f %.8f %.8f"%(chemical_symbols_tmp[i],i+1,chemical_symbols_tmp[i],scaled_position_tmp[i][0],scaled_position_tmp[i][1],scaled_position_tmp[i][2]))
                                     lines_tmp=lines_tmp+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
                                     lines_tmp_init=lines_tmp_init+['','loop_','_atom_site_moment.label','_atom_site_moment.crystalaxis_x','_atom_site_moment.crystalaxis_y','_atom_site_moment.crystalaxis_z']
-        
+
                                     magnetic_moments_tmp=nested_pd['magnetic_moments']
                                     magnetic_moments_tmp_init=nested_pd['initial_magnetic_moments']
                                     qaxis=[0,0,1]
