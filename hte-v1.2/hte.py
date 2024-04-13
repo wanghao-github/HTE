@@ -3624,6 +3624,7 @@ class HTE(object):
                     magconfigs[jobdir.split('/')[2]]=self.structureDB[uid].submitted_jobs[jobdir]['settings']
         if ('mcif_structure' in settings) and (settings['mcif_structure']==True) and ('mcif_structure' in self.structureDB[uid].cif_info):
             for mcifname in self.structureDB[uid].cif_info['mcif_structure']:
+                print"check_point224, mcifname", self.structureDB[uid].cif_info['mcif_structure'][mcifname]
                 magconfigs[mcifname]=self.structureDB[uid].cif_info['mcif_structure'][mcifname]
         if ('submitted' in settings) and (settings['submitted']==True):
             print "submitted jobs: ",self.structureDB[uid].submitted_jobs
