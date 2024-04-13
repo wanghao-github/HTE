@@ -1111,7 +1111,8 @@ class HTE(object):
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
                     print "check_point163, pd is", pd
                     moms = []
-                    
+                    if pd == {}:
+                        break
                     pd_second_layer = next(iter(pd.values()))
                     print "check_point200, 'pd_second_layer' is",pd_second_layer
                     scratch_folder = os.getcwd()
