@@ -1259,11 +1259,12 @@ class HTE(object):
                 elif argument=='mcifs':
                     pd=self.get_properties(uid,kwargs['calc_scheme'], magsettings=magsettings, sub_directories=subdir)
                     print("check_point222, argument=='mcifs' pd is: "),pd
-                    if pd != {}:
-                        if 'data_path' in pd:
-                            # line=line+pd['data_path']+' '
-                            print "here is FM"
-                        elif subdir!={}:
+                    
+                    if 'data_path' in pd:
+                        # line=line+pd['data_path']+' '
+                        print "here is FM"
+                    elif subdir!={}:
+                        if pd != {}:
                             unique_key = next(iter(pd))
                             nested_pd = pd[unique_key] 
                             if 'atoms_object' in subdir[unique_key]:
