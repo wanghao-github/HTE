@@ -3264,6 +3264,7 @@ class HTE(object):
                                 line=line+"%s"%pdict[prop]
                             lines.append(line)
                         for line in lines:
+                            print"check_point223 line is",line
                             prop,val=string2prop_dict(line)
                             prop_dict[subdir][prop]=val
                         #store in self.storage_directories?
