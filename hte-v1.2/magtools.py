@@ -506,7 +506,7 @@ class MSG(object):
         #             pd_temp_no_center['initial_magnetic_moments'].append(nmom)
                     
                     
-    
+        pd['initial_magnetic_moments'] = np.array(pd['initial_magnetic_moments'])
         # print "check_point219 ,initial_pos is ",initial_pos        
         print "uid,pd,ciftags are", uid,pd,ciftags
         
