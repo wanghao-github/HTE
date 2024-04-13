@@ -1351,8 +1351,8 @@ class HTE(object):
                                     for line_mcif2 in lines_tmp_init:
                                         outfile_tmp_init.write("%s\n"%line_mcif2)
                                     outfile_tmp_init.close()
-                        else:
-                            line=line+'None '       
+                    else:
+                        line=line+'None '       
                     
             
                 elif argument=='magnetic_type':
